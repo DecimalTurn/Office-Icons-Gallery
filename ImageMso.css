@@ -8,6 +8,9 @@
   --muted-foreground: #5a625d;
   --accent-color: #245b57;
   --danger-color: #a12622;
+  --placeholder-background: #fff3dc;
+  --placeholder-foreground: #654100;
+  --placeholder-border: #b57516;
 }
 
 :root[data-theme="dark"] {
@@ -20,6 +23,9 @@
   --muted-foreground: #bac2bc;
   --accent-color: #96cfc5;
   --danger-color: #ff9b91;
+  --placeholder-background: #3b2e17;
+  --placeholder-foreground: #ffe2a0;
+  --placeholder-border: #9b782e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,6 +39,9 @@
     --muted-foreground: #bac2bc;
     --accent-color: #96cfc5;
     --danger-color: #ff9b91;
+    --placeholder-background: #3b2e17;
+    --placeholder-foreground: #ffe2a0;
+    --placeholder-border: #9b782e;
   }
 }
 
@@ -132,6 +141,19 @@ body:not(.icon-detail-page) > h1 {
   align-items: center;
   gap: 12px;
   min-width: 0;
+}
+
+.icon-placeholder-badge {
+  flex: 0 0 auto;
+  padding: 2px 6px;
+  border: 1px solid var(--placeholder-border);
+  border-radius: 3px;
+  background: var(--placeholder-background);
+  color: var(--placeholder-foreground);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.3;
+  white-space: nowrap;
 }
 
 .icon-count {
@@ -352,6 +374,16 @@ li span {
   max-width: 100%;
   margin: 8px 0 0;
   overflow-wrap: anywhere;
+}
+
+.icon-image-status {
+  max-width: 100%;
+  margin: 0;
+  padding: 10px 14px;
+  border-left: 3px solid var(--placeholder-border);
+  background: var(--placeholder-background);
+  color: var(--placeholder-foreground);
+  text-align: left;
 }
 
 .icon-detail-image {

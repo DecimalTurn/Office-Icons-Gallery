@@ -19,6 +19,7 @@
         Back to gallery
       </a>
       <h1 id="icon-name">Office Icon Gallery</h1>
+      <p id="icon-image-status" class="icon-image-status" hidden></p>
       <div class="icon-detail-previews">
         <figure class="icon-detail-preview">
           <img id="icon-image" class="icon-detail-image" alt="" />
@@ -48,6 +49,7 @@
       const smallIconImage = document.getElementById("icon-image-small");
       const copyButton = document.getElementById("copy-name");
       const copyStatus = document.getElementById("copy-status");
+      const imageStatus = document.getElementById("icon-image-status");
       const errorMessage = document.getElementById("icon-error");
       const validIconName = iconName && /^[A-Za-z0-9_]+$/.test(iconName);
 
@@ -60,6 +62,21 @@
         iconImage.src = iconSource;
         smallIconImage.src = iconSource;
         copyButton.disabled = false;
+        fetch("./icon-metadata.json")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Could not load icon metadata");
+            }
+            return response.json();
+          })
+          .then((metadata) => {
+            const icon = metadata.find((entry) => entry.name === iconName);
+            if (icon?.imageStatus === "placeholder") {
+              imageStatus.textContent = `Placeholder image: ${icon.placeholderLabel}. This is a shared Office fallback, not a unique icon image.`;
+              imageStatus.hidden = false;
+            }
+          })
+          .catch((error) => console.error("Icon metadata could not be loaded", error));
         const handleIconError = () => {
           iconImage.hidden = true;
           smallIconImage.hidden = true;

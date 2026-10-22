@@ -1,8 +1,10 @@
 const fs = require("fs");
 const path = require("path");
+const crypto = require("crypto");
 
 const imagesPath = path.join(__dirname, "images");
 const outputPath = path.join(__dirname, "icon-metadata.json");
+const placeholderManifestPath = path.join(__dirname, "assets", "placeholders", "manifest.tsv");
 const imageFiles = fs.readdirSync(imagesPath, { withFileTypes: true })
   .filter((entry) => entry.isFile() && path.extname(entry.name).toLowerCase() === ".png");
 const iconNames = imageFiles.map((entry) => path.basename(entry.name, path.extname(entry.name)));
@@ -14,6 +16,30 @@ if (iconNames.length === 0 || new Set(normalizedIconNames).size !== iconNames.le
 
 if (iconNames.some((name) => !/^[A-Za-z0-9_]+$/.test(name))) {
   throw new Error("An image filename contains characters that are not valid in an icon ID");
+}
+
+function sha256File(filePath) {
+  return crypto.createHash("sha256").update(fs.readFileSync(filePath)).digest("hex").toUpperCase();
+}
+
+const placeholderByHash = new Map();
+const placeholderRows = fs.readFileSync(placeholderManifestPath, "utf8").split(/\r?\n/).filter(Boolean);
+for (const row of placeholderRows) {
+  const [sha256, imageStatus, label, asset] = row.split("\t");
+  const assetPath = path.resolve(__dirname, asset);
+  if (!/^[A-F0-9]{64}$/.test(sha256) || imageStatus !== "placeholder" || !label || !asset) {
+    throw new Error(`Invalid placeholder manifest row: ${row}`);
+  }
+  if (!assetPath.startsWith(`${path.resolve(__dirname, "assets", "placeholders")}${path.sep}`)) {
+    throw new Error(`Placeholder asset must be stored under assets/placeholders: ${asset}`);
+  }
+  if (!fs.existsSync(assetPath) || sha256File(assetPath) !== sha256) {
+    throw new Error(`Placeholder asset hash does not match manifest: ${asset}`);
+  }
+  if (placeholderByHash.has(sha256)) {
+    throw new Error(`Duplicate placeholder hash: ${sha256}`);
+  }
+  placeholderByHash.set(sha256, { imageStatus, label, asset });
 }
 
 iconNames.sort((left, right) =>
@@ -120,10 +146,13 @@ const metadata = iconNames.map((name) => {
   const words = splitIconName(name);
   const normalizedWords = words.map((word) => word.toLowerCase());
   const override = iconOverrides.get(name);
+  const imageHash = sha256File(path.join(imagesPath, `${name}.png`));
+  const placeholder = placeholderByHash.get(imageHash);
   const keywords = new Set([
     ...normalizedWords,
     normalizedWords.join(" "),
     ...normalizedWords.flatMap((word) => relatedKeywords.get(word) || []),
+    ...(placeholder ? ["placeholder", "office fallback"] : []),
     ...(override ? override.keywords : [])
   ]);
   const description = override
@@ -133,7 +162,13 @@ const metadata = iconNames.map((name) => {
   return {
     name,
     description,
-    keywords: [...keywords].filter(Boolean).sort()
+    keywords: [...keywords].filter(Boolean).sort(),
+    ...(placeholder ? {
+      imageStatus: placeholder.imageStatus,
+      placeholderLabel: placeholder.label,
+      placeholderAsset: placeholder.asset,
+      imageSha256: imageHash
+    } : {})
   };
 });
 

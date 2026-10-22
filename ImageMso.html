@@ -108,7 +108,8 @@
       function showPage() {
         const start = currentPage * pageSize;
         const end = Math.min(start + pageSize, icons.length);
-        const pageIcons = icons.slice(start, end).map(({ name }) => {
+        const pageIcons = icons.slice(start, end).map((icon) => {
+          const { name } = icon;
           const item = document.createElement("li");
           const image = document.createElement("img");
           const link = document.createElement("a");
@@ -123,6 +124,13 @@
           link.appendChild(image);
           label.textContent = name;
           item.append(link, label);
+          if (icon.imageStatus === "placeholder") {
+            const badge = document.createElement("span");
+            badge.className = "icon-placeholder-badge";
+            badge.textContent = "Placeholder";
+            badge.title = icon.placeholderLabel ? icon.placeholderLabel : "Shared Office fallback image";
+            item.appendChild(badge);
+          }
           return item;
         });
         iconList.replaceChildren(...pageIcons);
