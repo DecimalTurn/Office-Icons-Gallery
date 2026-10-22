@@ -143,19 +143,6 @@ body:not(.icon-detail-page) > h1 {
   min-width: 0;
 }
 
-.icon-placeholder-badge {
-  flex: 0 0 auto;
-  padding: 2px 6px;
-  border: 1px solid var(--placeholder-border);
-  border-radius: 3px;
-  background: var(--placeholder-background);
-  color: var(--placeholder-foreground);
-  font-size: 0.72rem;
-  font-weight: 600;
-  line-height: 1.3;
-  white-space: nowrap;
-}
-
 .icon-count {
   margin: 16px 0 0;
   color: var(--muted-foreground);

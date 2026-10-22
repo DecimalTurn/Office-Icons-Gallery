@@ -1,8 +1,8 @@
 const { test, expect } = require("@playwright/test");
 
-test("marks Office fallback images in search results and detail pages", async ({ page }) => {
+test("shows Office fallback status on detail pages, not in search results", async ({ page }) => {
   await page.goto("/ImageMso.html?SearchMso=AccountingFormatExcel");
-  await expect(page.locator(".icon-placeholder-badge").first()).toBeVisible();
+  await expect(page.locator(".icon-placeholder-badge")).toHaveCount(0);
 
   await page.goto("/Icon.html?name=AccountingFormatExcel");
   await expect(page.locator("#icon-image-status")).toHaveText(/shared Office fallback/);

@@ -124,13 +124,6 @@
           link.appendChild(image);
           label.textContent = name;
           item.append(link, label);
-          if (icon.imageStatus === "placeholder") {
-            const badge = document.createElement("span");
-            badge.className = "icon-placeholder-badge";
-            badge.textContent = "Placeholder";
-            badge.title = icon.placeholderLabel ? icon.placeholderLabel : "Shared Office fallback image";
-            item.appendChild(badge);
-          }
           return item;
         });
         iconList.replaceChildren(...pageIcons);
