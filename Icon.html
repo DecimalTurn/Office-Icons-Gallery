@@ -18,7 +18,12 @@
         <img src="./images/Undo.png" alt="" aria-hidden="true" />
         Back to gallery
       </a>
-      <h1 id="icon-name">Office Icon Gallery</h1>
+      <div class="icon-title-row">
+        <h1 id="icon-name">Office Icon Gallery</h1>
+        <button id="copy-icon-id" class="icon-copy-id" type="button" aria-label="Copy icon ID" title="Copy icon ID" disabled>
+          <img src="./images/Copy.png" alt="" aria-hidden="true" />
+        </button>
+      </div>
       <p id="icon-image-status" class="icon-image-status" hidden></p>
       <div class="icon-detail-previews">
         <figure class="icon-detail-preview">
@@ -48,6 +53,7 @@
       const iconImage = document.getElementById("icon-image");
       const smallIconImage = document.getElementById("icon-image-small");
       const copyButton = document.getElementById("copy-name");
+      const copyIdButton = document.getElementById("copy-icon-id");
       const copyStatus = document.getElementById("copy-status");
       const imageStatus = document.getElementById("icon-image-status");
       const errorMessage = document.getElementById("icon-error");
@@ -62,6 +68,7 @@
         iconImage.src = iconSource;
         smallIconImage.src = iconSource;
         copyButton.disabled = false;
+        copyIdButton.disabled = false;
         fetch("./icon-metadata.json")
           .then((response) => {
             if (!response.ok) {
@@ -81,6 +88,7 @@
           iconImage.hidden = true;
           smallIconImage.hidden = true;
           copyButton.disabled = true;
+          copyIdButton.disabled = true;
           errorMessage.textContent = "That icon could not be found.";
           errorMessage.hidden = false;
         };
@@ -103,12 +111,12 @@
         return copied;
       }
 
-      copyButton.addEventListener("click", async () => {
+      const copyIconId = async () => {
         if (!validIconName) {
           return;
         }
 
-        copyStatus.textContent = "Copying icon name...";
+        copyStatus.textContent = "Copying icon ID...";
         try {
           if (!copyUsingSelection()) {
             if (!navigator.clipboard || !navigator.clipboard.writeText) {
@@ -116,11 +124,14 @@
             }
             await navigator.clipboard.writeText(iconName);
           }
-          copyStatus.textContent = "Copied icon name";
+          copyStatus.textContent = "Copied icon ID";
         } catch {
-          copyStatus.textContent = "Could not copy the icon name";
+          copyStatus.textContent = "Could not copy the icon ID";
         }
-      });
+      };
+
+      copyButton.addEventListener("click", copyIconId);
+      copyIdButton.addEventListener("click", copyIconId);
     </script>
   </body>
 </html>

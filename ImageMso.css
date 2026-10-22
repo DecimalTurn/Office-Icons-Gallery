@@ -362,7 +362,16 @@ li span {
   float: none;
 }
 
+.icon-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  max-width: 100%;
+}
+
 .icon-detail h1 {
+  min-width: 0;
   max-width: 100%;
   margin: 8px 0 0;
   overflow-wrap: anywhere;
@@ -423,6 +432,15 @@ li span {
   width: 20px;
   height: 20px;
   float: none;
+}
+
+.icon-detail .icon-copy-id {
+  box-sizing: border-box;
+  flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  padding: 8px;
 }
 
 .icon-detail button:disabled {
