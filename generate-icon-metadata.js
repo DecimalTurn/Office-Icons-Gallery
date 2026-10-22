@@ -46,6 +46,16 @@ iconNames.sort((left, right) =>
   left.localeCompare(right, "en", { numeric: true, sensitivity: "base" }) || left.localeCompare(right)
 );
 
+const imageHashByName = new Map();
+const namesByImageHash = new Map();
+for (const name of iconNames) {
+  const imageHash = sha256File(path.join(imagesPath, `${name}.png`));
+  imageHashByName.set(name, imageHash);
+  const names = namesByImageHash.get(imageHash) || [];
+  names.push(name);
+  namesByImageHash.set(imageHash, names);
+}
+
 const relatedKeywords = new Map(Object.entries({
   add: ["create", "insert", "new"],
   align: ["alignment", "position"],
@@ -146,8 +156,11 @@ const metadata = iconNames.map((name) => {
   const words = splitIconName(name);
   const normalizedWords = words.map((word) => word.toLowerCase());
   const override = iconOverrides.get(name);
-  const imageHash = sha256File(path.join(imagesPath, `${name}.png`));
+  const imageHash = imageHashByName.get(name);
   const placeholder = placeholderByHash.get(imageHash);
+  const sameImageIds = placeholder
+    ? []
+    : (namesByImageHash.get(imageHash) || []).filter((otherName) => otherName !== name);
   const keywords = new Set([
     ...normalizedWords,
     normalizedWords.join(" "),
@@ -163,6 +176,7 @@ const metadata = iconNames.map((name) => {
     name,
     description,
     keywords: [...keywords].filter(Boolean).sort(),
+    ...(sameImageIds.length > 0 ? { sameImageIds } : {}),
     ...(placeholder ? {
       imageStatus: placeholder.imageStatus,
       placeholderLabel: placeholder.label,

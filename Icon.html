@@ -54,6 +54,10 @@
       </div>
       <p id="copy-status" role="status" aria-live="polite"></p>
       <p id="icon-error" role="alert" hidden></p>
+      <section id="same-image-section" class="same-image-section" aria-labelledby="same-image-heading" hidden>
+        <h2 id="same-image-heading">Other IDs using the same image</h2>
+        <ul id="same-image-list" class="same-image-list"></ul>
+      </section>
       <a class="icon-detail-back icon-detail-back-with-icon" href="./ImageMso.html">
         <img src="./images/Undo.png" alt="" aria-hidden="true" />
         Back to gallery
@@ -71,6 +75,8 @@
       const downloadMenu = document.getElementById("download-menu");
       const copyStatus = document.getElementById("copy-status");
       const imageStatus = document.getElementById("icon-image-status");
+      const sameImageSection = document.getElementById("same-image-section");
+      const sameImageList = document.getElementById("same-image-list");
       const errorMessage = document.getElementById("icon-error");
       const validIconName = iconName && /^[A-Za-z0-9_]+$/.test(iconName);
 
@@ -94,6 +100,31 @@
             if (icon?.imageStatus === "placeholder") {
               imageStatus.textContent = `Placeholder image: ${icon.placeholderLabel}. This is a shared Office fallback, not a unique icon image.`;
               imageStatus.hidden = false;
+            }
+
+            const metadataByName = new Map(metadata.map((entry) => [entry.name, entry]));
+            const sameImageIds = (icon?.sameImageIds || [])
+              .filter((name) => metadataByName.has(name));
+            if (sameImageIds.length > 0) {
+              const sameImageItems = sameImageIds.map((name) => {
+                const item = document.createElement("li");
+                const link = document.createElement("a");
+                const image = document.createElement("img");
+                const label = document.createElement("span");
+
+                link.className = "same-image-link";
+                link.href = `./Icon.html?name=${encodeURIComponent(name)}`;
+                image.loading = "lazy";
+                image.src = `./images/${encodeURIComponent(name)}.png`;
+                image.alt = "";
+                label.textContent = name;
+                link.append(image, label);
+                item.append(link);
+                return item;
+              });
+
+              sameImageList.replaceChildren(...sameImageItems);
+              sameImageSection.hidden = false;
             }
           })
           .catch((error) => console.error("Icon metadata could not be loaded", error));
