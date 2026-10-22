@@ -1,2 +1,4 @@
 node_modules/
 test-results/.playwright-artifacts-0/
+test-results/
+playwright-report/

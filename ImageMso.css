@@ -191,6 +191,7 @@ body:not(.icon-detail-page) > h1 {
 .mso-filter .awesomplete {
   display: block;
   width: 100%;
+  max-width: 34rem;
 }
 
 .awesomplete > ul {
@@ -204,6 +205,10 @@ body:not(.icon-detail-page) > h1 {
   max-height: min(70vh, 36rem);
   overflow-y: auto;
   overscroll-behavior: contain;
+}
+
+.mso-filter .awesomplete > ul::before {
+  display: none;
 }
 
 .awesomplete > ul > li:hover {
