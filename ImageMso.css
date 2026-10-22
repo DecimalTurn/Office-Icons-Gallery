@@ -3,28 +3,50 @@ body {
 }
 
 .mso-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+  gap: 12px 16px;
+  padding: 0;
+  list-style: none;
 }
 
-.mso-list li,
 .awesomplete > ul > li {
   float: left;
   display: inline;
-  xwidth: 20em;
   margin-bottom: 1em;
 }
 
-.mso-list img {
+.mso-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
 }
 
 h1,
 .mso-filter,
-.mso-list span,
 .awesomplete span {
   margin-left: 2em;
 }
 
 .awesomplete {
   width: 100%;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  margin: 1em 2em;
+}
+
+.mso-list li[hidden] {
+  display: none;
+}
+
+.mso-list li img {
+  flex: 0 0 32px;
+  float: none;
 }
 
 li img {
@@ -37,4 +59,12 @@ li span {
   white-space: nowrap;
   width: 22em;
   float: left;
+}
+
+.mso-list li span {
+  min-width: 0;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: none;
 }
