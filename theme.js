@@ -24,8 +24,10 @@
     }
 
     const isDark = (root.dataset.theme || (systemPreference.matches ? "dark" : "light")) === "dark";
-    toggle.textContent = isDark ? "Light mode" : "Dark mode";
-    toggle.setAttribute("aria-label", `Switch to ${isDark ? "light" : "dark"} mode`);
+    const nextTheme = isDark ? "light" : "dark";
+    toggle.setAttribute("data-action", nextTheme);
+    toggle.setAttribute("aria-label", `Switch to ${nextTheme} mode`);
+    toggle.setAttribute("title", `Switch to ${nextTheme} mode`);
     toggle.setAttribute("aria-pressed", String(isDark));
   }
 

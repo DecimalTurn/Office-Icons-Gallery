@@ -8,19 +8,43 @@
     <link href="./ImageMso.css" rel="stylesheet" type="text/css" />
   </head>
   <body class="icon-detail-page">
-    <button class="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+    <button class="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false" title="Switch theme">
+      <img class="theme-icon-sun" src="./images/BrightnessMore.png" alt="" />
+      <span class="theme-icon-moon" aria-hidden="true">&#9790;</span>
+    </button>
     <main class="icon-detail">
-      <a class="icon-detail-back" href="./ImageMso.html">Back to gallery</a>
+      <a class="icon-detail-back icon-detail-back-with-icon" href="./ImageMso.html">
+        <img src="./images/Undo.png" alt="" aria-hidden="true" />
+        Back to gallery
+      </a>
       <h1 id="icon-name">Office Icon Gallery</h1>
-      <img id="icon-image" class="icon-detail-image" alt="" />
-      <button id="copy-name" type="button" disabled>Copy icon name</button>
+      <div class="icon-detail-previews">
+        <figure class="icon-detail-preview">
+          <img id="icon-image" class="icon-detail-image" alt="" />
+          <figcaption>Large preview</figcaption>
+        </figure>
+        <figure class="icon-detail-preview">
+          <img id="icon-image-small" class="icon-detail-image-small" alt="" />
+          <figcaption>Gallery size (32 x 32)</figcaption>
+        </figure>
+      </div>
+      <button id="copy-name" type="button" disabled>
+        <img src="./images/Copy.png" alt="" aria-hidden="true" />
+        Copy icon name
+      </button>
       <p id="copy-status" role="status" aria-live="polite"></p>
       <p id="icon-error" role="alert" hidden></p>
+      <a class="icon-detail-back icon-detail-back-with-icon" href="./ImageMso.html">
+        <img src="./images/Undo.png" alt="" aria-hidden="true" />
+        Back to gallery
+      </a>
     </main>
+    <footer class="page-notice">All images remain the property of Microsoft. This independent reference is provided to help developers build ribbon interfaces for Office applications and is not affiliated with or endorsed by Microsoft.</footer>
     <script>
       const iconName = new URLSearchParams(window.location.search).get("name");
       const nameHeading = document.getElementById("icon-name");
       const iconImage = document.getElementById("icon-image");
+      const smallIconImage = document.getElementById("icon-image-small");
       const copyButton = document.getElementById("copy-name");
       const copyStatus = document.getElementById("copy-status");
       const errorMessage = document.getElementById("icon-error");
@@ -30,14 +54,20 @@
         document.title = `${iconName} | Office Icon Gallery`;
         nameHeading.textContent = iconName;
         iconImage.alt = iconName;
-        iconImage.src = `./images/${encodeURIComponent(iconName)}.png`;
+        smallIconImage.alt = iconName;
+        const iconSource = `./images/${encodeURIComponent(iconName)}.png`;
+        iconImage.src = iconSource;
+        smallIconImage.src = iconSource;
         copyButton.disabled = false;
-        iconImage.addEventListener("error", () => {
+        const handleIconError = () => {
           iconImage.hidden = true;
+          smallIconImage.hidden = true;
           copyButton.disabled = true;
           errorMessage.textContent = "That icon could not be found.";
           errorMessage.hidden = false;
-        });
+        };
+        iconImage.addEventListener("error", handleIconError);
+        smallIconImage.addEventListener("error", handleIconError);
       } else {
         errorMessage.textContent = "Choose an icon from the gallery to view it here.";
         errorMessage.hidden = false;

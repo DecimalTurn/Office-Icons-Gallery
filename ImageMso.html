@@ -9,7 +9,10 @@
     <script language="javascript" src="./ImageMso.js" type="text/javascript"></script>
   </head>
   <body>
-    <button class="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+    <button class="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false" title="Switch theme">
+      <img class="theme-icon-sun" src="./images/BrightnessMore.png" alt="" />
+      <span class="theme-icon-moon" aria-hidden="true">&#9790;</span>
+    </button>
     <h1>Office Icon Gallery</h1>
     <p>Total icons: <span id="icon-count">Counting...</span></p>
     <div class="mso-filter">
@@ -1524,11 +1527,12 @@
       <li><img loading="lazy" title="DeletePermissionGroup" alt="DeletePermissionGroup" src="./images/DeletePermissionGroup.png" /><span>DeletePermissionGroup</span></li>
       <li><img loading="lazy" title="DeleteRows" alt="DeleteRows" src="./images/DeleteRows.png" /><span>DeleteRows</span></li>
     </ol>
-    <nav class="pagination" aria-label="Icon pages">
+    <nav class="pagination pagination-bottom" aria-label="Icon pages">
       <button class="previous-page" type="button">Previous</button>
       <span class="page-status" aria-live="polite"></span>
       <button class="next-page" type="button">Next</button>
     </nav>
+    <footer class="page-notice">All images remain the property of Microsoft. This independent reference is provided to help developers build ribbon interfaces for Office applications and is not affiliated with or endorsed by Microsoft.</footer>
     <script>
       const icons = Array.from(document.querySelectorAll(".mso-list > li"));
       const pageSize = 500;
@@ -1588,6 +1592,42 @@
 
       document.getElementById("mso-search").addEventListener("awesomplete-selectcomplete", (event) => {
         window.location.href = iconPageUrl(event.text.value);
+      });
+
+      document.addEventListener("DOMContentLoaded", async () => {
+        const searchInput = document.getElementById("mso-search");
+        const autocomplete = Awesomplete.all.find((instance) => instance.input === searchInput);
+
+        if (!autocomplete) {
+          return;
+        }
+
+        try {
+          const response = await fetch("./icon-metadata.json");
+          if (!response.ok) {
+            throw new Error("Could not load icon metadata");
+          }
+
+          const metadata = await response.json();
+          const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
+          autocomplete.filter = (suggestion, value) => {
+            const icon = metadataByName.get(suggestion.value);
+            const searchableText = [
+              suggestion.value,
+              icon?.description,
+              ...(icon?.keywords || [])
+            ].join(" ").toLowerCase();
+            const queryWords = value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+
+            return queryWords.every((word) => searchableText.includes(word));
+          };
+
+          if (document.activeElement === searchInput) {
+            autocomplete.evaluate();
+          }
+        } catch (error) {
+          console.error("Icon metadata could not be loaded", error);
+        }
       });
 
       showPage();
