@@ -114,9 +114,9 @@ body {
 }
 
 .awesomplete > ul > li {
-  float: left;
-  display: inline;
-  margin-bottom: 1em;
+  float: none;
+  display: block;
+  margin-bottom: 0;
 }
 
 .mso-list li {

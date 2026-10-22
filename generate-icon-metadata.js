@@ -1,21 +1,24 @@
 const fs = require("fs");
 const path = require("path");
 
-const galleryPath = path.join(__dirname, "ImageMso.html");
+const imagesPath = path.join(__dirname, "images");
 const outputPath = path.join(__dirname, "icon-metadata.json");
-const galleryHtml = fs.readFileSync(galleryPath, "utf8");
-const listMatch = galleryHtml.match(/<ol class="mso-list">([\s\S]*?)<\/ol>/);
+const imageFiles = fs.readdirSync(imagesPath, { withFileTypes: true })
+  .filter((entry) => entry.isFile() && path.extname(entry.name).toLowerCase() === ".png");
+const iconNames = imageFiles.map((entry) => path.basename(entry.name, path.extname(entry.name)));
+const normalizedIconNames = iconNames.map((name) => name.toLowerCase());
 
-if (!listMatch) {
-  throw new Error("Could not find the icon list in ImageMso.html");
+if (iconNames.length === 0 || new Set(normalizedIconNames).size !== iconNames.length) {
+  throw new Error("The image folder is empty or contains duplicate icon IDs");
 }
 
-const iconNames = [...listMatch[1].matchAll(/<img\b[^>]*\btitle="([^"]+)"/g)]
-  .map((match) => match[1]);
-
-if (iconNames.length === 0 || new Set(iconNames).size !== iconNames.length) {
-  throw new Error("The icon list is empty or contains duplicate names");
+if (iconNames.some((name) => !/^[A-Za-z0-9_]+$/.test(name))) {
+  throw new Error("An image filename contains characters that are not valid in an icon ID");
 }
+
+iconNames.sort((left, right) =>
+  left.localeCompare(right, "en", { numeric: true, sensitivity: "base" }) || left.localeCompare(right)
+);
 
 const relatedKeywords = new Map(Object.entries({
   add: ["create", "insert", "new"],
