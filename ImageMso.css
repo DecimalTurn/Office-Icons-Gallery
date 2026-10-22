@@ -195,7 +195,7 @@ h1,
   border-color: var(--border-color);
   background: var(--control-background);
   color: var(--muted-foreground);
-  cursor: not-allowed;
+  cursor: default;
 }
 
 .pagination button:disabled img {
