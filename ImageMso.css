@@ -37,9 +37,17 @@
 }
 
 body {
-  font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+  font-family: "Segoe UI Variable", "Segoe UI", Tahoma, sans-serif;
+  line-height: 1.5;
   background: var(--page-background);
   color: var(--page-foreground);
+}
+
+body:not(.icon-detail-page) > h1 {
+  margin: 0;
+  font-size: 1.875rem;
+  font-weight: 650;
+  line-height: 1.2;
 }
 
 .theme-toggle,
@@ -126,13 +134,40 @@ body {
   min-width: 0;
 }
 
-h1,
-.mso-filter,
-.awesomplete span {
-  margin-left: 2em;
+.icon-count {
+  margin: 16px 0 0;
+  color: var(--muted-foreground);
+}
+
+#icon-count {
+  color: var(--page-foreground);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.mso-filter {
+  margin: 24px 0 0;
+}
+
+.mso-filter form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.mso-filter label {
+  color: var(--muted-foreground);
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .awesomplete {
+  width: 100%;
+}
+
+.mso-filter .awesomplete {
+  display: block;
   width: 100%;
 }
 
@@ -140,6 +175,13 @@ h1,
   border-color: var(--border-color);
   background: var(--surface-background);
   color: var(--page-foreground);
+}
+
+.mso-filter .awesomplete > ul {
+  width: 100%;
+  max-height: min(70vh, 36rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .awesomplete > ul > li:hover {
@@ -182,7 +224,18 @@ h1,
   display: inline-flex;
   align-items: center;
   gap: 0.35em;
+  padding: 8px 12px;
   cursor: pointer;
+  transition: background-color 140ms ease, border-color 140ms ease, transform 140ms ease;
+}
+
+.pagination button:not(:disabled):hover {
+  border-color: var(--accent-color);
+  background: var(--control-background);
+}
+
+.pagination button:not(:disabled):active {
+  transform: translateY(1px);
 }
 
 .pagination button img {
@@ -204,9 +257,28 @@ h1,
 }
 
 .mso-filter input {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 34rem;
+  min-height: 44px;
+  padding: 10px 14px;
   border: 1px solid var(--border-color);
-  background: var(--surface-background);
+  border-radius: 6px;
+  background: var(--control-background);
   color: var(--page-foreground);
+  font: inherit;
+  transition: border-color 140ms ease, box-shadow 140ms ease, background-color 140ms ease;
+}
+
+.mso-filter input::placeholder {
+  color: var(--muted-foreground);
+  opacity: 0.8;
+}
+
+.mso-filter input:focus-visible {
+  border-color: var(--accent-color);
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-color) 22%, transparent);
 }
 
 .mso-list li[hidden] {
@@ -361,7 +433,7 @@ body:not(.icon-detail-page) {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  padding-inline: 16px;
+  padding: 28px clamp(16px, 4vw, 48px) 40px;
 }
 
 .icon-link {

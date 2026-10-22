@@ -20,10 +20,11 @@
       <span class="theme-icon-moon" aria-hidden="true">&#9790;</span>
     </button>
     <h1>Office Icon Gallery</h1>
-    <p>Total icons: <span id="icon-count">Counting...</span></p>
+    <p class="icon-count">Total icons: <span id="icon-count">Counting...</span></p>
     <div class="mso-filter">
       <form>
-        <span>full text seach: </span><input autofocus id="mso-search" name="SearchMso" type="text" maxlength="255" value="" class="awesomplete" data-list=".mso-list" data-minchars="2" data-maxitems="100000"/>
+        <label for="mso-search">Full-text search</label>
+        <input autofocus id="mso-search" name="SearchMso" type="text" maxlength="255" value="" placeholder="Search IDs, descriptions, or keywords" class="awesomplete" data-list=".mso-list" data-minchars="2" data-maxitems="100000"/>
       </form>
     </div>
     <nav class="pagination" aria-label="Icon pages">
