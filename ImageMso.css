@@ -227,6 +227,46 @@ body:not(.icon-detail-page) > h1 {
 }
 
 .pagination button,
+.icon-detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  max-width: 100%;
+}
+
+.icon-download {
+  position: relative;
+}
+
+.icon-download-menu {
+  position: absolute;
+  z-index: 2;
+  top: calc(100% + 4px);
+  left: 0;
+  min-width: 100%;
+  padding: 4px;
+  border: 1px solid var(--border-color);
+  background: var(--surface-background);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 18%);
+  text-align: left;
+}
+
+.icon-detail .icon-download-menu button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px 12px;
+  border: 0;
+  background: transparent;
+  color: var(--page-foreground);
+  text-align: left;
+}
+
+.icon-detail .icon-download-menu button:hover,
+.icon-detail .icon-download-menu button:focus-visible {
+  background: var(--control-background);
+}
+
 .icon-detail button {
   border: 1px solid var(--border-color);
   border-radius: 4px;

@@ -35,10 +35,23 @@
           <figcaption>Gallery size (32 x 32)</figcaption>
         </figure>
       </div>
-      <button id="copy-name" type="button" disabled>
-        <img src="./images/Copy.png" alt="" aria-hidden="true" />
-        Copy icon name
-      </button>
+      <div class="icon-detail-actions">
+        <button id="copy-name" type="button" disabled>
+          <img src="./images/Copy.png" alt="" aria-hidden="true" />
+          Copy icon name
+        </button>
+        <div class="icon-download">
+          <button id="download-button" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="download-menu" disabled>
+          <img src="./images/FileSave.png" alt="" aria-hidden="true" />
+            Download image
+          </button>
+          <div id="download-menu" class="icon-download-menu" role="menu" aria-label="Download format" hidden>
+            <button type="button" role="menuitem" data-download-format="png">PNG</button>
+            <button type="button" role="menuitem" data-download-format="ico">ICO</button>
+            <button type="button" role="menuitem" data-download-format="jpeg">JPEG</button>
+          </div>
+        </div>
+      </div>
       <p id="copy-status" role="status" aria-live="polite"></p>
       <p id="icon-error" role="alert" hidden></p>
       <a class="icon-detail-back icon-detail-back-with-icon" href="./ImageMso.html">
@@ -54,6 +67,8 @@
       const smallIconImage = document.getElementById("icon-image-small");
       const copyButton = document.getElementById("copy-name");
       const copyIdButton = document.getElementById("copy-icon-id");
+      const downloadButton = document.getElementById("download-button");
+      const downloadMenu = document.getElementById("download-menu");
       const copyStatus = document.getElementById("copy-status");
       const imageStatus = document.getElementById("icon-image-status");
       const errorMessage = document.getElementById("icon-error");
@@ -65,8 +80,6 @@
         iconImage.alt = iconName;
         smallIconImage.alt = iconName;
         const iconSource = `./images/${encodeURIComponent(iconName)}.png`;
-        iconImage.src = iconSource;
-        smallIconImage.src = iconSource;
         copyButton.disabled = false;
         copyIdButton.disabled = false;
         fetch("./icon-metadata.json")
@@ -89,11 +102,17 @@
           smallIconImage.hidden = true;
           copyButton.disabled = true;
           copyIdButton.disabled = true;
+          downloadButton.disabled = true;
           errorMessage.textContent = "That icon could not be found.";
           errorMessage.hidden = false;
         };
         iconImage.addEventListener("error", handleIconError);
         smallIconImage.addEventListener("error", handleIconError);
+        iconImage.addEventListener("load", () => {
+          downloadButton.disabled = false;
+        });
+        iconImage.src = iconSource;
+        smallIconImage.src = iconSource;
       } else {
         errorMessage.textContent = "Choose an icon from the gallery to view it here.";
         errorMessage.hidden = false;
@@ -132,6 +151,119 @@
 
       copyButton.addEventListener("click", copyIconId);
       copyIdButton.addEventListener("click", copyIconId);
+
+      function closeDownloadMenu() {
+        downloadMenu.hidden = true;
+        downloadButton.setAttribute("aria-expanded", "false");
+      }
+
+      downloadButton.addEventListener("click", () => {
+        if (downloadButton.disabled) {
+          return;
+        }
+
+        downloadMenu.hidden = !downloadMenu.hidden;
+        downloadButton.setAttribute("aria-expanded", String(!downloadMenu.hidden));
+      });
+
+      document.addEventListener("click", (event) => {
+        if (!event.target.closest(".icon-download")) {
+          closeDownloadMenu();
+        }
+      });
+
+      downloadMenu.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+          closeDownloadMenu();
+          downloadButton.focus();
+        }
+      });
+
+      async function downloadIcon(format) {
+        if (!validIconName || downloadButton.disabled) {
+          return;
+        }
+
+        downloadButton.disabled = true;
+        const extension = format === "jpeg" ? "jpg" : format;
+        copyStatus.textContent = `Preparing ${extension.toUpperCase()} file...`;
+        try {
+          const response = await fetch(iconImage.src);
+          if (!response.ok) {
+            throw new Error("Could not load the icon image");
+          }
+          const pngBytes = new Uint8Array(await response.arrayBuffer());
+          let fileBlob;
+
+          if (format === "png") {
+            fileBlob = new Blob([pngBytes], { type: "image/png" });
+          } else if (format === "jpeg") {
+            const sourceImage = await createImageBitmap(new Blob([pngBytes], { type: "image/png" }));
+            const canvas = document.createElement("canvas");
+            canvas.width = sourceImage.width;
+            canvas.height = sourceImage.height;
+            const context = canvas.getContext("2d");
+            context.fillStyle = "#ffffff";
+            context.fillRect(0, 0, canvas.width, canvas.height);
+            context.drawImage(sourceImage, 0, 0);
+            sourceImage.close();
+            fileBlob = await new Promise((resolve, reject) => {
+              canvas.toBlob((blob) => blob ? resolve(blob) : reject(new Error("JPEG encoding failed")), "image/jpeg", 0.92);
+            });
+          } else if (format === "ico") {
+            const pngView = new DataView(pngBytes.buffer, pngBytes.byteOffset, pngBytes.byteLength);
+            const isPng = [137, 80, 78, 71, 13, 10, 26, 10].every((value, index) => pngBytes[index] === value);
+            if (!isPng || pngBytes.length < 24) {
+              throw new Error("The icon image is not a valid PNG");
+            }
+
+            const width = pngView.getUint32(16);
+            const height = pngView.getUint32(20);
+            if (width < 1 || width > 256 || height < 1 || height > 256) {
+              throw new Error("ICO images must be no larger than 256 pixels");
+            }
+
+            const icoBytes = new Uint8Array(22 + pngBytes.length);
+            const icoView = new DataView(icoBytes.buffer);
+            icoView.setUint16(2, 1, true);
+            icoView.setUint16(4, 1, true);
+            icoBytes[6] = width === 256 ? 0 : width;
+            icoBytes[7] = height === 256 ? 0 : height;
+            icoView.setUint16(10, 1, true);
+            icoView.setUint16(12, 32, true);
+            icoView.setUint32(14, pngBytes.length, true);
+            icoView.setUint32(18, 22, true);
+            icoBytes.set(pngBytes, 22);
+            fileBlob = new Blob([icoBytes], { type: "image/vnd.microsoft.icon" });
+          } else {
+            throw new Error("Unsupported image format");
+          }
+
+          const downloadUrl = URL.createObjectURL(fileBlob);
+          const link = document.createElement("a");
+          link.href = downloadUrl;
+          link.download = `${iconName}.${extension}`;
+          document.body.appendChild(link);
+          link.click();
+          link.remove();
+          window.setTimeout(() => URL.revokeObjectURL(downloadUrl), 1000);
+          copyStatus.textContent = `Downloaded ${iconName}.${extension}`;
+        } catch {
+          copyStatus.textContent = `Could not download the ${extension.toUpperCase()} file`;
+        } finally {
+          downloadButton.disabled = !iconImage.complete || iconImage.naturalWidth === 0;
+        }
+      }
+
+      downloadMenu.addEventListener("click", (event) => {
+        const formatButton = event.target.closest("[data-download-format]");
+        if (!formatButton) {
+          return;
+        }
+
+        closeDownloadMenu();
+        downloadIcon(formatButton.dataset.downloadFormat);
+      });
     </script>
   </body>
 </html>
