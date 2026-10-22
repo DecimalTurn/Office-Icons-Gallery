@@ -53,7 +53,8 @@ Private Function ExportIcons(ByVal verboseMode As Boolean) As String
 	Dim startupInput As GdiplusStartupInput
 	Dim pngEncoder As Guid
 	Dim projectFolder As String
-	Dim galleryRoot As String
+	Dim toolsFolder As String
+	Dim repositoryRoot As String
 	Dim listPath As String
 	Dim outputFolder As String
 	Dim idMso As String
@@ -76,9 +77,10 @@ Private Function ExportIcons(ByVal verboseMode As Boolean) As String
 	Set statusSheet = ThisWorkbook.Worksheets(1)
 
 	projectFolder = fileSystem.GetParentFolderName(ThisWorkbook.Path)
-	galleryRoot = fileSystem.GetParentFolderName(projectFolder)
+	toolsFolder = fileSystem.GetParentFolderName(projectFolder)
+	repositoryRoot = fileSystem.GetParentFolderName(toolsFolder)
 	listPath = fileSystem.BuildPath(projectFolder, listFileName)
-	outputFolder = galleryRoot
+	outputFolder = fileSystem.BuildPath(repositoryRoot, "images")
 
 	If Not fileSystem.FileExists(listPath) Then
 		Err.Raise vbObjectError + 1000, "ExportMissingIcons", "Cannot find " & listPath
