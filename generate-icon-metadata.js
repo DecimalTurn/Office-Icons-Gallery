@@ -19,46 +19,89 @@ if (iconNames.length === 0 || new Set(iconNames).size !== iconNames.length) {
 
 const relatedKeywords = new Map(Object.entries({
   add: ["create", "insert", "new"],
-  brightness: ["light", "illumination"],
+  align: ["alignment", "position"],
+  animation: ["motion", "movement"],
+  audio: ["sound", "speaker", "music"],
+  brightness: ["light", "illumination", "screen brightness"],
+  calendar: ["schedule", "date", "appointment"],
   chart: ["graph", "visualization"],
   color: ["colour"],
   copy: ["duplicate"],
   decrease: ["less", "lower", "reduce"],
   delete: ["remove", "clear"],
+  document: ["file", "page"],
   email: ["mail", "message"],
+  file: ["document"],
   find: ["search", "lookup"],
   format: ["style", "appearance"],
+  folder: ["directory", "files"],
   graph: ["chart", "visualization"],
-  image: ["picture", "photo"],
+  hyperlink: ["link", "url", "web address"],
+  image: ["picture", "photo", "graphic"],
   increase: ["more", "higher", "raise"],
   insert: ["add", "create"],
+  link: ["hyperlink", "url", "web address"],
   lock: ["protect"],
   mail: ["email", "message"],
+  meeting: ["appointment", "conference"],
   open: ["launch", "show"],
   paste: ["insert"],
-  picture: ["image", "photo"],
+  picture: ["image", "photo", "graphic"],
   print: ["printer", "printing"],
   redo: ["repeat"],
   refresh: ["reload", "update"],
+  rotate: ["rotation", "turn"],
   save: ["store", "write"],
   search: ["find", "lookup"],
   send: ["share", "submit"],
+  slide: ["presentation", "slideshow"],
+  sound: ["audio", "speaker", "music"],
   table: ["grid"],
   undo: ["reverse"],
   unlock: ["unprotect"],
+  video: ["movie", "film", "clip"],
   zoom: ["magnify", "scale"]
 }));
 
 const iconOverrides = new Map(Object.entries({
   BrightnessLess: {
-    description: "Reduce screen brightness or dim the display.",
-    keywords: ["brightness", "dark", "decrease", "dim", "dimmer", "display", "lower", "moon", "night", "screen"]
+    description: "Sun icon for reducing screen brightness and glare.",
+    keywords: ["brightness", "dark", "decrease", "dim", "dimmer", "display", "glare", "lower", "moon", "night", "screen", "sun", "sunlight"]
   },
   BrightnessMore: {
-    description: "Increase screen brightness or brighten the display.",
+    description: "Sun icon for increasing screen brightness.",
     keywords: ["brightness", "brighten", "brighter", "daylight", "display", "increase", "light", "screen", "sun"]
+  },
+  AlignCenter: {
+    description: "Align text or objects to the center.",
+    keywords: ["align", "alignment", "center", "centered", "middle", "position"]
+  },
+  AnimationAudio: {
+    description: "Add speaker audio or sound to an animation.",
+    keywords: ["animation", "audio", "motion", "music", "sound", "speaker"]
+  },
+  CalendarImport: {
+    description: "Import appointments and events into a calendar.",
+    keywords: ["appointment", "calendar", "date", "event", "import", "schedule"]
+  },
+  ChartInsert: {
+    description: "Insert a chart or graph to visualize data.",
+    keywords: ["bar chart", "chart", "data", "graph", "insert", "plot", "visualization"]
+  },
+  BuildHyperlink: {
+    description: "Create a web hyperlink or URL.",
+    keywords: ["address", "hyperlink", "link", "url", "web", "website"]
+  },
+  AutoSigInsertPictureFromFile: {
+    description: "Insert a picture from a file into an email signature.",
+    keywords: ["email", "file", "graphic", "image", "insert", "photo", "picture", "signature"]
   }
 }));
+
+const missingOverrides = [...iconOverrides.keys()].filter((name) => !iconNames.includes(name));
+if (missingOverrides.length > 0) {
+  throw new Error(`Overrides reference unknown icons: ${missingOverrides.join(", ")}`);
+}
 
 function splitIconName(name = "") {
   return name

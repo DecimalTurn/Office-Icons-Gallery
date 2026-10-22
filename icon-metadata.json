@@ -78,6 +78,7 @@
       "bevel",
       "d",
       "gallery",
+      "graphic",
       "image",
       "photo",
       "picture",
@@ -1092,6 +1093,7 @@
     "keywords": [
       "active",
       "active x image",
+      "graphic",
       "image",
       "photo",
       "picture",
@@ -1214,12 +1216,15 @@
     "keywords": [
       "add",
       "add calendar from internet",
+      "appointment",
       "calendar",
       "create",
+      "date",
       "from",
       "insert",
       "internet",
-      "new"
+      "new",
+      "schedule"
     ]
   },
   {
@@ -1228,11 +1233,14 @@
     "keywords": [
       "add",
       "add calendar menu",
+      "appointment",
       "calendar",
       "create",
+      "date",
       "insert",
       "menu",
-      "new"
+      "new",
+      "schedule"
     ]
   },
   {
@@ -1324,7 +1332,9 @@
       "add",
       "add folder to favorites",
       "create",
+      "directory",
       "favorites",
+      "files",
       "folder",
       "insert",
       "new",
@@ -1455,11 +1465,14 @@
     "keywords": [
       "add",
       "add peoples calendar",
+      "appointment",
       "calendar",
       "create",
+      "date",
       "insert",
       "new",
-      "peoples"
+      "peoples",
+      "schedule"
     ]
   },
   {
@@ -2258,6 +2271,7 @@
     "keywords": [
       "advanced",
       "advanced file properties",
+      "document",
       "file",
       "properties"
     ]
@@ -2399,17 +2413,23 @@
     "keywords": [
       "align",
       "align bottom excel",
+      "alignment",
       "bottom",
-      "excel"
+      "excel",
+      "position"
     ]
   },
   {
     "name": "AlignCenter",
-    "description": "Office icon for align center.",
+    "description": "Align text or objects to the center.",
     "keywords": [
       "align",
       "align center",
-      "center"
+      "alignment",
+      "center",
+      "centered",
+      "middle",
+      "position"
     ]
   },
   {
@@ -2418,7 +2438,9 @@
     "keywords": [
       "align",
       "align dialog",
-      "dialog"
+      "alignment",
+      "dialog",
+      "position"
     ]
   },
   {
@@ -2427,8 +2449,10 @@
     "keywords": [
       "align",
       "align distribute horizontally",
+      "alignment",
       "distribute",
-      "horizontally"
+      "horizontally",
+      "position"
     ]
   },
   {
@@ -2437,9 +2461,11 @@
     "keywords": [
       "align",
       "align distribute horizontally classic",
+      "alignment",
       "classic",
       "distribute",
-      "horizontally"
+      "horizontally",
+      "position"
     ]
   },
   {
@@ -2448,7 +2474,9 @@
     "keywords": [
       "align",
       "align distribute vertically",
+      "alignment",
       "distribute",
+      "position",
       "vertically"
     ]
   },
@@ -2458,8 +2486,10 @@
     "keywords": [
       "align",
       "align distribute vertically classic",
+      "alignment",
       "classic",
       "distribute",
+      "position",
       "vertically"
     ]
   },
@@ -2469,7 +2499,9 @@
     "keywords": [
       "align",
       "align gallery",
-      "gallery"
+      "alignment",
+      "gallery",
+      "position"
     ]
   },
   {
@@ -2478,7 +2510,9 @@
     "keywords": [
       "align",
       "align justify",
-      "justify"
+      "alignment",
+      "justify",
+      "position"
     ]
   },
   {
@@ -2487,8 +2521,10 @@
     "keywords": [
       "align",
       "align justify high",
+      "alignment",
       "high",
-      "justify"
+      "justify",
+      "position"
     ]
   },
   {
@@ -2497,8 +2533,10 @@
     "keywords": [
       "align",
       "align justify low",
+      "alignment",
       "justify",
-      "low"
+      "low",
+      "position"
     ]
   },
   {
@@ -2507,8 +2545,10 @@
     "keywords": [
       "align",
       "align justify medium",
+      "alignment",
       "justify",
-      "medium"
+      "medium",
+      "position"
     ]
   },
   {
@@ -2517,8 +2557,10 @@
     "keywords": [
       "align",
       "align justify menu",
+      "alignment",
       "justify",
-      "menu"
+      "menu",
+      "position"
     ]
   },
   {
@@ -2527,7 +2569,9 @@
     "keywords": [
       "align",
       "align justify thai",
+      "alignment",
       "justify",
+      "position",
       "thai"
     ]
   },
@@ -2537,9 +2581,11 @@
     "keywords": [
       "align",
       "align justify with mixed languages",
+      "alignment",
       "justify",
       "languages",
       "mixed",
+      "position",
       "with"
     ]
   },
@@ -2549,7 +2595,9 @@
     "keywords": [
       "align",
       "align left",
-      "left"
+      "alignment",
+      "left",
+      "position"
     ]
   },
   {
@@ -2558,8 +2606,10 @@
     "keywords": [
       "align",
       "align left to right menu",
+      "alignment",
       "left",
       "menu",
+      "position",
       "right",
       "to"
     ]
@@ -2570,8 +2620,10 @@
     "keywords": [
       "align",
       "align menu alternate",
+      "alignment",
       "alternate",
-      "menu"
+      "menu",
+      "position"
     ]
   },
   {
@@ -2580,8 +2632,10 @@
     "keywords": [
       "align",
       "align middle excel",
+      "alignment",
       "excel",
-      "middle"
+      "middle",
+      "position"
     ]
   },
   {
@@ -2590,7 +2644,9 @@
     "keywords": [
       "align",
       "align relative to page",
+      "alignment",
       "page",
+      "position",
       "relative",
       "to"
     ]
@@ -2601,6 +2657,8 @@
     "keywords": [
       "align",
       "align right",
+      "alignment",
+      "position",
       "right"
     ]
   },
@@ -2610,7 +2668,9 @@
     "keywords": [
       "align",
       "align top excel",
+      "alignment",
       "excel",
+      "position",
       "top"
     ]
   },
@@ -2659,6 +2719,8 @@
     "keywords": [
       "always",
       "always move to folder",
+      "directory",
+      "files",
       "folder",
       "move",
       "to"
@@ -2686,16 +2748,23 @@
       "create",
       "gallery",
       "insert",
+      "motion",
+      "movement",
       "new"
     ]
   },
   {
     "name": "AnimationAudio",
-    "description": "Office icon for animation audio.",
+    "description": "Add speaker audio or sound to an animation.",
     "keywords": [
       "animation",
       "animation audio",
-      "audio"
+      "audio",
+      "motion",
+      "movement",
+      "music",
+      "sound",
+      "speaker"
     ]
   },
   {
@@ -2704,7 +2773,9 @@
     "keywords": [
       "animation",
       "animation custom",
-      "custom"
+      "custom",
+      "motion",
+      "movement"
     ]
   },
   {
@@ -2716,6 +2787,8 @@
       "animation custom action verb dialog",
       "custom",
       "dialog",
+      "motion",
+      "movement",
       "verb"
     ]
   },
@@ -2731,6 +2804,8 @@
       "custom",
       "dialog",
       "insert",
+      "motion",
+      "movement",
       "new",
       "verb"
     ]
@@ -2747,6 +2822,8 @@
       "dialog",
       "emphasis",
       "insert",
+      "motion",
+      "movement",
       "new"
     ]
   },
@@ -2762,6 +2839,8 @@
       "dialog",
       "entrance",
       "insert",
+      "motion",
+      "movement",
       "new"
     ]
   },
@@ -2777,6 +2856,8 @@
       "dialog",
       "exit",
       "insert",
+      "motion",
+      "movement",
       "new"
     ]
   },
@@ -2791,6 +2872,8 @@
       "custom",
       "dialog",
       "insert",
+      "motion",
+      "movement",
       "new",
       "path"
     ]
@@ -2803,7 +2886,9 @@
       "animation custom emphasis dialog",
       "custom",
       "dialog",
-      "emphasis"
+      "emphasis",
+      "motion",
+      "movement"
     ]
   },
   {
@@ -2814,7 +2899,9 @@
       "animation custom entrance dialog",
       "custom",
       "dialog",
-      "entrance"
+      "entrance",
+      "motion",
+      "movement"
     ]
   },
   {
@@ -2825,7 +2912,9 @@
       "animation custom exit dialog",
       "custom",
       "dialog",
-      "exit"
+      "exit",
+      "motion",
+      "movement"
     ]
   },
   {
@@ -2836,6 +2925,8 @@
       "animation custom path dialog",
       "custom",
       "dialog",
+      "motion",
+      "movement",
       "path"
     ]
   },
@@ -2845,7 +2936,9 @@
     "keywords": [
       "animation",
       "animation delay",
-      "delay"
+      "delay",
+      "motion",
+      "movement"
     ]
   },
   {
@@ -2854,7 +2947,9 @@
     "keywords": [
       "animation",
       "animation duration",
-      "duration"
+      "duration",
+      "motion",
+      "movement"
     ]
   },
   {
@@ -2863,7 +2958,9 @@
     "keywords": [
       "animation",
       "animation gallery",
-      "gallery"
+      "gallery",
+      "motion",
+      "movement"
     ]
   },
   {
@@ -2873,7 +2970,9 @@
       "animation",
       "animation move earlier",
       "earlier",
-      "move"
+      "motion",
+      "move",
+      "movement"
     ]
   },
   {
@@ -2883,7 +2982,9 @@
       "animation",
       "animation move later",
       "later",
-      "move"
+      "motion",
+      "move",
+      "movement"
     ]
   },
   {
@@ -2893,6 +2994,8 @@
       "animation",
       "animation on click",
       "click",
+      "motion",
+      "movement",
       "on"
     ]
   },
@@ -2902,6 +3005,8 @@
     "keywords": [
       "animation",
       "animation painter",
+      "motion",
+      "movement",
       "painter"
     ]
   },
@@ -2911,6 +3016,8 @@
     "keywords": [
       "animation",
       "animation preview",
+      "motion",
+      "movement",
       "preview"
     ]
   },
@@ -2921,6 +3028,8 @@
       "animation",
       "animation preview menu",
       "menu",
+      "motion",
+      "movement",
       "preview"
     ]
   },
@@ -2931,6 +3040,8 @@
       "animation",
       "animation start dropdown",
       "dropdown",
+      "motion",
+      "movement",
       "start"
     ]
   },
@@ -2941,6 +3052,8 @@
       "animation",
       "animation transition gallery",
       "gallery",
+      "motion",
+      "movement",
       "transition"
     ]
   },
@@ -2950,8 +3063,13 @@
     "keywords": [
       "animation",
       "animation transition sound gallery",
+      "audio",
       "gallery",
+      "motion",
+      "movement",
+      "music",
       "sound",
+      "speaker",
       "transition"
     ]
   },
@@ -2962,6 +3080,8 @@
       "animation",
       "animation transition speed gallery",
       "gallery",
+      "motion",
+      "movement",
       "speed",
       "transition"
     ]
@@ -2973,6 +3093,8 @@
       "animation",
       "animation transition variant gallery",
       "gallery",
+      "motion",
+      "movement",
       "transition",
       "variant"
     ]
@@ -2987,6 +3109,8 @@
       "create",
       "insert",
       "menu",
+      "motion",
+      "movement",
       "new",
       "trigger"
     ]
@@ -3001,6 +3125,8 @@
       "click",
       "create",
       "insert",
+      "motion",
+      "movement",
       "new",
       "on",
       "trigger"
@@ -3017,6 +3143,8 @@
       "create",
       "insert",
       "media",
+      "motion",
+      "movement",
       "new",
       "on",
       "trigger"
@@ -3123,6 +3251,7 @@
       "apply image background fill",
       "background",
       "fill",
+      "graphic",
       "image",
       "photo",
       "picture"
@@ -3135,6 +3264,7 @@
       "apply",
       "apply image background tile",
       "background",
+      "graphic",
       "image",
       "photo",
       "picture",
@@ -3148,6 +3278,7 @@
       "apply",
       "apply image to background menu",
       "background",
+      "graphic",
       "image",
       "menu",
       "photo",
@@ -3533,6 +3664,8 @@
       "arrange",
       "arrange by folder",
       "by",
+      "directory",
+      "files",
       "folder"
     ]
   },
@@ -3923,6 +4056,7 @@
     "keywords": [
       "attach",
       "attach file",
+      "document",
       "file"
     ]
   },
@@ -3958,8 +4092,10 @@
     "name": "AttachNotesToMeeting",
     "description": "Office icon for attach notes to meeting.",
     "keywords": [
+      "appointment",
       "attach",
       "attach notes to meeting",
+      "conference",
       "meeting",
       "notes",
       "to"
@@ -3972,8 +4108,14 @@
       "and",
       "audio",
       "audio and video give feedback",
+      "clip",
       "feedback",
+      "film",
       "give",
+      "movie",
+      "music",
+      "sound",
+      "speaker",
       "video"
     ]
   },
@@ -3987,7 +4129,10 @@
       "bookmark",
       "create",
       "insert",
-      "new"
+      "music",
+      "new",
+      "sound",
+      "speaker"
     ]
   },
   {
@@ -3997,7 +4142,10 @@
       "audio",
       "audio bookmark remove",
       "bookmark",
-      "remove"
+      "music",
+      "remove",
+      "sound",
+      "speaker"
     ]
   },
   {
@@ -4008,6 +4156,9 @@
       "audio fade in time",
       "fade",
       "in",
+      "music",
+      "sound",
+      "speaker",
       "time"
     ]
   },
@@ -4018,7 +4169,10 @@
       "audio",
       "audio fade out time",
       "fade",
+      "music",
       "out",
+      "sound",
+      "speaker",
       "time"
     ]
   },
@@ -4030,7 +4184,10 @@
       "audio",
       "audio insert",
       "create",
-      "insert"
+      "insert",
+      "music",
+      "sound",
+      "speaker"
     ]
   },
   {
@@ -4041,8 +4198,11 @@
       "audio note delete",
       "clear",
       "delete",
+      "music",
       "note",
-      "remove"
+      "remove",
+      "sound",
+      "speaker"
     ]
   },
   {
@@ -4051,8 +4211,11 @@
     "keywords": [
       "audio",
       "audio note playback",
+      "music",
       "note",
-      "playback"
+      "playback",
+      "sound",
+      "speaker"
     ]
   },
   {
@@ -4064,7 +4227,10 @@
       "audio recording insert",
       "create",
       "insert",
-      "recording"
+      "music",
+      "recording",
+      "sound",
+      "speaker"
     ]
   },
   {
@@ -4074,6 +4240,9 @@
       "audio",
       "audio start gallery",
       "gallery",
+      "music",
+      "sound",
+      "speaker",
       "start"
     ]
   },
@@ -4083,6 +4252,9 @@
     "keywords": [
       "audio",
       "audio styles",
+      "music",
+      "sound",
+      "speaker",
       "styles"
     ]
   },
@@ -4092,6 +4264,9 @@
     "keywords": [
       "audio",
       "audio tools trim",
+      "music",
+      "sound",
+      "speaker",
       "tools",
       "trim"
     ]
@@ -4102,7 +4277,13 @@
     "keywords": [
       "audio",
       "audio video settings",
+      "clip",
+      "film",
+      "movie",
+      "music",
       "settings",
+      "sound",
+      "speaker",
       "video"
     ]
   },
@@ -4113,6 +4294,9 @@
       "audio",
       "audio volume gallery",
       "gallery",
+      "music",
+      "sound",
+      "speaker",
       "volume"
     ]
   },
@@ -4131,9 +4315,11 @@
     "description": "Office icon for auto align and space.",
     "keywords": [
       "align",
+      "alignment",
       "and",
       "auto",
       "auto align and space",
+      "position",
       "space"
     ]
   },
@@ -4335,19 +4521,23 @@
   },
   {
     "name": "AutoSigInsertPictureFromFile",
-    "description": "Office icon for auto sig insert picture from file.",
+    "description": "Insert a picture from a file into an email signature.",
     "keywords": [
       "add",
       "auto",
       "auto sig insert picture from file",
       "create",
+      "document",
+      "email",
       "file",
       "from",
+      "graphic",
       "image",
       "insert",
       "photo",
       "picture",
-      "sig"
+      "sig",
+      "signature"
     ]
   },
   {
@@ -4360,8 +4550,11 @@
       "create",
       "hyperlink",
       "insert",
+      "link",
       "sig",
-      "web"
+      "url",
+      "web",
+      "web address"
     ]
   },
   {
@@ -4467,6 +4660,7 @@
       "background",
       "background image gallery",
       "gallery",
+      "graphic",
       "image",
       "photo",
       "picture"
@@ -4507,9 +4701,12 @@
     "name": "BackgroundSound",
     "description": "Office icon for background sound.",
     "keywords": [
+      "audio",
       "background",
       "background sound",
-      "sound"
+      "music",
+      "sound",
+      "speaker"
     ]
   },
   {
@@ -5527,8 +5724,10 @@
     "description": "Office icon for bottom vertical align.",
     "keywords": [
       "align",
+      "alignment",
       "bottom",
       "bottom vertical align",
+      "position",
       "vertical"
     ]
   },
@@ -5577,12 +5776,13 @@
       "contrast",
       "edit",
       "illumination",
-      "light"
+      "light",
+      "screen brightness"
     ]
   },
   {
     "name": "BrightnessLess",
-    "description": "Reduce screen brightness or dim the display.",
+    "description": "Sun icon for reducing screen brightness and glare.",
     "keywords": [
       "brightness",
       "brightness less",
@@ -5591,18 +5791,22 @@
       "dim",
       "dimmer",
       "display",
+      "glare",
       "illumination",
       "less",
       "light",
       "lower",
       "moon",
       "night",
-      "screen"
+      "screen",
+      "screen brightness",
+      "sun",
+      "sunlight"
     ]
   },
   {
     "name": "BrightnessMore",
-    "description": "Increase screen brightness or brighten the display.",
+    "description": "Sun icon for increasing screen brightness.",
     "keywords": [
       "brighten",
       "brighter",
@@ -5615,6 +5819,7 @@
       "light",
       "more",
       "screen",
+      "screen brightness",
       "sun"
     ]
   },
@@ -5703,8 +5908,10 @@
     "keywords": [
       "broadcast",
       "broadcast slide show",
+      "presentation",
       "show",
-      "slide"
+      "slide",
+      "slideshow"
     ]
   },
   {
@@ -5714,8 +5921,10 @@
       "backstage",
       "broadcast",
       "broadcast slide show backstage",
+      "presentation",
       "show",
-      "slide"
+      "slide",
+      "slideshow"
     ]
   },
   {
@@ -5725,8 +5934,10 @@
       "broadcast",
       "broadcast slide show generic",
       "generic",
+      "presentation",
       "show",
-      "slide"
+      "slide",
+      "slideshow"
     ]
   },
   {
@@ -5736,8 +5947,10 @@
       "broadcast",
       "broadcast slide show lync",
       "lync",
+      "presentation",
       "show",
-      "slide"
+      "slide",
+      "slideshow"
     ]
   },
   {
@@ -5748,8 +5961,10 @@
       "broadcast slide show office hosted",
       "hosted",
       "office",
+      "presentation",
       "show",
-      "slide"
+      "slide",
+      "slideshow"
     ]
   },
   {
@@ -5759,6 +5974,7 @@
       "background",
       "browse",
       "browse background image",
+      "graphic",
       "image",
       "photo",
       "picture"
@@ -5793,11 +6009,17 @@
   },
   {
     "name": "BuildHyperlink",
-    "description": "Office icon for build hyperlink.",
+    "description": "Create a web hyperlink or URL.",
     "keywords": [
+      "address",
       "build",
       "build hyperlink",
-      "hyperlink"
+      "hyperlink",
+      "link",
+      "url",
+      "web",
+      "web address",
+      "website"
     ]
   },
   {
@@ -6238,27 +6460,37 @@
     "name": "CalendarConfigure",
     "description": "Office icon for calendar configure.",
     "keywords": [
+      "appointment",
       "calendar",
       "calendar configure",
-      "configure"
+      "configure",
+      "date",
+      "schedule"
     ]
   },
   {
     "name": "CalendarHorizontal",
     "description": "Office icon for calendar horizontal.",
     "keywords": [
+      "appointment",
       "calendar",
       "calendar horizontal",
-      "horizontal"
+      "date",
+      "horizontal",
+      "schedule"
     ]
   },
   {
     "name": "CalendarImport",
-    "description": "Office icon for calendar import.",
+    "description": "Import appointments and events into a calendar.",
     "keywords": [
+      "appointment",
       "calendar",
       "calendar import",
-      "import"
+      "date",
+      "event",
+      "import",
+      "schedule"
     ]
   },
   {
@@ -6266,21 +6498,27 @@
     "description": "Office icon for calendar insert.",
     "keywords": [
       "add",
+      "appointment",
       "calendar",
       "calendar insert",
       "create",
-      "insert"
+      "date",
+      "insert",
+      "schedule"
     ]
   },
   {
     "name": "CalendarMonthDetailsSplitButton",
     "description": "Office icon for calendar month details split button.",
     "keywords": [
+      "appointment",
       "button",
       "calendar",
       "calendar month details split button",
+      "date",
       "details",
       "month",
+      "schedule",
       "split"
     ]
   },
@@ -6288,21 +6526,27 @@
     "name": "CalendarNewItemMenu",
     "description": "Office icon for calendar new item menu.",
     "keywords": [
+      "appointment",
       "calendar",
       "calendar new item menu",
+      "date",
       "item",
       "menu",
-      "new"
+      "new",
+      "schedule"
     ]
   },
   {
     "name": "CalendarOpen",
     "description": "Office icon for calendar open.",
     "keywords": [
+      "appointment",
       "calendar",
       "calendar open",
+      "date",
       "launch",
       "open",
+      "schedule",
       "show"
     ]
   },
@@ -6320,10 +6564,13 @@
     "description": "Office icon for calendar tool export all appointments.",
     "keywords": [
       "all",
+      "appointment",
       "appointments",
       "calendar",
       "calendar tool export all appointments",
+      "date",
       "export",
+      "schedule",
       "tool"
     ]
   },
@@ -6334,7 +6581,9 @@
       "appointment",
       "calendar",
       "calendar tool export selected appointment",
+      "date",
       "export",
+      "schedule",
       "selected",
       "tool"
     ]
@@ -6343,9 +6592,12 @@
     "name": "CalendarToolImport",
     "description": "Office icon for calendar tool import.",
     "keywords": [
+      "appointment",
       "calendar",
       "calendar tool import",
+      "date",
       "import",
+      "schedule",
       "tool"
     ]
   },
@@ -6356,7 +6608,9 @@
       "appointment",
       "calendar",
       "calendar tool new appointment",
+      "date",
       "new",
+      "schedule",
       "tool"
     ]
   },
@@ -6364,9 +6618,11 @@
     "name": "CalendarToolSelectDate",
     "description": "Office icon for calendar tool select date.",
     "keywords": [
+      "appointment",
       "calendar",
       "calendar tool select date",
       "date",
+      "schedule",
       "select",
       "tool"
     ]
@@ -6375,8 +6631,11 @@
     "name": "CalendarToolToday",
     "description": "Office icon for calendar tool today.",
     "keywords": [
+      "appointment",
       "calendar",
       "calendar tool today",
+      "date",
+      "schedule",
       "today",
       "tool"
     ]
@@ -6386,10 +6645,13 @@
     "description": "Office icon for calendar view format bar styles.",
     "keywords": [
       "appearance",
+      "appointment",
       "bar",
       "calendar",
       "calendar view format bar styles",
+      "date",
       "format",
+      "schedule",
       "style",
       "styles",
       "view"
@@ -6399,9 +6661,12 @@
     "name": "CalendarViewGallery",
     "description": "Office icon for calendar view gallery.",
     "keywords": [
+      "appointment",
       "calendar",
       "calendar view gallery",
+      "date",
       "gallery",
+      "schedule",
       "view"
     ]
   },
@@ -6409,10 +6674,13 @@
     "name": "CalendarViewLayoutNow",
     "description": "Office icon for calendar view layout now.",
     "keywords": [
+      "appointment",
       "calendar",
       "calendar view layout now",
+      "date",
       "layout",
       "now",
+      "schedule",
       "view"
     ]
   },
@@ -6420,9 +6688,12 @@
     "name": "CalendarViewTaskList",
     "description": "Office icon for calendar view task list.",
     "keywords": [
+      "appointment",
       "calendar",
       "calendar view task list",
+      "date",
       "list",
+      "schedule",
       "task",
       "view"
     ]
@@ -6431,11 +6702,14 @@
     "name": "CalendarViewWeekHeightBestFit",
     "description": "Office icon for calendar view week height best fit.",
     "keywords": [
+      "appointment",
       "best",
       "calendar",
       "calendar view week height best fit",
+      "date",
       "fit",
       "height",
+      "schedule",
       "view",
       "week"
     ]
@@ -6444,10 +6718,13 @@
     "name": "CalendarViewZoom",
     "description": "Office icon for calendar view zoom.",
     "keywords": [
+      "appointment",
       "calendar",
       "calendar view zoom",
+      "date",
       "magnify",
       "scale",
+      "schedule",
       "view",
       "zoom"
     ]
@@ -6552,8 +6829,10 @@
     "name": "CancelMeeting",
     "description": "Office icon for cancel meeting.",
     "keywords": [
+      "appointment",
       "cancel",
       "cancel meeting",
+      "conference",
       "meeting"
     ]
   },
@@ -6718,6 +6997,7 @@
       "create",
       "fields",
       "gallery",
+      "graphic",
       "image",
       "insert",
       "merge",
@@ -6781,6 +7061,7 @@
     "keywords": [
       "catalog",
       "catalog merge more picture options",
+      "graphic",
       "image",
       "merge",
       "more",
@@ -6932,7 +7213,10 @@
       "automatically",
       "cd",
       "cd audio play track automatically",
+      "music",
       "play",
+      "sound",
+      "speaker",
       "track"
     ]
   },
@@ -6943,6 +7227,9 @@
       "audio",
       "cd",
       "cd audio start time",
+      "music",
+      "sound",
+      "speaker",
       "start",
       "time"
     ]
@@ -6954,6 +7241,9 @@
       "audio",
       "cd",
       "cd audio start track",
+      "music",
+      "sound",
+      "speaker",
       "start",
       "track"
     ]
@@ -6965,6 +7255,9 @@
       "audio",
       "cd",
       "cd audio stop time",
+      "music",
+      "sound",
+      "speaker",
       "stop",
       "time"
     ]
@@ -6976,6 +7269,9 @@
       "audio",
       "cd",
       "cd audio stop track",
+      "music",
+      "sound",
+      "speaker",
       "stop",
       "track"
     ]
@@ -7193,7 +7489,9 @@
     "keywords": [
       "change",
       "change folder download settings",
+      "directory",
       "download",
+      "files",
       "folder",
       "settings"
     ]
@@ -7204,7 +7502,9 @@
     "keywords": [
       "change",
       "change picture file type",
+      "document",
       "file",
+      "graphic",
       "image",
       "photo",
       "picture",
@@ -7218,6 +7518,7 @@
       "change",
       "change picture from scanner",
       "from",
+      "graphic",
       "image",
       "photo",
       "picture",
@@ -8112,14 +8413,17 @@
   },
   {
     "name": "ChartInsert",
-    "description": "Office icon for chart insert.",
+    "description": "Insert a chart or graph to visualize data.",
     "keywords": [
       "add",
+      "bar chart",
       "chart",
       "chart insert",
       "create",
+      "data",
       "graph",
       "insert",
+      "plot",
       "visualization"
     ]
   },
@@ -8572,6 +8876,7 @@
       "chart",
       "chart show big picture",
       "graph",
+      "graphic",
       "image",
       "photo",
       "picture",
@@ -9024,6 +9329,7 @@
     "keywords": [
       "check",
       "check in file",
+      "document",
       "file",
       "in"
     ]
@@ -9063,6 +9369,7 @@
     "keywords": [
       "check",
       "check out file",
+      "document",
       "file",
       "out"
     ]
@@ -9095,7 +9402,9 @@
       "chess tool rotate left",
       "left",
       "rotate",
-      "tool"
+      "rotation",
+      "tool",
+      "turn"
     ]
   },
   {
@@ -9106,7 +9415,9 @@
       "chess tool rotate right",
       "right",
       "rotate",
-      "tool"
+      "rotation",
+      "tool",
+      "turn"
     ]
   },
   {
@@ -9524,7 +9835,9 @@
     "keywords": [
       "close",
       "close document",
-      "document"
+      "document",
+      "file",
+      "page"
     ]
   },
   {
@@ -9545,6 +9858,7 @@
       "close",
       "close outlook data file",
       "data",
+      "document",
       "file",
       "outlook"
     ]
@@ -9644,7 +9958,10 @@
       "back",
       "code",
       "code hyperlink back",
-      "hyperlink"
+      "hyperlink",
+      "link",
+      "url",
+      "web address"
     ]
   },
   {
@@ -9654,7 +9971,10 @@
       "code",
       "code hyperlink forward",
       "forward",
-      "hyperlink"
+      "hyperlink",
+      "link",
+      "url",
+      "web address"
     ]
   },
   {
@@ -9919,11 +10239,14 @@
     "name": "ColorPickerCalendar",
     "description": "Office icon for color picker calendar.",
     "keywords": [
+      "appointment",
       "calendar",
       "color",
       "color picker calendar",
       "colour",
-      "picker"
+      "date",
+      "picker",
+      "schedule"
     ]
   },
   {
@@ -11242,7 +11565,9 @@
     "name": "ContactCardScheduleMeeting",
     "description": "Office icon for contact card schedule meeting.",
     "keywords": [
+      "appointment",
       "card",
+      "conference",
       "contact",
       "contact card schedule meeting",
       "meeting",
@@ -11318,8 +11643,11 @@
     "keywords": [
       "call",
       "card",
+      "clip",
       "contact",
       "contact card video call",
+      "film",
+      "movie",
       "video"
     ]
   },
@@ -11373,8 +11701,11 @@
     "keywords": [
       "contact",
       "contact link menu",
+      "hyperlink",
       "link",
-      "menu"
+      "menu",
+      "url",
+      "web address"
     ]
   },
   {
@@ -11383,6 +11714,7 @@
     "keywords": [
       "contact",
       "contact picture menu",
+      "graphic",
       "image",
       "menu",
       "photo",
@@ -11614,6 +11946,7 @@
       "content",
       "content control picture",
       "control",
+      "graphic",
       "image",
       "photo",
       "picture"
@@ -11687,6 +12020,8 @@
     "keywords": [
       "content",
       "content folder menu",
+      "directory",
+      "files",
       "folder",
       "menu"
     ]
@@ -11908,9 +12243,11 @@
     "description": "Office icon for control align menu.",
     "keywords": [
       "align",
+      "alignment",
       "control",
       "control align menu",
-      "menu"
+      "menu",
+      "position"
     ]
   },
   {
@@ -11918,9 +12255,11 @@
     "description": "Office icon for control align to grid.",
     "keywords": [
       "align",
+      "alignment",
       "control",
       "control align to grid",
       "grid",
+      "position",
       "to"
     ]
   },
@@ -11973,6 +12312,7 @@
     "keywords": [
       "control",
       "control image",
+      "graphic",
       "image",
       "photo",
       "picture"
@@ -12334,6 +12674,7 @@
       "button",
       "control",
       "control property picture button browse hover picture",
+      "graphic",
       "hover",
       "image",
       "photo",
@@ -12349,6 +12690,7 @@
       "button",
       "control",
       "control property picture button browse picture",
+      "graphic",
       "image",
       "photo",
       "picture",
@@ -12887,7 +13229,10 @@
       "copy",
       "copy as link",
       "duplicate",
-      "link"
+      "hyperlink",
+      "link",
+      "url",
+      "web address"
     ]
   },
   {
@@ -12898,8 +13243,11 @@
       "copy",
       "copy as link menu",
       "duplicate",
+      "hyperlink",
       "link",
-      "menu"
+      "menu",
+      "url",
+      "web address"
     ]
   },
   {
@@ -12921,7 +13269,10 @@
       "copy entry as link",
       "duplicate",
       "entry",
-      "link"
+      "hyperlink",
+      "link",
+      "url",
+      "web address"
     ]
   },
   {
@@ -12930,7 +13281,9 @@
     "keywords": [
       "copy",
       "copy folder",
+      "directory",
       "duplicate",
+      "files",
       "folder"
     ]
   },
@@ -12999,6 +13352,7 @@
       "copy",
       "copy picture",
       "duplicate",
+      "graphic",
       "image",
       "photo",
       "picture"
@@ -13041,7 +13395,9 @@
     "keywords": [
       "copy",
       "copy this folder",
+      "directory",
       "duplicate",
+      "files",
       "folder",
       "this"
     ]
@@ -13052,7 +13408,9 @@
     "keywords": [
       "copy",
       "copy to folder",
+      "directory",
       "duplicate",
+      "files",
       "folder",
       "to"
     ]
@@ -13061,11 +13419,14 @@
     "name": "CopyToPersonalCalendar",
     "description": "Office icon for copy to personal calendar.",
     "keywords": [
+      "appointment",
       "calendar",
       "copy",
       "copy to personal calendar",
+      "date",
       "duplicate",
       "personal",
+      "schedule",
       "to"
     ]
   },
@@ -13267,7 +13628,9 @@
       "create",
       "create document library",
       "document",
-      "library"
+      "file",
+      "library",
+      "page"
     ]
   },
   {
@@ -14165,7 +14528,9 @@
       "functional",
       "label",
       "lane",
-      "rotate"
+      "rotate",
+      "rotation",
+      "turn"
     ]
   },
   {
@@ -14441,6 +14806,8 @@
     "keywords": [
       "customize",
       "customize search folder",
+      "directory",
+      "files",
       "find",
       "folder",
       "lookup",
@@ -14616,7 +14983,10 @@
       "automatically",
       "data",
       "data automatically link",
-      "link"
+      "hyperlink",
+      "link",
+      "url",
+      "web address"
     ]
   },
   {
@@ -14658,6 +15028,7 @@
       "copy",
       "database",
       "database copy database file",
+      "document",
       "duplicate",
       "file"
     ]
@@ -14710,6 +15081,7 @@
     "keywords": [
       "database",
       "database make mde file",
+      "document",
       "file",
       "make",
       "mde"
@@ -15065,6 +15437,7 @@
     "keywords": [
       "data",
       "data file properties",
+      "document",
       "file",
       "properties"
     ]
@@ -15238,6 +15611,7 @@
     "keywords": [
       "data",
       "data from xml file",
+      "document",
       "file",
       "from",
       "xml"
@@ -15425,9 +15799,12 @@
     "keywords": [
       "data",
       "data link data to shapes",
+      "hyperlink",
       "link",
       "shapes",
-      "to"
+      "to",
+      "url",
+      "web address"
     ]
   },
   {
@@ -15714,6 +16091,7 @@
       "catalog",
       "data",
       "data source catalog xml file",
+      "document",
       "file",
       "source",
       "xml"
@@ -15891,7 +16269,10 @@
       "data",
       "data type hyperlink",
       "hyperlink",
-      "type"
+      "link",
+      "type",
+      "url",
+      "web address"
     ]
   },
   {
@@ -16505,9 +16886,12 @@
       "clear",
       "delete",
       "delete navigation link",
+      "hyperlink",
       "link",
       "navigation",
-      "remove"
+      "remove",
+      "url",
+      "web address"
     ]
   },
   {
