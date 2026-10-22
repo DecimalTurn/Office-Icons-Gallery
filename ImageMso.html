@@ -9,6 +9,7 @@
   </head>
   <body>
     <h1>Office Icon Gallery</h1>
+    <p>Total icons: <span id="icon-count">Counting...</span></p>
     <div class="mso-filter">
       <form>
         <span>full text seach: </span><input autofocus id="mso-search" name="SearchMso" type="text" maxlength="255" value="" class="awesomplete" data-list=".mso-list" data-minchars="2" data-maxitems="100000"/>
@@ -1516,5 +1517,9 @@
       <li><img title="DeletePermissionGroup" alt="DeletePermissionGroup" src="./images/DeletePermissionGroup.png" /><span>DeletePermissionGroup</span></li>
       <li><img title="DeleteRows" alt="DeleteRows" src="./images/DeleteRows.png" /><span>DeleteRows</span></li>
     </ol>
+    <script>
+      document.getElementById("icon-count").textContent =
+        document.querySelectorAll(".mso-list > li").length.toLocaleString();
+    </script>
   </body>
 </html>
