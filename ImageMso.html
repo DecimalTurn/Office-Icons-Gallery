@@ -47,8 +47,35 @@
       const nextPages = document.querySelectorAll(".next-page");
       const searchInput = document.getElementById("mso-search");
       const iconCount = document.getElementById("icon-count");
+      const searchQuery = new URLSearchParams(window.location.search).get(searchInput.name)?.trim() || "";
       let icons = [];
       let currentPage = 0;
+
+      searchInput.value = searchQuery;
+
+      searchInput.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter") {
+          return;
+        }
+
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        searchInput.form.requestSubmit();
+      }, true);
+
+      searchInput.form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const url = new URL(window.location.href);
+        const query = searchInput.value.trim();
+
+        if (query) {
+          url.searchParams.set(searchInput.name, query);
+        } else {
+          url.searchParams.delete(searchInput.name);
+        }
+
+        window.location.href = url.href;
+      });
 
       function iconPageUrl(name) {
         return `./Icon.html?name=${encodeURIComponent(name)}`;
@@ -61,6 +88,21 @@
           .toLowerCase()
           .split(/[^a-z0-9]+/)
           .filter(Boolean);
+      }
+
+      function matchesSearch(icon, value) {
+        const searchableWords = splitSearchWords([
+          icon.name,
+          icon.description,
+          ...(icon.keywords || [])
+        ].join(" "));
+        const queryWords = splitSearchWords(value);
+
+        return queryWords.every((word) =>
+          searchableWords.some((searchableWord) =>
+            searchableWord === word || (word.length >= 4 && searchableWord.startsWith(word))
+          )
+        );
       }
 
       function showPage() {
@@ -88,13 +130,15 @@
         const pageCount = Math.ceil(icons.length / pageSize);
 
         pageStatuses.forEach((status) => {
-          status.textContent = `Page ${currentPage + 1} of ${pageCount} (${(start + 1).toLocaleString()}-${end.toLocaleString()} of ${icons.length.toLocaleString()} icons)`;
+          status.textContent = pageCount === 0
+            ? "No icons found."
+            : `Page ${currentPage + 1} of ${pageCount} (${(start + 1).toLocaleString()}-${end.toLocaleString()} of ${icons.length.toLocaleString()} icons)`;
         });
         previousPages.forEach((button) => {
           button.disabled = currentPage === 0;
         });
         nextPages.forEach((button) => {
-          button.disabled = currentPage === pageCount - 1;
+          button.disabled = pageCount === 0 || currentPage === pageCount - 1;
         });
       }
 
@@ -126,7 +170,7 @@
           }
 
           const metadata = await response.json();
-          icons = metadata;
+          icons = searchQuery ? metadata.filter((icon) => matchesSearch(icon, searchQuery)) : metadata;
           iconCount.textContent = icons.length.toLocaleString();
           showPage();
 
@@ -137,18 +181,7 @@
           const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
           autocomplete.filter = (suggestion, value) => {
             const icon = metadataByName.get(suggestion.value);
-            const searchableWords = splitSearchWords([
-              suggestion.value,
-              icon?.description,
-              ...(icon?.keywords || [])
-            ].join(" "));
-            const queryWords = splitSearchWords(value);
-
-            return queryWords.every((word) =>
-              searchableWords.some((searchableWord) =>
-                searchableWord === word || (word.length >= 4 && searchableWord.startsWith(word))
-              )
-            );
+            return icon ? matchesSearch(icon, value) : false;
           };
           autocomplete.list = metadata.map((icon) => icon.name);
 
