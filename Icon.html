@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Office Icon Gallery</title>
+    <link href="./ImageMso.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="icon-detail-page">
+    <main class="icon-detail">
+      <a class="icon-detail-back" href="./ImageMso.html">Back to gallery</a>
+      <h1 id="icon-name">Office Icon Gallery</h1>
+      <img id="icon-image" class="icon-detail-image" alt="" />
+      <button id="copy-name" type="button" disabled>Copy icon name</button>
+      <p id="copy-status" role="status" aria-live="polite"></p>
+      <p id="icon-error" role="alert" hidden></p>
+    </main>
+    <script>
+      const iconName = new URLSearchParams(window.location.search).get("name");
+      const nameHeading = document.getElementById("icon-name");
+      const iconImage = document.getElementById("icon-image");
+      const copyButton = document.getElementById("copy-name");
+      const copyStatus = document.getElementById("copy-status");
+      const errorMessage = document.getElementById("icon-error");
+      const validIconName = iconName && /^[A-Za-z0-9_]+$/.test(iconName);
+
+      if (validIconName) {
+        document.title = `${iconName} | Office Icon Gallery`;
+        nameHeading.textContent = iconName;
+        iconImage.alt = iconName;
+        iconImage.src = `./images/${encodeURIComponent(iconName)}.png`;
+        copyButton.disabled = false;
+        iconImage.addEventListener("error", () => {
+          iconImage.hidden = true;
+          copyButton.disabled = true;
+          errorMessage.textContent = "That icon could not be found.";
+          errorMessage.hidden = false;
+        });
+      } else {
+        errorMessage.textContent = "Choose an icon from the gallery to view it here.";
+        errorMessage.hidden = false;
+      }
+
+      function copyUsingSelection() {
+        const temporaryInput = document.createElement("textarea");
+        temporaryInput.value = iconName;
+        temporaryInput.style.position = "fixed";
+        temporaryInput.style.opacity = "0";
+        document.body.appendChild(temporaryInput);
+        temporaryInput.select();
+        const copied = document.execCommand("copy");
+        temporaryInput.remove();
+        return copied;
+      }
+
+      copyButton.addEventListener("click", async () => {
+        if (!validIconName) {
+          return;
+        }
+
+        copyStatus.textContent = "Copying icon name...";
+        try {
+          if (!copyUsingSelection()) {
+            if (!navigator.clipboard || !navigator.clipboard.writeText) {
+              throw new Error("Clipboard access is unavailable");
+            }
+            await navigator.clipboard.writeText(iconName);
+          }
+          copyStatus.textContent = "Copied icon name";
+        } catch {
+          copyStatus.textContent = "Could not copy the icon name";
+        }
+      });
+    </script>
+  </body>
+</html>

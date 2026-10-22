@@ -1536,6 +1536,19 @@
       const nextPages = document.querySelectorAll(".next-page");
       let currentPage = 0;
 
+      function iconPageUrl(name) {
+        return `./Icon.html?name=${encodeURIComponent(name)}`;
+      }
+
+      icons.forEach((icon) => {
+        const iconName = icon.querySelector("span").textContent.trim();
+        const link = document.createElement("a");
+        link.className = "icon-link";
+        link.href = iconPageUrl(iconName);
+        link.appendChild(icon.querySelector("img"));
+        icon.insertBefore(link, icon.firstChild);
+      });
+
       document.getElementById("icon-count").textContent = icons.length.toLocaleString();
 
       function showPage() {
@@ -1572,14 +1585,7 @@
       }));
 
       document.getElementById("mso-search").addEventListener("awesomplete-selectcomplete", (event) => {
-        const iconIndex = icons.findIndex((icon) =>
-          icon.querySelector("span").textContent.trim() === event.text.value
-        );
-
-        if (iconIndex >= 0) {
-          currentPage = Math.floor(iconIndex / pageSize);
-          showPage();
-        }
+        window.location.href = iconPageUrl(event.text.value);
       });
 
       showPage();
