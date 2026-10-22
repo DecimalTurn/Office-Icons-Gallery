@@ -1,0 +1,15 @@
+[project]
+name = "Office-Icons-Exporter"
+version = "0.0.0"
+authors = []
+license = "UNLICENSED"
+target = "xlsm"
+
+[source]
+subfolders = { Objects = "Excel Objects", Forms = "Forms", Modules = "Modules", Classes = "Class Modules" }
+
+[source.files]
+Objects = "src/Excel Objects/**/*.cls"
+Forms = "src/Forms/**/*.frm"
+Modules = "src/Modules/**/*.bas"
+Classes = "src/Class Modules/**/*.cls"
