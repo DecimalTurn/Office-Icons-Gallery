@@ -556,6 +556,12 @@ li span {
   overflow-wrap: anywhere;
 }
 
+.icon-description {
+  max-width: 100%;
+  margin: -12px 0 0;
+  color: var(--page-foreground);
+}
+
 .icon-image-status {
   max-width: 100%;
   margin: 0;
