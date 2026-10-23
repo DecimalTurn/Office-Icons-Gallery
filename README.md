@@ -1,4 +1,4 @@
-# OfficeIconGallery
+# Office Icons Gallery
 
 Full text searchable image gallery of Microsoft Office icons using their `idMso` code.
 
