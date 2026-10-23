@@ -186,11 +186,78 @@ function splitIconName(name = "") {
     .filter(Boolean);
 }
 
+const relatedNameStopWords = new Set([
+  "all", "and", "as", "by", "classic", "control", "dialog", "first", "five", "four",
+  "from", "gallery", "group", "in", "menu", "more", "new", "nine", "of", "on", "one",
+  "options", "other", "same", "second", "seven", "show", "six", "ten", "the", "third",
+  "three", "to", "toolbar", "two", "with"
+]);
+const relatedWordsByName = new Map(iconNames.map((name) => [
+  name,
+  new Set(splitIconName(name)
+    .map((word) => word.toLowerCase())
+    .filter((word) => word.length > 1 && !/^\d+$/.test(word) && !relatedNameStopWords.has(word)))
+]));
+const relatedWordFrequency = new Map();
+for (const words of relatedWordsByName.values()) {
+  for (const word of words) {
+    relatedWordFrequency.set(word, (relatedWordFrequency.get(word) || 0) + 1);
+  }
+}
+
+const maximumCommonWordFrequency = Math.floor(iconNames.length * 0.025);
+const minimumRelatedIconScore = 5;
+const relatedNamesByWord = new Map();
+for (const [name, words] of relatedWordsByName) {
+  for (const word of words) {
+    if (relatedWordFrequency.get(word) > maximumCommonWordFrequency) {
+      continue;
+    }
+
+    const names = relatedNamesByWord.get(word) || [];
+    names.push(name);
+    relatedNamesByWord.set(word, names);
+  }
+}
+
+/** @param {string} name */
+function findRelatedIconNames(name) {
+  const scores = new Map();
+  for (const word of relatedWordsByName.get(name) || []) {
+    const matchingNames = relatedNamesByWord.get(word) || [];
+    const weight = Math.log((iconNames.length + 1) / (relatedWordFrequency.get(word) + 1));
+    for (const relatedName of matchingNames) {
+      if (relatedName === name) {
+        continue;
+      }
+
+      const score = scores.get(relatedName) || { weight: 0, sharedWordCount: 0 };
+      score.weight += weight;
+      score.sharedWordCount += 1;
+      scores.set(relatedName, score);
+    }
+  }
+
+  const curatedNames = relatedIconOverrides.get(name) || [];
+  const generatedNames = [...scores.entries()]
+    .filter(([, score]) => score.weight >= minimumRelatedIconScore)
+    .sort(([leftName, leftScore], [rightName, rightScore]) =>
+      rightScore.weight - leftScore.weight ||
+      rightScore.sharedWordCount - leftScore.sharedWordCount ||
+      leftName.localeCompare(rightName, "en", { numeric: true, sensitivity: "base" }) ||
+      leftName.localeCompare(rightName)
+    )
+    .map(([relatedName]) => relatedName)
+    .filter((relatedName) => !curatedNames.includes(relatedName));
+
+  return [...curatedNames, ...generatedNames].slice(0, 12);
+}
+
 const metadata = iconNames.map((name) => {
   const words = splitIconName(name);
   const normalizedWords = words.map((word) => word.toLowerCase());
   const override = iconOverrides.get(name);
-  const relatedIcons = relatedIconOverrides.get(name);
+  const relatedIcons = findRelatedIconNames(name);
   const imageHash = imageHashByName.get(name);
   const placeholder = placeholderByHash.get(imageHash);
   const sameImageIds = placeholder
@@ -211,7 +278,7 @@ const metadata = iconNames.map((name) => {
     name,
     description,
     keywords: [...keywords].filter(Boolean).sort(),
-    ...(relatedIcons ? { relatedIcons } : {}),
+    ...(relatedIcons.length > 0 ? { relatedIcons } : {}),
     ...(sameImageIds.length > 0 ? { sameImageIds } : {}),
     ...(placeholder ? {
       imageStatus: placeholder.imageStatus,

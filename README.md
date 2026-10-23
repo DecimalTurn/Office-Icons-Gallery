@@ -20,3 +20,5 @@ The gallery and searchable metadata are generated from PNG filenames directly in
 node generate-icon-metadata.js
 ```
 
+The generator also splits PascalCase icon IDs into words and ranks related icons by shared, less-common words. It keeps curated matches first, filters weak single-word matches, and limits each related-icon list to 12 entries.
+

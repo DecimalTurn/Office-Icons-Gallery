@@ -6,7 +6,7 @@ test("shows curated related icons on a detail page", async ({ page }) => {
   const section = page.locator("#related-icons-section");
   await expect(section).toBeVisible();
   await expect(section.getByRole("heading", { name: "Related icons" })).toBeVisible();
-  await expect(page.locator("#related-icons-list li")).toHaveText([
+  await expect(page.locator("#related-icons-list li")).toContainText([
     "ZoomFitToWindow",
     "ZoomOnePage",
     "ZoomPageWidth"
@@ -15,6 +15,18 @@ test("shows curated related icons on a detail page", async ({ page }) => {
   await page.getByRole("link", { name: "ZoomPageWidth" }).click();
   await expect(page).toHaveURL(/Icon\.html\?name=ZoomPageWidth$/);
   await expect(page.getByRole("heading", { name: "ZoomPageWidth" })).toBeVisible();
+});
+
+test("suggests icons that share PascalCase name words", async ({ page }) => {
+  await page.goto("/Icon.html?name=PictureInsertFromFile");
+
+  const relatedNames = await page.locator("#related-icons-list li").allTextContents();
+  expect(relatedNames).toContain("AutoSigInsertPictureFromFile");
+  expect(relatedNames).toContain("PictureFromFileInsert");
+  expect(relatedNames).toContain("PictureInsertFromFilePowerPoint");
+  expect(relatedNames).toContain("PictureInsertFromFilePub");
+  expect(relatedNames).not.toContain("_3DBevelPictureTopGallery");
+  expect(relatedNames.length).toBeLessThanOrEqual(12);
 });
 
 test("marks each single-digit number icon as related to the other digits", async ({ page }) => {
@@ -34,7 +46,7 @@ test("marks each single-digit number icon as related to the other digits", async
 });
 
 test("hides the related icons section when no relationships are curated", async ({ page }) => {
-  await page.goto("/Icon.html?name=FileSave");
+  await page.goto("/Icon.html?name=Club");
 
   await expect(page.locator("#related-icons-section")).toBeHidden();
 });
@@ -43,7 +55,7 @@ test("shows other bright icons as related to PictureBrightnessAndContrastGallery
   await page.setViewportSize({ width: 375, height: 800 });
   await page.goto("/Icon.html?name=PictureBrightnessAndContrastGallery");
 
-  await expect(page.locator("#related-icons-list li")).toHaveText([
+  await expect(page.locator("#related-icons-list li")).toContainText([
     "BrightnessAndContrastEdit",
     "BrightnessLess",
     "BrightnessMore",
@@ -51,7 +63,10 @@ test("shows other bright icons as related to PictureBrightnessAndContrastGallery
     "PictureBrightnessGallery"
   ]);
   await expect.poll(() => page.locator("#related-icons-list img").evaluateAll((images) =>
-    images.every((image) => image.complete && image.naturalWidth > 0)
+    images.every((image) => {
+      const htmlImage = /** @type {HTMLImageElement} */ (image);
+      return htmlImage.complete && htmlImage.naturalWidth > 0;
+    })
   )).toBe(true);
 
   const previousButton = page.getByRole("button", { name: "Show previous related icons" });
