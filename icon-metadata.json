@@ -8641,7 +8641,7 @@
   {
     "name": "AnimationTriggerAddMenu",
     "imageAsset": "images/by-hash/b62426a37b8cc53f.png",
-    "description": "Office icon for animation trigger add menu.",
+    "description": "A yellow lightning bolt appears on a white background.",
     "keywords": [
       "add",
       "animation",
@@ -8679,7 +8679,7 @@
   {
     "name": "AnimationTriggerAddOnClick",
     "imageAsset": "images/by-hash/7a0ca51b73f4eacc.png",
-    "description": "Office icon for animation trigger add on click.",
+    "description": "A faint pale outline of a rounded vertical shape appears on white.",
     "keywords": [
       "add",
       "animation",
@@ -8714,7 +8714,7 @@
   {
     "name": "AnimationTriggerAddOnMediaBookmark",
     "imageAsset": "images/by-hash/aa12c08ca0884264.png",
-    "description": "Office icon for animation trigger add on media bookmark.",
+    "description": "A faint, narrow rounded outline appears on white.",
     "keywords": [
       "add",
       "animation",
@@ -8747,7 +8747,7 @@
   {
     "name": "AnonymousAccess",
     "imageAsset": "images/by-hash/990f2d5fbae7e94f.png",
-    "description": "Office icon for anonymous access.",
+    "description": "A small blue outlined circle has a pale shape in its center.",
     "keywords": [
       "access",
       "anonymous",
@@ -8757,7 +8757,7 @@
   {
     "name": "AppendOnly",
     "imageAsset": "images/by-hash/3211a6a8922a4f76.png",
-    "description": "Office icon for append only.",
+    "description": "A gray person silhouette appears beside a small blue mark.",
     "keywords": [
       "append",
       "append only",
@@ -8781,7 +8781,7 @@
   {
     "name": "AppendOnlyControl",
     "imageAsset": "images/by-hash/2588afd13c4576f6.png",
-    "description": "Office icon for append only control.",
+    "description": "A lined document is overlaid with a blue pencil.",
     "keywords": [
       "append",
       "append only control",
@@ -8916,7 +8916,7 @@
   {
     "name": "ApplicationOptionsDialog",
     "imageAsset": "images/by-hash/efd326c5be4d5b20.png",
-    "description": "Office icon for application options dialog.",
+    "description": "A small settings list shows rows with checkboxes and miniature symbols.",
     "keywords": [
       "application",
       "application options dialog",
@@ -9129,7 +9129,7 @@
   {
     "name": "ApplyCoAuthoringLock",
     "imageAsset": "images/by-hash/3d1e582454ba564c.png",
-    "description": "Office icon for apply co authoring lock.",
+    "description": "A pale person outline is crossed by a red diagonal mark.",
     "keywords": [
       "apply",
       "apply co authoring lock",
@@ -9162,7 +9162,7 @@
   {
     "name": "ApplyCommaFormat",
     "imageAsset": "images/by-hash/34cb51453b945174.png",
-    "description": "Office icon for apply comma format.",
+    "description": "A gray comma is centered on a white background.",
     "keywords": [
       "appearance",
       "apply",
@@ -9192,7 +9192,7 @@
   {
     "name": "ApplyCssStyles",
     "imageAsset": "images/by-hash/a85f46fb6686a11a.png",
-    "description": "Office icon for apply css styles.",
+    "description": "A blue letter A sits beside short gray lines and a small blue arrow.",
     "keywords": [
       "apply",
       "apply css styles",
@@ -9217,7 +9217,7 @@
   {
     "name": "ApplyCurrencyFormat",
     "imageAsset": "images/by-hash/85a6a3a5829b5bdb.png",
-    "description": "Office icon for apply currency format.",
+    "description": "A gray dollar sign appears on a white background.",
     "keywords": [
       "appearance",
       "apply",
@@ -9274,7 +9274,7 @@
   {
     "name": "ApplyImageBackgroundFill",
     "imageAsset": "images/by-hash/d73a401d2d9240c1.png",
-    "description": "Office icon for apply image background fill.",
+    "description": "A small picture-like shape is marked with a blue brush.",
     "keywords": [
       "apply",
       "apply image background fill",
@@ -9307,7 +9307,7 @@
   {
     "name": "ApplyImageBackgroundTile",
     "imageAsset": "images/by-hash/18e3f90d57530743.png",
-    "description": "Office icon for apply image background tile.",
+    "description": "Four small picture tiles form a two-by-two grid.",
     "keywords": [
       "apply",
       "apply image background tile",
@@ -9336,7 +9336,7 @@
   {
     "name": "ApplyImageToBackgroundMenu",
     "imageAsset": "images/by-hash/d73a401d2d9240c1.png",
-    "description": "Office icon for apply image to background menu.",
+    "description": "A small picture grid is overlaid with a blue brush.",
     "keywords": [
       "apply",
       "apply image to background menu",
@@ -9370,7 +9370,7 @@
   {
     "name": "ApplyMasterPage1",
     "imageAsset": "images/by-hash/644d9edfe733d347.png",
-    "description": "Office icon for apply master page 1.",
+    "description": "A page layout shows a blue header and several colored content blocks.",
     "keywords": [
       "1",
       "apply",
@@ -9433,7 +9433,7 @@
   {
     "name": "ApplyPercentageFormat",
     "imageAsset": "images/by-hash/07a8f718edb1e043.png",
-    "description": "Office icon for apply percentage format.",
+    "description": "A gray percent sign appears on a white background.",
     "keywords": [
       "appearance",
       "apply",
@@ -9467,7 +9467,7 @@
   {
     "name": "ApplyStylesPane",
     "imageAsset": "images/by-hash/f8c95179d0041093.png",
-    "description": "Office icon for apply styles pane.",
+    "description": "A gray letter A is marked with a small blue brush.",
     "keywords": [
       "apply",
       "apply styles pane",
@@ -9525,7 +9525,7 @@
   {
     "name": "AppointmentAttachment",
     "imageAsset": "images/by-hash/31f2a81ec01323f7.png",
-    "description": "Office icon for appointment attachment.",
+    "description": "A small gray paperclip appears on white.",
     "keywords": [
       "appointment",
       "appointment attachment",
@@ -9571,7 +9571,7 @@
   {
     "name": "AppointmentBusy",
     "imageAsset": "images/by-hash/b193f25c70fbcb28.png",
-    "description": "Office icon for appointment busy.",
+    "description": "A solid blue square has a thin light border.",
     "keywords": [
       "appointment",
       "appointment busy",
@@ -9585,7 +9585,7 @@
   {
     "name": "AppointmentColor0",
     "imageAsset": "images/by-hash/ceaea2de8a03683a.png",
-    "description": "Office icon for appointment color 0.",
+    "description": "A white square is outlined in gray.",
     "keywords": [
       "0",
       "appointment",
@@ -9613,7 +9613,7 @@
   {
     "name": "AppointmentColor1",
     "imageAsset": "images/by-hash/2b3431a2b84ec2ca.png",
-    "description": "Office icon for appointment color 1.",
+    "description": "A solid pink square has a thin light border.",
     "keywords": [
       "1",
       "appointment",
@@ -9638,7 +9638,7 @@
   {
     "name": "AppointmentColor2",
     "imageAsset": "images/by-hash/6421d2cf71829658.png",
-    "description": "Office icon for appointment color 2.",
+    "description": "A solid light blue square has a thin light border.",
     "keywords": [
       "2",
       "appointment",
@@ -9663,7 +9663,7 @@
   {
     "name": "AppointmentColor3",
     "imageAsset": "images/by-hash/b8881f4158ecc05e.png",
-    "description": "Office icon for appointment color 3.",
+    "description": "A solid green square has a thin light border.",
     "keywords": [
       "3",
       "appointment",
@@ -9688,7 +9688,7 @@
   {
     "name": "AppointmentColor4",
     "imageAsset": "images/by-hash/33c7a9a156b7629d.png",
-    "description": "Office icon for appointment color 4.",
+    "description": "A solid pale gray square has a thin light border.",
     "keywords": [
       "4",
       "appointment",
@@ -9713,7 +9713,7 @@
   {
     "name": "AppointmentColor5",
     "imageAsset": "images/by-hash/f79ac4605af91945.png",
-    "description": "Office icon for appointment color 5.",
+    "description": "A solid orange square has a thin light border.",
     "keywords": [
       "5",
       "appointment",
@@ -9738,7 +9738,7 @@
   {
     "name": "AppointmentColor6",
     "imageAsset": "images/by-hash/31f7e1bd0dc685e1.png",
-    "description": "Office icon for appointment color 6.",
+    "description": "A solid teal square has a thin light border.",
     "keywords": [
       "6",
       "appointment",
@@ -9763,7 +9763,7 @@
   {
     "name": "AppointmentColor7",
     "imageAsset": "images/by-hash/588d477300fd2a77.png",
-    "description": "Office icon for appointment color 7.",
+    "description": "A solid olive-green square has a thin light border.",
     "keywords": [
       "7",
       "appointment",
@@ -9788,7 +9788,7 @@
   {
     "name": "AppointmentColor8",
     "imageAsset": "images/by-hash/72258e18044dcd9e.png",
-    "description": "Office icon for appointment color 8.",
+    "description": "A solid lavender square has a thin light border.",
     "keywords": [
       "8",
       "appointment",
@@ -9813,7 +9813,7 @@
   {
     "name": "AppointmentColor9",
     "imageAsset": "images/by-hash/2d2ffcf05b58e812.png",
-    "description": "Office icon for appointment color 9.",
+    "description": "A solid dark green square has a thin light border.",
     "keywords": [
       "9",
       "appointment",
@@ -9838,7 +9838,7 @@
   {
     "name": "AppointmentColor10",
     "imageAsset": "images/by-hash/b1bcf491357b7600.png",
-    "description": "Office icon for appointment color 10.",
+    "description": "A solid bright yellow square has a thin light border.",
     "keywords": [
       "10",
       "appointment",
@@ -9863,7 +9863,7 @@
   {
     "name": "AppointmentColorDialog",
     "imageAsset": "images/by-hash/79c4e995fd60f68e.png",
-    "description": "Office icon for appointment color dialog.",
+    "description": "A compact palette displays several colored squares in a grid.",
     "keywords": [
       "appointment",
       "appointment color dialog",
@@ -9905,7 +9905,7 @@
   {
     "name": "AppointmentOutOfOffice",
     "imageAsset": "images/by-hash/aef5b9da5f6cce26.png",
-    "description": "Office icon for appointment out of office.",
+    "description": "A small calendar-like page is overlaid with a blue crosshatched circle.",
     "keywords": [
       "appointment",
       "appointment out of office",
@@ -9931,7 +9931,7 @@
   {
     "name": "AppointmentWorkingElsewhere",
     "imageAsset": "images/by-hash/18c7454a55e4093b.png",
-    "description": "Office icon for appointment working elsewhere.",
+    "description": "A small calendar-like page is overlaid with a blue outlined globe.",
     "keywords": [
       "appointment",
       "appointment working elsewhere",
@@ -9946,7 +9946,7 @@
   {
     "name": "ApproveApprovalRequest",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
-    "description": "Office icon for approve approval request.",
+    "description": "A green check mark appears on a white background.",
     "keywords": [
       "approval",
       "approve",
@@ -9992,7 +9992,7 @@
   {
     "name": "AppShare",
     "imageAsset": "images/by-hash/0dd8d48f11eac3c8.png",
-    "description": "Office icon for app share.",
+    "description": "A small screen or document is overlaid with a blue globe.",
     "keywords": [
       "app",
       "app share",
@@ -10014,7 +10014,7 @@
   {
     "name": "Archive",
     "imageAsset": "images/by-hash/462518c92afcc2d1.png",
-    "description": "Office icon for archive.",
+    "description": "A blue storage box is shown with a dark crosshatched front.",
     "keywords": [
       "archive"
     ],
