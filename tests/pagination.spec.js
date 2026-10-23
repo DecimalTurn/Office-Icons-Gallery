@@ -21,3 +21,15 @@ test("pagination state is shareable through the URL", async ({ page }) => {
   await page.reload();
   await expect(pageStatus).toContainText("Page 2 of");
 });
+
+test("ImageMso gallery links to lowercase icon detail pages", async ({ page }) => {
+  await page.goto("/ImageMso.html");
+
+  const iconLink = page.locator(".icon-link").first();
+  const iconName = await iconLink.locator("img").getAttribute("alt");
+  await expect(iconLink).toHaveAttribute("href", /^\.\/icon\.html\?name=/);
+
+  await iconLink.click();
+  await expect(page).toHaveURL(/\/icon\.html\?name=/);
+  await expect(page.getByRole("heading", { name: iconName })).toBeVisible();
+});

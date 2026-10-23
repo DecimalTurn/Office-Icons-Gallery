@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+   <title>Office Icon Gallery</title>
+    <link rel="icon" type="image/png" href="./images/PictureInsertFromFile.png" />
+    <script src="./theme.js" type="text/javascript"></script>
+    <link href="./awesomplete.css" rel="stylesheet" type="text/css" />
+    <link href="./ImageMso.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" src="./awesomplete.js" type="text/javascript"></script>
+    <script language="javascript" src="./ImageMso.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <a class="github-link" href="https://github.com/decimalturn/OfficeIconGallery" target="_blank" rel="noopener noreferrer" aria-label="View Office Icon Gallery on GitHub" title="View on GitHub">
+      <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+        <path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.1c-3.1.68-3.76-1.32-3.76-1.32-.5-1.3-1.24-1.65-1.24-1.65-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 1.7 2.62 1.21 3.26.93.1-.72.39-1.21.71-1.49-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.21 1.15-2.99-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.44 3.05-1.14 3.05-1.14.61 1.53.23 2.67.11 2.95.72.78 1.15 1.77 1.15 2.99 0 4.29-2.61 5.23-5.1 5.51.4.35.76 1.03.76 2.08v3.09c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z" />
+      </svg>
+    </a>
+    <button class="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false" title="Switch theme">
+      <img class="theme-icon-sun" src="./images/PictureBrightnessGallery.png" alt="" />
+      <span class="theme-icon-moon" aria-hidden="true">&#9790;</span>
+    </button>
+    <h1>Office Icon Gallery</h1>
+    <p class="icon-count">Total icons: <span id="icon-count">Counting...</span></p>
+    <div class="mso-filter">
+      <form>
+        <label for="mso-search">Search</label>
+        <input autofocus id="mso-search" name="SearchMso" type="text" maxlength="255" value="" placeholder="Search IDs, descriptions, or keywords" class="awesomplete" data-list=".mso-list" data-minchars="2" data-maxitems="100000"/>
+      </form>
+      <p id="search-result-count" class="search-result-count" role="status" aria-live="polite" hidden></p>
+    </div>
+    <nav class="pagination" aria-label="Icon pages">
+      <button class="previous-page" type="button"><img src="./images/LeftArrow2.png" alt="" aria-hidden="true" />Previous</button>
+      <span class="page-status" aria-live="polite"></span>
+      <button class="next-page" type="button"><img src="./images/RightArrow2.png" alt="" aria-hidden="true" />Next</button>
+    </nav>
+    <ol class="mso-list"></ol>
+    <nav class="pagination pagination-bottom" aria-label="Icon pages">
+      <button class="previous-page" type="button"><img src="./images/LeftArrow2.png" alt="" aria-hidden="true" />Previous</button>
+      <span class="page-status" aria-live="polite"></span>
+      <button class="next-page" type="button"><img src="./images/RightArrow2.png" alt="" aria-hidden="true" />Next</button>
+    </nav>
+    <footer class="page-notice">All images remain the property of Microsoft. This independent reference is provided to help developers build ribbon interfaces for Office applications and is not affiliated with or endorsed by Microsoft.</footer>
+    <script>
+      const iconList = document.querySelector(".mso-list");
+      const pageSize = 500;
+      const pageStatuses = document.querySelectorAll(".page-status");
+      const previousPages = document.querySelectorAll(".previous-page");
+      const nextPages = document.querySelectorAll(".next-page");
+      const searchInput = document.getElementById("mso-search");
+      const iconCount = document.getElementById("icon-count");
+      const searchResultCount = document.getElementById("search-result-count");
+      const searchQuery = new URLSearchParams(window.location.search).get(searchInput.name)?.trim() || "";
+      const requestedPage = Number.parseInt(new URLSearchParams(window.location.search).get("Page") || "", 10);
+      let icons = [];
+      let currentPage = Number.isInteger(requestedPage) && requestedPage > 0 ? requestedPage - 1 : 0;
+
+      searchInput.value = searchQuery;
+
+      searchInput.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter") {
+          return;
+        }
+
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        searchInput.form.requestSubmit();
+      }, true);
+
+      searchInput.form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const url = new URL(window.location.href);
+        const query = searchInput.value.trim();
+
+        if (query) {
+          url.searchParams.set(searchInput.name, query);
+        } else {
+          url.searchParams.delete(searchInput.name);
+        }
+        url.searchParams.delete("Page");
+
+        window.location.href = url.href;
+      });
+
+      function iconPageUrl(name) {
+        return `./icon.html?name=${encodeURIComponent(name)}`;
+      }
+
+      function splitSearchWords(text) {
+        return text
+          .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+          .replace(/([A-Z])([A-Z][a-z])/g, "$1 $2")
+          .toLowerCase()
+          .split(/[^a-z0-9]+/)
+          .filter(Boolean);
+      }
+
+      function matchesSearch(icon, value) {
+        const searchableWords = splitSearchWords([
+          icon.name,
+          icon.description,
+          ...(icon.keywords || [])
+        ].join(" "));
+        const queryWords = splitSearchWords(value);
+
+        return queryWords.every((word) =>
+          searchableWords.some((searchableWord) =>
+            searchableWord === word || (word.length >= 4 && searchableWord.startsWith(word))
+          )
+        );
+      }
+
+      function showPage() {
+        const start = currentPage * pageSize;
+        const end = Math.min(start + pageSize, icons.length);
+        const pageIcons = icons.slice(start, end).map(({ name }) => {
+          const item = document.createElement("li");
+          const image = document.createElement("img");
+          const link = document.createElement("a");
+          const label = document.createElement("span");
+
+          image.loading = "lazy";
+          image.title = name;
+          image.alt = name;
+          image.src = `./images/${encodeURIComponent(name)}.png`;
+          link.className = "icon-link";
+          link.href = iconPageUrl(name);
+          link.appendChild(image);
+          label.textContent = name;
+          item.append(link, label);
+          return item;
+        });
+        iconList.replaceChildren(...pageIcons);
+
+        const pageCount = Math.ceil(icons.length / pageSize);
+
+        pageStatuses.forEach((status) => {
+          status.textContent = pageCount === 0
+            ? "No icons found."
+            : `Page ${currentPage + 1} of ${pageCount} (${(start + 1).toLocaleString()}-${end.toLocaleString()} of ${icons.length.toLocaleString()} icons)`;
+        });
+        previousPages.forEach((button) => {
+          button.disabled = currentPage === 0;
+        });
+        nextPages.forEach((button) => {
+          button.disabled = pageCount === 0 || currentPage === pageCount - 1;
+        });
+      }
+
+      function updatePageUrl(replace = false) {
+        const url = new URL(window.location.href);
+
+        if (currentPage === 0) {
+          url.searchParams.delete("Page");
+        } else {
+          url.searchParams.set("Page", String(currentPage + 1));
+        }
+
+        window.history[replace ? "replaceState" : "pushState"]({}, "", url.href);
+      }
+
+      function restorePageFromUrl() {
+        const pageCount = Math.ceil(icons.length / pageSize);
+        const page = Number.parseInt(new URLSearchParams(window.location.search).get("Page") || "", 10);
+
+        currentPage = Number.isInteger(page) && page > 0
+          ? Math.min(page - 1, Math.max(pageCount - 1, 0))
+          : 0;
+        updatePageUrl(true);
+        showPage();
+      }
+
+      previousPages.forEach((button) => button.addEventListener("click", () => {
+        if (currentPage > 0) {
+          currentPage -= 1;
+          updatePageUrl();
+          showPage();
+        }
+      }));
+
+      nextPages.forEach((button) => button.addEventListener("click", () => {
+        if (currentPage < Math.ceil(icons.length / pageSize) - 1) {
+          currentPage += 1;
+          updatePageUrl();
+          showPage();
+        }
+      }));
+
+      window.addEventListener("popstate", restorePageFromUrl);
+
+      searchInput.addEventListener("awesomplete-selectcomplete", (event) => {
+        window.location.href = iconPageUrl(event.text.value);
+      });
+
+      document.addEventListener("DOMContentLoaded", async () => {
+        const autocomplete = Awesomplete.all.find((instance) => instance.input === searchInput);
+
+        try {
+          const response = await fetch("./icon-metadata.json");
+          if (!response.ok) {
+            throw new Error("Could not load icon metadata");
+          }
+
+          const metadata = await response.json();
+          icons = searchQuery ? metadata.filter((icon) => matchesSearch(icon, searchQuery)) : metadata;
+          iconCount.textContent = metadata.length.toLocaleString();
+          if (searchQuery) {
+            const resultNoun = icons.length === 1 ? "icon" : "icons";
+            searchResultCount.textContent = `${icons.length.toLocaleString()} ${resultNoun} found`;
+            searchResultCount.hidden = false;
+          }
+          restorePageFromUrl();
+
+          if (!autocomplete) {
+            return;
+          }
+
+          const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
+          autocomplete.filter = (suggestion, value) => {
+            const icon = metadataByName.get(suggestion.value);
+            return icon ? matchesSearch(icon, value) : false;
+          };
+          autocomplete.list = metadata.map((icon) => icon.name);
+
+          if (document.activeElement === searchInput) {
+            autocomplete.evaluate();
+          }
+        } catch (error) {
+          console.error("Icon metadata could not be loaded", error);
+          iconCount.textContent = "Unavailable";
+          pageStatuses.forEach((status) => {
+            status.textContent = "Icon data could not be loaded.";
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
