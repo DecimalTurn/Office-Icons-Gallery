@@ -1,4 +1,4 @@
-# Office Icons Gallery
+# Office Icons Gallery (OIG)
 
 Full text searchable image gallery of Microsoft Office icons using their `idMso` code.
 
