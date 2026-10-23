@@ -439,7 +439,7 @@ li span {
 
 .same-image-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr));
+  grid-template-columns: minmax(0, 1fr);
   gap: 8px 12px;
   margin: 0;
   padding: 0;
@@ -447,8 +447,7 @@ li span {
 }
 
 .same-image-list li {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 32px;
+  display: flex;
   align-items: center;
   gap: 6px;
   min-width: 0;
@@ -458,7 +457,7 @@ li span {
   display: flex;
   align-items: center;
   gap: 8px;
-  flex: 1 1 auto;
+  flex: 0 1 auto;
   min-width: 0;
   color: var(--accent-color);
   text-align: left;
@@ -474,8 +473,9 @@ li span {
 
 .same-image-link span {
   min-width: 0;
-  white-space: normal;
-  overflow-wrap: anywhere;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .icon-detail .same-image-copy-button {

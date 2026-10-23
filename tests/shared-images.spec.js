@@ -34,12 +34,20 @@ test("keeps long alternative IDs clear of their copy buttons on narrow screens",
 
   const rows = page.locator("#same-image-list li");
   await expect(rows.first()).toBeVisible();
+  const columnCount = await rows.first().evaluate((firstRow) => {
+    return getComputedStyle(firstRow.parentElement).gridTemplateColumns.split(" ").length;
+  });
+  expect(columnCount).toBe(1);
+
   for (const row of await rows.all()) {
     const link = await row.locator(".same-image-link").boundingBox();
     const copyButton = await row.locator(".same-image-copy-button").boundingBox();
+    const label = row.locator(".same-image-link span");
 
     expect(link).not.toBeNull();
     expect(copyButton).not.toBeNull();
     expect(link.x + link.width).toBeLessThanOrEqual(copyButton.x);
+    expect(copyButton.x - (link.x + link.width)).toBeLessThanOrEqual(6);
+    await expect(label).toHaveCSS("white-space", "nowrap");
   }
 });
