@@ -23,9 +23,10 @@
     <p class="icon-count">Total icons: <span id="icon-count">Counting...</span></p>
     <div class="mso-filter">
       <form>
-        <label for="mso-search">Full-text search</label>
+        <label for="mso-search">Search</label>
         <input autofocus id="mso-search" name="SearchMso" type="text" maxlength="255" value="" placeholder="Search IDs, descriptions, or keywords" class="awesomplete" data-list=".mso-list" data-minchars="2" data-maxitems="100000"/>
       </form>
+      <p id="search-result-count" class="search-result-count" role="status" aria-live="polite" hidden></p>
     </div>
     <nav class="pagination" aria-label="Icon pages">
       <button class="previous-page" type="button"><img src="./images/LeftArrow2.png" alt="" aria-hidden="true" />Previous</button>
@@ -47,6 +48,7 @@
       const nextPages = document.querySelectorAll(".next-page");
       const searchInput = document.getElementById("mso-search");
       const iconCount = document.getElementById("icon-count");
+      const searchResultCount = document.getElementById("search-result-count");
       const searchQuery = new URLSearchParams(window.location.search).get(searchInput.name)?.trim() || "";
       let icons = [];
       let currentPage = 0;
@@ -108,8 +110,7 @@
       function showPage() {
         const start = currentPage * pageSize;
         const end = Math.min(start + pageSize, icons.length);
-        const pageIcons = icons.slice(start, end).map((icon) => {
-          const { name } = icon;
+        const pageIcons = icons.slice(start, end).map(({ name }) => {
           const item = document.createElement("li");
           const image = document.createElement("img");
           const link = document.createElement("a");
@@ -172,7 +173,12 @@
 
           const metadata = await response.json();
           icons = searchQuery ? metadata.filter((icon) => matchesSearch(icon, searchQuery)) : metadata;
-          iconCount.textContent = icons.length.toLocaleString();
+          iconCount.textContent = metadata.length.toLocaleString();
+          if (searchQuery) {
+            const resultNoun = icons.length === 1 ? "icon" : "icons";
+            searchResultCount.textContent = `${icons.length.toLocaleString()} ${resultNoun} found`;
+            searchResultCount.hidden = false;
+          }
           showPage();
 
           if (!autocomplete) {
