@@ -22,8 +22,8 @@ test("pagination state is shareable through the URL", async ({ page }) => {
   await expect(pageStatus).toContainText("Page 2 of");
 });
 
-test("ImageMso gallery links to lowercase icon detail pages", async ({ page }) => {
-  await page.goto("/ImageMso.html");
+test("gallery links to lowercase icon detail pages", async ({ page }) => {
+  await page.goto("/index.html");
 
   const iconLink = page.locator(".icon-link").first();
   const iconName = await iconLink.locator("img").getAttribute("alt");

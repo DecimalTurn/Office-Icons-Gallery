@@ -1,5 +1,23 @@
 const { test, expect } = require("@playwright/test");
 
+test("never suggests placeholder images as related icons", async ({ request }) => {
+  const response = await request.get("/icon-metadata.json");
+  expect(response.ok()).toBe(true);
+
+  const metadata = await response.json();
+  const placeholderNames = new Set(metadata
+    .filter((icon) => icon.imageStatus === "placeholder")
+    .map((icon) => icon.name));
+  const invalidSuggestions = metadata.flatMap((icon) =>
+    (icon.relatedIcons || [])
+      .filter((relatedName) => placeholderNames.has(relatedName))
+      .map((relatedName) => `${icon.name}: ${relatedName}`)
+  );
+
+  expect(placeholderNames).toContain("ClientQuery");
+  expect(invalidSuggestions).toEqual([]);
+});
+
 test("shows curated related icons on a detail page", async ({ page }) => {
   await page.goto("/icon.html?name=ZoomTwoPages");
 
@@ -20,6 +38,7 @@ test("shows curated related icons on a detail page", async ({ page }) => {
 test("suggests icons that share PascalCase name words", async ({ page }) => {
   await page.goto("/icon.html?name=PictureInsertFromFile");
 
+  await expect(page.locator("#related-icons-list li").first()).toBeVisible();
   const relatedNames = await page.locator("#related-icons-list li").allTextContents();
   expect(relatedNames).toContain("AutoSigInsertPictureFromFile");
   expect(relatedNames).toContain("PictureFromFileInsert");

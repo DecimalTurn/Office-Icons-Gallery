@@ -55,6 +55,10 @@ for (const name of iconNames) {
   names.push(name);
   namesByImageHash.set(imageHash, names);
 }
+const placeholderIconNames = new Set(iconNames.filter((name) =>
+  placeholderByHash.has(imageHashByName.get(name))
+));
+const relatedIconNames = iconNames.filter((name) => !placeholderIconNames.has(name));
 
 const relatedKeywords = new Map(Object.entries({
   add: ["create", "insert", "new"],
@@ -169,9 +173,9 @@ if (missingOverrides.length > 0) {
 const iconNameSet = new Set(iconNames);
 for (const [name, relatedNames] of relatedIconOverrides) {
   const invalidRelatedNames = relatedNames.filter((relatedName) =>
-    !iconNameSet.has(relatedName) || relatedName === name
+    !iconNameSet.has(relatedName) || relatedName === name || placeholderIconNames.has(relatedName)
   );
-  if (!iconNameSet.has(name) || invalidRelatedNames.length > 0 || new Set(relatedNames).size !== relatedNames.length) {
+  if (!iconNameSet.has(name) || placeholderIconNames.has(name) || invalidRelatedNames.length > 0 || new Set(relatedNames).size !== relatedNames.length) {
     throw new Error(`Invalid related icon IDs for ${name}: ${invalidRelatedNames.join(", ") || relatedNames.join(", ")}`);
   }
 }
@@ -199,16 +203,18 @@ const relatedWordsByName = new Map(iconNames.map((name) => [
     .filter((word) => word.length > 1 && !/^\d+$/.test(word) && !relatedNameStopWords.has(word)))
 ]));
 const relatedWordFrequency = new Map();
-for (const words of relatedWordsByName.values()) {
+for (const name of relatedIconNames) {
+  const words = relatedWordsByName.get(name);
   for (const word of words) {
     relatedWordFrequency.set(word, (relatedWordFrequency.get(word) || 0) + 1);
   }
 }
 
-const maximumCommonWordFrequency = Math.floor(iconNames.length * 0.025);
+const maximumCommonWordFrequency = Math.floor(relatedIconNames.length * 0.025);
 const minimumRelatedIconScore = 5;
 const relatedNamesByWord = new Map();
-for (const [name, words] of relatedWordsByName) {
+for (const name of relatedIconNames) {
+  const words = relatedWordsByName.get(name);
   for (const word of words) {
     if (relatedWordFrequency.get(word) > maximumCommonWordFrequency) {
       continue;
@@ -225,7 +231,7 @@ function findRelatedIconNames(name) {
   const scores = new Map();
   for (const word of relatedWordsByName.get(name) || []) {
     const matchingNames = relatedNamesByWord.get(word) || [];
-    const weight = Math.log((iconNames.length + 1) / (relatedWordFrequency.get(word) + 1));
+    const weight = Math.log((relatedIconNames.length + 1) / (relatedWordFrequency.get(word) + 1));
     for (const relatedName of matchingNames) {
       if (relatedName === name) {
         continue;
