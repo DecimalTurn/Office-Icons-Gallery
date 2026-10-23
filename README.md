@@ -22,3 +22,13 @@ node generate-icon-metadata.js
 
 The generator also splits PascalCase icon IDs into words and ranks related icons by shared, less-common words. It keeps curated matches first, filters weak single-word matches, and limits each related-icon list to 12 entries.
 
+## Acknowledgements
+
+This project began as a fork of [OfficeIconGallery](https://github.com/kriede/OfficeIconGallery) by [kriede](https://github.com/kriede). The original project and its contributions remain attributable to their original author.
+
+## License
+
+The MIT license in [LICENSE](LICENSE) applies only to original contributions by DecimalTurn. It does not grant rights to pre-existing work from OfficeIconGallery or other third-party materials. The upstream revision from which this project derives did not include a license file.
+
+The Microsoft Office icons remain copyrighted by Microsoft and are not covered by this repository's MIT license.
+
