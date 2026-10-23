@@ -19,6 +19,31 @@ test("submits a search query and filters the gallery after reload", async ({ pag
   await expect(page.locator(".page-status").first()).toContainText("1-2 of 2 icons");
 });
 
+test("clears an active search and returns to the unfiltered gallery", async ({ page }) => {
+  await page.goto("/index.html?SearchMso=sun");
+
+  const search = page.locator("#mso-search");
+  const clearButton = page.getByRole("button", { name: "Clear search" });
+  await expect(search).toHaveValue("sun");
+  await expect(clearButton).toBeVisible();
+  const inputBounds = await search.boundingBox();
+  const clearBounds = await clearButton.boundingBox();
+  if (inputBounds === null || clearBounds === null) {
+    throw new Error("Search field or clear button has no bounding box");
+  }
+  expect(clearBounds.x).toBeGreaterThan(inputBounds.x);
+  expect(clearBounds.x + clearBounds.width).toBeLessThanOrEqual(inputBounds.x + inputBounds.width);
+  expect(clearBounds.y).toBeGreaterThan(inputBounds.y);
+  expect(clearBounds.y + clearBounds.height).toBeLessThanOrEqual(inputBounds.y + inputBounds.height);
+
+  await clearButton.click();
+
+  await expect(page).toHaveURL(/\/index\.html$/);
+  await expect(search).toHaveValue("");
+  await expect(clearButton).toBeHidden();
+  await expect(page.locator("#search-result-count")).toBeHidden();
+});
+
 test("search suggestions match the input and remain usable when resized", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
   await page.goto("/");

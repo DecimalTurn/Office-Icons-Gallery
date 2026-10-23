@@ -297,6 +297,65 @@ body:not(.icon-detail-page) > h1 {
   transition: border-color 140ms ease, box-shadow 140ms ease, background-color 140ms ease;
 }
 
+.mso-search-control {
+  position: relative;
+  width: 100%;
+}
+
+.mso-search-control input {
+  max-width: 100%;
+  padding-right: 48px;
+}
+
+.mso-search-clear {
+  position: absolute;
+  top: 50%;
+  right: max(8px, calc(100% - 34rem + 8px));
+  display: grid;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  place-items: center;
+  transform: translateY(-50%);
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--muted-foreground);
+  cursor: pointer;
+}
+
+.mso-search-clear[hidden] {
+  display: none;
+}
+
+.mso-search-clear::before,
+.mso-search-clear::after {
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  border-radius: 1px;
+  background: currentColor;
+  content: "";
+}
+
+.mso-search-clear::before {
+  transform: rotate(45deg);
+}
+
+.mso-search-clear::after {
+  transform: rotate(-45deg);
+}
+
+.mso-search-clear:hover {
+  background: var(--surface-background);
+  color: var(--page-foreground);
+}
+
+.mso-search-clear:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 1px;
+}
+
 .mso-filter input::placeholder {
   color: var(--muted-foreground);
   opacity: 0.8;
