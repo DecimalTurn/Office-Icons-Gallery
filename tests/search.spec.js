@@ -15,6 +15,8 @@ test("submits a search query and filters the gallery after reload", async ({ pag
     });
     await expect(page.locator("#icon-count")).toHaveText(totalCount);
     await expect(page.locator("#search-result-count")).toHaveText("2 icons found");
+  await expect(search).not.toBeFocused();
+  await expect(page.locator(".awesomplete > ul")).toBeHidden();
   await expect(page.locator(".mso-list li")).toHaveCount(2);
   await expect(page.locator(".page-status").first()).toContainText("1-2 of 2 icons");
 });

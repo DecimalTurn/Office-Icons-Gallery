@@ -25,7 +25,7 @@
       <form>
         <label for="mso-search">Search</label>
         <div class="mso-search-control">
-          <input autofocus id="mso-search" name="SearchMso" type="text" maxlength="255" value="" placeholder="Search IDs, descriptions, or keywords" class="awesomplete" data-list=".mso-list" data-minchars="2" data-maxitems="100000"/>
+          <input id="mso-search" name="SearchMso" type="text" maxlength="255" value="" placeholder="Search IDs, descriptions, or keywords" class="awesomplete" data-list=".mso-list" data-minchars="2" data-maxitems="100000"/>
           <button id="mso-search-clear" class="mso-search-clear" type="button" aria-label="Clear search" hidden></button>
         </div>
         <div class="mso-placeholder-filter">
@@ -65,6 +65,9 @@
       let currentPage = Number.isInteger(requestedPage) && requestedPage > 0 ? requestedPage - 1 : 0;
 
       searchInput.value = searchQuery;
+      if (!searchQuery) {
+        searchInput.focus();
+      }
       excludePlaceholdersInput.checked = urlSearchParams.get("ExcludePlaceholders") === "1";
       updateSearchClearButton();
 
