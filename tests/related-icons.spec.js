@@ -1,7 +1,7 @@
 const { test, expect } = require("@playwright/test");
 
 test("shows curated related icons on a detail page", async ({ page }) => {
-  await page.goto("/Icon.html?name=ZoomTwoPages");
+  await page.goto("/icon.html?name=ZoomTwoPages");
 
   const section = page.locator("#related-icons-section");
   await expect(section).toBeVisible();
@@ -13,12 +13,12 @@ test("shows curated related icons on a detail page", async ({ page }) => {
   ]);
 
   await page.getByRole("link", { name: "ZoomPageWidth" }).click();
-  await expect(page).toHaveURL(/Icon\.html\?name=ZoomPageWidth$/);
+  await expect(page).toHaveURL(/icon\.html\?name=ZoomPageWidth$/);
   await expect(page.getByRole("heading", { name: "ZoomPageWidth" })).toBeVisible();
 });
 
 test("suggests icons that share PascalCase name words", async ({ page }) => {
-  await page.goto("/Icon.html?name=PictureInsertFromFile");
+  await page.goto("/icon.html?name=PictureInsertFromFile");
 
   const relatedNames = await page.locator("#related-icons-list li").allTextContents();
   expect(relatedNames).toContain("AutoSigInsertPictureFromFile");
@@ -30,7 +30,7 @@ test("suggests icons that share PascalCase name words", async ({ page }) => {
 });
 
 test("marks each single-digit number icon as related to the other digits", async ({ page }) => {
-  await page.goto("/Icon.html?name=_1");
+  await page.goto("/icon.html?name=_1");
 
   await expect(page.locator("#related-icons-list li")).toHaveText([
     "_0",
@@ -46,14 +46,14 @@ test("marks each single-digit number icon as related to the other digits", async
 });
 
 test("hides the related icons section when no relationships are curated", async ({ page }) => {
-  await page.goto("/Icon.html?name=Club");
+  await page.goto("/icon.html?name=Club");
 
   await expect(page.locator("#related-icons-section")).toBeHidden();
 });
 
 test("shows other bright icons as related to PictureBrightnessAndContrastGallery", async ({ page }) => {
   await page.setViewportSize({ width: 375, height: 800 });
-  await page.goto("/Icon.html?name=PictureBrightnessAndContrastGallery");
+  await page.goto("/icon.html?name=PictureBrightnessAndContrastGallery");
 
   await expect(page.locator("#related-icons-list li")).toContainText([
     "BrightnessAndContrastEdit",

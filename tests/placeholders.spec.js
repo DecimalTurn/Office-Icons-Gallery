@@ -4,9 +4,9 @@ test("shows Office fallback status on detail pages, not in search results", asyn
   await page.goto("/index.html?SearchMso=AccountingFormatExcel");
   await expect(page.locator(".icon-placeholder-badge")).toHaveCount(0);
 
-  await page.goto("/Icon.html?name=AccountingFormatExcel");
+  await page.goto("/icon.html?name=AccountingFormatExcel");
   await expect(page.locator("#icon-image-status")).toHaveText(/shared Office fallback/);
 
-  await page.goto("/Icon.html?name=BrightnessMore");
+  await page.goto("/icon.html?name=BrightnessMore");
   await expect(page.locator("#icon-image-status")).toBeHidden();
 });
