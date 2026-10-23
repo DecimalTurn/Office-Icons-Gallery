@@ -1,6 +1,8 @@
 # OfficeIconGallery
 
-Full text searchable image gallery of Microsoft office icons using their `idMso` code.
+Full text searchable image gallery of Microsoft Office icons using their `idMso` code.
+
+The gallery uses PNG assets in `images/` and generated searchable metadata. It also includes an Excel/VBA exporter for extracting icon images from an Office installation.
 
 Browser the gallery:
 
