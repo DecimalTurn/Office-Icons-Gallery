@@ -137,6 +137,23 @@ body:not(.icon-detail-page) > h1 {
   margin-bottom: 0;
 }
 
+.awesomplete > ul > li.search-see-all-row {
+  display: block;
+  border-top: 1px solid var(--border-color);
+  padding: 0;
+}
+
+.search-see-all-row button {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
 .awesomplete > ul > li img {
   flex: 0 0 32px;
   float: none;

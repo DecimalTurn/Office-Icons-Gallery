@@ -26,23 +26,25 @@ test("search suggestions remain aligned and selectable when resized", async ({ p
         menuWidth: menu.width,
         menuRight: menu.right,
         pointerDisplay: getComputedStyle(list, "::before").display,
-        rows: [...list.children].map((row) => {
-          const rowBounds = row.getBoundingClientRect();
-          const imageBounds = row.querySelector("img").getBoundingClientRect();
-          const labelBounds = row.querySelector("span").getBoundingClientRect();
+        rows: [...list.children]
+          .filter((row) => !row.classList.contains("search-see-all-row"))
+          .map((row) => {
+            const rowBounds = row.getBoundingClientRect();
+            const imageBounds = row.querySelector("img").getBoundingClientRect();
+            const labelBounds = row.querySelector("span").getBoundingClientRect();
 
-          return {
-            top: rowBounds.top,
-            bottom: rowBounds.bottom,
-            height: rowBounds.height,
-            imageTop: imageBounds.top,
-            imageBottom: imageBounds.bottom,
-            imageRight: imageBounds.right,
-            labelLeft: labelBounds.left,
-            labelTop: labelBounds.top,
-            labelHeight: labelBounds.height
-          };
-        })
+            return {
+              top: rowBounds.top,
+              bottom: rowBounds.bottom,
+              height: rowBounds.height,
+              imageTop: imageBounds.top,
+              imageBottom: imageBounds.bottom,
+              imageRight: imageBounds.right,
+              labelLeft: labelBounds.left,
+              labelTop: labelBounds.top,
+              labelHeight: labelBounds.height
+            };
+          })
       };
     });
 

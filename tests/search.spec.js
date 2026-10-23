@@ -21,6 +21,29 @@ test("submits a search query and filters the gallery after reload", async ({ pag
   await expect(page.locator(".page-status").first()).toContainText("1-2 of 2 icons");
 });
 
+test("limits suggestions to 30 and submits from the See all results row", async ({ page }) => {
+  await page.goto("/index.html");
+
+  const search = page.locator("#mso-search");
+  await search.fill("icon");
+
+  const suggestions = page.locator(".awesomplete > ul > li:not(.search-see-all-row)");
+  const seeAllButton = page.getByRole("button", { name: "See all results" });
+  await expect(suggestions).toHaveCount(30);
+  await expect(page.locator(".awesomplete > ul > li").last()).toContainText("See all results");
+  await expect(seeAllButton).toBeVisible();
+
+  await seeAllButton.click();
+
+  await expect(page).toHaveURL(/index\.html\?SearchMso=icon$/);
+  const resultCountStatus = page.locator("#search-result-count");
+  await expect(resultCountStatus).toHaveText(/^[\d,]+ icons found$/);
+  const resultCount = await resultCountStatus.evaluate((element) => {
+    return Number.parseInt(element.textContent.replaceAll(",", ""), 10);
+  });
+  expect(resultCount).toBeGreaterThan(30);
+});
+
 test("clears an active search and returns to the unfiltered gallery", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
   await page.goto("/index.html?SearchMso=sun");
