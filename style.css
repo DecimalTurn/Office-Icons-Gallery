@@ -303,7 +303,6 @@ body:not(.icon-detail-page) > h1 {
 }
 
 .mso-search-control input {
-  max-width: 100%;
   padding-right: 48px;
 }
 

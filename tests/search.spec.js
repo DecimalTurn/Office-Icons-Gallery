@@ -20,6 +20,7 @@ test("submits a search query and filters the gallery after reload", async ({ pag
 });
 
 test("clears an active search and returns to the unfiltered gallery", async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 800 });
   await page.goto("/index.html?SearchMso=sun");
 
   const search = page.locator("#mso-search");
@@ -31,6 +32,7 @@ test("clears an active search and returns to the unfiltered gallery", async ({ p
   if (inputBounds === null || clearBounds === null) {
     throw new Error("Search field or clear button has no bounding box");
   }
+  expect(inputBounds.width).toBeLessThanOrEqual(544);
   expect(clearBounds.x).toBeGreaterThan(inputBounds.x);
   expect(clearBounds.x + clearBounds.width).toBeLessThanOrEqual(inputBounds.x + inputBounds.width);
   expect(clearBounds.y).toBeGreaterThan(inputBounds.y);
