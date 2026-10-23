@@ -179,6 +179,27 @@ body:not(.icon-detail-page) > h1 {
   gap: 8px;
 }
 
+.mso-placeholder-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mso-placeholder-filter input[type="checkbox"] {
+  all: revert;
+  box-sizing: border-box;
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.mso-placeholder-filter label {
+  white-space: nowrap;
+  cursor: pointer;
+}
+
 .mso-filter label {
   color: var(--muted-foreground);
   font-size: 0.9rem;

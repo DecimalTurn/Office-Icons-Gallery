@@ -28,6 +28,10 @@
           <input autofocus id="mso-search" name="SearchMso" type="text" maxlength="255" value="" placeholder="Search IDs, descriptions, or keywords" class="awesomplete" data-list=".mso-list" data-minchars="2" data-maxitems="100000"/>
           <button id="mso-search-clear" class="mso-search-clear" type="button" aria-label="Clear search" hidden></button>
         </div>
+        <div class="mso-placeholder-filter">
+          <input id="exclude-placeholders" type="checkbox" />
+          <label for="exclude-placeholders">Exclude placeholder images</label>
+        </div>
       </form>
       <p id="search-result-count" class="search-result-count" role="status" aria-live="polite" hidden></p>
     </div>
@@ -51,14 +55,17 @@
       const nextPages = document.querySelectorAll(".next-page");
       const searchInput = document.getElementById("mso-search");
       const searchClearButton = document.getElementById("mso-search-clear");
+      const excludePlaceholdersInput = document.getElementById("exclude-placeholders");
       const iconCount = document.getElementById("icon-count");
       const searchResultCount = document.getElementById("search-result-count");
-      const searchQuery = new URLSearchParams(window.location.search).get(searchInput.name)?.trim() || "";
+      const urlSearchParams = new URLSearchParams(window.location.search);
+      const searchQuery = urlSearchParams.get(searchInput.name)?.trim() || "";
       const requestedPage = Number.parseInt(new URLSearchParams(window.location.search).get("Page") || "", 10);
       let icons = [];
       let currentPage = Number.isInteger(requestedPage) && requestedPage > 0 ? requestedPage - 1 : 0;
 
       searchInput.value = searchQuery;
+      excludePlaceholdersInput.checked = urlSearchParams.get("ExcludePlaceholders") === "1";
       updateSearchClearButton();
 
       function updateSearchClearButton() {
@@ -92,9 +99,18 @@
         } else {
           url.searchParams.delete(searchInput.name);
         }
+        if (excludePlaceholdersInput.checked) {
+          url.searchParams.set("ExcludePlaceholders", "1");
+        } else {
+          url.searchParams.delete("ExcludePlaceholders");
+        }
         url.searchParams.delete("Page");
 
         window.location.href = url.href;
+      });
+
+      excludePlaceholdersInput.addEventListener("change", () => {
+        searchInput.form.requestSubmit();
       });
 
       function iconPageUrl(name) {
@@ -123,6 +139,11 @@
             searchableWord === word || (word.length >= 4 && searchableWord.startsWith(word))
           )
         );
+      }
+
+      function matchesFilters(icon, value) {
+        return (!excludePlaceholdersInput.checked || icon.imageStatus !== "placeholder") &&
+          matchesSearch(icon, value);
       }
 
       function showPage() {
@@ -217,9 +238,9 @@
           }
 
           const metadata = await response.json();
-          icons = searchQuery ? metadata.filter((icon) => matchesSearch(icon, searchQuery)) : metadata;
+          icons = metadata.filter((icon) => matchesFilters(icon, searchQuery));
           iconCount.textContent = metadata.length.toLocaleString();
-          if (searchQuery) {
+          if (searchQuery || excludePlaceholdersInput.checked) {
             const resultNoun = icons.length === 1 ? "icon" : "icons";
             searchResultCount.textContent = `${icons.length.toLocaleString()} ${resultNoun} found`;
             searchResultCount.hidden = false;
@@ -233,7 +254,7 @@
           const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
           autocomplete.filter = (suggestion, value) => {
             const icon = metadataByName.get(suggestion.value);
-            return icon ? matchesSearch(icon, value) : false;
+            return icon ? matchesFilters(icon, value) : false;
           };
           autocomplete.list = metadata.map((icon) => icon.name);
 

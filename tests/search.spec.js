@@ -46,6 +46,43 @@ test("clears an active search and returns to the unfiltered gallery", async ({ p
   await expect(page.locator("#search-result-count")).toBeHidden();
 });
 
+test("excludes placeholder images and preserves the filter after reload", async ({ page }) => {
+  await page.goto("/index.html");
+
+  const expectedResults = await page.evaluate(async () => {
+    /** @type {{ name: string, imageStatus?: string }[]} */
+    const metadata = await (await fetch("./icon-metadata.json")).json();
+    const filteredIcons = metadata.filter((icon) => icon.imageStatus !== "placeholder");
+
+    return {
+      count: `${filteredIcons.length.toLocaleString()} icons found`,
+      firstPageNames: filteredIcons.slice(0, 500).map(({ name }) => name)
+    };
+  });
+  const excludePlaceholders = page.getByRole("checkbox", { name: "Exclude placeholder images" });
+  const checkboxBounds = await excludePlaceholders.boundingBox();
+
+  if (checkboxBounds === null) {
+    throw new Error("Placeholder filter checkbox has no bounding box");
+  }
+  expect(checkboxBounds.width).toBe(16);
+  expect(checkboxBounds.height).toBe(16);
+  await expect(page.locator("label[for='exclude-placeholders']")).toHaveCSS("white-space", "nowrap");
+
+  await excludePlaceholders.check();
+
+  await expect(page).toHaveURL(/ExcludePlaceholders=1$/);
+  await expect(excludePlaceholders).toBeChecked();
+  await expect(page.locator("#search-result-count")).toHaveText(expectedResults.count);
+  await expect(page.locator(".mso-list li span")).toHaveText(expectedResults.firstPageNames);
+
+  await page.reload();
+
+  await expect(excludePlaceholders).toBeChecked();
+  await expect(page.locator("#search-result-count")).toHaveText(expectedResults.count);
+  await expect(page.locator(".mso-list li span")).toHaveText(expectedResults.firstPageNames);
+});
+
 test("search suggestions match the input and remain usable when resized", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
   await page.goto("/");
