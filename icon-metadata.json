@@ -6878,7 +6878,7 @@
   {
     "name": "AlignJustify",
     "imageAsset": "images/by-hash/d185b01fc1e08c23.png",
-    "description": "Office icon for align justify.",
+    "description": "Four faint gray horizontal lines appear in a compact stack.",
     "keywords": [
       "align",
       "align justify",
@@ -6908,7 +6908,7 @@
   {
     "name": "AlignJustifyHigh",
     "imageAsset": "images/by-hash/0c7035d218299b2c.png",
-    "description": "Office icon for align justify high.",
+    "description": "A stack of faint gray horizontal lines has slightly varied lengths.",
     "keywords": [
       "align",
       "align justify high",
@@ -6935,7 +6935,7 @@
   {
     "name": "AlignJustifyLow",
     "imageAsset": "images/by-hash/7cc7551fd5ca81e9.png",
-    "description": "Office icon for align justify low.",
+    "description": "Several faint gray horizontal strokes form a short stack.",
     "keywords": [
       "align",
       "align justify low",
@@ -6962,7 +6962,7 @@
   {
     "name": "AlignJustifyMedium",
     "imageAsset": "images/by-hash/ea610af81dd29998.png",
-    "description": "Office icon for align justify medium.",
+    "description": "A few faint gray horizontal lines sit close together.",
     "keywords": [
       "align",
       "align justify medium",
@@ -6989,7 +6989,7 @@
   {
     "name": "AlignJustifyMenu",
     "imageAsset": "images/by-hash/d185b01fc1e08c23.png",
-    "description": "Office icon for align justify menu.",
+    "description": "A compact stack of faint gray horizontal lines is visible.",
     "keywords": [
       "align",
       "align justify menu",
@@ -7020,7 +7020,7 @@
   {
     "name": "AlignJustifyThai",
     "imageAsset": "images/by-hash/14c5405747729e75.png",
-    "description": "Office icon for align justify thai.",
+    "description": "Several faint gray horizontal lines appear at different lengths.",
     "keywords": [
       "align",
       "align justify thai",
@@ -7047,7 +7047,7 @@
   {
     "name": "AlignJustifyWithMixedLanguages",
     "imageAsset": "images/by-hash/d185b01fc1e08c23.png",
-    "description": "Office icon for align justify with mixed languages.",
+    "description": "Blue left- and right-pointing arrows sit beside several horizontal lines.",
     "keywords": [
       "align",
       "align justify with mixed languages",
@@ -7110,7 +7110,7 @@
   {
     "name": "AlignLeftToRightMenu",
     "imageAsset": "images/by-hash/7ae32f26706df8a1.png",
-    "description": "Office icon for align left to right menu.",
+    "description": "A faint stack of short gray horizontal lines is visible.",
     "keywords": [
       "align",
       "align left to right menu",
@@ -7142,7 +7142,7 @@
   {
     "name": "AlignMenuAlternate",
     "imageAsset": "images/by-hash/6681fe487d168071.png",
-    "description": "Office icon for align menu alternate.",
+    "description": "A blue right-pointing chevron sits beside faint gray paragraph-like marks.",
     "keywords": [
       "align",
       "align menu alternate",
@@ -7177,7 +7177,7 @@
   {
     "name": "AlignMiddleExcel",
     "imageAsset": "images/by-hash/4c68a2f53a2a66ab.png",
-    "description": "Office icon for align middle excel.",
+    "description": "A small outlined grid has blue marks across its middle row.",
     "keywords": [
       "align",
       "align middle excel",
@@ -7207,7 +7207,7 @@
   {
     "name": "AlignRelativeToPage",
     "imageAsset": "images/by-hash/fe00ad022d5e66dd.png",
-    "description": "Office icon for align relative to page.",
+    "description": "A few faint gray horizontal strokes appear in a compact stack.",
     "keywords": [
       "align",
       "align relative to page",
@@ -7256,7 +7256,7 @@
   {
     "name": "AlignTopExcel",
     "imageAsset": "images/by-hash/2eb3ead835d5835c.png",
-    "description": "Office icon for align top excel.",
+    "description": "A small outlined grid has blue marks along its top row.",
     "keywords": [
       "align",
       "align top excel",
@@ -7286,7 +7286,7 @@
   {
     "name": "AllCategories",
     "imageAsset": "images/by-hash/79c4e995fd60f68e.png",
-    "description": "Office icon for all categories.",
+    "description": "Four colored squares form a two-by-two grid.",
     "keywords": [
       "all",
       "all categories",
@@ -7320,7 +7320,7 @@
   {
     "name": "AllModuleNameItems",
     "imageAsset": "images/by-hash/7d0b88f74fa22558.png",
-    "description": "Office icon for all module name items.",
+    "description": "A faint gray outlined page contains several short horizontal marks.",
     "keywords": [
       "all",
       "all module name items",
@@ -7610,7 +7610,7 @@
   {
     "name": "AlternativeText",
     "imageAsset": "images/by-hash/a352d6311f611768.png",
-    "description": "Office icon for alternative text.",
+    "description": "A small landscape picture sits above two short blue horizontal lines.",
     "keywords": [
       "alternative",
       "alternative text",
@@ -7627,7 +7627,7 @@
   {
     "name": "AlwaysMoveConversation",
     "imageAsset": "images/by-hash/e566674bba46631e.png",
-    "description": "Office icon for always move conversation.",
+    "description": "A pale outlined envelope has a small blue arrow pointing down into it.",
     "keywords": [
       "always",
       "always move conversation",
@@ -7650,7 +7650,7 @@
   {
     "name": "AlwaysMoveToFolder",
     "imageAsset": "images/by-hash/6707ec4d66a2437a.png",
-    "description": "Office icon for always move to folder.",
+    "description": "A pale folder outline has a blue downward arrow entering it.",
     "keywords": [
       "always",
       "always move to folder",
@@ -7677,7 +7677,7 @@
   {
     "name": "AlwaysSortFoldersAtoZ",
     "imageAsset": "images/by-hash/458fd8e1130b5e6a.png",
-    "description": "Office icon for always sort folders ato z.",
+    "description": "Blue A and Z letters sit beside a gray downward arrow.",
     "keywords": [
       "always",
       "always sort folders ato z",
@@ -7791,7 +7791,7 @@
   {
     "name": "AnimationCustom",
     "imageAsset": "images/by-hash/465f039a3ce00653.png",
-    "description": "Office icon for animation custom.",
+    "description": "Two green horizontal blocks are divided by thin white vertical gaps.",
     "keywords": [
       "animation",
       "animation custom",
@@ -7821,7 +7821,7 @@
   {
     "name": "AnimationCustomActionVerbDialog",
     "imageAsset": "images/by-hash/0d9d427cad11f2dd.png",
-    "description": "Office icon for animation custom action verb dialog.",
+    "description": "A pale gray outlined gear has a circular center.",
     "keywords": [
       "action",
       "animation",
@@ -7871,7 +7871,7 @@
   {
     "name": "AnimationCustomAddActionVerbDialog",
     "imageAsset": "images/by-hash/0d9d427cad11f2dd.png",
-    "description": "Office icon for animation custom add action verb dialog.",
+    "description": "A pale gray outlined gear has a circular center.",
     "keywords": [
       "action",
       "add",
@@ -7925,7 +7925,7 @@
   {
     "name": "AnimationCustomAddEmphasisDialog",
     "imageAsset": "images/by-hash/a56b4ce19f37b719.png",
-    "description": "Office icon for animation custom add emphasis dialog.",
+    "description": "An orange starburst has a bright yellow center.",
     "keywords": [
       "add",
       "animation",
@@ -7960,7 +7960,7 @@
   {
     "name": "AnimationCustomAddEntranceDialog",
     "imageAsset": "images/by-hash/55961b81c0a13492.png",
-    "description": "Office icon for animation custom add entrance dialog.",
+    "description": "A green five-point star has a small pale center.",
     "keywords": [
       "add",
       "animation",
@@ -7995,7 +7995,7 @@
   {
     "name": "AnimationCustomAddExitDialog",
     "imageAsset": "images/by-hash/9df3ac47e85dd523.png",
-    "description": "Office icon for animation custom add exit dialog.",
+    "description": "A red five-point star has a small pale center.",
     "keywords": [
       "add",
       "animation",
@@ -8030,7 +8030,7 @@
   {
     "name": "AnimationCustomAddPathDialog",
     "imageAsset": "images/by-hash/a441fd4264cf5af3.png",
-    "description": "Office icon for animation custom add path dialog.",
+    "description": "A pale outlined star is surrounded by small colored marks.",
     "keywords": [
       "add",
       "animation",
@@ -8065,7 +8065,7 @@
   {
     "name": "AnimationCustomEmphasisDialog",
     "imageAsset": "images/by-hash/a56b4ce19f37b719.png",
-    "description": "Office icon for animation custom emphasis dialog.",
+    "description": "An orange starburst has a bright yellow center.",
     "keywords": [
       "animation",
       "animation custom emphasis dialog",
@@ -8096,7 +8096,7 @@
   {
     "name": "AnimationCustomEntranceDialog",
     "imageAsset": "images/by-hash/55961b81c0a13492.png",
-    "description": "Office icon for animation custom entrance dialog.",
+    "description": "A green five-point star has a small pale center.",
     "keywords": [
       "animation",
       "animation custom entrance dialog",
@@ -8127,7 +8127,7 @@
   {
     "name": "AnimationCustomExitDialog",
     "imageAsset": "images/by-hash/9df3ac47e85dd523.png",
-    "description": "Office icon for animation custom exit dialog.",
+    "description": "A red five-point star has a small pale center.",
     "keywords": [
       "animation",
       "animation custom exit dialog",
@@ -8158,7 +8158,7 @@
   {
     "name": "AnimationCustomPathDialog",
     "imageAsset": "images/by-hash/a441fd4264cf5af3.png",
-    "description": "Office icon for animation custom path dialog.",
+    "description": "A pale outlined star has small colored marks near its lower edge.",
     "keywords": [
       "animation",
       "animation custom path dialog",
@@ -8255,7 +8255,7 @@
   {
     "name": "AnimationGallery",
     "imageAsset": "images/by-hash/2b7fbf19ec31bde1.png",
-    "description": "Office icon for animation gallery.",
+    "description": "A pale outlined star has a small blue arrow near its lower edge.",
     "keywords": [
       "animation",
       "animation gallery",
@@ -8437,7 +8437,7 @@
   {
     "name": "AnimationPreviewMenu",
     "imageAsset": "images/by-hash/2e9baf31e95d228f.png",
-    "description": "Office icon for animation preview menu.",
+    "description": "A pale outlined star is accompanied by a small blue-green triangular mark.",
     "keywords": [
       "animation",
       "animation preview menu",
@@ -8470,7 +8470,7 @@
   {
     "name": "AnimationStartDropdown",
     "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png",
-    "description": "Office icon for animation start dropdown.",
+    "description": "A green outlined triangle points to the right.",
     "keywords": [
       "animation",
       "animation start dropdown",
@@ -8512,7 +8512,7 @@
   {
     "name": "AnimationTransitionGallery",
     "imageAsset": "images/by-hash/0534cdb0106aaafa.png",
-    "description": "Office icon for animation transition gallery.",
+    "description": "A dark blue rectangle is divided by a narrow pale vertical band.",
     "keywords": [
       "animation",
       "animation transition gallery",
@@ -8545,7 +8545,7 @@
   {
     "name": "AnimationTransitionSoundGallery",
     "imageAsset": "images/by-hash/44870adc1e9112a7.png",
-    "description": "Office icon for animation transition sound gallery.",
+    "description": "A pale speaker icon has curved sound-wave marks beside it.",
     "keywords": [
       "animation",
       "animation transition sound gallery",
@@ -8585,7 +8585,7 @@
   {
     "name": "AnimationTransitionSpeedGallery",
     "imageAsset": "images/by-hash/34762937cec92fc4.png",
-    "description": "Office icon for animation transition speed gallery.",
+    "description": "A blue right-pointing arrow sits beside several short horizontal lines.",
     "keywords": [
       "animation",
       "animation transition speed gallery",
@@ -8613,7 +8613,7 @@
   {
     "name": "AnimationTransitionVariantGallery",
     "imageAsset": "images/by-hash/e319589d9e3cfb91.png",
-    "description": "Office icon for animation transition variant gallery.",
+    "description": "A solid dark blue five-point star is centered in the icon.",
     "keywords": [
       "animation",
       "animation transition variant gallery",
