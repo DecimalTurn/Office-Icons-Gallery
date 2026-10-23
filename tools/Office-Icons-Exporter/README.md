@@ -2,6 +2,14 @@
 
 This vbapm project exports Office `idMso` icons as PNG files into the repository's sibling `images` directory. For each ID, it generates a temporary PNG and compares its SHA-256 with the existing file. Matching images remain untouched; changed images replace the existing PNG, and missing images are added. A failed export or hash check leaves the existing PNG untouched.
 
+## ID list sources
+
+`idMso-List.txt` combines the 3,852 IDs in the original exporter list with IDs from the [`christianjunk/ImageMso` project](https://github.com/christianjunk/ImageMso), in particular `src/Excel.Images/Images.settings` (`NamesTop` and `NamesBottom`). That project describes its inventory as a compilation of the 2007 and 2010 Office Icons Gallery downloads, the `[MS-CUSTOMUI]` `imageMso` table, and the `[MS-CUSTOMUI2]` supporting documentation. The Microsoft source links are listed in the [ImageMso project README](https://github.com/christianjunk/ImageMso/blob/main/README.md).
+
+The original 3,852-ID list is preserved byte-for-byte in [`idMso-List-archive-2026-10-22.txt`](idMso-List-archive-2026-10-22.txt). On 2026-10-22, 5,489 IDs supported by the C# project's Office 2013+ logic were added, producing 9,341 IDs total. The C# `NamesTop` and `NamesBottom` collections contain 8,898 unique IDs. Of the original list, 443 IDs do not appear in either collection. Five other original IDs do appear in the collections but are in `Exclude2013`: `JotInkStyle1`, `JotSendPdf`, `MeetingRequest`, `OfficeDiagnostics`, and `ProjectTaskDrivers`. Those five remain in the exporter list because they were already present in the original inventory.
+
+The C# inventory is a source for candidate IDs, not a guarantee that every ID is available in every installed Office version. The exporter records IDs that the local Excel installation cannot return.
+
 ## Run from the command line
 
 Use Node.js 22 or later and desktop Excel on Windows. Install vbapm with `npm install -g vbapm`. From this directory, build the workbook and run the extraction:
