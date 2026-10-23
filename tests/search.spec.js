@@ -62,16 +62,12 @@ test("search suggestions match the input and remain usable when resized", async 
     await page.setViewportSize({ width, height: 800 });
     const bounds = await page.evaluate(() => {
       const input = document.querySelector("#mso-search").getBoundingClientRect();
-      const searchArea = document.querySelector(".mso-filter").getBoundingClientRect();
       const list = document.querySelector(".awesomplete > ul");
       const menu = list.getBoundingClientRect();
 
       return {
         inputLeft: input.left,
         inputWidth: input.width,
-        searchAreaLeft: searchArea.left,
-        searchAreaWidth: searchArea.width,
-        searchAreaRight: searchArea.right,
         menuLeft: menu.left,
         menuWidth: menu.width,
         menuRight: menu.right,
@@ -79,10 +75,9 @@ test("search suggestions match the input and remain usable when resized", async 
       };
     });
 
-    expect(bounds.menuLeft).toBeCloseTo(bounds.searchAreaLeft, 0);
-    expect(bounds.menuWidth).toBeCloseTo(bounds.searchAreaWidth, 0);
-    expect(bounds.menuRight).toBeCloseTo(bounds.searchAreaRight, 0);
-    expect(bounds.menuWidth).toBeGreaterThanOrEqual(bounds.inputWidth);
+    expect(bounds.menuLeft).toBeCloseTo(bounds.inputLeft, 0);
+    expect(bounds.menuWidth).toBeCloseTo(bounds.inputWidth, 0);
+    expect(bounds.menuRight).toBeCloseTo(bounds.inputLeft + bounds.inputWidth, 0);
     expect(bounds.pointerDisplay).toBe("none");
   }
 
