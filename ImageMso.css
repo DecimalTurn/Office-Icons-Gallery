@@ -446,10 +446,19 @@ li span {
   list-style: none;
 }
 
+.same-image-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 32px;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
 .same-image-link {
   display: flex;
   align-items: center;
   gap: 8px;
+  flex: 1 1 auto;
   min-width: 0;
   color: var(--accent-color);
   text-align: left;
@@ -465,7 +474,23 @@ li span {
 
 .same-image-link span {
   min-width: 0;
+  white-space: normal;
   overflow-wrap: anywhere;
+}
+
+.icon-detail .same-image-copy-button {
+  box-sizing: border-box;
+  flex: 0 0 32px;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  padding: 5px;
+}
+
+.same-image-copy-button img {
+  width: 18px;
+  height: 18px;
+  float: none;
 }
 
 .icon-detail-image {

@@ -111,6 +111,7 @@
                 const link = document.createElement("a");
                 const image = document.createElement("img");
                 const label = document.createElement("span");
+                const copyAlternativeButton = document.createElement("button");
 
                 link.className = "same-image-link";
                 link.href = `./Icon.html?name=${encodeURIComponent(name)}`;
@@ -119,7 +120,20 @@
                 image.alt = "";
                 label.textContent = name;
                 link.append(image, label);
-                item.append(link);
+                copyAlternativeButton.className = "same-image-copy-button";
+                copyAlternativeButton.type = "button";
+                copyAlternativeButton.setAttribute("aria-label", `Copy ${name} ID`);
+                copyAlternativeButton.title = `Copy ${name} ID`;
+                const copyIcon = document.createElement("img");
+                copyIcon.src = "./images/Copy.png";
+                copyIcon.alt = "";
+                copyAlternativeButton.append(copyIcon);
+                copyAlternativeButton.addEventListener("click", (event) => {
+                  event.preventDefault();
+                  event.stopPropagation();
+                  copyIconId(name);
+                });
+                item.append(link, copyAlternativeButton);
                 return item;
               });
 
@@ -149,9 +163,9 @@
         errorMessage.hidden = false;
       }
 
-      function copyUsingSelection() {
+      function copyUsingSelection(text) {
         const temporaryInput = document.createElement("textarea");
-        temporaryInput.value = iconName;
+        temporaryInput.value = text;
         temporaryInput.style.position = "fixed";
         temporaryInput.style.opacity = "0";
         document.body.appendChild(temporaryInput);
@@ -161,27 +175,27 @@
         return copied;
       }
 
-      const copyIconId = async () => {
-        if (!validIconName) {
+      const copyIconId = async (id = iconName) => {
+        if (!id || !/^[A-Za-z0-9_]+$/.test(id)) {
           return;
         }
 
         copyStatus.textContent = "Copying icon ID...";
         try {
-          if (!copyUsingSelection()) {
+          if (!copyUsingSelection(id)) {
             if (!navigator.clipboard || !navigator.clipboard.writeText) {
               throw new Error("Clipboard access is unavailable");
             }
-            await navigator.clipboard.writeText(iconName);
+            await navigator.clipboard.writeText(id);
           }
-          copyStatus.textContent = "Copied icon ID";
+          copyStatus.textContent = `Copied ${id}`;
         } catch {
           copyStatus.textContent = "Could not copy the icon ID";
         }
       };
 
-      copyButton.addEventListener("click", copyIconId);
-      copyIdButton.addEventListener("click", copyIconId);
+      copyButton.addEventListener("click", () => copyIconId());
+      copyIdButton.addEventListener("click", () => copyIconId());
 
       function closeDownloadMenu() {
         downloadMenu.hidden = true;

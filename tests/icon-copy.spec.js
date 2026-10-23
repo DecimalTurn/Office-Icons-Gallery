@@ -9,6 +9,6 @@ test("copies the icon ID from the title-row button", async ({ page }) => {
   await expect(copyIdButton).toBeEnabled();
   await copyIdButton.click();
 
-  await expect(page.locator("#copy-status")).toHaveText("Copied icon ID");
+  await expect(page.locator("#copy-status")).toHaveText("Copied ZoomTwoPages");
   await expect.poll(() => page.evaluate(() => navigator.clipboard.readText())).toBe("ZoomTwoPages");
 });
