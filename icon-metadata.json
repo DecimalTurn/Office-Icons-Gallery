@@ -3089,7 +3089,7 @@
   {
     "name": "ActiveXSpinButton",
     "imageAsset": "images/by-hash/ad584763f0010d33.png",
-    "description": "Office icon for active x spin button.",
+    "description": "A pale square control contains two opposing gray arrowheads.",
     "keywords": [
       "active",
       "active x spin button",
@@ -3118,7 +3118,7 @@
   {
     "name": "ActiveXTextBox",
     "imageAsset": "images/by-hash/132afc8193cf8935.png",
-    "description": "Office icon for active x text box.",
+    "description": "The letters ab sit beside a vertical text cursor inside a small outlined box.",
     "keywords": [
       "active",
       "active x text box",
@@ -3149,7 +3149,7 @@
   {
     "name": "ActiveXToggleButton",
     "imageAsset": "images/by-hash/ec7798c67ae9ecc9.png",
-    "description": "Office icon for active x toggle button.",
+    "description": "A small rectangular button has a dark inset across its middle.",
     "keywords": [
       "active",
       "active x toggle button",
@@ -3178,7 +3178,7 @@
   {
     "name": "ActualSize",
     "imageAsset": "images/by-hash/fe00ad022d5e66dd.png",
-    "description": "Office icon for actual size.",
+    "description": "A dark square contains a narrow light bar.",
     "keywords": [
       "actual",
       "actual size",
@@ -3196,7 +3196,7 @@
   {
     "name": "AddAccount",
     "imageAsset": "images/by-hash/f2f3893b310219d3.png",
-    "description": "Office icon for add account.",
+    "description": "A white page outline has blue 100 numerals near its lower edge.",
     "keywords": [
       "account",
       "add",
@@ -3229,7 +3229,7 @@
   {
     "name": "AddAssignmentStage",
     "imageAsset": "images/by-hash/4c50252de9e4f7f7.png",
-    "description": "Office icon for add assignment stage.",
+    "description": "A thin green cross sits in the center of a white square.",
     "keywords": [
       "add",
       "add assignment stage",
@@ -3278,7 +3278,7 @@
   {
     "name": "AddCalendarFromInternet",
     "imageAsset": "images/by-hash/acd07aef3fcbd50a.png",
-    "description": "Office icon for add calendar from internet.",
+    "description": "A blue person outline is partly covered by a gray magnifying glass.",
     "keywords": [
       "add",
       "add calendar from internet",
@@ -3310,7 +3310,7 @@
   {
     "name": "AddCalendarMenu",
     "imageAsset": "images/by-hash/ded081c270c24891.png",
-    "description": "Office icon for add calendar menu.",
+    "description": "A pale gray globe has latitude and longitude lines.",
     "keywords": [
       "add",
       "add calendar menu",
@@ -3332,7 +3332,7 @@
   {
     "name": "AddCellLeft",
     "imageAsset": "images/by-hash/f693e00fc510f4c2.png",
-    "description": "Office icon for add cell left.",
+    "description": "A small grid has a green plus sign beside its left edge.",
     "keywords": [
       "add",
       "add cell left",
@@ -3360,7 +3360,7 @@
   {
     "name": "AddCellRight",
     "imageAsset": "images/by-hash/4364d9ec4c315f9e.png",
-    "description": "Office icon for add cell right.",
+    "description": "A small grid sits beside a blue arrow pointing right.",
     "keywords": [
       "add",
       "add cell right",
@@ -3388,7 +3388,7 @@
   {
     "name": "AddChartElementMenu",
     "imageAsset": "images/by-hash/1296182aef35db2b.png",
-    "description": "Office icon for add chart element menu.",
+    "description": "A blue bar chart appears beside a small green plus sign.",
     "keywords": [
       "add",
       "add chart element menu",
@@ -3412,7 +3412,7 @@
   {
     "name": "AddContentType",
     "imageAsset": "images/by-hash/fcaa71a805f81e9f.png",
-    "description": "Office icon for add content type.",
+    "description": "A small table grid has a blue highlighted column and green plus sign.",
     "keywords": [
       "add",
       "add content type",
@@ -3447,7 +3447,7 @@
   {
     "name": "AddDepartment",
     "imageAsset": "images/by-hash/1b9e5011b9700439.png",
-    "description": "Office icon for add department.",
+    "description": "A blue person outline overlaps a pale gray magnifying glass.",
     "keywords": [
       "add",
       "add department",
@@ -3511,7 +3511,7 @@
   {
     "name": "AddExistingTasksToTimeline",
     "imageAsset": "images/by-hash/2128fa0a06829f22.png",
-    "description": "Office icon for add existing tasks to timeline.",
+    "description": "A faint horizontal line has a short blue block near its right end.",
     "keywords": [
       "add",
       "add existing tasks to timeline",
@@ -3544,7 +3544,7 @@
   {
     "name": "AddFolderToFavorites",
     "imageAsset": "images/by-hash/665d74369cb8bd63.png",
-    "description": "Office icon for add folder to favorites.",
+    "description": "A gray folder is marked with a gold star.",
     "keywords": [
       "add",
       "add folder to favorites",
@@ -3577,7 +3577,7 @@
   {
     "name": "AddGroup",
     "imageAsset": "images/by-hash/c1a316e1de581ba2.png",
-    "description": "Office icon for add group.",
+    "description": "Several blue-green person silhouettes surround a small yellow star.",
     "keywords": [
       "add",
       "add group",
@@ -3593,7 +3593,7 @@
   {
     "name": "AddHorizontalGuide",
     "imageAsset": "images/by-hash/f52ccfeb77807033.png",
-    "description": "Office icon for add horizontal guide.",
+    "description": "A thin blue horizontal line crosses a pale rectangular frame.",
     "keywords": [
       "add",
       "add horizontal guide",
@@ -3621,7 +3621,7 @@
   {
     "name": "AddInCommandsMenu",
     "imageAsset": "images/by-hash/ee94c895a540e52b.png",
-    "description": "Office icon for add in commands menu.",
+    "description": "A short gray list is paired with a blue gear at the lower right.",
     "keywords": [
       "add",
       "add in commands menu",
@@ -3646,7 +3646,7 @@
   {
     "name": "AddInManager",
     "imageAsset": "images/by-hash/0d9d427cad11f2dd.png",
-    "description": "Office icon for add in manager.",
+    "description": "A pale gray gear appears on a white background.",
     "keywords": [
       "add",
       "add in manager",
@@ -3726,7 +3726,7 @@
   {
     "name": "AddInsMenu",
     "imageAsset": "images/by-hash/a2163034651143da.png",
-    "description": "Office icon for add ins menu.",
+    "description": "A pale gray wireframe box is marked with a blue plus sign.",
     "keywords": [
       "add",
       "add ins menu",
@@ -3749,7 +3749,7 @@
   {
     "name": "AddNewColumnMenu",
     "imageAsset": "images/by-hash/14c3f28cf7f6656f.png",
-    "description": "Office icon for add new column menu.",
+    "description": "A narrow blue column sits within a pale gray grid.",
     "keywords": [
       "add",
       "add new column menu",
@@ -3771,7 +3771,7 @@
   {
     "name": "AddNewRssFeed",
     "imageAsset": "images/by-hash/62675dac43797838.png",
-    "description": "Office icon for add new rss feed.",
+    "description": "An orange tile has a blue plus at its upper left.",
     "keywords": [
       "add",
       "add new rss feed",
@@ -3851,7 +3851,7 @@
   {
     "name": "AddOnsMenu",
     "imageAsset": "images/by-hash/a2163034651143da.png",
-    "description": "Office icon for add ons menu.",
+    "description": "A pale grid is paired with a blue gear at the lower right.",
     "keywords": [
       "add",
       "add ons menu",
@@ -3868,7 +3868,7 @@
   {
     "name": "AddOrRemoveAttendees",
     "imageAsset": "images/by-hash/62fd3177490b858d.png",
-    "description": "Office icon for add or remove attendees.",
+    "description": "A gray person silhouette has a green plus sign beside it.",
     "keywords": [
       "add",
       "add or remove attendees",
@@ -3902,7 +3902,7 @@
   {
     "name": "AddPeoplesCalendar",
     "imageAsset": "images/by-hash/3ecdfc82cb4924db.png",
-    "description": "Office icon for add peoples calendar.",
+    "description": "A faint gray person silhouette is centered within a rounded outline.",
     "keywords": [
       "add",
       "add peoples calendar",
@@ -3935,7 +3935,7 @@
   {
     "name": "AddPermissionGroup",
     "imageAsset": "images/by-hash/c1a316e1de581ba2.png",
-    "description": "Office icon for add permission group.",
+    "description": "Several blue-green person silhouettes surround a small yellow star.",
     "keywords": [
       "add",
       "add permission group",
@@ -3966,7 +3966,7 @@
   {
     "name": "AddReminder",
     "imageAsset": "images/by-hash/787c5004e1a222c9.png",
-    "description": "Office icon for add reminder.",
+    "description": "A pale gray bell outline appears on a white background.",
     "keywords": [
       "add",
       "add reminder",
@@ -3997,7 +3997,7 @@
   {
     "name": "AddResourcesFromActiveDirectory",
     "imageAsset": "images/by-hash/e1d564e7fc6ca424.png",
-    "description": "Office icon for add resources from active directory.",
+    "description": "A faint gray outline is paired with a small blue symbol at the lower right.",
     "keywords": [
       "active",
       "add",
@@ -4027,7 +4027,7 @@
   {
     "name": "AddressBook",
     "imageAsset": "images/by-hash/3ecdfc82cb4924db.png",
-    "description": "Office icon for address book.",
+    "description": "A faint open-book outline contains a small head-and-shoulders figure.",
     "keywords": [
       "address",
       "address book",
@@ -4060,7 +4060,7 @@
   {
     "name": "AddRoom",
     "imageAsset": "images/by-hash/c5a6d83ecd4a30d5.png",
-    "description": "Office icon for add room.",
+    "description": "A pale rectangular outline has a small blue symbol near its lower right.",
     "keywords": [
       "add",
       "add room",
@@ -4076,7 +4076,7 @@
   {
     "name": "AddRulesMenu",
     "imageAsset": "images/by-hash/314b2e53c7d79c39.png",
-    "description": "Office icon for add rules menu.",
+    "description": "A yellow lightning bolt lies over a lined sheet of paper.",
     "keywords": [
       "add",
       "add rules menu",
@@ -4109,7 +4109,7 @@
   {
     "name": "AddSelectionToAccentsLibrary",
     "imageAsset": "images/by-hash/47ba77713e15ca41.png",
-    "description": "Office icon for add selection to accents library.",
+    "description": "A small framed landscape shows blue sky above overlapping blue and green hills.",
     "keywords": [
       "accents",
       "add",
@@ -4149,7 +4149,7 @@
   {
     "name": "AddSelectionToAdvertisementLibrary",
     "imageAsset": "images/by-hash/47ba77713e15ca41.png",
-    "description": "Office icon for add selection to advertisement library.",
+    "description": "A small framed landscape shows blue sky above overlapping blue and green hills.",
     "keywords": [
       "add",
       "add selection to advertisement library",
@@ -4189,7 +4189,7 @@
   {
     "name": "AddSelectionToBusinessInformationLibrary",
     "imageAsset": "images/by-hash/47ba77713e15ca41.png",
-    "description": "Office icon for add selection to business information library.",
+    "description": "A small framed landscape shows blue sky above overlapping blue and green hills.",
     "keywords": [
       "add",
       "add selection to business information library",
@@ -4230,7 +4230,7 @@
   {
     "name": "AddSelectionToCalendarsLibrary",
     "imageAsset": "images/by-hash/47ba77713e15ca41.png",
-    "description": "Office icon for add selection to calendars library.",
+    "description": "A small framed landscape shows blue sky above overlapping blue and green hills.",
     "keywords": [
       "add",
       "add selection to calendars library",
@@ -4270,7 +4270,7 @@
   {
     "name": "AddSelectionToContentLibrary",
     "imageAsset": "images/by-hash/47ba77713e15ca41.png",
-    "description": "Office icon for add selection to content library.",
+    "description": "A small framed landscape shows blue sky above overlapping blue and green hills.",
     "keywords": [
       "add",
       "add selection to content library",
@@ -4310,7 +4310,7 @@
   {
     "name": "AddSelectionToPagePartsLibrary",
     "imageAsset": "images/by-hash/47ba77713e15ca41.png",
-    "description": "Office icon for add selection to page parts library.",
+    "description": "A blue landscape thumbnail sits behind a large outlined letter A.",
     "keywords": [
       "add",
       "add selection to page parts library",
@@ -4351,7 +4351,7 @@
   {
     "name": "AddSelectionToTextLibrary",
     "imageAsset": "images/by-hash/47ba77713e15ca41.png",
-    "description": "Office icon for add selection to text library.",
+    "description": "A blue landscape thumbnail sits behind a large outlined letter A.",
     "keywords": [
       "add",
       "add selection to text library",
@@ -4391,7 +4391,7 @@
   {
     "name": "AddSelectionToVertTextLibrary",
     "imageAsset": "images/by-hash/47ba77713e15ca41.png",
-    "description": "Office icon for add selection to vert text library.",
+    "description": "A blue landscape thumbnail sits behind a large outlined letter A.",
     "keywords": [
       "add",
       "add selection to vert text library",
@@ -4432,7 +4432,7 @@
   {
     "name": "AddTextToTextEffect",
     "imageAsset": "images/by-hash/8187ee8d4735072e.png",
-    "description": "Office icon for add text to text effect.",
+    "description": "A blue letter A sits inside a gray selection box with blue corner handles.",
     "keywords": [
       "add",
       "add text to text effect",
@@ -4480,7 +4480,7 @@
   {
     "name": "AddToContentStore",
     "imageAsset": "images/by-hash/47ba77713e15ca41.png",
-    "description": "Office icon for add to content store.",
+    "description": "A blue landscape thumbnail sits behind a large outlined letter A.",
     "keywords": [
       "add",
       "add to content store",
@@ -4519,7 +4519,7 @@
   {
     "name": "AddToFavorites",
     "imageAsset": "images/by-hash/0823a381e0b8637e.png",
-    "description": "Office icon for add to favorites.",
+    "description": "A gold star sits on a white page crossed by green guide lines.",
     "keywords": [
       "add",
       "add to favorites",
@@ -4648,7 +4648,7 @@
   {
     "name": "AddToMySite",
     "imageAsset": "images/by-hash/70b6b8bf57bb7ab2.png",
-    "description": "Office icon for add to my site.",
+    "description": "A profile sheet with text blocks and a blue person symbol has a large green plus.",
     "keywords": [
       "add",
       "add to my site",
@@ -4677,7 +4677,7 @@
   {
     "name": "AddToolGallery",
     "imageAsset": "images/by-hash/361923eeca76eb5a.png",
-    "description": "Office icon for add tool gallery.",
+    "description": "A yellow folder, orange column grid and blue speech bubble sit beside a green plus.",
     "keywords": [
       "add",
       "add tool gallery",
@@ -4753,7 +4753,7 @@
   {
     "name": "AddUserToPermissionGroup",
     "imageAsset": "images/by-hash/57b6806ca0598d1d.png",
-    "description": "Office icon for add user to permission group.",
+    "description": "A gray outline of a person is overlaid by a green plus.",
     "keywords": [
       "add",
       "add user to permission group",
@@ -4802,7 +4802,7 @@
   {
     "name": "AddVerticalGuide",
     "imageAsset": "images/by-hash/770c3126573549c1.png",
-    "description": "Office icon for add vertical guide.",
+    "description": "A narrow blue vertical bar runs through the center of a gray rectangular frame.",
     "keywords": [
       "add",
       "add vertical guide",
@@ -4866,7 +4866,7 @@
   {
     "name": "AddWebPartConnection",
     "imageAsset": "images/by-hash/46504686e3dd6015.png",
-    "description": "Office icon for add web part connection.",
+    "description": "Three blue-topped cards are linked by gray lines beside a green plus.",
     "keywords": [
       "add",
       "add web part connection",
@@ -4898,7 +4898,7 @@
   {
     "name": "AdministrationHome",
     "imageAsset": "images/by-hash/0d9d427cad11f2dd.png",
-    "description": "Office icon for administration home.",
+    "description": "A pale gray gear outline sits on a blank background.",
     "keywords": [
       "administration",
       "administration home",
@@ -4943,7 +4943,7 @@
   {
     "name": "AdpConstraints",
     "imageAsset": "images/by-hash/855fdd3e9ceeec28.png",
-    "description": "Office icon for adp constraints.",
+    "description": "A blue-topped table is overlapped at the bottom by a blue chain link.",
     "keywords": [
       "adp",
       "adp constraints",
@@ -4967,7 +4967,7 @@
   {
     "name": "AdpDiagramAddRelatedTables",
     "imageAsset": "images/by-hash/3ce52e58a86dd5ae.png",
-    "description": "Office icon for adp diagram add related tables.",
+    "description": "Two blue-topped table cards are connected by a gray line, with a green plus above.",
     "keywords": [
       "add",
       "adp",
@@ -5001,7 +5001,7 @@
   {
     "name": "AdpDiagramAddTable",
     "imageAsset": "images/by-hash/137ac164f27ccd56.png",
-    "description": "Office icon for adp diagram add table.",
+    "description": "A gray table grid has a green plus near its upper-left corner.",
     "keywords": [
       "add",
       "adp",
@@ -5036,7 +5036,7 @@
   {
     "name": "AdpDiagramArrangeSelection",
     "imageAsset": "images/by-hash/917cc34f1d929f62.png",
-    "description": "Office icon for adp diagram arrange selection.",
+    "description": "Three blue-topped table cards sit inside a dashed rectangular boundary.",
     "keywords": [
       "adp",
       "adp diagram arrange selection",
@@ -5062,7 +5062,7 @@
   {
     "name": "AdpDiagramArrangeTables",
     "imageAsset": "images/by-hash/fdd10e6aaa27bf02.png",
-    "description": "Office icon for adp diagram arrange tables.",
+    "description": "Three pale gray table cards form a branching arrangement joined by gray lines.",
     "keywords": [
       "adp",
       "adp diagram arrange tables",
@@ -5091,7 +5091,7 @@
   {
     "name": "AdpDiagramAutosizeSelectedTables",
     "imageAsset": "images/by-hash/8f2da1eb3cb54652.png",
-    "description": "Office icon for adp diagram autosize selected tables.",
+    "description": "A blue-topped table sits inside a dashed selection box with blue vertical double arrows.",
     "keywords": [
       "adp",
       "adp diagram autosize selected tables",
@@ -5118,7 +5118,7 @@
   {
     "name": "AdpDiagramColumnNames",
     "imageAsset": "images/by-hash/c5ddb0905ee042e2.png",
-    "description": "Office icon for adp diagram column names.",
+    "description": "A blue-topped table has repeated blue bands in one column.",
     "keywords": [
       "adp",
       "adp diagram column names",
@@ -5144,7 +5144,7 @@
   {
     "name": "AdpDiagramColumnProperties",
     "imageAsset": "images/by-hash/c69b590845550f0a.png",
-    "description": "Office icon for adp diagram column properties.",
+    "description": "A blue-topped table has one light-blue highlighted column.",
     "keywords": [
       "adp",
       "adp diagram column properties",
@@ -5170,7 +5170,7 @@
   {
     "name": "AdpDiagramCustomView",
     "imageAsset": "images/by-hash/70cbb19a4d56615d.png",
-    "description": "Office icon for adp diagram custom view.",
+    "description": "A gray table grid has a blue-tinted center column.",
     "keywords": [
       "adp",
       "adp diagram custom view",
@@ -5196,7 +5196,7 @@
   {
     "name": "AdpDiagramDeleteTable",
     "imageAsset": "images/by-hash/be3101efbcf48928.png",
-    "description": "Office icon for adp diagram delete table.",
+    "description": "A large pale gray X sits on a blank background.",
     "keywords": [
       "adp",
       "adp diagram delete table",
@@ -5228,7 +5228,7 @@
   {
     "name": "AdpDiagramHideTable",
     "imageAsset": "images/by-hash/1325a20eb32207e6.png",
-    "description": "Office icon for adp diagram hide table.",
+    "description": "A gray table grid is crossed by a diagonal line ending in a dark mark at the upper right.",
     "keywords": [
       "adp",
       "adp diagram hide table",
@@ -5258,7 +5258,7 @@
   {
     "name": "AdpDiagramIndexesKeys",
     "imageAsset": "images/by-hash/ad1f748dc2c78dc8.png",
-    "description": "Office icon for adp diagram indexes keys.",
+    "description": "Several gray horizontal lines sit beside a yellow lightning bolt.",
     "keywords": [
       "adp",
       "adp diagram indexes keys",
@@ -5291,7 +5291,7 @@
   {
     "name": "AdpDiagramKeys",
     "imageAsset": "images/by-hash/7a45abbe682e6d03.png",
-    "description": "Office icon for adp diagram keys.",
+    "description": "A gold key overlays the lower part of a blue-topped table.",
     "keywords": [
       "adp",
       "adp diagram keys",
@@ -5316,7 +5316,7 @@
   {
     "name": "AdpDiagramNameOnly",
     "imageAsset": "images/by-hash/01ce8db5665e111c.png",
-    "description": "Office icon for adp diagram name only.",
+    "description": "A narrow blue header sits above an otherwise empty box with dashed sides.",
     "keywords": [
       "adp",
       "adp diagram name only",
@@ -5342,7 +5342,7 @@
   {
     "name": "AdpDiagramNewLabel",
     "imageAsset": "images/by-hash/1819d9833fe56cf4.png",
-    "description": "Office icon for adp diagram new label.",
+    "description": "Faint gray italic letters Aa appear on a blank background.",
     "keywords": [
       "adp",
       "adp diagram new label",
@@ -5375,7 +5375,7 @@
   {
     "name": "AdpDiagramNewTable",
     "imageAsset": "images/by-hash/c1af06db226665c0.png",
-    "description": "Office icon for adp diagram new table.",
+    "description": "A page with several gray lines has a small gold burst near its upper-left corner.",
     "keywords": [
       "adp",
       "adp diagram new table",
@@ -5402,7 +5402,7 @@
   {
     "name": "AdpDiagramRecalculatePageBreaks",
     "imageAsset": "images/by-hash/481fdb9f01101d71.png",
-    "description": "Office icon for adp diagram recalculate page breaks.",
+    "description": "A folded-corner page is overlaid by green circular arrows.",
     "keywords": [
       "adp",
       "adp diagram recalculate page breaks",
@@ -5429,7 +5429,7 @@
   {
     "name": "AdpDiagramRelationships",
     "imageAsset": "images/by-hash/64480077e54e1b8b.png",
-    "description": "Office icon for adp diagram relationships.",
+    "description": "Three small outlined table cards are connected by gray lines.",
     "keywords": [
       "adp",
       "adp diagram relationships",
@@ -5467,7 +5467,7 @@
   {
     "name": "AdpDiagramShowRelationshipLabels",
     "imageAsset": "images/by-hash/8a48bd2077a45fd2.png",
-    "description": "Office icon for adp diagram show relationship labels.",
+    "description": "Two blue horizontal lines sit inside a dashed rectangular outline beside a gray vertical stroke.",
     "keywords": [
       "adp",
       "adp diagram show relationship labels",
@@ -5494,7 +5494,7 @@
   {
     "name": "AdpDiagramTableModesMenu",
     "imageAsset": "images/by-hash/1d820c650e733d46.png",
-    "description": "Office icon for adp diagram table modes menu.",
+    "description": "A small table grid has a blue circle around one central cell.",
     "keywords": [
       "adp",
       "adp diagram table modes menu",
@@ -5525,7 +5525,7 @@
   {
     "name": "AdpDiagramViewPageBreaks",
     "imageAsset": "images/by-hash/0e116039c9bf96df.png",
-    "description": "Office icon for adp diagram view page breaks.",
+    "description": "A pale gray page grid is divided by thick horizontal and vertical lines.",
     "keywords": [
       "adp",
       "adp diagram view page breaks",
@@ -5556,7 +5556,7 @@
   {
     "name": "AdpManageIndexes",
     "imageAsset": "images/by-hash/d42667e6d651fa2f.png",
-    "description": "Office icon for adp manage indexes.",
+    "description": "Several offset sheets show short blue and gray lines beneath a yellow lightning bolt.",
     "keywords": [
       "adp",
       "adp manage indexes",
@@ -5584,7 +5584,7 @@
   {
     "name": "AdpNewTable",
     "imageAsset": "images/by-hash/faa99bee2a7f02ec.png",
-    "description": "Office icon for adp new table.",
+    "description": "A gray-topped sheet with short rows has a green plus at the lower right.",
     "keywords": [
       "adp",
       "adp new table",
@@ -5617,7 +5617,7 @@
   {
     "name": "AdpOutputOperationsAddToOutput",
     "imageAsset": "images/by-hash/9cd8f25ed0b383c0.png",
-    "description": "Office icon for adp output operations add to output.",
+    "description": "A blue-topped table has short gray rows and a large green plus at the upper left.",
     "keywords": [
       "add",
       "adp",
@@ -5647,7 +5647,7 @@
   {
     "name": "AdpOutputOperationsGroupBy",
     "imageAsset": "images/by-hash/170f9d5531971ed7.png",
-    "description": "Office icon for adp output operations group by.",
+    "description": "A faint gray table-like mark has a small orange symbol near its top edge.",
     "keywords": [
       "adp",
       "adp output operations group by",
@@ -5678,7 +5678,7 @@
   {
     "name": "AdpOutputOperationsSortAscending",
     "imageAsset": "images/by-hash/458fd8e1130b5e6a.png",
-    "description": "Office icon for adp output operations sort ascending.",
+    "description": "A blue letter A appears beside a small gray arrow.",
     "keywords": [
       "adp",
       "adp output operations sort ascending",
@@ -5724,7 +5724,7 @@
   {
     "name": "AdpOutputOperationsSortDescending",
     "imageAsset": "images/by-hash/77440f0b8550bd69.png",
-    "description": "Office icon for adp output operations sort descending.",
+    "description": "A blue letter Z appears beside a small gray arrow.",
     "keywords": [
       "adp",
       "adp output operations sort descending",
@@ -5758,7 +5758,7 @@
   {
     "name": "AdpOutputOperationsTableRemove",
     "imageAsset": "images/by-hash/bb692ed17b20b5b6.png",
-    "description": "Office icon for adp output operations table remove.",
+    "description": "A small gray table grid has a red horizontal mark.",
     "keywords": [
       "adp",
       "adp output operations table remove",
@@ -5786,7 +5786,7 @@
   {
     "name": "AdpPrimaryKey",
     "imageAsset": "images/by-hash/af86b53b295b45ca.png",
-    "description": "Office icon for adp primary key.",
+    "description": "A small gray table is paired with a yellow key-shaped mark.",
     "keywords": [
       "adp",
       "adp primary key",
@@ -5816,7 +5816,7 @@
   {
     "name": "AdpStoredProcedureEditSql",
     "imageAsset": "images/by-hash/f00cbc1074580c04.png",
-    "description": "Office icon for adp stored procedure edit sql.",
+    "description": "A page outline is overlaid by a magnifying glass.",
     "keywords": [
       "adp",
       "adp stored procedure edit sql",
@@ -5843,7 +5843,7 @@
   {
     "name": "AdpStoredProcedureQueryAppend",
     "imageAsset": "images/by-hash/b80f514177d5e0a8.png",
-    "description": "Office icon for adp stored procedure query append.",
+    "description": "The letters SQL appear beside a small page and pencil.",
     "keywords": [
       "adp",
       "adp stored procedure query append",
@@ -5873,7 +5873,7 @@
   {
     "name": "AdpStoredProcedureQueryAppendValues",
     "imageAsset": "images/by-hash/d677325f0f15f3f1.png",
-    "description": "Office icon for adp stored procedure query append values.",
+    "description": "A small table grid has a green mark near its edge.",
     "keywords": [
       "adp",
       "adp stored procedure query append values",
@@ -5901,7 +5901,7 @@
   {
     "name": "AdpStoredProcedureQueryDelete",
     "imageAsset": "images/by-hash/89aa1c4dc0e96762.png",
-    "description": "Office icon for adp stored procedure query delete.",
+    "description": "A gray table grid has red horizontal marks.",
     "keywords": [
       "adp",
       "adp stored procedure query delete",
@@ -5933,7 +5933,7 @@
   {
     "name": "AdpStoredProcedureQueryMakeTable",
     "imageAsset": "images/by-hash/8d588e96f4f6abb6.png",
-    "description": "Office icon for adp stored procedure query make table.",
+    "description": "A small table grid has a red strip along its top.",
     "keywords": [
       "adp",
       "adp stored procedure query make table",
@@ -5965,7 +5965,7 @@
   {
     "name": "AdpStoredProcedureQuerySelect",
     "imageAsset": "images/by-hash/3ede2d24cf3da107.png",
-    "description": "Office icon for adp stored procedure query select.",
+    "description": "A gray table grid has a red mark along its left edge.",
     "keywords": [
       "adp",
       "adp stored procedure query select",
@@ -5997,7 +5997,7 @@
   {
     "name": "AdpStoredProcedureQueryUpdate",
     "imageAsset": "images/by-hash/21d398046cbe9f67.png",
-    "description": "Office icon for adp stored procedure query update.",
+    "description": "A small table grid is overlaid by a blue pencil.",
     "keywords": [
       "adp",
       "adp stored procedure query update",
@@ -6027,7 +6027,7 @@
   {
     "name": "AdpVerifySqlSyntax",
     "imageAsset": "images/by-hash/3da4d8e7b632430f.png",
-    "description": "Office icon for adp verify sql syntax.",
+    "description": "The letters SQL are followed by a blue check mark.",
     "keywords": [
       "adp",
       "adp verify sql syntax",
@@ -6053,7 +6053,7 @@
   {
     "name": "AdpViewDiagramPane",
     "imageAsset": "images/by-hash/873226769e8cd95e.png",
-    "description": "Office icon for adp view diagram pane.",
+    "description": "A small window shows connected boxes and lines.",
     "keywords": [
       "adp",
       "adp view diagram pane",
@@ -6079,7 +6079,7 @@
   {
     "name": "AdpViewGridPane",
     "imageAsset": "images/by-hash/1d7ab9f4656f3b00.png",
-    "description": "Office icon for adp view grid pane.",
+    "description": "A blue-outlined table grid sits inside a small window.",
     "keywords": [
       "adp",
       "adp view grid pane",
@@ -6105,7 +6105,7 @@
   {
     "name": "AdpViewSqlPane",
     "imageAsset": "images/by-hash/273c8beb2dd626cd.png",
-    "description": "Office icon for adp view sql pane.",
+    "description": "The letters SQL appear inside a small page outline.",
     "keywords": [
       "adp",
       "adp view sql pane",
@@ -6131,7 +6131,7 @@
   {
     "name": "AdvancedFileProperties",
     "imageAsset": "images/by-hash/efd326c5be4d5b20.png",
-    "description": "Office icon for advanced file properties.",
+    "description": "A pale page outline has small marks near its lower edge.",
     "keywords": [
       "advanced",
       "advanced file properties",
@@ -6270,7 +6270,7 @@
   {
     "name": "AdvancedFilterDialog",
     "imageAsset": "images/by-hash/8519d7c5a282f126.png",
-    "description": "Office icon for advanced filter dialog.",
+    "description": "A blue funnel shape is paired with a small gear.",
     "keywords": [
       "advanced",
       "advanced filter dialog",
@@ -6324,7 +6324,7 @@
   {
     "name": "AdvancedMode",
     "imageAsset": "images/by-hash/e990b26262ad2738.png",
-    "description": "Office icon for advanced mode.",
+    "description": "A page with colored lines has a red exclamation mark and a green check.",
     "keywords": [
       "advanced",
       "advanced mode",
@@ -6352,7 +6352,7 @@
   {
     "name": "AdvancedObjectMenu",
     "imageAsset": "images/by-hash/f1d930c1fb20b2ea.png",
-    "description": "Office icon for advanced object menu.",
+    "description": "A pale page outline has a small blue star-like mark.",
     "keywords": [
       "advanced",
       "advanced object menu",
@@ -6385,7 +6385,7 @@
   {
     "name": "AdvertisementGallery",
     "imageAsset": "images/by-hash/a4e1913b578d29d6.png",
-    "description": "Office icon for advertisement gallery.",
+    "description": "A page outline has a small blue graphic near its lower edge.",
     "keywords": [
       "advertisement",
       "advertisement gallery",
@@ -6398,7 +6398,7 @@
   {
     "name": "AdvertisePublishAs",
     "imageAsset": "images/by-hash/9ffc68917f511636.png",
-    "description": "Office icon for advertise publish as.",
+    "description": "A pale page outline has a small blue symbol near its lower edge.",
     "keywords": [
       "advertise",
       "advertise publish as",
@@ -6423,7 +6423,7 @@
   {
     "name": "AfterDelete",
     "imageAsset": "images/by-hash/e8cb3d2b181b016d.png",
-    "description": "Office icon for after delete.",
+    "description": "A pale page outline has a red X near its lower edge.",
     "keywords": [
       "after",
       "after delete",
@@ -6452,7 +6452,7 @@
   {
     "name": "AfterDeleteSql",
     "imageAsset": "images/by-hash/e8cb3d2b181b016d.png",
-    "description": "Office icon for after delete sql.",
+    "description": "A pale page outline has a red X near its lower edge.",
     "keywords": [
       "after",
       "after delete sql",
@@ -6482,7 +6482,7 @@
   {
     "name": "AfterInsert",
     "imageAsset": "images/by-hash/bf04b878fe675d39.png",
-    "description": "Office icon for after insert.",
+    "description": "A pale page outline has a small blue arrow near its lower edge.",
     "keywords": [
       "add",
       "after",
@@ -6511,7 +6511,7 @@
   {
     "name": "AfterInsertSql",
     "imageAsset": "images/by-hash/bf04b878fe675d39.png",
-    "description": "Office icon for after insert sql.",
+    "description": "A pale page outline has a small blue arrow near its lower edge.",
     "keywords": [
       "add",
       "after",
@@ -6541,7 +6541,7 @@
   {
     "name": "AfterUpdate",
     "imageAsset": "images/by-hash/ab0cc1b7f6e7a269.png",
-    "description": "Office icon for after update.",
+    "description": "A pale page outline has a green circular arrow near its lower edge.",
     "keywords": [
       "after",
       "after update",
@@ -6569,7 +6569,7 @@
   {
     "name": "AfterUpdateSql",
     "imageAsset": "images/by-hash/ab0cc1b7f6e7a269.png",
-    "description": "Office icon for after update sql.",
+    "description": "A pale page outline has a green circular arrow near its lower edge.",
     "keywords": [
       "after",
       "after update sql",
@@ -6598,7 +6598,7 @@
   {
     "name": "Alerts",
     "imageAsset": "images/by-hash/787c5004e1a222c9.png",
-    "description": "Office icon for alerts.",
+    "description": "A simple gray bell outline appears on a white background.",
     "keywords": [
       "alerts"
     ],
@@ -6630,7 +6630,7 @@
   {
     "name": "AlignBottomExcel",
     "imageAsset": "images/by-hash/4b6fbf0f99c0e63a.png",
-    "description": "Office icon for align bottom excel.",
+    "description": "Several short gray horizontal lines share a common lower edge.",
     "keywords": [
       "align",
       "align bottom excel",
@@ -6696,7 +6696,7 @@
   {
     "name": "AlignDialog",
     "imageAsset": "images/by-hash/6681fe487d168071.png",
-    "description": "Office icon for align dialog.",
+    "description": "Two outlined rectangles appear beside a blue left-pointing arrow.",
     "keywords": [
       "align",
       "align dialog",
@@ -6724,7 +6724,7 @@
   {
     "name": "AlignDistributeHorizontally",
     "imageAsset": "images/by-hash/f65bd36d4456ac2f.png",
-    "description": "Office icon for align distribute horizontally.",
+    "description": "Small outlined blocks are spaced across a horizontal guide.",
     "keywords": [
       "align",
       "align distribute horizontally",
@@ -6755,7 +6755,7 @@
   {
     "name": "AlignDistributeHorizontallyClassic",
     "imageAsset": "images/by-hash/f65bd36d4456ac2f.png",
-    "description": "Office icon for align distribute horizontally classic.",
+    "description": "Small outlined blocks sit in a horizontal row with a blue guide.",
     "keywords": [
       "align",
       "align distribute horizontally classic",
@@ -6787,7 +6787,7 @@
   {
     "name": "AlignDistributeVertically",
     "imageAsset": "images/by-hash/faaef2a521a93bcd.png",
-    "description": "Office icon for align distribute vertically.",
+    "description": "Three small outlined blocks are arranged vertically along a guide.",
     "keywords": [
       "align",
       "align distribute vertically",
@@ -6818,7 +6818,7 @@
   {
     "name": "AlignDistributeVerticallyClassic",
     "imageAsset": "images/by-hash/faaef2a521a93bcd.png",
-    "description": "Office icon for align distribute vertically classic.",
+    "description": "Three outlined blocks are stacked vertically beside a blue guide.",
     "keywords": [
       "align",
       "align distribute vertically classic",
@@ -6850,7 +6850,7 @@
   {
     "name": "AlignGallery",
     "imageAsset": "images/by-hash/6681fe487d168071.png",
-    "description": "Office icon for align gallery.",
+    "description": "Two outlined rectangles appear beside a blue left-pointing arrow.",
     "keywords": [
       "align",
       "align gallery",
