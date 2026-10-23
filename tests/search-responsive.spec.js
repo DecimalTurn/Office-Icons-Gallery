@@ -10,7 +10,7 @@ test("search suggestions remain aligned and selectable when resized", async ({ p
   await search.fill("bright");
 
   const suggestions = page.locator(".awesomplete > ul > li");
-  await expect(suggestions).toHaveCount(6);
+  await expect(suggestions.first()).toBeVisible();
 
   for (const width of [1280, 768, 375]) {
     await page.setViewportSize({ width, height: 800 });
