@@ -54,6 +54,18 @@
       </div>
       <p id="copy-status" role="status" aria-live="polite"></p>
       <p id="icon-error" role="alert" hidden></p>
+      <section id="related-icons-section" class="related-icons-section" aria-labelledby="related-icons-heading" hidden>
+        <h2 id="related-icons-heading">Related icons</h2>
+        <div class="related-icons-carousel">
+          <button id="related-icons-previous" class="related-icons-control" type="button" aria-label="Show previous related icons" aria-controls="related-icons-list" disabled>
+            <img src="./images/LeftArrow2.png" alt="" aria-hidden="true" />
+          </button>
+          <ul id="related-icons-list" class="related-icons-list" tabindex="0" aria-label="Related icons"></ul>
+          <button id="related-icons-next" class="related-icons-control" type="button" aria-label="Show next related icons" aria-controls="related-icons-list" disabled>
+            <img src="./images/RightArrow2.png" alt="" aria-hidden="true" />
+          </button>
+        </div>
+      </section>
       <section id="same-image-section" class="same-image-section" aria-labelledby="same-image-heading" hidden>
         <h2 id="same-image-heading">Other IDs using the same image</h2>
         <ul id="same-image-list" class="same-image-list"></ul>
@@ -75,10 +87,29 @@
       const downloadMenu = document.getElementById("download-menu");
       const copyStatus = document.getElementById("copy-status");
       const imageStatus = document.getElementById("icon-image-status");
+      const errorMessage = document.getElementById("icon-error");
+      const relatedIconsSection = document.getElementById("related-icons-section");
+      const relatedIconsList = document.getElementById("related-icons-list");
+      const relatedIconsPrevious = document.getElementById("related-icons-previous");
+      const relatedIconsNext = document.getElementById("related-icons-next");
       const sameImageSection = document.getElementById("same-image-section");
       const sameImageList = document.getElementById("same-image-list");
-      const errorMessage = document.getElementById("icon-error");
       const validIconName = iconName && /^[A-Za-z0-9_]+$/.test(iconName);
+
+      function updateRelatedIconControls() {
+        const maxScrollLeft = relatedIconsList.scrollWidth - relatedIconsList.clientWidth;
+        relatedIconsPrevious.disabled = relatedIconsList.scrollLeft <= 2;
+        relatedIconsNext.disabled = maxScrollLeft <= relatedIconsList.scrollLeft + 2;
+      }
+
+      relatedIconsPrevious.addEventListener("click", () => {
+        relatedIconsList.scrollBy({ left: -relatedIconsList.clientWidth * 0.8, behavior: "smooth" });
+      });
+      relatedIconsNext.addEventListener("click", () => {
+        relatedIconsList.scrollBy({ left: relatedIconsList.clientWidth * 0.8, behavior: "smooth" });
+      });
+      relatedIconsList.addEventListener("scroll", updateRelatedIconControls, { passive: true });
+      window.addEventListener("resize", updateRelatedIconControls);
 
       if (validIconName) {
         document.title = `${iconName} | Office Icon Gallery`;
@@ -103,6 +134,31 @@
             }
 
             const metadataByName = new Map(metadata.map((entry) => [entry.name, entry]));
+            const relatedIcons = (icon?.relatedIcons || [])
+              .map((name) => metadataByName.get(name))
+              .filter(Boolean);
+            if (relatedIcons.length > 0) {
+              const relatedItems = relatedIcons.map((relatedIcon) => {
+                const item = document.createElement("li");
+                const link = document.createElement("a");
+                const image = document.createElement("img");
+                const label = document.createElement("span");
+
+                link.className = "related-icon-link";
+                link.href = `./Icon.html?name=${encodeURIComponent(relatedIcon.name)}`;
+                image.src = `./images/${encodeURIComponent(relatedIcon.name)}.png`;
+                image.alt = "";
+                label.textContent = relatedIcon.name;
+                link.append(image, label);
+                item.append(link);
+                return item;
+              });
+
+              relatedIconsList.replaceChildren(...relatedItems);
+              relatedIconsSection.hidden = false;
+              updateRelatedIconControls();
+            }
+
             const sameImageIds = (icon?.sameImageIds || [])
               .filter((name) => metadataByName.has(name));
             if (sameImageIds.length > 0) {

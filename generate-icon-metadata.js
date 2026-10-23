@@ -137,9 +137,43 @@ const iconOverrides = new Map(Object.entries({
   }
 }));
 
+const relatedIconOverrides = new Map(Object.entries({
+  BrightnessLess: ["BrightnessMore"],
+  BrightnessMore: ["BrightnessLess"],
+  PictureBrightnessAndContrastGallery: [
+    "BrightnessAndContrastEdit",
+    "BrightnessLess",
+    "BrightnessMore",
+    "Drawing1GalleryBrightness",
+    "PictureBrightnessGallery"
+  ],
+  Zoom100: ["ZoomCurrent100", "ZoomOnePage", "ZoomPageWidth", "ZoomToSelection"],
+  ZoomCurrent100: ["Zoom100", "ZoomOnePage", "ZoomPageWidth"],
+  ZoomFitToWindow: ["ZoomOnePage", "ZoomTwoPages"],
+  ZoomOnePage: ["Zoom100", "ZoomCurrent100", "ZoomPageWidth", "ZoomTwoPages"],
+  ZoomPageWidth: ["Zoom100", "ZoomCurrent100", "ZoomOnePage", "ZoomTwoPages"],
+  ZoomToSelection: ["Zoom100", "ZoomPageWidth"],
+  ZoomTwoPages: ["ZoomFitToWindow", "ZoomOnePage", "ZoomPageWidth"]
+}));
+
+const numericIconNames = iconNames.filter((name) => /^_[0-9]+$/.test(name));
+for (const name of numericIconNames) {
+  relatedIconOverrides.set(name, numericIconNames.filter((relatedName) => relatedName !== name));
+}
+
 const missingOverrides = [...iconOverrides.keys()].filter((name) => !iconNames.includes(name));
 if (missingOverrides.length > 0) {
   throw new Error(`Overrides reference unknown icons: ${missingOverrides.join(", ")}`);
+}
+
+const iconNameSet = new Set(iconNames);
+for (const [name, relatedNames] of relatedIconOverrides) {
+  const invalidRelatedNames = relatedNames.filter((relatedName) =>
+    !iconNameSet.has(relatedName) || relatedName === name
+  );
+  if (!iconNameSet.has(name) || invalidRelatedNames.length > 0 || new Set(relatedNames).size !== relatedNames.length) {
+    throw new Error(`Invalid related icon IDs for ${name}: ${invalidRelatedNames.join(", ") || relatedNames.join(", ")}`);
+  }
 }
 
 function splitIconName(name = "") {
@@ -156,6 +190,7 @@ const metadata = iconNames.map((name) => {
   const words = splitIconName(name);
   const normalizedWords = words.map((word) => word.toLowerCase());
   const override = iconOverrides.get(name);
+  const relatedIcons = relatedIconOverrides.get(name);
   const imageHash = imageHashByName.get(name);
   const placeholder = placeholderByHash.get(imageHash);
   const sameImageIds = placeholder
@@ -176,6 +211,7 @@ const metadata = iconNames.map((name) => {
     name,
     description,
     keywords: [...keywords].filter(Boolean).sort(),
+    ...(relatedIcons ? { relatedIcons } : {}),
     ...(sameImageIds.length > 0 ? { sameImageIds } : {}),
     ...(placeholder ? {
       imageStatus: placeholder.imageStatus,

@@ -4,6 +4,17 @@
     "description": "Office icon for 0.",
     "keywords": [
       "0"
+    ],
+    "relatedIcons": [
+      "_1",
+      "_2",
+      "_3",
+      "_4",
+      "_5",
+      "_6",
+      "_7",
+      "_8",
+      "_9"
     ]
   },
   {
@@ -21,6 +32,17 @@
     "description": "Office icon for 1.",
     "keywords": [
       "1"
+    ],
+    "relatedIcons": [
+      "_0",
+      "_2",
+      "_3",
+      "_4",
+      "_5",
+      "_6",
+      "_7",
+      "_8",
+      "_9"
     ]
   },
   {
@@ -28,6 +50,17 @@
     "description": "Office icon for 2.",
     "keywords": [
       "2"
+    ],
+    "relatedIcons": [
+      "_0",
+      "_1",
+      "_3",
+      "_4",
+      "_5",
+      "_6",
+      "_7",
+      "_8",
+      "_9"
     ]
   },
   {
@@ -35,6 +68,17 @@
     "description": "Office icon for 3.",
     "keywords": [
       "3"
+    ],
+    "relatedIcons": [
+      "_0",
+      "_1",
+      "_2",
+      "_4",
+      "_5",
+      "_6",
+      "_7",
+      "_8",
+      "_9"
     ]
   },
   {
@@ -644,6 +688,17 @@
     "description": "Office icon for 4.",
     "keywords": [
       "4"
+    ],
+    "relatedIcons": [
+      "_0",
+      "_1",
+      "_2",
+      "_3",
+      "_5",
+      "_6",
+      "_7",
+      "_8",
+      "_9"
     ]
   },
   {
@@ -651,6 +706,17 @@
     "description": "Office icon for 5.",
     "keywords": [
       "5"
+    ],
+    "relatedIcons": [
+      "_0",
+      "_1",
+      "_2",
+      "_3",
+      "_4",
+      "_6",
+      "_7",
+      "_8",
+      "_9"
     ]
   },
   {
@@ -658,6 +724,17 @@
     "description": "Office icon for 6.",
     "keywords": [
       "6"
+    ],
+    "relatedIcons": [
+      "_0",
+      "_1",
+      "_2",
+      "_3",
+      "_4",
+      "_5",
+      "_7",
+      "_8",
+      "_9"
     ]
   },
   {
@@ -665,6 +742,17 @@
     "description": "Office icon for 7.",
     "keywords": [
       "7"
+    ],
+    "relatedIcons": [
+      "_0",
+      "_1",
+      "_2",
+      "_3",
+      "_4",
+      "_5",
+      "_6",
+      "_8",
+      "_9"
     ]
   },
   {
@@ -672,6 +760,17 @@
     "description": "Office icon for 8.",
     "keywords": [
       "8"
+    ],
+    "relatedIcons": [
+      "_0",
+      "_1",
+      "_2",
+      "_3",
+      "_4",
+      "_5",
+      "_6",
+      "_7",
+      "_9"
     ]
   },
   {
@@ -679,6 +778,17 @@
     "description": "Office icon for 9.",
     "keywords": [
       "9"
+    ],
+    "relatedIcons": [
+      "_0",
+      "_1",
+      "_2",
+      "_3",
+      "_4",
+      "_5",
+      "_6",
+      "_7",
+      "_8"
     ]
   },
   {
@@ -7224,6 +7334,9 @@
       "screen brightness",
       "sun",
       "sunlight"
+    ],
+    "relatedIcons": [
+      "BrightnessMore"
     ]
   },
   {
@@ -7243,6 +7356,9 @@
       "screen",
       "screen brightness",
       "sun"
+    ],
+    "relatedIcons": [
+      "BrightnessLess"
     ]
   },
   {
@@ -49034,6 +49150,13 @@
       "picture brightness and contrast gallery",
       "screen brightness"
     ],
+    "relatedIcons": [
+      "BrightnessAndContrastEdit",
+      "BrightnessLess",
+      "BrightnessMore",
+      "Drawing1GalleryBrightness",
+      "PictureBrightnessGallery"
+    ],
     "sameImageIds": [
       "Drawing1GalleryBrightness",
       "GroupPictureTools",
@@ -72103,6 +72226,12 @@
       "zoom",
       "zoom 100"
     ],
+    "relatedIcons": [
+      "ZoomCurrent100",
+      "ZoomOnePage",
+      "ZoomPageWidth",
+      "ZoomToSelection"
+    ],
     "sameImageIds": [
       "GroupOmsView",
       "GroupPrintPreviewZoom",
@@ -72147,6 +72276,11 @@
       "scale",
       "zoom",
       "zoom current 100"
+    ],
+    "relatedIcons": [
+      "Zoom100",
+      "ZoomOnePage",
+      "ZoomPageWidth"
     ]
   },
   {
@@ -72182,6 +72316,10 @@
       "window",
       "zoom",
       "zoom fit to window"
+    ],
+    "relatedIcons": [
+      "ZoomOnePage",
+      "ZoomTwoPages"
     ]
   },
   {
@@ -72205,6 +72343,12 @@
       "scale",
       "zoom",
       "zoom one page"
+    ],
+    "relatedIcons": [
+      "Zoom100",
+      "ZoomCurrent100",
+      "ZoomPageWidth",
+      "ZoomTwoPages"
     ],
     "sameImageIds": [
       "GroupDocumentViews",
@@ -72235,6 +72379,12 @@
       "width",
       "zoom",
       "zoom page width"
+    ],
+    "relatedIcons": [
+      "Zoom100",
+      "ZoomCurrent100",
+      "ZoomOnePage",
+      "ZoomTwoPages"
     ]
   },
   {
@@ -72273,6 +72423,10 @@
       "to",
       "zoom",
       "zoom to selection"
+    ],
+    "relatedIcons": [
+      "Zoom100",
+      "ZoomPageWidth"
     ]
   },
   {
@@ -72285,6 +72439,11 @@
       "two",
       "zoom",
       "zoom two pages"
+    ],
+    "relatedIcons": [
+      "ZoomFitToWindow",
+      "ZoomOnePage",
+      "ZoomPageWidth"
     ],
     "sameImageIds": [
       "PrintPreviewZoomTwoPages",

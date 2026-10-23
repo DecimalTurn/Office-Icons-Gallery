@@ -512,6 +512,119 @@ li span {
   max-width: 100%;
 }
 
+.related-icons-section {
+  width: 100%;
+  text-align: left;
+}
+
+.related-icons-section h2 {
+  margin: 0 0 12px;
+  font-size: 1.1rem;
+}
+
+.related-icons-carousel {
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr) 36px;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-detail .related-icons-control {
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 5px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--surface-background);
+  transition: background-color 120ms ease, border-color 120ms ease;
+}
+
+.related-icons-control img {
+  width: 22px;
+  height: 22px;
+  float: none;
+}
+
+.icon-detail .related-icons-control:hover:not(:disabled) {
+  border-color: var(--accent-color);
+  background: var(--control-background);
+}
+
+.icon-detail .related-icons-control:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.icon-detail .related-icons-control:disabled {
+  opacity: 0.4;
+}
+
+.related-icons-list {
+  display: flex;
+  gap: 12px;
+  margin: 0;
+  padding: 4px 2px 8px;
+  overflow: hidden;
+  list-style: none;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.related-icons-list::-webkit-scrollbar {
+  display: none;
+}
+
+.related-icons-list:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.related-icons-list li {
+  flex: 0 0 112px;
+  scroll-snap-align: start;
+}
+
+.related-icon-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 104px;
+  padding: 12px 8px;
+  border: 1px solid var(--border-color);
+  background: var(--surface-background);
+  color: var(--page-foreground);
+  text-align: center;
+  text-decoration: none;
+}
+
+.related-icon-link img {
+  width: 32px;
+  height: 32px;
+  float: none;
+  object-fit: contain;
+}
+
+.related-icon-link span {
+  width: 100%;
+  font-size: 0.8rem;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.related-icon-link:hover,
+.related-icon-link:focus-visible {
+  border-color: var(--accent-color);
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
 .icon-detail-preview {
   display: grid;
   justify-items: center;
