@@ -4,9 +4,9 @@ Full text searchable image gallery of Microsoft Office icons using their `idMso`
 
 The gallery uses PNG assets in `images/` and generated searchable metadata. It also includes an Excel/VBA exporter for extracting icon images from an Office installation.
 
-Browser the gallery:
+Browse the gallery:
 
-https://decimalturn.github.io/OfficeIconGallery/
+https://oig.decimalturn.dev/
 
 ## Local development
 
