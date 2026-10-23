@@ -1,5 +1,16 @@
 const { test, expect } = require("@playwright/test");
 
+test("applies every curated JSON description to generated metadata", async () => {
+  const curatedDescriptions = require("../icon-descriptions.json");
+  const metadata = require("../icon-metadata.json");
+  const descriptions = new Map(metadata.map((icon) => [icon.name, icon.description]));
+
+  expect(Object.keys(curatedDescriptions).length).toBeGreaterThan(0);
+  for (const [name, description] of Object.entries(curatedDescriptions)) {
+    expect(descriptions.get(name), `metadata description for ${name}`).toBe(description);
+  }
+});
+
 test("never suggests placeholder images as related icons", async ({ request }) => {
   const response = await request.get("/icon-metadata.json");
   expect(response.ok()).toBe(true);

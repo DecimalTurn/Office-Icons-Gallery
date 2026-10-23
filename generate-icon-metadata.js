@@ -130,39 +130,92 @@ const relatedKeywords = new Map(Object.entries({
   zoom: ["magnify", "scale"]
 }));
 
-const iconOverrides = new Map(Object.entries({
-  BrightnessLess: {
-    description: "Sun icon for reducing screen brightness and glare.",
-    keywords: ["brightness", "dark", "decrease", "dim", "dimmer", "display", "glare", "lower", "moon", "night", "screen", "sun", "sunlight"]
-  },
-  BrightnessMore: {
-    description: "Sun icon for increasing screen brightness.",
-    keywords: ["brightness", "brighten", "brighter", "daylight", "display", "increase", "light", "screen", "sun"]
-  },
-  AlignCenter: {
-    description: "Align text or objects to the center.",
-    keywords: ["align", "alignment", "center", "centered", "middle", "position"]
-  },
-  AnimationAudio: {
-    description: "Add speaker audio or sound to an animation.",
-    keywords: ["animation", "audio", "motion", "music", "sound", "speaker"]
-  },
-  CalendarImport: {
-    description: "Import appointments and events into a calendar.",
-    keywords: ["appointment", "calendar", "date", "event", "import", "schedule"]
-  },
-  ChartInsert: {
-    description: "Insert a chart or graph to visualize data.",
-    keywords: ["bar chart", "chart", "data", "graph", "insert", "plot", "visualization"]
-  },
-  BuildHyperlink: {
-    description: "Create a web hyperlink or URL.",
-    keywords: ["address", "hyperlink", "link", "url", "web", "website"]
-  },
-  AutoSigInsertPictureFromFile: {
-    description: "Insert a picture from a file into an email signature.",
-    keywords: ["email", "file", "graphic", "image", "insert", "photo", "picture", "signature"]
-  }
+const curatedDescriptions = JSON.parse(fs.readFileSync(
+  path.join(__dirname, "icon-descriptions.json"),
+  "utf8"
+));
+if (!curatedDescriptions || Array.isArray(curatedDescriptions) || typeof curatedDescriptions !== "object") {
+  throw new Error("Curated descriptions must be a JSON object keyed by icon ID");
+}
+
+const keywordOverrides = new Map(Object.entries({
+  "BrightnessLess": [
+    "brightness",
+    "dark",
+    "decrease",
+    "dim",
+    "dimmer",
+    "display",
+    "glare",
+    "lower",
+    "moon",
+    "night",
+    "screen",
+    "sun",
+    "sunlight"
+  ],
+  "BrightnessMore": [
+    "brightness",
+    "brighten",
+    "brighter",
+    "daylight",
+    "display",
+    "increase",
+    "light",
+    "screen",
+    "sun"
+  ],
+  "AlignCenter": [
+    "align",
+    "alignment",
+    "center",
+    "centered",
+    "middle",
+    "position"
+  ],
+  "AnimationAudio": [
+    "animation",
+    "audio",
+    "motion",
+    "music",
+    "sound",
+    "speaker"
+  ],
+  "CalendarImport": [
+    "appointment",
+    "calendar",
+    "date",
+    "event",
+    "import",
+    "schedule"
+  ],
+  "ChartInsert": [
+    "bar chart",
+    "chart",
+    "data",
+    "graph",
+    "insert",
+    "plot",
+    "visualization"
+  ],
+  "BuildHyperlink": [
+    "address",
+    "hyperlink",
+    "link",
+    "url",
+    "web",
+    "website"
+  ],
+  "AutoSigInsertPictureFromFile": [
+    "email",
+    "file",
+    "graphic",
+    "image",
+    "insert",
+    "photo",
+    "picture",
+    "signature"
+  ]
 }));
 
 const relatedIconOverrides = new Map(Object.entries({
@@ -189,12 +242,21 @@ for (const name of numericIconNames) {
   relatedIconOverrides.set(name, numericIconNames.filter((relatedName) => relatedName !== name));
 }
 
-const missingOverrides = [...iconOverrides.keys()].filter((name) => !iconNames.includes(name));
-if (missingOverrides.length > 0) {
-  throw new Error(`Overrides reference unknown icons: ${missingOverrides.join(", ")}`);
+const missingKeywordOverrides = [...keywordOverrides.keys()].filter((name) => !iconNames.includes(name));
+if (missingKeywordOverrides.length > 0) {
+  throw new Error("Keyword overrides reference unknown icons: " + missingKeywordOverrides.join(", "));
+}
+const invalidDescriptions = Object.entries(curatedDescriptions)
+  .filter(([name, description]) => !/^[A-Za-z0-9_]+$/.test(name) || typeof description !== "string" || !description.trim());
+if (invalidDescriptions.length > 0) {
+  throw new Error("Invalid curated descriptions: " + invalidDescriptions.map(([name]) => name).join(", "));
 }
 
 const iconNameSet = new Set(iconNames);
+const unknownDescriptionIcons = Object.keys(curatedDescriptions).filter((name) => !iconNameSet.has(name));
+if (unknownDescriptionIcons.length > 0) {
+  throw new Error("Descriptions reference unknown icons: " + unknownDescriptionIcons.join(", "));
+}
 for (const [name, relatedNames] of relatedIconOverrides) {
   const invalidRelatedNames = relatedNames.filter((relatedName) =>
     !iconNameSet.has(relatedName) || relatedName === name || placeholderIconNames.has(relatedName)
@@ -286,7 +348,7 @@ function findRelatedIconNames(name) {
 const metadata = iconNames.map((name) => {
   const words = splitIconName(name);
   const normalizedWords = words.map((word) => word.toLowerCase());
-  const override = iconOverrides.get(name);
+  const keywordOverride = keywordOverrides.get(name) || [];
   const relatedIcons = findRelatedIconNames(name);
   const imageHash = imageHashByName.get(name);
   const imageAsset = imageAssetByHash.get(imageHash);
@@ -299,11 +361,9 @@ const metadata = iconNames.map((name) => {
     normalizedWords.join(" "),
     ...normalizedWords.flatMap((word) => relatedKeywords.get(word) || []),
     ...(placeholder ? ["placeholder", "office fallback"] : []),
-    ...(override ? override.keywords : [])
+    ...keywordOverride
   ]);
-  const description = override
-    ? override.description
-    : `Office icon for ${words.join(" ").toLowerCase()}.`;
+  const description = curatedDescriptions[name] || `Office icon for ${words.join(" ").toLowerCase()}.`;
 
   return {
     name,

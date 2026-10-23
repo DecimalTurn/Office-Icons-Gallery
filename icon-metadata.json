@@ -2,7 +2,7 @@
   {
     "name": "_0",
     "imageAsset": "images/by-hash/6eba525b2543354e.png",
-    "description": "Office icon for 0.",
+    "description": "A white zero sits inside a solid black square.",
     "keywords": [
       "0"
     ],
@@ -21,7 +21,7 @@
   {
     "name": "_0PercentComplete",
     "imageAsset": "images/by-hash/14e0797fb93c9f60.png",
-    "description": "Office icon for 0 percent complete.",
+    "description": "A thin outlined bar appears above a gray 0% marking.",
     "keywords": [
       "0",
       "0 percent complete",
@@ -46,7 +46,7 @@
   {
     "name": "_1",
     "imageAsset": "images/by-hash/da93f39a6f77c19d.png",
-    "description": "Office icon for 1.",
+    "description": "A white numeral one sits inside a solid black square.",
     "keywords": [
       "1"
     ],
@@ -65,7 +65,7 @@
   {
     "name": "_2",
     "imageAsset": "images/by-hash/f0e2db1d2c375869.png",
-    "description": "Office icon for 2.",
+    "description": "A white numeral two sits inside a solid black square.",
     "keywords": [
       "2"
     ],
@@ -84,7 +84,7 @@
   {
     "name": "_3",
     "imageAsset": "images/by-hash/307b3c5061eb0969.png",
-    "description": "Office icon for 3.",
+    "description": "A white numeral three sits inside a solid black square.",
     "keywords": [
       "3"
     ],
@@ -103,7 +103,7 @@
   {
     "name": "_3DBevelOptionsDialog",
     "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png",
-    "description": "Office icon for 3 d bevel options dialog.",
+    "description": "A pale outlined shape sits beside a curved blue arrow and faint dotted strokes.",
     "keywords": [
       "3",
       "3 d bevel options dialog",
@@ -148,7 +148,7 @@
   {
     "name": "_3DBevelPictureTopGallery",
     "imageAsset": "images/by-hash/1aafdbcfdb81e8bf.png",
-    "description": "Office icon for 3 d bevel picture top gallery.",
+    "description": "A small framed image shows blue, white, and green horizontal bands.",
     "keywords": [
       "3",
       "3 d bevel picture top gallery",
@@ -176,7 +176,7 @@
   {
     "name": "_3DDirectionGalleryClassic",
     "imageAsset": "images/by-hash/402edaf5c50287a6.png",
-    "description": "Office icon for 3 d direction gallery classic.",
+    "description": "The image appears blank, with no discernible artwork.",
     "keywords": [
       "3",
       "3 d direction gallery classic",
@@ -206,7 +206,7 @@
   {
     "name": "_3DEffectColorPickerClassic",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
-    "description": "Office icon for 3 d effect color picker classic.",
+    "description": "A pale outlined polygon is paired with a short blue pointer.",
     "keywords": [
       "3",
       "3 d effect color picker classic",
@@ -298,7 +298,7 @@
   {
     "name": "_3DEffectsGalleryClassic",
     "imageAsset": "images/by-hash/7e8b56359c980dd8.png",
-    "description": "Office icon for 3 d effects gallery classic.",
+    "description": "A tilted rectangular panel has a light gray top edge and a white face.",
     "keywords": [
       "3",
       "3 d effects gallery classic",
@@ -330,7 +330,7 @@
   {
     "name": "_3DEffectsOnOffClassic",
     "imageAsset": "images/by-hash/80b52f37f2b6692a.png",
-    "description": "Office icon for 3 d effects on off classic.",
+    "description": "A small outlined cube, diagonal blue dotted stroke, and empty square appear together.",
     "keywords": [
       "3",
       "3 d effects on off classic",
@@ -358,7 +358,7 @@
   {
     "name": "_3DExtrusionDepth36Classic",
     "imageAsset": "images/by-hash/3924c4190fdea26e.png",
-    "description": "Office icon for 3 d extrusion depth 36 classic.",
+    "description": "A wireframe cube has a short angled extension behind its front face.",
     "keywords": [
       "3",
       "3 d extrusion depth 36 classic",
@@ -386,7 +386,7 @@
   {
     "name": "_3DExtrusionDepth72Classic",
     "imageAsset": "images/by-hash/4d10c76417a09c60.png",
-    "description": "Office icon for 3 d extrusion depth 72 classic.",
+    "description": "A wireframe cube has an angled extension behind its front face.",
     "keywords": [
       "3",
       "3 d extrusion depth 72 classic",
@@ -414,7 +414,7 @@
   {
     "name": "_3DExtrusionDepth144Classic",
     "imageAsset": "images/by-hash/7cbd887660907a6d.png",
-    "description": "Office icon for 3 d extrusion depth 144 classic.",
+    "description": "A wireframe cube has a long slanted extension rising from its upper-right corner.",
     "keywords": [
       "144",
       "3",
@@ -442,7 +442,7 @@
   {
     "name": "_3DExtrusionDepth288Classic",
     "imageAsset": "images/by-hash/d883faae27af688d.png",
-    "description": "Office icon for 3 d extrusion depth 288 classic.",
+    "description": "A wireframe cube has an elongated angular extension rising from its upper-right corner.",
     "keywords": [
       "288",
       "3",
@@ -470,7 +470,7 @@
   {
     "name": "_3DExtrusionDepthGalleryClassic",
     "imageAsset": "images/by-hash/42196e9efc604373.png",
-    "description": "Office icon for 3 d extrusion depth gallery classic.",
+    "description": "A wireframe cube has a pointed extension at its upper-right side.",
     "keywords": [
       "3",
       "3 d extrusion depth gallery classic",
@@ -501,7 +501,7 @@
   {
     "name": "_3DExtrusionDepthInfinityClassic",
     "imageAsset": "images/by-hash/42196e9efc604373.png",
-    "description": "Office icon for 3 d extrusion depth infinity classic.",
+    "description": "A wireframe cube has a tall, narrow extension above its front face.",
     "keywords": [
       "3",
       "3 d extrusion depth infinity classic",
@@ -532,7 +532,7 @@
   {
     "name": "_3DExtrusionDepthNoneClassic",
     "imageAsset": "images/by-hash/a145561b043f3641.png",
-    "description": "Office icon for 3 d extrusion depth none classic.",
+    "description": "A simple pale square outline appears on a white background.",
     "keywords": [
       "3",
       "3 d extrusion depth none classic",
@@ -560,7 +560,7 @@
   {
     "name": "_3DExtrusionDirectionClassic",
     "imageAsset": "images/by-hash/402edaf5c50287a6.png",
-    "description": "Office icon for 3 d extrusion direction classic.",
+    "description": "The image appears blank, with no discernible artwork.",
     "keywords": [
       "3",
       "3 d extrusion direction classic",
@@ -590,7 +590,7 @@
   {
     "name": "_3DExtrusionParallelClassic",
     "imageAsset": "images/by-hash/1ff1b3590e26e512.png",
-    "description": "Office icon for 3 d extrusion parallel classic.",
+    "description": "Two faint gray lines run diagonally in parallel.",
     "keywords": [
       "3",
       "3 d extrusion parallel classic",
@@ -615,7 +615,7 @@
   {
     "name": "_3DExtrusionPerspectiveClassic",
     "imageAsset": "images/by-hash/8c4a167e565463f4.png",
-    "description": "Office icon for 3 d extrusion perspective classic.",
+    "description": "Several faint lines angle toward a shared point.",
     "keywords": [
       "3",
       "3 d extrusion perspective classic",
@@ -641,7 +641,7 @@
   {
     "name": "_3DLightGallery",
     "imageAsset": "images/by-hash/ca59052966d9fafc.png",
-    "description": "Office icon for 3 d light gallery.",
+    "description": "A dark square swatch is framed by a thin pale border.",
     "keywords": [
       "3",
       "3 d light gallery",
@@ -657,7 +657,7 @@
   {
     "name": "_3DLightingClassic",
     "imageAsset": "images/by-hash/a0c0f4caffae01f3.png",
-    "description": "Office icon for 3 d lighting classic.",
+    "description": "A small orange oval sits inside a pale gray curved outline.",
     "keywords": [
       "3",
       "3 d lighting classic",
@@ -678,7 +678,7 @@
   {
     "name": "_3DLightingDimClassic",
     "imageAsset": "images/by-hash/2815e70dbe7d7642.png",
-    "description": "Office icon for 3 d lighting dim classic.",
+    "description": "A gray cube has a darker right face.",
     "keywords": [
       "3",
       "3 d lighting dim classic",
@@ -697,7 +697,7 @@
   {
     "name": "_3DLightingFlatClassic",
     "imageAsset": "images/by-hash/1943882723dd9b94.png",
-    "description": "Office icon for 3 d lighting flat classic.",
+    "description": "A dark cube has charcoal front and side faces with a lighter top.",
     "keywords": [
       "3",
       "3 d lighting flat classic",
@@ -717,7 +717,7 @@
   {
     "name": "_3DLightingGalleryClassic",
     "imageAsset": "images/by-hash/a0c0f4caffae01f3.png",
-    "description": "Office icon for 3 d lighting gallery classic.",
+    "description": "A small orange oval sits inside a pale gray curved outline.",
     "keywords": [
       "3",
       "3 d lighting gallery classic",
@@ -739,7 +739,7 @@
   {
     "name": "_3DLightingNormalClassic",
     "imageAsset": "images/by-hash/ef2a3c9a108e2e7d.png",
-    "description": "Office icon for 3 d lighting normal classic.",
+    "description": "A gray cube has a medium-gray front face and a darker side.",
     "keywords": [
       "3",
       "3 d lighting normal classic",
@@ -766,7 +766,7 @@
   {
     "name": "_3DMaterialGallery",
     "imageAsset": "images/by-hash/e34eb54c888e40a0.png",
-    "description": "Office icon for 3 d material gallery.",
+    "description": "A dark square sits inside a thin pale border.",
     "keywords": [
       "3",
       "3 d material gallery",
@@ -786,7 +786,7 @@
   {
     "name": "_3DMaterialMetal",
     "imageAsset": "images/by-hash/a68a2cae81684f42.png",
-    "description": "Office icon for 3 d material metal.",
+    "description": "A dark slanted rectangular slab has a pale gray top edge.",
     "keywords": [
       "3",
       "3 d material metal",
@@ -807,7 +807,7 @@
   {
     "name": "_3DMaterialMixed",
     "imageAsset": "images/by-hash/6a125824c21803dd.png",
-    "description": "Office icon for 3 d material mixed.",
+    "description": "A dark slanted rectangular slab has gray and black faces.",
     "keywords": [
       "3",
       "3 d material mixed",
@@ -828,7 +828,7 @@
   {
     "name": "_3DMaterialPlastic",
     "imageAsset": "images/by-hash/a4e97b65fce60bc5.png",
-    "description": "Office icon for 3 d material plastic.",
+    "description": "A dark slanted rectangular slab has a smooth gray top and dark side.",
     "keywords": [
       "3",
       "3 d material plastic",
@@ -849,7 +849,7 @@
   {
     "name": "_3DPerspectiveDecrease",
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
-    "description": "Office icon for 3 d perspective decrease.",
+    "description": "A blue arrow points downward, suggesting a decrease control.",
     "keywords": [
       "3",
       "3 d perspective decrease",
@@ -892,7 +892,7 @@
   {
     "name": "_3DPerspectiveIncrease",
     "imageAsset": "images/by-hash/9c3ea6230877361d.png",
-    "description": "Office icon for 3 d perspective increase.",
+    "description": "A blue arrow points upward, suggesting an increase control.",
     "keywords": [
       "3",
       "3 d perspective increase",
@@ -933,7 +933,7 @@
   {
     "name": "_3DRotationGallery",
     "imageAsset": "images/by-hash/7e8b56359c980dd8.png",
-    "description": "Office icon for 3 d rotation gallery.",
+    "description": "A tilted rectangular panel has a pale gray outline and shaded top edge.",
     "keywords": [
       "3",
       "3 d rotation gallery",
@@ -958,7 +958,7 @@
   {
     "name": "_3DRotationOptionsDialog",
     "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png",
-    "description": "Office icon for 3 d rotation options dialog.",
+    "description": "A pale outlined shape sits beside a curved blue arrow and faint dotted strokes.",
     "keywords": [
       "3",
       "3 d rotation options dialog",
@@ -1003,7 +1003,7 @@
   {
     "name": "_3DStyle",
     "imageAsset": "images/by-hash/cba7c0795e843fbd.png",
-    "description": "Office icon for 3 d style.",
+    "description": "A pale wireframe cube is shown in perspective.",
     "keywords": [
       "3",
       "3 d style",
@@ -1017,7 +1017,7 @@
   {
     "name": "_3DSurfaceMaterialClassic",
     "imageAsset": "images/by-hash/2f28872e58d8de88.png",
-    "description": "Office icon for 3 d surface material classic.",
+    "description": "A pale layered square has a bright green plus at its upper left, suggesting adding a surface material.",
     "keywords": [
       "3",
       "3 d surface material classic",
@@ -1045,7 +1045,7 @@
   {
     "name": "_3DSurfaceMaterialGalleryClassic",
     "imageAsset": "images/by-hash/2f28872e58d8de88.png",
-    "description": "Office icon for 3 d surface material gallery classic.",
+    "description": "A pale layered square has a bright green plus at its upper left, suggesting adding a surface material.",
     "keywords": [
       "3",
       "3 d surface material gallery classic",
@@ -1074,7 +1074,7 @@
   {
     "name": "_3DSurfaceMatteClassic",
     "imageAsset": "images/by-hash/98a6151e6fd28abe.png",
-    "description": "Office icon for 3 d surface matte classic.",
+    "description": "A dark gray square with subtle shading resembles a matte surface swatch.",
     "keywords": [
       "3",
       "3 d surface matte classic",
@@ -1094,7 +1094,7 @@
   {
     "name": "_3DSurfaceMetalClassic",
     "imageAsset": "images/by-hash/f1d876fe9033b256.png",
-    "description": "Office icon for 3 d surface metal classic.",
+    "description": "A gray beveled cube has reflective-looking highlights and shaded faces.",
     "keywords": [
       "3",
       "3 d surface metal classic",
@@ -1115,7 +1115,7 @@
   {
     "name": "_3DSurfacePlasticClassic",
     "imageAsset": "images/by-hash/de23e5fb0db9143d.png",
-    "description": "Office icon for 3 d surface plastic classic.",
+    "description": "A light gray beveled cube shows three shaded faces.",
     "keywords": [
       "3",
       "3 d surface plastic classic",
@@ -1136,7 +1136,7 @@
   {
     "name": "_3DSurfaceWireFrameClassic",
     "imageAsset": "images/by-hash/10048e73d673db65.png",
-    "description": "Office icon for 3 d surface wire frame classic.",
+    "description": "Thin gray lines outline a three-dimensional cube.",
     "keywords": [
       "3",
       "3 d surface wire frame classic",
@@ -1164,7 +1164,7 @@
   {
     "name": "_3DTiltDownClassic",
     "imageAsset": "images/by-hash/3feb97f7e19ab7cd.png",
-    "description": "Office icon for 3 d tilt down classic.",
+    "description": "A blue curved arrow wraps around a short horizontal line, suggesting a 3D tilt adjustment.",
     "keywords": [
       "3",
       "3 d tilt down classic",
@@ -1191,7 +1191,7 @@
   {
     "name": "_3DTiltLeftClassic",
     "imageAsset": "images/by-hash/2d5efc2c9652df88.png",
-    "description": "Office icon for 3 d tilt left classic.",
+    "description": "A blue curved arrow wraps around a short horizontal line, suggesting a 3D tilt adjustment.",
     "keywords": [
       "3",
       "3 d tilt left classic",
@@ -1209,7 +1209,7 @@
   {
     "name": "_3DTiltRightClassic",
     "imageAsset": "images/by-hash/645c9614d20791ed.png",
-    "description": "Office icon for 3 d tilt right classic.",
+    "description": "A blue curved arrow wraps around a short horizontal line, suggesting a 3D tilt adjustment.",
     "keywords": [
       "3",
       "3 d tilt right classic",
@@ -1227,7 +1227,7 @@
   {
     "name": "_3DTiltUpClassic",
     "imageAsset": "images/by-hash/7a46f6d38b719d2e.png",
-    "description": "Office icon for 3 d tilt up classic.",
+    "description": "A blue curved arrow wraps around a short horizontal line, suggesting a 3D tilt adjustment.",
     "keywords": [
       "3",
       "3 d tilt up classic",
@@ -1254,7 +1254,7 @@
   {
     "name": "_4",
     "imageAsset": "images/by-hash/3f2314473779fa17.png",
-    "description": "Office icon for 4.",
+    "description": "A bold white numeral 4 appears on a dark background.",
     "keywords": [
       "4"
     ],
@@ -1273,7 +1273,7 @@
   {
     "name": "_5",
     "imageAsset": "images/by-hash/17934306988440af.png",
-    "description": "Office icon for 5.",
+    "description": "A bold white numeral 5 appears on a dark background.",
     "keywords": [
       "5"
     ],
@@ -1292,7 +1292,7 @@
   {
     "name": "_6",
     "imageAsset": "images/by-hash/23087ca130bc5430.png",
-    "description": "Office icon for 6.",
+    "description": "A bold white numeral 6 appears on a dark background.",
     "keywords": [
       "6"
     ],
@@ -1311,7 +1311,7 @@
   {
     "name": "_7",
     "imageAsset": "images/by-hash/4e6f924cb509f37d.png",
-    "description": "Office icon for 7.",
+    "description": "A bold white numeral 7 appears on a dark background.",
     "keywords": [
       "7"
     ],
@@ -1330,7 +1330,7 @@
   {
     "name": "_8",
     "imageAsset": "images/by-hash/e6ab2167362b7b0e.png",
-    "description": "Office icon for 8.",
+    "description": "A bold white numeral 8 appears on a dark background.",
     "keywords": [
       "8"
     ],
@@ -1349,7 +1349,7 @@
   {
     "name": "_9",
     "imageAsset": "images/by-hash/7e4b4a988ea1ffaf.png",
-    "description": "Office icon for 9.",
+    "description": "A bold white numeral 9 appears on a dark background.",
     "keywords": [
       "9"
     ],
@@ -1368,7 +1368,7 @@
   {
     "name": "_25PercentComplete",
     "imageAsset": "images/by-hash/1e2dc1a06011d8ce.png",
-    "description": "Office icon for 25 percent complete.",
+    "description": "A blue segment fills part of a progress bar above the label 25%.",
     "keywords": [
       "25",
       "25 percent complete",
@@ -1393,7 +1393,7 @@
   {
     "name": "_50PercentComplete",
     "imageAsset": "images/by-hash/350125dd384138ec.png",
-    "description": "Office icon for 50 percent complete.",
+    "description": "A blue segment fills half of a progress bar above the label 50%.",
     "keywords": [
       "50",
       "50 percent complete",
@@ -1418,7 +1418,7 @@
   {
     "name": "_75PercentComplete",
     "imageAsset": "images/by-hash/389488a2b2f23e55.png",
-    "description": "Office icon for 75 percent complete.",
+    "description": "A blue segment fills most of a progress bar above the label 75%.",
     "keywords": [
       "75",
       "75 percent complete",
@@ -1443,7 +1443,7 @@
   {
     "name": "_100PercentComplete",
     "imageAsset": "images/by-hash/8f8754120435881b.png",
-    "description": "Office icon for 100 percent complete.",
+    "description": "A blue segment fills the progress bar above the label 100%.",
     "keywords": [
       "100",
       "100 percent complete",
@@ -1473,7 +1473,7 @@
   {
     "name": "A",
     "imageAsset": "images/by-hash/c106d0b8dfb8e3c3.png",
-    "description": "Office icon for a.",
+    "description": "A white capital letter A appears on a dark background.",
     "keywords": [
       "a"
     ]
@@ -1481,7 +1481,7 @@
   {
     "name": "About",
     "imageAsset": "images/by-hash/072bbff7740733ff.png",
-    "description": "Office icon for about.",
+    "description": "A blue question mark sits inside a blue circle.",
     "keywords": [
       "about"
     ],
@@ -1501,7 +1501,7 @@
   {
     "name": "AboveText",
     "imageAsset": "images/by-hash/9ddfa5f164b34a9f.png",
-    "description": "Office icon for above text.",
+    "description": "Several gray horizontal lines sit beside an orange dot, resembling text with a highlighted marker.",
     "keywords": [
       "above",
       "above text",
@@ -1526,7 +1526,7 @@
   {
     "name": "AcceptAndAdvance",
     "imageAsset": "images/by-hash/a37d174078437c42.png",
-    "description": "Office icon for accept and advance.",
+    "description": "A lined document with a green check mark suggests accepting an item and moving on.",
     "keywords": [
       "accept",
       "accept and advance",
@@ -1562,7 +1562,7 @@
   {
     "name": "AcceptInvitation",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
-    "description": "Office icon for accept invitation.",
+    "description": "A green check mark indicates acceptance.",
     "keywords": [
       "accept",
       "accept invitation",
@@ -1607,7 +1607,7 @@
   {
     "name": "AcceptProposal",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
-    "description": "Office icon for accept proposal.",
+    "description": "A green check mark indicates acceptance.",
     "keywords": [
       "accept",
       "accept proposal",
@@ -1652,7 +1652,7 @@
   {
     "name": "AcceptTask",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
-    "description": "Office icon for accept task.",
+    "description": "A green check mark indicates acceptance.",
     "keywords": [
       "accept",
       "accept task",
@@ -1697,7 +1697,7 @@
   {
     "name": "AccessFormDatasheet",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
-    "description": "Office icon for access form datasheet.",
+    "description": "A small grid of rows and columns represents a datasheet view.",
     "keywords": [
       "access",
       "access form datasheet",
@@ -1749,7 +1749,7 @@
   {
     "name": "AccessFormModalDialog",
     "imageAsset": "images/by-hash/b2bff7bb772c34d4.png",
-    "description": "Office icon for access form modal dialog.",
+    "description": "A faint rectangular window contains two horizontal lines.",
     "keywords": [
       "access",
       "access form modal dialog",
@@ -1770,7 +1770,7 @@
   {
     "name": "AccessFormModalDialogWeb",
     "imageAsset": "images/by-hash/b2bff7bb772c34d4.png",
-    "description": "Office icon for access form modal dialog web.",
+    "description": "A faint rectangular window contains two horizontal lines.",
     "keywords": [
       "access",
       "access form modal dialog web",
@@ -1800,7 +1800,7 @@
   {
     "name": "AccessFormPivotTable",
     "imageAsset": "images/by-hash/fb228fb522333bc7.png",
-    "description": "Office icon for access form pivot table.",
+    "description": "A small table layout has several shaded cells and a blue arrow at the right.",
     "keywords": [
       "access",
       "access form pivot table",
@@ -1837,7 +1837,7 @@
   {
     "name": "AccessFormWizard",
     "imageAsset": "images/by-hash/e66e4f9a48e1e90f.png",
-    "description": "Office icon for access form wizard.",
+    "description": "A lined document is paired with a blue wand-like symbol.",
     "keywords": [
       "access",
       "access form wizard",
@@ -1862,7 +1862,7 @@
   {
     "name": "AccessibilityChecker",
     "imageAsset": "images/by-hash/c919dba1611f85c4.png",
-    "description": "Office icon for accessibility checker.",
+    "description": "A document with lines is overlaid by a small blue accessibility figure.",
     "keywords": [
       "accessibility",
       "accessibility checker",
@@ -1885,7 +1885,7 @@
   {
     "name": "AccessibilityReports",
     "imageAsset": "images/by-hash/fe1c107d924da4c2.png",
-    "description": "Office icon for accessibility reports.",
+    "description": "A small report window shows colored blocks beside horizontal lines.",
     "keywords": [
       "accessibility",
       "accessibility reports",
@@ -1909,7 +1909,7 @@
   {
     "name": "AccessListAssets",
     "imageAsset": "images/by-hash/8d751cb3dda2189b.png",
-    "description": "Office icon for access list assets.",
+    "description": "A small window contains several colored panels and a blue arrow.",
     "keywords": [
       "access",
       "access list assets",
@@ -1927,7 +1927,7 @@
   {
     "name": "AccessListContacts",
     "imageAsset": "images/by-hash/77ab365d2852a887.png",
-    "description": "Office icon for access list contacts.",
+    "description": "An outlined person appears beside several horizontal lines.",
     "keywords": [
       "access",
       "access list contacts",
@@ -1970,7 +1970,7 @@
   {
     "name": "AccessListCustom",
     "imageAsset": "images/by-hash/275d48d742decaef.png",
-    "description": "Office icon for access list custom.",
+    "description": "A small grid has a dark top bar above several light cells.",
     "keywords": [
       "access",
       "access list custom",
@@ -1993,7 +1993,7 @@
   {
     "name": "AccessListCustomDatasheet",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
-    "description": "Office icon for access list custom datasheet.",
+    "description": "A compact grid has a shaded header row and divided columns.",
     "keywords": [
       "access",
       "access list custom datasheet",
@@ -2046,7 +2046,7 @@
   {
     "name": "AccessListEvents",
     "imageAsset": "images/by-hash/626c2aeba4a1fc7f.png",
-    "description": "Office icon for access list events.",
+    "description": "A faint outlined sheet shows a short horizontal mark near its top.",
     "keywords": [
       "access",
       "access list events",
@@ -2070,7 +2070,7 @@
   {
     "name": "AccessListIssues",
     "imageAsset": "images/by-hash/fc60f7aa3b69d5a6.png",
-    "description": "Office icon for access list issues.",
+    "description": "A folder outline has a small blue circular badge at its lower right.",
     "keywords": [
       "access",
       "access list issues",
@@ -2088,7 +2088,7 @@
   {
     "name": "AccessListTasks",
     "imageAsset": "images/by-hash/eb984634b74705b7.png",
-    "description": "Office icon for access list tasks.",
+    "description": "A folder outline carries a green check mark.",
     "keywords": [
       "access",
       "access list tasks",
@@ -2116,7 +2116,7 @@
   {
     "name": "AccessMergeCells",
     "imageAsset": "images/by-hash/32b656a3b1ec1c0d.png",
-    "description": "Office icon for access merge cells.",
+    "description": "A small grid has a blue horizontal line through its center, suggesting merged cells.",
     "keywords": [
       "access",
       "access merge cells",
@@ -2145,7 +2145,7 @@
   {
     "name": "AccessNavigationOptions",
     "imageAsset": "images/by-hash/4e5f4392371728be.png",
-    "description": "Office icon for access navigation options.",
+    "description": "A narrow list panel has several rows and a blue-highlighted selection.",
     "keywords": [
       "access",
       "access navigation options",
@@ -2173,7 +2173,7 @@
   {
     "name": "AccessOfflineLists",
     "imageAsset": "images/by-hash/f7fc3736c97dae97.png",
-    "description": "Office icon for access offline lists.",
+    "description": "A small list icon has a red X badge at its lower right.",
     "keywords": [
       "access",
       "access offline lists",
@@ -2198,7 +2198,7 @@
   {
     "name": "AccessOnlineLists",
     "imageAsset": "images/by-hash/9cd35fda88c3c0c0.png",
-    "description": "Office icon for access online lists.",
+    "description": "A small list or page icon has a colored badge near its upper edge.",
     "keywords": [
       "access",
       "access online lists",
@@ -2223,7 +2223,7 @@
   {
     "name": "AccessRecycleBin",
     "imageAsset": "images/by-hash/f3f0c682f16cd986.png",
-    "description": "Office icon for access recycle bin.",
+    "description": "A gray wastebasket has a green rim.",
     "keywords": [
       "access",
       "access recycle bin",
@@ -2240,7 +2240,7 @@
   {
     "name": "AccessRefreshAllLists",
     "imageAsset": "images/by-hash/3bbddf85b74991a8.png",
-    "description": "Office icon for access refresh all lists.",
+    "description": "Two green curved arrows form a refresh symbol.",
     "keywords": [
       "access",
       "access refresh all lists",
@@ -2284,7 +2284,7 @@
   {
     "name": "AccessRelinkLists",
     "imageAsset": "images/by-hash/8d84800ce786e29c.png",
-    "description": "Office icon for access relink lists.",
+    "description": "A small grid is overlaid by a blue bent arrow.",
     "keywords": [
       "access",
       "access relink lists",
@@ -2309,7 +2309,7 @@
   {
     "name": "AccessReportMore",
     "imageAsset": "images/by-hash/998df71efd1709ec.png",
-    "description": "Office icon for access report more.",
+    "description": "Two overlapping report-like pages sit beside a small blue symbol.",
     "keywords": [
       "access",
       "access report more",
@@ -2334,7 +2334,7 @@
   {
     "name": "AccessRequests",
     "imageAsset": "images/by-hash/cc6db0f7fa3c2de3.png",
-    "description": "Office icon for access requests.",
+    "description": "A document icon is paired with a small blue group of people.",
     "keywords": [
       "access",
       "access requests",
@@ -2344,7 +2344,7 @@
   {
     "name": "AccessTableAssets",
     "imageAsset": "images/by-hash/2961e97c4c7f08b5.png",
-    "description": "Office icon for access table assets.",
+    "description": "A clipboard has an orange edge and a blue check mark.",
     "keywords": [
       "access",
       "access table assets",
@@ -2363,7 +2363,7 @@
   {
     "name": "AccessTableContacts",
     "imageAsset": "images/by-hash/86497283f682fdc3.png",
-    "description": "Office icon for access table contacts.",
+    "description": "An outlined head-and-shoulders figure has a blue accent.",
     "keywords": [
       "access",
       "access table contacts",
@@ -2394,7 +2394,7 @@
   {
     "name": "AccessTableEvents",
     "imageAsset": "images/by-hash/9c35d277a17c29f6.png",
-    "description": "Office icon for access table events.",
+    "description": "A small grid has a muted red-orange header row.",
     "keywords": [
       "access",
       "access table events",
@@ -2419,7 +2419,7 @@
   {
     "name": "AccessTableIssues",
     "imageAsset": "images/by-hash/fc60f7aa3b69d5a6.png",
-    "description": "Office icon for access table issues.",
+    "description": "A folder outline has a small blue circular badge at its lower right.",
     "keywords": [
       "access",
       "access table issues",
@@ -2438,7 +2438,7 @@
   {
     "name": "AccessTableTasks",
     "imageAsset": "images/by-hash/eb984634b74705b7.png",
-    "description": "Office icon for access table tasks.",
+    "description": "A folder outline carries a green check mark.",
     "keywords": [
       "access",
       "access table tasks",
@@ -2467,7 +2467,7 @@
   {
     "name": "AccessThemesGallery",
     "imageAsset": "images/by-hash/38388a6cca16597f.png",
-    "description": "Office icon for access themes gallery.",
+    "description": "A letter A is paired with a row of colored squares.",
     "keywords": [
       "access",
       "access themes gallery",
@@ -2505,7 +2505,7 @@
   {
     "name": "AccountingFormat",
     "imageAsset": "images/by-hash/85a6a3a5829b5bdb.png",
-    "description": "Office icon for accounting format.",
+    "description": "A gray dollar sign appears beside short horizontal marks.",
     "keywords": [
       "accounting",
       "accounting format",
@@ -2587,7 +2587,7 @@
   {
     "name": "AccountMenu",
     "imageAsset": "images/by-hash/2b702d6430221cf3.png",
-    "description": "Office icon for account menu.",
+    "description": "A faint outlined head-and-shoulders figure appears inside a circular outline.",
     "keywords": [
       "account",
       "account menu",
@@ -2615,7 +2615,7 @@
   {
     "name": "AccountSettings",
     "imageAsset": "images/by-hash/bdfd5ccd965dab98.png",
-    "description": "Office icon for account settings.",
+    "description": "A person outline is paired with a small blue gear.",
     "keywords": [
       "account",
       "account settings",
@@ -2643,7 +2643,7 @@
   {
     "name": "AcetateModeOriginalMarkup",
     "imageAsset": "images/by-hash/60176fe59b81b860.png",
-    "description": "Office icon for acetate mode original markup.",
+    "description": "A page-like outline has small red and blue marks with directional arrows.",
     "keywords": [
       "acetate",
       "acetate mode original markup",
@@ -2675,7 +2675,7 @@
   {
     "name": "ActionDelete",
     "imageAsset": "images/by-hash/47eb610a42f1cbcb.png",
-    "description": "Office icon for action delete.",
+    "description": "A red X sits beside a short blue horizontal bar, suggesting removal.",
     "keywords": [
       "action",
       "action delete",
@@ -2719,7 +2719,7 @@
   {
     "name": "ActionInsert",
     "imageAsset": "images/by-hash/49c987450369a19a.png",
-    "description": "Office icon for action insert.",
+    "description": "A yellow star sits above a short blue horizontal bar.",
     "keywords": [
       "action",
       "action insert",
@@ -2745,7 +2745,7 @@
   {
     "name": "ActionInsertAccess",
     "imageAsset": "images/by-hash/987f395d63e7009b.png",
-    "description": "Office icon for action insert access.",
+    "description": "A blue arrow points across a short horizontal line.",
     "keywords": [
       "access",
       "action",
@@ -2782,7 +2782,7 @@
   {
     "name": "ActiveXButton",
     "imageAsset": "images/by-hash/965d899ec226e108.png",
-    "description": "Office icon for active x button.",
+    "description": "A plain, empty rectangle forms a button outline.",
     "keywords": [
       "active",
       "active x button",
@@ -2811,7 +2811,7 @@
   {
     "name": "ActiveXCheckBox",
     "imageAsset": "images/by-hash/991e90eaa188d1d3.png",
-    "description": "Office icon for active x check box.",
+    "description": "A green check mark sits inside an outlined square.",
     "keywords": [
       "active",
       "active x check box",
@@ -2857,7 +2857,7 @@
   {
     "name": "ActiveXComboBox",
     "imageAsset": "images/by-hash/1f3cf0d15015b32a.png",
-    "description": "Office icon for active x combo box.",
+    "description": "A compact field shows horizontal lines and a blue dropdown arrow.",
     "keywords": [
       "active",
       "active x combo box",
@@ -2889,7 +2889,7 @@
   {
     "name": "ActiveXFrame",
     "imageAsset": "images/by-hash/4d62ac0a7451562d.png",
-    "description": "Office icon for active x frame.",
+    "description": "A small outlined rectangle contains faint XYZ lettering.",
     "keywords": [
       "active",
       "active x frame",
@@ -2917,7 +2917,7 @@
   {
     "name": "ActiveXImage",
     "imageAsset": "images/by-hash/a3c1694aead52859.png",
-    "description": "Office icon for active x image.",
+    "description": "A picture-frame outline contains a blue mountain shape.",
     "keywords": [
       "active",
       "active x image",
@@ -2964,7 +2964,7 @@
   {
     "name": "ActiveXLabel",
     "imageAsset": "images/by-hash/facb4b355bd224b5.png",
-    "description": "Office icon for active x label.",
+    "description": "A single gray capital A appears on a plain background.",
     "keywords": [
       "active",
       "active x label",
@@ -2999,7 +2999,7 @@
   {
     "name": "ActiveXListBox",
     "imageAsset": "images/by-hash/5afbe6d1834bbe58.png",
-    "description": "Office icon for active x list box.",
+    "description": "A narrow box contains several horizontal lines and a blue arrow.",
     "keywords": [
       "active",
       "active x list box",
@@ -3030,7 +3030,7 @@
   {
     "name": "ActiveXRadioButton",
     "imageAsset": "images/by-hash/1d4e488ea50d958c.png",
-    "description": "Office icon for active x radio button.",
+    "description": "A small circle has a filled dot at its center.",
     "keywords": [
       "active",
       "active x radio button",
@@ -3060,7 +3060,7 @@
   {
     "name": "ActiveXScrollBar",
     "imageAsset": "images/by-hash/37c2f71d4bc88ce8.png",
-    "description": "Office icon for active x scroll bar.",
+    "description": "Up and down triangles sit at opposite ends of a narrow track.",
     "keywords": [
       "active",
       "active x scroll bar",
@@ -6298,7 +6298,7 @@
   {
     "name": "AdvancedFind",
     "imageAsset": "images/by-hash/412aae2556681c8e.png",
-    "description": "Office icon for advanced find.",
+    "description": "A magnifying glass over a gear marks options for advanced searching.",
     "keywords": [
       "advanced",
       "advanced find",
@@ -7080,7 +7080,7 @@
   {
     "name": "AlignLeft",
     "imageAsset": "images/by-hash/9a721c9b12989d11.png",
-    "description": "Office icon for align left.",
+    "description": "Left-aligned horizontal lines represent aligning a paragraph to the left.",
     "keywords": [
       "align",
       "align left",
@@ -7227,7 +7227,7 @@
   {
     "name": "AlignRight",
     "imageAsset": "images/by-hash/ee628ed212266b51.png",
-    "description": "Office icon for align right.",
+    "description": "Right-aligned horizontal lines represent aligning a paragraph to the right.",
     "keywords": [
       "align",
       "align right",
@@ -7723,7 +7723,7 @@
   {
     "name": "AnimationAddGallery",
     "imageAsset": "images/by-hash/ba70d0080115f1f9.png",
-    "description": "Office icon for animation add gallery.",
+    "description": "An outlined star marks the gallery for adding animation effects.",
     "keywords": [
       "add",
       "animation",
@@ -8189,7 +8189,7 @@
   {
     "name": "AnimationDelay",
     "imageAsset": "images/by-hash/90b49634db30206e.png",
-    "description": "Office icon for animation delay.",
+    "description": "A clock face with a red wedge marks the control for delaying an animation.",
     "keywords": [
       "animation",
       "animation delay",
@@ -8215,7 +8215,7 @@
   {
     "name": "AnimationDuration",
     "imageAsset": "images/by-hash/34616ac3c1be3f5e.png",
-    "description": "Office icon for animation duration.",
+    "description": "A clock face with a single hand marks the animation duration control.",
     "keywords": [
       "animation",
       "animation duration",
@@ -8281,7 +8281,7 @@
   {
     "name": "AnimationMoveEarlier",
     "imageAsset": "images/by-hash/6cb246f6a08ee6e1.png",
-    "description": "Office icon for animation move earlier.",
+    "description": "An upward chevron marks the command for moving an animation earlier in the sequence.",
     "keywords": [
       "animation",
       "animation move earlier",
@@ -8315,7 +8315,7 @@
   {
     "name": "AnimationMoveLater",
     "imageAsset": "images/by-hash/1c1be2f181d35649.png",
-    "description": "Office icon for animation move later.",
+    "description": "A downward chevron marks the command for moving an animation later in the sequence.",
     "keywords": [
       "animation",
       "animation move later",
@@ -8349,7 +8349,7 @@
   {
     "name": "AnimationOnClick",
     "imageAsset": "images/by-hash/7a0ca51b73f4eacc.png",
-    "description": "Office icon for animation on click.",
+    "description": "A mouse outline marks the option to start an animation on a click.",
     "keywords": [
       "animation",
       "animation on click",
@@ -8379,7 +8379,7 @@
   {
     "name": "AnimationPainter",
     "imageAsset": "images/by-hash/93616b9821323299.png",
-    "description": "Office icon for animation painter.",
+    "description": "A star beside a brush marks the command for copying an animation effect to another object.",
     "keywords": [
       "animation",
       "animation painter",
@@ -8405,7 +8405,7 @@
   {
     "name": "AnimationPreview",
     "imageAsset": "images/by-hash/2e9baf31e95d228f.png",
-    "description": "Office icon for animation preview.",
+    "description": "An outlined star beside a green play triangle marks the animation preview command.",
     "keywords": [
       "animation",
       "animation preview",
@@ -9247,7 +9247,7 @@
   {
     "name": "ApplyFilter",
     "imageAsset": "images/by-hash/721678c0a7e5e825.png",
-    "description": "Office icon for apply filter.",
+    "description": "An arrow over a funnel marks the command for applying a filter.",
     "keywords": [
       "apply",
       "apply filter",
@@ -12633,7 +12633,7 @@
   {
     "name": "AutoFilterClassic",
     "imageAsset": "images/by-hash/224128b8d52e14aa.png",
-    "description": "Office icon for auto filter classic.",
+    "description": "A funnel represents filtering rows in a data list or table.",
     "keywords": [
       "auto",
       "auto filter classic",
@@ -15377,7 +15377,7 @@
   {
     "name": "Bold",
     "imageAsset": "images/by-hash/d429f6177562262b.png",
-    "description": "Office icon for bold.",
+    "description": "A bold B marks the command for applying bold formatting to selected text.",
     "keywords": [
       "bold"
     ]
@@ -26834,7 +26834,7 @@
   {
     "name": "ChartInsertGalleryNew",
     "imageAsset": "images/by-hash/888ce84fb518147b.png",
-    "description": "Office icon for chart insert gallery new.",
+    "description": "Bars and a rising line represent the gallery for inserting a chart.",
     "keywords": [
       "add",
       "chart",
@@ -29085,7 +29085,7 @@
   {
     "name": "ChartTypeBarInsertGallery",
     "imageAsset": "images/by-hash/9b23d663320c8f76.png",
-    "description": "Office icon for chart type bar insert gallery.",
+    "description": "Horizontal bars represent the option to insert a bar chart.",
     "keywords": [
       "add",
       "bar",
@@ -29149,7 +29149,7 @@
   {
     "name": "ChartTypeColumnInsertGallery",
     "imageAsset": "images/by-hash/84694d8dbdd6c24e.png",
-    "description": "Office icon for chart type column insert gallery.",
+    "description": "Vertical columns of different heights represent the option to insert a column chart.",
     "keywords": [
       "add",
       "chart",
@@ -29278,7 +29278,7 @@
   {
     "name": "ChartTypeLineInsertGallery",
     "imageAsset": "images/by-hash/21f6c9f3efc71b13.png",
-    "description": "Office icon for chart type line insert gallery.",
+    "description": "A changing line on chart axes represents the option to insert a line chart.",
     "keywords": [
       "add",
       "chart",
@@ -29394,7 +29394,7 @@
   {
     "name": "ChartTypePieInsertGallery",
     "imageAsset": "images/by-hash/14598c34f3b0b6c1.png",
-    "description": "Office icon for chart type pie insert gallery.",
+    "description": "A circle divided into sectors represents the option to insert a pie chart.",
     "keywords": [
       "add",
       "chart",
@@ -34069,7 +34069,7 @@
   {
     "name": "CommentsPane",
     "imageAsset": "images/by-hash/09795bc87c775160.png",
-    "description": "Office icon for comments pane.",
+    "description": "A speech bubble represents the pane for viewing document comments.",
     "keywords": [
       "comments",
       "comments pane",
@@ -45287,7 +45287,7 @@
   {
     "name": "Copy",
     "imageAsset": "images/by-hash/b2989e0a8e55519f.png",
-    "description": "Office icon for copy.",
+    "description": "Overlapping sheets represent copying selected content.",
     "keywords": [
       "copy",
       "duplicate"
@@ -51026,7 +51026,7 @@
   {
     "name": "Cut",
     "imageAsset": "images/by-hash/2fcb17d3b78546a0.png",
-    "description": "Office icon for cut.",
+    "description": "Scissors indicate cutting selected content to the clipboard.",
     "keywords": [
       "cut"
     ],
@@ -62888,7 +62888,7 @@
   {
     "name": "Drawing1GalleryRotateObject",
     "imageAsset": "images/by-hash/2be74a485b86b3c5.png",
-    "description": "Office icon for drawing 1 gallery rotate object.",
+    "description": "A curved arrow marks the command for rotating a drawing object.",
     "keywords": [
       "1",
       "drawing",
@@ -69444,7 +69444,7 @@
   {
     "name": "EyedropperFontColor",
     "imageAsset": "images/by-hash/b85c81fe62976c15.png",
-    "description": "Office icon for eyedropper font color.",
+    "description": "An eyedropper marks the tool for sampling a color for text.",
     "keywords": [
       "color",
       "colour",
@@ -71511,7 +71511,7 @@
   {
     "name": "FileClose",
     "imageAsset": "images/by-hash/40f60585758fbe5f.png",
-    "description": "Office icon for file close.",
+    "description": "A page symbol marks the command for closing a file.",
     "keywords": [
       "close",
       "document",
@@ -72747,7 +72747,7 @@
   {
     "name": "FileNewBlankDocument",
     "imageAsset": "images/by-hash/5b1fc3fa5d519955.png",
-    "description": "Office icon for file new blank document.",
+    "description": "A blank page represents creating an empty document.",
     "keywords": [
       "blank",
       "document",
@@ -73286,7 +73286,7 @@
   {
     "name": "FileOpen",
     "imageAsset": "images/by-hash/ebc2e411a4024d7d.png",
-    "description": "Office icon for file open.",
+    "description": "A folder represents opening a file.",
     "keywords": [
       "document",
       "file",
@@ -74148,7 +74148,7 @@
   {
     "name": "FilePrint",
     "imageAsset": "images/by-hash/9851f75ba5d983b7.png",
-    "description": "Office icon for file print.",
+    "description": "A printer with a sheet of paper represents printing the current file.",
     "keywords": [
       "document",
       "file",
@@ -74469,7 +74469,7 @@
   {
     "name": "FileSave",
     "imageAsset": "images/by-hash/c4a2df5c55a7fc2e.png",
-    "description": "Office icon for file save.",
+    "description": "A floppy-disk symbol represents saving the current file.",
     "keywords": [
       "document",
       "file",
@@ -74540,7 +74540,7 @@
   {
     "name": "FileSaveAs",
     "imageAsset": "images/by-hash/45781e547e6af23f.png",
-    "description": "Office icon for file save as.",
+    "description": "A page and pencil represent saving a document as a file.",
     "keywords": [
       "as",
       "document",
@@ -77654,7 +77654,7 @@
   {
     "name": "FilterClear",
     "imageAsset": "images/by-hash/44789bde2b072809.png",
-    "description": "Office icon for filter clear.",
+    "description": "A red X over a funnel indicates clearing the current filter.",
     "keywords": [
       "clear",
       "filter",
@@ -80861,7 +80861,7 @@
   {
     "name": "FontColorGallery",
     "imageAsset": "images/by-hash/1a614d7d7f1a5953.png",
-    "description": "Office icon for font color gallery.",
+    "description": "An A above a color bar marks the font-color gallery.",
     "keywords": [
       "color",
       "colour",
@@ -81666,7 +81666,7 @@
   {
     "name": "FontSizeDecrease",
     "imageAsset": "images/by-hash/7f1734e65245c918.png",
-    "description": "Office icon for font size decrease.",
+    "description": "An A beside a downward arrow marks the command for decreasing font size.",
     "keywords": [
       "decrease",
       "font",
@@ -81771,7 +81771,7 @@
   {
     "name": "FontSizeIncrease",
     "imageAsset": "images/by-hash/d9ef21e1a9d09285.png",
-    "description": "Office icon for font size increase.",
+    "description": "An A beside an upward arrow marks the command for increasing font size.",
     "keywords": [
       "font",
       "font size increase",
@@ -82977,7 +82977,7 @@
   {
     "name": "FormatPainter",
     "imageAsset": "images/by-hash/6f268f16734e53c6.png",
-    "description": "Office icon for format painter.",
+    "description": "A paintbrush marks the command for applying copied formatting.",
     "keywords": [
       "appearance",
       "format",
@@ -127468,7 +127468,7 @@
   {
     "name": "GroupSlideShowSetup",
     "imageAsset": "images/by-hash/c4155e7df729c0ca.png",
-    "description": "Office icon for group slide show setup.",
+    "description": "A lined panel marks options for setting up a slide show.",
     "keywords": [
       "group",
       "group slide show setup",
@@ -127500,7 +127500,7 @@
   {
     "name": "GroupSlideShowStart",
     "imageAsset": "images/by-hash/1622c4b78b9481be.png",
-    "description": "Office icon for group slide show start.",
+    "description": "A green play symbol marks the command for starting a slide show.",
     "keywords": [
       "group",
       "group slide show start",
@@ -127873,7 +127873,7 @@
   {
     "name": "GroupSortAndFilter",
     "imageAsset": "images/by-hash/224128b8d52e14aa.png",
-    "description": "Office icon for group sort and filter.",
+    "description": "A funnel represents the filtering tools in Office's sort-and-filter controls.",
     "keywords": [
       "and",
       "filter",
@@ -129987,7 +129987,7 @@
   {
     "name": "GroupTableDraw",
     "imageAsset": "images/by-hash/9362babc74fd142d.png",
-    "description": "Office icon for group table draw.",
+    "description": "A pencil over a grid marks the command for drawing a table.",
     "keywords": [
       "draw",
       "grid",
@@ -138787,7 +138787,7 @@
   {
     "name": "HeaderFooterPageNumberInsert",
     "imageAsset": "images/by-hash/2db8e446d7f58899.png",
-    "description": "Office icon for header footer page number insert.",
+    "description": "A page with text lines marks the command for inserting a page number in a header or footer.",
     "keywords": [
       "add",
       "create",
@@ -141209,7 +141209,7 @@
   {
     "name": "HyperlinkCreate",
     "imageAsset": "images/by-hash/92a7303c1a926fad.png",
-    "description": "Office icon for hyperlink create.",
+    "description": "A chain-link symbol on a page represents inserting a hyperlink.",
     "keywords": [
       "create",
       "hyperlink",
@@ -147651,7 +147651,7 @@
   {
     "name": "InsertNewComment",
     "imageAsset": "images/by-hash/2f4fab18ebad3483.png",
-    "description": "Office icon for insert new comment.",
+    "description": "An annotated page represents adding a comment to document content.",
     "keywords": [
       "add",
       "comment",
@@ -149100,7 +149100,7 @@
   {
     "name": "Italic",
     "imageAsset": "images/by-hash/c373a6800407b5fc.png",
-    "description": "Office icon for italic.",
+    "description": "A slanted I marks the command for applying italic formatting to selected text.",
     "keywords": [
       "italic"
     ]
@@ -182358,7 +182358,7 @@
   {
     "name": "MergeCells",
     "imageAsset": "images/by-hash/32b656a3b1ec1c0d.png",
-    "description": "Office icon for merge cells.",
+    "description": "A highlighted undivided row represents merging selected cells.",
     "keywords": [
       "cells",
       "merge",
@@ -210536,7 +210536,7 @@
   {
     "name": "PageOrientationLandscape",
     "imageAsset": "images/by-hash/9fdf070c5989df95.png",
-    "description": "Office icon for page orientation landscape.",
+    "description": "A horizontal page marks the landscape orientation option.",
     "keywords": [
       "landscape",
       "orientation",
@@ -210561,7 +210561,7 @@
   {
     "name": "PageOrientationPortrait",
     "imageAsset": "images/by-hash/5b1fc3fa5d519955.png",
-    "description": "Office icon for page orientation portrait.",
+    "description": "A vertical page marks the portrait orientation option.",
     "keywords": [
       "orientation",
       "page",
@@ -212983,7 +212983,7 @@
   {
     "name": "Paste",
     "imageAsset": "images/by-hash/f560fb59e78eb108.png",
-    "description": "Office icon for paste.",
+    "description": "A clipboard and sheet represent inserting copied or cut content.",
     "keywords": [
       "insert",
       "paste"
@@ -216914,7 +216914,7 @@
   {
     "name": "PictureBrightnessGallery",
     "imageAsset": "images/by-hash/a0556bd2abf0394f.png",
-    "description": "Office icon for picture brightness gallery.",
+    "description": "A sun symbol marks the controls for adjusting picture brightness.",
     "keywords": [
       "brightness",
       "gallery",
@@ -217281,7 +217281,7 @@
   {
     "name": "PictureContrastGallery",
     "imageAsset": "images/by-hash/73b12724fec13c12.png",
-    "description": "Office icon for picture contrast gallery.",
+    "description": "A half-shaded circle marks the controls for adjusting picture contrast.",
     "keywords": [
       "contrast",
       "gallery",
@@ -217451,7 +217451,7 @@
   {
     "name": "PictureCrop",
     "imageAsset": "images/by-hash/96077b881b235e69.png",
-    "description": "Office icon for picture crop.",
+    "description": "A crop-frame symbol marks the command for cropping a picture.",
     "keywords": [
       "crop",
       "graphic",
@@ -217949,7 +217949,7 @@
   {
     "name": "PictureCropShapeMenu",
     "imageAsset": "images/by-hash/96077b881b235e69.png",
-    "description": "Office icon for picture crop shape menu.",
+    "description": "A crop-frame symbol marks options for cropping a picture to a shape.",
     "keywords": [
       "crop",
       "graphic",
@@ -218554,7 +218554,7 @@
   {
     "name": "PictureInsertFromFile",
     "imageAsset": "images/by-hash/a3c1694aead52859.png",
-    "description": "Office icon for picture insert from file.",
+    "description": "A framed picture marks the command for inserting an image from a file.",
     "keywords": [
       "add",
       "create",
@@ -235851,7 +235851,7 @@
   {
     "name": "RecordNarration",
     "imageAsset": "images/by-hash/a10575ca0893736f.png",
-    "description": "Office icon for record narration.",
+    "description": "Overlapping slide outlines and a red dot mark the command for recording presentation narration.",
     "keywords": [
       "narration",
       "record",
@@ -236745,7 +236745,7 @@
   {
     "name": "Redo",
     "imageAsset": "images/by-hash/33a97bd523f22be9.png",
-    "description": "Office icon for redo.",
+    "description": "A right-curving arrow represents redoing the most recently undone action.",
     "keywords": [
       "redo",
       "repeat"
@@ -239428,7 +239428,7 @@
   {
     "name": "ReplaceDialog",
     "imageAsset": "images/by-hash/630ccf1e05ee9dfa.png",
-    "description": "Office icon for replace dialog.",
+    "description": "Letters and circular arrows represent finding and replacing text.",
     "keywords": [
       "dialog",
       "replace",
@@ -245574,7 +245574,7 @@
   {
     "name": "ReviewTrackChanges",
     "imageAsset": "images/by-hash/e72ff8f7885e0972.png",
-    "description": "Office icon for review track changes.",
+    "description": "Markup and an editing mark on a page represent recording revisions for review.",
     "keywords": [
       "changes",
       "review",
@@ -259085,7 +259085,7 @@
   {
     "name": "ShapeFillColorPicker",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
-    "description": "Office icon for shape fill color picker.",
+    "description": "A tipped paint container marks the options for filling a shape with color.",
     "keywords": [
       "color",
       "colour",
@@ -259551,7 +259551,7 @@
   {
     "name": "ShapeOutlineColorPicker",
     "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png",
-    "description": "Office icon for shape outline color picker.",
+    "description": "A pen beside a line marks the options for changing a shape's outline color.",
     "keywords": [
       "color",
       "colour",
@@ -269659,7 +269659,7 @@
   {
     "name": "SlideHide",
     "imageAsset": "images/by-hash/fd86964e428e2a76.png",
-    "description": "Office icon for slide hide.",
+    "description": "A slide thumbnail crossed by a diagonal line marks hiding a slide from the presentation.",
     "keywords": [
       "hide",
       "presentation",
@@ -270448,7 +270448,7 @@
   {
     "name": "SlideShowFromBeginning",
     "imageAsset": "images/by-hash/1622c4b78b9481be.png",
-    "description": "Office icon for slide show from beginning.",
+    "description": "A green play symbol marks the command for starting a slide show from the first slide.",
     "keywords": [
       "beginning",
       "from",
@@ -270470,7 +270470,7 @@
   {
     "name": "SlideShowFromCurrent",
     "imageAsset": "images/by-hash/1ce01d1424245dc7.png",
-    "description": "Office icon for slide show from current.",
+    "description": "A slide symbol marks the command for starting a show from the current slide.",
     "keywords": [
       "current",
       "from",
@@ -270984,7 +270984,7 @@
   {
     "name": "SlideTransitionApplyToAll",
     "imageAsset": "images/by-hash/900caa15407dee88.png",
-    "description": "Office icon for slide transition apply to all.",
+    "description": "Overlapping slide outlines with a blue arrow mark applying a transition across slides.",
     "keywords": [
       "all",
       "apply",
@@ -276717,7 +276717,7 @@
   {
     "name": "SpellCheck",
     "imageAsset": "images/by-hash/a4a83187d27d2b74.png",
-    "description": "Office icon for spell check.",
+    "description": "The letters abc with a check mark represent checking spelling.",
     "keywords": [
       "check",
       "spell",
@@ -276921,7 +276921,7 @@
   {
     "name": "SplitCells",
     "imageAsset": "images/by-hash/7c8e679af59d6dab.png",
-    "description": "Office icon for split cells.",
+    "description": "A subdivided row represents splitting a table cell into smaller cells.",
     "keywords": [
       "cells",
       "split",
@@ -282095,7 +282095,7 @@
   {
     "name": "TableDelete",
     "imageAsset": "images/by-hash/c268ed86a77d2091.png",
-    "description": "Office icon for table delete.",
+    "description": "A red X over a table grid indicates deleting a table.",
     "keywords": [
       "clear",
       "delete",
@@ -283314,7 +283314,7 @@
   {
     "name": "TableInsert",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
-    "description": "Office icon for table insert.",
+    "description": "A cell grid represents inserting a table into a document.",
     "keywords": [
       "add",
       "create",
@@ -302605,7 +302605,7 @@
   {
     "name": "Underline",
     "imageAsset": "images/by-hash/0d599a788c4edd79.png",
-    "description": "Office icon for underline.",
+    "description": "A U with a line beneath it marks the command for underlining selected text.",
     "keywords": [
       "underline"
     ],
@@ -302733,7 +302733,7 @@
   {
     "name": "Undo",
     "imageAsset": "images/by-hash/720e34890e473f48.png",
-    "description": "Office icon for undo.",
+    "description": "A left-curving arrow represents undoing the most recent action.",
     "keywords": [
       "reverse",
       "undo"
@@ -302941,7 +302941,7 @@
   {
     "name": "UnmergeCells",
     "imageAsset": "images/by-hash/7c8e679af59d6dab.png",
-    "description": "Office icon for unmerge cells.",
+    "description": "A divided row represents returning merged cells to separate cells.",
     "keywords": [
       "cells",
       "unmerge",
@@ -305283,7 +305283,7 @@
   {
     "name": "VideoToolsTrim",
     "imageAsset": "images/by-hash/05377a60f8076477.png",
-    "description": "Office icon for video tools trim.",
+    "description": "A video timeline with trim markers marks the controls for trimming a clip.",
     "keywords": [
       "clip",
       "film",
@@ -316330,7 +316330,7 @@
   {
     "name": "ZoomIn",
     "imageAsset": "images/by-hash/0f2adc29e0f822de.png",
-    "description": "Office icon for zoom in.",
+    "description": "A plus sign in a magnifying glass indicates enlarging the current view.",
     "keywords": [
       "in",
       "magnify",
@@ -316446,7 +316446,7 @@
   {
     "name": "ZoomOut",
     "imageAsset": "images/by-hash/127e57b7395bbae4.png",
-    "description": "Office icon for zoom out.",
+    "description": "A minus sign in a magnifying glass indicates reducing the current view.",
     "keywords": [
       "magnify",
       "out",
