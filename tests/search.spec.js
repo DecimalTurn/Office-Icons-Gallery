@@ -1,13 +1,13 @@
 const { test, expect } = require("@playwright/test");
 
 test("submits a search query and filters the gallery after reload", async ({ page }) => {
-  await page.goto("/ImageMso.html");
+  await page.goto("/index.html");
 
   const search = page.locator("#mso-search");
   await search.fill("sun");
   await search.press("Enter");
 
-  await expect(page).toHaveURL(/ImageMso\.html\?SearchMso=sun$/);
+  await expect(page).toHaveURL(/index\.html\?SearchMso=sun$/);
   await expect(page.locator("#mso-search")).toHaveValue("sun");
     const totalCount = await page.evaluate(async () => {
       const metadata = await (await fetch("./icon-metadata.json")).json();
@@ -65,7 +65,7 @@ test("search suggestions match the input and remain usable when resized", async 
 });
 
 test("shows Office fallback status on detail pages, not in search results", async ({ page }) => {
-  await page.goto("/ImageMso.html?SearchMso=AccountingFormatExcel");
+  await page.goto("/index.html?SearchMso=AccountingFormatExcel");
   await expect(page.locator(".icon-placeholder-badge")).toHaveCount(0);
 
   await page.goto("/Icon.html?name=AccountingFormatExcel");

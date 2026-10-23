@@ -24,7 +24,7 @@ http.createServer((request, response) => {
   }
 
   if (pathname === "/") {
-    pathname = "/ImageMso.html";
+    pathname = "/index.html";
   }
 
   const filePath = path.resolve(root, `.${pathname}`);

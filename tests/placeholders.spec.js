@@ -1,7 +1,7 @@
 const { test, expect } = require("@playwright/test");
 
 test("shows Office fallback status on detail pages, not in search results", async ({ page }) => {
-  await page.goto("/ImageMso.html?SearchMso=AccountingFormatExcel");
+  await page.goto("/index.html?SearchMso=AccountingFormatExcel");
   await expect(page.locator(".icon-placeholder-badge")).toHaveCount(0);
 
   await page.goto("/Icon.html?name=AccountingFormatExcel");

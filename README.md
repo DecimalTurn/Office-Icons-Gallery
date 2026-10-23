@@ -6,7 +6,7 @@ The gallery uses PNG assets in `images/` and generated searchable metadata. It a
 
 Browser the gallery:
 
-https://decimalturn.github.io/OfficeIconGallery/ImageMso.html
+https://decimalturn.github.io/OfficeIconGallery/
 
 ## Local development
 
