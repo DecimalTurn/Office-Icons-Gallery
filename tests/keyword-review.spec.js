@@ -52,7 +52,7 @@ test("edits separate keywords and confirms them with required icon-name words", 
   const { confirmed, resets } = await mockKeywordReview(page);
   const iconId = "_3DBevelOptionsDialog";
   const imageGroupIds = imageGroupByName.get(iconId);
-  await page.goto("/description-review.html");
+  await page.goto("/keyword-review.html");
   await expect(page.locator("#selected-icon-name")).toHaveText("_0");
   await expect(page.locator("#review-count")).toContainText("/ 9,324 reviewed");
 
@@ -63,16 +63,20 @@ test("edits separate keywords and confirms them with required icon-name words", 
   const renderedRows = await keywordRows.evaluateAll((rows) => rows.map((row) => ({
     value: row.querySelector("input").value,
     readOnly: row.querySelector("input").readOnly,
-    requiredClass: row.querySelector("input").classList.contains("keyword-required"),
+    fromNameClass: row.querySelector("input").classList.contains("keyword-from-name"),
     removeDisabled: row.querySelector("button").disabled
   })));
   for (const word of required) {
     const row = renderedRows.find((entry) => entry.value === word);
-    expect(row, `required keyword ${word}`).toBeTruthy();
-    expect(row.readOnly).toBe(true);
-    expect(row.requiredClass).toBe(true);
-    expect(row.removeDisabled).toBe(true);
+    expect(row, `name keyword ${word}`).toBeTruthy();
+    expect(row.readOnly).toBe(false);
+    expect(row.fromNameClass).toBe(true);
+    expect(row.removeDisabled).toBe(false);
   }
+  const publisherIndex = renderedRows.findIndex((entry) => entry.value === "publisher");
+  expect(publisherIndex).toBeGreaterThanOrEqual(0);
+  await keywordRows.nth(publisherIndex).locator("input").fill("published");
+  await page.getByRole("button", { name: "Remove keyword horiz" }).click();
   await page.getByRole("button", { name: "Add keyword" }).click();
   const temporaryInput = page.locator(".keyword-row input").last();
   await temporaryInput.fill("beve");
@@ -81,8 +85,8 @@ test("edits separate keywords and confirms them with required icon-name words", 
   await expect(keywordSuggestions).toContainText("bevel");
   await temporaryInput.fill("temporary term");
   const backgrounds = await page.evaluate(() => {
-    const requiredInput = document.querySelector("input.keyword-required");
-    const editableInput = document.querySelector(".keyword-row input:not(.keyword-required)");
+    const requiredInput = document.querySelector("input.keyword-from-name");
+    const editableInput = document.querySelector(".keyword-row input:not(.keyword-from-name)");
     const colors = {};
     for (const theme of ["light", "dark"]) {
       document.documentElement.dataset.theme = theme;
@@ -108,9 +112,14 @@ test("edits separate keywords and confirms them with required icon-name words", 
   expect(confirmed[0].iconIds).toEqual(imageGroupIds);
   expect(confirmed[0].keywords).toContain("blue pigment");
   expect(confirmed[0].keywords).not.toContain("temporary term");
+  expect(confirmed[0].keywords).toContain("published");
+  expect(confirmed[0].keywords).not.toContain("publisher");
+  expect(confirmed[0].keywords).not.toContain("horiz");
   await expect(page.locator(".reference-icon-item .reference-icon-keyword").filter({ hasText: "blue pigment" })).toHaveCount(2);
   for (const word of required) {
-    expect(confirmed[0].keywords).toContain(word);
+    if (word !== "publisher" && word !== "horiz") {
+      expect(confirmed[0].keywords).toContain(word);
+    }
   }
 
   await page.getByRole("button", { name: "Mark not reviewed" }).click();
@@ -118,12 +127,14 @@ test("edits separate keywords and confirms them with required icon-name words", 
   expect(resets).toEqual([{ iconId, reviewed: false }]);
   const savedKeywordValues = await page.locator(".keyword-row input").evaluateAll((inputs) => inputs.map((input) => input.value));
   expect(savedKeywordValues).toContain("blue pigment");
-  expect(savedKeywordValues).toEqual(expect.arrayContaining(required));
+  expect(savedKeywordValues).toContain("published");
+  expect(savedKeywordValues).not.toContain("publisher");
+  expect(savedKeywordValues).not.toContain("horiz");
 });
 
 test("rejects an empty keyword row until it is filled or removed", async ({ page }) => {
   const { confirmed } = await mockKeywordReview(page);
-  await page.goto("/description-review.html");
+  await page.goto("/keyword-review.html");
   await expect(page.locator("#selected-icon-name")).toHaveText("_0");
   await page.getByRole("button", { name: "Add keyword" }).click();
   await page.getByRole("button", { name: "Confirm review" }).click();

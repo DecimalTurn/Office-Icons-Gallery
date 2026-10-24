@@ -16,7 +16,7 @@ Run the search and responsive layout test with `pnpm test:search`. Install the P
 
 ## Local keyword review
 
-Start the gallery with `pnpm dev` and open http://127.0.0.1:8000/description-review.html. Each icon ID has a keyword list with autocomplete suggestions. Words from the ID and IDs that use the same real image are required. Choose **Confirm review** to save the shared list to `icon-keywords.json` and update `icon-metadata.json`. Review status is stored per icon ID in `icon-review-status.json`.
+Start the gallery with `pnpm dev` and open http://127.0.0.1:8000/keyword-review.html. Each icon ID has an editable keyword list with autocomplete suggestions. Name-derived keywords are included initially and visually marked, but can be changed or removed. IDs that use the same real image share one keyword list. Choose **Confirm review** to save it to `icon-keywords.json` and update `icon-metadata.json`. Review status is stored per icon ID in `icon-review-status.json`.
 
 The bottom of the keyword review page contains locally saved icon reference lists. Each member shows its keywords. Create named lists, add the selected icon or any icon ID, and remove entries with the X control. New icons append to the end of the selected list. The gallery's Icon reference lists link jumps directly to this section.
 

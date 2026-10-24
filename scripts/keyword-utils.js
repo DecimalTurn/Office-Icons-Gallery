@@ -30,16 +30,15 @@ function normalizeKeywordValues(values, maximumKeywords) {
 
 function normalizeReviewedKeywords(iconName, values) {
   const submitted = normalizeKeywordValues(values, 100);
-  return [...new Set([...requiredNameKeywords(iconName), ...submitted])].sort();
+  return [...new Set(submitted)].sort();
 }
 
 function normalizeReviewedKeywordGroup(iconNames, values) {
   if (!Array.isArray(iconNames) || iconNames.length === 0) {
     throw new Error("Provide at least one icon ID");
   }
-  const required = iconNames.flatMap(requiredNameKeywords);
   const submitted = normalizeKeywordValues(values, 200);
-  return [...new Set([...required, ...submitted])].sort();
+  return [...new Set(submitted)].sort();
 }
 
 module.exports = { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, requiredNameKeywords, splitIconName };

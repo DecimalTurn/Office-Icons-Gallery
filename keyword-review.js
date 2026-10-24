@@ -54,7 +54,7 @@
       .map((word) => word.toLocaleLowerCase("en"));
   }
 
-  function requiredKeywords() {
+  function nameKeywords() {
     if (!state.currentIcon) {
       return new Set();
     }
@@ -90,16 +90,14 @@
     input.autocomplete = "off";
     input.spellcheck = false;
     input.value = keyword;
-    input.readOnly = required;
-    input.classList.toggle("keyword-required", required);
+    input.classList.toggle("keyword-from-name", required);
     input.setAttribute("aria-label", `Keyword ${index + 1}`);
-    input.title = required ? "Required because it appears in the icon ID" : "Edit keyword";
+    input.title = required ? "Keyword from an icon ID; editable" : "Edit keyword";
     remove.type = "button";
     remove.className = "review-icon-button keyword-remove-button";
     remove.dataset.removeKeyword = "true";
     remove.setAttribute("aria-label", `Remove keyword ${keyword || index + 1}`);
-    remove.title = required ? "Required by icon ID" : "Remove keyword";
-    remove.disabled = required;
+    remove.title = "Remove keyword";
     remove.innerHTML = "&#128465;";
     row.append(input, remove);
     if (!required) {
@@ -115,13 +113,12 @@
   }
 
   function renderKeywords(keywords) {
-    const required = requiredKeywords();
-    const normalized = [...new Set([
-      ...required,
-      ...(keywords || []).map((keyword) => String(keyword).trim().toLocaleLowerCase("en"))
-    ].filter(Boolean))];
+    const fromName = nameKeywords();
+    const normalized = [...new Set((keywords || [])
+      .map((keyword) => String(keyword).trim().toLocaleLowerCase("en"))
+      .filter(Boolean))];
     elements.keywordEditor.replaceChildren(...normalized.map((keyword, index) =>
-      createKeywordRow(keyword, index, required.has(keyword))
+      createKeywordRow(keyword, index, fromName.has(keyword))
     ));
     state.keywordBaseline = readKeywords();
   }
@@ -315,6 +312,7 @@
     if (event.target.matches("input")) {
       const row = event.target.closest(".keyword-row");
       const removeButton = row.querySelector("[data-remove-keyword]");
+      event.target.classList.toggle("keyword-from-name", nameKeywords().has(event.target.value.trim().toLocaleLowerCase("en")));
       removeButton.setAttribute("aria-label", `Remove keyword ${event.target.value || "row"}`);
     }
   });

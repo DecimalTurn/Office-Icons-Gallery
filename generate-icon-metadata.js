@@ -355,7 +355,6 @@ const metadata = iconNames.map((name) => {
     ...keywordOverride
   ];
   const keywords = new Set([
-    ...normalizedWords,
     ...(Object.hasOwn(reviewedKeywords, name) ? reviewedKeywords[name] : generatedKeywords)
       .map((keyword) => keyword.trim().toLocaleLowerCase("en"))
   ]);

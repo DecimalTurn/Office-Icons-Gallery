@@ -361,7 +361,7 @@
   color: var(--muted-foreground);
 }
 
-.keyword-row input.keyword-required {
+.keyword-row input.keyword-from-name {
   background: var(--required-keyword-background);
 }
 

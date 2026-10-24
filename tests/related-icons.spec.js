@@ -9,11 +9,13 @@ test("metadata contains only keywords and includes every icon-name word", async 
   for (const icon of metadata) {
     expect(icon).not.toHaveProperty("description");
     const keywords = new Set(icon.keywords);
-    for (const word of requiredNameKeywords(icon.name)) {
-      expect(keywords.has(word), `${icon.name} should include name word ${word}`).toBe(true);
-    }
     const nameWords = requiredNameKeywords(icon.name);
-    if (nameWords.length > 1) {
+    if (!Object.hasOwn(reviewedKeywords, icon.name)) {
+      for (const word of nameWords) {
+        expect(keywords.has(word), `${icon.name} should include generated name word ${word}`).toBe(true);
+      }
+    }
+    if (!Object.hasOwn(reviewedKeywords, icon.name) && nameWords.length > 1) {
       const fullNamePhrase = nameWords.join(" ");
       expect(keywords.has(fullNamePhrase), `${icon.name} should not include its full name as one keyword`).toBe(false);
     }
@@ -41,10 +43,10 @@ test("metadata contains only keywords and includes every icon-name word", async 
   expect(normalizeReviewedKeywordGroup(largestImageGroup.map((icon) => icon.name), largestImageGroup[0].keywords))
     .toEqual(largestImageGroup[0].keywords);
   expect(normalizeReviewedKeywords("_3DBevelOptionsDialog", [" Blue Pigment ", "BEVEL"])).toEqual([
-    "3", "bevel", "blue pigment", "d", "dialog", "options"
+    "bevel", "blue pigment"
   ]);
   expect(normalizeReviewedKeywordGroup(["_3DBevelOptionsDialog", "ChartFormatSelection"], [" Blue Pigment "])).toEqual([
-    "3", "bevel", "blue pigment", "chart", "d", "dialog", "format", "options", "selection"
+    "blue pigment"
   ]);
 });
 

@@ -22,7 +22,7 @@ test("creates saved lists and appends selected icons and IDs in the review page"
   const selectedIcon = "_3DBevelOptionsDialog";
   const selectedIconData = metadata.find((icon) => icon.name === selectedIcon);
 
-  await page.goto("/description-review.html#reference-lists");
+  await page.goto("/keyword-review.html#reference-lists");
   await expect(page.locator("#icon-position")).not.toHaveText("Loading icons");
   await expect(page.locator("#reference-list-status")).toHaveText("");
   await expect(page.locator("#list-feedback")).toBeHidden();
