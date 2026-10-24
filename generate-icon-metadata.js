@@ -372,11 +372,11 @@ const metadata = iconNames.map((name) => {
     keywords: [...keywords].filter(Boolean).sort(),
     ...(relatedIcons.length > 0 ? { relatedIcons } : {}),
     ...(sameImageIds.length > 0 ? { sameImageIds } : {}),
+    imageSha256: imageHash,
     ...(placeholder ? {
       imageStatus: placeholder.imageStatus,
       placeholderLabel: placeholder.label,
-      placeholderAsset: placeholder.asset,
-      imageSha256: imageHash
+      placeholderAsset: placeholder.asset
     } : {})
   };
 });

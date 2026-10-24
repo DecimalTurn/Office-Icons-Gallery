@@ -14,6 +14,18 @@ Install dependencies with `pnpm install`, then start the local server with `pnpm
 
 Run the search and responsive layout test with `pnpm test:search`. Install the Playwright browser once with `pnpm exec playwright install chromium` if it is not already available.
 
+## Local description review
+
+Install [Ollama for Windows](https://ollama.com/download), then download a vision model in PowerShell:
+
+```powershell
+ollama pull gemma3:4b
+```
+
+Start the gallery with `pnpm dev` and open http://127.0.0.1:8000/description-review.html. Choose an icon, generate a visual-only draft, edit it, then save it as a draft or mark it reviewed. The review page groups byte-identical images by SHA-256 so one reviewed description applies to every ID using that exact image.
+
+Drafts are stored locally in the ignored `.description-review-drafts.json` file. Exported reviewed descriptions are not applied to `icon-descriptions.json`; inspect the exported JSON and integrate approved entries manually. Model requests go through the gallery's loopback-only server to Ollama at `127.0.0.1:11434`.
+
 The gallery and searchable metadata are generated from PNG filenames directly in `images/`. Each filename without its `.png` extension is treated as an `idMso` value. After adding or removing icons, regenerate the metadata from this directory:
 
 ```sh

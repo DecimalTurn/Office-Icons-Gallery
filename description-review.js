@@ -1,0 +1,395 @@
+(() => {
+  const elements = {
+    search: document.getElementById("icon-search"),
+    results: document.getElementById("icon-results"),
+    previous: document.getElementById("previous-icon"),
+    next: document.getElementById("next-icon"),
+    position: document.getElementById("icon-position"),
+    model: document.getElementById("model-name"),
+    modelOptions: document.getElementById("model-options"),
+    refreshModels: document.getElementById("refresh-models"),
+    status: document.getElementById("review-status"),
+    iconName: document.getElementById("selected-icon-name"),
+    iconImage: document.getElementById("selected-icon-image"),
+    reviewState: document.getElementById("review-state"),
+    imageHash: document.getElementById("image-hash"),
+    sameImageIds: document.getElementById("same-image-ids"),
+    curatedReference: document.getElementById("curated-reference"),
+    curatedList: document.getElementById("curated-list"),
+    editor: document.getElementById("description-editor"),
+    characterCount: document.getElementById("character-count"),
+    draftModel: document.getElementById("draft-model"),
+    generate: document.getElementById("generate-description"),
+    save: document.getElementById("save-draft"),
+    markReviewed: document.getElementById("mark-reviewed"),
+    exportReviewed: document.getElementById("export-reviewed"),
+    draftCount: document.getElementById("draft-count")
+  };
+
+  const state = {
+    icons: [],
+    drafts: {},
+    currentIcon: null,
+    currentImage: null,
+    position: -1,
+    searchResults: [],
+    activeResult: -1,
+    editorBaseline: "",
+    suggestion: "",
+    modelUsed: "human-edited",
+    requestNumber: 0
+  };
+
+  function setStatus(message, kind = "") {
+    elements.status.textContent = message;
+    elements.status.dataset.kind = kind;
+  }
+
+  async function requestJson(url, options) {
+    const response = await fetch(url, options);
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      throw new Error(result.error || `Request failed (${response.status})`);
+    }
+    return result;
+  }
+
+  function currentDraft() {
+    return state.currentImage ? state.drafts[state.currentImage.imageHash] || null : null;
+  }
+
+  function groupIconsByImage(metadata) {
+    const groups = new Map();
+    for (const icon of metadata) {
+      const key = icon.imageSha256 || `unique:${icon.name}`;
+      let group = groups.get(key);
+      if (!group) {
+        group = { ...icon, iconIds: new Set() };
+        groups.set(key, group);
+      }
+      group.iconIds.add(icon.name);
+      for (const iconId of icon.sameImageIds || []) {
+        group.iconIds.add(iconId);
+      }
+    }
+    return [...groups.values()].map((group) => ({
+      ...group,
+      iconIds: [...group.iconIds].sort()
+    }));
+  }
+
+  function updateDraftSummary() {
+    const drafts = Object.values(state.drafts);
+    const reviewedCount = drafts.filter((draft) => draft.status === "reviewed").length;
+    const draftCount = drafts.length - reviewedCount;
+    elements.draftCount.textContent = `${reviewedCount} reviewed, ${draftCount} saved drafts`;
+    elements.exportReviewed.disabled = reviewedCount === 0;
+  }
+
+  function updateCharacterCount() {
+    elements.characterCount.textContent = `${elements.editor.value.length.toLocaleString()} / 2,000`;
+  }
+
+  function renderCuratedDescriptions(descriptions) {
+    const entries = Object.entries(descriptions || {});
+    elements.curatedList.replaceChildren(...entries.map(([iconId, description]) => {
+      const item = document.createElement("li");
+      item.textContent = `${iconId}: ${description}`;
+      return item;
+    }));
+    elements.curatedReference.hidden = entries.length === 0;
+  }
+
+  function updateReviewState(draft) {
+    const status = draft?.status === "reviewed" ? "Reviewed" : draft ? "Draft saved" : "Not reviewed";
+    elements.reviewState.textContent = status;
+    elements.reviewState.dataset.state = draft?.status === "reviewed" ? "reviewed" : "";
+    elements.draftModel.textContent = draft ? `Saved with ${draft.model}` : "";
+  }
+
+  async function selectIcon(icon, position = state.icons.findIndex((entry) => entry.name === icon.name)) {
+    if (elements.editor.value !== state.editorBaseline && !window.confirm("Discard the unsaved edits for this image?")) {
+      return;
+    }
+
+    const requestNumber = ++state.requestNumber;
+    state.currentIcon = icon;
+    state.position = position;
+    elements.iconName.textContent = icon.name;
+    elements.iconImage.src = `./images/${encodeURIComponent(icon.name)}.png`;
+    elements.iconImage.alt = icon.name;
+    elements.position.textContent = `${position + 1} of ${state.icons.length}`;
+    elements.previous.disabled = position <= 0;
+    elements.next.disabled = position >= state.icons.length - 1;
+    elements.search.value = icon.name;
+    elements.generate.disabled = icon.imageStatus === "placeholder";
+    closeResults();
+    setStatus(`Loading image details for ${icon.name}…`);
+
+    try {
+      const details = await requestJson(`/api/description-review/image?name=${encodeURIComponent(icon.name)}`);
+      if (requestNumber !== state.requestNumber) {
+        return;
+      }
+      state.currentImage = details;
+      const draft = details.draft || null;
+      if (draft) {
+        state.drafts[details.imageHash] = draft;
+      }
+      const curatedEntries = Object.entries(details.curatedDescriptions || {});
+      const initialDescription = draft?.description || curatedEntries[0]?.[1] || "";
+      state.editorBaseline = initialDescription;
+      state.suggestion = draft?.suggestion || "";
+      state.modelUsed = draft?.model || "human-edited";
+      elements.editor.value = initialDescription;
+      elements.imageHash.textContent = `SHA-256 ${details.imageHash}`;
+      elements.sameImageIds.textContent = details.iconIds.length > 1
+        ? `Same image IDs using this shared description: ${details.iconIds.join(", ")}`
+        : "Unique image file";
+      renderCuratedDescriptions(details.curatedDescriptions);
+      updateReviewState(draft);
+      updateCharacterCount();
+      setStatus(icon.imageStatus === "placeholder"
+        ? "This ID uses a shared placeholder image. Choose a real icon image before generating a description."
+        : draft?.status === "reviewed"
+          ? "This image has a human-reviewed local description."
+          : "Inspect the artwork, edit the description, then save or mark it reviewed.");
+      updateDraftSummary();
+    } catch (error) {
+      setStatus(error.message, "error");
+    }
+  }
+
+  function closeResults() {
+    elements.results.hidden = true;
+    elements.search.setAttribute("aria-expanded", "false");
+    state.searchResults = [];
+    state.activeResult = -1;
+  }
+
+  function showResults(value) {
+    const query = value.trim().toLowerCase();
+    if (query.length < 2) {
+      closeResults();
+      return;
+    }
+    state.searchResults = state.icons
+      .filter((icon) => icon.iconIds.some((iconId) => iconId.toLowerCase().includes(query)))
+      .slice(0, 30);
+    elements.results.replaceChildren(...state.searchResults.map((icon, index) => {
+      const option = document.createElement("button");
+      const image = document.createElement("img");
+      const label = document.createElement("span");
+      option.type = "button";
+      option.className = "icon-result";
+      option.id = `icon-result-${index}`;
+      option.role = "option";
+      option.setAttribute("aria-selected", "false");
+      image.src = `./images/${encodeURIComponent(icon.name)}.png`;
+      image.alt = "";
+      const matchingId = icon.iconIds.find((iconId) => iconId.toLowerCase().includes(query)) || icon.name;
+      label.textContent = icon.iconIds.length > 1
+        ? `${matchingId} (${icon.iconIds.length} identical IDs)`
+        : matchingId;
+      option.append(image, label);
+      option.addEventListener("click", () => selectIcon(icon));
+      return option;
+    }));
+    elements.results.hidden = state.searchResults.length === 0;
+    elements.search.setAttribute("aria-expanded", String(state.searchResults.length > 0));
+  }
+
+  function setActiveResult(index) {
+    const options = elements.results.querySelectorAll('[role="option"]');
+    if (!options.length) {
+      return;
+    }
+    state.activeResult = Math.max(0, Math.min(index, options.length - 1));
+    options.forEach((option, optionIndex) => {
+      option.setAttribute("aria-selected", String(optionIndex === state.activeResult));
+    });
+    options[state.activeResult].scrollIntoView({ block: "nearest" });
+    elements.search.setAttribute("aria-activedescendant", options[state.activeResult].id);
+  }
+
+  async function refreshModels() {
+    elements.refreshModels.disabled = true;
+    try {
+      const result = await requestJson("/api/description-review/models");
+      elements.modelOptions.replaceChildren(...result.models.map((model) => {
+        const option = document.createElement("option");
+        option.value = model;
+        return option;
+      }));
+      setStatus(result.models.length
+        ? `Ollama is ready. Found ${result.models.length} local model${result.models.length === 1 ? "" : "s"}.`
+        : "Ollama is running, but no models are installed. Pull a vision model such as gemma3:4b.", result.models.length ? "success" : "");
+    } catch (error) {
+      setStatus(error.message, "error");
+    } finally {
+      elements.refreshModels.disabled = false;
+    }
+  }
+
+  async function generateDescription() {
+    if (!state.currentIcon) {
+      return;
+    }
+    const iconId = state.currentIcon.name;
+    const model = elements.model.value.trim();
+    if (!model) {
+      setStatus("Enter an Ollama model name first.", "error");
+      return;
+    }
+    elements.generate.disabled = true;
+    setStatus(`Asking ${model} to inspect ${state.currentIcon.name}…`);
+    try {
+      const result = await requestJson("/api/description-review/generate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ iconId: state.currentIcon.name, model })
+      });
+      if (state.currentIcon?.name !== iconId) {
+        return;
+      }
+      state.suggestion = result.suggestion;
+      state.modelUsed = model;
+      elements.editor.value = result.suggestion;
+      elements.editor.focus();
+      updateCharacterCount();
+      setStatus("Draft generated. Review the image and edit the wording before marking it reviewed.", "success");
+    } catch (error) {
+      setStatus(error.message, "error");
+    } finally {
+      elements.generate.disabled = false;
+    }
+  }
+
+  async function saveDescription(status) {
+    if (!state.currentIcon || !state.currentImage) {
+      return;
+    }
+    const description = elements.editor.value.trim();
+    if (!description) {
+      setStatus("Enter a description before saving.", "error");
+      elements.editor.focus();
+      return;
+    }
+    const iconId = state.currentIcon.name;
+    const imageHash = state.currentImage.imageHash;
+    const model = state.modelUsed;
+    const button = status === "reviewed" ? elements.markReviewed : elements.save;
+    button.disabled = true;
+    setStatus(status === "reviewed" ? "Saving reviewed description…" : "Saving local draft…");
+    try {
+      const result = await requestJson("/api/description-review/drafts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          iconId: state.currentIcon.name,
+          model,
+          suggestion: state.suggestion,
+          description,
+          status
+        })
+      });
+      state.drafts[imageHash] = result.draft;
+      if (state.currentImage?.imageHash === imageHash && state.currentIcon?.name === iconId) {
+        state.editorBaseline = description;
+        updateReviewState(result.draft);
+      }
+      updateDraftSummary();
+      setStatus(status === "reviewed"
+        ? "Marked reviewed. This does not change the curated description source."
+        : "Draft saved locally.", "success");
+    } catch (error) {
+      setStatus(error.message, "error");
+    } finally {
+      button.disabled = false;
+    }
+  }
+
+  function exportReviewed() {
+    const reviewed = Object.values(state.drafts).filter((draft) => draft.status === "reviewed");
+    const descriptions = {};
+    for (const draft of reviewed) {
+      for (const iconId of draft.iconIds) {
+        descriptions[iconId] = draft.description;
+      }
+    }
+    const blob = new Blob([`${JSON.stringify(descriptions, null, 2)}\n`], { type: "application/json" });
+    const downloadUrl = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = downloadUrl;
+    link.download = "reviewed-icon-descriptions.json";
+    link.click();
+    URL.revokeObjectURL(downloadUrl);
+    setStatus(`Exported ${Object.keys(descriptions).length} reviewed icon descriptions.`, "success");
+  }
+
+  elements.search.addEventListener("input", () => showResults(elements.search.value));
+  elements.search.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowDown" && !elements.results.hidden) {
+      event.preventDefault();
+      setActiveResult(state.activeResult + 1);
+    } else if (event.key === "ArrowUp" && !elements.results.hidden) {
+      event.preventDefault();
+      setActiveResult(state.activeResult - 1);
+    } else if (event.key === "Enter" && !elements.results.hidden && state.searchResults.length) {
+      event.preventDefault();
+      const index = state.activeResult < 0 ? 0 : state.activeResult;
+      selectIcon(state.searchResults[index]);
+    } else if (event.key === "Escape") {
+      closeResults();
+    }
+  });
+  document.addEventListener("click", (event) => {
+    if (!elements.results.contains(event.target) && event.target !== elements.search) {
+      closeResults();
+    }
+  });
+  elements.previous.addEventListener("click", () => {
+    if (state.position > 0) {
+      selectIcon(state.icons[state.position - 1], state.position - 1);
+    }
+  });
+  elements.next.addEventListener("click", () => {
+    if (state.position < state.icons.length - 1) {
+      selectIcon(state.icons[state.position + 1], state.position + 1);
+    }
+  });
+  elements.refreshModels.addEventListener("click", refreshModels);
+  elements.generate.addEventListener("click", generateDescription);
+  elements.save.addEventListener("click", () => saveDescription("draft"));
+  elements.markReviewed.addEventListener("click", () => saveDescription("reviewed"));
+  elements.exportReviewed.addEventListener("click", exportReviewed);
+  elements.editor.addEventListener("input", updateCharacterCount);
+
+  async function initialize() {
+    try {
+      const [metadata, draftResult] = await Promise.all([
+        requestJson("./icon-metadata.json"),
+        requestJson("/api/description-review/drafts")
+      ]);
+      state.icons = groupIconsByImage(metadata);
+      state.drafts = draftResult.drafts || {};
+      updateDraftSummary();
+      const uncuratedNames = new Set(metadata
+        .filter((icon) => icon.description.startsWith("Office icon for "))
+        .map((icon) => icon.name));
+      const firstUncurated = state.icons.find((icon) =>
+        icon.imageStatus !== "placeholder" && icon.iconIds.some((iconId) => uncuratedNames.has(iconId)));
+      const initialIcon = firstUncurated || state.icons[0];
+      if (!initialIcon) {
+        throw new Error("No icons are available in metadata");
+      }
+      await selectIcon(initialIcon, state.icons.indexOf(initialIcon));
+      await refreshModels();
+    } catch (error) {
+      setStatus(error.message, "error");
+      elements.position.textContent = "Icon data unavailable";
+    }
+  }
+
+  initialize();
+})();

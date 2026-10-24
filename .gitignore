@@ -3,3 +3,5 @@ test-results/.playwright-artifacts-0/
 test-results/
 playwright-report/
 .description-contact-sheet.html
+.description-review-drafts.json
+.description-review-drafts.json.tmp
