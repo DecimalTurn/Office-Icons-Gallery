@@ -85,7 +85,8 @@ test("edits separate keywords and confirms them with required icon-name words", 
   expect(bevelIndex).toBeGreaterThanOrEqual(0);
   await keywordRows.nth(bevelIndex).locator("input").fill("beveled");
   await page.getByRole("button", { name: "Remove keyword options" }).click();
-  await page.getByRole("button", { name: "Add keyword" }).click();
+  const addKeywordButton = page.getByRole("button", { name: "Add keyword" });
+  await addKeywordButton.click();
   const temporaryInput = page.locator(".keyword-row input").last();
   await temporaryInput.fill("beve");
   const keywordSuggestions = page.locator(".keyword-editor .keyword-row .awesomplete > ul:not([hidden])");
@@ -93,7 +94,10 @@ test("edits separate keywords and confirms them with required icon-name words", 
   await expect(keywordSuggestions).toContainText("bevel");
   await temporaryInput.press("Tab");
   await expect(temporaryInput).toHaveValue("bevel");
+  await expect(addKeywordButton).toBeFocused();
   await temporaryInput.fill("temporary term");
+  await temporaryInput.press("Tab");
+  await expect(addKeywordButton).toBeFocused();
   const backgrounds = await page.evaluate(() => {
     const requiredInput = document.querySelector("input.keyword-from-name");
     const editableInput = document.querySelector(".keyword-row input:not(.keyword-from-name)");
@@ -138,6 +142,29 @@ test("edits separate keywords and confirms them with required icon-name words", 
   expect(savedKeywordValues).toContain("beveled");
   expect(savedKeywordValues).not.toContain("bevel");
   expect(savedKeywordValues).not.toContain("options");
+});
+
+test("Tab accepts a suggestion and focuses the next keyword field", async ({ page }) => {
+  await mockKeywordReview(page);
+  const iconId = "_3DBevelOptionsDialog";
+  await page.goto("/keyword-review.html");
+  await page.getByLabel("Search icon ID").fill(iconId);
+  await page.getByRole("option", { name: iconId }).click();
+
+  const addKeywordButton = page.getByRole("button", { name: "Add keyword" });
+  await addKeywordButton.click();
+  await addKeywordButton.click();
+  const keywordInputs = page.locator(".keyword-row input");
+  const keywordInputCount = await keywordInputs.count();
+  const autocompleteInput = keywordInputs.nth(keywordInputCount - 2);
+  const nextKeywordInput = keywordInputs.nth(keywordInputCount - 1);
+  await autocompleteInput.fill("beve");
+  await expect(page.locator(".keyword-editor .keyword-row .awesomplete > ul:not([hidden])")).toContainText("bevel");
+
+  await autocompleteInput.press("Tab");
+
+  await expect(autocompleteInput).toHaveValue("bevel");
+  await expect(nextKeywordInput).toBeFocused();
 });
 
 test("rejects an empty keyword row until it is filled or removed", async ({ page }) => {

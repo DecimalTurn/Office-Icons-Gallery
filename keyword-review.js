@@ -100,20 +100,27 @@
     remove.title = "Remove keyword";
     remove.innerHTML = "&#128465;";
     row.append(input, remove);
+    let autocomplete = null;
     if (!required) {
       input.classList.add("awesomplete");
-      const autocomplete = new Awesomplete(input, {
+      autocomplete = new Awesomplete(input, {
         list: state.keywordSuggestions,
         minChars: 1,
         maxItems: 8,
         autoFirst: true
       });
-      input.addEventListener("keydown", (event) => {
-        if (event.key === "Tab" && autocomplete.opened && autocomplete.selected) {
+    }
+    input.addEventListener("keydown", (event) => {
+      if (event.key === "Tab") {
+        event.preventDefault();
+        if (autocomplete?.opened && autocomplete.selected) {
           autocomplete.select();
         }
-      });
-    }
+        const keywordInputs = [...elements.keywordEditor.querySelectorAll(".keyword-row input")];
+        const nextInput = keywordInputs[keywordInputs.indexOf(input) + 1];
+        (nextInput || elements.addKeyword).focus();
+      }
+    });
     return row;
   }
 
