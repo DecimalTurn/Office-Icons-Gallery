@@ -11,14 +11,9 @@ test("submits a search query and filters the gallery after reload", async ({ pag
   await expect(page.locator("#mso-search")).toHaveValue("sun");
     const counts = await page.evaluate(async () => {
       const metadata = await (await fetch("./icon-metadata.json")).json();
-      const imageKeys = metadata.map((icon) => icon.imageSha256
-        ? `hash:${icon.imageSha256}`
-        : icon.sameImageIds?.length
-          ? `group:${[icon.name, ...icon.sameImageIds].sort().join("|")}`
-          : `id:${icon.name}`);
       return {
         ids: metadata.length.toLocaleString(),
-        uniqueImages: new Set(imageKeys).size.toLocaleString()
+        uniqueImages: new Set(metadata.map((icon) => icon.imageAsset)).size.toLocaleString()
       };
     });
     expect(counts).toEqual({ ids: "9,324", uniqueImages: "3,407" });

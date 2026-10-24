@@ -3,6 +3,7 @@ const path = require("path");
 const crypto = require("crypto");
 
 const imagesPath = path.join(__dirname, "images");
+const sharedImagesPath = path.join(imagesPath, "by-hash");
 const outputPath = path.join(__dirname, "icon-metadata.json");
 const placeholderManifestPath = path.join(__dirname, "assets", "placeholders", "manifest.tsv");
 const imageFiles = fs.readdirSync(imagesPath, { withFileTypes: true })
@@ -54,6 +55,29 @@ for (const name of iconNames) {
   const names = namesByImageHash.get(imageHash) || [];
   names.push(name);
   namesByImageHash.set(imageHash, names);
+}
+fs.mkdirSync(sharedImagesPath, { recursive: true });
+const imageAssetByHash = new Map();
+const shortHashToImageHash = new Map();
+const expectedSharedImageFiles = new Set();
+for (const [imageHash, names] of namesByImageHash) {
+  const shortHash = imageHash.slice(0, 16).toLowerCase();
+  const existingHash = shortHashToImageHash.get(shortHash);
+  if (existingHash) {
+    throw new Error(`Short image hash collision between ${existingHash} and ${imageHash}`);
+  }
+
+  shortHashToImageHash.set(shortHash, imageHash);
+  const fileName = `${shortHash}.png`;
+  const imageAsset = `images/by-hash/${fileName}`;
+  fs.copyFileSync(path.join(imagesPath, `${names[0]}.png`), path.join(sharedImagesPath, fileName));
+  imageAssetByHash.set(imageHash, imageAsset);
+  expectedSharedImageFiles.add(fileName);
+}
+for (const entry of fs.readdirSync(sharedImagesPath, { withFileTypes: true })) {
+  if (entry.isFile() && /^[a-f0-9]{16}\.png$/.test(entry.name) && !expectedSharedImageFiles.has(entry.name)) {
+    fs.unlinkSync(path.join(sharedImagesPath, entry.name));
+  }
 }
 const placeholderIconNames = new Set(iconNames.filter((name) =>
   placeholderByHash.has(imageHashByName.get(name))
@@ -265,6 +289,7 @@ const metadata = iconNames.map((name) => {
   const override = iconOverrides.get(name);
   const relatedIcons = findRelatedIconNames(name);
   const imageHash = imageHashByName.get(name);
+  const imageAsset = imageAssetByHash.get(imageHash);
   const placeholder = placeholderByHash.get(imageHash);
   const sameImageIds = placeholder
     ? []
@@ -282,6 +307,7 @@ const metadata = iconNames.map((name) => {
 
   return {
     name,
+    imageAsset,
     description,
     keywords: [...keywords].filter(Boolean).sort(),
     ...(relatedIcons.length > 0 ? { relatedIcons } : {}),

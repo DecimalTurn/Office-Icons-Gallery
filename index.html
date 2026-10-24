@@ -164,20 +164,20 @@
       function showPage() {
         const start = currentPage * pageSize;
         const end = Math.min(start + pageSize, icons.length);
-        const pageIcons = icons.slice(start, end).map(({ name }) => {
+        const pageIcons = icons.slice(start, end).map((icon) => {
           const item = document.createElement("li");
           const image = document.createElement("img");
           const link = document.createElement("a");
           const label = document.createElement("span");
 
           image.loading = "lazy";
-          image.title = name;
-          image.alt = name;
-          image.src = `./images/${encodeURIComponent(name)}.png`;
+          image.title = icon.name;
+          image.alt = icon.name;
+          image.src = `./${icon.imageAsset}`;
           link.className = "icon-link";
-          link.href = iconPageUrl(name);
+          link.href = iconPageUrl(icon.name);
           link.appendChild(image);
-          label.textContent = name;
+          label.textContent = icon.name;
           item.append(link, label);
           return item;
         });
@@ -275,15 +275,7 @@
           const metadata = await response.json();
           icons = metadata.filter((icon) => matchesFilters(icon, searchQuery));
           iconCount.textContent = metadata.length.toLocaleString();
-          const uniqueImages = new Set(metadata.map((icon) => {
-            if (icon.imageSha256) {
-              return `hash:${icon.imageSha256}`;
-            }
-            if (icon.sameImageIds?.length) {
-              return `group:${[icon.name, ...icon.sameImageIds].sort().join("|")}`;
-            }
-            return `id:${icon.name}`;
-          }));
+          const uniqueImages = new Set(metadata.map((icon) => icon.imageAsset));
           uniqueIconCount.textContent = uniqueImages.size.toLocaleString();
           if (searchQuery || excludePlaceholdersInput.checked) {
             const resultNoun = icons.length === 1 ? "icon" : "icons";
@@ -300,6 +292,20 @@
           autocomplete.filter = (suggestion, value) => {
             const icon = metadataByName.get(suggestion.value);
             return icon ? matchesFilters(icon, value) : false;
+          };
+          autocomplete.item = (suggestion) => {
+            const item = document.createElement("li");
+            const image = document.createElement("img");
+            const label = document.createElement("span");
+            const icon = metadataByName.get(suggestion.value);
+
+            item.setAttribute("aria-selected", "false");
+            image.title = suggestion.value;
+            image.alt = suggestion.value;
+            image.src = `./${icon.imageAsset}`;
+            label.textContent = suggestion.value;
+            item.append(image, label);
+            return item;
           };
           autocomplete.list = metadata.map((icon) => icon.name);
 

@@ -121,7 +121,6 @@
         nameHeading.textContent = iconName;
         iconImage.alt = iconName;
         smallIconImage.alt = iconName;
-        const iconSource = `./images/${encodeURIComponent(iconName)}.png`;
         copyButton.disabled = false;
         copyIdButton.disabled = false;
         fetch("./icon-metadata.json")
@@ -134,6 +133,9 @@
           .then((metadata) => {
             const icon = metadata.find((entry) => entry.name === iconName);
             if (icon?.imageStatus === "placeholder") {
+          const iconSource = icon?.imageAsset
+            ? `./${icon.imageAsset}`
+            : `./images/${encodeURIComponent(iconName)}.png`;
               imageStatus.textContent = `Placeholder image: ${icon.placeholderLabel}. This is a shared Office fallback, not a unique icon image.`;
               imageStatus.hidden = false;
             }
@@ -151,7 +153,7 @@
 
                 link.className = "related-icon-link";
                 link.href = `./icon.html?name=${encodeURIComponent(relatedIcon.name)}`;
-                image.src = `./images/${encodeURIComponent(relatedIcon.name)}.png`;
+                image.src = `./${relatedIcon.imageAsset}`;
                 image.alt = "";
                 label.textContent = relatedIcon.name;
                 link.append(image, label);
@@ -177,7 +179,7 @@
                 link.className = "same-image-link";
                 link.href = `./icon.html?name=${encodeURIComponent(name)}`;
                 image.loading = "lazy";
-                image.src = `./images/${encodeURIComponent(name)}.png`;
+                image.src = `./${metadataByName.get(name).imageAsset}`;
                 image.alt = "";
                 label.textContent = name;
                 link.append(image, label);
@@ -201,8 +203,15 @@
               sameImageList.replaceChildren(...sameImageItems);
               sameImageSection.hidden = false;
             }
+            iconImage.src = iconSource;
+            smallIconImage.src = iconSource;
           })
-          .catch((error) => console.error("Icon metadata could not be loaded", error));
+          .catch((error) => {
+            console.error("Icon metadata could not be loaded", error);
+            const iconSource = `./images/${encodeURIComponent(iconName)}.png`;
+            iconImage.src = iconSource;
+            smallIconImage.src = iconSource;
+          });
         const handleIconError = () => {
           iconImage.hidden = true;
           smallIconImage.hidden = true;
@@ -217,8 +226,6 @@
         iconImage.addEventListener("load", () => {
           downloadButton.disabled = false;
         });
-        iconImage.src = iconSource;
-        smallIconImage.src = iconSource;
       } else {
         errorMessage.textContent = "Choose an icon from the gallery to view it here.";
         errorMessage.hidden = false;
