@@ -102,6 +102,7 @@ test("generates, edits, and marks one shared-image description reviewed in track
   await expect(page.locator("#icon-position")).not.toHaveText("Loading icons");
   await expect(page.getByRole("heading", { level: 2 }).first()).toHaveText("_0");
   await expect(page.locator("#review-status")).toHaveText("");
+  await expect(page.locator("#review-status")).toBeHidden();
   await expect(page.locator(".review-header #draft-count")).toHaveText("No local drafts yet");
   await expect(page.getByText("Ollama is ready", { exact: false })).toHaveCount(0);
   await expect(page.getByText("Generate a local model draft, inspect the icon, then edit and mark the description reviewed.")).toHaveCount(0);

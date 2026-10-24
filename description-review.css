@@ -234,6 +234,10 @@
   font-size: 0.9rem;
 }
 
+.review-status:empty {
+  display: none;
+}
+
 .review-status[data-kind="error"] {
   color: var(--danger-color);
 }

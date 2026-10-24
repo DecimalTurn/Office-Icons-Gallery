@@ -270,6 +270,10 @@
   font-size: 0.82rem;
 }
 
+.list-feedback:empty {
+  display: none;
+}
+
 .list-feedback[data-kind="error"] {
   color: var(--danger-color);
 }

@@ -51,6 +51,7 @@ test("creates saved lists and appends selected icons and IDs in the review page"
   await page.goto("/description-review.html#reference-lists");
   await expect(page.locator("#icon-position")).not.toHaveText("Loading icons");
   await expect(page.locator("#reference-list-status")).toHaveText("");
+  await expect(page.locator("#list-feedback")).toBeHidden();
   const listPrecedesControls = await page.locator("#reference-icon-list").evaluate((iconList) => {
     const controls = ["#create-list-form", "#saved-reference-lists", ".reference-add-controls", "#delete-list"];
     return controls.every((selector) => iconList.compareDocumentPosition(document.querySelector(selector)) & Node.DOCUMENT_POSITION_FOLLOWING);
