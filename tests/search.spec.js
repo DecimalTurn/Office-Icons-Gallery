@@ -127,6 +127,20 @@ test("excludes placeholder images and preserves the filter after reload", async 
   await expect(page.locator(".mso-list li span")).toHaveText(expectedResults.firstPageNames);
 });
 
+test("explains placeholder images beside the exclude filter", async ({ page }) => {
+  await page.goto("/index.html");
+
+  const infoButton = page.getByRole("button", { name: "About placeholder images" });
+  const tooltip = page.getByRole("tooltip");
+
+  await infoButton.hover();
+  await expect(tooltip).toBeVisible();
+  await expect(tooltip).toContainText("Some idMso values return an orange-circle placeholder");
+
+  await infoButton.focus();
+  await expect(tooltip).toBeVisible();
+});
+
 test("search suggestions match the input and remain usable when resized", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
   await page.goto("/");
