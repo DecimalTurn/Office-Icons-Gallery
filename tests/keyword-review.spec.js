@@ -38,17 +38,34 @@ test("edits separate keywords and confirms them with required icon-name words", 
   const renderedRows = await keywordRows.evaluateAll((rows) => rows.map((row) => ({
     value: row.querySelector("input").value,
     readOnly: row.querySelector("input").readOnly,
+    requiredClass: row.querySelector("input").classList.contains("keyword-required"),
     removeDisabled: row.querySelector("button").disabled
   })));
   for (const word of required) {
     const row = renderedRows.find((entry) => entry.value === word);
     expect(row, `required keyword ${word}`).toBeTruthy();
     expect(row.readOnly).toBe(true);
+    expect(row.requiredClass).toBe(true);
     expect(row.removeDisabled).toBe(true);
   }
-
   await page.getByRole("button", { name: "Add keyword" }).click();
   await page.locator(".keyword-row input").last().fill("temporary term");
+  const backgrounds = await page.evaluate(() => {
+    const requiredInput = document.querySelector("input.keyword-required");
+    const editableInput = document.querySelector(".keyword-row input:not(.keyword-required)");
+    const colors = {};
+    for (const theme of ["light", "dark"]) {
+      document.documentElement.dataset.theme = theme;
+      colors[theme] = {
+        required: getComputedStyle(requiredInput).backgroundColor,
+        editable: getComputedStyle(editableInput).backgroundColor
+      };
+    }
+    return colors;
+  });
+  expect(backgrounds.light.required).not.toBe(backgrounds.light.editable);
+  expect(backgrounds.dark.required).not.toBe(backgrounds.dark.editable);
+
   await page.getByRole("button", { name: "Add keyword" }).click();
   await page.locator(".keyword-row input").last().fill(" Blue Pigment ");
   await page.getByRole("button", { name: "Remove keyword temporary term" }).click();

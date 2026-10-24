@@ -85,6 +85,7 @@
     input.spellcheck = false;
     input.value = keyword;
     input.readOnly = required;
+    input.classList.toggle("keyword-required", required);
     input.setAttribute("aria-label", `Keyword ${index + 1}`);
     input.title = required ? "Required because it appears in the icon ID" : "Edit keyword";
     remove.type = "button";

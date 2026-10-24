@@ -4,6 +4,7 @@
   --page-foreground: #202321;
   --surface-background: #ffffff;
   --control-background: #f4f5f3;
+  --required-keyword-background: #e3efeb;
   --border-color: #d6dad7;
   --muted-foreground: #5a625d;
   --accent-color: #245b57;
@@ -19,6 +20,7 @@
   --page-foreground: #eceeeb;
   --surface-background: #242926;
   --control-background: #202522;
+  --required-keyword-background: #30423b;
   --border-color: #48514b;
   --muted-foreground: #bac2bc;
   --accent-color: #96cfc5;
@@ -35,6 +37,7 @@
     --page-foreground: #eceeeb;
     --surface-background: #242926;
     --control-background: #202522;
+    --required-keyword-background: #30423b;
     --border-color: #48514b;
     --muted-foreground: #bac2bc;
     --accent-color: #96cfc5;

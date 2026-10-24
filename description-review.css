@@ -358,8 +358,11 @@
 }
 
 .keyword-row input[readonly] {
-  background: var(--control-background);
   color: var(--muted-foreground);
+}
+
+.keyword-row input.keyword-required {
+  background: var(--required-keyword-background);
 }
 
 .keyword-remove-button {
