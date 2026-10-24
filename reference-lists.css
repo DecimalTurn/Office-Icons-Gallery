@@ -4,37 +4,34 @@
   padding-top: 24px;
 }
 
-.reference-header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  border-bottom: 1px solid var(--border-color);
-  padding-bottom: 14px;
-}
-
 .reference-icon-id {
   color: var(--accent-color);
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 }
 
-.reference-header h2 {
-  margin: 0;
-  font-size: 1.35rem;
-  font-weight: 650;
+.reference-list-status:empty {
+  display: none;
 }
 
-.reference-header p {
-  min-height: 1.5em;
-  margin: 5px 0 0;
+.reference-list-status:not(:empty) {
+  margin: 0 0 10px;
   color: var(--muted-foreground);
+}
+
+.reference-selected-list {
+  margin-top: 18px;
+}
+
+.reference-selected-list .reference-list-heading {
+  margin-bottom: 10px;
 }
 
 .create-list-form {
   display: flex;
   align-items: flex-end;
   gap: 12px;
-  margin: 20px 0 24px;
+  margin: 26px 0 24px;
 }
 
 .create-list-form label,
@@ -106,6 +103,7 @@
 
 .saved-reference-lists {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 3px;
   margin: 10px 0 0;
   padding: 0;
@@ -185,6 +183,12 @@
   font: inherit;
   font-size: 1.05rem;
   cursor: pointer;
+}
+
+.reference-list-management {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 12px;
 }
 
 .reference-add-controls {
@@ -276,6 +280,10 @@
 }
 
 .reference-icon-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 12px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -283,23 +291,27 @@
 
 .reference-icon-item {
   display: grid;
-  grid-template-columns: 42px minmax(0, 1fr) 36px;
-  align-items: center;
-  gap: 13px;
-  min-height: 76px;
-  border-bottom: 1px solid var(--border-color);
-  padding: 12px 0;
+  grid-template-columns: minmax(0, 1fr) 34px;
+  grid-template-rows: 52px minmax(0, 1fr);
+  align-items: start;
+  gap: 8px 10px;
+  min-width: 0;
+  min-height: 148px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 12px;
 }
 
 .reference-icon-item img {
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
   object-fit: contain;
   image-rendering: pixelated;
 }
 
 .reference-icon-copy {
   min-width: 0;
+  grid-column: 1 / -1;
 }
 
 .reference-icon-id {
@@ -319,6 +331,8 @@
   display: inline-grid;
   width: 34px;
   height: 34px;
+  grid-column: 2;
+  grid-row: 1;
   place-items: center;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -352,6 +366,10 @@
     gap: 24px;
   }
 
+  .reference-icon-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .create-list-form {
     align-items: stretch;
     flex-direction: column;
@@ -366,23 +384,11 @@
     align-content: stretch;
   }
 
-  .reference-icon-item {
-    grid-template-columns: 38px minmax(0, 1fr) 34px;
-    gap: 10px;
-  }
+}
 
-  .reference-icon-item img {
-    width: 36px;
-    height: 36px;
-  }
-
-  .reference-icon-copy {
-    grid-column: 2;
-  }
-
-  .reference-remove-button {
-    grid-column: 3;
-    grid-row: 1;
+@media (max-width: 460px) {
+  .reference-icon-list {
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 

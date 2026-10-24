@@ -13,7 +13,7 @@
 
 .review-header {
   border-bottom: 1px solid var(--border-color);
-  padding-bottom: 22px;
+  padding-bottom: 12px;
 }
 
 .review-back,
@@ -36,13 +36,13 @@
 }
 
 .review-heading-row {
-  margin-top: 20px;
+  margin-top: 8px;
   align-items: flex-end;
 }
 
 .review-heading-row h1 {
   margin: 0;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   line-height: 1.15;
 }
 
@@ -518,7 +518,7 @@
 @media (max-width: 760px) {
   .review-shell {
     width: min(100% - 32px, 560px);
-    padding-top: 72px;
+    padding-top: 64px;
   }
 
   .review-heading-row,
@@ -528,7 +528,11 @@
   }
 
   .review-heading-row {
-    gap: 14px;
+    gap: 6px;
+  }
+
+  .review-heading-row h1 {
+    font-size: 1.55rem;
   }
 
   .review-icon-picker,

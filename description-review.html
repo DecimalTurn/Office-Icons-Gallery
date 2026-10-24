@@ -103,13 +103,20 @@
         </div>
       </section>
 
-      <section id="reference-lists" class="reference-lists-section" aria-labelledby="reference-lists-heading">
-        <header class="reference-header">
-          <div>
-            <h2 id="reference-lists-heading">Icon reference lists</h2>
-            <p id="reference-list-status" aria-live="polite">Loading saved lists…</p>
-          </div>
-        </header>
+      <section id="reference-lists" class="reference-lists-section" aria-label="Icon reference lists">
+        <p id="reference-list-status" class="reference-list-status" aria-live="polite">Loading saved lists…</p>
+
+        <section class="reference-selected-list" aria-label="Current reference list">
+          <header class="reference-list-heading">
+            <div>
+              <p class="reference-eyebrow">CURRENT LIST</p>
+              <h3 id="active-list-name">Choose or create a list</h3>
+            </div>
+            <span id="active-list-size">0 icons</span>
+          </header>
+          <p id="empty-list-message" class="empty-list-message" hidden>This list is empty.</p>
+          <ol id="reference-icon-list" class="reference-icon-list"></ol>
+        </section>
 
         <form id="create-list-form" class="create-list-form">
           <label for="new-list-name">List name / tag</label>
@@ -128,18 +135,10 @@
             <ul id="saved-reference-lists" class="saved-reference-lists"></ul>
           </aside>
 
-          <section class="reference-content" aria-label="Selected reference list">
-            <header class="reference-list-heading">
-              <div>
-                <p class="reference-eyebrow">CURRENT LIST</p>
-                <h3 id="active-list-name">Choose or create a list</h3>
-              </div>
-              <div class="reference-list-actions">
-                <span id="active-list-size">0 icons</span>
-                <button id="delete-list" class="reference-icon-button" type="button" aria-label="Delete current list" title="Delete current list" hidden>&#128465;</button>
-              </div>
-            </header>
-
+          <section class="reference-content" aria-label="Reference list controls">
+            <div class="reference-list-management">
+              <button id="delete-list" class="reference-icon-button" type="button" aria-label="Delete current list" title="Delete current list" hidden>&#128465;</button>
+            </div>
             <div class="reference-add-controls">
               <div class="reference-current-add">
                 <span class="reference-current-label">Selected icon: <strong id="reference-current-icon">Choose an icon above</strong></span>
@@ -155,8 +154,6 @@
             </div>
 
             <p id="list-feedback" class="list-feedback" aria-live="polite"></p>
-            <p id="empty-list-message" class="empty-list-message" hidden>This list is empty.</p>
-            <ol id="reference-icon-list" class="reference-icon-list"></ol>
           </section>
         </div>
       </section>
