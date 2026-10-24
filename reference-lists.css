@@ -1,0 +1,414 @@
+.reference-lists-section {
+  margin-top: 34px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 24px;
+}
+
+.reference-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 14px;
+}
+
+.reference-icon-id {
+  color: var(--accent-color);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.reference-header h2 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 650;
+}
+
+.reference-header p {
+  min-height: 1.5em;
+  margin: 5px 0 0;
+  color: var(--muted-foreground);
+}
+
+.create-list-form {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  margin: 20px 0 24px;
+}
+
+.create-list-form label,
+.reference-add-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--muted-foreground);
+  font-size: 0.82rem;
+  font-weight: 650;
+}
+
+.reference-create-control {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+}
+
+.reference-create-control input,
+.reference-input-row input {
+  min-width: 0;
+  min-height: 40px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--surface-background);
+  color: var(--page-foreground);
+  font: inherit;
+  padding: 7px 10px;
+}
+
+.reference-create-control input {
+  flex: 1;
+}
+
+.reference-layout {
+  display: grid;
+  grid-template-columns: minmax(210px, 270px) minmax(0, 1fr);
+  gap: 36px;
+  align-items: start;
+}
+
+.reference-sidebar {
+  border-top: 3px solid #b36b3e;
+  padding-top: 12px;
+}
+
+.reference-section-heading,
+.reference-list-heading,
+.reference-list-actions,
+.reference-input-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.reference-section-heading h3,
+.reference-list-heading h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 650;
+}
+
+#saved-list-count,
+#active-list-size {
+  color: var(--muted-foreground);
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.saved-reference-lists {
+  display: grid;
+  gap: 3px;
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.saved-reference-lists button {
+  display: flex;
+  width: 100%;
+  min-height: 42px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: 0;
+  border-left: 3px solid transparent;
+  background: transparent;
+  color: var(--page-foreground);
+  font: inherit;
+  text-align: left;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.saved-reference-lists button:hover {
+  background: var(--control-background);
+}
+
+.saved-reference-lists button[aria-current="true"] {
+  border-left-color: var(--accent-color);
+  background: var(--control-background);
+  font-weight: 650;
+}
+
+.saved-list-name {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.saved-list-size {
+  flex: 0 0 auto;
+  color: var(--muted-foreground);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.reference-content {
+  min-width: 0;
+  border-top: 3px solid var(--accent-color);
+  padding-top: 12px;
+}
+
+.reference-list-heading {
+  min-height: 40px;
+  margin-bottom: 16px;
+}
+
+.reference-eyebrow {
+  margin: 0 0 3px;
+  color: var(--muted-foreground);
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.reference-list-heading h3 {
+  overflow-wrap: anywhere;
+}
+
+.reference-icon-button {
+  display: inline-grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--surface-background);
+  color: var(--danger-color);
+  font: inherit;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+
+.reference-add-controls {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 17px;
+}
+
+.reference-current-add {
+  display: grid;
+  align-content: end;
+  gap: 5px;
+  min-width: 0;
+}
+
+.reference-current-label {
+  min-height: 1.1em;
+  color: var(--muted-foreground);
+  font-size: 0.82rem;
+  overflow-wrap: anywhere;
+}
+
+.reference-current-label strong {
+  color: var(--page-foreground);
+  font-weight: 600;
+}
+
+.reference-add-form {
+  min-width: 0;
+}
+
+.reference-input-row input {
+  flex: 1;
+  width: 100%;
+}
+
+.reference-button {
+  min-height: 40px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--surface-background);
+  color: var(--page-foreground);
+  font: inherit;
+  font-size: 0.84rem;
+  padding: 7px 12px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.reference-button:hover:not(:disabled),
+.reference-icon-button:hover:not(:disabled) {
+  border-color: var(--accent-color);
+}
+
+.reference-button-primary {
+  border-color: #245b57;
+  background: #245b57;
+  color: #fff;
+}
+
+:root[data-theme="dark"] .reference-button-primary {
+  border-color: #96cfc5;
+  background: #96cfc5;
+  color: #171a18;
+}
+
+.reference-button:disabled,
+.reference-icon-button:disabled {
+  opacity: 0.48;
+  cursor: not-allowed;
+}
+
+.list-feedback {
+  min-height: 1.5em;
+  margin: 9px 0 0;
+  color: var(--muted-foreground);
+  font-size: 0.82rem;
+}
+
+.list-feedback[data-kind="error"] {
+  color: var(--danger-color);
+}
+
+.empty-list-message {
+  margin: 18px 0;
+  color: var(--muted-foreground);
+}
+
+.reference-icon-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reference-icon-item {
+  display: grid;
+  grid-template-columns: 42px minmax(60px, auto) 52px minmax(0, 1fr) 36px;
+  align-items: center;
+  gap: 13px;
+  min-height: 76px;
+  border-bottom: 1px solid var(--border-color);
+  padding: 12px 0;
+}
+
+.reference-icon-item img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.reference-position {
+  color: var(--muted-foreground);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.reference-icon-copy {
+  min-width: 0;
+}
+
+.reference-icon-id {
+  display: inline-block;
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
+
+.reference-icon-description {
+  margin: 3px 0 0;
+  color: var(--muted-foreground);
+  font-size: 0.87rem;
+  overflow-wrap: anywhere;
+}
+
+.reference-remove-button {
+  display: inline-grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--muted-foreground);
+  font: inherit;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.reference-remove-button:hover {
+  border-color: var(--danger-color);
+  color: var(--danger-color);
+}
+
+.reference-local-note {
+  margin: 12px 0 0;
+  color: var(--muted-foreground);
+  font-size: 0.84rem;
+}
+
+.reference-lists-section button:focus-visible,
+.reference-lists-section input:focus-visible,
+.reference-icon-id:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.reference-button[hidden],
+.reference-icon-button[hidden] {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .reference-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .create-list-form {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .reference-add-controls {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .reference-current-add {
+    align-content: stretch;
+  }
+
+  .reference-icon-item {
+    grid-template-columns: 38px minmax(0, 1fr) 34px;
+    gap: 10px;
+  }
+
+  .reference-icon-item img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .reference-position {
+    display: none;
+  }
+
+  .reference-icon-copy {
+    grid-column: 2;
+  }
+
+  .reference-remove-button {
+    grid-column: 3;
+    grid-row: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reference-icon-item {
+    animation: reference-item-enter 180ms ease-out both;
+  }
+
+  @keyframes reference-item-enter {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}

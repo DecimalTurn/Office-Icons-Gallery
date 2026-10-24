@@ -118,6 +118,9 @@
     const requestNumber = ++state.requestNumber;
     state.currentIcon = icon;
     state.position = position;
+    window.dispatchEvent(new CustomEvent("description-review-icon-selected", {
+      detail: { iconId: icon.name }
+    }));
     elements.iconName.textContent = icon.name;
     elements.iconImage.src = `./images/${encodeURIComponent(icon.name)}.png`;
     elements.iconImage.alt = icon.name;

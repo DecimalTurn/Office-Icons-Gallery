@@ -8,6 +8,7 @@ const port = Number(process.env.PORT || process.argv[2] || 8000);
 const metadataPath = path.join(root, "icon-metadata.json");
 const descriptionsPath = path.join(root, "icon-descriptions.json");
 const reviewStatusPath = path.join(root, "icon-review-status.json");
+const referenceListsPath = path.join(root, ".reference-icon-lists.json");
 const metadata = JSON.parse(fs.readFileSync(metadataPath, "utf8"));
 const descriptions = JSON.parse(fs.readFileSync(descriptionsPath, "utf8"));
 const reviewStatus = JSON.parse(fs.readFileSync(reviewStatusPath, "utf8"));
@@ -60,6 +61,53 @@ function readDraftStore() {
   }
 }
 
+function readReferenceLists() {
+  try {
+    const value = JSON.parse(fs.readFileSync(referenceListsPath, "utf8"));
+    return Array.isArray(value.lists) ? value.lists : [];
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return [];
+    }
+    throw error;
+  }
+}
+
+function validateReferenceLists(value) {
+  if (!Array.isArray(value) || value.length > 50) {
+    throw new Error("Provide no more than 50 reference lists");
+  }
+
+  const listIds = new Set();
+  const listNames = new Set();
+  return value.map((list) => {
+    const id = typeof list?.id === "string" ? list.id.trim() : "";
+    const name = typeof list?.name === "string" ? list.name.trim() : "";
+    if (!/^[A-Za-z0-9_-]{1,80}$/.test(id) || !name || name.length > 60 || !Array.isArray(list.iconIds) || list.iconIds.length > 500) {
+      throw new Error("Each list needs a valid ID, a name of 1 to 60 characters, and no more than 500 icons");
+    }
+    const normalizedName = name.toLocaleLowerCase("en");
+    if (listIds.has(id) || listNames.has(normalizedName)) {
+      throw new Error("Reference list IDs and names must be unique");
+    }
+    listIds.add(id);
+    listNames.add(normalizedName);
+
+    const iconIds = [];
+    const seenIconIds = new Set();
+    for (const iconId of list.iconIds) {
+      if (typeof iconId !== "string" || !metadataByName.has(iconId)) {
+        throw new Error(`Unknown icon ID: ${String(iconId)}`);
+      }
+      if (!seenIconIds.has(iconId)) {
+        iconIds.push(iconId);
+        seenIconIds.add(iconId);
+      }
+    }
+    return { id, name, iconIds };
+  });
+}
+
 function writeJsonFile(filePath, value) {
   const temporaryPath = `${filePath}.tmp`;
   fs.writeFileSync(temporaryPath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
@@ -92,6 +140,34 @@ function validModelName(model) {
 
 async function handleDescriptionReviewApi(request, response, requestUrl) {
   const { pathname, searchParams } = requestUrl;
+
+  if (pathname === "/api/reference-lists" && request.method === "GET") {
+    try {
+      sendJson(response, 200, { lists: readReferenceLists() });
+    } catch {
+      sendJson(response, 500, { error: "Could not read local reference lists" });
+    }
+    return;
+  }
+
+  if (pathname === "/api/reference-lists" && request.method === "PUT") {
+    let body;
+    try {
+      body = await readJsonBody(request, 1_000_000);
+    } catch (error) {
+      sendJson(response, 400, { error: error.message === "Request body is too large" ? error.message : "Request must contain valid JSON" });
+      return;
+    }
+
+    try {
+      const lists = validateReferenceLists(body.lists);
+      writeJsonFile(referenceListsPath, { lists });
+      sendJson(response, 200, { lists });
+    } catch (error) {
+      sendJson(response, 400, { error: error.message || "Could not save local reference lists" });
+    }
+    return;
+  }
 
   if (pathname === "/api/description-review/models" && request.method === "GET") {
     try {
@@ -307,6 +383,11 @@ async function handleDescriptionReviewApi(request, response, requestUrl) {
 
   if (pathname.startsWith("/api/description-review/")) {
     sendJson(response, 404, { error: "Review API route not found" });
+    return;
+  }
+
+  if (pathname.startsWith("/api/reference-lists")) {
+    sendJson(response, 404, { error: "Reference list API route not found" });
     return;
   }
 

@@ -118,13 +118,13 @@ test("excludes placeholder images and preserves the filter after reload", async 
   await expect(page).toHaveURL(/ExcludePlaceholders=1$/);
   await expect(excludePlaceholders).toBeChecked();
   await expect(page.locator("#search-result-count")).toHaveText(expectedResults.count);
-  await expect(page.locator(".mso-list li span")).toHaveText(expectedResults.firstPageNames);
+  await expect(page.locator(".mso-list li span:not(.icon-catalog-position)")).toHaveText(expectedResults.firstPageNames);
 
   await page.reload();
 
   await expect(excludePlaceholders).toBeChecked();
   await expect(page.locator("#search-result-count")).toHaveText(expectedResults.count);
-  await expect(page.locator(".mso-list li span")).toHaveText(expectedResults.firstPageNames);
+  await expect(page.locator(".mso-list li span:not(.icon-catalog-position)")).toHaveText(expectedResults.firstPageNames);
 });
 
 test("explains placeholder images beside the exclude filter", async ({ page }) => {

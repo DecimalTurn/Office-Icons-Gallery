@@ -174,12 +174,46 @@ body:not(.icon-detail-page) > h1 {
   min-width: 0;
 }
 
+.icon-catalog-position {
+  flex: 0 0 3.7rem;
+  color: var(--muted-foreground);
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
 .icon-count {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem 1.25rem;
   margin: 16px 0 0;
   color: var(--muted-foreground);
+}
+
+.gallery-workflow-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 18px;
+}
+
+.gallery-workflow-links a {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--surface-background);
+  color: var(--accent-color);
+  font-size: 0.86rem;
+  font-weight: 600;
+  padding: 6px 11px;
+  text-decoration: none;
+}
+
+.gallery-workflow-links a:hover {
+  border-color: var(--accent-color);
+  background: var(--control-background);
 }
 
 #icon-count,

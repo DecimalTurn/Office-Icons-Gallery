@@ -8,7 +8,9 @@
     <script src="./theme.js" type="text/javascript"></script>
     <link href="./style.css" rel="stylesheet" type="text/css" />
     <link href="./description-review.css" rel="stylesheet" type="text/css" />
+    <link href="./reference-lists.css" rel="stylesheet" type="text/css" />
     <script src="./description-review.js" defer></script>
+    <script src="./reference-lists.js" defer></script>
   </head>
   <body class="description-review-page">
     <a class="github-link" href="https://github.com/DecimalTurn/Office-Icons-Gallery" target="_blank" rel="noopener noreferrer" aria-label="View Office Icon Gallery on GitHub" title="View on GitHub">
@@ -34,7 +36,7 @@
 
       <section class="review-toolbar" aria-label="Icon selection and model settings">
         <div class="review-icon-picker">
-          <label for="icon-search">Icon ID</label>
+          <label for="icon-search">Search icon ID</label>
           <input id="icon-search" type="search" autocomplete="off" placeholder="Search icon IDs" aria-controls="icon-results" aria-expanded="false" />
           <div id="icon-results" class="icon-results" role="listbox" hidden></div>
         </div>
@@ -96,6 +98,72 @@
           </div>
           <p class="review-local-note">Save Draft stays local. Mark Reviewed updates the tracked description for every identical image ID.</p>
         </div>
+      </section>
+
+      <section id="reference-lists" class="reference-lists-section" aria-labelledby="reference-lists-heading">
+        <header class="reference-header">
+          <div>
+            <h2 id="reference-lists-heading">Icon reference lists</h2>
+            <p id="reference-list-status" aria-live="polite">Loading saved lists…</p>
+          </div>
+        </header>
+
+        <form id="create-list-form" class="create-list-form">
+          <label for="new-list-name">List name / tag</label>
+          <div class="reference-create-control">
+            <input id="new-list-name" type="text" maxlength="60" required placeholder="For example, ribbon cleanup" />
+            <button class="reference-button reference-button-primary" type="submit">Create list</button>
+          </div>
+        </form>
+
+        <div class="reference-layout">
+          <aside class="reference-sidebar" aria-labelledby="saved-lists-heading">
+            <div class="reference-section-heading">
+              <h3 id="saved-lists-heading">Saved lists</h3>
+              <span id="saved-list-count">0</span>
+            </div>
+            <ul id="saved-reference-lists" class="saved-reference-lists"></ul>
+          </aside>
+
+          <section class="reference-content" aria-label="Selected reference list">
+            <header class="reference-list-heading">
+              <div>
+                <p class="reference-eyebrow">CURRENT LIST</p>
+                <h3 id="active-list-name">Choose or create a list</h3>
+              </div>
+              <div class="reference-list-actions">
+                <span id="active-list-size">0 icons</span>
+                <button id="delete-list" class="reference-icon-button" type="button" aria-label="Delete current list" title="Delete current list" hidden>&#128465;</button>
+              </div>
+            </header>
+
+            <div class="reference-add-controls">
+              <div class="reference-current-add">
+                <span class="reference-current-label">Selected icon: <strong id="reference-current-icon">Choose an icon above</strong></span>
+                <button id="add-current-icon" class="reference-button" type="button" disabled>Add selected icon</button>
+              </div>
+              <form id="add-position-form" class="reference-add-form">
+                <label for="catalog-position">Catalog position (# in gallery)</label>
+                <div class="reference-input-row">
+                  <input id="catalog-position" type="number" min="1" step="1" inputmode="numeric" placeholder="1" required disabled />
+                  <button class="reference-button" type="submit" disabled>Add position</button>
+                </div>
+              </form>
+              <form id="add-id-form" class="reference-add-form">
+                <label for="icon-id-input">Icon ID to add</label>
+                <div class="reference-input-row">
+                  <input id="icon-id-input" type="text" autocomplete="off" spellcheck="false" placeholder="ChartFormatSelection" required disabled />
+                  <button class="reference-button" type="submit" disabled>Add ID</button>
+                </div>
+              </form>
+            </div>
+
+            <p id="list-feedback" class="list-feedback" aria-live="polite"></p>
+            <p id="empty-list-message" class="empty-list-message" hidden>This list is empty.</p>
+            <ol id="reference-icon-list" class="reference-icon-list"></ol>
+          </section>
+        </div>
+        <p class="reference-local-note">Lists are saved locally on this machine.</p>
       </section>
 
       <footer class="review-footer">

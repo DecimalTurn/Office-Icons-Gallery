@@ -32,6 +32,10 @@
         </span>
       </span>
     </p>
+    <nav class="gallery-workflow-links" aria-label="Icon tools">
+      <a href="./description-review.html#reference-lists">Icon reference lists</a>
+      <a href="./description-review.html">Description review</a>
+    </nav>
     <div class="mso-filter">
       <form>
         <label for="mso-search">Search</label>
@@ -76,6 +80,7 @@
       const iconCount = document.getElementById("icon-count");
       const uniqueIconCount = document.getElementById("unique-icon-count");
       const searchResultCount = document.getElementById("search-result-count");
+      const catalogPositionByName = new Map();
       const urlSearchParams = new URLSearchParams(window.location.search);
       const searchQuery = urlSearchParams.get(searchInput.name)?.trim() || "";
       const requestedPage = Number.parseInt(new URLSearchParams(window.location.search).get("Page") || "", 10);
@@ -172,6 +177,7 @@
         const end = Math.min(start + pageSize, icons.length);
         const pageIcons = icons.slice(start, end).map((icon) => {
           const item = document.createElement("li");
+          const position = document.createElement("span");
           const image = document.createElement("img");
           const link = document.createElement("a");
           const label = document.createElement("span");
@@ -180,11 +186,14 @@
           image.title = icon.name;
           image.alt = icon.name;
           image.src = `./${icon.imageAsset}`;
+          position.className = "icon-catalog-position";
+          position.textContent = `#${catalogPositionByName.get(icon.name).toLocaleString()}`;
+          position.title = "Position in the full alphabetical catalog";
           link.className = "icon-link";
           link.href = iconPageUrl(icon.name);
           link.appendChild(image);
           label.textContent = icon.name;
-          item.append(link, label);
+          item.append(position, link, label);
           return item;
         });
         iconList.replaceChildren(...pageIcons);
@@ -279,6 +288,7 @@
           }
 
           const metadata = await response.json();
+          metadata.forEach((icon, index) => catalogPositionByName.set(icon.name, index + 1));
           icons = metadata.filter((icon) => matchesFilters(icon, searchQuery));
           iconCount.textContent = metadata.length.toLocaleString();
           const uniqueImages = new Set(metadata.map((icon) => icon.imageAsset));

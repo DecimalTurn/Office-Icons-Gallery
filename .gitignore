@@ -5,3 +5,5 @@ playwright-report/
 .description-contact-sheet.html
 .description-review-drafts.json
 .description-review-drafts.json.tmp
+.reference-icon-lists.json
+.reference-icon-lists.json.tmp

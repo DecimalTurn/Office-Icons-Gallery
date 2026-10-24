@@ -108,11 +108,12 @@ test("generates, edits, and marks one shared-image description reviewed in track
   await expect(page.locator("#icon-position")).toHaveText(`1 of ${uniqueImageCount}`);
   await expect(page.getByRole("heading", { level: 2 }).first()).toHaveText("_0");
 
-  const iconSearch = page.getByLabel("Icon ID");
+  const iconSearch = page.getByLabel("Search icon ID");
   await iconSearch.fill("ChartFormatSelection");
   const sharedImageOption = page.getByRole("option", { name: "ChartFormatSelection" });
   await expect(sharedImageOption).toHaveCount(1);
   await sharedImageOption.click();
+  await expect(page.locator("#reference-current-icon")).toHaveText("_3DBevelOptionsDialog");
   const reviewState = page.locator(".review-editor-panel #review-state");
   await expect(reviewState).toHaveText("Not reviewed");
   await expect(reviewState).toHaveAttribute("data-state", "not-reviewed");
@@ -228,7 +229,7 @@ test("saves a draft locally without changing tracked descriptions", async ({ pag
   await page.goto("/description-review.html");
   await expect(page.getByText("Ollama is ready. Found 1 local model.")).toBeVisible();
 
-  const iconSearch = page.getByLabel("Icon ID");
+  const iconSearch = page.getByLabel("Search icon ID");
   await iconSearch.fill("ChartFormatSelection");
   await page.getByRole("option", { name: "ChartFormatSelection" }).click();
   const editor = page.getByRole("textbox", { name: "Editable icon description" });
