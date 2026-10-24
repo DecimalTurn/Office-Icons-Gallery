@@ -102,11 +102,16 @@
     row.append(input, remove);
     if (!required) {
       input.classList.add("awesomplete");
-      new Awesomplete(input, {
+      const autocomplete = new Awesomplete(input, {
         list: state.keywordSuggestions,
         minChars: 1,
         maxItems: 8,
         autoFirst: true
+      });
+      input.addEventListener("keydown", (event) => {
+        if (event.key === "Tab" && autocomplete.opened && autocomplete.selected) {
+          autocomplete.select();
+        }
       });
     }
     return row;

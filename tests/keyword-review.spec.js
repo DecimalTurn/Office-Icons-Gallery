@@ -91,6 +91,8 @@ test("edits separate keywords and confirms them with required icon-name words", 
   const keywordSuggestions = page.locator(".keyword-editor .keyword-row .awesomplete > ul:not([hidden])");
   await expect(keywordSuggestions).toBeVisible();
   await expect(keywordSuggestions).toContainText("bevel");
+  await temporaryInput.press("Tab");
+  await expect(temporaryInput).toHaveValue("bevel");
   await temporaryInput.fill("temporary term");
   const backgrounds = await page.evaluate(() => {
     const requiredInput = document.querySelector("input.keyword-from-name");
