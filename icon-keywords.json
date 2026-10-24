@@ -3,5 +3,11 @@
     "0",
     "number",
     "zero"
+  ],
+  "_0PercentComplete": [
+    "0",
+    "complete",
+    "percent",
+    "progressbar"
   ]
 }
