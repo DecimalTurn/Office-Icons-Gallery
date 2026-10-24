@@ -120,6 +120,17 @@ test("generates, edits, and marks one shared-image description reviewed in track
   await expect(page.getByText("Existing reviewed wording")).toBeVisible();
   await expect(page.getByText(/Same image IDs using this shared description:/)).toContainText("_3DBevelOptionsDialog");
 
+  const markReviewedButton = page.getByRole("button", { name: "Mark reviewed" });
+  await expect.poll(() => markReviewedButton.evaluate((button) => getComputedStyle(button).backgroundColor))
+    .toBe("rgb(46, 112, 71)");
+  await markReviewedButton.hover();
+  const hoverTransform = await markReviewedButton.evaluate((button) => getComputedStyle(button).transform);
+  await page.mouse.down();
+  await expect.poll(() => markReviewedButton.evaluate((button) => getComputedStyle(button).transform))
+    .not.toBe(hoverTransform);
+  await page.mouse.move(0, 0);
+  await page.mouse.up();
+
   await page.getByRole("button", { name: "Generate draft" }).click();
   const editor = page.getByRole("textbox", { name: "Editable icon description" });
   await expect(editor).toHaveValue(suggestion);

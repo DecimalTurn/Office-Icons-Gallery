@@ -422,13 +422,55 @@
 }
 
 .review-button-approved {
-  border-color: #42734a;
-  color: #285a30;
+  border-color: #2e7047;
+  background: #2e7047;
+  color: #fff;
+  box-shadow: 0 2px 0 #1f4e32, 0 5px 12px rgb(37 91 55 / 16%);
+  transition: transform 140ms ease, box-shadow 140ms ease, background-color 140ms ease;
+}
+
+.review-button-approved:hover {
+  border-color: #245a39;
+  background: #245a39;
+  box-shadow: 0 3px 0 #1f4e32, 0 7px 15px rgb(37 91 55 / 22%);
+  transform: translateY(-1px);
+}
+
+.review-button-approved:active {
+  border-color: #1f5033;
+  background: #1f5033;
+  box-shadow: 0 0 0 4px rgb(46 112 71 / 22%);
+  transform: translateY(1px) scale(0.98);
+}
+
+.review-button-approved:focus-visible {
+  outline: 3px solid #7eae79;
+  outline-offset: 3px;
 }
 
 :root[data-theme="dark"] .review-button-approved {
-  border-color: #8fc694;
-  color: #b7e0ba;
+  border-color: #9fd6a8;
+  background: #9fd6a8;
+  color: #122419;
+  box-shadow: 0 2px 0 #5a9163, 0 5px 12px rgb(0 0 0 / 20%);
+}
+
+:root[data-theme="dark"] .review-button-approved:hover {
+  border-color: #b3e3bb;
+  background: #b3e3bb;
+  box-shadow: 0 3px 0 #5a9163, 0 7px 15px rgb(0 0 0 / 26%);
+}
+
+:root[data-theme="dark"] .review-button-approved:active {
+  border-color: #89c593;
+  background: #89c593;
+  box-shadow: 0 0 0 4px rgb(159 214 168 / 24%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .review-button-approved {
+    transition: none;
+  }
 }
 
 .review-local-note {
