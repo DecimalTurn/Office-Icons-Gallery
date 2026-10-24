@@ -7,9 +7,7 @@
     "start": "node scripts/serve.js",
     "test": "pnpm run test:search",
     "test:search": "playwright test",
-    "test:description-review": "playwright test tests/description-review.spec.js --workers=1",
-    "descriptions:candidates": "node scripts/description-workflow.js candidates",
-    "descriptions:contact-sheet": "node scripts/description-workflow.js contact-sheet"
+    "test:keyword-review": "playwright test tests/keyword-review.spec.js --workers=1"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.1"

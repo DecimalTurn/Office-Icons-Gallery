@@ -82,21 +82,16 @@
       }
       const item = document.createElement("li");
       const image = document.createElement("img");
-      const copy = document.createElement("div");
       const link = document.createElement("a");
-      const description = document.createElement("p");
       const remove = document.createElement("button");
 
       item.className = "reference-icon-item";
       image.src = `./${icon.imageAsset}`;
       image.alt = icon.name;
       image.loading = "lazy";
-      copy.className = "reference-icon-copy";
       link.className = "reference-icon-id";
       link.href = `./icon.html?name=${encodeURIComponent(icon.name)}`;
       link.textContent = icon.name;
-      description.className = "reference-icon-description";
-      description.textContent = icon.description || "No description available.";
       remove.type = "button";
       remove.className = "reference-remove-button";
       remove.dataset.removeIcon = icon.name;
@@ -104,8 +99,7 @@
       remove.title = "Remove from list";
       remove.innerHTML = "&times;";
 
-      copy.append(link, description);
-      item.append(image, copy, remove);
+      item.append(image, link, remove);
       return item;
     }).filter(Boolean);
     elements.iconList.replaceChildren(...items);
@@ -206,7 +200,7 @@
     addIcon(state.currentIconId);
   });
 
-  window.addEventListener("description-review-icon-selected", (event) => {
+  window.addEventListener("keyword-review-icon-selected", (event) => {
     state.currentIconId = event.detail?.iconId || "";
     render();
   });

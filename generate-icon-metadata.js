@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
+const { splitIconName } = require("./scripts/keyword-utils");
 
 const imagesPath = path.join(__dirname, "images");
 const sharedImagesPath = path.join(imagesPath, "by-hash");
@@ -130,12 +131,12 @@ const relatedKeywords = new Map(Object.entries({
   zoom: ["magnify", "scale"]
 }));
 
-const curatedDescriptions = JSON.parse(fs.readFileSync(
-  path.join(__dirname, "icon-descriptions.json"),
+const reviewedKeywords = JSON.parse(fs.readFileSync(
+  path.join(__dirname, "icon-keywords.json"),
   "utf8"
 ));
-if (!curatedDescriptions || Array.isArray(curatedDescriptions) || typeof curatedDescriptions !== "object") {
-  throw new Error("Curated descriptions must be a JSON object keyed by icon ID");
+if (!reviewedKeywords || Array.isArray(reviewedKeywords) || typeof reviewedKeywords !== "object") {
+  throw new Error("Reviewed keywords must be a JSON object keyed by icon ID");
 }
 
 const keywordOverrides = new Map(Object.entries({
@@ -246,16 +247,17 @@ const missingKeywordOverrides = [...keywordOverrides.keys()].filter((name) => !i
 if (missingKeywordOverrides.length > 0) {
   throw new Error("Keyword overrides reference unknown icons: " + missingKeywordOverrides.join(", "));
 }
-const invalidDescriptions = Object.entries(curatedDescriptions)
-  .filter(([name, description]) => !/^[A-Za-z0-9_]+$/.test(name) || typeof description !== "string" || !description.trim());
-if (invalidDescriptions.length > 0) {
-  throw new Error("Invalid curated descriptions: " + invalidDescriptions.map(([name]) => name).join(", "));
+const invalidReviewedKeywords = Object.entries(reviewedKeywords)
+  .filter(([name, keywords]) => !/^[A-Za-z0-9_]+$/.test(name) || !Array.isArray(keywords) ||
+    keywords.some((keyword) => typeof keyword !== "string" || !keyword.trim()));
+if (invalidReviewedKeywords.length > 0) {
+  throw new Error("Invalid reviewed keywords: " + invalidReviewedKeywords.map(([name]) => name).join(", "));
 }
 
 const iconNameSet = new Set(iconNames);
-const unknownDescriptionIcons = Object.keys(curatedDescriptions).filter((name) => !iconNameSet.has(name));
-if (unknownDescriptionIcons.length > 0) {
-  throw new Error("Descriptions reference unknown icons: " + unknownDescriptionIcons.join(", "));
+const unknownKeywordIcons = Object.keys(reviewedKeywords).filter((name) => !iconNameSet.has(name));
+if (unknownKeywordIcons.length > 0) {
+  throw new Error("Reviewed keywords reference unknown icons: " + unknownKeywordIcons.join(", "));
 }
 for (const [name, relatedNames] of relatedIconOverrides) {
   const invalidRelatedNames = relatedNames.filter((relatedName) =>
@@ -264,16 +266,6 @@ for (const [name, relatedNames] of relatedIconOverrides) {
   if (!iconNameSet.has(name) || placeholderIconNames.has(name) || invalidRelatedNames.length > 0 || new Set(relatedNames).size !== relatedNames.length) {
     throw new Error(`Invalid related icon IDs for ${name}: ${invalidRelatedNames.join(", ") || relatedNames.join(", ")}`);
   }
-}
-
-function splitIconName(name = "") {
-  return name
-    .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
-    .replace(/([A-Z])([A-Z][a-z])/g, "$1 $2")
-    .replace(/([A-Za-z])([0-9])/g, "$1 $2")
-    .replace(/([0-9])([A-Za-z])/g, "$1 $2")
-    .split(/[^A-Za-z0-9]+/)
-    .filter(Boolean);
 }
 
 const relatedNameStopWords = new Set([
@@ -356,19 +348,21 @@ const metadata = iconNames.map((name) => {
   const sameImageIds = placeholder
     ? []
     : (namesByImageHash.get(imageHash) || []).filter((otherName) => otherName !== name);
-  const keywords = new Set([
+  const generatedKeywords = [
     ...normalizedWords,
-    normalizedWords.join(" "),
     ...normalizedWords.flatMap((word) => relatedKeywords.get(word) || []),
     ...(placeholder ? ["placeholder", "office fallback"] : []),
     ...keywordOverride
+  ];
+  const keywords = new Set([
+    ...normalizedWords,
+    ...(Object.hasOwn(reviewedKeywords, name) ? reviewedKeywords[name] : generatedKeywords)
+      .map((keyword) => keyword.trim().toLocaleLowerCase("en"))
   ]);
-  const description = curatedDescriptions[name] || `Office icon for ${words.join(" ").toLowerCase()}.`;
 
   return {
     name,
     imageAsset,
-    description,
     keywords: [...keywords].filter(Boolean).sort(),
     ...(relatedIcons.length > 0 ? { relatedIcons } : {}),
     ...(sameImageIds.length > 0 ? { sameImageIds } : {}),

@@ -590,10 +590,24 @@ li span {
   overflow-wrap: anywhere;
 }
 
-.icon-description {
+.icon-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
   max-width: 100%;
-  margin: -12px 0 0;
-  color: var(--page-foreground);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.icon-keywords li {
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--control-background);
+  color: var(--muted-foreground);
+  font-size: 0.78rem;
+  padding: 3px 7px;
 }
 
 .icon-image-status {

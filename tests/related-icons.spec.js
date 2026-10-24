@@ -1,14 +1,29 @@
 const { test, expect } = require("@playwright/test");
+const { normalizeReviewedKeywords, requiredNameKeywords } = require("../scripts/keyword-utils");
 
-test("applies every curated JSON description to generated metadata", async () => {
-  const curatedDescriptions = require("../icon-descriptions.json");
+test("metadata contains only keywords and includes every icon-name word", async () => {
+  const reviewedKeywords = require("../icon-keywords.json");
   const metadata = require("../icon-metadata.json");
-  const descriptions = new Map(metadata.map((icon) => [icon.name, icon.description]));
+  const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
 
-  expect(Object.keys(curatedDescriptions).length).toBeGreaterThan(0);
-  for (const [name, description] of Object.entries(curatedDescriptions)) {
-    expect(descriptions.get(name), `metadata description for ${name}`).toBe(description);
+  for (const icon of metadata) {
+    expect(icon).not.toHaveProperty("description");
+    const keywords = new Set(icon.keywords);
+    for (const word of requiredNameKeywords(icon.name)) {
+      expect(keywords.has(word), `${icon.name} should include name word ${word}`).toBe(true);
+    }
+    const nameWords = requiredNameKeywords(icon.name);
+    if (nameWords.length > 1) {
+      const fullNamePhrase = nameWords.join(" ");
+      expect(keywords.has(fullNamePhrase), `${icon.name} should not include its full name as one keyword`).toBe(false);
+    }
   }
+  for (const [name, keywords] of Object.entries(reviewedKeywords)) {
+    expect(metadataByName.get(name)?.keywords, `reviewed keywords for ${name}`).toEqual(keywords);
+  }
+  expect(normalizeReviewedKeywords("_3DBevelOptionsDialog", [" Blue Pigment ", "BEVEL"])).toEqual([
+    "3", "bevel", "blue pigment", "d", "dialog", "options"
+  ]);
 });
 
 test("never suggests placeholder images as related icons", async ({ request }) => {

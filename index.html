@@ -34,13 +34,13 @@
     </p>
     <nav class="gallery-workflow-links" aria-label="Icon tools">
       <a href="./description-review.html#reference-lists">Icon reference lists</a>
-      <a href="./description-review.html">Description review</a>
+      <a href="./description-review.html">Keyword review</a>
     </nav>
     <div class="mso-filter">
       <form>
         <label for="mso-search">Search</label>
         <div class="mso-search-control">
-          <input id="mso-search" name="SearchMso" type="text" maxlength="255" value="" placeholder="Search IDs, descriptions, or keywords" class="awesomplete" data-list=".mso-list" data-minchars="2" data-maxitems="30"/>
+          <input id="mso-search" name="SearchMso" type="text" maxlength="255" value="" placeholder="Search IDs or keywords" class="awesomplete" data-list=".mso-list" data-minchars="2" data-maxitems="30"/>
           <button id="mso-search-clear" class="mso-search-clear" type="button" aria-label="Clear search" hidden></button>
         </div>
         <div class="mso-placeholder-filter">
@@ -155,7 +155,6 @@
       function matchesSearch(icon, value) {
         const searchableWords = splitSearchWords([
           icon.name,
-          icon.description,
           ...(icon.keywords || [])
         ].join(" "));
         const queryWords = splitSearchWords(value);

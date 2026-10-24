@@ -14,35 +14,8 @@ async function mockReferenceLists(page) {
   return () => lists;
 }
 
-async function mockDescriptionReview(page) {
-  await page.route("**/api/description-review/**", async (route) => {
-    const url = new URL(route.request().url());
-    if (url.pathname.endsWith("/models")) {
-      await route.fulfill({ json: { models: ["gemma3:4b"] } });
-      return;
-    }
-    if (url.pathname.endsWith("/drafts")) {
-      await route.fulfill({ json: { drafts: {} } });
-      return;
-    }
-    if (url.pathname.endsWith("/image")) {
-      const iconId = url.searchParams.get("name");
-      await route.fulfill({ json: {
-        iconIds: [iconId],
-        imageHash: `test-${iconId}`,
-        reviewed: false,
-        curatedDescriptions: {},
-        draft: null
-      } });
-      return;
-    }
-    await route.fulfill({ status: 404, json: { error: "Unexpected review API request" } });
-  });
-}
-
 test("creates saved lists and appends selected icons and IDs in the review page", async ({ page }) => {
   const getSavedLists = await mockReferenceLists(page);
-  await mockDescriptionReview(page);
   const metadataResponse = await page.request.get("/icon-metadata.json");
   const metadata = await metadataResponse.json();
   const idIcon = metadata.find((icon) => icon.name === "ChartFormatSelection");
@@ -74,8 +47,8 @@ test("creates saved lists and appends selected icons and IDs in the review page"
   await expect.poll(() => page.locator("#create-list-form").evaluate((form) => form.scrollWidth <= form.clientWidth)).toBe(true);
   await expect(page.locator("#catalog-position")).toHaveCount(0);
   await expect(page.getByRole("button", { name: "Add position" })).toHaveCount(0);
-  await page.getByLabel("Search icon ID").fill(idIcon.name);
-  await page.getByRole("option", { name: idIcon.name }).click();
+  await page.getByLabel("Search icon ID").fill(selectedIcon);
+  await page.getByRole("option", { name: selectedIcon }).click();
   await expect(page.locator("#reference-current-icon")).toHaveText(selectedIcon);
   await page.getByLabel("List name / tag").fill("Ribbon cleanup");
   await page.getByRole("button", { name: "Create list" }).click();
@@ -93,7 +66,7 @@ test("creates saved lists and appends selected icons and IDs in the review page"
   await expect(listItems).toHaveCount(2);
   await expect(listItems.nth(0).getByRole("link")).toHaveText(selectedIcon);
   await expect(listItems.nth(1).getByRole("link")).toHaveText(idIcon.name);
-  await expect(listItems.nth(1).getByText(idIcon.description, { exact: true })).toBeVisible();
+  await expect(listItems.nth(1).locator(".reference-icon-description")).toHaveCount(0);
 
   await page.getByRole("button", { name: `Remove ${idIcon.name} from list` }).click();
   await expect(page.getByRole("link", { name: idIcon.name, exact: true })).toHaveCount(0);

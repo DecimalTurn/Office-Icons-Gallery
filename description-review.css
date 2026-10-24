@@ -1,4 +1,4 @@
-.description-review-page {
+.keyword-review-page {
   min-height: 100vh;
   margin: 0;
   background: var(--page-background);
@@ -26,8 +26,7 @@
 .review-heading-row,
 .review-toolbar,
 .review-panel-heading,
-.review-editor-meta,
-.review-suggestion-row,
+.keyword-review-actions,
 .review-footer {
   display: flex;
   align-items: center;
@@ -52,7 +51,7 @@
   color: var(--muted-foreground);
 }
 
-.review-draft-summary {
+.review-progress-summary {
   flex: 0 0 auto;
   color: var(--muted-foreground);
   font-size: 0.82rem;
@@ -67,31 +66,18 @@
 }
 
 .review-icon-picker,
-.review-model-picker {
-  position: relative;
-  display: grid;
-  gap: 6px;
-  min-width: 0;
-}
-
 .review-icon-picker {
   flex: 1 1 360px;
 }
 
-.review-model-picker {
-  flex: 0 1 300px;
-}
-
-.review-icon-picker label,
-.review-model-picker label {
+.review-icon-picker label {
   color: var(--muted-foreground);
   font-size: 0.85rem;
   font-weight: 600;
 }
 
 .review-icon-picker input,
-.review-model-picker input,
-#description-editor {
+.keyword-row input {
   box-sizing: border-box;
   border: 1px solid var(--border-color);
   border-radius: 4px;
@@ -100,16 +86,14 @@
   font: inherit;
 }
 
-.review-icon-picker input,
-.review-model-picker input {
+.review-icon-picker input {
   width: 100%;
   min-height: 42px;
   padding: 8px 11px;
 }
 
 .review-icon-picker input:focus-visible,
-.review-model-picker input:focus-visible,
-#description-editor:focus-visible {
+.keyword-row input:focus-visible {
   border-color: var(--accent-color);
   outline: 2px solid color-mix(in srgb, var(--accent-color) 35%, transparent);
   outline-offset: 1px;
@@ -125,15 +109,6 @@
   font-size: 0.85rem;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
-}
-
-.review-model-control {
-  display: flex;
-  gap: 6px;
-}
-
-.review-model-control input {
-  min-width: 0;
 }
 
 .review-icon-button {
@@ -254,7 +229,7 @@
 }
 
 .review-image-panel,
-.review-editor-panel {
+.review-keyword-panel {
   min-width: 0;
   border-top: 3px solid var(--accent-color);
   padding-top: 14px;
@@ -299,14 +274,6 @@
   border-color: #42734a;
   background: #e6f3e8;
   color: #285a30;
-}
-
-.draft-model {
-  min-width: 0;
-  color: var(--muted-foreground);
-  font-size: 0.78rem;
-  text-align: right;
-  overflow-wrap: anywhere;
 }
 
 :root[data-theme="dark"] .review-state[data-state="not-reviewed"] {
@@ -371,58 +338,50 @@
   overflow-wrap: anywhere;
 }
 
-.curated-reference {
-  margin-top: 16px;
-  padding-top: 12px;
-  border-top: 1px solid var(--border-color);
-}
-
-.curated-reference[hidden] {
-  display: none;
-}
-
-.curated-reference h3 {
-  margin: 0 0 6px;
-  color: var(--muted-foreground);
-  font-size: 0.82rem;
-}
-
-.curated-reference ul {
+.keyword-editor {
   display: grid;
-  gap: 6px;
-  margin: 0;
-  padding-left: 18px;
-  font-size: 0.85rem;
+  gap: 7px;
 }
 
-.curated-reference li {
-  overflow-wrap: anywhere;
+.keyword-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 36px;
+  align-items: center;
+  gap: 8px;
 }
 
-#description-editor {
-  display: block;
+.keyword-row input {
   width: 100%;
-  min-height: 150px;
-  resize: vertical;
-  padding: 12px;
-  line-height: 1.55;
+  min-width: 0;
+  min-height: 36px;
+  padding: 6px 9px;
 }
 
-.review-editor-meta {
-  align-items: flex-start;
-  margin-top: 7px;
+.keyword-row input[readonly] {
+  background: var(--control-background);
   color: var(--muted-foreground);
-  font-size: 0.78rem;
 }
 
-.review-editor-meta span:last-child {
-  text-align: right;
+.keyword-remove-button {
+  width: 36px;
+  height: 36px;
+  color: var(--danger-color);
+  font-size: 1rem;
 }
 
-.review-suggestion-row {
+.keyword-editor-tools {
+  margin-top: 8px;
+}
+
+.keyword-add-button {
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.keyword-review-actions {
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-top: 16px;
+  margin-top: 14px;
 }
 
 .review-button {
@@ -505,12 +464,6 @@
   }
 }
 
-.review-local-note {
-  margin: 11px 0 0;
-  color: var(--muted-foreground);
-  font-size: 0.82rem;
-}
-
 .review-footer {
   margin-top: 22px;
   padding-top: 14px;
@@ -539,8 +492,7 @@
     font-size: 1.55rem;
   }
 
-  .review-icon-picker,
-  .review-model-picker {
+  .review-icon-picker {
     flex: 0 1 auto;
     width: 100%;
   }
@@ -565,11 +517,11 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .review-image-panel,
-  .review-editor-panel {
+  .review-keyword-panel {
     animation: review-enter 260ms ease-out both;
   }
 
-  .review-editor-panel {
+  .review-keyword-panel {
     animation-delay: 55ms;
   }
 

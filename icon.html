@@ -29,7 +29,7 @@
           <img src="./images/Copy.png" alt="" aria-hidden="true" />
         </button>
       </div>
-      <p id="icon-description" class="icon-description" hidden></p>
+      <ul id="icon-keywords" class="icon-keywords" aria-label="Icon keywords"></ul>
       <p id="icon-image-status" class="icon-image-status" hidden></p>
       <div class="icon-detail-previews">
         <figure class="icon-detail-preview">
@@ -85,7 +85,7 @@
     <script>
       const iconName = new URLSearchParams(window.location.search).get("name");
       const nameHeading = document.getElementById("icon-name");
-      const iconDescription = document.getElementById("icon-description");
+      const iconKeywords = document.getElementById("icon-keywords");
       const iconImage = document.getElementById("icon-image");
       const smallIconImage = document.getElementById("icon-image-small");
       const copyButton = document.getElementById("copy-name");
@@ -134,10 +134,11 @@
           })
           .then((metadata) => {
             const icon = metadata.find((entry) => entry.name === iconName);
-            if (icon?.description) {
-              iconDescription.textContent = icon.description;
-              iconDescription.hidden = false;
-            }
+            iconKeywords.replaceChildren(...(icon?.keywords || []).map((keyword) => {
+              const item = document.createElement("li");
+              item.textContent = keyword;
+              return item;
+            }));
             if (icon?.imageStatus === "placeholder") {
           const iconSource = icon?.imageAsset
             ? `./${icon.imageAsset}`

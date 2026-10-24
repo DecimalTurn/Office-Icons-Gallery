@@ -8,17 +8,19 @@ test("links to the GitHub repository from the icon detail page", async ({ page }
   await expect(githubLink).toHaveAttribute("target", "_blank");
 });
 
-test("shows the icon description between its name and previews", async ({ page }) => {
+test("shows searchable keywords between the icon name and previews", async ({ page }) => {
   await page.goto("/icon.html?name=ZoomTwoPages");
 
-  const description = page.locator("#icon-description");
-  await expect(description).toHaveText("Office icon for zoom two pages.");
+  const keywords = page.locator("#icon-keywords");
+  await expect(keywords).toContainText("zoom");
+  await expect(keywords).toContainText("two");
+  await expect(keywords).toContainText("pages");
 
   const isBeforePreviews = await page.evaluate(() => {
-    const descriptionNode = document.querySelector("#icon-description");
+    const keywordsNode = document.querySelector("#icon-keywords");
     const previewsNode = document.querySelector(".icon-detail-previews");
-    return Boolean(descriptionNode && previewsNode &&
-      (descriptionNode.compareDocumentPosition(previewsNode) & Node.DOCUMENT_POSITION_FOLLOWING));
+    return Boolean(keywordsNode && previewsNode &&
+      (keywordsNode.compareDocumentPosition(previewsNode) & Node.DOCUMENT_POSITION_FOLLOWING));
   });
   expect(isBeforePreviews).toBe(true);
 });

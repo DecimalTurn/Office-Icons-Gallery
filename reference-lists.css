@@ -281,21 +281,9 @@
   image-rendering: pixelated;
 }
 
-.reference-icon-copy {
-  min-width: 0;
-  grid-column: 1 / -1;
-}
-
 .reference-icon-id {
   display: inline-block;
   font-weight: 650;
-  overflow-wrap: anywhere;
-}
-
-.reference-icon-description {
-  margin: 3px 0 0;
-  color: var(--muted-foreground);
-  font-size: 0.87rem;
   overflow-wrap: anywhere;
 }
 
