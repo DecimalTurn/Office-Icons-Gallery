@@ -52,6 +52,12 @@ test("creates saved lists and appends selected icons and IDs in the review page"
   await expect(page.locator("#icon-position")).not.toHaveText("Loading icons");
   await expect(page.locator("#reference-list-status")).toHaveText("");
   await expect(page.locator("#list-feedback")).toBeHidden();
+  const createFormFollowsSavedLists = await page.locator("#create-list-form").evaluate((form) => {
+    const savedLists = document.querySelector("#saved-reference-lists");
+    return form.parentElement === savedLists.parentElement
+      && Boolean(savedLists.compareDocumentPosition(form) & Node.DOCUMENT_POSITION_FOLLOWING);
+  });
+  expect(createFormFollowsSavedLists).toBe(true);
   const listPrecedesControls = await page.locator("#reference-icon-list").evaluate((iconList) => {
     const controls = ["#create-list-form", "#saved-reference-lists", ".reference-add-controls", "#delete-list"];
     return controls.every((selector) => iconList.compareDocumentPosition(document.querySelector(selector)) & Node.DOCUMENT_POSITION_FOLLOWING);
@@ -65,6 +71,7 @@ test("creates saved lists and appends selected icons and IDs in the review page"
   expect(await gridColumnCount()).toBe(1);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth)).toBe(true);
   await page.setViewportSize({ width: 1280, height: 720 });
+  await expect.poll(() => page.locator("#create-list-form").evaluate((form) => form.scrollWidth <= form.clientWidth)).toBe(true);
   await expect(page.locator("#catalog-position")).toHaveCount(0);
   await expect(page.getByRole("button", { name: "Add position" })).toHaveCount(0);
   await page.getByLabel("Search icon ID").fill(idIcon.name);

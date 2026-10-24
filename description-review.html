@@ -118,14 +118,6 @@
           <ol id="reference-icon-list" class="reference-icon-list"></ol>
         </section>
 
-        <form id="create-list-form" class="create-list-form">
-          <label for="new-list-name">List name / tag</label>
-          <div class="reference-create-control">
-            <input id="new-list-name" type="text" maxlength="60" required placeholder="For example, ribbon cleanup" />
-            <button class="reference-button reference-button-primary" type="submit">Create list</button>
-          </div>
-        </form>
-
         <div class="reference-layout">
           <aside class="reference-sidebar" aria-labelledby="saved-lists-heading">
             <div class="reference-section-heading">
@@ -133,6 +125,13 @@
               <span id="saved-list-count">0</span>
             </div>
             <ul id="saved-reference-lists" class="saved-reference-lists"></ul>
+            <form id="create-list-form" class="create-list-form">
+              <label for="new-list-name">List name / tag</label>
+              <div class="reference-create-control">
+                <input id="new-list-name" type="text" maxlength="60" required placeholder="For example, ribbon cleanup" />
+                <button class="reference-button reference-button-primary" type="submit">Create list</button>
+              </div>
+            </form>
           </aside>
 
           <section class="reference-content" aria-label="Reference list controls">
