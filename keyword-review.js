@@ -255,7 +255,6 @@
 
     let reviewSaved = false;
     elements.markReviewed.disabled = true;
-    setStatus("Saving reviewed keywords…");
     try {
       const result = await requestJson("/api/keyword-review/confirm", {
         method: "POST",

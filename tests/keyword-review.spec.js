@@ -19,7 +19,7 @@ const imageGroupByName = new Map([...iconsByImageHash.values()].flatMap((iconIds
   iconIds.map((iconId) => [iconId, iconIds])
 ));
 
-async function mockKeywordReview(page) {
+async function mockKeywordReview(page, { confirmDelay = 0 } = {}) {
   const confirmed = [];
   const resets = [];
   await page.route("**/api/reference-lists", async (route) => {
@@ -35,6 +35,9 @@ async function mockKeywordReview(page) {
   await page.route("**/api/keyword-review/**", async (route) => {
     const body = route.request().postDataJSON();
     if (route.request().url().endsWith("/confirm")) {
+      if (confirmDelay) {
+        await new Promise((resolve) => setTimeout(resolve, confirmDelay));
+      }
       if (body.keywords.some((keyword) => !keyword.trim())) {
         await route.fulfill({ status: 400, json: { error: "Keywords must contain 1 to 80 characters" } });
         return;
@@ -194,6 +197,20 @@ test("searching an identical-image ID opens its review representative", async ({
   await expect(page.locator("#selected-icon-name")).toHaveText(representative.name);
   await expect(page.locator("#same-image-ids")).toContainText(aliasId);
   await expect(page.locator("#icon-position")).toHaveText(`${reviewableIcons.indexOf(representative) + 1} of ${reviewableIcons.length.toLocaleString()}`);
+});
+
+test("confirming review does not shift the workspace while saving", async ({ page }) => {
+  await mockKeywordReview(page, { confirmDelay: 300 });
+  await page.goto("/keyword-review.html");
+  await expect(page.locator("#selected-icon-name")).toHaveText("_0");
+  const workspace = page.locator(".review-workspace");
+  const initialTop = await workspace.evaluate((element) => element.getBoundingClientRect().top);
+
+  await page.getByRole("button", { name: "Confirm review" }).click();
+  await expect(page.getByRole("button", { name: "Confirm review" })).toBeDisabled();
+  await expect(page.locator("#review-status")).toBeEmpty();
+  await expect.poll(() => workspace.evaluate((element) => element.getBoundingClientRect().top)).toBe(initialTop);
+  await expect(page.getByRole("button", { name: "Confirm review" })).toBeEnabled();
 });
 
 test("rejects an empty keyword row until it is filled or removed", async ({ page }) => {
