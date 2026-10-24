@@ -384,19 +384,17 @@
 
   async function initialize() {
     try {
-      const [metadata, draftResult] = await Promise.all([
+      const [metadata, draftResult, reviewStatus] = await Promise.all([
         requestJson("./icon-metadata.json"),
-        requestJson("/api/description-review/drafts")
+        requestJson("/api/description-review/drafts"),
+        requestJson("./icon-review-status.json")
       ]);
       state.icons = groupIconsByImage(metadata);
       state.drafts = draftResult.drafts || {};
       updateDraftSummary();
-      const uncuratedNames = new Set(metadata
-        .filter((icon) => icon.description.startsWith("Office icon for "))
-        .map((icon) => icon.name));
-      const firstUncurated = state.icons.find((icon) =>
-        icon.imageStatus !== "placeholder" && icon.iconIds.some((iconId) => uncuratedNames.has(iconId)));
-      const initialIcon = firstUncurated || state.icons[0];
+      const initialIcon = state.icons.find((icon) =>
+        icon.iconIds.some((iconId) => reviewStatus[iconId] === false)
+      ) || state.icons[0];
       if (!initialIcon) {
         throw new Error("No icons are available in metadata");
       }

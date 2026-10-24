@@ -3,10 +3,18 @@ const { test, expect } = require("@playwright/test");
 const sharedIds = ["ChartFormatSelection", "_3DBevelOptionsDialog", "_3DRotationOptionsDialog"];
 const suggestion = "A paint bucket spills beside a paintbrush.";
 
-async function mockReviewApi(page, { modelError = false } = {}) {
+async function mockReviewApi(page, { modelError = false, reviewedIconIds = [] } = {}) {
   const savedDrafts = {};
   const trackedDescriptions = {};
   const trackedReviewStatus = {};
+  const statusResponse = await page.request.get("/icon-review-status.json");
+  const reviewStatus = await statusResponse.json();
+  for (const iconId of reviewedIconIds) {
+    reviewStatus[iconId] = true;
+  }
+  await page.route("**/icon-review-status.json", async (route) => {
+    await route.fulfill({ json: reviewStatus });
+  });
   await page.route("**/api/description-review/**", async (route) => {
     const request = route.request();
     const url = new URL(request.url());
@@ -89,7 +97,8 @@ test("generates, edits, and marks one shared-image description reviewed in track
   const metadata = await metadataResponse.json();
   const uniqueImageCount = new Set(metadata.map((icon) => icon.imageSha256 || icon.name)).size;
   expect(uniqueImageCount).toBeLessThan(metadata.length);
-  await expect(page.locator("#icon-position")).toContainText(`of ${uniqueImageCount}`);
+  await expect(page.locator("#icon-position")).toHaveText(`1 of ${uniqueImageCount}`);
+  await expect(page.getByRole("heading", { level: 2 }).first()).toHaveText("_0");
 
   const iconSearch = page.getByLabel("Icon ID");
   await iconSearch.fill("ChartFormatSelection");
@@ -114,6 +123,28 @@ test("generates, edits, and marks one shared-image description reviewed in track
   expect(trackedReviewStatus["shared-image-hash"]).toBe(true);
   expect(savedDrafts["shared-image-hash"].description).toBe("Legacy local reviewed wording");
   await expect(page.getByRole("button", { name: "Export reviewed" })).toHaveCount(0);
+});
+
+test("starts at the first image group with an unreviewed ID", async ({ page }) => {
+  const metadataResponse = await page.request.get("/icon-metadata.json");
+  const metadata = await metadataResponse.json();
+  const groupsByHash = new Map();
+  for (const icon of metadata) {
+    const imageKey = icon.imageSha256 || icon.name;
+    const group = groupsByHash.get(imageKey) || [];
+    group.push(icon.name);
+    groupsByHash.set(imageKey, group);
+  }
+  const groups = [...groupsByHash.values()];
+  const reviewedIconIds = groups[0];
+  const expectedIconId = groups[1][0];
+
+  await mockReviewApi(page, { reviewedIconIds });
+  await page.goto("/description-review.html");
+
+  await expect(page.getByRole("heading", { level: 2 }).first()).toHaveText(expectedIconId);
+  await expect(page.locator("#icon-position")).toHaveText("2 of 3407");
+  await expect(page.getByText("Not reviewed", { exact: true })).toBeVisible();
 });
 
 test("saves a draft locally without changing tracked descriptions", async ({ page }) => {
