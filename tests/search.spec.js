@@ -9,21 +9,21 @@ test("submits a search query and filters the gallery after reload", async ({ pag
 
   await expect(page).toHaveURL(/index\.html\?SearchMso=sun$/);
   await expect(page.locator("#mso-search")).toHaveValue("sun");
-    const counts = await page.evaluate(async () => {
-      const metadata = await (await fetch("./icon-metadata.json")).json();
-      return {
-        ids: metadata.length.toLocaleString(),
-        uniqueImages: new Set(metadata.map((icon) => icon.imageAsset)).size.toLocaleString()
-      };
-    });
-    expect(counts).toEqual({ ids: "9,324", uniqueImages: "3,407" });
-    await expect(page.locator("#icon-count")).toHaveText(counts.ids);
-    await expect(page.locator("#unique-icon-count")).toHaveText(counts.uniqueImages);
-    await expect(page.locator("#search-result-count")).toHaveText("2 icons found");
+  const counts = await page.evaluate(async () => {
+    const metadata = await (await fetch("./icon-metadata.json")).json();
+    return {
+      ids: metadata.length.toLocaleString(),
+      uniqueImages: new Set(metadata.map((icon) => icon.imageAsset)).size.toLocaleString()
+    };
+  });
+  expect(counts).toEqual({ ids: "9,324", uniqueImages: "3,407" });
+  await expect(page.locator("#icon-count")).toHaveText(counts.ids);
+  await expect(page.locator("#unique-icon-count")).toHaveText(counts.uniqueImages);
+  await expect(page.locator("#search-result-count")).toHaveText("3 icons found");
   await expect(search).not.toBeFocused();
   await expect(page.locator(".awesomplete > ul")).toBeHidden();
-  await expect(page.locator(".mso-list li")).toHaveCount(2);
-  await expect(page.locator(".page-status").first()).toContainText("1-2 of 2 icons");
+  await expect(page.locator(".mso-list li")).toHaveCount(3);
+  await expect(page.locator(".page-status").first()).toContainText("1-3 of 3 icons");
 });
 
 test("limits suggestions to 30 and submits from the See all results row", async ({ page }) => {
