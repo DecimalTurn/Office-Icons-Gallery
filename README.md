@@ -26,7 +26,7 @@ Start the gallery with `pnpm dev` and open http://127.0.0.1:8000/description-rev
 
 Local drafts are stored in the ignored `.description-review-drafts.json` file. Model suggestions are never written to tracked descriptions unless you edit and mark them reviewed. Model requests go through the gallery's loopback-only server to Ollama at `127.0.0.1:11434`.
 
-The bottom of the description review page contains locally saved icon reference lists. Create named lists, add the selected icon, any icon ID, or a one-based catalog position, and remove entries with the X control. The gallery's Icon reference lists link jumps directly to this section.
+The bottom of the description review page contains locally saved icon reference lists. Create named lists, add the selected icon or any icon ID, and remove entries with the X control. New icons append to the end of the selected list. The gallery's Icon reference lists link jumps directly to this section.
 
 The gallery and searchable metadata are generated from PNG filenames directly in `images/`. Each filename without its `.png` extension is treated as an `idMso` value. After adding or removing icons, regenerate the metadata from this directory:
 

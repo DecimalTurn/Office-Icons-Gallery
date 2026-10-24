@@ -10,8 +10,6 @@
     deleteList: document.getElementById("delete-list"),
     currentIcon: document.getElementById("reference-current-icon"),
     addCurrentIcon: document.getElementById("add-current-icon"),
-    positionForm: document.getElementById("add-position-form"),
-    catalogPosition: document.getElementById("catalog-position"),
     idForm: document.getElementById("add-id-form"),
     iconId: document.getElementById("icon-id-input"),
     feedback: document.getElementById("list-feedback"),
@@ -23,7 +21,6 @@
   const state = {
     icons: [],
     iconsById: new Map(),
-    catalogPositionById: new Map(),
     lists: [],
     activeListId: "",
     currentIconId: "",
@@ -86,7 +83,6 @@
       }
       const item = document.createElement("li");
       const image = document.createElement("img");
-      const position = document.createElement("span");
       const copy = document.createElement("div");
       const link = document.createElement("a");
       const description = document.createElement("p");
@@ -96,9 +92,6 @@
       image.src = `./${icon.imageAsset}`;
       image.alt = icon.name;
       image.loading = "lazy";
-      position.className = "reference-position";
-      position.textContent = `#${state.catalogPositionById.get(icon.name).toLocaleString()}`;
-      position.title = `Catalog position ${state.catalogPositionById.get(icon.name).toLocaleString()}`;
       copy.className = "reference-icon-copy";
       link.className = "reference-icon-id";
       link.href = `./icon.html?name=${encodeURIComponent(icon.name)}`;
@@ -113,7 +106,7 @@
       remove.innerHTML = "&times;";
 
       copy.append(link, description);
-      item.append(image, position, copy, remove);
+      item.append(image, copy, remove);
       return item;
     }).filter(Boolean);
     elements.iconList.replaceChildren(...items);
@@ -128,10 +121,8 @@
     elements.deleteList.hidden = !list;
     elements.currentIcon.textContent = state.currentIconId || "Choose an icon above";
     elements.addCurrentIcon.disabled = !list || !state.currentIconId || state.saving;
-    for (const form of [elements.positionForm, elements.idForm]) {
-      for (const control of form.querySelectorAll("input, button")) {
-        control.disabled = !list || state.saving;
-      }
+    for (const control of elements.idForm.querySelectorAll("input, button")) {
+      control.disabled = !list || state.saving;
     }
     if (list) {
       renderIconItems(list);
@@ -168,7 +159,7 @@
     const list = activeList();
     const icon = state.iconsById.get(iconId.toLocaleLowerCase("en"));
     if (!list || !icon) {
-      setFeedback("Choose a list and enter a valid icon ID or catalog position.", "error");
+      setFeedback("Choose a list and enter a valid icon ID.", "error");
       return false;
     }
     if (list.iconIds.includes(icon.name)) {
@@ -182,7 +173,6 @@
     const saved = await saveLists(nextLists, `Added ${icon.name} to ${list.name}.`);
     if (saved) {
       elements.iconId.value = "";
-      elements.catalogPosition.value = "";
     }
     return saved;
   }
@@ -205,16 +195,6 @@
       elements.newListName.value = "";
       setActiveList(id);
     }
-  });
-
-  elements.positionForm.addEventListener("submit", async (event) => {
-    event.preventDefault();
-    const position = Number(elements.catalogPosition.value);
-    if (!Number.isInteger(position) || position < 1 || position > state.icons.length) {
-      setFeedback(`Enter a catalog position from 1 to ${state.icons.length.toLocaleString()}.`, "error");
-      return;
-    }
-    await addIcon(state.icons[position - 1].name);
   });
 
   elements.addCurrentIcon.addEventListener("click", () => {
@@ -271,7 +251,6 @@
       ]);
       state.icons = metadata;
       state.iconsById = new Map(metadata.map((icon) => [icon.name.toLocaleLowerCase("en"), icon]));
-      state.catalogPositionById = new Map(metadata.map((icon, index) => [icon.name, index + 1]));
       state.lists = result.lists;
       try {
         const rememberedListId = window.localStorage.getItem(activeListStorageKey);
