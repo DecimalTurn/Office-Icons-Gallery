@@ -261,7 +261,7 @@
         state.activeListId = state.lists[0]?.id || "";
       }
       render();
-      elements.status.textContent = `${state.icons.length.toLocaleString()} icons loaded`;
+      elements.status.textContent = "";
     } catch (error) {
       elements.status.textContent = error.message;
     }

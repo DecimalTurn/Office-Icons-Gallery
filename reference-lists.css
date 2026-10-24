@@ -334,12 +334,6 @@
   color: var(--danger-color);
 }
 
-.reference-local-note {
-  margin: 12px 0 0;
-  color: var(--muted-foreground);
-  font-size: 0.84rem;
-}
-
 .reference-lists-section button:focus-visible,
 .reference-lists-section input:focus-visible,
 .reference-icon-id:focus-visible {

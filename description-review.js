@@ -161,7 +161,7 @@
         ? "This ID uses a shared placeholder image. Choose a real icon image before generating a description."
         : details.reviewed
           ? "This image has a tracked human-reviewed description."
-          : "Inspect the artwork, edit the description, then save or mark it reviewed.");
+          : "");
       updateDraftSummary();
     } catch (error) {
       setStatus(error.message, "error");
@@ -229,9 +229,9 @@
         option.value = model;
         return option;
       }));
-      setStatus(result.models.length
-        ? `Ollama is ready. Found ${result.models.length} local model${result.models.length === 1 ? "" : "s"}.`
-        : "Ollama is running, but no models are installed. Pull a vision model such as gemma3:4b.", result.models.length ? "success" : "");
+      if (result.models.length === 0) {
+        setStatus("Ollama is running, but no models are installed. Pull a vision model such as gemma3:4b.");
+      }
     } catch (error) {
       setStatus(error.message, "error");
     } finally {

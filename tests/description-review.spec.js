@@ -99,7 +99,13 @@ test("generates, edits, and marks one shared-image description reviewed in track
     iconIds: sharedIds
   };
   await page.goto("/description-review.html");
-  await expect(page.getByText("Ollama is ready. Found 1 local model.")).toBeVisible();
+  await expect(page.locator("#icon-position")).not.toHaveText("Loading icons");
+  await expect(page.getByRole("heading", { level: 2 }).first()).toHaveText("_0");
+  await expect(page.locator("#review-status")).toHaveText("");
+  await expect(page.locator(".review-header #draft-count")).toHaveText("No local drafts yet");
+  await expect(page.getByText("Ollama is ready", { exact: false })).toHaveCount(0);
+  await expect(page.getByText("Generate a local model draft, inspect the icon, then edit and mark the description reviewed.")).toHaveCount(0);
+  await expect(page.getByText("Lists are saved locally on this machine.")).toHaveCount(0);
 
   const metadataResponse = await page.request.get("/icon-metadata.json");
   const metadata = await metadataResponse.json();
@@ -118,6 +124,10 @@ test("generates, edits, and marks one shared-image description reviewed in track
   await expect(reviewState).toHaveText("Not reviewed");
   await expect(reviewState).toHaveAttribute("data-state", "not-reviewed");
   await expect(page.getByText("Draft saved", { exact: true })).toHaveCount(0);
+  await expect(page.locator("#image-context")).toHaveJSProperty("open", false);
+  await expect(page.locator("#image-hash")).toBeHidden();
+  await page.locator("#image-context > summary").click();
+  await expect(page.locator("#image-hash")).toBeVisible();
   await expect(page.getByText("Existing reviewed wording")).toBeVisible();
   await expect(page.getByText(/Same image IDs using this shared description:/)).toContainText("_3DBevelOptionsDialog");
 
@@ -227,7 +237,8 @@ test("resets tracked review status for a shared image without changing descripti
 test("saves a draft locally without changing tracked descriptions", async ({ page }) => {
   const { savedDrafts, trackedDescriptions } = await mockReviewApi(page);
   await page.goto("/description-review.html");
-  await expect(page.getByText("Ollama is ready. Found 1 local model.")).toBeVisible();
+  await expect(page.locator("#icon-position")).not.toHaveText("Loading icons");
+  await expect(page.locator("#review-status")).toHaveText("");
 
   const iconSearch = page.getByLabel("Search icon ID");
   await iconSearch.fill("ChartFormatSelection");

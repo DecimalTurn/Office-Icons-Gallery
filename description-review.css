@@ -52,6 +52,13 @@
   color: var(--muted-foreground);
 }
 
+.review-draft-summary {
+  flex: 0 0 auto;
+  color: var(--muted-foreground);
+  font-size: 0.82rem;
+  text-align: right;
+}
+
 .review-toolbar {
   align-items: flex-end;
   gap: 18px;
@@ -331,9 +338,24 @@
 .review-image-details {
   display: grid;
   gap: 7px;
-  margin-top: 9px;
+  margin-top: 10px;
   color: var(--muted-foreground);
   font-size: 0.76rem;
+}
+
+.review-image-context {
+  margin-top: 10px;
+}
+
+.review-image-context > summary {
+  color: var(--muted-foreground);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.review-image-context > summary:hover {
+  color: var(--page-foreground);
 }
 
 #image-hash {

@@ -29,8 +29,8 @@
         <div class="review-heading-row">
           <div>
             <h1>Image description review</h1>
-            <p>Generate a local model draft, inspect the icon, then edit and mark the description reviewed.</p>
           </div>
+          <span id="draft-count" class="review-draft-summary">No local drafts yet</span>
         </div>
       </header>
 
@@ -65,14 +65,17 @@
           <div class="review-image-stage">
             <img id="selected-icon-image" alt="" />
           </div>
-          <div class="review-image-details">
-            <span id="image-hash"></span>
-            <div id="same-image-ids" class="same-image-ids"></div>
-          </div>
-          <div id="curated-reference" class="curated-reference" hidden>
-            <h3>Current curated descriptions</h3>
-            <ul id="curated-list"></ul>
-          </div>
+          <details id="image-context" class="review-image-context">
+            <summary>Image details and curated descriptions</summary>
+            <div class="review-image-details">
+              <span id="image-hash"></span>
+              <div id="same-image-ids" class="same-image-ids"></div>
+            </div>
+            <div id="curated-reference" class="curated-reference" hidden>
+              <h3>Current curated descriptions</h3>
+              <ul id="curated-list"></ul>
+            </div>
+          </details>
         </div>
 
         <div class="review-editor-panel">
@@ -156,11 +159,9 @@
             <ol id="reference-icon-list" class="reference-icon-list"></ol>
           </section>
         </div>
-        <p class="reference-local-note">Lists are saved locally on this machine.</p>
       </section>
 
       <footer class="review-footer">
-        <span id="draft-count">No local drafts yet</span>
         <a href="./index.html">Back to gallery</a>
       </footer>
     </main>

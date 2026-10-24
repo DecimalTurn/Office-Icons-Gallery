@@ -50,7 +50,7 @@ test("creates saved lists and appends selected icons and IDs in the review page"
 
   await page.goto("/description-review.html#reference-lists");
   await expect(page.locator("#icon-position")).not.toHaveText("Loading icons");
-  await expect(page.locator("#reference-list-status")).toContainText("icons loaded");
+  await expect(page.locator("#reference-list-status")).toHaveText("");
   await expect(page.locator("#catalog-position")).toHaveCount(0);
   await expect(page.getByRole("button", { name: "Add position" })).toHaveCount(0);
   await page.getByLabel("Search icon ID").fill(idIcon.name);
