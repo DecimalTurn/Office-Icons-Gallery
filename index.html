@@ -20,7 +20,18 @@
       <span class="theme-icon-moon" aria-hidden="true">&#9790;</span>
     </button>
     <h1>Office Icons Gallery</h1>
-    <p class="icon-count">Total icons: <span id="icon-count">Counting...</span></p>
+    <p class="icon-count">
+      <span>Unique idMso: <span id="icon-count">Counting...</span></span>
+      <span class="unique-icon-count-group">
+        <span>Unique icons: <span id="unique-icon-count">Counting...</span></span>
+        <span class="icon-info-wrap">
+          <button class="icon-info-button" type="button" aria-label="About unique icon count" aria-describedby="icon-count-tooltip">
+            <span aria-hidden="true">i</span>
+          </button>
+          <span id="icon-count-tooltip" class="icon-info-tooltip" role="tooltip">Some idMso entries point to the same image, so the number of unique icons is lower than the number of IDs.</span>
+        </span>
+      </span>
+    </p>
     <div class="mso-filter">
       <form>
         <label for="mso-search">Search</label>
@@ -31,6 +42,12 @@
         <div class="mso-placeholder-filter">
           <input id="exclude-placeholders" type="checkbox" />
           <label for="exclude-placeholders">Exclude placeholder images</label>
+          <span class="icon-info-wrap">
+            <button class="icon-info-button" type="button" aria-label="About placeholder images" aria-describedby="placeholder-images-tooltip">
+              <span aria-hidden="true">i</span>
+            </button>
+            <span id="placeholder-images-tooltip" class="icon-info-tooltip" role="tooltip">Some idMso values return an orange-circle placeholder instead of a unique icon image.</span>
+          </span>
         </div>
         <div class="mso-placeholder-filter">
           <input id="exclude-labels" type="checkbox" />
@@ -62,6 +79,7 @@
       const excludePlaceholdersInput = document.getElementById("exclude-placeholders");
       const excludeLabelsInput = document.getElementById("exclude-labels");
       const iconCount = document.getElementById("icon-count");
+      const uniqueIconCount = document.getElementById("unique-icon-count");
       const searchResultCount = document.getElementById("search-result-count");
       const urlSearchParams = new URLSearchParams(window.location.search);
       const searchQuery = urlSearchParams.get(searchInput.name)?.trim() || "";
@@ -168,21 +186,21 @@
       function showPage() {
         const start = currentPage * pageSize;
         const end = Math.min(start + pageSize, icons.length);
-        const pageIcons = icons.slice(start, end).map(({ name }) => {
+        const pageIcons = icons.slice(start, end).map((icon) => {
           const item = document.createElement("li");
           const image = document.createElement("img");
           const link = document.createElement("a");
           const label = document.createElement("span");
 
           image.loading = "lazy";
-          image.title = name;
-          image.alt = name;
-          image.src = `./images/${encodeURIComponent(name)}.png`;
+          image.title = icon.name;
+          image.alt = icon.name;
+          image.src = `./${icon.imageAsset}`;
           link.className = "icon-link";
-          link.href = iconPageUrl(name);
-          link.title = name;
+          link.href = iconPageUrl(icon.name);
+          link.title = icon.name;
           link.appendChild(image);
-          label.textContent = name;
+          label.textContent = icon.name;
           item.append(link, label);
           return item;
         });
@@ -280,6 +298,8 @@
           const metadata = await response.json();
           icons = metadata.filter((icon) => matchesFilters(icon, searchQuery));
           iconCount.textContent = metadata.length.toLocaleString();
+          const uniqueImages = new Set(metadata.map((icon) => icon.imageAsset));
+          uniqueIconCount.textContent = uniqueImages.size.toLocaleString();
           if (searchQuery || excludePlaceholdersInput.checked) {
             const resultNoun = icons.length === 1 ? "icon" : "icons";
             searchResultCount.textContent = `${icons.length.toLocaleString()} ${resultNoun} found`;
@@ -295,6 +315,20 @@
           autocomplete.filter = (suggestion, value) => {
             const icon = metadataByName.get(suggestion.value);
             return icon ? matchesFilters(icon, value) : false;
+          };
+          autocomplete.item = (suggestion) => {
+            const item = document.createElement("li");
+            const image = document.createElement("img");
+            const label = document.createElement("span");
+            const icon = metadataByName.get(suggestion.value);
+
+            item.setAttribute("aria-selected", "false");
+            image.title = suggestion.value;
+            image.alt = suggestion.value;
+            image.src = `./${icon.imageAsset}`;
+            label.textContent = suggestion.value;
+            item.append(image, label);
+            return item;
           };
           autocomplete.list = metadata.map((icon) => icon.name);
 

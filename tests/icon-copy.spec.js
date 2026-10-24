@@ -17,6 +17,13 @@ test("copies the icon ID from the title-row button", async ({ page }) => {
   await expect(copyIdButton).toBeEnabled();
   await copyIdButton.click();
 
-  await expect(page.locator("#copy-status")).toHaveText("Copied ZoomTwoPages");
+  const copyStatus = page.locator("#copy-status");
+  await expect(copyStatus).toHaveText("✓ Copied ZoomTwoPages");
+  await expect(copyStatus.locator(".copy-status-check")).toHaveAttribute("aria-hidden", "true");
+  await expect(copyStatus).toHaveClass(/is-visible/);
+  await expect(copyStatus).toHaveCSS("opacity", "1");
+  await page.waitForTimeout(5300);
+  await expect(copyStatus).not.toHaveClass(/is-visible/);
+  await expect(copyStatus).toHaveCSS("opacity", "0");
   await expect.poll(() => page.evaluate(() => navigator.clipboard.readText())).toBe("ZoomTwoPages");
 });

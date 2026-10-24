@@ -121,7 +121,6 @@
         nameHeading.textContent = iconName;
         iconImage.alt = iconName;
         smallIconImage.alt = iconName;
-        const iconSource = `./images/${encodeURIComponent(iconName)}.png`;
         copyButton.disabled = false;
         copyIdButton.disabled = false;
         fetch("./icon-metadata.json")
@@ -134,6 +133,9 @@
           .then((metadata) => {
             const icon = metadata.find((entry) => entry.name === iconName);
             if (icon?.imageStatus === "placeholder") {
+          const iconSource = icon?.imageAsset
+            ? `./${icon.imageAsset}`
+            : `./images/${encodeURIComponent(iconName)}.png`;
               imageStatus.textContent = `Placeholder image: ${icon.placeholderLabel}. This is a shared Office fallback, not a unique icon image.`;
               imageStatus.hidden = false;
             }
@@ -151,7 +153,7 @@
 
                 link.className = "related-icon-link";
                 link.href = `./icon.html?name=${encodeURIComponent(relatedIcon.name)}`;
-                image.src = `./images/${encodeURIComponent(relatedIcon.name)}.png`;
+                image.src = `./${relatedIcon.imageAsset}`;
                 image.alt = "";
                 label.textContent = relatedIcon.name;
                 link.append(image, label);
@@ -177,7 +179,7 @@
                 link.className = "same-image-link";
                 link.href = `./icon.html?name=${encodeURIComponent(name)}`;
                 image.loading = "lazy";
-                image.src = `./images/${encodeURIComponent(name)}.png`;
+                image.src = `./${metadataByName.get(name).imageAsset}`;
                 image.alt = "";
                 label.textContent = name;
                 link.append(image, label);
@@ -201,8 +203,15 @@
               sameImageList.replaceChildren(...sameImageItems);
               sameImageSection.hidden = false;
             }
+            iconImage.src = iconSource;
+            smallIconImage.src = iconSource;
           })
-          .catch((error) => console.error("Icon metadata could not be loaded", error));
+          .catch((error) => {
+            console.error("Icon metadata could not be loaded", error);
+            const iconSource = `./images/${encodeURIComponent(iconName)}.png`;
+            iconImage.src = iconSource;
+            smallIconImage.src = iconSource;
+          });
         const handleIconError = () => {
           iconImage.hidden = true;
           smallIconImage.hidden = true;
@@ -217,8 +226,6 @@
         iconImage.addEventListener("load", () => {
           downloadButton.disabled = false;
         });
-        iconImage.src = iconSource;
-        smallIconImage.src = iconSource;
       } else {
         errorMessage.textContent = "Choose an icon from the gallery to view it here.";
         errorMessage.hidden = false;
@@ -236,12 +243,34 @@
         return copied;
       }
 
+      let copyStatusTimeout;
+
+      function setCopyStatus(message, succeeded = false) {
+        clearTimeout(copyStatusTimeout);
+        copyStatus.replaceChildren();
+        copyStatus.classList.toggle("is-success", succeeded);
+        copyStatus.classList.add("is-visible");
+
+        if (succeeded) {
+          const checkmark = document.createElement("span");
+          checkmark.className = "copy-status-check";
+          checkmark.setAttribute("aria-hidden", "true");
+          checkmark.textContent = "\u2713";
+          copyStatus.append(checkmark, document.createTextNode(` ${message}`));
+          copyStatusTimeout = window.setTimeout(() => {
+            copyStatus.classList.remove("is-visible");
+          }, 5000);
+        } else {
+          copyStatus.textContent = message;
+        }
+      }
+
       const copyIconId = async (id = iconName) => {
         if (!id || !/^[A-Za-z0-9_]+$/.test(id)) {
           return;
         }
 
-        copyStatus.textContent = "Copying icon ID...";
+        setCopyStatus("Copying icon ID...");
         try {
           if (!copyUsingSelection(id)) {
             if (!navigator.clipboard || !navigator.clipboard.writeText) {
@@ -249,9 +278,9 @@
             }
             await navigator.clipboard.writeText(id);
           }
-          copyStatus.textContent = `Copied ${id}`;
+          setCopyStatus(`Copied ${id}`, true);
         } catch {
-          copyStatus.textContent = "Could not copy the icon ID";
+          setCopyStatus("Could not copy the icon ID");
         }
       };
 
