@@ -120,7 +120,8 @@ test("edits separate keywords and confirms them with required icon-name words", 
   await page.getByRole("button", { name: "Confirm review" }).click();
 
   await expect(page.locator("#review-state")).toHaveText("Reviewed");
-  await expect(page.getByText(`Keywords saved for ${iconId}.`)).toBeVisible();
+  await expect(page.locator("#review-status")).toBeEmpty();
+  await expect(page.getByRole("button", { name: "Confirm review" })).toHaveClass(/review-button-saved/);
   expect(confirmed).toHaveLength(1);
   expect(confirmed[0].iconId).toBe(iconId);
   expect(confirmed[0].iconIds).toEqual(imageGroupIds);

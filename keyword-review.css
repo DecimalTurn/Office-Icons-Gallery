@@ -477,6 +477,13 @@
   transform: translateY(1px) scale(0.98);
 }
 
+.review-button-approved.review-button-saved {
+  border-color: #d5e87d;
+  background: #d5e87d;
+  color: #18211b;
+  box-shadow: 0 0 0 4px rgb(164 198 72 / 28%);
+}
+
 .review-button-approved:focus-visible {
   outline: 3px solid #7eae79;
   outline-offset: 3px;
@@ -499,6 +506,13 @@
   border-color: #89c593;
   background: #89c593;
   box-shadow: 0 0 0 4px rgb(159 214 168 / 24%);
+}
+
+:root[data-theme="dark"] .review-button-approved.review-button-saved {
+  border-color: #d5efad;
+  background: #d5efad;
+  color: #172319;
+  box-shadow: 0 0 0 4px rgb(159 214 168 / 28%);
 }
 
 @media (prefers-reduced-motion: reduce) {

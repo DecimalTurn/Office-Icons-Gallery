@@ -28,6 +28,18 @@
     keywordBaseline: [],
     keywordSuggestions: []
   };
+  let reviewButtonFlashTimer;
+
+  function flashReviewButton() {
+    const flashClass = "review-button-saved";
+    window.clearTimeout(reviewButtonFlashTimer);
+    elements.markReviewed.classList.remove(flashClass);
+    void elements.markReviewed.offsetWidth;
+    elements.markReviewed.classList.add(flashClass);
+    reviewButtonFlashTimer = window.setTimeout(() => {
+      elements.markReviewed.classList.remove(flashClass);
+    }, 850);
+  }
 
   async function requestJson(url, options) {
     const response = await fetch(url, options);
@@ -229,6 +241,7 @@
       return;
     }
 
+    let reviewSaved = false;
     elements.markReviewed.disabled = true;
     setStatus("Saving reviewed keywords…");
     try {
@@ -257,11 +270,15 @@
       renderKeywords(result.keywords);
       updateReviewState(true);
       updateReviewCount();
-      setStatus(`Keywords saved for ${state.currentIcon.name}.`, "success");
+      setStatus("");
+      reviewSaved = true;
     } catch (error) {
       setStatus(error.message, "error");
     } finally {
       elements.markReviewed.disabled = false;
+      if (reviewSaved) {
+        flashReviewButton();
+      }
     }
   }
 
