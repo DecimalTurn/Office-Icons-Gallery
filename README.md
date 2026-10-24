@@ -22,7 +22,7 @@ Install [Ollama for Windows](https://ollama.com/download), then download a visio
 ollama pull gemma3:4b
 ```
 
-Start the gallery with `pnpm dev` and open http://127.0.0.1:8000/description-review.html. Choose an icon, generate a visual-only draft, and edit it. **Save Draft** stores a local draft. **Mark Reviewed** writes the approved description to the tracked `icon-descriptions.json` and updates `icon-metadata.json` for every ID using the same SHA-256 image.
+Start the gallery with `pnpm dev` and open http://127.0.0.1:8000/description-review.html. Choose an icon, generate a visual-only draft, and edit it. **Save Draft** stores a local draft. **Mark Reviewed** writes the approved description to the tracked `icon-descriptions.json` and updates `icon-metadata.json` for every ID using the same SHA-256 image. It also sets those IDs to `true` in `icon-review-status.json`; the current status document explicitly starts every icon at `false`.
 
 Local drafts are stored in the ignored `.description-review-drafts.json` file. Model suggestions are never written to tracked descriptions unless you edit and mark them reviewed. Model requests go through the gallery's loopback-only server to Ollama at `127.0.0.1:11434`.
 

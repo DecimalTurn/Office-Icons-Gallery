@@ -99,12 +99,12 @@
     elements.curatedReference.hidden = entries.length === 0;
   }
 
-  function updateReviewState(draft, curatedDescriptions = {}) {
-    const isReviewed = Object.keys(curatedDescriptions).length > 0;
-    const status = isReviewed ? "Reviewed" : draft ? "Draft saved" : "Not reviewed";
+  function updateReviewState(draft, reviewed = false) {
+    const hasDraft = draft?.status === "draft";
+    const status = reviewed ? "Reviewed" : hasDraft ? "Draft saved" : "Not reviewed";
     elements.reviewState.textContent = status;
-    elements.reviewState.dataset.state = isReviewed ? "reviewed" : "";
-    elements.draftModel.textContent = draft ? `Saved with ${draft.model}` : "";
+    elements.reviewState.dataset.state = reviewed ? "reviewed" : "";
+    elements.draftModel.textContent = hasDraft ? `Saved with ${draft.model}` : "";
   }
 
   async function selectIcon(icon, position = state.icons.findIndex((entry) => entry.name === icon.name)) {
@@ -149,11 +149,11 @@
         ? `Same image IDs using this shared description: ${details.iconIds.join(", ")}`
         : "Unique image file";
       renderCuratedDescriptions(details.curatedDescriptions);
-      updateReviewState(draft, details.curatedDescriptions);
+      updateReviewState(draft, details.reviewed);
       updateCharacterCount();
       setStatus(icon.imageStatus === "placeholder"
         ? "This ID uses a shared placeholder image. Choose a real icon image before generating a description."
-        : curatedEntries.length > 0
+        : details.reviewed
           ? "This image has a tracked human-reviewed description."
           : "Inspect the artwork, edit the description, then save or mark it reviewed.");
       updateDraftSummary();
@@ -298,7 +298,7 @@
       state.drafts[imageHash] = result.draft;
       if (state.currentImage?.imageHash === imageHash && state.currentIcon?.name === iconId) {
         state.editorBaseline = description;
-        updateReviewState(result.draft, state.currentImage.curatedDescriptions);
+        updateReviewState(result.draft, state.currentImage.reviewed);
       }
       updateDraftSummary();
       setStatus("Draft saved locally.", "success");
@@ -332,9 +332,10 @@
       });
       if (state.currentImage?.imageHash === imageHash && state.currentIcon?.name === iconId) {
         state.currentImage.curatedDescriptions = result.curatedDescriptions;
+        state.currentImage.reviewed = result.reviewed;
         state.editorBaseline = description;
         renderCuratedDescriptions(result.curatedDescriptions);
-        updateReviewState(currentDraft(), result.curatedDescriptions);
+        updateReviewState(currentDraft(), result.reviewed);
       }
       setStatus(`Reviewed description saved to tracked files for ${result.iconIds.length} identical image IDs.`, "success");
     } catch (error) {

@@ -6,6 +6,7 @@ const suggestion = "A paint bucket spills beside a paintbrush.";
 async function mockReviewApi(page, { modelError = false } = {}) {
   const savedDrafts = {};
   const trackedDescriptions = {};
+  const trackedReviewStatus = {};
   await page.route("**/api/description-review/**", async (route) => {
     const request = route.request();
     const url = new URL(request.url());
@@ -28,6 +29,7 @@ async function mockReviewApi(page, { modelError = false } = {}) {
       await route.fulfill({ json: {
         iconIds: isSharedImage ? sharedIds : [iconId],
         imageHash: isSharedImage ? "shared-image-hash" : `hash-${iconId}`,
+        reviewed: trackedReviewStatus[isSharedImage ? "shared-image-hash" : `hash-${iconId}`] === true,
         curatedDescriptions,
         draft: savedDrafts[isSharedImage ? "shared-image-hash" : `hash-${iconId}`] || null
       } });
@@ -39,9 +41,12 @@ async function mockReviewApi(page, { modelError = false } = {}) {
       for (const iconId of iconIds) {
         trackedDescriptions[iconId] = body.description;
       }
+      const imageHash = sharedIds.includes(body.iconId) ? "shared-image-hash" : `hash-${body.iconId}`;
+      trackedReviewStatus[imageHash] = true;
       await route.fulfill({ json: {
-        imageHash: sharedIds.includes(body.iconId) ? "shared-image-hash" : `hash-${body.iconId}`,
+        imageHash,
         iconIds,
+        reviewed: true,
         curatedDescriptions: Object.fromEntries(iconIds.map((iconId) => [iconId, body.description]))
       } });
       return;
@@ -65,11 +70,18 @@ async function mockReviewApi(page, { modelError = false } = {}) {
     }
     await route.fulfill({ status: 404, json: { error: "Unexpected review API request" } });
   });
-  return { savedDrafts, trackedDescriptions };
+  return { savedDrafts, trackedDescriptions, trackedReviewStatus };
 }
 
 test("generates, edits, and marks one shared-image description reviewed in tracked files", async ({ page }) => {
-  const { savedDrafts, trackedDescriptions } = await mockReviewApi(page);
+  const { savedDrafts, trackedDescriptions, trackedReviewStatus } = await mockReviewApi(page);
+  savedDrafts["shared-image-hash"] = {
+    status: "reviewed",
+    model: "gemma3:4b",
+    suggestion,
+    description: "Legacy local reviewed wording",
+    iconIds: sharedIds
+  };
   await page.goto("/description-review.html");
   await expect(page.getByText("Ollama is ready. Found 1 local model.")).toBeVisible();
 
@@ -84,6 +96,8 @@ test("generates, edits, and marks one shared-image description reviewed in track
   const sharedImageOption = page.getByRole("option", { name: "ChartFormatSelection" });
   await expect(sharedImageOption).toHaveCount(1);
   await sharedImageOption.click();
+  await expect(page.getByText("Not reviewed", { exact: true })).toBeVisible();
+  await expect(page.getByText("Draft saved", { exact: true })).toHaveCount(0);
   await expect(page.getByText("Existing reviewed wording")).toBeVisible();
   await expect(page.getByText(/Same image IDs using this shared description:/)).toContainText("_3DBevelOptionsDialog");
 
@@ -97,7 +111,8 @@ test("generates, edits, and marks one shared-image description reviewed in track
   for (const iconId of sharedIds) {
     expect(trackedDescriptions[iconId]).toBe("A paint bucket spills beside a paintbrush, with blue paint visible.");
   }
-  expect(savedDrafts["shared-image-hash"]).toBeUndefined();
+  expect(trackedReviewStatus["shared-image-hash"]).toBe(true);
+  expect(savedDrafts["shared-image-hash"].description).toBe("Legacy local reviewed wording");
   await expect(page.getByRole("button", { name: "Export reviewed" })).toHaveCount(0);
 });
 

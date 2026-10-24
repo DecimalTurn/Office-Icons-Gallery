@@ -7,8 +7,10 @@ const root = path.resolve(__dirname, "..");
 const port = Number(process.env.PORT || process.argv[2] || 8000);
 const metadataPath = path.join(root, "icon-metadata.json");
 const descriptionsPath = path.join(root, "icon-descriptions.json");
+const reviewStatusPath = path.join(root, "icon-review-status.json");
 const metadata = JSON.parse(fs.readFileSync(metadataPath, "utf8"));
 const descriptions = JSON.parse(fs.readFileSync(descriptionsPath, "utf8"));
+const reviewStatus = JSON.parse(fs.readFileSync(reviewStatusPath, "utf8"));
 const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
 const iconIdsByImageHash = new Map();
 for (const icon of metadata) {
@@ -115,6 +117,7 @@ async function handleDescriptionReviewApi(request, response, requestUrl) {
       sendJson(response, 200, {
         iconIds,
         imageHash,
+        reviewed: iconIds.every((iconId) => reviewStatus[iconId] === true),
         curatedDescriptions: Object.fromEntries(iconIds
           .filter((iconId) => descriptions[iconId])
           .map((iconId) => [iconId, descriptions[iconId]])),
@@ -203,8 +206,10 @@ async function handleDescriptionReviewApi(request, response, requestUrl) {
     try {
       const { iconIds, imageHash } = getIconImage(body.iconId);
       const updatedDescriptions = { ...descriptions };
+      const updatedReviewStatus = { ...reviewStatus };
       for (const iconId of iconIds) {
         updatedDescriptions[iconId] = description;
+        updatedReviewStatus[iconId] = true;
       }
       const updatedMetadata = metadata.map((icon) => iconIds.includes(icon.name)
         ? { ...icon, description }
@@ -212,17 +217,17 @@ async function handleDescriptionReviewApi(request, response, requestUrl) {
 
       writeJsonFile(descriptionsPath, updatedDescriptions);
       writeJsonFile(metadataPath, updatedMetadata);
+      writeJsonFile(reviewStatusPath, updatedReviewStatus);
       Object.assign(descriptions, updatedDescriptions);
-      for (const icon of updatedMetadata) {
-        const currentIcon = metadataByName.get(icon.name);
-        if (currentIcon) {
-          currentIcon.description = icon.description;
-        }
+      Object.assign(reviewStatus, updatedReviewStatus);
+      for (const iconId of iconIds) {
+        metadataByName.get(iconId).description = description;
       }
 
       sendJson(response, 200, {
         imageHash,
         iconIds,
+        reviewed: true,
         curatedDescriptions: Object.fromEntries(iconIds.map((iconId) => [iconId, description]))
       });
     } catch (error) {
