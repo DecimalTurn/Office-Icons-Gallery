@@ -22,6 +22,7 @@
     generate: document.getElementById("generate-description"),
     save: document.getElementById("save-draft"),
     markReviewed: document.getElementById("mark-reviewed"),
+    markNotReviewed: document.getElementById("mark-not-reviewed"),
     draftCount: document.getElementById("draft-count")
   };
 
@@ -101,10 +102,12 @@
 
   function updateReviewState(draft, reviewed = false) {
     const hasDraft = draft?.status === "draft";
-    const status = reviewed ? "Reviewed" : hasDraft ? "Draft saved" : "Not reviewed";
-    elements.reviewState.textContent = status;
-    elements.reviewState.dataset.state = reviewed ? "reviewed" : "";
+    const stateName = reviewed ? "reviewed" : "not-reviewed";
+    elements.reviewState.textContent = reviewed ? "Reviewed" : "Not reviewed";
+    elements.reviewState.dataset.state = stateName;
     elements.draftModel.textContent = hasDraft ? `Saved with ${draft.model}` : "";
+    elements.markReviewed.hidden = false;
+    elements.markNotReviewed.hidden = !reviewed;
   }
 
   async function selectIcon(icon, position = state.icons.findIndex((entry) => entry.name === icon.name)) {
@@ -345,6 +348,33 @@
     }
   }
 
+  async function markNotReviewed() {
+    if (!state.currentIcon || !state.currentImage) {
+      return;
+    }
+
+    const iconId = state.currentIcon.name;
+    const imageHash = state.currentImage.imageHash;
+    elements.markNotReviewed.disabled = true;
+    setStatus("Resetting tracked review status…");
+    try {
+      const result = await requestJson("/api/description-review/review-status", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ iconId, reviewed: false })
+      });
+      if (state.currentImage?.imageHash === imageHash && state.currentIcon?.name === iconId) {
+        state.currentImage.reviewed = false;
+        updateReviewState(currentDraft(), false);
+      }
+      setStatus(`Review status reset for ${result.iconIds.length} identical image IDs. The descriptions were kept.`, "success");
+    } catch (error) {
+      setStatus(error.message, "error");
+    } finally {
+      elements.markNotReviewed.disabled = false;
+    }
+  }
+
   elements.search.addEventListener("input", () => showResults(elements.search.value));
   elements.search.addEventListener("keydown", (event) => {
     if (event.key === "ArrowDown" && !elements.results.hidden) {
@@ -380,6 +410,7 @@
   elements.generate.addEventListener("click", generateDescription);
   elements.save.addEventListener("click", saveDescription);
   elements.markReviewed.addEventListener("click", markReviewed);
+  elements.markNotReviewed.addEventListener("click", markNotReviewed);
   elements.editor.addEventListener("input", updateCharacterCount);
 
   async function initialize() {

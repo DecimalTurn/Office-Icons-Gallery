@@ -151,6 +151,10 @@
   cursor: not-allowed;
 }
 
+.review-button[hidden] {
+  display: none;
+}
+
 .review-icon-button:not(:disabled):hover,
 .review-button:not(:disabled):hover {
   border-color: var(--accent-color);
@@ -252,16 +256,52 @@
   font-weight: 650;
 }
 
-.review-state,
-.draft-model {
-  color: var(--muted-foreground);
-  font-size: 0.78rem;
-  text-align: right;
+.review-heading-meta {
+  display: flex;
+  flex: 0 1 auto;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  min-width: 0;
+}
+
+.review-state {
+  flex: 0 0 auto;
+  padding: 5px 9px;
+  border: 1px solid #b88932;
+  border-radius: 4px;
+  background: #fff3d6;
+  color: #684708;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
 }
 
 .review-state[data-state="reviewed"] {
-  color: var(--accent-color);
-  font-weight: 600;
+  border-color: #42734a;
+  background: #e6f3e8;
+  color: #285a30;
+}
+
+.draft-model {
+  min-width: 0;
+  color: var(--muted-foreground);
+  font-size: 0.78rem;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+:root[data-theme="dark"] .review-state[data-state="not-reviewed"] {
+  border-color: #d0aa5a;
+  background: #453717;
+  color: #f4d88f;
+}
+
+:root[data-theme="dark"] .review-state[data-state="reviewed"] {
+  border-color: #8fc694;
+  background: #203c27;
+  color: #b7e0ba;
 }
 
 .review-image-stage {

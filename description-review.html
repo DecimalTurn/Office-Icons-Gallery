@@ -59,7 +59,6 @@
         <div class="review-image-panel">
           <div class="review-panel-heading">
             <h2 id="selected-icon-name">Choose an icon</h2>
-            <span id="review-state" class="review-state">Not reviewed</span>
           </div>
           <div class="review-image-stage">
             <img id="selected-icon-image" alt="" />
@@ -76,8 +75,11 @@
 
         <div class="review-editor-panel">
           <div class="review-panel-heading">
-            <h2>Human-reviewed description</h2>
-            <span id="draft-model" class="draft-model"></span>
+            <h2>Icon description</h2>
+            <div class="review-heading-meta">
+              <span id="review-state" class="review-state" aria-live="polite">Not reviewed</span>
+              <span id="draft-model" class="draft-model"></span>
+            </div>
           </div>
           <textarea id="description-editor" rows="5" maxlength="2000" placeholder="Generate a draft or write a description…" aria-label="Editable icon description"></textarea>
           <div class="review-editor-meta">
@@ -90,6 +92,7 @@
             </button>
             <button id="save-draft" class="review-button review-button-secondary" type="button">Save draft</button>
             <button id="mark-reviewed" class="review-button review-button-approved" type="button">Mark reviewed</button>
+            <button id="mark-not-reviewed" class="review-button review-button-secondary" type="button" hidden>Mark not reviewed</button>
           </div>
           <p class="review-local-note">Save Draft stays local. Mark Reviewed updates the tracked description for every identical image ID.</p>
         </div>

@@ -237,6 +237,35 @@ async function handleDescriptionReviewApi(request, response, requestUrl) {
     return;
   }
 
+  if (pathname === "/api/description-review/review-status" && request.method === "POST") {
+    let body;
+    try {
+      body = await readJsonBody(request);
+    } catch (error) {
+      sendJson(response, 400, { error: error.message === "Request body is too large" ? error.message : "Request must contain valid JSON" });
+      return;
+    }
+    if (body.reviewed !== false) {
+      sendJson(response, 400, { error: "Review status must be false" });
+      return;
+    }
+
+    try {
+      const { iconIds, imageHash } = getIconImage(body.iconId);
+      const updatedReviewStatus = { ...reviewStatus };
+      for (const iconId of iconIds) {
+        updatedReviewStatus[iconId] = false;
+      }
+      writeJsonFile(reviewStatusPath, updatedReviewStatus);
+      Object.assign(reviewStatus, updatedReviewStatus);
+      sendJson(response, 200, { imageHash, iconIds, reviewed: false });
+    } catch (error) {
+      const statusCode = error.message === "That icon ID was not found" ? 404 : 500;
+      sendJson(response, statusCode, { error: error.message || "Could not reset tracked review status" });
+    }
+    return;
+  }
+
   if (pathname === "/api/description-review/drafts" && request.method === "POST") {
     let body;
     try {
