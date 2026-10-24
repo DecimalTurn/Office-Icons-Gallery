@@ -5,8 +5,10 @@ const crypto = require("node:crypto");
 
 const root = path.resolve(__dirname, "..");
 const port = Number(process.env.PORT || process.argv[2] || 8000);
-const metadata = JSON.parse(fs.readFileSync(path.join(root, "icon-metadata.json"), "utf8"));
-const descriptions = JSON.parse(fs.readFileSync(path.join(root, "icon-descriptions.json"), "utf8"));
+const metadataPath = path.join(root, "icon-metadata.json");
+const descriptionsPath = path.join(root, "icon-descriptions.json");
+const metadata = JSON.parse(fs.readFileSync(metadataPath, "utf8"));
+const descriptions = JSON.parse(fs.readFileSync(descriptionsPath, "utf8"));
 const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
 const iconIdsByImageHash = new Map();
 for (const icon of metadata) {
@@ -54,6 +56,12 @@ function readDraftStore() {
     }
     throw error;
   }
+}
+
+function writeJsonFile(filePath, value) {
+  const temporaryPath = `${filePath}.tmp`;
+  fs.writeFileSync(temporaryPath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
+  fs.renameSync(temporaryPath, filePath);
 }
 
 function getIconImage(iconId) {
@@ -174,6 +182,52 @@ async function handleDescriptionReviewApi(request, response, requestUrl) {
         ? "The model request timed out. Try again or choose a smaller model."
         : error.message;
       sendJson(response, statusCode, { error: message || "Could not reach Ollama at http://127.0.0.1:11434" });
+    }
+    return;
+  }
+
+  if (pathname === "/api/description-review/review" && request.method === "POST") {
+    let body;
+    try {
+      body = await readJsonBody(request);
+    } catch (error) {
+      sendJson(response, 400, { error: error.message === "Request body is too large" ? error.message : "Request must contain valid JSON" });
+      return;
+    }
+    const description = typeof body.description === "string" ? body.description.trim() : "";
+    if (!description || description.length > 2_000) {
+      sendJson(response, 400, { error: "Provide a description of no more than 2,000 characters" });
+      return;
+    }
+
+    try {
+      const { iconIds, imageHash } = getIconImage(body.iconId);
+      const updatedDescriptions = { ...descriptions };
+      for (const iconId of iconIds) {
+        updatedDescriptions[iconId] = description;
+      }
+      const updatedMetadata = metadata.map((icon) => iconIds.includes(icon.name)
+        ? { ...icon, description }
+        : icon);
+
+      writeJsonFile(descriptionsPath, updatedDescriptions);
+      writeJsonFile(metadataPath, updatedMetadata);
+      Object.assign(descriptions, updatedDescriptions);
+      for (const icon of updatedMetadata) {
+        const currentIcon = metadataByName.get(icon.name);
+        if (currentIcon) {
+          currentIcon.description = icon.description;
+        }
+      }
+
+      sendJson(response, 200, {
+        imageHash,
+        iconIds,
+        curatedDescriptions: Object.fromEntries(iconIds.map((iconId) => [iconId, description]))
+      });
+    } catch (error) {
+      const statusCode = error.message === "That icon ID was not found" ? 404 : 500;
+      sendJson(response, statusCode, { error: error.message || "Could not update tracked icon descriptions" });
     }
     return;
   }

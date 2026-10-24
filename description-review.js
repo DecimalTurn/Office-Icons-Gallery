@@ -22,7 +22,6 @@
     generate: document.getElementById("generate-description"),
     save: document.getElementById("save-draft"),
     markReviewed: document.getElementById("mark-reviewed"),
-    exportReviewed: document.getElementById("export-reviewed"),
     draftCount: document.getElementById("draft-count")
   };
 
@@ -80,10 +79,10 @@
 
   function updateDraftSummary() {
     const drafts = Object.values(state.drafts);
-    const reviewedCount = drafts.filter((draft) => draft.status === "reviewed").length;
-    const draftCount = drafts.length - reviewedCount;
-    elements.draftCount.textContent = `${reviewedCount} reviewed, ${draftCount} saved drafts`;
-    elements.exportReviewed.disabled = reviewedCount === 0;
+    const draftCount = drafts.filter((draft) => draft.status === "draft").length;
+    elements.draftCount.textContent = draftCount === 0
+      ? "No local drafts yet"
+      : `${draftCount} saved drafts`;
   }
 
   function updateCharacterCount() {
@@ -100,10 +99,11 @@
     elements.curatedReference.hidden = entries.length === 0;
   }
 
-  function updateReviewState(draft) {
-    const status = draft?.status === "reviewed" ? "Reviewed" : draft ? "Draft saved" : "Not reviewed";
+  function updateReviewState(draft, curatedDescriptions = {}) {
+    const isReviewed = Object.keys(curatedDescriptions).length > 0;
+    const status = isReviewed ? "Reviewed" : draft ? "Draft saved" : "Not reviewed";
     elements.reviewState.textContent = status;
-    elements.reviewState.dataset.state = draft?.status === "reviewed" ? "reviewed" : "";
+    elements.reviewState.dataset.state = isReviewed ? "reviewed" : "";
     elements.draftModel.textContent = draft ? `Saved with ${draft.model}` : "";
   }
 
@@ -137,7 +137,9 @@
         state.drafts[details.imageHash] = draft;
       }
       const curatedEntries = Object.entries(details.curatedDescriptions || {});
-      const initialDescription = draft?.description || curatedEntries[0]?.[1] || "";
+      const initialDescription = draft?.status === "draft"
+        ? draft.description
+        : curatedEntries[0]?.[1] || draft?.description || "";
       state.editorBaseline = initialDescription;
       state.suggestion = draft?.suggestion || "";
       state.modelUsed = draft?.model || "human-edited";
@@ -147,12 +149,12 @@
         ? `Same image IDs using this shared description: ${details.iconIds.join(", ")}`
         : "Unique image file";
       renderCuratedDescriptions(details.curatedDescriptions);
-      updateReviewState(draft);
+      updateReviewState(draft, details.curatedDescriptions);
       updateCharacterCount();
       setStatus(icon.imageStatus === "placeholder"
         ? "This ID uses a shared placeholder image. Choose a real icon image before generating a description."
-        : draft?.status === "reviewed"
-          ? "This image has a human-reviewed local description."
+        : curatedEntries.length > 0
+          ? "This image has a tracked human-reviewed description."
           : "Inspect the artwork, edit the description, then save or mark it reviewed.");
       updateDraftSummary();
     } catch (error) {
@@ -265,7 +267,7 @@
     }
   }
 
-  async function saveDescription(status) {
+  async function saveDescription() {
     if (!state.currentIcon || !state.currentImage) {
       return;
     }
@@ -278,9 +280,9 @@
     const iconId = state.currentIcon.name;
     const imageHash = state.currentImage.imageHash;
     const model = state.modelUsed;
-    const button = status === "reviewed" ? elements.markReviewed : elements.save;
+    const button = elements.save;
     button.disabled = true;
-    setStatus(status === "reviewed" ? "Saving reviewed description…" : "Saving local draft…");
+    setStatus("Saving local draft…");
     try {
       const result = await requestJson("/api/description-review/drafts", {
         method: "POST",
@@ -290,18 +292,16 @@
           model,
           suggestion: state.suggestion,
           description,
-          status
+          status: "draft"
         })
       });
       state.drafts[imageHash] = result.draft;
       if (state.currentImage?.imageHash === imageHash && state.currentIcon?.name === iconId) {
         state.editorBaseline = description;
-        updateReviewState(result.draft);
+        updateReviewState(result.draft, state.currentImage.curatedDescriptions);
       }
       updateDraftSummary();
-      setStatus(status === "reviewed"
-        ? "Marked reviewed. This does not change the curated description source."
-        : "Draft saved locally.", "success");
+      setStatus("Draft saved locally.", "success");
     } catch (error) {
       setStatus(error.message, "error");
     } finally {
@@ -309,22 +309,39 @@
     }
   }
 
-  function exportReviewed() {
-    const reviewed = Object.values(state.drafts).filter((draft) => draft.status === "reviewed");
-    const descriptions = {};
-    for (const draft of reviewed) {
-      for (const iconId of draft.iconIds) {
-        descriptions[iconId] = draft.description;
-      }
+  async function markReviewed() {
+    if (!state.currentIcon || !state.currentImage) {
+      return;
     }
-    const blob = new Blob([`${JSON.stringify(descriptions, null, 2)}\n`], { type: "application/json" });
-    const downloadUrl = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = downloadUrl;
-    link.download = "reviewed-icon-descriptions.json";
-    link.click();
-    URL.revokeObjectURL(downloadUrl);
-    setStatus(`Exported ${Object.keys(descriptions).length} reviewed icon descriptions.`, "success");
+    const description = elements.editor.value.trim();
+    if (!description) {
+      setStatus("Enter a description before marking it reviewed.", "error");
+      elements.editor.focus();
+      return;
+    }
+
+    const iconId = state.currentIcon.name;
+    const imageHash = state.currentImage.imageHash;
+    elements.markReviewed.disabled = true;
+    setStatus("Saving reviewed description to the tracked source…");
+    try {
+      const result = await requestJson("/api/description-review/review", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ iconId, description })
+      });
+      if (state.currentImage?.imageHash === imageHash && state.currentIcon?.name === iconId) {
+        state.currentImage.curatedDescriptions = result.curatedDescriptions;
+        state.editorBaseline = description;
+        renderCuratedDescriptions(result.curatedDescriptions);
+        updateReviewState(currentDraft(), result.curatedDescriptions);
+      }
+      setStatus(`Reviewed description saved to tracked files for ${result.iconIds.length} identical image IDs.`, "success");
+    } catch (error) {
+      setStatus(error.message, "error");
+    } finally {
+      elements.markReviewed.disabled = false;
+    }
   }
 
   elements.search.addEventListener("input", () => showResults(elements.search.value));
@@ -360,9 +377,8 @@
   });
   elements.refreshModels.addEventListener("click", refreshModels);
   elements.generate.addEventListener("click", generateDescription);
-  elements.save.addEventListener("click", () => saveDescription("draft"));
-  elements.markReviewed.addEventListener("click", () => saveDescription("reviewed"));
-  elements.exportReviewed.addEventListener("click", exportReviewed);
+  elements.save.addEventListener("click", saveDescription);
+  elements.markReviewed.addEventListener("click", markReviewed);
   elements.editor.addEventListener("input", updateCharacterCount);
 
   async function initialize() {

@@ -1,4 +1,3 @@
-const fs = require("node:fs");
 const { test, expect } = require("@playwright/test");
 
 const sharedIds = ["ChartFormatSelection", "_3DBevelOptionsDialog", "_3DRotationOptionsDialog"];
@@ -6,6 +5,7 @@ const suggestion = "A paint bucket spills beside a paintbrush.";
 
 async function mockReviewApi(page, { modelError = false } = {}) {
   const savedDrafts = {};
+  const trackedDescriptions = {};
   await page.route("**/api/description-review/**", async (route) => {
     const request = route.request();
     const url = new URL(request.url());
@@ -22,11 +22,27 @@ async function mockReviewApi(page, { modelError = false } = {}) {
     if (url.pathname.endsWith("/image")) {
       const iconId = url.searchParams.get("name");
       const isSharedImage = sharedIds.includes(iconId);
+      const curatedDescriptions = isSharedImage
+        ? { _3DBevelOptionsDialog: trackedDescriptions._3DBevelOptionsDialog || "Existing reviewed wording" }
+        : {};
       await route.fulfill({ json: {
         iconIds: isSharedImage ? sharedIds : [iconId],
         imageHash: isSharedImage ? "shared-image-hash" : `hash-${iconId}`,
-        curatedDescriptions: isSharedImage ? { _3DBevelOptionsDialog: "Existing reviewed wording" } : {},
+        curatedDescriptions,
         draft: savedDrafts[isSharedImage ? "shared-image-hash" : `hash-${iconId}`] || null
+      } });
+      return;
+    }
+    if (url.pathname.endsWith("/review") && request.method() === "POST") {
+      const body = request.postDataJSON();
+      const iconIds = sharedIds.includes(body.iconId) ? sharedIds : [body.iconId];
+      for (const iconId of iconIds) {
+        trackedDescriptions[iconId] = body.description;
+      }
+      await route.fulfill({ json: {
+        imageHash: sharedIds.includes(body.iconId) ? "shared-image-hash" : `hash-${body.iconId}`,
+        iconIds,
+        curatedDescriptions: Object.fromEntries(iconIds.map((iconId) => [iconId, body.description]))
       } });
       return;
     }
@@ -49,11 +65,11 @@ async function mockReviewApi(page, { modelError = false } = {}) {
     }
     await route.fulfill({ status: 404, json: { error: "Unexpected review API request" } });
   });
-  return savedDrafts;
+  return { savedDrafts, trackedDescriptions };
 }
 
-test("generates, edits, reviews, and exports one shared-image description", async ({ page }) => {
-  await mockReviewApi(page);
+test("generates, edits, and marks one shared-image description reviewed in tracked files", async ({ page }) => {
+  const { savedDrafts, trackedDescriptions } = await mockReviewApi(page);
   await page.goto("/description-review.html");
   await expect(page.getByText("Ollama is ready. Found 1 local model.")).toBeVisible();
 
@@ -76,17 +92,30 @@ test("generates, edits, reviews, and exports one shared-image description", asyn
   await expect(editor).toHaveValue(suggestion);
   await editor.fill("A paint bucket spills beside a paintbrush, with blue paint visible.");
   await page.getByRole("button", { name: "Mark reviewed" }).click();
-  await expect(page.getByText("Marked reviewed. This does not change the curated description source.")).toBeVisible();
+  await expect(page.getByText("Reviewed description saved to tracked files for 3 identical image IDs.")).toBeVisible();
   await expect(page.getByText("Reviewed", { exact: true })).toBeVisible();
-
-  const downloadPromise = page.waitForEvent("download");
-  await page.getByRole("button", { name: "Export reviewed" }).click();
-  const download = await downloadPromise;
-  const exportContent = JSON.parse(fs.readFileSync(await download.path(), "utf8"));
-  expect(download.suggestedFilename()).toBe("reviewed-icon-descriptions.json");
   for (const iconId of sharedIds) {
-    expect(exportContent[iconId]).toBe("A paint bucket spills beside a paintbrush, with blue paint visible.");
+    expect(trackedDescriptions[iconId]).toBe("A paint bucket spills beside a paintbrush, with blue paint visible.");
   }
+  expect(savedDrafts["shared-image-hash"]).toBeUndefined();
+  await expect(page.getByRole("button", { name: "Export reviewed" })).toHaveCount(0);
+});
+
+test("saves a draft locally without changing tracked descriptions", async ({ page }) => {
+  const { savedDrafts, trackedDescriptions } = await mockReviewApi(page);
+  await page.goto("/description-review.html");
+  await expect(page.getByText("Ollama is ready. Found 1 local model.")).toBeVisible();
+
+  const iconSearch = page.getByLabel("Icon ID");
+  await iconSearch.fill("ChartFormatSelection");
+  await page.getByRole("option", { name: "ChartFormatSelection" }).click();
+  const editor = page.getByRole("textbox", { name: "Editable icon description" });
+  await editor.fill("A local draft for this shared image.");
+  await page.getByRole("button", { name: "Save draft" }).click();
+
+  await expect(page.getByText("Draft saved locally.")).toBeVisible();
+  expect(savedDrafts["shared-image-hash"].description).toBe("A local draft for this shared image.");
+  expect(trackedDescriptions).toEqual({});
 });
 
 test("shows the local Ollama connection error", async ({ page }) => {
