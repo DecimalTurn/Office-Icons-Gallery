@@ -2,7 +2,7 @@ const { test, expect } = require("@playwright/test");
 const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
-const { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readReviewStatus, requiredNameKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
+const { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, requiredNameKeywords, updateMetadataKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
 
 test("metadata contains only keywords and includes every icon-name word", async () => {
   const reviewedKeywords = require("../icon-keywords.json");
@@ -177,6 +177,31 @@ test("review confirmation uses status restored after the server started", () => 
     const nextStatus = updateReviewStatus(readReviewStatus(statusPath), "_0", true);
     expect(nextStatus).toEqual({ _0: true, _0PercentComplete: false, _1: false });
     expect(cachedAtStartup._0PercentComplete).toBe(true);
+  } finally {
+    fs.rmSync(temporaryDirectory, { recursive: true, force: true });
+  }
+});
+
+test("keyword confirmation preserves metadata restored after the server started", () => {
+  const temporaryDirectory = fs.mkdtempSync(path.join(os.tmpdir(), "icon-metadata-"));
+  const metadataPath = path.join(temporaryDirectory, "icon-metadata.json");
+  try {
+    fs.writeFileSync(metadataPath, JSON.stringify([
+      { name: "_0", keywords: ["stale"], imageSha256: "selected" },
+      { name: "Unrelated", keywords: ["stale"], relatedIcons: ["OldRelated"] }
+    ]));
+    const cachedAtStartup = readJsonFile(metadataPath);
+    fs.writeFileSync(metadataPath, JSON.stringify([
+      { name: "_0", keywords: ["zero"], imageSha256: "selected" },
+      { name: "Unrelated", keywords: ["current"], relatedIcons: ["CurrentRelated"] }
+    ]));
+
+    const nextMetadata = updateMetadataKeywords(readJsonFile(metadataPath), ["_0"], ["reviewed", "zero"]);
+    expect(nextMetadata).toEqual([
+      { name: "_0", keywords: ["reviewed", "zero"], imageSha256: "selected" },
+      { name: "Unrelated", keywords: ["current"], relatedIcons: ["CurrentRelated"] }
+    ]);
+    expect(cachedAtStartup[1].keywords).toEqual(["stale"]);
   } finally {
     fs.rmSync(temporaryDirectory, { recursive: true, force: true });
   }

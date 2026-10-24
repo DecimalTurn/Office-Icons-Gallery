@@ -47,8 +47,17 @@ function updateReviewStatus(reviewStatus, iconId, reviewed) {
   return { ...reviewStatus, [iconId]: reviewed };
 }
 
-function readReviewStatus(filePath) {
+function updateMetadataKeywords(metadata, iconIds, keywords) {
+  const iconIdSet = new Set(iconIds);
+  return metadata.map((entry) => iconIdSet.has(entry.name) ? { ...entry, keywords } : entry);
+}
+
+function readJsonFile(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
 }
 
-module.exports = { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readReviewStatus, requiredNameKeywords, splitIconName, updateReviewStatus };
+function readReviewStatus(filePath) {
+  return readJsonFile(filePath);
+}
+
+module.exports = { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, requiredNameKeywords, splitIconName, updateMetadataKeywords, updateReviewStatus };

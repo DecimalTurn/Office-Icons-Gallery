@@ -1,7 +1,7 @@
 const http = require("node:http");
 const fs = require("node:fs");
 const path = require("node:path");
-const { normalizeReviewedKeywordGroup, readReviewStatus, updateReviewStatus } = require("./keyword-utils");
+const { normalizeReviewedKeywordGroup, readJsonFile, readReviewStatus, updateMetadataKeywords, updateReviewStatus } = require("./keyword-utils");
 
 const root = path.resolve(__dirname, "..");
 const port = Number(process.env.PORT || process.argv[2] || 8000);
@@ -10,17 +10,7 @@ const keywordsPath = path.join(root, "icon-keywords.json");
 const reviewStatusPath = path.join(root, "icon-review-status.json");
 const referenceListsPath = path.join(root, ".reference-icon-lists.json");
 const metadata = JSON.parse(fs.readFileSync(metadataPath, "utf8"));
-const reviewedKeywords = JSON.parse(fs.readFileSync(keywordsPath, "utf8"));
 const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
-const iconIdsByImageHash = new Map();
-for (const icon of metadata) {
-  if (icon.imageStatus === "placeholder") {
-    continue;
-  }
-  const iconIds = iconIdsByImageHash.get(icon.imageSha256) || [];
-  iconIds.push(icon.name);
-  iconIdsByImageHash.set(icon.imageSha256, iconIds);
-}
 const contentTypes = {
   ".css": "text/css; charset=utf-8",
   ".html": "text/html; charset=utf-8",
@@ -140,30 +130,31 @@ async function handleApi(request, response, requestUrl) {
       return true;
     }
     const iconId = typeof body.iconId === "string" ? body.iconId : "";
-    if (!metadataByName.has(iconId)) {
-      sendJson(response, 404, { error: "That icon ID was not found" });
-      return true;
-    }
 
     try {
-      const icon = metadataByName.get(iconId);
-      const iconIds = icon.imageStatus === "placeholder"
+      const currentMetadata = readJsonFile(metadataPath);
+      const currentMetadataByName = new Map(currentMetadata.map((entry) => [entry.name, entry]));
+      const icon = currentMetadataByName.get(iconId);
+      if (!icon) {
+        sendJson(response, 404, { error: "That icon ID was not found" });
+        return true;
+      }
+      const iconIds = icon.imageStatus === "placeholder" || !icon.imageSha256
         ? [iconId]
-        : iconIdsByImageHash.get(icon.imageSha256) || [iconId];
-      const iconIdSet = new Set(iconIds);
+        : currentMetadata.filter((entry) => entry.imageStatus !== "placeholder" && entry.imageSha256 === icon.imageSha256).map((entry) => entry.name);
       const keywords = normalizeReviewedKeywordGroup(iconIds, body.keywords);
-      const nextKeywords = { ...reviewedKeywords };
+      const nextKeywords = { ...readJsonFile(keywordsPath) };
       for (const groupIconId of iconIds) {
         nextKeywords[groupIconId] = keywords;
       }
       const nextReviewStatus = updateReviewStatus(readReviewStatus(reviewStatusPath), iconId, true);
-      const nextMetadata = metadata.map((entry) => iconIdSet.has(entry.name) ? { ...entry, keywords } : entry);
+      const nextMetadata = updateMetadataKeywords(currentMetadata, iconIds, keywords);
       writeJsonFile(keywordsPath, nextKeywords);
       writeJsonFile(metadataPath, nextMetadata);
       writeJsonFile(reviewStatusPath, nextReviewStatus);
-      for (const groupIconId of iconIds) {
-        reviewedKeywords[groupIconId] = keywords;
-        metadataByName.get(groupIconId).keywords = keywords;
+      metadataByName.clear();
+      for (const entry of nextMetadata) {
+        metadataByName.set(entry.name, entry);
       }
       sendJson(response, 200, { iconId, iconIds, keywords, reviewed: true });
     } catch (error) {
