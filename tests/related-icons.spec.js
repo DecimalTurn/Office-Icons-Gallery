@@ -1,5 +1,8 @@
 const { test, expect } = require("@playwright/test");
-const { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, requiredNameKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
+const fs = require("node:fs");
+const os = require("node:os");
+const path = require("node:path");
+const { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readReviewStatus, requiredNameKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
 
 test("metadata contains only keywords and includes every icon-name word", async () => {
   const reviewedKeywords = require("../icon-keywords.json");
@@ -161,4 +164,20 @@ test("review confirmation changes only the selected icon status", () => {
     _1: true
   });
   expect(initialStatus._0).toBe(false);
+});
+
+test("review confirmation uses status restored after the server started", () => {
+  const temporaryDirectory = fs.mkdtempSync(path.join(os.tmpdir(), "icon-review-status-"));
+  const statusPath = path.join(temporaryDirectory, "icon-review-status.json");
+  try {
+    fs.writeFileSync(statusPath, JSON.stringify({ _0: false, _0PercentComplete: true }));
+    const cachedAtStartup = readReviewStatus(statusPath);
+    fs.writeFileSync(statusPath, JSON.stringify({ _0: false, _0PercentComplete: false, _1: false }));
+
+    const nextStatus = updateReviewStatus(readReviewStatus(statusPath), "_0", true);
+    expect(nextStatus).toEqual({ _0: true, _0PercentComplete: false, _1: false });
+    expect(cachedAtStartup._0PercentComplete).toBe(true);
+  } finally {
+    fs.rmSync(temporaryDirectory, { recursive: true, force: true });
+  }
 });

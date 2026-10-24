@@ -1,7 +1,7 @@
 const http = require("node:http");
 const fs = require("node:fs");
 const path = require("node:path");
-const { normalizeReviewedKeywordGroup, updateReviewStatus } = require("./keyword-utils");
+const { normalizeReviewedKeywordGroup, readReviewStatus, updateReviewStatus } = require("./keyword-utils");
 
 const root = path.resolve(__dirname, "..");
 const port = Number(process.env.PORT || process.argv[2] || 8000);
@@ -11,7 +11,6 @@ const reviewStatusPath = path.join(root, "icon-review-status.json");
 const referenceListsPath = path.join(root, ".reference-icon-lists.json");
 const metadata = JSON.parse(fs.readFileSync(metadataPath, "utf8"));
 const reviewedKeywords = JSON.parse(fs.readFileSync(keywordsPath, "utf8"));
-const reviewStatus = JSON.parse(fs.readFileSync(reviewStatusPath, "utf8"));
 const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
 const iconIdsByImageHash = new Map();
 for (const icon of metadata) {
@@ -157,7 +156,7 @@ async function handleApi(request, response, requestUrl) {
       for (const groupIconId of iconIds) {
         nextKeywords[groupIconId] = keywords;
       }
-      const nextReviewStatus = updateReviewStatus(reviewStatus, iconId, true);
+      const nextReviewStatus = updateReviewStatus(readReviewStatus(reviewStatusPath), iconId, true);
       const nextMetadata = metadata.map((entry) => iconIdSet.has(entry.name) ? { ...entry, keywords } : entry);
       writeJsonFile(keywordsPath, nextKeywords);
       writeJsonFile(metadataPath, nextMetadata);
@@ -166,7 +165,6 @@ async function handleApi(request, response, requestUrl) {
         reviewedKeywords[groupIconId] = keywords;
         metadataByName.get(groupIconId).keywords = keywords;
       }
-      reviewStatus[iconId] = true;
       sendJson(response, 200, { iconId, iconIds, keywords, reviewed: true });
     } catch (error) {
       sendJson(response, 400, { error: error.message || "Could not save reviewed keywords" });
@@ -187,9 +185,8 @@ async function handleApi(request, response, requestUrl) {
       return true;
     }
     try {
-      const nextReviewStatus = updateReviewStatus(reviewStatus, body.iconId, false);
+      const nextReviewStatus = updateReviewStatus(readReviewStatus(reviewStatusPath), body.iconId, false);
       writeJsonFile(reviewStatusPath, nextReviewStatus);
-      reviewStatus[body.iconId] = false;
       sendJson(response, 200, { iconId: body.iconId, reviewed: false });
     } catch (error) {
       sendJson(response, 500, { error: error.message || "Could not reset review status" });

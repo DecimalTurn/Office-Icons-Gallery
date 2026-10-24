@@ -1,3 +1,5 @@
+const fs = require("node:fs");
+
 function splitIconName(name = "") {
   return name
     .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
@@ -45,4 +47,8 @@ function updateReviewStatus(reviewStatus, iconId, reviewed) {
   return { ...reviewStatus, [iconId]: reviewed };
 }
 
-module.exports = { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, requiredNameKeywords, splitIconName, updateReviewStatus };
+function readReviewStatus(filePath) {
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+module.exports = { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readReviewStatus, requiredNameKeywords, splitIconName, updateReviewStatus };
