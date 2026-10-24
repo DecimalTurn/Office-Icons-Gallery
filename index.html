@@ -20,7 +20,18 @@
       <span class="theme-icon-moon" aria-hidden="true">&#9790;</span>
     </button>
     <h1>Office Icons Gallery</h1>
-    <p class="icon-count">Total icons: <span id="icon-count">Counting...</span></p>
+    <p class="icon-count">
+      <span>Unique idMso: <span id="icon-count">Counting...</span></span>
+      <span class="unique-icon-count-group">
+        <span>Unique icons: <span id="unique-icon-count">Counting...</span></span>
+        <span class="icon-info-wrap">
+          <button class="icon-info-button" type="button" aria-label="About unique icon count" aria-describedby="icon-count-tooltip">
+            <span aria-hidden="true">i</span>
+          </button>
+          <span id="icon-count-tooltip" class="icon-info-tooltip" role="tooltip">Some idMso entries point to the same image, so the number of unique icons is lower than the number of IDs.</span>
+        </span>
+      </span>
+    </p>
     <div class="mso-filter">
       <form>
         <label for="mso-search">Search</label>
@@ -57,6 +68,7 @@
       const searchClearButton = document.getElementById("mso-search-clear");
       const excludePlaceholdersInput = document.getElementById("exclude-placeholders");
       const iconCount = document.getElementById("icon-count");
+      const uniqueIconCount = document.getElementById("unique-icon-count");
       const searchResultCount = document.getElementById("search-result-count");
       const urlSearchParams = new URLSearchParams(window.location.search);
       const searchQuery = urlSearchParams.get(searchInput.name)?.trim() || "";
@@ -263,6 +275,16 @@
           const metadata = await response.json();
           icons = metadata.filter((icon) => matchesFilters(icon, searchQuery));
           iconCount.textContent = metadata.length.toLocaleString();
+          const uniqueImages = new Set(metadata.map((icon) => {
+            if (icon.imageSha256) {
+              return `hash:${icon.imageSha256}`;
+            }
+            if (icon.sameImageIds?.length) {
+              return `group:${[icon.name, ...icon.sameImageIds].sort().join("|")}`;
+            }
+            return `id:${icon.name}`;
+          }));
+          uniqueIconCount.textContent = uniqueImages.size.toLocaleString();
           if (searchQuery || excludePlaceholdersInput.checked) {
             const resultNoun = icons.length === 1 ? "icon" : "icons";
             searchResultCount.textContent = `${icons.length.toLocaleString()} ${resultNoun} found`;

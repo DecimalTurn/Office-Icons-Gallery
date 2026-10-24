@@ -9,11 +9,21 @@ test("submits a search query and filters the gallery after reload", async ({ pag
 
   await expect(page).toHaveURL(/index\.html\?SearchMso=sun$/);
   await expect(page.locator("#mso-search")).toHaveValue("sun");
-    const totalCount = await page.evaluate(async () => {
+    const counts = await page.evaluate(async () => {
       const metadata = await (await fetch("./icon-metadata.json")).json();
-      return metadata.length.toLocaleString();
+      const imageKeys = metadata.map((icon) => icon.imageSha256
+        ? `hash:${icon.imageSha256}`
+        : icon.sameImageIds?.length
+          ? `group:${[icon.name, ...icon.sameImageIds].sort().join("|")}`
+          : `id:${icon.name}`);
+      return {
+        ids: metadata.length.toLocaleString(),
+        uniqueImages: new Set(imageKeys).size.toLocaleString()
+      };
     });
-    await expect(page.locator("#icon-count")).toHaveText(totalCount);
+    expect(counts).toEqual({ ids: "9,324", uniqueImages: "3,407" });
+    await expect(page.locator("#icon-count")).toHaveText(counts.ids);
+    await expect(page.locator("#unique-icon-count")).toHaveText(counts.uniqueImages);
     await expect(page.locator("#search-result-count")).toHaveText("2 icons found");
   await expect(search).not.toBeFocused();
   await expect(page.locator(".awesomplete > ul")).toBeHidden();
@@ -42,6 +52,20 @@ test("limits suggestions to 30 and submits from the See all results row", async 
     return Number.parseInt(element.textContent.replaceAll(",", ""), 10);
   });
   expect(resultCount).toBeGreaterThan(30);
+});
+
+test("explains why the number of unique icons is lower than the idMso count", async ({ page }) => {
+  await page.goto("/index.html");
+
+  const infoButton = page.getByRole("button", { name: "About unique icon count" });
+  const tooltip = page.getByRole("tooltip");
+
+  await infoButton.hover();
+  await expect(tooltip).toBeVisible();
+  await expect(tooltip).toContainText("Some idMso entries point to the same image");
+
+  await infoButton.focus();
+  await expect(tooltip).toBeVisible();
 });
 
 test("clears an active search and returns to the unfiltered gallery", async ({ page }) => {
