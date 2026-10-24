@@ -440,6 +440,37 @@ li span {
   float: none;
 }
 
+.mso-list.labels-hidden {
+  grid-template-columns: repeat(auto-fill, 36px);
+  gap: 4px;
+  justify-content: start;
+}
+
+.mso-list.labels-hidden li {
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  gap: 0;
+}
+
+.mso-list.labels-hidden li span {
+  display: none;
+}
+
+.mso-list.labels-hidden .icon-link {
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 0;
+  border-radius: 4px;
+}
+
+.mso-list.labels-hidden .icon-link:hover,
+.mso-list.labels-hidden .icon-link:focus-visible {
+  background: var(--control-background);
+  outline-offset: 0;
+}
+
 .icon-detail-page {
   display: flex;
   flex-direction: column;

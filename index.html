@@ -32,6 +32,10 @@
           <input id="exclude-placeholders" type="checkbox" />
           <label for="exclude-placeholders">Exclude placeholder images</label>
         </div>
+        <div class="mso-placeholder-filter">
+          <input id="exclude-labels" type="checkbox" />
+          <label for="exclude-labels">Exclude image labels</label>
+        </div>
       </form>
       <p id="search-result-count" class="search-result-count" role="status" aria-live="polite" hidden></p>
     </div>
@@ -56,6 +60,7 @@
       const searchInput = document.getElementById("mso-search");
       const searchClearButton = document.getElementById("mso-search-clear");
       const excludePlaceholdersInput = document.getElementById("exclude-placeholders");
+      const excludeLabelsInput = document.getElementById("exclude-labels");
       const iconCount = document.getElementById("icon-count");
       const searchResultCount = document.getElementById("search-result-count");
       const urlSearchParams = new URLSearchParams(window.location.search);
@@ -69,6 +74,8 @@
         searchInput.focus();
       }
       excludePlaceholdersInput.checked = urlSearchParams.get("ExcludePlaceholders") === "1";
+      excludeLabelsInput.checked = urlSearchParams.get("ExcludeLabels") === "1";
+      iconList.classList.toggle("labels-hidden", excludeLabelsInput.checked);
       updateSearchClearButton();
 
       function updateSearchClearButton() {
@@ -107,12 +114,21 @@
         } else {
           url.searchParams.delete("ExcludePlaceholders");
         }
+        if (excludeLabelsInput.checked) {
+          url.searchParams.set("ExcludeLabels", "1");
+        } else {
+          url.searchParams.delete("ExcludeLabels");
+        }
         url.searchParams.delete("Page");
 
         window.location.href = url.href;
       });
 
       excludePlaceholdersInput.addEventListener("change", () => {
+        searchInput.form.requestSubmit();
+      });
+
+      excludeLabelsInput.addEventListener("change", () => {
         searchInput.form.requestSubmit();
       });
 
@@ -164,6 +180,7 @@
           image.src = `./images/${encodeURIComponent(name)}.png`;
           link.className = "icon-link";
           link.href = iconPageUrl(name);
+          link.title = name;
           link.appendChild(image);
           label.textContent = name;
           item.append(link, label);
