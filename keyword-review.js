@@ -154,6 +154,17 @@
     state.activeResult = -1;
   }
 
+  function uniqueRealImageIcons(metadata) {
+    const seenImageHashes = new Set();
+    return metadata.filter((icon) => {
+      if (icon.imageStatus === "placeholder" || !icon.imageSha256 || seenImageHashes.has(icon.imageSha256)) {
+        return false;
+      }
+      seenImageHashes.add(icon.imageSha256);
+      return true;
+    });
+  }
+
   function selectIcon(icon, position = state.icons.findIndex((entry) => entry.name === icon.name)) {
     if (state.currentIcon && JSON.stringify(readKeywords()) !== JSON.stringify(state.keywordBaseline)
       && !window.confirm("Discard the unsaved keyword edits for this icon?")) {
@@ -195,7 +206,8 @@
       return;
     }
     state.searchResults = state.icons
-      .filter((icon) => icon.name.toLocaleLowerCase("en").includes(query))
+      .filter((icon) => [icon.name, ...(icon.sameImageIds || [])]
+        .some((iconId) => iconId.toLocaleLowerCase("en").includes(query)))
       .slice(0, 30);
     elements.results.replaceChildren(...state.searchResults.map((icon, index) => {
       const option = document.createElement("button");
@@ -367,14 +379,14 @@
         requestJson("./icon-metadata.json"),
         requestJson("./icon-review-status.json")
       ]);
-      state.icons = metadata;
+      state.icons = uniqueRealImageIcons(metadata);
       state.keywordSuggestions = [...new Set(metadata.flatMap((icon) => icon.keywords || []))]
         .sort((left, right) => left.localeCompare(right, "en"));
       state.reviewStatus = reviewStatus;
       updateReviewCount();
       const initialIcon = state.icons.find((icon) => state.reviewStatus[icon.name] !== true) || state.icons[0];
       if (!initialIcon) {
-        throw new Error("No icons are available in metadata");
+        throw new Error("No reviewable images are available in metadata");
       }
       selectIcon(initialIcon, state.icons.indexOf(initialIcon));
     } catch (error) {

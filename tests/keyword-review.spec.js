@@ -1,6 +1,14 @@
 const { test, expect } = require("@playwright/test");
 const { normalizeReviewedKeywordGroup, requiredNameKeywords } = require("../scripts/keyword-utils");
 const metadata = require("../icon-metadata.json");
+const seenReviewImageHashes = new Set();
+const reviewableIcons = metadata.filter((icon) => {
+  if (icon.imageStatus === "placeholder" || !icon.imageSha256 || seenReviewImageHashes.has(icon.imageSha256)) {
+    return false;
+  }
+  seenReviewImageHashes.add(icon.imageSha256);
+  return true;
+});
 const iconsByImageHash = new Map();
 for (const icon of metadata.filter((entry) => entry.imageStatus !== "placeholder")) {
   const group = iconsByImageHash.get(icon.imageSha256) || [];
@@ -54,14 +62,16 @@ test("edits separate keywords and confirms them with required icon-name words", 
   const imageGroupIds = imageGroupByName.get(iconId);
   await page.goto("/keyword-review.html");
   await expect(page.locator("#selected-icon-name")).toHaveText("_0");
-  await expect(page.locator("#review-count")).toContainText("/ 9,324 reviewed");
+  await expect(page.locator("#review-count")).toContainText(`/ ${reviewableIcons.length.toLocaleString()} reviewed`);
   const lowerNavigation = page.getByRole("group", { name: "Icon navigation" });
   await expect(lowerNavigation.getByRole("button", { name: "Previous icon" })).toBeDisabled();
   await lowerNavigation.getByRole("button", { name: "Next icon" }).click();
-  await expect(page.locator("#icon-position")).toHaveText("2 of 9,324");
+  await expect(page.locator("#icon-position")).toHaveText(`2 of ${reviewableIcons.length.toLocaleString()}`);
+  await expect(page.locator("#selected-icon-name")).toHaveText(reviewableIcons[1].name);
+  expect(reviewableIcons[0].imageSha256).not.toBe(reviewableIcons[1].imageSha256);
   await expect(page.locator("#previous-icon")).toBeEnabled();
   await lowerNavigation.getByRole("button", { name: "Previous icon" }).click();
-  await expect(page.locator("#icon-position")).toHaveText("1 of 9,324");
+  await expect(page.locator("#icon-position")).toHaveText(`1 of ${reviewableIcons.length.toLocaleString()}`);
   await expect(page.locator("#previous-icon")).toBeDisabled();
 
   await page.getByLabel("Search icon ID").fill(iconId);
@@ -166,6 +176,24 @@ test("Tab accepts a suggestion and focuses the next keyword field", async ({ pag
 
   await expect(autocompleteInput).toHaveValue("bevel");
   await expect(nextKeywordInput).toBeFocused();
+});
+
+test("searching an identical-image ID opens its review representative", async ({ page }) => {
+  await mockKeywordReview(page);
+  const aliasId = "ChartFormatSelection";
+  const representative = reviewableIcons.find((icon) => icon.sameImageIds?.includes(aliasId));
+  expect(representative).toBeTruthy();
+
+  await page.goto("/keyword-review.html");
+  await expect(page.locator("#selected-icon-name")).toHaveText("_0");
+  await page.getByLabel("Search icon ID").fill(aliasId);
+  const matchingOption = page.getByRole("option", { name: representative.name });
+  await expect(matchingOption).toBeVisible();
+  await matchingOption.click();
+
+  await expect(page.locator("#selected-icon-name")).toHaveText(representative.name);
+  await expect(page.locator("#same-image-ids")).toContainText(aliasId);
+  await expect(page.locator("#icon-position")).toHaveText(`${reviewableIcons.indexOf(representative) + 1} of ${reviewableIcons.length.toLocaleString()}`);
 });
 
 test("rejects an empty keyword row until it is filled or removed", async ({ page }) => {
