@@ -57,22 +57,21 @@
 
   function renderListNavigation() {
     elements.listCount.textContent = String(state.lists.length);
-    elements.listNavigation.replaceChildren(...state.lists.map((list) => {
-      const item = document.createElement("li");
-      const button = document.createElement("button");
-      const name = document.createElement("span");
-      const size = document.createElement("span");
-      button.type = "button";
-      button.setAttribute("aria-current", String(list.id === state.activeListId));
-      name.className = "saved-list-name";
-      name.textContent = list.name;
-      size.className = "saved-list-size";
-      size.textContent = String(list.iconIds.length);
-      button.append(name, size);
-      button.addEventListener("click", () => setActiveList(list.id));
-      item.append(button);
-      return item;
-    }));
+    const options = state.lists.map((list) => {
+      const option = document.createElement("option");
+      option.value = list.id;
+      option.textContent = `${list.name} (${list.iconIds.length})`;
+      return option;
+    });
+    if (!options.length) {
+      const emptyOption = document.createElement("option");
+      emptyOption.value = "";
+      emptyOption.textContent = "No saved lists yet";
+      options.push(emptyOption);
+    }
+    elements.listNavigation.replaceChildren(...options);
+    elements.listNavigation.value = state.activeListId;
+    elements.listNavigation.disabled = !state.lists.length || state.saving;
   }
 
   function renderIconItems(list) {
@@ -131,6 +130,12 @@
       elements.emptyMessage.hidden = true;
     }
   }
+
+  elements.listNavigation.addEventListener("change", () => {
+    if (state.lists.some((list) => list.id === elements.listNavigation.value)) {
+      setActiveList(elements.listNavigation.value);
+    }
+  });
 
   async function saveLists(nextLists, successMessage) {
     state.saving = true;

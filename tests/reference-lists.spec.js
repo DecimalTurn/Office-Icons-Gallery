@@ -103,6 +103,16 @@ test("creates saved lists and appends selected icons and IDs in the review page"
   await page.getByRole("button", { name: "Create list" }).click();
   await expect(page.getByRole("heading", { name: "Shape picker" })).toBeVisible();
   await expect(page.getByText("This list is empty.")).toBeVisible();
+  const savedListSelector = page.locator("#saved-reference-lists");
+  await expect(savedListSelector.locator("option")).toHaveText([
+    "Ribbon cleanup (1)",
+    "Shape picker (0)"
+  ]);
+  await savedListSelector.selectOption({ label: "Ribbon cleanup (1)" });
+  await expect(page.getByRole("heading", { name: "Ribbon cleanup" })).toBeVisible();
+  await expect(page.getByRole("link", { name: selectedIcon, exact: true })).toBeVisible();
+  await savedListSelector.selectOption({ label: "Shape picker (0)" });
+  await expect(page.getByRole("heading", { name: "Shape picker" })).toBeVisible();
   expect(getSavedLists().map((list) => list.name)).toEqual(["Ribbon cleanup", "Shape picker"]);
 });
 

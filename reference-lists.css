@@ -102,51 +102,19 @@
 }
 
 .saved-reference-lists {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 3px;
-  margin: 10px 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.saved-reference-lists button {
-  display: flex;
+  display: block;
   width: 100%;
-  min-height: 42px;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  border: 0;
-  border-left: 3px solid transparent;
-  background: transparent;
+  min-width: 0;
+  min-height: 40px;
+  margin-top: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--surface-background);
   color: var(--page-foreground);
   font: inherit;
-  text-align: left;
-  padding: 8px 10px;
+  padding: 7px 30px 7px 10px;
   cursor: pointer;
-}
-
-.saved-reference-lists button:hover {
-  background: var(--control-background);
-}
-
-.saved-reference-lists button[aria-current="true"] {
-  border-left-color: var(--accent-color);
-  background: var(--control-background);
-  font-weight: 650;
-}
-
-.saved-list-name {
-  min-width: 0;
-  overflow-wrap: anywhere;
-}
-
-.saved-list-size {
-  flex: 0 0 auto;
-  color: var(--muted-foreground);
-  font-size: 0.78rem;
-  font-variant-numeric: tabular-nums;
+  text-overflow: ellipsis;
 }
 
 .reference-content {
@@ -354,6 +322,7 @@
 
 .reference-lists-section button:focus-visible,
 .reference-lists-section input:focus-visible,
+.reference-lists-section select:focus-visible,
 .reference-icon-id:focus-visible {
   outline: 2px solid var(--accent-color);
   outline-offset: 2px;
