@@ -12,11 +12,11 @@ function requiredNameKeywords(name) {
   return [...new Set(splitIconName(name).map((word) => word.toLocaleLowerCase("en")))];
 }
 
-function normalizeReviewedKeywords(iconName, values) {
-  if (!Array.isArray(values) || values.length > 100) {
-    throw new Error("Provide no more than 100 keywords");
+function normalizeKeywordValues(values, maximumKeywords) {
+  if (!Array.isArray(values) || values.length > maximumKeywords) {
+    throw new Error(`Provide no more than ${maximumKeywords} keywords`);
   }
-  const submitted = values.map((value) => {
+  return values.map((value) => {
     if (typeof value !== "string") {
       throw new Error("Each keyword must be text");
     }
@@ -26,7 +26,20 @@ function normalizeReviewedKeywords(iconName, values) {
     }
     return keyword;
   });
+}
+
+function normalizeReviewedKeywords(iconName, values) {
+  const submitted = normalizeKeywordValues(values, 100);
   return [...new Set([...requiredNameKeywords(iconName), ...submitted])].sort();
 }
 
-module.exports = { normalizeReviewedKeywords, requiredNameKeywords, splitIconName };
+function normalizeReviewedKeywordGroup(iconNames, values) {
+  if (!Array.isArray(iconNames) || iconNames.length === 0) {
+    throw new Error("Provide at least one icon ID");
+  }
+  const required = iconNames.flatMap(requiredNameKeywords);
+  const submitted = normalizeKeywordValues(values, 200);
+  return [...new Set([...required, ...submitted])].sort();
+}
+
+module.exports = { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, requiredNameKeywords, splitIconName };

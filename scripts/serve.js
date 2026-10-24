@@ -1,7 +1,7 @@
 const http = require("node:http");
 const fs = require("node:fs");
 const path = require("node:path");
-const { normalizeReviewedKeywords } = require("./keyword-utils");
+const { normalizeReviewedKeywordGroup } = require("./keyword-utils");
 
 const root = path.resolve(__dirname, "..");
 const port = Number(process.env.PORT || process.argv[2] || 8000);
@@ -13,6 +13,15 @@ const metadata = JSON.parse(fs.readFileSync(metadataPath, "utf8"));
 const reviewedKeywords = JSON.parse(fs.readFileSync(keywordsPath, "utf8"));
 const reviewStatus = JSON.parse(fs.readFileSync(reviewStatusPath, "utf8"));
 const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
+const iconIdsByImageHash = new Map();
+for (const icon of metadata) {
+  if (icon.imageStatus === "placeholder") {
+    continue;
+  }
+  const iconIds = iconIdsByImageHash.get(icon.imageSha256) || [];
+  iconIds.push(icon.name);
+  iconIdsByImageHash.set(icon.imageSha256, iconIds);
+}
 const contentTypes = {
   ".css": "text/css; charset=utf-8",
   ".html": "text/html; charset=utf-8",
@@ -138,17 +147,27 @@ async function handleApi(request, response, requestUrl) {
     }
 
     try {
-      const keywords = normalizeReviewedKeywords(iconId, body.keywords);
-      const nextKeywords = { ...reviewedKeywords, [iconId]: keywords };
+      const icon = metadataByName.get(iconId);
+      const iconIds = icon.imageStatus === "placeholder"
+        ? [iconId]
+        : iconIdsByImageHash.get(icon.imageSha256) || [iconId];
+      const iconIdSet = new Set(iconIds);
+      const keywords = normalizeReviewedKeywordGroup(iconIds, body.keywords);
+      const nextKeywords = { ...reviewedKeywords };
+      for (const groupIconId of iconIds) {
+        nextKeywords[groupIconId] = keywords;
+      }
       const nextReviewStatus = { ...reviewStatus, [iconId]: true };
-      const nextMetadata = metadata.map((icon) => icon.name === iconId ? { ...icon, keywords } : icon);
+      const nextMetadata = metadata.map((entry) => iconIdSet.has(entry.name) ? { ...entry, keywords } : entry);
       writeJsonFile(keywordsPath, nextKeywords);
       writeJsonFile(metadataPath, nextMetadata);
       writeJsonFile(reviewStatusPath, nextReviewStatus);
-      reviewedKeywords[iconId] = keywords;
+      for (const groupIconId of iconIds) {
+        reviewedKeywords[groupIconId] = keywords;
+        metadataByName.get(groupIconId).keywords = keywords;
+      }
       reviewStatus[iconId] = true;
-      metadataByName.get(iconId).keywords = keywords;
-      sendJson(response, 200, { iconId, keywords, reviewed: true });
+      sendJson(response, 200, { iconId, iconIds, keywords, reviewed: true });
     } catch (error) {
       sendJson(response, 400, { error: error.message || "Could not save reviewed keywords" });
     }

@@ -375,5 +375,24 @@ const metadata = iconNames.map((name) => {
   };
 });
 
+const keywordsByImageHash = new Map();
+for (const icon of metadata) {
+  if (icon.imageStatus === "placeholder") {
+    continue;
+  }
+  const group = keywordsByImageHash.get(icon.imageSha256) || [];
+  group.push(icon);
+  keywordsByImageHash.set(icon.imageSha256, group);
+}
+for (const group of keywordsByImageHash.values()) {
+  if (group.length < 2) {
+    continue;
+  }
+  const sharedKeywords = [...new Set(group.flatMap((icon) => icon.keywords))].sort();
+  for (const icon of group) {
+    icon.keywords = sharedKeywords;
+  }
+}
+
 fs.writeFileSync(outputPath, `${JSON.stringify(metadata, null, 2)}\n`, "utf8");
 console.log(`Generated metadata for ${metadata.length} icons in ${path.basename(outputPath)}`);

@@ -16,9 +16,9 @@ Run the search and responsive layout test with `pnpm test:search`. Install the P
 
 ## Local keyword review
 
-Start the gallery with `pnpm dev` and open http://127.0.0.1:8000/description-review.html. Each icon ID has its own keyword list. Words split from the icon ID are required; add or remove other terms, then choose **Confirm review** to save the list to `icon-keywords.json` and update `icon-metadata.json`. Review status is stored per icon ID in `icon-review-status.json`.
+Start the gallery with `pnpm dev` and open http://127.0.0.1:8000/description-review.html. Each icon ID has a keyword list with autocomplete suggestions. Words from the ID and IDs that use the same real image are required. Choose **Confirm review** to save the shared list to `icon-keywords.json` and update `icon-metadata.json`. Review status is stored per icon ID in `icon-review-status.json`.
 
-The bottom of the keyword review page contains locally saved icon reference lists. Create named lists, add the selected icon or any icon ID, and remove entries with the X control. New icons append to the end of the selected list. The gallery's Icon reference lists link jumps directly to this section.
+The bottom of the keyword review page contains locally saved icon reference lists. Each member shows its keywords. Create named lists, add the selected icon or any icon ID, and remove entries with the X control. New icons append to the end of the selected list. The gallery's Icon reference lists link jumps directly to this section.
 
 The gallery and searchable metadata are generated from PNG filenames directly in `images/`. Each filename without its `.png` extension is treated as an `idMso` value. After adding or removing icons, regenerate the metadata from this directory:
 
@@ -26,7 +26,7 @@ The gallery and searchable metadata are generated from PNG filenames directly in
 node generate-icon-metadata.js
 ```
 
-The generator includes every word split from each icon ID in its keywords and ranks related icons by shared, less-common words. Reviewed keyword arrays in `icon-keywords.json` replace generated keyword suggestions for those IDs. It keeps curated related-icon matches first, filters weak single-word matches, and limits each related-icon list to 12 entries.
+The generator includes every word split from each icon ID in its keywords and gives IDs with the same real image a shared keyword set. Reviewed keyword arrays in `icon-keywords.json` replace generated keyword suggestions for those IDs. It ranks related icons by shared, less-common words, keeps curated matches first, filters weak single-word matches, and limits each related-icon list to 12 entries.
 
 It also creates one `images/by-hash/` asset per unique PNG and stores each icon's shared asset path in the metadata. The gallery uses these content-addressed URLs so IDs with identical images share a browser-cache entry. The original `images/{idMso}.png` files remain the exporter's source files.
 

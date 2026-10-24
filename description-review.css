@@ -365,6 +365,37 @@
   background: var(--required-keyword-background);
 }
 
+.keyword-row .awesomplete {
+  display: block;
+  width: 100%;
+  min-width: 0;
+}
+
+.keyword-editor .awesomplete > ul {
+  z-index: 20;
+  border-color: var(--border-color);
+  background: var(--surface-background);
+  background-image: none;
+  box-shadow: 0 5px 14px rgb(0 0 0 / 18%);
+  color: var(--page-foreground);
+  text-shadow: none;
+}
+
+.keyword-editor .awesomplete > ul::before {
+  background: var(--surface-background);
+}
+
+.keyword-editor .awesomplete > ul > li:hover,
+.keyword-editor .awesomplete > ul > li[aria-selected="true"] {
+  background: var(--accent-color);
+  color: var(--page-background);
+}
+
+.keyword-editor .awesomplete mark {
+  background: var(--required-keyword-background);
+  color: var(--page-foreground);
+}
+
 .keyword-remove-button {
   width: 36px;
   height: 36px;

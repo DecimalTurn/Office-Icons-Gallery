@@ -1,19 +1,43 @@
 const { test, expect } = require("@playwright/test");
-const { normalizeReviewedKeywords, requiredNameKeywords } = require("../scripts/keyword-utils");
+const { normalizeReviewedKeywordGroup, requiredNameKeywords } = require("../scripts/keyword-utils");
+const metadata = require("../icon-metadata.json");
+const iconsByImageHash = new Map();
+for (const icon of metadata.filter((entry) => entry.imageStatus !== "placeholder")) {
+  const group = iconsByImageHash.get(icon.imageSha256) || [];
+  group.push(icon.name);
+  iconsByImageHash.set(icon.imageSha256, group);
+}
+const imageGroupByName = new Map([...iconsByImageHash.values()].flatMap((iconIds) =>
+  iconIds.map((iconId) => [iconId, iconIds])
+));
 
 async function mockKeywordReview(page) {
   const confirmed = [];
   const resets = [];
+  await page.route("**/api/reference-lists", async (route) => {
+    await route.fulfill({ json: { lists: [{
+      id: "keyword-review-test",
+      name: "Keyword review test",
+      iconIds: ["_3DBevelOptionsDialog", "ChartFormatSelection"]
+    }] } });
+  });
   await page.route("**/icon-review-status.json", async (route) => {
     await route.fulfill({ json: {} });
   });
   await page.route("**/api/keyword-review/**", async (route) => {
     const body = route.request().postDataJSON();
     if (route.request().url().endsWith("/confirm")) {
-      confirmed.push(body);
+      if (body.keywords.some((keyword) => !keyword.trim())) {
+        await route.fulfill({ status: 400, json: { error: "Keywords must contain 1 to 80 characters" } });
+        return;
+      }
+      const iconIds = imageGroupByName.get(body.iconId) || [body.iconId];
+      const keywords = normalizeReviewedKeywordGroup(iconIds, body.keywords);
+      confirmed.push({ ...body, iconIds, keywords });
       await route.fulfill({ json: {
         iconId: body.iconId,
-        keywords: normalizeReviewedKeywords(body.iconId, body.keywords),
+        iconIds,
+        keywords,
         reviewed: true
       } });
       return;
@@ -26,14 +50,15 @@ async function mockKeywordReview(page) {
 
 test("edits separate keywords and confirms them with required icon-name words", async ({ page }) => {
   const { confirmed, resets } = await mockKeywordReview(page);
+  const iconId = "_3DBevelOptionsDialog";
+  const imageGroupIds = imageGroupByName.get(iconId);
   await page.goto("/description-review.html");
   await expect(page.locator("#selected-icon-name")).toHaveText("_0");
   await expect(page.locator("#review-count")).toContainText("/ 9,324 reviewed");
 
-  await page.getByLabel("Search icon ID").fill("_3DBevelOptionsDialog");
-  await page.getByRole("option", { name: "_3DBevelOptionsDialog" }).click();
-  const iconId = "_3DBevelOptionsDialog";
-  const required = requiredNameKeywords(iconId);
+  await page.getByLabel("Search icon ID").fill(iconId);
+  await page.getByRole("option", { name: iconId }).click();
+  const required = [...new Set(imageGroupIds.flatMap(requiredNameKeywords))];
   const keywordRows = page.locator(".keyword-row");
   const renderedRows = await keywordRows.evaluateAll((rows) => rows.map((row) => ({
     value: row.querySelector("input").value,
@@ -49,7 +74,12 @@ test("edits separate keywords and confirms them with required icon-name words", 
     expect(row.removeDisabled).toBe(true);
   }
   await page.getByRole("button", { name: "Add keyword" }).click();
-  await page.locator(".keyword-row input").last().fill("temporary term");
+  const temporaryInput = page.locator(".keyword-row input").last();
+  await temporaryInput.fill("beve");
+  const keywordSuggestions = page.locator(".keyword-editor .keyword-row .awesomplete > ul:not([hidden])");
+  await expect(keywordSuggestions).toBeVisible();
+  await expect(keywordSuggestions).toContainText("bevel");
+  await temporaryInput.fill("temporary term");
   const backgrounds = await page.evaluate(() => {
     const requiredInput = document.querySelector("input.keyword-required");
     const editableInput = document.querySelector(".keyword-row input:not(.keyword-required)");
@@ -75,8 +105,10 @@ test("edits separate keywords and confirms them with required icon-name words", 
   await expect(page.getByText(`Keywords saved for ${iconId}.`)).toBeVisible();
   expect(confirmed).toHaveLength(1);
   expect(confirmed[0].iconId).toBe(iconId);
+  expect(confirmed[0].iconIds).toEqual(imageGroupIds);
   expect(confirmed[0].keywords).toContain("blue pigment");
   expect(confirmed[0].keywords).not.toContain("temporary term");
+  await expect(page.locator(".reference-icon-item .reference-icon-keyword").filter({ hasText: "blue pigment" })).toHaveCount(2);
   for (const word of required) {
     expect(confirmed[0].keywords).toContain(word);
   }

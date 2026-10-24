@@ -84,6 +84,7 @@
       const image = document.createElement("img");
       const link = document.createElement("a");
       const remove = document.createElement("button");
+      const keywords = document.createElement("ul");
 
       item.className = "reference-icon-item";
       image.src = `./${icon.imageAsset}`;
@@ -92,6 +93,14 @@
       link.className = "reference-icon-id";
       link.href = `./icon.html?name=${encodeURIComponent(icon.name)}`;
       link.textContent = icon.name;
+      keywords.className = "reference-icon-keywords";
+      keywords.setAttribute("aria-label", `Keywords for ${icon.name}`);
+      for (const keyword of icon.keywords || []) {
+        const keywordItem = document.createElement("li");
+        keywordItem.className = "reference-icon-keyword";
+        keywordItem.textContent = keyword;
+        keywords.append(keywordItem);
+      }
       remove.type = "button";
       remove.className = "reference-remove-button";
       remove.dataset.removeIcon = icon.name;
@@ -99,7 +108,7 @@
       remove.title = "Remove from list";
       remove.innerHTML = "&times;";
 
-      item.append(image, link, remove);
+      item.append(image, link, remove, keywords);
       return item;
     }).filter(Boolean);
     elements.iconList.replaceChildren(...items);
@@ -203,6 +212,27 @@
   window.addEventListener("keyword-review-icon-selected", (event) => {
     state.currentIconId = event.detail?.iconId || "";
     render();
+  });
+
+  window.addEventListener("keyword-review-keywords-updated", (event) => {
+    const iconIds = Array.isArray(event.detail?.iconIds) ? event.detail.iconIds : [event.detail?.iconId];
+    const keywords = event.detail?.keywords;
+    if (!Array.isArray(keywords)) {
+      return;
+    }
+    let updatedActiveList = false;
+    for (const iconId of iconIds) {
+      const icon = typeof iconId === "string" ? state.iconsById.get(iconId.toLocaleLowerCase("en")) : null;
+      if (!icon) {
+        continue;
+      }
+      icon.keywords = keywords;
+      updatedActiveList ||= activeList()?.iconIds.includes(icon.name) || false;
+    }
+    const list = activeList();
+    if (list && updatedActiveList) {
+      renderIconItems(list);
+    }
   });
 
   elements.idForm.addEventListener("submit", async (event) => {

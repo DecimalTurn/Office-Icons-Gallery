@@ -263,8 +263,8 @@
 
 .reference-icon-item {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 34px;
-  grid-template-rows: 52px minmax(0, 1fr);
+  grid-template-columns: 48px minmax(0, 1fr) 34px;
+  grid-template-rows: 52px auto;
   align-items: start;
   gap: 8px 10px;
   min-width: 0;
@@ -284,6 +284,29 @@
 .reference-icon-id {
   display: inline-block;
   font-weight: 650;
+  overflow-wrap: anywhere;
+}
+
+.reference-icon-keywords {
+  display: flex;
+  grid-column: 1 / -1;
+  flex-wrap: wrap;
+  align-content: start;
+  gap: 4px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reference-icon-keyword {
+  max-width: 100%;
+  border-radius: 3px;
+  background: var(--control-background);
+  color: var(--muted-foreground);
+  font-size: 0.68rem;
+  line-height: 1.25;
+  padding: 3px 5px;
   overflow-wrap: anywhere;
 }
 

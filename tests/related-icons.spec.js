@@ -1,5 +1,5 @@
 const { test, expect } = require("@playwright/test");
-const { normalizeReviewedKeywords, requiredNameKeywords } = require("../scripts/keyword-utils");
+const { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, requiredNameKeywords } = require("../scripts/keyword-utils");
 
 test("metadata contains only keywords and includes every icon-name word", async () => {
   const reviewedKeywords = require("../icon-keywords.json");
@@ -21,8 +21,30 @@ test("metadata contains only keywords and includes every icon-name word", async 
   for (const [name, keywords] of Object.entries(reviewedKeywords)) {
     expect(metadataByName.get(name)?.keywords, `reviewed keywords for ${name}`).toEqual(keywords);
   }
+  const imageGroups = new Map();
+  for (const icon of metadata.filter((entry) => entry.imageStatus !== "placeholder")) {
+    const group = imageGroups.get(icon.imageSha256) || [];
+    group.push(icon);
+    imageGroups.set(icon.imageSha256, group);
+  }
+  for (const group of imageGroups.values()) {
+    if (group.length > 1) {
+      for (const icon of group.slice(1)) {
+        expect(icon.keywords, `${icon.name} should share keywords with ${group[0].name}`).toEqual(group[0].keywords);
+      }
+    }
+  }
+  const largestImageGroup = [...imageGroups.values()]
+    .filter((group) => group.length > 1)
+    .sort((left, right) => right[0].keywords.length - left[0].keywords.length)[0];
+  expect(largestImageGroup[0].keywords.length).toBeGreaterThan(100);
+  expect(normalizeReviewedKeywordGroup(largestImageGroup.map((icon) => icon.name), largestImageGroup[0].keywords))
+    .toEqual(largestImageGroup[0].keywords);
   expect(normalizeReviewedKeywords("_3DBevelOptionsDialog", [" Blue Pigment ", "BEVEL"])).toEqual([
     "3", "bevel", "blue pigment", "d", "dialog", "options"
+  ]);
+  expect(normalizeReviewedKeywordGroup(["_3DBevelOptionsDialog", "ChartFormatSelection"], [" Blue Pigment "])).toEqual([
+    "3", "bevel", "blue pigment", "chart", "d", "dialog", "format", "options", "selection"
   ]);
 });
 

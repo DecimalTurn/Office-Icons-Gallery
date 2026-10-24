@@ -25,7 +25,8 @@
     position: -1,
     searchResults: [],
     activeResult: -1,
-    keywordBaseline: []
+    keywordBaseline: [],
+    keywordSuggestions: []
   };
 
   async function requestJson(url, options) {
@@ -54,7 +55,12 @@
   }
 
   function requiredKeywords() {
-    return new Set(state.currentIcon ? splitIconName(state.currentIcon.name) : []);
+    if (!state.currentIcon) {
+      return new Set();
+    }
+    return new Set([state.currentIcon.name, ...(state.currentIcon.sameImageIds || [])]
+      .flatMap(splitIconName)
+      .map((word) => word.toLocaleLowerCase("en")));
   }
 
   function readKeywords() {
@@ -96,6 +102,15 @@
     remove.disabled = required;
     remove.innerHTML = "&#128465;";
     row.append(input, remove);
+    if (!required) {
+      input.classList.add("awesomplete");
+      new Awesomplete(input, {
+        list: state.keywordSuggestions,
+        minChars: 1,
+        maxItems: 8,
+        autoFirst: true
+      });
+    }
     return row;
   }
 
@@ -210,6 +225,21 @@
         body: JSON.stringify({ iconId: state.currentIcon.name, keywords })
       });
       state.currentIcon.keywords = result.keywords;
+      const updatedIconIds = result.iconIds || [state.currentIcon.name];
+      for (const iconId of updatedIconIds) {
+        const icon = state.icons.find((entry) => entry.name === iconId);
+        if (icon) {
+          icon.keywords = result.keywords;
+        }
+      }
+      for (const keyword of result.keywords) {
+        if (!state.keywordSuggestions.includes(keyword)) {
+          state.keywordSuggestions.push(keyword);
+        }
+      }
+      window.dispatchEvent(new CustomEvent("keyword-review-keywords-updated", {
+        detail: { iconIds: updatedIconIds, keywords: result.keywords }
+      }));
       state.reviewStatus[state.currentIcon.name] = true;
       renderKeywords(result.keywords);
       updateReviewState(true);
@@ -305,6 +335,8 @@
         requestJson("./icon-review-status.json")
       ]);
       state.icons = metadata;
+      state.keywordSuggestions = [...new Set(metadata.flatMap((icon) => icon.keywords || []))]
+        .sort((left, right) => left.localeCompare(right, "en"));
       state.reviewStatus = reviewStatus;
       updateReviewCount();
       const initialIcon = state.icons.find((icon) => state.reviewStatus[icon.name] !== true) || state.icons[0];
