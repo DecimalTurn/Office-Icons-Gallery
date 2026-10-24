@@ -243,12 +243,34 @@
         return copied;
       }
 
+      let copyStatusTimeout;
+
+      function setCopyStatus(message, succeeded = false) {
+        clearTimeout(copyStatusTimeout);
+        copyStatus.replaceChildren();
+        copyStatus.classList.toggle("is-success", succeeded);
+        copyStatus.classList.add("is-visible");
+
+        if (succeeded) {
+          const checkmark = document.createElement("span");
+          checkmark.className = "copy-status-check";
+          checkmark.setAttribute("aria-hidden", "true");
+          checkmark.textContent = "\u2713";
+          copyStatus.append(checkmark, document.createTextNode(` ${message}`));
+          copyStatusTimeout = window.setTimeout(() => {
+            copyStatus.classList.remove("is-visible");
+          }, 5000);
+        } else {
+          copyStatus.textContent = message;
+        }
+      }
+
       const copyIconId = async (id = iconName) => {
         if (!id || !/^[A-Za-z0-9_]+$/.test(id)) {
           return;
         }
 
-        copyStatus.textContent = "Copying icon ID...";
+        setCopyStatus("Copying icon ID...");
         try {
           if (!copyUsingSelection(id)) {
             if (!navigator.clipboard || !navigator.clipboard.writeText) {
@@ -256,9 +278,9 @@
             }
             await navigator.clipboard.writeText(id);
           }
-          copyStatus.textContent = `Copied ${id}`;
+          setCopyStatus(`Copied ${id}`, true);
         } catch {
-          copyStatus.textContent = "Could not copy the icon ID";
+          setCopyStatus("Could not copy the icon ID");
         }
       };
 

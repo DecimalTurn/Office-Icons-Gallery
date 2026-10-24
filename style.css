@@ -852,8 +852,27 @@ li span {
   margin: 0;
 }
 
+.icon-detail #copy-status {
+  opacity: 0;
+  transition: opacity 250ms ease;
+}
+
+.icon-detail #copy-status.is-visible {
+  opacity: 1;
+}
+
+.copy-status-check {
+  margin-inline-end: 0.35em;
+}
+
 .icon-detail #icon-error {
   color: var(--danger-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .icon-detail #copy-status {
+    transition: none;
+  }
 }
 
 .page-notice {

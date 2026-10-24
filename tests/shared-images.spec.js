@@ -39,7 +39,7 @@ test("lists IDs that use the same image on the icon detail page", async ({ page 
   const copyButton = page.getByRole("button", { name: "Copy FontColorCycle ID" });
   await expect(copyButton).toBeVisible();
   await copyButton.click();
-  await expect(page.locator("#copy-status")).toHaveText("Copied FontColorCycle");
+  await expect(page.locator("#copy-status")).toHaveText("✓ Copied FontColorCycle");
   await expect.poll(() => page.evaluate(() => navigator.clipboard.readText())).toBe("FontColorCycle");
   await expect(page).toHaveURL(/icon\.html\?name=BorderMoreColorsDialog$/);
 
