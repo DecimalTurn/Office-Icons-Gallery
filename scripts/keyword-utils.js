@@ -41,4 +41,8 @@ function normalizeReviewedKeywordGroup(iconNames, values) {
   return [...new Set(submitted)].sort();
 }
 
-module.exports = { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, requiredNameKeywords, splitIconName };
+function updateReviewStatus(reviewStatus, iconId, reviewed) {
+  return { ...reviewStatus, [iconId]: reviewed };
+}
+
+module.exports = { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, requiredNameKeywords, splitIconName, updateReviewStatus };

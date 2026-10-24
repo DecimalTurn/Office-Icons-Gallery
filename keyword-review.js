@@ -2,8 +2,8 @@
   const elements = {
     search: document.getElementById("icon-search"),
     results: document.getElementById("icon-results"),
-    previous: document.getElementById("previous-icon"),
-    next: document.getElementById("next-icon"),
+    previous: [document.getElementById("previous-icon"), document.getElementById("previous-icon-bottom")],
+    next: [document.getElementById("next-icon"), document.getElementById("next-icon-bottom")],
     position: document.getElementById("icon-position"),
     status: document.getElementById("review-status"),
     iconName: document.getElementById("selected-icon-name"),
@@ -145,8 +145,12 @@
     elements.iconImage.src = `./${icon.imageAsset}`;
     elements.iconImage.alt = icon.name;
     elements.position.textContent = `${position + 1} of ${state.icons.length.toLocaleString()}`;
-    elements.previous.disabled = position <= 0;
-    elements.next.disabled = position >= state.icons.length - 1;
+    elements.previous.forEach((button) => {
+      button.disabled = position <= 0;
+    });
+    elements.next.forEach((button) => {
+      button.disabled = position >= state.icons.length - 1;
+    });
     elements.search.value = icon.name;
     closeResults();
     elements.imageHash.textContent = icon.imageSha256 ? `SHA-256 ${icon.imageSha256}` : "";
@@ -292,16 +296,18 @@
       closeResults();
     }
   });
-  elements.previous.addEventListener("click", () => {
+  function navigatePrevious() {
     if (state.position > 0) {
       selectIcon(state.icons[state.position - 1], state.position - 1);
     }
-  });
-  elements.next.addEventListener("click", () => {
+  }
+  function navigateNext() {
     if (state.position < state.icons.length - 1) {
       selectIcon(state.icons[state.position + 1], state.position + 1);
     }
-  });
+  }
+  elements.previous.forEach((button) => button.addEventListener("click", navigatePrevious));
+  elements.next.forEach((button) => button.addEventListener("click", navigateNext));
   elements.keywordEditor.addEventListener("click", (event) => {
     const removeButton = event.target.closest("[data-remove-keyword]");
     if (removeButton && !removeButton.disabled) {

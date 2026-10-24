@@ -55,10 +55,18 @@ test("edits separate keywords and confirms them with required icon-name words", 
   await page.goto("/keyword-review.html");
   await expect(page.locator("#selected-icon-name")).toHaveText("_0");
   await expect(page.locator("#review-count")).toContainText("/ 9,324 reviewed");
+  const lowerNavigation = page.getByRole("group", { name: "Icon navigation" });
+  await expect(lowerNavigation.getByRole("button", { name: "Previous icon" })).toBeDisabled();
+  await lowerNavigation.getByRole("button", { name: "Next icon" }).click();
+  await expect(page.locator("#icon-position")).toHaveText("2 of 9,324");
+  await expect(page.locator("#previous-icon")).toBeEnabled();
+  await lowerNavigation.getByRole("button", { name: "Previous icon" }).click();
+  await expect(page.locator("#icon-position")).toHaveText("1 of 9,324");
+  await expect(page.locator("#previous-icon")).toBeDisabled();
 
   await page.getByLabel("Search icon ID").fill(iconId);
   await page.getByRole("option", { name: iconId }).click();
-  const required = [...new Set(imageGroupIds.flatMap(requiredNameKeywords))];
+  const iconNameWords = requiredNameKeywords(iconId);
   const keywordRows = page.locator(".keyword-row");
   const renderedRows = await keywordRows.evaluateAll((rows) => rows.map((row) => ({
     value: row.querySelector("input").value,
@@ -66,17 +74,17 @@ test("edits separate keywords and confirms them with required icon-name words", 
     fromNameClass: row.querySelector("input").classList.contains("keyword-from-name"),
     removeDisabled: row.querySelector("button").disabled
   })));
-  for (const word of required) {
+  for (const word of iconNameWords) {
     const row = renderedRows.find((entry) => entry.value === word);
     expect(row, `name keyword ${word}`).toBeTruthy();
     expect(row.readOnly).toBe(false);
     expect(row.fromNameClass).toBe(true);
     expect(row.removeDisabled).toBe(false);
   }
-  const publisherIndex = renderedRows.findIndex((entry) => entry.value === "publisher");
-  expect(publisherIndex).toBeGreaterThanOrEqual(0);
-  await keywordRows.nth(publisherIndex).locator("input").fill("published");
-  await page.getByRole("button", { name: "Remove keyword horiz" }).click();
+  const bevelIndex = renderedRows.findIndex((entry) => entry.value === "bevel");
+  expect(bevelIndex).toBeGreaterThanOrEqual(0);
+  await keywordRows.nth(bevelIndex).locator("input").fill("beveled");
+  await page.getByRole("button", { name: "Remove keyword options" }).click();
   await page.getByRole("button", { name: "Add keyword" }).click();
   const temporaryInput = page.locator(".keyword-row input").last();
   await temporaryInput.fill("beve");
@@ -112,24 +120,22 @@ test("edits separate keywords and confirms them with required icon-name words", 
   expect(confirmed[0].iconIds).toEqual(imageGroupIds);
   expect(confirmed[0].keywords).toContain("blue pigment");
   expect(confirmed[0].keywords).not.toContain("temporary term");
-  expect(confirmed[0].keywords).toContain("published");
-  expect(confirmed[0].keywords).not.toContain("publisher");
-  expect(confirmed[0].keywords).not.toContain("horiz");
+  expect(confirmed[0].keywords).toContain("beveled");
+  expect(confirmed[0].keywords).not.toContain("bevel");
+  expect(confirmed[0].keywords).not.toContain("options");
   await expect(page.locator(".reference-icon-item .reference-icon-keyword").filter({ hasText: "blue pigment" })).toHaveCount(2);
-  for (const word of required) {
-    if (word !== "publisher" && word !== "horiz") {
-      expect(confirmed[0].keywords).toContain(word);
-    }
-  }
+  expect(confirmed[0].keywords).toContain("3");
+  expect(confirmed[0].keywords).toContain("d");
+  expect(confirmed[0].keywords).toContain("dialog");
 
   await page.getByRole("button", { name: "Mark not reviewed" }).click();
   await expect(page.locator("#review-state")).toHaveText("Not reviewed");
   expect(resets).toEqual([{ iconId, reviewed: false }]);
   const savedKeywordValues = await page.locator(".keyword-row input").evaluateAll((inputs) => inputs.map((input) => input.value));
   expect(savedKeywordValues).toContain("blue pigment");
-  expect(savedKeywordValues).toContain("published");
-  expect(savedKeywordValues).not.toContain("publisher");
-  expect(savedKeywordValues).not.toContain("horiz");
+  expect(savedKeywordValues).toContain("beveled");
+  expect(savedKeywordValues).not.toContain("bevel");
+  expect(savedKeywordValues).not.toContain("options");
 });
 
 test("rejects an empty keyword row until it is filled or removed", async ({ page }) => {

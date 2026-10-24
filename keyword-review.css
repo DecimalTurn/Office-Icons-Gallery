@@ -418,6 +418,15 @@
   margin-top: 14px;
 }
 
+.review-footer-navigation {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 12px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 12px;
+}
+
 .review-button {
   display: inline-flex;
   min-height: 40px;

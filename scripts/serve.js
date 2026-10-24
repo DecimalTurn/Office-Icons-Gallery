@@ -1,7 +1,7 @@
 const http = require("node:http");
 const fs = require("node:fs");
 const path = require("node:path");
-const { normalizeReviewedKeywordGroup } = require("./keyword-utils");
+const { normalizeReviewedKeywordGroup, updateReviewStatus } = require("./keyword-utils");
 
 const root = path.resolve(__dirname, "..");
 const port = Number(process.env.PORT || process.argv[2] || 8000);
@@ -157,7 +157,7 @@ async function handleApi(request, response, requestUrl) {
       for (const groupIconId of iconIds) {
         nextKeywords[groupIconId] = keywords;
       }
-      const nextReviewStatus = { ...reviewStatus, [iconId]: true };
+      const nextReviewStatus = updateReviewStatus(reviewStatus, iconId, true);
       const nextMetadata = metadata.map((entry) => iconIdSet.has(entry.name) ? { ...entry, keywords } : entry);
       writeJsonFile(keywordsPath, nextKeywords);
       writeJsonFile(metadataPath, nextMetadata);
@@ -187,7 +187,7 @@ async function handleApi(request, response, requestUrl) {
       return true;
     }
     try {
-      const nextReviewStatus = { ...reviewStatus, [body.iconId]: false };
+      const nextReviewStatus = updateReviewStatus(reviewStatus, body.iconId, false);
       writeJsonFile(reviewStatusPath, nextReviewStatus);
       reviewStatus[body.iconId] = false;
       sendJson(response, 200, { iconId: body.iconId, reviewed: false });

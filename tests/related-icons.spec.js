@@ -1,5 +1,5 @@
 const { test, expect } = require("@playwright/test");
-const { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, requiredNameKeywords } = require("../scripts/keyword-utils");
+const { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, requiredNameKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
 
 test("metadata contains only keywords and includes every icon-name word", async () => {
   const reviewedKeywords = require("../icon-keywords.json");
@@ -145,4 +145,20 @@ test("shows other bright icons as related to PictureBrightnessAndContrastGallery
   await nextButton.click();
   await expect.poll(() => page.locator("#related-icons-list").evaluate((list) => list.scrollLeft)).toBeGreaterThan(0);
   await expect(previousButton).toBeEnabled();
+});
+
+test("review confirmation changes only the selected icon status", () => {
+  const initialStatus = {
+    _0: false,
+    _0PercentComplete: false,
+    _1: true
+  };
+  const nextStatus = updateReviewStatus(initialStatus, "_0", true);
+
+  expect(nextStatus).toEqual({
+    _0: true,
+    _0PercentComplete: false,
+    _1: true
+  });
+  expect(initialStatus._0).toBe(false);
 });
