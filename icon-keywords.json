@@ -1,18 +1,115 @@
 {
   "_0": [
-    "0",
     "number",
     "zero"
   ],
   "_0PercentComplete": [
-    "0",
     "complete",
     "percent",
     "progressbar"
   ],
   "_1": [
-    "1",
     "number",
     "one"
+  ],
+  "_2": [
+    "number",
+    "two"
+  ],
+  "_3": [
+    "number",
+    "three"
+  ],
+  "_3DBevelOptionsDialog": [
+    "bucket",
+    "paintbrush"
+  ],
+  "_3DRotationOptionsDialog": [
+    "bucket",
+    "paintbrush"
+  ],
+  "ChartFormatSelection": [
+    "bucket",
+    "paintbrush"
+  ],
+  "DrawingObjectFormatPublisher": [
+    "bucket",
+    "paintbrush"
+  ],
+  "DrawingProperties": [
+    "bucket",
+    "paintbrush"
+  ],
+  "FormatComment": [
+    "bucket",
+    "paintbrush"
+  ],
+  "FormatDiagram": [
+    "bucket",
+    "paintbrush"
+  ],
+  "FormatHorizRule": [
+    "bucket",
+    "paintbrush"
+  ],
+  "FormatObject2": [
+    "bucket",
+    "paintbrush"
+  ],
+  "FormatOrgChart": [
+    "bucket",
+    "paintbrush"
+  ],
+  "FormatPlaceholder": [
+    "bucket",
+    "paintbrush"
+  ],
+  "GroupChartCurrentSelection": [
+    "bucket",
+    "paintbrush"
+  ],
+  "GroupShape": [
+    "bucket",
+    "paintbrush"
+  ],
+  "ImagePropertiesInfoPath": [
+    "bucket",
+    "paintbrush"
+  ],
+  "ObjectFormatDialog": [
+    "bucket",
+    "paintbrush"
+  ],
+  "PictureDisplay": [
+    "bucket",
+    "paintbrush"
+  ],
+  "PictureFormatDialog": [
+    "bucket",
+    "paintbrush"
+  ],
+  "TableFormatPublisher": [
+    "bucket",
+    "paintbrush"
+  ],
+  "TextBoxFormat": [
+    "bucket",
+    "paintbrush"
+  ],
+  "TextBoxFormatPublisher": [
+    "bucket",
+    "paintbrush"
+  ],
+  "TextEffects3DRotationOptionsDialog": [
+    "bucket",
+    "paintbrush"
+  ],
+  "TextEffectsBevelMore3DOptionsDialog": [
+    "bucket",
+    "paintbrush"
+  ],
+  "WordArtFormat": [
+    "bucket",
+    "paintbrush"
   ]
 }

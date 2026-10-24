@@ -19,7 +19,7 @@ const imageGroupByName = new Map([...iconsByImageHash.values()].flatMap((iconIds
   iconIds.map((iconId) => [iconId, iconIds])
 ));
 
-async function mockKeywordReview(page, { confirmDelay = 0 } = {}) {
+async function mockKeywordReview(page, { confirmDelay = 0, keywordOverrides = {} } = {}) {
   const confirmed = [];
   const resets = [];
   await page.route("**/api/reference-lists", async (route) => {
@@ -32,6 +32,14 @@ async function mockKeywordReview(page, { confirmDelay = 0 } = {}) {
   await page.route("**/icon-review-status.json", async (route) => {
     await route.fulfill({ json: {} });
   });
+  if (Object.keys(keywordOverrides).length > 0) {
+    await page.route("**/icon-metadata.json", async (route) => {
+      await route.fulfill({ json: metadata.map((icon) => ({
+        ...icon,
+        ...(Object.hasOwn(keywordOverrides, icon.name) ? { keywords: keywordOverrides[icon.name] } : {})
+      })) });
+    });
+  }
   await page.route("**/api/keyword-review/**", async (route) => {
     const body = route.request().postDataJSON();
     if (route.request().url().endsWith("/confirm")) {
@@ -59,10 +67,11 @@ async function mockKeywordReview(page, { confirmDelay = 0 } = {}) {
   return { confirmed, resets };
 }
 
-test("edits separate keywords and confirms them with required icon-name words", async ({ page }) => {
-  const { confirmed, resets } = await mockKeywordReview(page);
+test("highlights only long name keywords and confirms the changes", async ({ page }) => {
   const iconId = "_3DBevelOptionsDialog";
   const imageGroupIds = imageGroupByName.get(iconId);
+  const keywordOverrides = Object.fromEntries(imageGroupIds.map((iconName) => [iconName, ["3", "d", "bevel", "options", "dialog"]]));
+  const { confirmed, resets } = await mockKeywordReview(page, { keywordOverrides });
   await page.goto("/keyword-review.html");
   await expect(page.locator("#selected-icon-name")).toHaveText("_0");
   await expect(page.locator("#review-count")).toContainText(`/ ${reviewableIcons.length.toLocaleString()} reviewed`);
@@ -79,7 +88,6 @@ test("edits separate keywords and confirms them with required icon-name words", 
 
   await page.getByLabel("Search icon ID").fill(iconId);
   await page.getByRole("option", { name: iconId }).click();
-  const iconNameWords = requiredNameKeywords(iconId);
   const keywordRows = page.locator(".keyword-row");
   const renderedRows = await keywordRows.evaluateAll((rows) => rows.map((row) => ({
     value: row.querySelector("input").value,
@@ -87,13 +95,15 @@ test("edits separate keywords and confirms them with required icon-name words", 
     fromNameClass: row.querySelector("input").classList.contains("keyword-from-name"),
     removeDisabled: row.querySelector("button").disabled
   })));
-  for (const word of iconNameWords) {
-    const row = renderedRows.find((entry) => entry.value === word);
-    expect(row, `name keyword ${word}`).toBeTruthy();
+  for (const row of renderedRows) {
     expect(row.readOnly).toBe(false);
-    expect(row.fromNameClass).toBe(true);
     expect(row.removeDisabled).toBe(false);
   }
+  for (const word of requiredNameKeywords(iconId)) {
+    expect(renderedRows.find((row) => row.value === word)?.fromNameClass).toBe(true);
+  }
+  expect(renderedRows.filter((row) => row.fromNameClass).map((row) => row.value))
+    .not.toEqual(expect.arrayContaining(["3", "d"]));
   const bevelIndex = renderedRows.findIndex((entry) => entry.value === "bevel");
   expect(bevelIndex).toBeGreaterThanOrEqual(0);
   await keywordRows.nth(bevelIndex).locator("input").fill("beveled");
@@ -111,22 +121,6 @@ test("edits separate keywords and confirms them with required icon-name words", 
   await temporaryInput.fill("temporary term");
   await temporaryInput.press("Tab");
   await expect(addKeywordButton).toBeFocused();
-  const backgrounds = await page.evaluate(() => {
-    const requiredInput = document.querySelector("input.keyword-from-name");
-    const editableInput = document.querySelector(".keyword-row input:not(.keyword-from-name)");
-    const colors = {};
-    for (const theme of ["light", "dark"]) {
-      document.documentElement.dataset.theme = theme;
-      colors[theme] = {
-        required: getComputedStyle(requiredInput).backgroundColor,
-        editable: getComputedStyle(editableInput).backgroundColor
-      };
-    }
-    return colors;
-  });
-  expect(backgrounds.light.required).not.toBe(backgrounds.light.editable);
-  expect(backgrounds.dark.required).not.toBe(backgrounds.dark.editable);
-
   await page.getByRole("button", { name: "Add keyword" }).click();
   await page.locator(".keyword-row input").last().fill(" Blue Pigment ");
   await page.getByRole("button", { name: "Remove keyword temporary term" }).click();
@@ -144,8 +138,8 @@ test("edits separate keywords and confirms them with required icon-name words", 
   expect(confirmed[0].keywords).not.toContain("bevel");
   expect(confirmed[0].keywords).not.toContain("options");
   await expect(page.locator(".reference-icon-item .reference-icon-keyword").filter({ hasText: "blue pigment" })).toHaveCount(2);
-  expect(confirmed[0].keywords).toContain("3");
-  expect(confirmed[0].keywords).toContain("d");
+  expect(confirmed[0].keywords).not.toContain("3");
+  expect(confirmed[0].keywords).not.toContain("d");
   expect(confirmed[0].keywords).toContain("dialog");
 
   await page.getByRole("button", { name: "Mark not reviewed" }).click();

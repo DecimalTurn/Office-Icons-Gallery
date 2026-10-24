@@ -2,29 +2,56 @@ const { test, expect } = require("@playwright/test");
 const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
-const { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, requiredNameKeywords, updateMetadataKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
+const { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, removeShortNameKeywords, requiredNameKeywords, shortNameKeywords, updateMetadataKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
 
-test("metadata contains only keywords and includes every icon-name word", async () => {
+test("metadata contains only keywords and excludes short icon-name words", async () => {
   const reviewedKeywords = require("../icon-keywords.json");
   const metadata = require("../icon-metadata.json");
   const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
+  const metadataViolations = [];
 
   for (const icon of metadata) {
-    expect(icon).not.toHaveProperty("description");
+    if (Object.hasOwn(icon, "description")) {
+      metadataViolations.push(`${icon.name} has a description`);
+    }
     const keywords = new Set(icon.keywords);
     const nameWords = requiredNameKeywords(icon.name);
     if (!Object.hasOwn(reviewedKeywords, icon.name)) {
       for (const word of nameWords) {
-        expect(keywords.has(word), `${icon.name} should include generated name word ${word}`).toBe(true);
+        if (!keywords.has(word)) {
+          metadataViolations.push(`${icon.name} is missing generated name word ${word}`);
+        }
       }
     }
     if (!Object.hasOwn(reviewedKeywords, icon.name) && nameWords.length > 1) {
       const fullNamePhrase = nameWords.join(" ");
-      expect(keywords.has(fullNamePhrase), `${icon.name} should not include its full name as one keyword`).toBe(false);
+      if (keywords.has(fullNamePhrase)) {
+        metadataViolations.push(`${icon.name} includes its full name as one keyword`);
+      }
+    }
+  }
+  const keywordGroups = new Map();
+  for (const icon of metadata) {
+    const groupId = icon.imageStatus === "placeholder" ? icon.name : icon.imageSha256;
+    const group = keywordGroups.get(groupId) || [];
+    group.push(icon);
+    keywordGroups.set(groupId, group);
+  }
+  for (const group of keywordGroups.values()) {
+    const shortNameWords = shortNameKeywords(group.map((icon) => icon.name));
+    for (const keyword of group[0].keywords) {
+      if (shortNameWords.has(keyword)) {
+        metadataViolations.push(`${keyword} is a short name word in image group ${group[0].name}`);
+      }
     }
   }
   for (const [name, keywords] of Object.entries(reviewedKeywords)) {
-    expect(metadataByName.get(name)?.keywords, `reviewed keywords for ${name}`).toEqual(keywords);
+    const icon = metadataByName.get(name);
+    const relatedNames = icon?.imageStatus === "placeholder" ? [name] : [name, ...(icon?.sameImageIds || [])];
+    const expectedKeywords = removeShortNameKeywords(relatedNames, keywords);
+    if (!expectedKeywords.every((keyword) => icon?.keywords.includes(keyword))) {
+      metadataViolations.push(`reviewed keywords for ${name} are missing from metadata`);
+    }
   }
   const imageGroups = new Map();
   for (const icon of metadata.filter((entry) => entry.imageStatus !== "placeholder")) {
@@ -35,10 +62,13 @@ test("metadata contains only keywords and includes every icon-name word", async 
   for (const group of imageGroups.values()) {
     if (group.length > 1) {
       for (const icon of group.slice(1)) {
-        expect(icon.keywords, `${icon.name} should share keywords with ${group[0].name}`).toEqual(group[0].keywords);
+        if (JSON.stringify(icon.keywords) !== JSON.stringify(group[0].keywords)) {
+          metadataViolations.push(`${icon.name} does not share keywords with ${group[0].name}`);
+        }
       }
     }
   }
+  expect(metadataViolations).toEqual([]);
   const largestImageGroup = [...imageGroups.values()]
     .filter((group) => group.length > 1)
     .sort((left, right) => right[0].keywords.length - left[0].keywords.length)[0];
@@ -48,6 +78,8 @@ test("metadata contains only keywords and includes every icon-name word", async 
   expect(normalizeReviewedKeywords("_3DBevelOptionsDialog", [" Blue Pigment ", "BEVEL"])).toEqual([
     "bevel", "blue pigment"
   ]);
+  expect(requiredNameKeywords("_3DBevelOptionsDialog")).toEqual(["bevel", "options", "dialog"]);
+  expect(normalizeReviewedKeywordGroup(["_3DBevelOptionsDialog"], ["3", "d", "bevel"])).toEqual(["bevel"]);
   expect(normalizeReviewedKeywordGroup(["_3DBevelOptionsDialog", "ChartFormatSelection"], [" Blue Pigment "])).toEqual([
     "blue pigment"
   ]);

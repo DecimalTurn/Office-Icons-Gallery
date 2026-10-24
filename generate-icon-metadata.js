@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
-const { splitIconName } = require("./scripts/keyword-utils");
+const { removeShortNameKeywords, splitIconName } = require("./scripts/keyword-utils");
 
 const imagesPath = path.join(__dirname, "images");
 const sharedImagesPath = path.join(imagesPath, "by-hash");
@@ -349,15 +349,15 @@ const metadata = iconNames.map((name) => {
     ? []
     : (namesByImageHash.get(imageHash) || []).filter((otherName) => otherName !== name);
   const generatedKeywords = [
-    ...normalizedWords,
+    ...normalizedWords.filter((word) => word.length >= 4),
     ...normalizedWords.flatMap((word) => relatedKeywords.get(word) || []),
     ...(placeholder ? ["placeholder", "office fallback"] : []),
     ...keywordOverride
   ];
-  const keywords = new Set([
+  const keywords = new Set(removeShortNameKeywords([name], [
     ...(Object.hasOwn(reviewedKeywords, name) ? reviewedKeywords[name] : generatedKeywords)
       .map((keyword) => keyword.trim().toLocaleLowerCase("en"))
-  ]);
+  ]));
 
   return {
     name,
@@ -387,7 +387,10 @@ for (const group of keywordsByImageHash.values()) {
   if (group.length < 2) {
     continue;
   }
-  const sharedKeywords = [...new Set(group.flatMap((icon) => icon.keywords))].sort();
+  const sharedKeywords = removeShortNameKeywords(
+    group.map((icon) => icon.name),
+    [...new Set(group.flatMap((icon) => icon.keywords))]
+  ).sort();
   for (const icon of group) {
     icon.keywords = sharedKeywords;
   }

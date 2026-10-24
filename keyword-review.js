@@ -72,7 +72,7 @@
     }
     return new Set([state.currentIcon.name, ...(state.currentIcon.sameImageIds || [])]
       .flatMap(splitIconName)
-      .map((word) => word.toLocaleLowerCase("en")));
+      .filter((word) => word.length >= 4));
   }
 
   function readKeywords() {
@@ -91,7 +91,7 @@
     elements.markNotReviewed.hidden = !reviewed;
   }
 
-  function createKeywordRow(keyword, index, required) {
+  function createKeywordRow(keyword, index, nameDerived) {
     const row = document.createElement("div");
     const input = document.createElement("input");
     const remove = document.createElement("button");
@@ -102,9 +102,9 @@
     input.autocomplete = "off";
     input.spellcheck = false;
     input.value = keyword;
-    input.classList.toggle("keyword-from-name", required);
+    input.classList.toggle("keyword-from-name", nameDerived);
     input.setAttribute("aria-label", `Keyword ${index + 1}`);
-    input.title = required ? "Keyword from an icon ID; editable" : "Edit keyword";
+    input.title = nameDerived ? "Keyword from an icon ID; editable" : "Edit keyword";
     remove.type = "button";
     remove.className = "review-icon-button keyword-remove-button";
     remove.dataset.removeKeyword = "true";
@@ -113,7 +113,7 @@
     remove.innerHTML = "&#128465;";
     row.append(input, remove);
     let autocomplete = null;
-    if (!required) {
+    if (!nameDerived) {
       input.classList.add("awesomplete");
       autocomplete = new Awesomplete(input, {
         list: state.keywordSuggestions,
