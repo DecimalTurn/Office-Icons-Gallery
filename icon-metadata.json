@@ -50,6 +50,9 @@
     "keywords": [
       "appearance",
       "bucket",
+      "graph",
+      "graphic",
+      "grid",
       "paint",
       "paintbrush",
       "photo",
@@ -66,6 +69,7 @@
     "imageAsset": "images/by-hash/1aafdbcfdb81e8bf.png",
     "keywords": [
       "cloud",
+      "graphic",
       "image",
       "photo",
       "scene",
@@ -90,6 +94,7 @@
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
       "colour",
+      "grid",
       "three"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
@@ -325,10 +330,12 @@
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
       "arrow",
+      "graph",
       "less",
       "lower",
       "reduce",
-      "three"
+      "three",
+      "visualization"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -426,7 +433,9 @@
     "name": "_3DTiltDownClassic",
     "imageAsset": "images/by-hash/3feb97f7e19ab7cd.png",
     "keywords": [
+      "rotate",
       "rotation",
+      "spin",
       "three"
     ],
     "imageSha256": "3FEB97F7E19AB7CD6A9731C22FF96CFADECDCF95DB416CBDDAE24179C8953241"
@@ -435,7 +444,9 @@
     "name": "_3DTiltLeftClassic",
     "imageAsset": "images/by-hash/2d5efc2c9652df88.png",
     "keywords": [
+      "rotate",
       "rotation",
+      "spin",
       "three"
     ],
     "imageSha256": "2D5EFC2C9652DF88EFF6D36E589AB1FB19D94EFA490829D4B65E47758BF5E338"
@@ -444,7 +455,9 @@
     "name": "_3DTiltRightClassic",
     "imageAsset": "images/by-hash/645c9614d20791ed.png",
     "keywords": [
+      "rotate",
       "rotation",
+      "spin",
       "three"
     ],
     "imageSha256": "645C9614D20791ED1E9E069406D5B4BE4DAE6F568A5B57B693AB08F024FBB642"
@@ -453,7 +466,9 @@
     "name": "_3DTiltUpClassic",
     "imageAsset": "images/by-hash/7a46f6d38b719d2e.png",
     "keywords": [
+      "rotate",
       "rotation",
+      "spin",
       "three"
     ],
     "imageSha256": "7A46F6D38B719D2EEB53E91FC45F128C68175AB886405478773FBCA648749CBB"
@@ -575,6 +590,7 @@
     "keywords": [
       "checkmark",
       "document",
+      "file",
       "text"
     ],
     "imageSha256": "A37D174078437C42A46654A5DE7A47E4454445F1776ADDAECA2C771905211D6C"
@@ -584,8 +600,11 @@
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
       "checkmark",
+      "correct",
+      "exact",
       "find",
-      "lookup"
+      "lookup",
+      "valid"
     ],
     "imageSha256": "66C019A2AA5479C9ACAD7D9C782C8A3592162293DD1065E4782F332CA05427C4"
   },
@@ -635,26 +654,37 @@
     "imageAsset": "images/by-hash/e66e4f9a48e1e90f.png",
     "keywords": [
       "magic",
-      "spark"
+      "spark",
+      "wand"
     ],
     "imageSha256": "E66E4F9A48E1E90FBD6196B57EE1DDB70D0F8604FD02625EBBBA6561F269469A"
   },
   {
     "name": "AccessibilityChecker",
     "imageAsset": "images/by-hash/c919dba1611f85c4.png",
-    "keywords": [],
+    "keywords": [
+      "document",
+      "file"
+    ],
     "imageSha256": "C919DBA1611F85C443A352937F02B9FEE585A49B4D00D1051DAF8BAA03C8BA6C"
   },
   {
     "name": "AccessibilityReports",
     "imageAsset": "images/by-hash/fe1c107d924da4c2.png",
-    "keywords": [],
+    "keywords": [
+      "document",
+      "file"
+    ],
     "imageSha256": "FE1C107D924DA4C20CE0FF5B552929E0DE9000DFCA2CAB633893BD3EEA5AC281"
   },
   {
     "name": "AccessListAssets",
     "imageAsset": "images/by-hash/8d751cb3dda2189b.png",
-    "keywords": [],
+    "keywords": [
+      "cellphone",
+      "desktop",
+      "screen"
+    ],
     "imageSha256": "8D751CB3DDA2189BCDA62FA9EE443AD4FE4DCB43D1D97EC5DFDDCCD80B4A4C9C"
   },
   {
@@ -663,9 +693,7 @@
     "keywords": [
       "directory",
       "email",
-      "files",
       "find",
-      "launch",
       "lookup",
       "message"
     ],

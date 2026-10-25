@@ -1,4 +1,15 @@
 {
+  "correct": [
+    "exact",
+    "valid"
+  ],
+  "document": [
+    "file"
+  ],
+  "rotation": [
+    "rotate",
+    "spin"
+  ],
   "visualization": [
     "visualisation"
   ]

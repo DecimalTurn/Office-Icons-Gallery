@@ -193,16 +193,28 @@
     "three"
   ],
   "_3DTiltDownClassic": [
-    "rotation"
+    "rotate",
+    "rotation",
+    "spin",
+    "three"
   ],
   "_3DTiltLeftClassic": [
-    "rotation"
+    "rotate",
+    "rotation",
+    "spin",
+    "three"
   ],
   "_3DTiltRightClassic": [
-    "rotation"
+    "rotate",
+    "rotation",
+    "spin",
+    "three"
   ],
   "_3DTiltUpClassic": [
-    "rotation"
+    "rotate",
+    "rotation",
+    "spin",
+    "three"
   ],
   "_4": [
     "four",
@@ -256,23 +268,45 @@
   ],
   "AcceptInvitation": [
     "checkmark",
+    "correct",
+    "exact",
     "find",
-    "lookup"
+    "lookup",
+    "valid"
   ],
   "AccessFormDatasheet": [
     "calendar",
-    "grid",
-    "new"
+    "grid"
   ],
   "AccessFormPivotTable": [
     "grid"
   ],
   "AccessFormWizard": [
     "magic",
-    "spark"
+    "spark",
+    "wand"
   ],
   "AutoSum": [
     "greek",
     "sigma"
+  ],
+  "AccessibilityChecker": [
+    "document",
+    "file"
+  ],
+  "AccessibilityReports": [
+    "document"
+  ],
+  "AccessListAssets": [
+    "cellphone",
+    "desktop",
+    "screen"
+  ],
+  "AccessListContacts": [
+    "directory",
+    "email",
+    "find",
+    "lookup",
+    "message"
   ]
 }
