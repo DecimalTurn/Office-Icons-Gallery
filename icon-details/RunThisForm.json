@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DesignThisForm",
+      "imageAsset": "images/by-hash/828e97e4441434cb.png"
+    },
+    {
+      "name": "DesignThisInfoPathForm",
+      "imageAsset": "images/by-hash/93b3427526680a34.png"
+    },
+    {
+      "name": "FillOutThisForm",
+      "imageAsset": "images/by-hash/d7410cb50716b1e7.png"
+    },
+    {
+      "name": "ClickToRunAboutUpdates",
+      "imageAsset": "images/by-hash/7404d79e63593d89.png"
+    },
+    {
+      "name": "ClickToRunApplyUpdates",
+      "imageAsset": "images/by-hash/c2ddcf2d05fd7d7e.png"
+    },
+    {
+      "name": "ClickToRunEnableUpdates",
+      "imageAsset": "images/by-hash/15f524a4080c974d.png"
+    },
+    {
+      "name": "ClickToRunLearnMore",
+      "imageAsset": "images/by-hash/b1155395fa45b05b.png"
+    },
+    {
+      "name": "ClickToRunMobileOfficeCreationButton",
+      "imageAsset": "images/by-hash/64544a6240853d88.png"
+    },
+    {
+      "name": "ClickToRunUpdateOptions",
+      "imageAsset": "images/by-hash/15ef775dae4a4a08.png"
+    },
+    {
+      "name": "ClickToRunViewUpdates",
+      "imageAsset": "images/by-hash/bfbf930e4ac19247.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckRun",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "FormsToolRunMacroGallery",
+      "imageAsset": "images/by-hash/6a80a427c8e73043.png"
+    }
+  ],
+  "sameImageIds": []
+}

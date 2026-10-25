@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SparklineNegativePointMoreColors",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "SparkLineNegativePointColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "ConnectionPoints",
+      "imageAsset": "images/by-hash/1119b395369eaace.png"
+    },
+    {
+      "name": "GlueToConnectionPoints",
+      "imageAsset": "images/by-hash/40dd59a2350ba12e.png"
+    },
+    {
+      "name": "ObjectEditPoints",
+      "imageAsset": "images/by-hash/bc418a9f0b960640.png"
+    },
+    {
+      "name": "TextWrappingEditWrapPoints",
+      "imageAsset": "images/by-hash/365164a10e92196c.png"
+    },
+    {
+      "name": "ActiveXToggleButton",
+      "imageAsset": "images/by-hash/ec7798c67ae9ecc9.png"
+    },
+    {
+      "name": "BorderBottomNoToggle",
+      "imageAsset": "images/by-hash/55ed253243346cfc.png"
+    },
+    {
+      "name": "BorderLeftNoToggle",
+      "imageAsset": "images/by-hash/aa0534c0ead9c22c.png"
+    },
+    {
+      "name": "BorderRightNoToggle",
+      "imageAsset": "images/by-hash/6cdf266bdd875afb.png"
+    },
+    {
+      "name": "BorderTopNoToggle",
+      "imageAsset": "images/by-hash/ab7e4b394c677a88.png"
+    },
+    {
+      "name": "CharacterCodeToggle",
+      "imageAsset": "images/by-hash/a4513abcd4ee3ea2.png"
+    }
+  ],
+  "sameImageIds": []
+}

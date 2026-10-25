@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SharingOpenJournalFolder",
+      "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+    },
+    {
+      "name": "ShareCalendarFolder",
+      "imageAsset": "images/by-hash/8db446fcf66f5604.png"
+    },
+    {
+      "name": "ShareContactsFolder",
+      "imageAsset": "images/by-hash/d18a1653eb9dba65.png"
+    },
+    {
+      "name": "ShareMailFolder",
+      "imageAsset": "images/by-hash/cebb6d36cf27c851.png"
+    },
+    {
+      "name": "ShareNotesFolder",
+      "imageAsset": "images/by-hash/2975414bd54b0366.png"
+    },
+    {
+      "name": "ShareTaskFolder",
+      "imageAsset": "images/by-hash/9960556f722cbf0b.png"
+    },
+    {
+      "name": "GotoJournal",
+      "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+    },
+    {
+      "name": "GroupJournalArrangement",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "GroupJournalNew",
+      "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+    },
+    {
+      "name": "GroupJournalOptions",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "GroupJournalRefineSearch",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "JournalNewItemMenu",
+      "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupAuthors",
+    "ShareThisNotebook"
+  ]
+}

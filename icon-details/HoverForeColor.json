@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FontForeColorSplitDropdown",
+      "imageAsset": "images/by-hash/1a614d7d7f1a5953.png"
+    },
+    {
+      "name": "ControlPropertyPictureButtonBrowseHoverPicture",
+      "imageAsset": "images/by-hash/4feff2afcc852911.png"
+    },
+    {
+      "name": "GoLtrHover",
+      "imageAsset": "images/by-hash/8ac1c6e151bfa73f.png"
+    },
+    {
+      "name": "GoRtlHover",
+      "imageAsset": "images/by-hash/c8c9a4a8dee4e65b.png"
+    },
+    {
+      "name": "StopLtrHover",
+      "imageAsset": "images/by-hash/9679e00de8896fa3.png"
+    },
+    {
+      "name": "StopRtlHover",
+      "imageAsset": "images/by-hash/9679e00de8896fa3.png"
+    }
+  ],
+  "sameImageIds": []
+}

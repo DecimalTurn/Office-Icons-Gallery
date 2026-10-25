@@ -1,0 +1,61 @@
+{
+  "relatedIcons": [
+    {
+      "name": "JotOOCUndoAutoBullets",
+      "imageAsset": "images/by-hash/720e34890e473f48.png"
+    },
+    {
+      "name": "JotOOCRedoAutoNumbering",
+      "imageAsset": "images/by-hash/33a97bd523f22be9.png"
+    },
+    {
+      "name": "JotOOCRedoAutoBullets",
+      "imageAsset": "images/by-hash/33a97bd523f22be9.png"
+    },
+    {
+      "name": "SourceControlUndoCheckOut",
+      "imageAsset": "images/by-hash/9a092616c2da4f72.png"
+    },
+    {
+      "name": "SourceSafeQuickUndoCheckOut",
+      "imageAsset": "images/by-hash/9a092616c2da4f72.png"
+    },
+    {
+      "name": "Undo",
+      "imageAsset": "images/by-hash/720e34890e473f48.png"
+    },
+    {
+      "name": "UndoButton",
+      "imageAsset": "images/by-hash/720e34890e473f48.png"
+    },
+    {
+      "name": "UndoCompressMedia",
+      "imageAsset": "images/by-hash/720e34890e473f48.png"
+    },
+    {
+      "name": "BulletsAndNumberingBulletsDialog",
+      "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+    },
+    {
+      "name": "BulletsAndNumberingDialog",
+      "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+    },
+    {
+      "name": "BulletsAndNumberingNumberingDialog",
+      "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+    },
+    {
+      "name": "BulletsAndNumberingNumberingDialogPublisher",
+      "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChartMostRecentlyUsed",
+    "GroupChess",
+    "JotOOCUndoAutoBullets",
+    "ResetCurrentView",
+    "Undo",
+    "UndoButton",
+    "UndoCompressMedia"
+  ]
+}

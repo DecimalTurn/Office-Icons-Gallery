@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReviewDeleteAllMarkupInPresentation",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "ReviewProtectAndShareWorkbook",
+      "imageAsset": "images/by-hash/1b69b0561cb6a535.png"
+    },
+    {
+      "name": "ReviewProtectDocumentMenu",
+      "imageAsset": "images/by-hash/2a9d5ce71f064303.png"
+    },
+    {
+      "name": "ReviewProtectWorkbook",
+      "imageAsset": "images/by-hash/7286a677f4683105.png"
+    },
+    {
+      "name": "ReviewProtectWorkbookMenu",
+      "imageAsset": "images/by-hash/7286a677f4683105.png"
+    },
+    {
+      "name": "FileSaveAsPowerPointOpenDocumentPresentation",
+      "imageAsset": "images/by-hash/024b979096487fc1.png"
+    },
+    {
+      "name": "GroupPresentationViews",
+      "imageAsset": "images/by-hash/592601d3eae5f5bc.png"
+    },
+    {
+      "name": "SavePresentationTask",
+      "imageAsset": "images/by-hash/024b979096487fc1.png"
+    },
+    {
+      "name": "SlideShowShowPresentationOnGallery",
+      "imageAsset": "images/by-hash/c75899929dddaa88.png"
+    },
+    {
+      "name": "TimelineViewCopyForPresentation",
+      "imageAsset": "images/by-hash/1ce01d1424245dc7.png"
+    },
+    {
+      "name": "UpgradePresentation",
+      "imageAsset": "images/by-hash/a39c7d9dfe9a52e6.png"
+    },
+    {
+      "name": "GroupProtect",
+      "imageAsset": "images/by-hash/2a9d5ce71f064303.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupProtect",
+    "ProtectDocument",
+    "ProtectDocumentVisio",
+    "ReviewProtectDocumentMenu",
+    "ReviewRestrictFormatting"
+  ]
+}

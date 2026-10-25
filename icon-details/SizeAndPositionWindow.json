@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PositionFitToWindow",
+      "imageAsset": "images/by-hash/ed33f80ba9b9dd29.png"
+    },
+    {
+      "name": "WindowResetPosition",
+      "imageAsset": "images/by-hash/d8417e7985de69fc.png"
+    },
+    {
+      "name": "GroupSizeAndPosition",
+      "imageAsset": "images/by-hash/1a818d7a07dd3cd5.png"
+    },
+    {
+      "name": "ObjectSizeAndPositionDialog",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "GalPosition",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "GroupControlPositionLayout",
+      "imageAsset": "images/by-hash/1a818d7a07dd3cd5.png"
+    },
+    {
+      "name": "GroupHeaderFooterPosition",
+      "imageAsset": "images/by-hash/0b76d10d2d30d097.png"
+    },
+    {
+      "name": "GroupPosition",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "GroupPositionLayout",
+      "imageAsset": "images/by-hash/1a818d7a07dd3cd5.png"
+    },
+    {
+      "name": "HeaderFooterPositionFooterFromBottom",
+      "imageAsset": "images/by-hash/c26f65d2a8163637.png"
+    },
+    {
+      "name": "HeaderFooterPositionHeaderFromTop",
+      "imageAsset": "images/by-hash/0b76d10d2d30d097.png"
+    },
+    {
+      "name": "LayoutOptionsDialogPosition",
+      "imageAsset": "images/by-hash/b2d12a6affc2897a.png"
+    }
+  ],
+  "sameImageIds": [
+    "ShowMessageBar"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FilePageSetupCalendar",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    },
+    {
+      "name": "FilePageSetupCalendarFonts",
+      "imageAsset": "images/by-hash/38d76334050dad66.png"
+    },
+    {
+      "name": "FilePageSetupPage",
+      "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+    },
+    {
+      "name": "FilePrintSetup",
+      "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+    },
+    {
+      "name": "FileMenuPublishHeader",
+      "imageAsset": "images/by-hash/b9b0aea1b63f72df.png"
+    },
+    {
+      "name": "FileMenuSendHeader",
+      "imageAsset": "images/by-hash/17e648f52c2a4500.png"
+    },
+    {
+      "name": "FileMenuServerTasksHeader",
+      "imageAsset": "images/by-hash/374c984d4a9fc494.png"
+    },
+    {
+      "name": "HeaderFooterFileNameInsert",
+      "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+    },
+    {
+      "name": "HeaderFooterFilePathInsert",
+      "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+    },
+    {
+      "name": "GroupCDAudioSetup",
+      "imageAsset": "images/by-hash/c4155e7df729c0ca.png"
+    },
+    {
+      "name": "GroupPageLayoutSetup",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    },
+    {
+      "name": "GroupPageSetup",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    }
+  ],
+  "sameImageIds": []
+}

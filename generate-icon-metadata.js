@@ -6,7 +6,7 @@ const { removeShortNameKeywords, splitIconName } = require("./scripts/keyword-ut
 const imagesPath = path.join(__dirname, "images");
 const sharedImagesPath = path.join(imagesPath, "by-hash");
 const outputPath = path.join(__dirname, "icon-metadata.json");
-const relatedIconsPath = path.join(__dirname, "related-icons");
+const iconDetailsPath = path.join(__dirname, "icon-details");
 const placeholderManifestPath = path.join(__dirname, "assets", "placeholders", "manifest.tsv");
 const imageFiles = fs.readdirSync(imagesPath, { withFileTypes: true })
   .filter((entry) => entry.isFile() && path.extname(entry.name).toLowerCase() === ".png");
@@ -338,7 +338,7 @@ function findRelatedIconNames(name) {
   return [...curatedNames, ...generatedNames].slice(0, 12);
 }
 
-const relatedIconsByName = new Map();
+const iconDetailsByName = new Map();
 const metadata = iconNames.map((name) => {
   const words = splitIconName(name);
   const normalizedWords = words.map((word) => word.toLowerCase());
@@ -347,15 +347,15 @@ const metadata = iconNames.map((name) => {
     name: relatedName,
     imageAsset: imageAssetByHash.get(imageHashByName.get(relatedName))
   }));
-  if (relatedIcons.length > 0) {
-    relatedIconsByName.set(name, relatedIcons);
-  }
   const imageHash = imageHashByName.get(name);
   const imageAsset = imageAssetByHash.get(imageHash);
   const placeholder = placeholderByHash.get(imageHash);
   const sameImageIds = placeholder
     ? []
     : (namesByImageHash.get(imageHash) || []).filter((otherName) => otherName !== name);
+  if (relatedIcons.length > 0 || sameImageIds.length > 0) {
+    iconDetailsByName.set(name, { relatedIcons, sameImageIds });
+  }
   const generatedKeywords = [
     ...normalizedWords.filter((word) => word.length >= 4),
     ...normalizedWords.flatMap((word) => relatedKeywords.get(word) || []),
@@ -371,7 +371,6 @@ const metadata = iconNames.map((name) => {
     name,
     imageAsset,
     keywords: [...keywords].filter(Boolean).sort(),
-    ...(sameImageIds.length > 0 ? { sameImageIds } : {}),
     imageSha256: imageHash,
     ...(placeholder ? {
       imageStatus: placeholder.imageStatus,
@@ -404,16 +403,16 @@ for (const group of keywordsByImageHash.values()) {
 }
 
 fs.writeFileSync(outputPath, `${JSON.stringify(metadata, null, 2)}\n`, "utf8");
-fs.mkdirSync(relatedIconsPath, { recursive: true });
-const expectedRelatedIconFiles = new Set();
-for (const [name, relatedIcons] of relatedIconsByName) {
+fs.mkdirSync(iconDetailsPath, { recursive: true });
+const expectedIconDetailFiles = new Set();
+for (const [name, iconDetails] of iconDetailsByName) {
   const fileName = `${name}.json`;
-  expectedRelatedIconFiles.add(fileName);
-  fs.writeFileSync(path.join(relatedIconsPath, fileName), `${JSON.stringify(relatedIcons, null, 2)}\n`, "utf8");
+  expectedIconDetailFiles.add(fileName);
+  fs.writeFileSync(path.join(iconDetailsPath, fileName), `${JSON.stringify(iconDetails, null, 2)}\n`, "utf8");
 }
-for (const entry of fs.readdirSync(relatedIconsPath, { withFileTypes: true })) {
-  if (entry.isFile() && /^[A-Za-z0-9_]+\.json$/.test(entry.name) && !expectedRelatedIconFiles.has(entry.name)) {
-    fs.unlinkSync(path.join(relatedIconsPath, entry.name));
+for (const entry of fs.readdirSync(iconDetailsPath, { withFileTypes: true })) {
+  if (entry.isFile() && /^[A-Za-z0-9_]+\.json$/.test(entry.name) && !expectedIconDetailFiles.has(entry.name)) {
+    fs.unlinkSync(path.join(iconDetailsPath, entry.name));
   }
 }
 console.log(`Generated metadata for ${metadata.length} icons in ${path.basename(outputPath)}`);

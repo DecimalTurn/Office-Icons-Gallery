@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MacroSubRoutineDesignBlock",
+      "imageAsset": "images/by-hash/6beb37849f9e7a7c.png"
+    },
+    {
+      "name": "EverythingElseGiveFeedback",
+      "imageAsset": "images/by-hash/860e1805399fa093.png"
+    },
+    {
+      "name": "InsertElseBranch",
+      "imageAsset": "images/by-hash/0e363d8ff7edb8a7.png"
+    },
+    {
+      "name": "PivotTableEnableWhatIfAnalysis",
+      "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+    },
+    {
+      "name": "PivotTableWhatIfAnalysisMenu",
+      "imageAsset": "images/by-hash/af3732760a762308.png"
+    },
+    {
+      "name": "WhatIfAnalysisMenu",
+      "imageAsset": "images/by-hash/af3732760a762308.png"
+    },
+    {
+      "name": "BlockAuthorsMenu",
+      "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+    },
+    {
+      "name": "BuildingBlockLibrary",
+      "imageAsset": "images/by-hash/4e750716e8bb8134.png"
+    },
+    {
+      "name": "BuildingBlockProperties",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "ContentControlBuildingBlockGallery",
+      "imageAsset": "images/by-hash/e27e8020013561a6.png"
+    },
+    {
+      "name": "InsertAppOnlyBlock",
+      "imageAsset": "images/by-hash/af86b53b295b45ca.png"
+    },
+    {
+      "name": "InsertBuildingBlock",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    }
+  ],
+  "sameImageIds": []
+}

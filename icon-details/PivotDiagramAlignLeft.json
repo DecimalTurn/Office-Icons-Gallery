@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotDiagramLeftToRight",
+      "imageAsset": "images/by-hash/aecaa713bb24966e.png"
+    },
+    {
+      "name": "PivotDiagramMoveLeft",
+      "imageAsset": "images/by-hash/1816c21da026fa8e.png"
+    },
+    {
+      "name": "PivotDiagramRightToLeft",
+      "imageAsset": "images/by-hash/c4bfb06448aa6537.png"
+    },
+    {
+      "name": "PivotDiagramAlignBottom",
+      "imageAsset": "images/by-hash/41b181deaed7563e.png"
+    },
+    {
+      "name": "PivotDiagramAlignCenter",
+      "imageAsset": "images/by-hash/c208912ec62178ed.png"
+    },
+    {
+      "name": "PivotDiagramAlignMiddle",
+      "imageAsset": "images/by-hash/aecaa713bb24966e.png"
+    },
+    {
+      "name": "PivotDiagramAlignRight",
+      "imageAsset": "images/by-hash/8bbb268d4acfc242.png"
+    },
+    {
+      "name": "PivotDiagramAlignTop",
+      "imageAsset": "images/by-hash/73983d87d2039817.png"
+    },
+    {
+      "name": "AlignLeft",
+      "imageAsset": "images/by-hash/9a721c9b12989d11.png"
+    },
+    {
+      "name": "AlignLeftToRightMenu",
+      "imageAsset": "images/by-hash/7ae32f26706df8a1.png"
+    },
+    {
+      "name": "ObjectsAlignLeft",
+      "imageAsset": "images/by-hash/6681fe487d168071.png"
+    },
+    {
+      "name": "ObjectsAlignLeftOutlook",
+      "imageAsset": "images/by-hash/6681fe487d168071.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupPivotDiagramLayout",
+    "PivotDiagramAlignment"
+  ]
+}

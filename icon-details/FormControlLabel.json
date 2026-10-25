@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ActiveXLabel",
+      "imageAsset": "images/by-hash/facb4b355bd224b5.png"
+    },
+    {
+      "name": "AdpDiagramNewLabel",
+      "imageAsset": "images/by-hash/1819d9833fe56cf4.png"
+    },
+    {
+      "name": "ChartChangeDataLabelShapeGallery",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "ChartChangeDataLabelShapesGallery",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "ChartDataLabel",
+      "imageAsset": "images/by-hash/9238f4a9d7a48e9e.png"
+    },
+    {
+      "name": "ChartFormatDataLabel",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartFormatTrendlineLabel",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartlibAddRemoveDataLabelCallout",
+      "imageAsset": "images/by-hash/9a51ae1cf080f85e.png"
+    },
+    {
+      "name": "ChartlibAddRemoveDataLabelCalloutLine",
+      "imageAsset": "images/by-hash/eaf05310ae833364.png"
+    },
+    {
+      "name": "ChartlibAddRemoveDataLabelCalloutPie",
+      "imageAsset": "images/by-hash/0731b75f63b46726.png"
+    },
+    {
+      "name": "CrossFunctionalFlowchartRotateLaneLabel",
+      "imageAsset": "images/by-hash/96f10ff6e106a8a4.png"
+    },
+    {
+      "name": "EditLabel",
+      "imageAsset": "images/by-hash/8187ee8d4735072e.png"
+    }
+  ],
+  "sameImageIds": [
+    "AdpDiagramNewLabel",
+    "DataTypeRichText",
+    "FormatTextMore",
+    "MessageFormatRichText",
+    "RichText"
+  ]
+}

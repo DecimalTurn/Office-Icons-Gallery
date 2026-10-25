@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ObjectsAlignBottomOutlook",
+      "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+    },
+    {
+      "name": "ObjectsAlignCenterHorizontalOutlook",
+      "imageAsset": "images/by-hash/1d17157034356b58.png"
+    },
+    {
+      "name": "ObjectsAlignLeftOutlook",
+      "imageAsset": "images/by-hash/6681fe487d168071.png"
+    },
+    {
+      "name": "ObjectsAlignMenuOutlook",
+      "imageAsset": "images/by-hash/6681fe487d168071.png"
+    },
+    {
+      "name": "ObjectsAlignMiddleVerticalOutlook",
+      "imageAsset": "images/by-hash/51561e72403de4fc.png"
+    },
+    {
+      "name": "ObjectsAlignRightOutlook",
+      "imageAsset": "images/by-hash/4b95fb857b0f2970.png"
+    },
+    {
+      "name": "ObjectsAlignTopOutlook",
+      "imageAsset": "images/by-hash/25cd28379a50db64.png"
+    },
+    {
+      "name": "ShowGridOutlook",
+      "imageAsset": "images/by-hash/12ae76f3ac265004.png"
+    },
+    {
+      "name": "SizeToGridOutlook",
+      "imageAsset": "images/by-hash/05364d92a726f38d.png"
+    },
+    {
+      "name": "ControlAlignToGrid",
+      "imageAsset": "images/by-hash/deb92b3b3b1400f6.png"
+    },
+    {
+      "name": "ObjectsGroupMenuOutlook",
+      "imageAsset": "images/by-hash/9bb5d7892b9a1651.png"
+    },
+    {
+      "name": "ObjectsGroupOutlook",
+      "imageAsset": "images/by-hash/9bb5d7892b9a1651.png"
+    }
+  ],
+  "sameImageIds": [
+    "ControlAlignToGrid"
+  ]
+}

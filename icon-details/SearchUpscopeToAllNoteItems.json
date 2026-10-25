@@ -1,0 +1,65 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SearchUpscopeToAllCalendarItems",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "SearchUpscopeToAllContactItems",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "SearchUpscopeToAllItemsOfType",
+      "imageAsset": "images/by-hash/7d0b88f74fa22558.png"
+    },
+    {
+      "name": "SearchUpscopeToAllJournalItems",
+      "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+    },
+    {
+      "name": "SearchUpscopeToAllTaskItems",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "SearchUpscopeToAllItemTypes",
+      "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+    },
+    {
+      "name": "SearchUpscopeToSubfolders",
+      "imageAsset": "images/by-hash/69cb1fd75e73f868.png"
+    },
+    {
+      "name": "SearchUpscopeToThisMailbox",
+      "imageAsset": "images/by-hash/6506b3165d07ecdd.png"
+    },
+    {
+      "name": "GroupNoteRefineSearch",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "AllModuleNameItems",
+      "imageAsset": "images/by-hash/7d0b88f74fa22558.png"
+    },
+    {
+      "name": "CloseAllItems",
+      "imageAsset": "images/by-hash/c20326749b246570.png"
+    },
+    {
+      "name": "ConditionalFormattingBottomNItems",
+      "imageAsset": "images/by-hash/05e3d54018359e6f.png"
+    }
+  ],
+  "sameImageIds": [
+    "AssignmentNotes",
+    "GotoNotes",
+    "NewNote",
+    "NewNoteCompact",
+    "NewNoteNumbered",
+    "NewSideNote",
+    "ResourceNotes",
+    "ShowNotesPage",
+    "TaskNotes",
+    "ViewNotesShow",
+    "WebServerDiscussions"
+  ]
+}

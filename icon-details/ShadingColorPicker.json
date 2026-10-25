@@ -1,0 +1,79 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ShadingPicker",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "FontShadingColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "_3DEffectColorPickerClassic",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "BorderColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "BorderColorPickerExcel",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "CellFillColorPicker",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "ColorPickerCalendar",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "ColorPickerCommentFill",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "ColorPickerTable",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "ControlLineColorPicker",
+      "imageAsset": "images/by-hash/526d6565d950b7d9.png"
+    },
+    {
+      "name": "Drawing1ColorPickerLineStyles",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "Drawing1ColorPickerLineStyles2",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    }
+  ],
+  "sameImageIds": [
+    "_3DEffectColorPickerClassic",
+    "CellFillColorPicker",
+    "ColorPickerCommentFill",
+    "ColorPickerTable",
+    "FillBackColorSplitDropdown",
+    "FillColorGallery",
+    "FillDialog",
+    "FillStyle",
+    "FontFillBackColorPicker",
+    "GanttBarColorPicker",
+    "GroupIconEditPaint",
+    "IconBucketTool",
+    "ShadingPicker",
+    "ShadowColorPickerClassic",
+    "ShapeFillColorPicker",
+    "ShapeFillColorPickerClassic",
+    "TableBackgroundGallery",
+    "TableFillColorPicker",
+    "TeamPlannerActualFillColor",
+    "TeamPlannerAutoScheduledFillColor",
+    "TeamPlannerExternalFillColor",
+    "TeamPlannerLateFillColor",
+    "TeamPlannerManuallyScheduledFillColor",
+    "TeamPlannerTaskFillColorGallery",
+    "UnderlineColorPicker"
+  ]
+}

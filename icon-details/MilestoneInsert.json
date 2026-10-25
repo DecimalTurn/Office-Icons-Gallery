@@ -1,0 +1,23 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupTimelineMilestone",
+      "imageAsset": "images/by-hash/f906e2c9c1411cd9.png"
+    },
+    {
+      "name": "TimelineMilestoneConfigure",
+      "imageAsset": "images/by-hash/f906e2c9c1411cd9.png"
+    },
+    {
+      "name": "TimelineMilestoneSync",
+      "imageAsset": "images/by-hash/af10a7c4f02b7851.png"
+    },
+    {
+      "name": "TimelineViewMilestoneInsert",
+      "imageAsset": "images/by-hash/2373a38b8a04a758.png"
+    }
+  ],
+  "sameImageIds": [
+    "NewMaster"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FootnoteEndnoteDialog",
+      "imageAsset": "images/by-hash/4ad8707b8a02770c.png"
+    },
+    {
+      "name": "FootnoteNext",
+      "imageAsset": "images/by-hash/e48eeed1639f64f2.png"
+    },
+    {
+      "name": "FootnoteNextWord",
+      "imageAsset": "images/by-hash/e48eeed1639f64f2.png"
+    }
+  ],
+  "sameImageIds": [
+    "FootnoteEndnoteDialog",
+    "GroupFootnotes"
+  ]
+}

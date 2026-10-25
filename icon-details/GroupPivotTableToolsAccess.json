@@ -1,0 +1,61 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupAccessTools",
+      "imageAsset": "images/by-hash/6e89cbd7d71902d5.png"
+    },
+    {
+      "name": "GroupToolsAccess",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupPivotChartTools",
+      "imageAsset": "images/by-hash/f3efe98ab9433ece.png"
+    },
+    {
+      "name": "GroupPivotTableTools",
+      "imageAsset": "images/by-hash/f86727545aa8937b.png"
+    },
+    {
+      "name": "PivotChartOlapTools",
+      "imageAsset": "images/by-hash/4ea78df29c034d14.png"
+    },
+    {
+      "name": "PivotTableOlapTools",
+      "imageAsset": "images/by-hash/4ea78df29c034d14.png"
+    },
+    {
+      "name": "AccessFormPivotTable",
+      "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+    },
+    {
+      "name": "GroupPivotChartActiveFieldAccess",
+      "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+    },
+    {
+      "name": "GroupPivotChartDataAccess",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "GroupPivotTableActiveFieldAccess",
+      "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+    },
+    {
+      "name": "GroupPivotTableDataAccess",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "GroupPivotTableShowHideAccess",
+      "imageAsset": "images/by-hash/294ba2e393d6032b.png"
+    }
+  ],
+  "sameImageIds": [
+    "AutoSum",
+    "GroupPivotChartTools",
+    "GroupQueryShowHide",
+    "PivotAutoCalcMenu",
+    "QueryTotalsShowHide",
+    "RecordsTotals",
+    "TotalsMenu"
+  ]
+}

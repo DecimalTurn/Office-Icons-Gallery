@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CatalogMergeOpenDataSource",
+      "imageAsset": "images/by-hash/ed662b1b3d27fe6e.png"
+    },
+    {
+      "name": "DataSourceCatalogCopyModify",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    },
+    {
+      "name": "DataSourceCatalogDataBase",
+      "imageAsset": "images/by-hash/141eb9b927f43b2a.png"
+    },
+    {
+      "name": "DataSourceCatalogManage",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "DataSourceCatalogProperties",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "DataSourceCatalogRemove",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "DataSourceCatalogSOAP",
+      "imageAsset": "images/by-hash/6c47b422fb9cec32.png"
+    },
+    {
+      "name": "DataSourceCatalogXMLFile",
+      "imageAsset": "images/by-hash/2cbb1e7b3dd7b809.png"
+    },
+    {
+      "name": "CodeEditorScript",
+      "imageAsset": "images/by-hash/222ac64c060cf337.png"
+    },
+    {
+      "name": "EquationScriptGallery",
+      "imageAsset": "images/by-hash/2983e5189f77cb88.png"
+    },
+    {
+      "name": "NewJavaScriptPage",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "ScriptDebugger",
+      "imageAsset": "images/by-hash/7128e73884e0f2f8.png"
+    }
+  ],
+  "sameImageIds": [
+    "DataFromRESTWebService",
+    "ManageWebExtensions"
+  ]
+}

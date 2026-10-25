@@ -1,0 +1,95 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddExistingTasksToTimeline",
+      "imageAsset": "images/by-hash/2128fa0a06829f22.png"
+    },
+    {
+      "name": "AssociateExistingWorkflow",
+      "imageAsset": "images/by-hash/4ed7bc16cc89d2b3.png"
+    },
+    {
+      "name": "CatalogMergeMergeToExistingPublication",
+      "imageAsset": "images/by-hash/00f0aa0dc99ae8a6.png"
+    },
+    {
+      "name": "GetExternalDataExistingConnections",
+      "imageAsset": "images/by-hash/5b478506b12c635c.png"
+    },
+    {
+      "name": "LinkToExistingList",
+      "imageAsset": "images/by-hash/98c54f34d050e16b.png"
+    },
+    {
+      "name": "MailMergeRecepientsUseExistingList",
+      "imageAsset": "images/by-hash/ed662b1b3d27fe6e.png"
+    },
+    {
+      "name": "MergeToExistingPublication",
+      "imageAsset": "images/by-hash/09c977e77be6d11e.png"
+    },
+    {
+      "name": "RtcJoinExistingSession",
+      "imageAsset": "images/by-hash/785cdcfb6d5f39c8.png"
+    },
+    {
+      "name": "SubprocessLinkToExisting",
+      "imageAsset": "images/by-hash/1289be4332186b1f.png"
+    },
+    {
+      "name": "BlogCategories",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "BlogCategoriesRefresh",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "BlogCategoryInsert",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    }
+  ],
+  "sameImageIds": [
+    "DataSourceCatalogProperties",
+    "DesignerOpen",
+    "EditPageWith",
+    "FileOpen",
+    "FileOpenDatabase",
+    "FileOpenDirectly",
+    "FileOpenUsingBackstage",
+    "FindAForm",
+    "FlyoutAnchorOpenMenu",
+    "FormRegionOpen",
+    "GroupAllFilesEdit",
+    "GroupAppointmentActions",
+    "GroupBdcEntitiesManage",
+    "GroupContentTypeWorkflowsEdit",
+    "GroupDataConnectionsEdit",
+    "GroupListCustomActionsEdit",
+    "GroupListFormsEdit",
+    "GroupListViewsEdit",
+    "GroupListWorkflowsEdit",
+    "GroupPagePermissionsEdit",
+    "GroupPageVersionHistoryActions",
+    "GroupRecurringAppointmentActions",
+    "GroupSitePermissionsEdit",
+    "GroupTaskFormFieldsEdit",
+    "GroupTaskOpen",
+    "GroupWorkflowFormsEdit",
+    "ListEditSelected",
+    "MenuOpenAppointment",
+    "MRUSlabOpenOfficeLiveWorkspaces",
+    "OpenAppointment",
+    "OpenAttach",
+    "OpenContentType",
+    "OpenFolder",
+    "OpenHollow",
+    "OpenList",
+    "OpenNotebookAsFolder",
+    "OpenSelectedItems",
+    "OpenSpecificFile",
+    "OpenSpecificFileWith",
+    "ReopenFromServer",
+    "TabRecent"
+  ]
+}

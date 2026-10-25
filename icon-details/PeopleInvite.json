@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PeoplePane",
+      "imageAsset": "images/by-hash/a9d954fcf1eaf93f.png"
+    },
+    {
+      "name": "ReviewPeopleFilter",
+      "imageAsset": "images/by-hash/60176fe59b81b860.png"
+    },
+    {
+      "name": "ShareWithPeople",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    },
+    {
+      "name": "ContactInviteToWorkspace",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "GroupInvite",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "InviteAttendees",
+      "imageAsset": "images/by-hash/62fd3177490b858d.png"
+    },
+    {
+      "name": "InviteMembers",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "InviteMembersLB",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "InviteMembersMenu",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "InviteMyOtherComputers",
+      "imageAsset": "images/by-hash/b5ef06e64f620e41.png"
+    },
+    {
+      "name": "InviteViaOutlook",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    },
+    {
+      "name": "JotSendSharedNotebookInvite",
+      "imageAsset": "images/by-hash/eb0e54a34f26ad5c.png"
+    }
+  ],
+  "sameImageIds": []
+}

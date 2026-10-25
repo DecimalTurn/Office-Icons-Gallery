@@ -1,0 +1,67 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupAudioToolsAdjust",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "GroupPictureToolsAdjustClassic",
+      "imageAsset": "images/by-hash/b6920ebf67401601.png"
+    },
+    {
+      "name": "VideoToolsDesignReset",
+      "imageAsset": "images/by-hash/5cead1458d00c645.png"
+    },
+    {
+      "name": "VideoToolsTrim",
+      "imageAsset": "images/by-hash/05377a60f8076477.png"
+    },
+    {
+      "name": "GroupPictureToolAdjust",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "MarginsAdjust",
+      "imageAsset": "images/by-hash/a6144daba8760974.png"
+    },
+    {
+      "name": "ArrangeTools",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "ArrangeToolsSiteClient",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "AudioAndVideoGiveFeedback",
+      "imageAsset": "images/by-hash/17cc4e91fcc92c9b.png"
+    },
+    {
+      "name": "AudioToolsTrim",
+      "imageAsset": "images/by-hash/9de2f9e4dcce8de7.png"
+    },
+    {
+      "name": "AudioVideoSettings",
+      "imageAsset": "images/by-hash/bd06a0fb29933d42.png"
+    },
+    {
+      "name": "AutoSummaryToolsMenu",
+      "imageAsset": "images/by-hash/61c99640ab898dcc.png"
+    }
+  ],
+  "sameImageIds": [
+    "Drawing1GalleryBrightness",
+    "GroupAudioToolsAdjust",
+    "GroupPictureEffects",
+    "GroupPictureToolAdjust",
+    "GroupPictureTools",
+    "GroupPictureToolsClassic",
+    "GroupPictureToolsClassicEffects",
+    "PictureBrightnessAndContrastGallery",
+    "PictureBrightnessGallery",
+    "PictureCorrectionsGallery",
+    "PictureCorrectionsMenu",
+    "VideoBrightnessGallery",
+    "VideoCorrectionsMenu"
+  ]
+}

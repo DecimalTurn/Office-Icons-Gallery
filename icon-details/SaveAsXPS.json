@@ -1,0 +1,27 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FileSaveAsPdfOrXps",
+      "imageAsset": "images/by-hash/57ac0370ed50d4cf.png"
+    },
+    {
+      "name": "FileSaveAsXps",
+      "imageAsset": "images/by-hash/57ac0370ed50d4cf.png"
+    },
+    {
+      "name": "FileEmailAsXpsEmailAttachment",
+      "imageAsset": "images/by-hash/4fa26b547fff4abe.png"
+    },
+    {
+      "name": "SendAsXpsAttachment",
+      "imageAsset": "images/by-hash/4fa26b547fff4abe.png"
+    }
+  ],
+  "sameImageIds": [
+    "FileSaveAsPdf",
+    "FileSaveAsPdfOrXps",
+    "FileSaveAsXps",
+    "JotPublishSelection",
+    "SaveAsPDF"
+  ]
+}

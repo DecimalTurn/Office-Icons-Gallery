@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "HorizontalLineInsert",
+      "imageAsset": "images/by-hash/b3f1a429d1adfcaa.png"
+    },
+    {
+      "name": "HorizontalLineInsertClassic",
+      "imageAsset": "images/by-hash/b3f1a429d1adfcaa.png"
+    },
+    {
+      "name": "HorizontalLineInsertInfoPath",
+      "imageAsset": "images/by-hash/b3f1a429d1adfcaa.png"
+    },
+    {
+      "name": "AddHorizontalGuide",
+      "imageAsset": "images/by-hash/f52ccfeb77807033.png"
+    },
+    {
+      "name": "AsianLayoutHorizontalInVertical",
+      "imageAsset": "images/by-hash/ca87cdc980134c13.png"
+    },
+    {
+      "name": "BorderInsideHorizontal",
+      "imageAsset": "images/by-hash/5ec45804bceacd0d.png"
+    },
+    {
+      "name": "CalendarHorizontal",
+      "imageAsset": "images/by-hash/5da8822e83ad3015.png"
+    },
+    {
+      "name": "ChartPrimaryHorizontalAxis",
+      "imageAsset": "images/by-hash/0985b467e5ed6ac6.png"
+    },
+    {
+      "name": "ChartPrimaryHorizontalAxisTitle",
+      "imageAsset": "images/by-hash/5bd5d4c05ff97c34.png"
+    },
+    {
+      "name": "ChartPrimaryHorizontalGridlines",
+      "imageAsset": "images/by-hash/025f1de07804fbee.png"
+    },
+    {
+      "name": "ChartSecondaryHorizontalAxis",
+      "imageAsset": "images/by-hash/0985b467e5ed6ac6.png"
+    },
+    {
+      "name": "ChartSecondaryHorizontalAxisTitle",
+      "imageAsset": "images/by-hash/5728d6bdb0ff9dc7.png"
+    }
+  ],
+  "sameImageIds": []
+}

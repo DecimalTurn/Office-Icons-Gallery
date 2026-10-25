@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PrintDialogAccess",
+      "imageAsset": "images/by-hash/9851f75ba5d983b7.png"
+    },
+    {
+      "name": "FileMenuPublishHeader",
+      "imageAsset": "images/by-hash/b9b0aea1b63f72df.png"
+    },
+    {
+      "name": "FileMenuSendHeader",
+      "imageAsset": "images/by-hash/17e648f52c2a4500.png"
+    },
+    {
+      "name": "FileMenuServerTasksHeader",
+      "imageAsset": "images/by-hash/374c984d4a9fc494.png"
+    },
+    {
+      "name": "HeaderFooterFileNameInsert",
+      "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+    },
+    {
+      "name": "HeaderFooterFilePathInsert",
+      "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+    },
+    {
+      "name": "FilePrint",
+      "imageAsset": "images/by-hash/9851f75ba5d983b7.png"
+    },
+    {
+      "name": "FilePrintPreview",
+      "imageAsset": "images/by-hash/c02c1d323af75aa4.png"
+    },
+    {
+      "name": "FilePrintQuick",
+      "imageAsset": "images/by-hash/7ba24c349eb0782d.png"
+    },
+    {
+      "name": "FilePrintSetup",
+      "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+    },
+    {
+      "name": "FileSaveAsAccess2000",
+      "imageAsset": "images/by-hash/2c489c55aeaf516e.png"
+    },
+    {
+      "name": "FileSaveAsAccess2002_2003",
+      "imageAsset": "images/by-hash/2c489c55aeaf516e.png"
+    }
+  ],
+  "sameImageIds": []
+}

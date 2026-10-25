@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PackAndGoPictures",
+      "imageAsset": "images/by-hash/c7dbd9913fbbd8d7.png"
+    },
+    {
+      "name": "PackAndGoPrinter",
+      "imageAsset": "images/by-hash/8c059a87f2fc656c.png"
+    },
+    {
+      "name": "ContactCardCallComputer",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "DeleteWorkspaceFromThisComputer",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "GroupContactCardCallComputer",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "SaveToComputerTask",
+      "imageAsset": "images/by-hash/45781e547e6af23f.png"
+    },
+    {
+      "name": "UseAccountOnAnotherComputer",
+      "imageAsset": "images/by-hash/eec5e4235d18acbc.png"
+    },
+    {
+      "name": "CatalogMergeGoToFirstRecord",
+      "imageAsset": "images/by-hash/1720f362fe7a57f6.png"
+    },
+    {
+      "name": "CatalogMergeGoToLastRecord",
+      "imageAsset": "images/by-hash/885b15570afb85d5.png"
+    },
+    {
+      "name": "CatalogMergeGoToNextRecord",
+      "imageAsset": "images/by-hash/0f42881fbb368916.png"
+    },
+    {
+      "name": "CatalogMergeGoToPreviousRecord",
+      "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+    },
+    {
+      "name": "GanttGoToFinish",
+      "imageAsset": "images/by-hash/885b15570afb85d5.png"
+    }
+  ],
+  "sameImageIds": []
+}

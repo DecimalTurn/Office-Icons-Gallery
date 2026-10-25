@@ -1,0 +1,39 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EnterProductKey",
+      "imageAsset": "images/by-hash/639eba94048305d4.png"
+    },
+    {
+      "name": "OutSpaceActivateProduct",
+      "imageAsset": "images/by-hash/0a3d9472fcfe41f3.png"
+    },
+    {
+      "name": "ProductUpdates",
+      "imageAsset": "images/by-hash/c2ddcf2d05fd7d7e.png"
+    },
+    {
+      "name": "ButtonTaskOfficeUpgrade",
+      "imageAsset": "images/by-hash/f1bd719a956bcd7f.png"
+    },
+    {
+      "name": "UpgradeDocument",
+      "imageAsset": "images/by-hash/89a2f7cbfc0f7108.png"
+    },
+    {
+      "name": "UpgradeDrawing",
+      "imageAsset": "images/by-hash/69cc7cdcce4afb13.png"
+    },
+    {
+      "name": "UpgradePresentation",
+      "imageAsset": "images/by-hash/a39c7d9dfe9a52e6.png"
+    },
+    {
+      "name": "UpgradeWorkbook",
+      "imageAsset": "images/by-hash/f4222ca6fe0f8c32.png"
+    }
+  ],
+  "sameImageIds": [
+    "SubConvert"
+  ]
+}

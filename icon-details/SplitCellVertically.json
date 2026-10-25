@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SplitVertically",
+      "imageAsset": "images/by-hash/0124452aab8db547.png"
+    },
+    {
+      "name": "TableCellAlignCenterVertically",
+      "imageAsset": "images/by-hash/4d79850f39eef76c.png"
+    },
+    {
+      "name": "AlignDistributeVertically",
+      "imageAsset": "images/by-hash/faaef2a521a93bcd.png"
+    },
+    {
+      "name": "AlignDistributeVerticallyClassic",
+      "imageAsset": "images/by-hash/faaef2a521a93bcd.png"
+    },
+    {
+      "name": "ObjectsAlignCenterInFormVertically",
+      "imageAsset": "images/by-hash/5eeaa4fc80213811.png"
+    },
+    {
+      "name": "ObjectsAlignDistributeVerticallyRemove",
+      "imageAsset": "images/by-hash/2843e10cff3a10e3.png"
+    },
+    {
+      "name": "VerticallyDistributed",
+      "imageAsset": "images/by-hash/3baf1fa8f6f65db6.png"
+    },
+    {
+      "name": "WindowsTileVertically",
+      "imageAsset": "images/by-hash/0b2bcfdb0dbafa7a.png"
+    },
+    {
+      "name": "BroadcastNotesSplitButton",
+      "imageAsset": "images/by-hash/25ceca008a74a306.png"
+    },
+    {
+      "name": "CalendarMonthDetailsSplitButton",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "CommentsPaneSplitButton",
+      "imageAsset": "images/by-hash/09795bc87c775160.png"
+    },
+    {
+      "name": "CopySplitButton",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    }
+  ],
+  "sameImageIds": []
+}

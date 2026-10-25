@@ -1,0 +1,28 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MiniTranslator",
+      "imageAsset": "images/by-hash/8566d31935adc666.png"
+    },
+    {
+      "name": "ReadingModeMini",
+      "imageAsset": "images/by-hash/0f6afe10e0b28f5e.png"
+    }
+  ],
+  "sameImageIds": [
+    "ContactCardPaste",
+    "ContextMenusAndPasteGiveFeedback",
+    "GroupClipboard",
+    "GroupClipboardInfoPath",
+    "GroupClipboardSimple",
+    "GroupIconEditClipboard",
+    "Paste",
+    "Paste2",
+    "PasteAlternative",
+    "PasteFeedback",
+    "PasteGallery",
+    "PasteOption",
+    "PastePage",
+    "PasteTableFromExcel"
+  ]
+}

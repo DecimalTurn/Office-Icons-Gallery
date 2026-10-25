@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "StylesModifyStyle",
+      "imageAsset": "images/by-hash/4bcd5bd3d89520db.png"
+    },
+    {
+      "name": "StylesPaneNewStyle",
+      "imageAsset": "images/by-hash/e6f7d1945ad3787b.png"
+    },
+    {
+      "name": "StylesStyleSeparator",
+      "imageAsset": "images/by-hash/53e7d016ba4ae8ea.png"
+    },
+    {
+      "name": "StylesStyleVisibility",
+      "imageAsset": "images/by-hash/d9d9273e665f2cba.png"
+    },
+    {
+      "name": "FixInTaskInspector",
+      "imageAsset": "images/by-hash/a00416991defdc32.png"
+    },
+    {
+      "name": "RulesInspector",
+      "imageAsset": "images/by-hash/e822b86905021325.png"
+    }
+  ],
+  "sameImageIds": []
+}

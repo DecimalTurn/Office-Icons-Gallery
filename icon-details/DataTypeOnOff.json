@@ -1,0 +1,52 @@
+{
+  "relatedIcons": [
+    {
+      "name": "_3DEffectsOnOffClassic",
+      "imageAsset": "images/by-hash/80b52f37f2b6692a.png"
+    },
+    {
+      "name": "FileCloseAndLogOff",
+      "imageAsset": "images/by-hash/8b8f6fc1118fc4fc.png"
+    },
+    {
+      "name": "ListToolPreviewOff",
+      "imageAsset": "images/by-hash/d8f9c44014793142.png"
+    },
+    {
+      "name": "MoveOffPageBreaks",
+      "imageAsset": "images/by-hash/34f3f5795e96f5ab.png"
+    },
+    {
+      "name": "PivotTableGrandTotalsOffForRowsAndColumns",
+      "imageAsset": "images/by-hash/90d4275591f12576.png"
+    },
+    {
+      "name": "ReadingPaneOff",
+      "imageAsset": "images/by-hash/d8f9c44014793142.png"
+    },
+    {
+      "name": "ShadowOnOrOffClassic",
+      "imageAsset": "images/by-hash/0fcb970eb86252ad.png"
+    }
+  ],
+  "sameImageIds": [
+    "ActiveXCheckBox",
+    "CalculatedYesNo",
+    "ContentControlCheckBox",
+    "DataTypeCheckBox",
+    "DataTypeTrueFalse",
+    "DataTypeYesNo",
+    "DataTypeYesNoBasic",
+    "FormControlCheckBox",
+    "GroupCalendarViewShowHide",
+    "GroupGanttChartShowHide",
+    "GroupNetworkDiagramShowHide",
+    "GroupResourceUsageShowHide",
+    "GroupTaskUsageShowHide",
+    "GroupTeamPlannerShowHide",
+    "GroupTimelineViewShowHide",
+    "RulesConditionIsCheckedGallery",
+    "WebControlCheckBox",
+    "XDCheckBox"
+  ]
+}

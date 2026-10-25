@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupDiagramStylesClassic",
+      "imageAsset": "images/by-hash/e98474201ab6b92a.png"
+    },
+    {
+      "name": "NetworkDiagramBoxStylesFormat",
+      "imageAsset": "images/by-hash/af4b79b468cd3aa4.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupDiagramStylesClassic",
+    "OrganizationChartStyle",
+    "SmartArtStylesGallery"
+  ]
+}

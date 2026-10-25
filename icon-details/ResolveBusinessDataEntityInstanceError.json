@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ResolveBusinessDataEntityInstanceConflict",
+      "imageAsset": "images/by-hash/cc7f9b56cf5f0e52.png"
+    },
+    {
+      "name": "NewBusinessDataEntityInstance",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    },
+    {
+      "name": "DeleteFailedEntityInstanceCreateOperation",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "ResolveConflictOrError",
+      "imageAsset": "images/by-hash/a9d09f6383031451.png"
+    },
+    {
+      "name": "ResolveSyncError",
+      "imageAsset": "images/by-hash/10c4fe9c1c1d53e3.png"
+    },
+    {
+      "name": "DeleteBusinessDataEntity",
+      "imageAsset": "images/by-hash/c3d958c8189b133f.png"
+    },
+    {
+      "name": "EditBusinessDataEntity",
+      "imageAsset": "images/by-hash/ecaaf3f682dbf587.png"
+    },
+    {
+      "name": "NewBusinessDataEntity",
+      "imageAsset": "images/by-hash/d9a34f26e8a3dcd9.png"
+    },
+    {
+      "name": "GroupResolveConflictsAndErrors",
+      "imageAsset": "images/by-hash/a9d09f6383031451.png"
+    },
+    {
+      "name": "GroupResolveToolConflictsAndErrors",
+      "imageAsset": "images/by-hash/10c4fe9c1c1d53e3.png"
+    },
+    {
+      "name": "ReplicationResolveConflicts",
+      "imageAsset": "images/by-hash/b0030a5966b54c8c.png"
+    },
+    {
+      "name": "ResolveConflict",
+      "imageAsset": "images/by-hash/78dff6663e341044.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupResolveConflictsAndErrors",
+    "ResolveConflictOrError"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TreeLeftThenDown",
+      "imageAsset": "images/by-hash/01c9f05fa9fac61f.png"
+    },
+    {
+      "name": "TreeDownThenRight",
+      "imageAsset": "images/by-hash/71bf2c57833261bf.png"
+    },
+    {
+      "name": "TreeRightThenDown",
+      "imageAsset": "images/by-hash/fb5e4fdd35948003.png"
+    },
+    {
+      "name": "_3DTiltDownClassic",
+      "imageAsset": "images/by-hash/3feb97f7e19ab7cd.png"
+    },
+    {
+      "name": "BorderDiagonalDown",
+      "imageAsset": "images/by-hash/aa2d1c261fefbb4c.png"
+    },
+    {
+      "name": "ChartFormatDownBars",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartNavDrillDown",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "ChartUpDownBars",
+      "imageAsset": "images/by-hash/15e4f4da852f3edc.png"
+    },
+    {
+      "name": "ContentControlDropDownList",
+      "imageAsset": "images/by-hash/c5dd030963b6ba3d.png"
+    },
+    {
+      "name": "DownArrow2",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    },
+    {
+      "name": "FillDown",
+      "imageAsset": "images/by-hash/8a2fa3f2da641e47.png"
+    },
+    {
+      "name": "FormattingMarkDropDown",
+      "imageAsset": "images/by-hash/e4d6825178600211.png"
+    }
+  ],
+  "sameImageIds": []
+}

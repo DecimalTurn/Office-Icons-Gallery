@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PasteDragDropSourceFormatting",
+      "imageAsset": "images/by-hash/e148546483e598d2.png"
+    },
+    {
+      "name": "PasteExcelChartSourceFormatting",
+      "imageAsset": "images/by-hash/e148546483e598d2.png"
+    },
+    {
+      "name": "PasteExcelTableSourceFormatting",
+      "imageAsset": "images/by-hash/e148546483e598d2.png"
+    },
+    {
+      "name": "PasteLinkedExcelChartSourceFormatting",
+      "imageAsset": "images/by-hash/472cd15540f4b8ca.png"
+    },
+    {
+      "name": "PasteLinkedExcelTableSourceFormatting",
+      "imageAsset": "images/by-hash/472cd15540f4b8ca.png"
+    },
+    {
+      "name": "PasteSourceFormatting",
+      "imageAsset": "images/by-hash/e148546483e598d2.png"
+    },
+    {
+      "name": "PasteValuesAndSourceFormatting",
+      "imageAsset": "images/by-hash/a73c06fe29299491.png"
+    },
+    {
+      "name": "PasteSourceTheme",
+      "imageAsset": "images/by-hash/e148546483e598d2.png"
+    },
+    {
+      "name": "PasteDestinationFormatting",
+      "imageAsset": "images/by-hash/6007443628c8ca1e.png"
+    },
+    {
+      "name": "PasteFormatting",
+      "imageAsset": "images/by-hash/f681a25e2f898e41.png"
+    },
+    {
+      "name": "PasteFormulasAndNumberFormatting",
+      "imageAsset": "images/by-hash/b769e81f308120a3.png"
+    },
+    {
+      "name": "PasteLinkedSingleCellExcelTableDestinationFormatting",
+      "imageAsset": "images/by-hash/839e05e4f24e3b1f.png"
+    }
+  ],
+  "sameImageIds": []
+}

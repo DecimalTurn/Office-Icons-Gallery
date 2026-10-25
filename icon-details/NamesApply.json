@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AdpDiagramColumnNames",
+      "imageAsset": "images/by-hash/c5ddb0905ee042e2.png"
+    },
+    {
+      "name": "CheckNames",
+      "imageAsset": "images/by-hash/7a6a332bf2402a9a.png"
+    },
+    {
+      "name": "GroupNames",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "IconsAndNames",
+      "imageAsset": "images/by-hash/4cef7c5bcd920c2f.png"
+    },
+    {
+      "name": "MacroNames",
+      "imageAsset": "images/by-hash/71badbe5c1978a66.png"
+    },
+    {
+      "name": "MailSelectNames",
+      "imageAsset": "images/by-hash/55c1de91a1dbd4c1.png"
+    },
+    {
+      "name": "NamesOnly",
+      "imageAsset": "images/by-hash/60aeac4b474d55f7.png"
+    },
+    {
+      "name": "NamesUnderIcons",
+      "imageAsset": "images/by-hash/d773ba49c692a331.png"
+    },
+    {
+      "name": "QueryTableNamesShowHide",
+      "imageAsset": "images/by-hash/3f81e109f2168f92.png"
+    },
+    {
+      "name": "SendCopyCheckNames",
+      "imageAsset": "images/by-hash/7a6a332bf2402a9a.png"
+    },
+    {
+      "name": "SendCopySelectNames",
+      "imageAsset": "images/by-hash/55c1de91a1dbd4c1.png"
+    },
+    {
+      "name": "ApplyCoAuthoringLock",
+      "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+    }
+  ],
+  "sameImageIds": []
+}

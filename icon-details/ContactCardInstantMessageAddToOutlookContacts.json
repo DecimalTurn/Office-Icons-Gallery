@@ -1,0 +1,61 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ContactCardAddToOutlookContacts",
+      "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+    },
+    {
+      "name": "ContactCardDefaultSendInstantMessage",
+      "imageAsset": "images/by-hash/09795bc87c775160.png"
+    },
+    {
+      "name": "ContactCardReplyWithInstantMessage",
+      "imageAsset": "images/by-hash/57d1bb90bfbd9267.png"
+    },
+    {
+      "name": "ContactCardSendInstantMessage",
+      "imageAsset": "images/by-hash/09795bc87c775160.png"
+    },
+    {
+      "name": "ContactCardAddToIMContacts",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "ContactAddMyContacts",
+      "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+    },
+    {
+      "name": "ContactCardLookUpOutlookContact",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "ReplyAllWithInstantMessage",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "ReplyWithInstantMessage",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "MessageAndContacts",
+      "imageAsset": "images/by-hash/d36cd2a11f0e8024.png"
+    },
+    {
+      "name": "CatalogMergeUseOutlookContacts",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "MailMergeRecepientsUseOutlookContacts",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    }
+  ],
+  "sameImageIds": [
+    "ContactAddMyContacts",
+    "ContactCardAddToOutlookContacts",
+    "GroupResourceInsert",
+    "ManageServices",
+    "NewGrooveContact",
+    "PersonaAddToContactsMenu",
+    "RecordsAddFromOutlook"
+  ]
+}

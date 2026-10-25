@@ -1,0 +1,66 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PictureRecolorAutomatic",
+      "imageAsset": "images/by-hash/83ae31440ca80215.png"
+    },
+    {
+      "name": "PictureRecolorBlackAndWhite",
+      "imageAsset": "images/by-hash/06f37aff9ab7979f.png"
+    },
+    {
+      "name": "PictureRecolorGallery",
+      "imageAsset": "images/by-hash/33a2a499c4e19654.png"
+    },
+    {
+      "name": "PictureRecolorGalleryWord",
+      "imageAsset": "images/by-hash/33a2a499c4e19654.png"
+    },
+    {
+      "name": "PictureRecolorGrayscale",
+      "imageAsset": "images/by-hash/436568c6ac0fdd41.png"
+    },
+    {
+      "name": "PictureRecolorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "PictureRecolorWashout",
+      "imageAsset": "images/by-hash/d53865222e8d6935.png"
+    },
+    {
+      "name": "RecolorColorPicker",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "SmartArtRecolorImages",
+      "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+    },
+    {
+      "name": "VideoRecolorGallery",
+      "imageAsset": "images/by-hash/33a2a499c4e19654.png"
+    },
+    {
+      "name": "Eyedropper3DColor",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    },
+    {
+      "name": "EyedropperFill",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    }
+  ],
+  "sameImageIds": [
+    "Eyedropper3DColor",
+    "EyedropperFill",
+    "EyedropperFillColor",
+    "EyedropperFillText",
+    "EyedropperFontColor",
+    "EyedropperGlow",
+    "EyedropperGlowText",
+    "EyedropperLineColor",
+    "EyedropperLineColorText",
+    "EyedropperOutline",
+    "EyedropperOutlineText",
+    "EyedropperShadowColor"
+  ]
+}

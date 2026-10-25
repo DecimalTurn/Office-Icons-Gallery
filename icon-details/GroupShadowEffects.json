@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PictureEffectsShadowGallery",
+      "imageAsset": "images/by-hash/20116a9fff99e1be.png"
+    },
+    {
+      "name": "EyedropperShadowColor",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    },
+    {
+      "name": "FontShadow",
+      "imageAsset": "images/by-hash/072804a1dbcf71ca.png"
+    },
+    {
+      "name": "ObjectEffectShadowGallery",
+      "imageAsset": "images/by-hash/7ad35b0fd2307233.png"
+    },
+    {
+      "name": "ObjectShadowColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "Shadow",
+      "imageAsset": "images/by-hash/5cfb8a4474705b1c.png"
+    },
+    {
+      "name": "ShadowColorGallery",
+      "imageAsset": "images/by-hash/d08ebef453ce28f3.png"
+    },
+    {
+      "name": "ShadowColorPickerClassic",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "ShadowNudgeDownClassic",
+      "imageAsset": "images/by-hash/f2e0f19c90586deb.png"
+    },
+    {
+      "name": "ShadowNudgeLeftClassic",
+      "imageAsset": "images/by-hash/579706cbc9cab356.png"
+    },
+    {
+      "name": "ShadowNudgeRightClassic",
+      "imageAsset": "images/by-hash/f5d38a965e65de81.png"
+    },
+    {
+      "name": "ShadowNudgeUpClassic",
+      "imageAsset": "images/by-hash/1ed2fa657202cab7.png"
+    }
+  ],
+  "sameImageIds": [
+    "ShadowStyle"
+  ]
+}

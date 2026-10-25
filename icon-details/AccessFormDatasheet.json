@@ -1,0 +1,79 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AccessListCustomDatasheet",
+      "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+    },
+    {
+      "name": "FormDatasheetWeb",
+      "imageAsset": "images/by-hash/ad332571435de757.png"
+    },
+    {
+      "name": "GroupWebFormDatasheet",
+      "imageAsset": "images/by-hash/828e97e4441434cb.png"
+    },
+    {
+      "name": "AccessFormModalDialog",
+      "imageAsset": "images/by-hash/b2bff7bb772c34d4.png"
+    },
+    {
+      "name": "AccessFormModalDialogWeb",
+      "imageAsset": "images/by-hash/b2bff7bb772c34d4.png"
+    },
+    {
+      "name": "AccessFormPivotTable",
+      "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+    },
+    {
+      "name": "AccessFormWizard",
+      "imageAsset": "images/by-hash/e66e4f9a48e1e90f.png"
+    },
+    {
+      "name": "CreateDatasheetView",
+      "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+    },
+    {
+      "name": "DatasheetColumnDelete",
+      "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+    },
+    {
+      "name": "DatasheetColumnLookup",
+      "imageAsset": "images/by-hash/2053cf596680b0b7.png"
+    },
+    {
+      "name": "DatasheetColumnRename",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "DatasheetGridlinesBoth",
+      "imageAsset": "images/by-hash/ebfac0c46cdfe306.png"
+    }
+  ],
+  "sameImageIds": [
+    "AccessListCustomDatasheet",
+    "CatalogMergeMoreRowsColumns",
+    "CatalogMergeRowsColumnsGallery",
+    "ColumnsGroup",
+    "CreateDatasheetView",
+    "CreateSharePointList",
+    "CreateTable",
+    "CreateTableTemplatesGallery",
+    "CustomTablesGallery",
+    "FPTable",
+    "GroupCreateTables",
+    "GroupCreateTablesWeb",
+    "GroupInsertTables",
+    "InsertTable",
+    "LayoutTable",
+    "QuickTablesInsertGallery",
+    "TableInsert",
+    "TableInsertDialog",
+    "TableInsertDialogWord",
+    "TableInsertGallery",
+    "TableInsertGalleryAlternate",
+    "TableInsertGallerySpd",
+    "TableLayoutInfoPath",
+    "TableRowsOrColumnsOrCellsInsert",
+    "ToggleAddTableUI"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CatalogMergePickCatalogPageLayout",
+      "imageAsset": "images/by-hash/c4291bde75d4f2b1.png"
+    },
+    {
+      "name": "CatalogMergePickLayoutCanvases",
+      "imageAsset": "images/by-hash/1f9b73fc5bc804c2.png"
+    },
+    {
+      "name": "_3DTiltUpClassic",
+      "imageAsset": "images/by-hash/7a46f6d38b719d2e.png"
+    },
+    {
+      "name": "BorderDiagonalUp",
+      "imageAsset": "images/by-hash/cc5877255b2f193f.png"
+    },
+    {
+      "name": "ChartFormatUpBars",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartUpDownBars",
+      "imageAsset": "images/by-hash/15e4f4da852f3edc.png"
+    },
+    {
+      "name": "ContactCardLookUpOutlookContact",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "FileBackUpSqlDatabase",
+      "imageAsset": "images/by-hash/ffaec45de999bcea.png"
+    },
+    {
+      "name": "FillUp",
+      "imageAsset": "images/by-hash/6d46f5929e3e9631.png"
+    },
+    {
+      "name": "FollowUpComposeMenu",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "FollowUpMenu",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "FollowUpReadMenu",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    }
+  ],
+  "sameImageIds": [
+    "CopyFormat"
+  ]
+}

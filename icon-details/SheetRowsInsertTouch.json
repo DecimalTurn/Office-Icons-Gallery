@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SheetRowsDeleteTouch",
+      "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+    },
+    {
+      "name": "RowsHideTouch",
+      "imageAsset": "images/by-hash/e3c236b7e64d01c0.png"
+    },
+    {
+      "name": "RowsUnhideTouch",
+      "imageAsset": "images/by-hash/949ae45970e0cfdd.png"
+    },
+    {
+      "name": "SheetColumnsDeleteTouch",
+      "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+    },
+    {
+      "name": "SheetColumnsInsertTouch",
+      "imageAsset": "images/by-hash/242212fb7cde5c20.png"
+    },
+    {
+      "name": "GroupShapeSheetRows",
+      "imageAsset": "images/by-hash/987f395d63e7009b.png"
+    },
+    {
+      "name": "SheetRowsDelete",
+      "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+    },
+    {
+      "name": "SheetRowsInsert",
+      "imageAsset": "images/by-hash/987f395d63e7009b.png"
+    },
+    {
+      "name": "ColumnsHideTouch",
+      "imageAsset": "images/by-hash/c6f16f06d3b53a7a.png"
+    },
+    {
+      "name": "ColumnsUnhideTouch",
+      "imageAsset": "images/by-hash/18e34dcca42fcff3.png"
+    },
+    {
+      "name": "GroupWriteOnTouch",
+      "imageAsset": "images/by-hash/1b8fcbd11730172a.png"
+    },
+    {
+      "name": "SlicerClearFilterTouch",
+      "imageAsset": "images/by-hash/44789bde2b072809.png"
+    }
+  ],
+  "sameImageIds": [
+    "ActionInsertAccess",
+    "GroupShapeSheetRows",
+    "InsertRow",
+    "InsertRows",
+    "ShapeSheetInsertRow",
+    "SheetRowsInsert",
+    "TableInsertField",
+    "TableRowsInsertWord"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AlignDistributeHorizontally",
+      "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+    },
+    {
+      "name": "AlignDistributeHorizontallyClassic",
+      "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+    },
+    {
+      "name": "ObjectsAlignDistributeHorizontallyRemove",
+      "imageAsset": "images/by-hash/1c0c58008cee41b3.png"
+    },
+    {
+      "name": "WindowsTileHorizontally",
+      "imageAsset": "images/by-hash/b3d706cbe751a83c.png"
+    },
+    {
+      "name": "BroadcastNotesSplitButton",
+      "imageAsset": "images/by-hash/25ceca008a74a306.png"
+    },
+    {
+      "name": "CalendarMonthDetailsSplitButton",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "CommentsPaneSplitButton",
+      "imageAsset": "images/by-hash/09795bc87c775160.png"
+    },
+    {
+      "name": "CopySplitButton",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    },
+    {
+      "name": "CreateFormSplitForm",
+      "imageAsset": "images/by-hash/d1821f1f04cee184.png"
+    },
+    {
+      "name": "DocViewSplit",
+      "imageAsset": "images/by-hash/4922e4070e03f44e.png"
+    },
+    {
+      "name": "FillBackColorSplitDropdown",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "FontForeColorSplitDropdown",
+      "imageAsset": "images/by-hash/1a614d7d7f1a5953.png"
+    }
+  ],
+  "sameImageIds": [
+    "MergeOrSplitCells",
+    "SplitCells",
+    "SplitCellsMenu",
+    "UnmergeCells"
+  ]
+}

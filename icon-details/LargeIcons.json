@@ -1,0 +1,49 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EquationLargeOperatorGallery",
+      "imageAsset": "images/by-hash/2e1e557c00bc7e30.png"
+    },
+    {
+      "name": "LargeEraser",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    },
+    {
+      "name": "RuleLinesLargeGrid",
+      "imageAsset": "images/by-hash/1ee61d970a13f929.png"
+    },
+    {
+      "name": "RuleLinesVeryLargeGrid",
+      "imageAsset": "images/by-hash/96551b977bf6b04c.png"
+    },
+    {
+      "name": "IconsAndDetails",
+      "imageAsset": "images/by-hash/cc81676e63da29d6.png"
+    },
+    {
+      "name": "IconsAndNames",
+      "imageAsset": "images/by-hash/4cef7c5bcd920c2f.png"
+    },
+    {
+      "name": "IconsOnly",
+      "imageAsset": "images/by-hash/04d965530595bf44.png"
+    },
+    {
+      "name": "LineUpIcons",
+      "imageAsset": "images/by-hash/0927f95a16394c1f.png"
+    },
+    {
+      "name": "NamesUnderIcons",
+      "imageAsset": "images/by-hash/d773ba49c692a331.png"
+    },
+    {
+      "name": "SmallIcons",
+      "imageAsset": "images/by-hash/e3d7f9fe83d27461.png"
+    },
+    {
+      "name": "WindowsArrangeIcons",
+      "imageAsset": "images/by-hash/00ff86c8b54acd38.png"
+    }
+  ],
+  "sameImageIds": []
+}

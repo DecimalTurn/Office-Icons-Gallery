@@ -1,0 +1,49 @@
+{
+  "relatedIcons": [
+    {
+      "name": "StarUnratedFull",
+      "imageAsset": "images/by-hash/81eff785356b544a.png"
+    },
+    {
+      "name": "StarRatedEmpty",
+      "imageAsset": "images/by-hash/7f262bb91d7afccd.png"
+    },
+    {
+      "name": "ShapeStar",
+      "imageAsset": "images/by-hash/7f262bb91d7afccd.png"
+    },
+    {
+      "name": "StarRatedFull",
+      "imageAsset": "images/by-hash/2faf64a134abca70.png"
+    },
+    {
+      "name": "StarRatedHalf",
+      "imageAsset": "images/by-hash/2950bde0d45d5356.png"
+    },
+    {
+      "name": "EmptyFolder",
+      "imageAsset": "images/by-hash/48eab841d02031df.png"
+    },
+    {
+      "name": "EmptyPictureInsert",
+      "imageAsset": "images/by-hash/89cb4b5ad71c7ef1.png"
+    },
+    {
+      "name": "EmptyRecycleBin",
+      "imageAsset": "images/by-hash/48eab841d02031df.png"
+    },
+    {
+      "name": "EmptyTrash",
+      "imageAsset": "images/by-hash/48eab841d02031df.png"
+    },
+    {
+      "name": "InsertEmptyDataView",
+      "imageAsset": "images/by-hash/33c8623ce482a3d2.png"
+    },
+    {
+      "name": "ShowEmptyContainers",
+      "imageAsset": "images/by-hash/5faf91d5aa2cc418.png"
+    }
+  ],
+  "sameImageIds": []
+}

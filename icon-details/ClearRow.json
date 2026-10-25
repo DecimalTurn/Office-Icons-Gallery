@@ -1,0 +1,125 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BlankRowInsert",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "ChartSwitchRowColumn",
+      "imageAsset": "images/by-hash/991ad5f8c5b8f80c.png"
+    },
+    {
+      "name": "EquationMatrixDeleteRow",
+      "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+    },
+    {
+      "name": "EquationMatrixInsertRowAfter",
+      "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+    },
+    {
+      "name": "EquationMatrixInsertRowBefore",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "GroupSlicerRowColumnSize",
+      "imageAsset": "images/by-hash/015c7e94922cc0d0.png"
+    },
+    {
+      "name": "HeaderRowNoFormatting",
+      "imageAsset": "images/by-hash/2ad5cd92ace79b94.png"
+    },
+    {
+      "name": "InsertRow",
+      "imageAsset": "images/by-hash/987f395d63e7009b.png"
+    },
+    {
+      "name": "InsertRowAbove",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "InsertRowAboveAccess",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "InsertRowBelow",
+      "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+    },
+    {
+      "name": "InsertRowBelowAccess",
+      "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+    }
+  ],
+  "sameImageIds": [
+    "Backspace",
+    "ChangeToDeclineInvitation",
+    "ClearGrid",
+    "ClearIconColors",
+    "ColumnActionsRemove",
+    "ContactDelete",
+    "ContentTypeColumnActionsRemove",
+    "DataSourceCatalogRemove",
+    "DeclineInvitation",
+    "DeclineTask",
+    "Delete",
+    "DeleteAppointmentGallery",
+    "DeleteContentType",
+    "DeleteDistributionGroup",
+    "DeleteFailedEntityInstanceCreateOperation",
+    "DeleteItem",
+    "DeleteItemInLaunchbar",
+    "DeleteNavigationLink",
+    "DeletePermissionGroup",
+    "DeleteSite",
+    "DeleteSpdPage",
+    "DeleteSPDSite",
+    "DeleteWeb",
+    "DeleteWorkspaceFromThisComputer",
+    "DeleteWorkspaceMenu",
+    "FolderDelete",
+    "FormsToolDelete",
+    "GanttTaskDelete",
+    "GroupActions",
+    "GroupCalendarTool",
+    "GroupDelete",
+    "GroupMailDelete",
+    "GroupMeetings",
+    "GroupMembersEdit",
+    "GroupPicturesTool",
+    "GroupSketchpad",
+    "GroupSummaryEdit",
+    "GuideDelete",
+    "JotPermanentlyDelete",
+    "ListDeleteList",
+    "ListDeleteSelected",
+    "MailDelete",
+    "MeetingsToolAppointmentDelete",
+    "MeetingsToolAppointmentDeleteAgendaItem",
+    "MeetingsToolAppointmentDeleteNote",
+    "MeetingsToolAppointmentDeleteSummary",
+    "MenuDeclineInvitation",
+    "NotebookDelete",
+    "NoteLinkDelete",
+    "NoteLinkDeleteGallery",
+    "NoteLinksDeleteAll",
+    "OutlookTaskRemove",
+    "OutlookTaskRemoveContextual",
+    "PageVersionDelete",
+    "PivotClearAll",
+    "PivotTableDiscardChanges",
+    "RejectApprovalRequest",
+    "RelationshipsClearLayout",
+    "RemoveAttach",
+    "RemoveTaskPathHighlight",
+    "RemoveUserFromGroup",
+    "ReviewDeleteAllMarkupInPresentation",
+    "SharingRequestDeny",
+    "SiteColumnActionsRemove",
+    "SlicerDelete",
+    "SlicerDeleteTouch",
+    "TaskSummaryDeleteSelf",
+    "TimeSlicerDelete",
+    "TimeSlicerDeleteTouch",
+    "ToolDelete",
+    "WorkflowSummaryDeleteWorkflow"
+  ]
+}

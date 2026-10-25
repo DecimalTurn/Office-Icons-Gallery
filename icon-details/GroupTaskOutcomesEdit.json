@@ -1,0 +1,37 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupTaskOutcomesActions",
+      "imageAsset": "images/by-hash/068470b628dc1569.png"
+    },
+    {
+      "name": "GroupTaskOutcomesNew",
+      "imageAsset": "images/by-hash/67c24c68c08b69a8.png"
+    },
+    {
+      "name": "EditWorkflowTask",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "GroupTaskFormFieldsEdit",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "GroupWorkflowTaskSummaryEdit",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    }
+  ],
+  "sameImageIds": [
+    "DatasheetColumnRename",
+    "DocumentInfo",
+    "GroupSiteSummaryEdit",
+    "GroupWorkflowTaskSummaryEdit",
+    "Rename",
+    "RenameItem",
+    "RenamePageOneNote",
+    "RenamePermissionGroup",
+    "RenameSelected",
+    "SectionRename",
+    "ToolRename"
+  ]
+}

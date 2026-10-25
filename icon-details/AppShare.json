@@ -1,0 +1,20 @@
+{
+  "relatedIcons": [
+    {
+      "name": "IMAppFormSendByIM",
+      "imageAsset": "images/by-hash/9b7efbc601e04bff.png"
+    },
+    {
+      "name": "InsertAppOnlyBlock",
+      "imageAsset": "images/by-hash/af86b53b295b45ca.png"
+    }
+  ],
+  "sameImageIds": [
+    "BroadcastSlideShow",
+    "BroadcastSlideShowBackstage",
+    "BroadcastSlideShowGeneric",
+    "BroadcastSlideShowOfficeHosted",
+    "GroupBroadcastBroadcast",
+    "SlideshowBroadcastMenu"
+  ]
+}

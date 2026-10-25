@@ -1,0 +1,86 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupCalendarRefineSearch",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "GroupContactRefineSearch",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "GroupMailRefineSearch",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "GroupNoteRefineSearch",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "GroupTaskRefineSearch",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "QuickSearchJournalEndDateGallery",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "QuickSearchJournalStartDateGallery",
+      "imageAsset": "images/by-hash/c7d6f3917cb26c65.png"
+    },
+    {
+      "name": "SearchUpscopeToAllJournalItems",
+      "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+    },
+    {
+      "name": "GotoJournal",
+      "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+    },
+    {
+      "name": "GroupJournalArrangement",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "GroupJournalNew",
+      "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+    },
+    {
+      "name": "GroupJournalOptions",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    }
+  ],
+  "sameImageIds": [
+    "CodeFindMenu",
+    "FindDialog",
+    "FindDialogExcel",
+    "FindMenu",
+    "FindText",
+    "FormsToolAdvancedFind",
+    "FormsToolFind",
+    "FormsToolFindMenu",
+    "GroupActionsLaunchbar",
+    "GroupCalendarRefineSearch",
+    "GroupCodeEditing",
+    "GroupContactFind",
+    "GroupContactRefineSearch",
+    "GroupEditing",
+    "GroupEditingExcel",
+    "GroupEditingInfoPath",
+    "GroupFind",
+    "GroupFindAccess",
+    "GroupFindFormsTool",
+    "GroupFindNotepadTool",
+    "GroupMailRefineSearch",
+    "GroupNavigate",
+    "GroupNoteRefineSearch",
+    "GroupOutlookEditing",
+    "GroupSearch",
+    "GroupTaskRefineSearch",
+    "InstantSearch",
+    "NavigationPaneFind",
+    "NotebookSearch",
+    "OpenDesktopSearch",
+    "ReadingViewSearch",
+    "SelectMenuExcel"
+  ]
+}

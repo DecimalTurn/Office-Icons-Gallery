@@ -1,0 +1,24 @@
+{
+  "relatedIcons": [],
+  "sameImageIds": [
+    "AddInManager",
+    "AdministrationHome",
+    "AnimationCustomActionVerbDialog",
+    "AnimationCustomAddActionVerbDialog",
+    "CurrentViewSettings",
+    "GroupContTypeManage",
+    "GroupContTypeSummaryManage",
+    "GroupCurrentView",
+    "GroupDocumentLibraryManage",
+    "GroupLayoutPagesManage",
+    "GroupListContentTypeManage",
+    "GroupListsSummaryManage",
+    "GroupListViewsManage",
+    "GroupListWorkflowsManage",
+    "GroupMasterPagesManage",
+    "GroupSiteAssetsManage",
+    "GroupSiteSubsitesManage",
+    "GroupSiteSummaryManage",
+    "ListAdminSelected"
+  ]
+}

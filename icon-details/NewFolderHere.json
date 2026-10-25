@@ -1,0 +1,45 @@
+{
+  "relatedIcons": [
+    {
+      "name": "HyperlinkCreateHere",
+      "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+    },
+    {
+      "name": "NewPageHere",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "NewTextFileHere",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByFolder",
+    "BrowseBackgroundImage",
+    "CloseWeb",
+    "ContentFolderMenu",
+    "FileClose",
+    "FileCloseAll",
+    "FileCloseDatabase",
+    "FileCloseOrCloseAll",
+    "FilesToolNewFolderGallery",
+    "FilesToolShowHideFolders",
+    "FindPublicFolder",
+    "Folder",
+    "FolderView",
+    "GotoFolderList",
+    "GroupMacroClose",
+    "GroupNew",
+    "GroupQueryClose",
+    "GroupViewLaunchbar",
+    "JotCloseFolder",
+    "LogicCloseFormAction",
+    "NewCategoryFolder",
+    "NewFolder",
+    "NewFolder2",
+    "NewInlineFolder",
+    "SaveSentItemRecentlyUsedFolder",
+    "SearchDownscopeToFolder",
+    "SharedImageBrowse"
+  ]
+}

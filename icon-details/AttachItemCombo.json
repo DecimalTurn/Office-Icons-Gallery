@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AttachItem",
+      "imageAsset": "images/by-hash/5551d7c978f81380.png"
+    },
+    {
+      "name": "ActiveXComboBox",
+      "imageAsset": "images/by-hash/1f3cf0d15015b32a.png"
+    },
+    {
+      "name": "ChartTypeComboInsertDialog",
+      "imageAsset": "images/by-hash/3d10b9bfd87cf020.png"
+    },
+    {
+      "name": "ChartTypeComboInsertGallery",
+      "imageAsset": "images/by-hash/816b9ed1484fc31c.png"
+    },
+    {
+      "name": "ChartTypeParentComboChart",
+      "imageAsset": "images/by-hash/3d10b9bfd87cf020.png"
+    },
+    {
+      "name": "ComboBox",
+      "imageAsset": "images/by-hash/175d02890063f1b7.png"
+    },
+    {
+      "name": "ContentControlComboBox",
+      "imageAsset": "images/by-hash/1f3cf0d15015b32a.png"
+    },
+    {
+      "name": "FindContactCombo",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "FormControlComboBox",
+      "imageAsset": "images/by-hash/1f3cf0d15015b32a.png"
+    },
+    {
+      "name": "PrintPreviewSeparationsCombo",
+      "imageAsset": "images/by-hash/51f884df639d7c92.png"
+    },
+    {
+      "name": "AttachFile",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "AttachMenu",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    }
+  ],
+  "sameImageIds": [
+    "AttachItem",
+    "FileSendAsAttachment",
+    "ForwardAsAttachment",
+    "GroupMail",
+    "GroupOutlook",
+    "GroupShareEmail",
+    "SendAsAttachmentToMailRecipient",
+    "SendNotesAsAttachment"
+  ]
+}

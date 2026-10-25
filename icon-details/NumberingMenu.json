@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BulletsAndNumberingBulletsDialog",
+      "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+    },
+    {
+      "name": "BulletsAndNumberingDialog",
+      "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+    },
+    {
+      "name": "BulletsAndNumberingNumberingDialog",
+      "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+    },
+    {
+      "name": "BulletsAndNumberingNumberingDialogPublisher",
+      "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+    },
+    {
+      "name": "JotOOCRedoAutoNumbering",
+      "imageAsset": "images/by-hash/33a97bd523f22be9.png"
+    },
+    {
+      "name": "JotOOCUndoAutoNumbering",
+      "imageAsset": "images/by-hash/720e34890e473f48.png"
+    },
+    {
+      "name": "ListSetNumberingValue",
+      "imageAsset": "images/by-hash/d1b8adc7ab9d4dc5.png"
+    },
+    {
+      "name": "Numbering",
+      "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+    },
+    {
+      "name": "NumberingContinue",
+      "imageAsset": "images/by-hash/a2c0dc48d64d36ff.png"
+    },
+    {
+      "name": "NumberingCustomize",
+      "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+    },
+    {
+      "name": "NumberingGallery",
+      "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+    },
+    {
+      "name": "NumberingGalleryWord",
+      "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+    }
+  ],
+  "sameImageIds": [
+    "FormatNumberDefault",
+    "JotFormatNumbers",
+    "Numbering",
+    "NumberingCustomize",
+    "NumberingGallery",
+    "NumberingGalleryWord",
+    "NumberListDefault",
+    "OutlineNumberDefault"
+  ]
+}

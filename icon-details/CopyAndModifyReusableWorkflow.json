@@ -1,0 +1,67 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DataSourceCatalogCopyModify",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    },
+    {
+      "name": "GroupWorkflowDesignerModify",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupWorkflowVisualDesignerModify",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "TableSharePointListsModifyWorkflow",
+      "imageAsset": "images/by-hash/e48806541bd480fc.png"
+    },
+    {
+      "name": "GroupModify",
+      "imageAsset": "images/by-hash/4b81b5eebab0bb00.png"
+    },
+    {
+      "name": "StylesModifyStyle",
+      "imageAsset": "images/by-hash/4bcd5bd3d89520db.png"
+    },
+    {
+      "name": "TableCellPaddingModify",
+      "imageAsset": "images/by-hash/2bc037ee19b5f7b9.png"
+    },
+    {
+      "name": "TableSharePointListsModifyColumnsAndSettings",
+      "imageAsset": "images/by-hash/7b76b454e441cffd.png"
+    },
+    {
+      "name": "TableStyleModify",
+      "imageAsset": "images/by-hash/f92e1910aba00c02.png"
+    },
+    {
+      "name": "WebSiteMapModifyShapeText",
+      "imageAsset": "images/by-hash/b901bce065cea3fc.png"
+    },
+    {
+      "name": "ContactCardCopy",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    },
+    {
+      "name": "Copy",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    }
+  ],
+  "sameImageIds": [
+    "ContactCardCopy",
+    "Copy",
+    "CopyAttach",
+    "CopyInvitationToClipboard",
+    "CopyMenu",
+    "CopyOneNote",
+    "CopySplitButton",
+    "DataSourceCatalogCopyModify",
+    "GroupCopy",
+    "GroupDataConnectionsActions",
+    "OLCopyTrackingStatus",
+    "SlicerCopy",
+    "TimelineViewCopyFullSize"
+  ]
+}

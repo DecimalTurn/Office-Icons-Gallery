@@ -1,0 +1,39 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ControlsPaneShowHide",
+      "imageAsset": "images/by-hash/2906b0aa2177acec.png"
+    },
+    {
+      "name": "FieldsPaneShowHide",
+      "imageAsset": "images/by-hash/1364e5608dd9f1db.png"
+    },
+    {
+      "name": "FontPaneShowHide",
+      "imageAsset": "images/by-hash/b137ee0e9904d18c.png"
+    },
+    {
+      "name": "HtmlPaneShowHide",
+      "imageAsset": "images/by-hash/c186f08d06d4cafe.png"
+    },
+    {
+      "name": "NavigationPaneShowHide",
+      "imageAsset": "images/by-hash/f9899aa5db8e5021.png"
+    },
+    {
+      "name": "ParagraphPaneShowHide",
+      "imageAsset": "images/by-hash/b7c6df7b9755d339.png"
+    },
+    {
+      "name": "ShowHideChartDataPane",
+      "imageAsset": "images/by-hash/a9ed367d36360873.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChartDataPane",
+    "GroupChartOptionsShowHide",
+    "GroupTableOptionsShowHide",
+    "ShowHideChartDataPane",
+    "TableDataPane"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CalendarMonthDetailsSplitButton",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "MeetingDetailsOtherDayInsert",
+      "imageAsset": "images/by-hash/c674434a67623947.png"
+    },
+    {
+      "name": "MeetingsToolViewByDay",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "MeetingsToolViewByMonth",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "MeetingsToolWorkMonth",
+      "imageAsset": "images/by-hash/7f9c1c843fc62c9c.png"
+    },
+    {
+      "name": "TaskMoveBackOneDay",
+      "imageAsset": "images/by-hash/c3cc5e0e51ac1502.png"
+    },
+    {
+      "name": "TaskMoveForwardOneDay",
+      "imageAsset": "images/by-hash/a372ea0002b4bafc.png"
+    },
+    {
+      "name": "ViewByBusinessMonth",
+      "imageAsset": "images/by-hash/7f9c1c843fc62c9c.png"
+    },
+    {
+      "name": "ViewByDay",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "ViewByMonth",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "ArrangementGallery",
+      "imageAsset": "images/by-hash/103c6fedc45f72ff.png"
+    },
+    {
+      "name": "ContextMenuArrangementGallery",
+      "imageAsset": "images/by-hash/3cb7771c306e0262.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupArrangeMeetingsTool",
+    "GroupArrangeViewMeetingsTool",
+    "GroupCalendarArrange",
+    "GroupCalendarToolCalendarView",
+    "MeetingsToolViewByWeek",
+    "MeetingsToolWorkWeekMenu",
+    "QuickSearchReceivedDateGallery",
+    "ViewByWeek",
+    "WeeklyView"
+  ]
+}

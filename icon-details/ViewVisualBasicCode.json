@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ViewVisualBasicCodeAccess",
+      "imageAsset": "images/by-hash/3e63674e0f7b0dfe.png"
+    },
+    {
+      "name": "MacroConvertMacrosToVisualBasic",
+      "imageAsset": "images/by-hash/1fe608665d11efe2.png"
+    },
+    {
+      "name": "VisualBasic",
+      "imageAsset": "images/by-hash/65516a9f8188979e.png"
+    },
+    {
+      "name": "VisualBasicReferences",
+      "imageAsset": "images/by-hash/9947222a5325510c.png"
+    },
+    {
+      "name": "GroupCodeEventsBasic",
+      "imageAsset": "images/by-hash/69582c3f940b47be.png"
+    },
+    {
+      "name": "DataTypeCurrencyBasic",
+      "imageAsset": "images/by-hash/aadd121764a6ba34.png"
+    },
+    {
+      "name": "DataTypeYesNoBasic",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "GroupBasicText",
+      "imageAsset": "images/by-hash/1a614d7d7f1a5953.png"
+    },
+    {
+      "name": "GroupBasicTextSmall",
+      "imageAsset": "images/by-hash/1a614d7d7f1a5953.png"
+    },
+    {
+      "name": "GroupBlogBasicText",
+      "imageAsset": "images/by-hash/1a614d7d7f1a5953.png"
+    },
+    {
+      "name": "CreateWorkflowDiagramVisualDesigner",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "GroupVisualAids",
+      "imageAsset": "images/by-hash/17105cf663d7c445.png"
+    }
+  ],
+  "sameImageIds": [
+    "ViewCode"
+  ]
+}

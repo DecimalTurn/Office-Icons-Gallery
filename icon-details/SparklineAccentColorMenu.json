@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SparklineColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "SparklineColorStyleGallery",
+      "imageAsset": "images/by-hash/553c22234553f743.png"
+    },
+    {
+      "name": "SparklineFirstPointColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "SparklineHighPointColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "SparklineLastPointColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "SparklineLowPointColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "SparklineMarkerColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "EquationAccentGallery",
+      "imageAsset": "images/by-hash/3dfd59ecd0929991.png"
+    },
+    {
+      "name": "GroupSparklineDataEdit",
+      "imageAsset": "images/by-hash/f66f1f20b7d1d18a.png"
+    },
+    {
+      "name": "GroupSparklineDetailsShow",
+      "imageAsset": "images/by-hash/f66f1f20b7d1d18a.png"
+    },
+    {
+      "name": "GroupSparklineGroup",
+      "imageAsset": "images/by-hash/657c2c8f53440940.png"
+    },
+    {
+      "name": "GroupSparklineStyle",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupSchemes",
+    "SchemeColorsGallery",
+    "ThemeColorsGallery",
+    "WebThemeGallery",
+    "WPColorSchemes"
+  ]
+}

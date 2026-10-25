@@ -1,0 +1,35 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupPictureToolsAdjustClassic",
+      "imageAsset": "images/by-hash/b6920ebf67401601.png"
+    },
+    {
+      "name": "GroupAudioToolsAdjust",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "GroupVideoToolsAdjust",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "MarginsAdjust",
+      "imageAsset": "images/by-hash/a6144daba8760974.png"
+    }
+  ],
+  "sameImageIds": [
+    "Drawing1GalleryBrightness",
+    "GroupAudioToolsAdjust",
+    "GroupPictureEffects",
+    "GroupPictureTools",
+    "GroupPictureToolsClassic",
+    "GroupPictureToolsClassicEffects",
+    "GroupVideoToolsAdjust",
+    "PictureBrightnessAndContrastGallery",
+    "PictureBrightnessGallery",
+    "PictureCorrectionsGallery",
+    "PictureCorrectionsMenu",
+    "VideoBrightnessGallery",
+    "VideoCorrectionsMenu"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "relatedIcons": [
+    {
+      "name": "InkEntryMode",
+      "imageAsset": "images/by-hash/70c81a5311820d0c.png"
+    },
+    {
+      "name": "ListToolInkEntryMode",
+      "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+    },
+    {
+      "name": "InkEntry",
+      "imageAsset": "images/by-hash/70c81a5311820d0c.png"
+    },
+    {
+      "name": "GroupColorModeClose",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "InkDrawingMode",
+      "imageAsset": "images/by-hash/0b0b3cbcdaefce73.png"
+    },
+    {
+      "name": "InkEraseMode",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    },
+    {
+      "name": "InkNormalMode",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "InkToTextMode",
+      "imageAsset": "images/by-hash/b3fdda08a32ab45e.png"
+    },
+    {
+      "name": "GroupInkClose",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "InkShapeClose",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "InkToolsClose",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "ChartFormatLegendEntry",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    }
+  ],
+  "sameImageIds": [
+    "BroadcastEnd",
+    "CancelEditing",
+    "CloseComparison",
+    "ConflictViewClose",
+    "GroupBackgroundRemovalClose",
+    "GroupClearSearch",
+    "GroupColorModeClose",
+    "GroupConflictsClose",
+    "GroupHeaderFooterClose",
+    "GroupInkClose",
+    "GroupMasterClose",
+    "GroupMergeViewClose",
+    "GroupOutliningClose",
+    "GroupPreviewInfoPath",
+    "GroupPrintPreviewClosePreview",
+    "GroupPrintPreviewPreview",
+    "HeaderFooterClose",
+    "IconEditClose",
+    "InkNormalMode",
+    "InkStopInkingReadingView",
+    "InkToolsClose",
+    "MasterPageCloseEdit",
+    "MasterViewClose",
+    "MeetingsToolAppointmentDiscardChanges",
+    "MergeViewClose",
+    "OutlineViewClose",
+    "PreviewClose",
+    "PrintPreviewClose",
+    "QuickSearchCancel",
+    "ShapeSheetClose",
+    "StencilClose",
+    "XDPPClose"
+  ]
+}

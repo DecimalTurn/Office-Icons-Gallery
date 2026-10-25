@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupTaskFormViewDetails",
+      "imageAsset": "images/by-hash/63d7dbe7c40472c1.png"
+    },
+    {
+      "name": "GroupResourceFormViewDetails",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "GroupTaskUsageViewDetails",
+      "imageAsset": "images/by-hash/f5fd508399661656.png"
+    },
+    {
+      "name": "ShowTaskDetailsPage",
+      "imageAsset": "images/by-hash/f6fe39451ca83e39.png"
+    },
+    {
+      "name": "TaskDetailsDisplay",
+      "imageAsset": "images/by-hash/3692f0c87b4355a9.png"
+    },
+    {
+      "name": "TaskDetailsMenu",
+      "imageAsset": "images/by-hash/e86c6485f046e497.png"
+    },
+    {
+      "name": "GroupTaskFormFieldsActions",
+      "imageAsset": "images/by-hash/068470b628dc1569.png"
+    },
+    {
+      "name": "GroupTaskFormFieldsEdit",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "GroupTaskFormFieldsNew",
+      "imageAsset": "images/by-hash/3a08b1e5d9651ea0.png"
+    },
+    {
+      "name": "GroupTaskFormViewType",
+      "imageAsset": "images/by-hash/82977fe4f1c0a7b7.png"
+    },
+    {
+      "name": "TaskEarnedValueForm",
+      "imageAsset": "images/by-hash/1780ec708a063591.png"
+    },
+    {
+      "name": "TaskForm",
+      "imageAsset": "images/by-hash/82977fe4f1c0a7b7.png"
+    }
+  ],
+  "sameImageIds": []
+}

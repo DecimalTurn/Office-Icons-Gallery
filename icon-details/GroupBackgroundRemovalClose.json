@@ -1,0 +1,86 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BackgroundRemovalClose",
+      "imageAsset": "images/by-hash/48eab841d02031df.png"
+    },
+    {
+      "name": "GroupBackgroundRemovalMode",
+      "imageAsset": "images/by-hash/896221af76c1e705.png"
+    },
+    {
+      "name": "KeepBackgroundRemoval",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "PictureBackgroundRemoval",
+      "imageAsset": "images/by-hash/f7b2fac34b1b4100.png"
+    },
+    {
+      "name": "PictureBackgroundRemovalMarkBackground",
+      "imageAsset": "images/by-hash/a135add48b00661c.png"
+    },
+    {
+      "name": "PictureBackgroundRemovalMarkDelete",
+      "imageAsset": "images/by-hash/40c5f299a9d180cf.png"
+    },
+    {
+      "name": "PictureBackgroundRemovalMarkForeground",
+      "imageAsset": "images/by-hash/896221af76c1e705.png"
+    },
+    {
+      "name": "ApplyImageBackgroundFill",
+      "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+    },
+    {
+      "name": "ApplyImageBackgroundTile",
+      "imageAsset": "images/by-hash/18e3f90d57530743.png"
+    },
+    {
+      "name": "ApplyImageToBackgroundMenu",
+      "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+    },
+    {
+      "name": "BackgroundImageGallery",
+      "imageAsset": "images/by-hash/413b79a699148fbf.png"
+    },
+    {
+      "name": "BackgroundPageInsert",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    }
+  ],
+  "sameImageIds": [
+    "BroadcastEnd",
+    "CancelEditing",
+    "CloseComparison",
+    "CloseInkEntryMode",
+    "ConflictViewClose",
+    "GroupClearSearch",
+    "GroupColorModeClose",
+    "GroupConflictsClose",
+    "GroupHeaderFooterClose",
+    "GroupInkClose",
+    "GroupMasterClose",
+    "GroupMergeViewClose",
+    "GroupOutliningClose",
+    "GroupPreviewInfoPath",
+    "GroupPrintPreviewClosePreview",
+    "GroupPrintPreviewPreview",
+    "HeaderFooterClose",
+    "IconEditClose",
+    "InkNormalMode",
+    "InkStopInkingReadingView",
+    "InkToolsClose",
+    "MasterPageCloseEdit",
+    "MasterViewClose",
+    "MeetingsToolAppointmentDiscardChanges",
+    "MergeViewClose",
+    "OutlineViewClose",
+    "PreviewClose",
+    "PrintPreviewClose",
+    "QuickSearchCancel",
+    "ShapeSheetClose",
+    "StencilClose",
+    "XDPPClose"
+  ]
+}

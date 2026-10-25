@@ -1,0 +1,19 @@
+{
+  "relatedIcons": [],
+  "sameImageIds": [
+    "ConflictsReject",
+    "ConflictsRejectAndMoveToNext",
+    "ConflictsRejectMenu",
+    "GroupChanges",
+    "GroupConflicts",
+    "RejectAndAdvance",
+    "ReviewDeleteMarkup",
+    "ReviewDeleteMarkupsMenu",
+    "ReviewRejectChange",
+    "ReviewRejectChangeAndMoveToNext",
+    "ReviewRejectChangeMenu",
+    "ReviewRejectChangeOrDeleteComment",
+    "ReviewRevisionReject",
+    "ReviewRevisionRejectMenu"
+  ]
+}

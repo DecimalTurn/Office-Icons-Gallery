@@ -1,0 +1,41 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EmptyFolder",
+      "imageAsset": "images/by-hash/48eab841d02031df.png"
+    },
+    {
+      "name": "EmptyPictureInsert",
+      "imageAsset": "images/by-hash/89cb4b5ad71c7ef1.png"
+    },
+    {
+      "name": "EmptyRecycleBin",
+      "imageAsset": "images/by-hash/48eab841d02031df.png"
+    },
+    {
+      "name": "EmptyTrash",
+      "imageAsset": "images/by-hash/48eab841d02031df.png"
+    },
+    {
+      "name": "ShowEmptyContainers",
+      "imageAsset": "images/by-hash/5faf91d5aa2cc418.png"
+    },
+    {
+      "name": "StarRatedEmpty",
+      "imageAsset": "images/by-hash/7f262bb91d7afccd.png"
+    },
+    {
+      "name": "StarUnratedEmpty",
+      "imageAsset": "images/by-hash/564c93f8926fe9a0.png"
+    }
+  ],
+  "sameImageIds": [
+    "DataViewGallery",
+    "GroupDataViewPreview",
+    "GroupListSummaryNew",
+    "GroupListViewsNew",
+    "GroupViewsSpd",
+    "HTMLView",
+    "ListCreateListView"
+  ]
+}

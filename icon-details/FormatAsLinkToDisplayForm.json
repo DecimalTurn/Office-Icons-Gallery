@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FormatAsLinkToEditForm",
+      "imageAsset": "images/by-hash/a8d97aa7547b2e9e.png"
+    },
+    {
+      "name": "ChartFormatDisplayUnit",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "DisplayForm",
+      "imageAsset": "images/by-hash/0a69470924c1ff8d.png"
+    },
+    {
+      "name": "ControlPropertyDisplayTextFieldName",
+      "imageAsset": "images/by-hash/828e97e4441434cb.png"
+    },
+    {
+      "name": "DatabaseModelingDisplayOptions",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "DisplayErrorMessageInfoPath",
+      "imageAsset": "images/by-hash/7af31981dd4e0deb.png"
+    },
+    {
+      "name": "DisplayRuler",
+      "imageAsset": "images/by-hash/2b18eaf5a8c1c3c5.png"
+    },
+    {
+      "name": "FloorPlanDisplayOptions",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupDisplayData",
+      "imageAsset": "images/by-hash/150cfb73f106baa5.png"
+    },
+    {
+      "name": "GroupNetworkDiagramDisplay",
+      "imageAsset": "images/by-hash/5104347ef5a7df03.png"
+    },
+    {
+      "name": "OrgChartDataOptionsDisplay",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "PictureDisplay",
+      "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+    }
+  ],
+  "sameImageIds": []
+}

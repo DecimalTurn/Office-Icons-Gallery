@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MenuCancelMeeting",
+      "imageAsset": "images/by-hash/c93d36c1197d267c.png"
+    },
+    {
+      "name": "CancelAcceptTask",
+      "imageAsset": "images/by-hash/8dfba6da393e2084.png"
+    },
+    {
+      "name": "CancelAll",
+      "imageAsset": "images/by-hash/3c40bf60f3731fd8.png"
+    },
+    {
+      "name": "CancelAllInvitation",
+      "imageAsset": "images/by-hash/3c40bf60f3731fd8.png"
+    },
+    {
+      "name": "CancelDeclineTask",
+      "imageAsset": "images/by-hash/8dfba6da393e2084.png"
+    },
+    {
+      "name": "CancelEditing",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "CancelInvitation",
+      "imageAsset": "images/by-hash/c93d36c1197d267c.png"
+    },
+    {
+      "name": "CancelRequest",
+      "imageAsset": "images/by-hash/cabe4c9851b37f45.png"
+    },
+    {
+      "name": "CancelTaskAssignment",
+      "imageAsset": "images/by-hash/8dfba6da393e2084.png"
+    },
+    {
+      "name": "QuickSearchCancel",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "RefreshCancel",
+      "imageAsset": "images/by-hash/e7b821e1254ca5c9.png"
+    },
+    {
+      "name": "AttachNotesToMeeting",
+      "imageAsset": "images/by-hash/25ceca008a74a306.png"
+    }
+  ],
+  "sameImageIds": [
+    "CancelInvitation",
+    "MenuCancelMeeting",
+    "RemoveFromCalendar"
+  ]
+}

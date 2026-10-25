@@ -1,0 +1,48 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TableRowsOrColumnsDistribute",
+      "imageAsset": "images/by-hash/0f3f61fc390df8a4.png"
+    },
+    {
+      "name": "AlignDistributeHorizontally",
+      "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+    },
+    {
+      "name": "AlignDistributeHorizontallyClassic",
+      "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+    },
+    {
+      "name": "AlignDistributeVertically",
+      "imageAsset": "images/by-hash/faaef2a521a93bcd.png"
+    },
+    {
+      "name": "AlignDistributeVerticallyClassic",
+      "imageAsset": "images/by-hash/faaef2a521a93bcd.png"
+    },
+    {
+      "name": "DistributeAllLinesParagraph",
+      "imageAsset": "images/by-hash/f65954aad1f1e694.png"
+    },
+    {
+      "name": "DistributeMiddle",
+      "imageAsset": "images/by-hash/a9d1ae3661a829d5.png"
+    },
+    {
+      "name": "ObjectsAlignDistributeHorizontallyRemove",
+      "imageAsset": "images/by-hash/1c0c58008cee41b3.png"
+    },
+    {
+      "name": "ObjectsAlignDistributeVerticallyRemove",
+      "imageAsset": "images/by-hash/2843e10cff3a10e3.png"
+    },
+    {
+      "name": "TableRowsDistribute",
+      "imageAsset": "images/by-hash/5a79d91fe7e1ab5a.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupTableCellSize",
+    "TableRowsOrColumnsDistribute"
+  ]
+}

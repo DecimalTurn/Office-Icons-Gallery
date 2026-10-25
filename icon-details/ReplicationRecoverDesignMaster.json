@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupRecover",
+      "imageAsset": "images/by-hash/4716683bb93cb115.png"
+    },
+    {
+      "name": "RecoverDeletedItems",
+      "imageAsset": "images/by-hash/c2e1f18a05b43ffc.png"
+    },
+    {
+      "name": "RecoverInviteToMeeting",
+      "imageAsset": "images/by-hash/4716683bb93cb115.png"
+    },
+    {
+      "name": "RecoverUnsavedVersions",
+      "imageAsset": "images/by-hash/36c4195ac87c389c.png"
+    },
+    {
+      "name": "ReplicationCreateReplica",
+      "imageAsset": "images/by-hash/5e183d766493551d.png"
+    },
+    {
+      "name": "ReplicationOptionsMenu",
+      "imageAsset": "images/by-hash/144c3a7e929ba7d0.png"
+    },
+    {
+      "name": "ReplicationResolveConflicts",
+      "imageAsset": "images/by-hash/b0030a5966b54c8c.png"
+    },
+    {
+      "name": "ReplicationSynchronizeNow",
+      "imageAsset": "images/by-hash/8375af0816f794d8.png"
+    },
+    {
+      "name": "CreateFormInDesignView",
+      "imageAsset": "images/by-hash/e15d79514a0ddc33.png"
+    },
+    {
+      "name": "CreateQueryInDesignView",
+      "imageAsset": "images/by-hash/79cce7297bfffb37.png"
+    },
+    {
+      "name": "CreateReportInDesignView",
+      "imageAsset": "images/by-hash/d424eccd1c1aec43.png"
+    },
+    {
+      "name": "CreateTableInDesignView",
+      "imageAsset": "images/by-hash/faa99bee2a7f02ec.png"
+    }
+  ],
+  "sameImageIds": []
+}

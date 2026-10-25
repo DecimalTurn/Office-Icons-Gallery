@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AccessListCustomDatasheet",
+      "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+    }
+  ],
+  "sameImageIds": [
+    "CreateTableUsingSharePointListsGallery",
+    "CreateTableUsingSharePointListsMenu",
+    "GroupListActions",
+    "GroupListNew",
+    "GroupListView",
+    "ListCreateListFromTemplate",
+    "SharePointOfflineGiveFeedback"
+  ]
+}

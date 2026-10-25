@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EnterpriseResourcesOpen",
+      "imageAsset": "images/by-hash/904f30d162e4d831.png"
+    },
+    {
+      "name": "EnterpriseProjectImport",
+      "imageAsset": "images/by-hash/bf2f236ff3ebad5f.png"
+    },
+    {
+      "name": "EnterpriseGlobalOpen",
+      "imageAsset": "images/by-hash/cdc4a5ff16eb3e81.png"
+    },
+    {
+      "name": "EnterpriseProjectProfiles",
+      "imageAsset": "images/by-hash/2b702d6430221cf3.png"
+    },
+    {
+      "name": "AddResourcesFromActiveDirectory",
+      "imageAsset": "images/by-hash/e1d564e7fc6ca424.png"
+    },
+    {
+      "name": "HelpDevResources",
+      "imageAsset": "images/by-hash/d81a09a9ce4cb2f7.png"
+    },
+    {
+      "name": "ResourcesAddFromAddressBook",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "ResourcesAddFromProjectServer",
+      "imageAsset": "images/by-hash/dde6df49338d2433.png"
+    },
+    {
+      "name": "ResourcesAddMenu",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "ResourcesAssign",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    },
+    {
+      "name": "ResourcesShare",
+      "imageAsset": "images/by-hash/34f2e08976f4937f.png"
+    },
+    {
+      "name": "ScheduleTaskWhenResourcesAvailable",
+      "imageAsset": "images/by-hash/02c4ecdd36cf035e.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ClickToRunMobileOfficeCreationButton",
+      "imageAsset": "images/by-hash/64544a6240853d88.png"
+    },
+    {
+      "name": "ContactCardCallMobile",
+      "imageAsset": "images/by-hash/808692b540d5562b.png"
+    },
+    {
+      "name": "ForwardToMobile",
+      "imageAsset": "images/by-hash/808692b540d5562b.png"
+    },
+    {
+      "name": "GroupContactCardCallMobile",
+      "imageAsset": "images/by-hash/808692b540d5562b.png"
+    },
+    {
+      "name": "QuickSearchHasMobilePhone",
+      "imageAsset": "images/by-hash/808692b540d5562b.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,15 @@
+{
+  "relatedIcons": [
+    {
+      "name": "HyperlinksVerify",
+      "imageAsset": "images/by-hash/d622155ca0500559.png"
+    },
+    {
+      "name": "VerifySelectedHyperlinks",
+      "imageAsset": "images/by-hash/d622155ca0500559.png"
+    }
+  ],
+  "sameImageIds": [
+    "HyperlinkRemove"
+  ]
+}

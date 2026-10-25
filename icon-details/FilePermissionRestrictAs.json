@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FilePermissionRestrictMenu",
+      "imageAsset": "images/by-hash/d183c0780b942621.png"
+    },
+    {
+      "name": "PermissionRestrict",
+      "imageAsset": "images/by-hash/f783c4fd4f755618.png"
+    },
+    {
+      "name": "PermissionRestrictMenu",
+      "imageAsset": "images/by-hash/f783c4fd4f755618.png"
+    },
+    {
+      "name": "FilePermission",
+      "imageAsset": "images/by-hash/d183c0780b942621.png"
+    },
+    {
+      "name": "FilePermissionView",
+      "imageAsset": "images/by-hash/20d363c173a12eab.png"
+    },
+    {
+      "name": "ReviewRestrictEditing",
+      "imageAsset": "images/by-hash/7286a677f4683105.png"
+    },
+    {
+      "name": "ReviewRestrictFormatting",
+      "imageAsset": "images/by-hash/2a9d5ce71f064303.png"
+    },
+    {
+      "name": "AddPermissionGroup",
+      "imageAsset": "images/by-hash/c1a316e1de581ba2.png"
+    },
+    {
+      "name": "AddUserToPermissionGroup",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "DeletePermissionGroup",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "EditPermissionGroup",
+      "imageAsset": "images/by-hash/3d4778e367c16353.png"
+    },
+    {
+      "name": "GroupPermission",
+      "imageAsset": "images/by-hash/d183c0780b942621.png"
+    }
+  ],
+  "sameImageIds": []
+}

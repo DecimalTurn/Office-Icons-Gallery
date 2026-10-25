@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartSwitchRowColumn",
+      "imageAsset": "images/by-hash/991ad5f8c5b8f80c.png"
+    },
+    {
+      "name": "CreateWorkflowDiagramVisualDesigner",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "EventOnSwitchView",
+      "imageAsset": "images/by-hash/7bd89029ab2c7829.png"
+    },
+    {
+      "name": "GroupSwitchTimeline",
+      "imageAsset": "images/by-hash/72b4b05dbce825cc.png"
+    },
+    {
+      "name": "GroupVisualAids",
+      "imageAsset": "images/by-hash/17105cf663d7c445.png"
+    },
+    {
+      "name": "GroupVisualReports",
+      "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+    },
+    {
+      "name": "GroupWorkflowVisualDesignerManage",
+      "imageAsset": "images/by-hash/c966d15d29d8a20d.png"
+    },
+    {
+      "name": "GroupWorkflowVisualDesignerModify",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupWorkflowVisualDesignerSave",
+      "imageAsset": "images/by-hash/246a59d100792609.png"
+    },
+    {
+      "name": "GroupWorkflowVisualDesignerVariables",
+      "imageAsset": "images/by-hash/0f5a38804b681599.png"
+    },
+    {
+      "name": "ListToolSwitchViews",
+      "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+    },
+    {
+      "name": "LogicSwitchToViewAction",
+      "imageAsset": "images/by-hash/a05d059b94ff932c.png"
+    }
+  ],
+  "sameImageIds": []
+}

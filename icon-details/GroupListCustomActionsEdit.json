@@ -1,0 +1,67 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CustomActionsGallery",
+      "imageAsset": "images/by-hash/ad1f748dc2c78dc8.png"
+    },
+    {
+      "name": "CustomActionsMenu",
+      "imageAsset": "images/by-hash/ad1f748dc2c78dc8.png"
+    },
+    {
+      "name": "GroupListCustomActionsManage",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "GroupListCustomActionsNew",
+      "imageAsset": "images/by-hash/9eab4f479ca680f9.png"
+    },
+    {
+      "name": "ShowCustomActionsPage",
+      "imageAsset": "images/by-hash/ad1f748dc2c78dc8.png"
+    }
+  ],
+  "sameImageIds": [
+    "BlogOpenExisting",
+    "DataSourceCatalogProperties",
+    "DesignerOpen",
+    "EditPageWith",
+    "FileOpen",
+    "FileOpenDatabase",
+    "FileOpenDirectly",
+    "FileOpenUsingBackstage",
+    "FindAForm",
+    "FlyoutAnchorOpenMenu",
+    "FormRegionOpen",
+    "GroupAllFilesEdit",
+    "GroupAppointmentActions",
+    "GroupBdcEntitiesManage",
+    "GroupContentTypeWorkflowsEdit",
+    "GroupDataConnectionsEdit",
+    "GroupListFormsEdit",
+    "GroupListViewsEdit",
+    "GroupListWorkflowsEdit",
+    "GroupPagePermissionsEdit",
+    "GroupPageVersionHistoryActions",
+    "GroupRecurringAppointmentActions",
+    "GroupSitePermissionsEdit",
+    "GroupTaskFormFieldsEdit",
+    "GroupTaskOpen",
+    "GroupWorkflowFormsEdit",
+    "ListEditSelected",
+    "MenuOpenAppointment",
+    "MRUSlabOpenOfficeLiveWorkspaces",
+    "OpenAppointment",
+    "OpenAttach",
+    "OpenContentType",
+    "OpenFolder",
+    "OpenHollow",
+    "OpenList",
+    "OpenNotebookAsFolder",
+    "OpenSelectedItems",
+    "OpenSpecificFile",
+    "OpenSpecificFileWith",
+    "ReopenFromServer",
+    "TabRecent"
+  ]
+}

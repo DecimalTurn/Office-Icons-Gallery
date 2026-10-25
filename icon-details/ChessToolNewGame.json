@@ -1,0 +1,34 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChessToolRotateLeft",
+      "imageAsset": "images/by-hash/65c1b10f192ddd9b.png"
+    },
+    {
+      "name": "ChessToolRotateRight",
+      "imageAsset": "images/by-hash/2be74a485b86b3c5.png"
+    },
+    {
+      "name": "GroupChess",
+      "imageAsset": "images/by-hash/720e34890e473f48.png"
+    },
+    {
+      "name": "GroupNewChessTool",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "NewChessTool",
+      "imageAsset": "images/by-hash/578e80fc586e922d.png"
+    }
+  ],
+  "sameImageIds": [
+    "DiagramShapeInsertClassic",
+    "GroupDiagramLayoutClassic",
+    "GroupNewSketchpadTool",
+    "GroupSmartArtCreateGraphic",
+    "SketchpadToolNewSketch",
+    "SmartArtAddShape",
+    "SmartArtAddShapeMenu",
+    "SmartArtAddShapeSplitMenu"
+  ]
+}

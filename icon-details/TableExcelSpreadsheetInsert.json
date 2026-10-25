@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ConvertToExcelSpreadsheet",
+      "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+    },
+    {
+      "name": "ExcelSpreadsheetInsert",
+      "imageAsset": "images/by-hash/1e52fa86f5c7fb87.png"
+    },
+    {
+      "name": "FileSaveAsExcelOpenDocumentSpreadsheet",
+      "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+    },
+    {
+      "name": "InsertExcelSpreadsheetMenu",
+      "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+    },
+    {
+      "name": "ListCreateListFromSpreadsheet",
+      "imageAsset": "images/by-hash/fd9f589f46117a75.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChartShowData",
+    "ChartShowDataContextualMenu",
+    "ExcelSpreadsheetInsert"
+  ]
+}

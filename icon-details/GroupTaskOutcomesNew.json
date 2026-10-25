@@ -1,0 +1,15 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupTaskOutcomesActions",
+      "imageAsset": "images/by-hash/068470b628dc1569.png"
+    },
+    {
+      "name": "GroupTaskOutcomesEdit",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    }
+  ],
+  "sameImageIds": [
+    "TaskSummaryCreateOutcome"
+  ]
+}

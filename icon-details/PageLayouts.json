@@ -1,0 +1,20 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupChartLayouts",
+      "imageAsset": "images/by-hash/b2594ebd088ea69d.png"
+    },
+    {
+      "name": "GroupSmartArtLayouts",
+      "imageAsset": "images/by-hash/df0b06c2bd8de1bb.png"
+    },
+    {
+      "name": "SmartArtMoreLayoutsDialog",
+      "imageAsset": "images/by-hash/df0b06c2bd8de1bb.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupLayoutPagesNew",
+    "NewPageLayout"
+  ]
+}

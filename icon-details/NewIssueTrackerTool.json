@@ -1,0 +1,23 @@
+{
+  "relatedIcons": [
+    {
+      "name": "IgnoreThisIssue",
+      "imageAsset": "images/by-hash/d6804bbf7dc8536a.png"
+    },
+    {
+      "name": "IgnoreThisIssueMenu",
+      "imageAsset": "images/by-hash/d6804bbf7dc8536a.png"
+    },
+    {
+      "name": "NewO12IssueTrackingTool",
+      "imageAsset": "images/by-hash/ddfc513c215818a1.png"
+    },
+    {
+      "name": "ReportIssueGiveFeedback",
+      "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+    }
+  ],
+  "sameImageIds": [
+    "NewO12IssueTrackingTool"
+  ]
+}

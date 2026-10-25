@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotTableDoNotRepeatItemLabels",
+      "imageAsset": "images/by-hash/a80fc3e4a09cb789.png"
+    },
+    {
+      "name": "PivotTableLayoutSubtotals",
+      "imageAsset": "images/by-hash/1d45910b273cc3d8.png"
+    },
+    {
+      "name": "PivotTableSubtotalsOnBottom",
+      "imageAsset": "images/by-hash/1d45910b273cc3d8.png"
+    },
+    {
+      "name": "PivotTableSubtotalsOnTop",
+      "imageAsset": "images/by-hash/10117bd7c5d17a59.png"
+    },
+    {
+      "name": "OutlineSubtotals",
+      "imageAsset": "images/by-hash/74ac43a439baf4ce.png"
+    },
+    {
+      "name": "ArrangeByToDoDue",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "ArrangeByToDoStart",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "MenuToDoBar",
+      "imageAsset": "images/by-hash/0a355b21c3ae9c0d.png"
+    },
+    {
+      "name": "ToDoTag",
+      "imageAsset": "images/by-hash/39e899bbaab87f00.png"
+    },
+    {
+      "name": "ConditionIsNotBetween",
+      "imageAsset": "images/by-hash/2f5f03dde73b434a.png"
+    },
+    {
+      "name": "ConditionIsNotEmail",
+      "imageAsset": "images/by-hash/96132f9b290fa0d3.png"
+    },
+    {
+      "name": "ConditionIsNotURL",
+      "imageAsset": "images/by-hash/3bbc606800df6a78.png"
+    }
+  ],
+  "sameImageIds": [
+    "PivotTableGrandTotalsOffForRowsAndColumns"
+  ]
+}

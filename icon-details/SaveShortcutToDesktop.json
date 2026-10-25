@@ -1,0 +1,23 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OpenDesktopSearch",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "CreateShortcutMenuFromMacro",
+      "imageAsset": "images/by-hash/5e246a33153a967d.png"
+    },
+    {
+      "name": "JotShortcutToNotebook",
+      "imageAsset": "images/by-hash/53441b64d6d0b59f.png"
+    },
+    {
+      "name": "NewShortcut",
+      "imageAsset": "images/by-hash/9737dea5e51312b4.png"
+    }
+  ],
+  "sameImageIds": [
+    "GotoShortcuts"
+  ]
+}

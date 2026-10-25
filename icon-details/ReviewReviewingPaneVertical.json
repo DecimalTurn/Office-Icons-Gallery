@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReviewReviewingPane",
+      "imageAsset": "images/by-hash/9053634ce25b0731.png"
+    },
+    {
+      "name": "ReviewReviewingPaneHorizontal",
+      "imageAsset": "images/by-hash/9053634ce25b0731.png"
+    },
+    {
+      "name": "ReviewReviewingPaneMenu",
+      "imageAsset": "images/by-hash/9053634ce25b0731.png"
+    },
+    {
+      "name": "ReviewReviewingPanePowerPoint",
+      "imageAsset": "images/by-hash/cd27329c8a373014.png"
+    },
+    {
+      "name": "ReviewingPane",
+      "imageAsset": "images/by-hash/cd27329c8a373014.png"
+    }
+  ],
+  "sameImageIds": []
+}

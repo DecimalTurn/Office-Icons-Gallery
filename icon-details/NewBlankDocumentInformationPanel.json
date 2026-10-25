@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DocumentPanelTemplate",
+      "imageAsset": "images/by-hash/4b81b5eebab0bb00.png"
+    },
+    {
+      "name": "FileDocumentManagementInformation",
+      "imageAsset": "images/by-hash/c02c1d323af75aa4.png"
+    },
+    {
+      "name": "FileNewBlankDocument",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "ClippingPanelButton",
+      "imageAsset": "images/by-hash/fe36e96db05fe5e7.png"
+    },
+    {
+      "name": "InsertPanel",
+      "imageAsset": "images/by-hash/e46c6261e696edce.png"
+    },
+    {
+      "name": "ShowPropertyPanel",
+      "imageAsset": "images/by-hash/b17f104ce5a93a7c.png"
+    },
+    {
+      "name": "AddSelectionToBusinessInformationLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AssignmentInformation",
+      "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+    },
+    {
+      "name": "FunctionsInformationInsertGallery",
+      "imageAsset": "images/by-hash/19bf43f96361e3fc.png"
+    },
+    {
+      "name": "GroupRemoveHiddenInformation",
+      "imageAsset": "images/by-hash/5c8255b42864d3e4.png"
+    },
+    {
+      "name": "InformationDialog",
+      "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+    },
+    {
+      "name": "MessageDeliveryInformation",
+      "imageAsset": "images/by-hash/412333e48ada1bf0.png"
+    }
+  ],
+  "sameImageIds": []
+}

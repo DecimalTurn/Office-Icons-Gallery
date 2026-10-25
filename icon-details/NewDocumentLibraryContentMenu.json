@@ -1,0 +1,101 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddSelectionToContentLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "CreateDocumentLibrary",
+      "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+    },
+    {
+      "name": "DocumentLibraryProperties",
+      "imageAsset": "images/by-hash/5f9639c5060c2a1f.png"
+    },
+    {
+      "name": "GroupDocumentLibraryEdit",
+      "imageAsset": "images/by-hash/90f5920b899619e8.png"
+    },
+    {
+      "name": "GroupDocumentLibraryFileActions",
+      "imageAsset": "images/by-hash/47cf5c778774c235.png"
+    },
+    {
+      "name": "GroupDocumentLibraryManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "GroupDocumentLibraryNew",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "ListCreateDocumentLibrary",
+      "imageAsset": "images/by-hash/a75d409ed1c34cf7.png"
+    },
+    {
+      "name": "NewDocumentLibrary2",
+      "imageAsset": "images/by-hash/a75d409ed1c34cf7.png"
+    },
+    {
+      "name": "PwaDocumentLibrary",
+      "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+    },
+    {
+      "name": "AddSelectionToAccentsLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToAdvertisementLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    }
+  ],
+  "sameImageIds": [
+    "BackgroundPageInsert",
+    "BlankPageInsert",
+    "BlankPageInsertMenu",
+    "BlankPageInsertVisio",
+    "CreateBlankPage",
+    "CreateMasterPage",
+    "CreateNewDrawing",
+    "FileNew",
+    "FileNewBlankDocument",
+    "FileNewContext",
+    "FileNewDatabase",
+    "FileNewDefault",
+    "FileNewDialogClassic",
+    "FileNewDocument",
+    "FilesToolNewFileGallery",
+    "GroupAllFilesNew",
+    "GroupDocumentLibraryNew",
+    "GroupNewChessTool",
+    "GroupPictureCaption",
+    "InsertBuildingBlock",
+    "InsertMoreDesigns",
+    "JotNavUINewPage",
+    "NewASPXPage",
+    "NewAssetMenu",
+    "NewBlankDrawingMetric",
+    "NewBlankDrawingUS",
+    "NewCSSPage",
+    "NewFileMenu",
+    "NewHtmlPage",
+    "NewJavaScriptPage",
+    "NewNotebookMenu",
+    "NewOfficeDocument",
+    "NewPageAfterCurrentGroup",
+    "NewPageHere",
+    "NewPageMenu",
+    "NewPageOneNote",
+    "NewPageShort",
+    "NewTextFileHere",
+    "NewXmlPage",
+    "PageInsertBlank",
+    "PageInsertMenu",
+    "PageOrientationPortrait",
+    "PictureEdgeEffectsGallery",
+    "PubInsertText",
+    "RemoveBuildingBlockFromMRU",
+    "UxContentLibGallery",
+    "VisioInsertNewPage"
+  ]
+}

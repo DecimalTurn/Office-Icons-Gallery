@@ -1,0 +1,41 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TaskRespectLinksVisibleByContext",
+      "imageAsset": "images/by-hash/d622155ca0500559.png"
+    },
+    {
+      "name": "EditLinks",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "FileLinksToFiles",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "GetLinks",
+      "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+    },
+    {
+      "name": "GroupBlogInsertLinks",
+      "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+    },
+    {
+      "name": "GroupInsertLinks",
+      "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+    },
+    {
+      "name": "LinksBetweenProjects",
+      "imageAsset": "images/by-hash/1e1cf4db7f86a32f.png"
+    },
+    {
+      "name": "NoteLinksDeleteAll",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    }
+  ],
+  "sameImageIds": [
+    "HyperlinksVerify",
+    "TaskRespectLinksVisibleByContext",
+    "VerifySelectedHyperlinks"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ExitHollow",
+      "imageAsset": "images/by-hash/13f298e432e05ef0.png"
+    },
+    {
+      "name": "OpenHollow",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "OptionsHollow",
+      "imageAsset": "images/by-hash/a4b0115356cf93ef.png"
+    },
+    {
+      "name": "SaveAsHollow",
+      "imageAsset": "images/by-hash/4f59b338d3f5a439.png"
+    },
+    {
+      "name": "SaveHollow",
+      "imageAsset": "images/by-hash/1c9db4ad034af9ca.png"
+    },
+    {
+      "name": "BackgroundRemovalClose",
+      "imageAsset": "images/by-hash/48eab841d02031df.png"
+    },
+    {
+      "name": "CloseAllItems",
+      "imageAsset": "images/by-hash/c20326749b246570.png"
+    },
+    {
+      "name": "CloseAllPages",
+      "imageAsset": "images/by-hash/76ac83fb7e258b44.png"
+    },
+    {
+      "name": "CloseComparison",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "CloseDocument",
+      "imageAsset": "images/by-hash/404990c6a245f899.png"
+    },
+    {
+      "name": "CloseInkEntryMode",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "CloseOutlookDataFile",
+      "imageAsset": "images/by-hash/3c506956af95ad34.png"
+    }
+  ],
+  "sameImageIds": []
+}

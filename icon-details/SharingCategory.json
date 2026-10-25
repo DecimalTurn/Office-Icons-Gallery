@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ArrangeByCategory",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "BlogCategoryInsert",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "CategoryCollapse",
+      "imageAsset": "images/by-hash/f4dd61ec3a6e3b40.png"
+    },
+    {
+      "name": "ConnectOtherSitesCategory",
+      "imageAsset": "images/by-hash/ba3eb9d46af27681.png"
+    },
+    {
+      "name": "FacilitiesAssignCategory",
+      "imageAsset": "images/by-hash/81286b9a0ccb679f.png"
+    },
+    {
+      "name": "MarketplaceCategory",
+      "imageAsset": "images/by-hash/517667b03bbfdec9.png"
+    },
+    {
+      "name": "NewCategoryFolder",
+      "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+    },
+    {
+      "name": "PhotosVideosCategory",
+      "imageAsset": "images/by-hash/8df9bf88253a60ec.png"
+    },
+    {
+      "name": "QuickSearchAnyCategory",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "StorageCategory",
+      "imageAsset": "images/by-hash/586dd7d7e09412dc.png"
+    },
+    {
+      "name": "SaveForSharing",
+      "imageAsset": "images/by-hash/289fc463233b9aa8.png"
+    },
+    {
+      "name": "SharingNone",
+      "imageAsset": "images/by-hash/641163a646886389.png"
+    }
+  ],
+  "sameImageIds": []
+}

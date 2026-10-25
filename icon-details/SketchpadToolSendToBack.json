@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SketchpadToolSendBackward",
+      "imageAsset": "images/by-hash/a3ed927dc0efa66a.png"
+    },
+    {
+      "name": "ObjectSendToBack",
+      "imageAsset": "images/by-hash/3bfc8059daba52d5.png"
+    },
+    {
+      "name": "ObjectSendToBackMenu",
+      "imageAsset": "images/by-hash/3bfc8059daba52d5.png"
+    },
+    {
+      "name": "ObjectSendToBackOutlook",
+      "imageAsset": "images/by-hash/3bfc8059daba52d5.png"
+    },
+    {
+      "name": "GroupNewSketchpadTool",
+      "imageAsset": "images/by-hash/dd87254046e40348.png"
+    },
+    {
+      "name": "GroupSketchpad",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "NewSketchpadTool",
+      "imageAsset": "images/by-hash/93534773692ce795.png"
+    },
+    {
+      "name": "SketchpadToolArrangeMenu",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "SketchpadToolBackgroundMenu",
+      "imageAsset": "images/by-hash/52387a3c842c9964.png"
+    },
+    {
+      "name": "SketchpadToolBringForward",
+      "imageAsset": "images/by-hash/3ba5178b9f938bd5.png"
+    },
+    {
+      "name": "SketchpadToolBringToFront",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "SketchpadToolDeleteBackground",
+      "imageAsset": "images/by-hash/fee8f30c23a087f7.png"
+    }
+  ],
+  "sameImageIds": [
+    "ObjectsArrangeMenu",
+    "ObjectSendToBack",
+    "ObjectSendToBackMenu",
+    "ObjectSendToBackOutlook",
+    "ObjectSendToBaseMenuOutlook"
+  ]
+}

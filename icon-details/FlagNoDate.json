@@ -1,0 +1,82 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NewTasksNoDate",
+      "imageAsset": "images/by-hash/fde603d72c3ddeec.png"
+    },
+    {
+      "name": "FlagCustom",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "FlagMessage",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "FlagNextWeek",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "FlagThisWeek",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "FlagToday",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "FlagTomorrow",
+      "imageAsset": "images/by-hash/aab3f29e91f304f1.png"
+    },
+    {
+      "name": "QuickStepTemplateFlagAndMove",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "SendCopyFlag",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "BorderBottomNoToggle",
+      "imageAsset": "images/by-hash/55ed253243346cfc.png"
+    },
+    {
+      "name": "BorderLeftNoToggle",
+      "imageAsset": "images/by-hash/aa0534c0ead9c22c.png"
+    },
+    {
+      "name": "BorderRightNoToggle",
+      "imageAsset": "images/by-hash/6cdf266bdd875afb.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByToDoDue",
+    "ArrangeByToDoStart",
+    "EmailFormTagMessage",
+    "FlagCustom",
+    "FlagMessage",
+    "FlagToday",
+    "FollowUpComposeMenu",
+    "FollowUpMenu",
+    "FollowUpReadMenu",
+    "GroupAppointmentOptions",
+    "GroupContactOptions",
+    "GroupContactsOptions",
+    "GroupFollowUp",
+    "GroupMailOptions",
+    "GroupMessageOptions",
+    "GroupTaskOptions",
+    "GroupTasksOptions",
+    "MailMergeFollowupMenu",
+    "OutlookTaskCustomDate",
+    "OutlookTaskCustomDateContextual",
+    "OutlookTasksMenu",
+    "OutlookTaskToday",
+    "OutlookTaskTodayContextual",
+    "QuickSearchAllIncomplete",
+    "QuickSearchFlaggedByMe",
+    "QuickSearchTaskDueDateGallery",
+    "QuickStepTemplateFlagAndMove",
+    "SendCopyFlag"
+  ]
+}

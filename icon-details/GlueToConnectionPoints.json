@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ConnectionPoints",
+      "imageAsset": "images/by-hash/1119b395369eaace.png"
+    },
+    {
+      "name": "ObjectEditPoints",
+      "imageAsset": "images/by-hash/bc418a9f0b960640.png"
+    },
+    {
+      "name": "TextWrappingEditWrapPoints",
+      "imageAsset": "images/by-hash/365164a10e92196c.png"
+    },
+    {
+      "name": "GlueToggle",
+      "imageAsset": "images/by-hash/a093df539e5e67cc.png"
+    },
+    {
+      "name": "GlueToGuides",
+      "imageAsset": "images/by-hash/6e3cb10128cb82be.png"
+    },
+    {
+      "name": "GlueToShapeGeometry",
+      "imageAsset": "images/by-hash/c0b802f33a7d3649.png"
+    },
+    {
+      "name": "GlueToShapeHandles",
+      "imageAsset": "images/by-hash/e544cd72b95aa27c.png"
+    },
+    {
+      "name": "GlueToShapeVertices",
+      "imageAsset": "images/by-hash/f6fb22dd8eb0322d.png"
+    },
+    {
+      "name": "AddWebPartConnection",
+      "imageAsset": "images/by-hash/46504686e3dd6015.png"
+    },
+    {
+      "name": "ConnectionPointTool",
+      "imageAsset": "images/by-hash/01135eab7c18dba3.png"
+    },
+    {
+      "name": "ConnectionSettings",
+      "imageAsset": "images/by-hash/c9127e4088b92041.png"
+    },
+    {
+      "name": "CreateWebServiceConnection",
+      "imageAsset": "images/by-hash/699b40367d81b599.png"
+    }
+  ],
+  "sameImageIds": []
+}

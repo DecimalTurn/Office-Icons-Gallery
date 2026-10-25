@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "StylesModifyStyle",
+      "imageAsset": "images/by-hash/4bcd5bd3d89520db.png"
+    },
+    {
+      "name": "StylesPaneNewStyle",
+      "imageAsset": "images/by-hash/e6f7d1945ad3787b.png"
+    },
+    {
+      "name": "StylesStyleInspector",
+      "imageAsset": "images/by-hash/696f8cf4c9d30272.png"
+    },
+    {
+      "name": "StylesStyleVisibility",
+      "imageAsset": "images/by-hash/d9d9273e665f2cba.png"
+    }
+  ],
+  "sameImageIds": []
+}

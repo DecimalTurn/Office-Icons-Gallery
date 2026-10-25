@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CloseComparison",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "NewComparisonReport",
+      "imageAsset": "images/by-hash/6a401bb5aef3d7b6.png"
+    },
+    {
+      "name": "ResourceComparison",
+      "imageAsset": "images/by-hash/ff2ff5e3f3160ea1.png"
+    }
+  ],
+  "sameImageIds": [
+    "CompareProjects",
+    "GroupCompareProject",
+    "GroupCompareProjectsView"
+  ]
+}

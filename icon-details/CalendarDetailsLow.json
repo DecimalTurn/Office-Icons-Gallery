@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CalendarMonthDetailsSplitButton",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "AlignJustifyLow",
+      "imageAsset": "images/by-hash/7cc7551fd5ca81e9.png"
+    },
+    {
+      "name": "ChartFormatHighLowLine",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "JustifyLowVertical",
+      "imageAsset": "images/by-hash/861f95c4f28d3239.png"
+    },
+    {
+      "name": "LowImportance",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "SparklineLowPointColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "SparklineLowPointMoreColors",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "CreateListDetailsView",
+      "imageAsset": "images/by-hash/98d6d5786db121b5.png"
+    },
+    {
+      "name": "DataViewDetailsView",
+      "imageAsset": "images/by-hash/141eb9b927f43b2a.png"
+    },
+    {
+      "name": "GroupResourceFormViewDetails",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "GroupResourceUsageViewDetails",
+      "imageAsset": "images/by-hash/f5fd508399661656.png"
+    },
+    {
+      "name": "GroupSparklineDetailsShow",
+      "imageAsset": "images/by-hash/f66f1f20b7d1d18a.png"
+    }
+  ],
+  "sameImageIds": []
+}

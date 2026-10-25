@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CatalogMergeMergeToExistingPublication",
+      "imageAsset": "images/by-hash/00f0aa0dc99ae8a6.png"
+    },
+    {
+      "name": "CatalogMergeMergeToNewPublication",
+      "imageAsset": "images/by-hash/b014d809dc177062.png"
+    },
+    {
+      "name": "MergeToNewPublication",
+      "imageAsset": "images/by-hash/b7b4002a179ba229.png"
+    },
+    {
+      "name": "MailMergeRecepientsUseExistingList",
+      "imageAsset": "images/by-hash/ed662b1b3d27fe6e.png"
+    },
+    {
+      "name": "GroupPublicationViews",
+      "imageAsset": "images/by-hash/6644438184825ba8.png"
+    },
+    {
+      "name": "SavePublicationTask",
+      "imageAsset": "images/by-hash/cb125fa158d324a3.png"
+    },
+    {
+      "name": "AddExistingTasksToTimeline",
+      "imageAsset": "images/by-hash/2128fa0a06829f22.png"
+    },
+    {
+      "name": "AssociateExistingWorkflow",
+      "imageAsset": "images/by-hash/4ed7bc16cc89d2b3.png"
+    },
+    {
+      "name": "BlogOpenExisting",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "GetExternalDataExistingConnections",
+      "imageAsset": "images/by-hash/5b478506b12c635c.png"
+    },
+    {
+      "name": "LinkToExistingList",
+      "imageAsset": "images/by-hash/98c54f34d050e16b.png"
+    },
+    {
+      "name": "RtcJoinExistingSession",
+      "imageAsset": "images/by-hash/785cdcfb6d5f39c8.png"
+    }
+  ],
+  "sameImageIds": []
+}

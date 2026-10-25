@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ArrowStyleGallery",
+      "imageAsset": "images/by-hash/027562b49e54f056.png"
+    },
+    {
+      "name": "DoubleArrow",
+      "imageAsset": "images/by-hash/d8a12eb0d19ccd67.png"
+    },
+    {
+      "name": "DownArrow2",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    },
+    {
+      "name": "DrawArrow",
+      "imageAsset": "images/by-hash/7954a6ad4fe60647.png"
+    },
+    {
+      "name": "JotInsertElbowLineDoubleArrow",
+      "imageAsset": "images/by-hash/e264e22e5d00fb31.png"
+    },
+    {
+      "name": "JotInsertElbowLineNoArrow",
+      "imageAsset": "images/by-hash/bcf7763d2b706cc2.png"
+    },
+    {
+      "name": "JotInsertElbowLineSingleArrow",
+      "imageAsset": "images/by-hash/79d529881c7a8109.png"
+    },
+    {
+      "name": "LeftArrow2",
+      "imageAsset": "images/by-hash/1816c21da026fa8e.png"
+    },
+    {
+      "name": "NextArrow",
+      "imageAsset": "images/by-hash/d11835b3c1b148d2.png"
+    },
+    {
+      "name": "PreviousArrow",
+      "imageAsset": "images/by-hash/ed5d941e0e4289f3.png"
+    },
+    {
+      "name": "RightArrow2",
+      "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+    },
+    {
+      "name": "ShapeDownArrow",
+      "imageAsset": "images/by-hash/ceef6ea19bc7b287.png"
+    }
+  ],
+  "sameImageIds": [
+    "DrawArrow"
+  ]
+}

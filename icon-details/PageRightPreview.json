@@ -1,0 +1,30 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ListToolPreviewRight",
+      "imageAsset": "images/by-hash/143d98311f83ee01.png"
+    }
+  ],
+  "sameImageIds": [
+    "ForwardAttach",
+    "GanttNext",
+    "GoTo",
+    "GoToBookmark",
+    "GoToMenuAccess",
+    "GroupGanttNavigation",
+    "GroupPivotChartGrouping",
+    "GroupPivotTableGroup",
+    "GroupResourceGraphNavigate",
+    "LeftToRightEmbedding",
+    "NavForward",
+    "NextResource",
+    "OrgChartReportMoveRight",
+    "PagesDemote",
+    "PivotDiagramMoveRight",
+    "PivotTableGroupingMenu",
+    "PivotTableGroupSelection",
+    "ResultsPaneGoNext",
+    "RightArrow2",
+    "WebGoForward"
+  ]
+}

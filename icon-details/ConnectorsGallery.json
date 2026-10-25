@@ -1,0 +1,15 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OrganizationChartSelectAllConnectors",
+      "imageAsset": "images/by-hash/ab0e89f2635919b6.png"
+    },
+    {
+      "name": "ShapeRerouteConnectors",
+      "imageAsset": "images/by-hash/5959806ca5134c5d.png"
+    }
+  ],
+  "sameImageIds": [
+    "ShapeConnectorStyleMenu"
+  ]
+}

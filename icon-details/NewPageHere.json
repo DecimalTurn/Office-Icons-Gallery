@@ -1,0 +1,65 @@
+{
+  "relatedIcons": [
+    {
+      "name": "HyperlinkCreateHere",
+      "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+    },
+    {
+      "name": "NewFolderHere",
+      "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+    },
+    {
+      "name": "NewTextFileHere",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    }
+  ],
+  "sameImageIds": [
+    "BackgroundPageInsert",
+    "BlankPageInsert",
+    "BlankPageInsertMenu",
+    "BlankPageInsertVisio",
+    "CreateBlankPage",
+    "CreateMasterPage",
+    "CreateNewDrawing",
+    "FileNew",
+    "FileNewBlankDocument",
+    "FileNewContext",
+    "FileNewDatabase",
+    "FileNewDefault",
+    "FileNewDialogClassic",
+    "FileNewDocument",
+    "FilesToolNewFileGallery",
+    "GroupAllFilesNew",
+    "GroupDocumentLibraryNew",
+    "GroupNewChessTool",
+    "GroupPictureCaption",
+    "InsertBuildingBlock",
+    "InsertMoreDesigns",
+    "JotNavUINewPage",
+    "NewASPXPage",
+    "NewAssetMenu",
+    "NewBlankDrawingMetric",
+    "NewBlankDrawingUS",
+    "NewCSSPage",
+    "NewDocumentLibraryContentMenu",
+    "NewFileMenu",
+    "NewHtmlPage",
+    "NewJavaScriptPage",
+    "NewNotebookMenu",
+    "NewOfficeDocument",
+    "NewPageAfterCurrentGroup",
+    "NewPageMenu",
+    "NewPageOneNote",
+    "NewPageShort",
+    "NewTextFileHere",
+    "NewXmlPage",
+    "PageInsertBlank",
+    "PageInsertMenu",
+    "PageOrientationPortrait",
+    "PictureEdgeEffectsGallery",
+    "PubInsertText",
+    "RemoveBuildingBlockFromMRU",
+    "UxContentLibGallery",
+    "VisioInsertNewPage"
+  ]
+}

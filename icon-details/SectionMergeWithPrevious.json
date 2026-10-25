@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "HeaderFooterPreviousSection",
+      "imageAsset": "images/by-hash/dea8fdc2f8ab15ef.png"
+    },
+    {
+      "name": "CatalogMergeGoToPreviousRecord",
+      "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+    },
+    {
+      "name": "MailMergeGoToPreviousRecord",
+      "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+    },
+    {
+      "name": "ChoiceSection",
+      "imageAsset": "images/by-hash/517348324e3305cc.png"
+    },
+    {
+      "name": "CopyOrMoveToSection",
+      "imageAsset": "images/by-hash/fd8cc2eeecc48d42.png"
+    },
+    {
+      "name": "GroupSection",
+      "imageAsset": "images/by-hash/79c19b6cb9c41248.png"
+    },
+    {
+      "name": "HeaderFooterNextSection",
+      "imageAsset": "images/by-hash/aa6852b3a1d745ee.png"
+    },
+    {
+      "name": "JotCreateHyperlinkToSectionShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotInsertSectionShort",
+      "imageAsset": "images/by-hash/79c19b6cb9c41248.png"
+    },
+    {
+      "name": "MoveDownSection",
+      "imageAsset": "images/by-hash/79274de9857dec98.png"
+    },
+    {
+      "name": "MoveUpSection",
+      "imageAsset": "images/by-hash/068470b628dc1569.png"
+    },
+    {
+      "name": "NavSectionColorPicker",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    }
+  ],
+  "sameImageIds": []
+}

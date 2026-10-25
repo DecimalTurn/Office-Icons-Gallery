@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupMeetingsToolAppointmentNotesOptions",
+      "imageAsset": "images/by-hash/b33da83e23a2b5b3.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentAgenda",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentAgendaOptions",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentEditAgenda",
+      "imageAsset": "images/by-hash/cd03c48facbc252d.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentEditNote",
+      "imageAsset": "images/by-hash/cd03c48facbc252d.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentEditSummary",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentMeeting",
+      "imageAsset": "images/by-hash/cd03c48facbc252d.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentNote",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentOpen",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentProfileOptions",
+      "imageAsset": "images/by-hash/5064aeaf0a3850c9.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentShow",
+      "imageAsset": "images/by-hash/0361db1830da4d01.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentSummary",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    }
+  ],
+  "sameImageIds": []
+}

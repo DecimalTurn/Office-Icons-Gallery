@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupResourceViewSimple",
+      "imageAsset": "images/by-hash/b6e1b94b1994aa71.png"
+    },
+    {
+      "name": "GroupResourcePropertiesStandard",
+      "imageAsset": "images/by-hash/86497283f682fdc3.png"
+    },
+    {
+      "name": "GroupResourceViewsStandard",
+      "imageAsset": "images/by-hash/5d00fc091334dedc.png"
+    },
+    {
+      "name": "NewResourceFromStandardMenu",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "ResourceAllViewsGalleryStandard",
+      "imageAsset": "images/by-hash/b6e1b94b1994aa71.png"
+    },
+    {
+      "name": "GroupClipboardSimple",
+      "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+    },
+    {
+      "name": "GroupTaskViewSimple",
+      "imageAsset": "images/by-hash/45c6003e361b17c7.png"
+    },
+    {
+      "name": "DataTypeStandard",
+      "imageAsset": "images/by-hash/5f241bde88d838b2.png"
+    },
+    {
+      "name": "GroupAssignmentsStandard",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    },
+    {
+      "name": "GroupStatusProjectStandard",
+      "imageAsset": "images/by-hash/bcfb3706706b8cb6.png"
+    },
+    {
+      "name": "GroupTaskScheduleStandard",
+      "imageAsset": "images/by-hash/fe43016cac7f8388.png"
+    },
+    {
+      "name": "GroupTasksLayoutStandard",
+      "imageAsset": "images/by-hash/fde603d72c3ddeec.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupResourceViewSimple",
+    "ResourceAllViewsGalleryStandard",
+    "ResourceSheetViewGallery"
+  ]
+}

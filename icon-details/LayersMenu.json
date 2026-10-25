@@ -1,0 +1,23 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupLayers",
+      "imageAsset": "images/by-hash/679654dea39c8bbd.png"
+    },
+    {
+      "name": "ManageLayers",
+      "imageAsset": "images/by-hash/679654dea39c8bbd.png"
+    },
+    {
+      "name": "ViewLayers",
+      "imageAsset": "images/by-hash/88eddc852c38a006.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupLayers",
+    "LayerMenu",
+    "LayerProperties",
+    "LayerPropertiesDialog",
+    "ManageLayers"
+  ]
+}

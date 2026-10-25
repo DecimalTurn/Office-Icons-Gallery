@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AreaSelect",
+      "imageAsset": "images/by-hash/30fa90eadcee4633.png"
+    },
+    {
+      "name": "ChartFormatChartArea",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartFormatPlotArea",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartPlotArea",
+      "imageAsset": "images/by-hash/a1a63cb1c4be0aa9.png"
+    },
+    {
+      "name": "ChartTypeAreaInsertDialog",
+      "imageAsset": "images/by-hash/85eef39428aee436.png"
+    },
+    {
+      "name": "ChartTypeAreaInsertGallery",
+      "imageAsset": "images/by-hash/6c7ddcae66407d6b.png"
+    },
+    {
+      "name": "HideScratchArea",
+      "imageAsset": "images/by-hash/592601d3eae5f5bc.png"
+    },
+    {
+      "name": "IconSelectArea",
+      "imageAsset": "images/by-hash/30fa90eadcee4633.png"
+    },
+    {
+      "name": "PivotMoveToColumnArea",
+      "imageAsset": "images/by-hash/7e73fe787205a7e1.png"
+    },
+    {
+      "name": "PivotMoveToDetailArea",
+      "imageAsset": "images/by-hash/e3a8c78fb38207b6.png"
+    },
+    {
+      "name": "PivotMoveToFieldArea",
+      "imageAsset": "images/by-hash/27d0accbe8c8885a.png"
+    },
+    {
+      "name": "PivotMoveToFilterArea",
+      "imageAsset": "images/by-hash/a7e7ea389b94a3b7.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChartTypeAreaInsertGallery",
+    "GroupPivotChartType"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "HTMLFragmentProperties",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "HtmlListCodeSnippets",
+      "imageAsset": "images/by-hash/69b9c19a7889da5b.png"
+    },
+    {
+      "name": "ShapesFragment",
+      "imageAsset": "images/by-hash/7f27b4c19be231ce.png"
+    },
+    {
+      "name": "ShapesObjectFragment",
+      "imageAsset": "images/by-hash/7f27b4c19be231ce.png"
+    },
+    {
+      "name": "CharacterCodeToggle",
+      "imageAsset": "images/by-hash/a4513abcd4ee3ea2.png"
+    },
+    {
+      "name": "CodeEdit",
+      "imageAsset": "images/by-hash/4a71c7c6247bfbab.png"
+    },
+    {
+      "name": "CodeEditor",
+      "imageAsset": "images/by-hash/222ac64c060cf337.png"
+    },
+    {
+      "name": "CodeEditorOptionsMenu",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "CodeEditorScript",
+      "imageAsset": "images/by-hash/222ac64c060cf337.png"
+    },
+    {
+      "name": "CodeFindMenu",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "CodeHyperlinkBack",
+      "imageAsset": "images/by-hash/2d5c13dc835ab204.png"
+    },
+    {
+      "name": "CodeHyperlinkForward",
+      "imageAsset": "images/by-hash/1c154a02c8cf0fb0.png"
+    }
+  ],
+  "sameImageIds": []
+}

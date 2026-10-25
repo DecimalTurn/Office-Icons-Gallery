@@ -1,0 +1,67 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ClientFormsMenu",
+      "imageAsset": "images/by-hash/e15d79514a0ddc33.png"
+    },
+    {
+      "name": "CreateFormMoreFormsGallery",
+      "imageAsset": "images/by-hash/b6a5d1892d5b7917.png"
+    },
+    {
+      "name": "CreateFormMoreFormsMenu",
+      "imageAsset": "images/by-hash/b6a5d1892d5b7917.png"
+    },
+    {
+      "name": "CreateFormMoreFormsWebMenu",
+      "imageAsset": "images/by-hash/b6a5d1892d5b7917.png"
+    },
+    {
+      "name": "FormsMenu",
+      "imageAsset": "images/by-hash/1142df3cdb673aed.png"
+    },
+    {
+      "name": "FormsToolAdvancedFind",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "FormsToolArrangeViewGallery",
+      "imageAsset": "images/by-hash/cf92637eb802c6af.png"
+    },
+    {
+      "name": "FormsToolClearFindResults",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    },
+    {
+      "name": "FormsToolDelete",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "FormsToolExportMenu",
+      "imageAsset": "images/by-hash/d51ac3a5ee3618c2.png"
+    },
+    {
+      "name": "FormsToolFind",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "FormsToolFindMenu",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    }
+  ],
+  "sameImageIds": [
+    "DataFormAddRecord",
+    "FormsToolNewRecordGallery",
+    "GoToNewRecord",
+    "GroupDiscussion",
+    "GroupItems",
+    "GroupMeetingsToolAppointmentAgenda",
+    "GroupMeetingsToolAppointmentEditSummary",
+    "GroupMeetingsToolAppointmentNote",
+    "GroupMeetingsToolAppointmentSummary",
+    "MeetingsToolAppointmentNewAgendaItem",
+    "MeetingsToolAppointmentNewNote",
+    "MeetingsToolAppointmentNewSummary",
+    "NewBusinessDataEntityInstance"
+  ]
+}

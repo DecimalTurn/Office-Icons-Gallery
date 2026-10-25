@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "VideoToolsTrim",
+      "imageAsset": "images/by-hash/05377a60f8076477.png"
+    },
+    {
+      "name": "GroupAudioToolsAdjust",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "ShapesObjectTrim",
+      "imageAsset": "images/by-hash/8d2933e9fde55a2e.png"
+    },
+    {
+      "name": "AnimationAudio",
+      "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+    },
+    {
+      "name": "AudioAndVideoGiveFeedback",
+      "imageAsset": "images/by-hash/17cc4e91fcc92c9b.png"
+    },
+    {
+      "name": "AudioBookmarkAdd",
+      "imageAsset": "images/by-hash/6c0673dc10bb736d.png"
+    },
+    {
+      "name": "AudioBookmarkRemove",
+      "imageAsset": "images/by-hash/268c751644bda49a.png"
+    },
+    {
+      "name": "AudioFadeInTime",
+      "imageAsset": "images/by-hash/98ded0db3abf56e4.png"
+    },
+    {
+      "name": "AudioFadeOutTime",
+      "imageAsset": "images/by-hash/d6721e5b45ce0e97.png"
+    },
+    {
+      "name": "AudioInsert",
+      "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+    },
+    {
+      "name": "AudioNoteDelete",
+      "imageAsset": "images/by-hash/3909ecc087b3166e.png"
+    },
+    {
+      "name": "AudioNotePlayback",
+      "imageAsset": "images/by-hash/4772b90c78d7130c.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupAudioEditing"
+  ]
+}

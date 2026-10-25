@@ -1,0 +1,75 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DataTypeDateTime",
+      "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+    },
+    {
+      "name": "DataTypeLongDate",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "DataTypeMediumDate",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "BordersShortGallery",
+      "imageAsset": "images/by-hash/f53633d00e54bd31.png"
+    },
+    {
+      "name": "FastForwardShort",
+      "imageAsset": "images/by-hash/0f42881fbb368916.png"
+    },
+    {
+      "name": "JotCreateHyperlinkShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotCreateHyperlinkToFolderShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotCreateHyperlinkToNotebookShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotCreateHyperlinkToPageShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotCreateHyperlinkToSectionShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotInsertFolderShort",
+      "imageAsset": "images/by-hash/e1b4e879714f5759.png"
+    },
+    {
+      "name": "JotInsertSectionShort",
+      "imageAsset": "images/by-hash/79c19b6cb9c41248.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByAppointmentStart",
+    "CalendarInsert",
+    "ContactCardScheduleMeeting",
+    "DailyView",
+    "DataTypeLongDate",
+    "DataTypeMediumDate",
+    "GotoCalendar",
+    "GroupOpen",
+    "GroupResourceFormViewDetails",
+    "MeetingsToolViewByDay",
+    "NewAppointment",
+    "NewAppointmentCompact",
+    "NewAppointmentNumbered",
+    "OpenAttachedCalendar",
+    "PersonaCalendarMenu",
+    "QuickSearchMeetings",
+    "SearchUpscopeToAllCalendarItems",
+    "ShowAppointmentPage",
+    "StatusDate",
+    "ViewByDay",
+    "ViewScheduleShow"
+  ]
+}

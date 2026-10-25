@@ -1,0 +1,36 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FilesToolNavigateToParentFolder",
+      "imageAsset": "images/by-hash/b9888a2c43c332a0.png"
+    },
+    {
+      "name": "GroupNavigate",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "GroupNavigateMeetingsTool",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "GroupResourceGraphNavigate",
+      "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+    }
+  ],
+  "sameImageIds": [
+    "CalendarToolSelectDate",
+    "CalendarToolToday",
+    "GroupJournalArrangement",
+    "GroupMeetingsToolAppointmentOpen",
+    "GroupNavigateMeetingsTool",
+    "MeetingsToolAppointmentCalendar",
+    "MeetingsToolSelectDate",
+    "MeetingsToolToday",
+    "SharingOpenCalendarFolder",
+    "SharingOpenICalendar",
+    "SharingOpenPublishedCalendar",
+    "SharingOpenWebCalendar",
+    "Today",
+    "ViewAppointmentInCalendar"
+  ]
+}

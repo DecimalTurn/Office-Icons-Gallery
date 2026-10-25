@@ -1,0 +1,51 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupSiteAssetsActions",
+      "imageAsset": "images/by-hash/47cf5c778774c235.png"
+    },
+    {
+      "name": "GroupSiteColumnActions",
+      "imageAsset": "images/by-hash/51e0176935ae9460.png"
+    },
+    {
+      "name": "GroupSitePermissionsActions",
+      "imageAsset": "images/by-hash/c73b835e6c7da564.png"
+    },
+    {
+      "name": "SiteColumnActionsChangeType",
+      "imageAsset": "images/by-hash/5f241bde88d838b2.png"
+    },
+    {
+      "name": "SiteColumnActionsColumnSettings",
+      "imageAsset": "images/by-hash/51e0176935ae9460.png"
+    },
+    {
+      "name": "SiteColumnActionsRemove",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "SiteColumnActionsValidationSettings",
+      "imageAsset": "images/by-hash/3f804db01cf4d0b6.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddUserToPermissionGroup",
+    "ContactInviteToWorkspace",
+    "DistributionListAddNewMember",
+    "DistributionListNewMemberMenu",
+    "GrantUserPermissions",
+    "GroupInvite",
+    "GroupMembersNew",
+    "GroupPagePermissionsNew",
+    "GroupPermissionGroupsNew",
+    "GroupSitePermissionsNew",
+    "GroupSummaryNew",
+    "InviteMembers",
+    "InviteMembersLB",
+    "InviteMembersMenu",
+    "NewResourceFromStandardMenu",
+    "ResourcesAddMenu",
+    "WorkResourceInsert"
+  ]
+}

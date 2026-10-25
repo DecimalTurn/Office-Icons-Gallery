@@ -1,0 +1,86 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChangesDiscardAndRefresh",
+      "imageAsset": "images/by-hash/a9a39c031d036e56.png"
+    },
+    {
+      "name": "DiscardTableChanges",
+      "imageAsset": "images/by-hash/e50e1b451754030b.png"
+    },
+    {
+      "name": "FileDiscardCachedChanges",
+      "imageAsset": "images/by-hash/e7b96ed34b3b06b2.png"
+    },
+    {
+      "name": "PivotTableDiscardChanges",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "SharePointListsDiscardAllChanges",
+      "imageAsset": "images/by-hash/e50e1b451754030b.png"
+    },
+    {
+      "name": "SharePointListsDiscardAllChangesAndRefresh",
+      "imageAsset": "images/by-hash/a9a39c031d036e56.png"
+    },
+    {
+      "name": "SharePointListsDiscardChangesMenu",
+      "imageAsset": "images/by-hash/e50e1b451754030b.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentAgenda",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentAgendaOptions",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentEditAgenda",
+      "imageAsset": "images/by-hash/cd03c48facbc252d.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentEditNote",
+      "imageAsset": "images/by-hash/cd03c48facbc252d.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentEditSummary",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    }
+  ],
+  "sameImageIds": [
+    "BroadcastEnd",
+    "CancelEditing",
+    "CloseComparison",
+    "CloseInkEntryMode",
+    "ConflictViewClose",
+    "GroupBackgroundRemovalClose",
+    "GroupClearSearch",
+    "GroupColorModeClose",
+    "GroupConflictsClose",
+    "GroupHeaderFooterClose",
+    "GroupInkClose",
+    "GroupMasterClose",
+    "GroupMergeViewClose",
+    "GroupOutliningClose",
+    "GroupPreviewInfoPath",
+    "GroupPrintPreviewClosePreview",
+    "GroupPrintPreviewPreview",
+    "HeaderFooterClose",
+    "IconEditClose",
+    "InkNormalMode",
+    "InkStopInkingReadingView",
+    "InkToolsClose",
+    "MasterPageCloseEdit",
+    "MasterViewClose",
+    "MergeViewClose",
+    "OutlineViewClose",
+    "PreviewClose",
+    "PrintPreviewClose",
+    "QuickSearchCancel",
+    "ShapeSheetClose",
+    "StencilClose",
+    "XDPPClose"
+  ]
+}

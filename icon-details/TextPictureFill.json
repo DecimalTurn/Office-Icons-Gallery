@@ -1,0 +1,24 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ObjectPictureFill",
+      "imageAsset": "images/by-hash/7c09e8bd015cd422.png"
+    },
+    {
+      "name": "PictureFillCrop",
+      "imageAsset": "images/by-hash/352b3feeaeff44d2.png"
+    },
+    {
+      "name": "TableBackgroundPictureFill",
+      "imageAsset": "images/by-hash/7c09e8bd015cd422.png"
+    }
+  ],
+  "sameImageIds": [
+    "ContentControlPicture",
+    "GroupImages",
+    "InsertDrawingCanvas",
+    "InsertImageHtmlTag",
+    "ObjectPictureFill",
+    "TableBackgroundPictureFill"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "VideoDesignResetAndSize",
+      "imageAsset": "images/by-hash/5cead1458d00c645.png"
+    },
+    {
+      "name": "VideoDesignResetSplitButton",
+      "imageAsset": "images/by-hash/5cead1458d00c645.png"
+    },
+    {
+      "name": "VideoPosterFrameReset",
+      "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+    },
+    {
+      "name": "GroupAdpSqlStatementDesignTools",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupTableDesignTools",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupTableDesignToolsSQL",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupVideoToolsAdjust",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "VideoToolsTrim",
+      "imageAsset": "images/by-hash/05377a60f8076477.png"
+    },
+    {
+      "name": "ChartResetToMatchStyle",
+      "imageAsset": "images/by-hash/9940c20fa1f26a2a.png"
+    },
+    {
+      "name": "FormFieldReset",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    },
+    {
+      "name": "GroupPictureReset",
+      "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+    },
+    {
+      "name": "GroupSmartArtReset",
+      "imageAsset": "images/by-hash/d69e055aa1887fd3.png"
+    }
+  ],
+  "sameImageIds": [
+    "VideoDesignResetAndSize",
+    "VideoDesignResetSplitButton"
+  ]
+}

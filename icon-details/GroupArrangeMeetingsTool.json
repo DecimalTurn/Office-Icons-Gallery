@@ -1,0 +1,19 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupArrangeViewMeetingsTool",
+      "imageAsset": "images/by-hash/f80a7aaa0a54faa5.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupArrangeViewMeetingsTool",
+    "GroupCalendarArrange",
+    "GroupCalendarToolCalendarView",
+    "GroupDayWeekMonthArrangement",
+    "MeetingsToolViewByWeek",
+    "MeetingsToolWorkWeekMenu",
+    "QuickSearchReceivedDateGallery",
+    "ViewByWeek",
+    "WeeklyView"
+  ]
+}

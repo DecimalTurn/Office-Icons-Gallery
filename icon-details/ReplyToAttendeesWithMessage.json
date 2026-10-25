@@ -1,0 +1,61 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReplyToAllAttendeesWithMessage",
+      "imageAsset": "images/by-hash/7b3a0741c95874c2.png"
+    },
+    {
+      "name": "MessageToAttendeesMenu",
+      "imageAsset": "images/by-hash/be6b8c855b4845a5.png"
+    },
+    {
+      "name": "NewMessageToAttendees",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    },
+    {
+      "name": "ContactCardReplyWithInstantMessage",
+      "imageAsset": "images/by-hash/57d1bb90bfbd9267.png"
+    },
+    {
+      "name": "ReplyAllWithInstantMessage",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "ReplyWithInstantMessage",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "AddOrRemoveAttendees",
+      "imageAsset": "images/by-hash/62fd3177490b858d.png"
+    },
+    {
+      "name": "GroupAttendees",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    },
+    {
+      "name": "GroupAttendeesMeetingNotSent",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "GroupAttendeesMeetingSent",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    },
+    {
+      "name": "GroupRecurringAttendees",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    },
+    {
+      "name": "InviteAttendees",
+      "imageAsset": "images/by-hash/62fd3177490b858d.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupCalendarRecurringRespond",
+    "GroupCalendarRespond",
+    "GroupMailRespond",
+    "GroupRespond",
+    "GroupTaskListRespond",
+    "GroupTaskRespond",
+    "Reply"
+  ]
+}

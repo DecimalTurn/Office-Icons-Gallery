@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CrossReferenceInsert",
+      "imageAsset": "images/by-hash/6b43807068d961bd.png"
+    },
+    {
+      "name": "DeveloperReference",
+      "imageAsset": "images/by-hash/d81a09a9ce4cb2f7.png"
+    },
+    {
+      "name": "DatasheetColumnLookup",
+      "imageAsset": "images/by-hash/2053cf596680b0b7.png"
+    },
+    {
+      "name": "DataTypeLookup",
+      "imageAsset": "images/by-hash/00cd4d0b28c70c30.png"
+    },
+    {
+      "name": "FunctionLookup",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "LookupFromInitiationData",
+      "imageAsset": "images/by-hash/5d6abecc79cf9509.png"
+    },
+    {
+      "name": "FormulaMoreFunctionsMenu",
+      "imageAsset": "images/by-hash/cf9665e68d47e7c1.png"
+    },
+    {
+      "name": "FunctionsCompatibility",
+      "imageAsset": "images/by-hash/e1db9c3e230dcd47.png"
+    },
+    {
+      "name": "FunctionsCubeInsertGallery",
+      "imageAsset": "images/by-hash/d4c362bffdd01aa9.png"
+    },
+    {
+      "name": "FunctionsDateTimeInsertGallery",
+      "imageAsset": "images/by-hash/e6e5054249325b83.png"
+    },
+    {
+      "name": "FunctionsEngineeringInsertGallery",
+      "imageAsset": "images/by-hash/44f924ac4ed9d605.png"
+    },
+    {
+      "name": "FunctionsFinancialInsertGallery",
+      "imageAsset": "images/by-hash/61332c33d96ab94f.png"
+    }
+  ],
+  "sameImageIds": [
+    "Define"
+  ]
+}

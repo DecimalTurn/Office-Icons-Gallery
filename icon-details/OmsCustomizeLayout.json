@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OmsChangeSlideLayoutGallery",
+      "imageAsset": "images/by-hash/a6c216304374de23.png"
+    },
+    {
+      "name": "CustomizeMySite",
+      "imageAsset": "images/by-hash/93781d39d8f61aa1.png"
+    },
+    {
+      "name": "CustomizeSearchFolder",
+      "imageAsset": "images/by-hash/5eca02018885dfc7.png"
+    },
+    {
+      "name": "CustomizeXSLTMenu",
+      "imageAsset": "images/by-hash/daf258dce7e70476.png"
+    },
+    {
+      "name": "GroupCustomizeThemeOptions",
+      "imageAsset": "images/by-hash/f49b012b69437cca.png"
+    },
+    {
+      "name": "NumberingCustomize",
+      "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+    },
+    {
+      "name": "TagsCustomize",
+      "imageAsset": "images/by-hash/4cf8a0d18ea84259.png"
+    },
+    {
+      "name": "GroupOmsInsert",
+      "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+    },
+    {
+      "name": "GroupOmsMessageOptions",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupOmsSend",
+      "imageAsset": "images/by-hash/7432f97e3bc97d1d.png"
+    },
+    {
+      "name": "GroupOmsView",
+      "imageAsset": "images/by-hash/212d13be56c4f382.png"
+    },
+    {
+      "name": "OmsAccountSetup",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    }
+  ],
+  "sameImageIds": [
+    "CatalogMergeMorePictureOptions"
+  ]
+}

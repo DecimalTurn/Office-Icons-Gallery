@@ -1,0 +1,46 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FileViewDigitalSignatures",
+      "imageAsset": "images/by-hash/39adf11914200bdf.png"
+    },
+    {
+      "name": "ControlPropertyDigitalSignatures",
+      "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+    },
+    {
+      "name": "GroupDigitalSignatures",
+      "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+    },
+    {
+      "name": "GroupDigitalSignaturesInfoPath",
+      "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+    },
+    {
+      "name": "SignatureGallery",
+      "imageAsset": "images/by-hash/94736f7066728e32.png"
+    },
+    {
+      "name": "SignatureInsertMenu",
+      "imageAsset": "images/by-hash/94736f7066728e32.png"
+    },
+    {
+      "name": "SignatureLineInsert",
+      "imageAsset": "images/by-hash/94736f7066728e32.png"
+    },
+    {
+      "name": "SignatureLineInsertMenu",
+      "imageAsset": "images/by-hash/94736f7066728e32.png"
+    },
+    {
+      "name": "SignatureShow",
+      "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+    }
+  ],
+  "sameImageIds": [
+    "ControlPropertyDigitalSignatures",
+    "GroupDigitalSignatures",
+    "GroupDigitalSignaturesInfoPath",
+    "SignatureShow"
+  ]
+}

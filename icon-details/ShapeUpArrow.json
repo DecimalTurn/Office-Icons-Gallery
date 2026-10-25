@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "UpArrow2",
+      "imageAsset": "images/by-hash/6cb246f6a08ee6e1.png"
+    },
+    {
+      "name": "ShapeDownArrow",
+      "imageAsset": "images/by-hash/ceef6ea19bc7b287.png"
+    },
+    {
+      "name": "ShapeElbowConnectorArrow",
+      "imageAsset": "images/by-hash/0b089e5883678f63.png"
+    },
+    {
+      "name": "ShapeLeftArrow",
+      "imageAsset": "images/by-hash/9eed2ef0d0855740.png"
+    },
+    {
+      "name": "ShapeRightArrow",
+      "imageAsset": "images/by-hash/1f8015fc6e21f1d1.png"
+    },
+    {
+      "name": "ShapeStraightConnectorArrow",
+      "imageAsset": "images/by-hash/c0361fe67ca4bdb0.png"
+    },
+    {
+      "name": "Arrow",
+      "imageAsset": "images/by-hash/7954a6ad4fe60647.png"
+    },
+    {
+      "name": "ArrowStyleGallery",
+      "imageAsset": "images/by-hash/027562b49e54f056.png"
+    },
+    {
+      "name": "DoubleArrow",
+      "imageAsset": "images/by-hash/d8a12eb0d19ccd67.png"
+    },
+    {
+      "name": "DownArrow2",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    },
+    {
+      "name": "DrawArrow",
+      "imageAsset": "images/by-hash/7954a6ad4fe60647.png"
+    },
+    {
+      "name": "JotInsertElbowLineDoubleArrow",
+      "imageAsset": "images/by-hash/e264e22e5d00fb31.png"
+    }
+  ],
+  "sameImageIds": []
+}

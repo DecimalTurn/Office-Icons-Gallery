@@ -1,0 +1,30 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ColumnContentTypeSetting",
+      "imageAsset": "images/by-hash/133cf0f80266344b.png"
+    },
+    {
+      "name": "ColumnListSetting",
+      "imageAsset": "images/by-hash/b2a843b474d4461f.png"
+    },
+    {
+      "name": "ContTypeSetting",
+      "imageAsset": "images/by-hash/133cf0f80266344b.png"
+    },
+    {
+      "name": "GroupColorModeSetting",
+      "imageAsset": "images/by-hash/778d7cbd5c31bd4f.png"
+    },
+    {
+      "name": "OmsViewAccountSetting",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    }
+  ],
+  "sameImageIds": [
+    "ColumnListSetting",
+    "GoToList",
+    "GroupColumnAdministration",
+    "GroupListEdit"
+  ]
+}

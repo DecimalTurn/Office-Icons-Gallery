@@ -1,0 +1,37 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartSaveTemplates",
+      "imageAsset": "images/by-hash/42882a4a80177042.png"
+    },
+    {
+      "name": "CreateTableTemplatesGallery",
+      "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+    },
+    {
+      "name": "GroupAccessTemplates",
+      "imageAsset": "images/by-hash/e8587442c1dbbff4.png"
+    },
+    {
+      "name": "GroupTemplates",
+      "imageAsset": "images/by-hash/86cb8dd56d7c9169.png"
+    },
+    {
+      "name": "PageTemplatesSplitButton",
+      "imageAsset": "images/by-hash/2e3940b44c217189.png"
+    },
+    {
+      "name": "PageTemplatesTaskpane",
+      "imageAsset": "images/by-hash/2e3940b44c217189.png"
+    },
+    {
+      "name": "TemplatesAndTablesGallery",
+      "imageAsset": "images/by-hash/6eafded0566cb0c7.png"
+    },
+    {
+      "name": "TemplatesMenu",
+      "imageAsset": "images/by-hash/e8587442c1dbbff4.png"
+    }
+  ],
+  "sameImageIds": []
+}

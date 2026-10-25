@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TimeDelayedScreenClipping",
+      "imageAsset": "images/by-hash/e0e443496fa9a016.png"
+    },
+    {
+      "name": "ClippingPanelButton",
+      "imageAsset": "images/by-hash/fe36e96db05fe5e7.png"
+    },
+    {
+      "name": "JotClipping",
+      "imageAsset": "images/by-hash/50e63310f08e7b81.png"
+    },
+    {
+      "name": "FullScreenViewClassic",
+      "imageAsset": "images/by-hash/919a51806dcb421a.png"
+    },
+    {
+      "name": "JotScreenCaptureShort",
+      "imageAsset": "images/by-hash/e0e443496fa9a016.png"
+    },
+    {
+      "name": "PrintPreviewFullScreen",
+      "imageAsset": "images/by-hash/c02c1d323af75aa4.png"
+    },
+    {
+      "name": "ScreenCaptureInsert",
+      "imageAsset": "images/by-hash/e0e443496fa9a016.png"
+    },
+    {
+      "name": "ScreenNavigatorBack",
+      "imageAsset": "images/by-hash/0cacf429781a9870.png"
+    },
+    {
+      "name": "ScreenNavigatorBackMenu",
+      "imageAsset": "images/by-hash/0cacf429781a9870.png"
+    },
+    {
+      "name": "ScreenNavigatorForward",
+      "imageAsset": "images/by-hash/3dd6c1c7546be437.png"
+    },
+    {
+      "name": "ScreenNavigatorForwardMenu",
+      "imageAsset": "images/by-hash/3dd6c1c7546be437.png"
+    },
+    {
+      "name": "ScreenTip",
+      "imageAsset": "images/by-hash/5774910ce666a5d5.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupInsertSmall",
+    "JotScreenCaptureShort",
+    "ScreenCaptureInsert",
+    "ScreenshotInsertGallery",
+    "TimeDelayedScreenClipping"
+  ]
+}

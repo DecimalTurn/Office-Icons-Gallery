@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupOmsMessageOptions",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "OmsForwardAsMultimediaMessage",
+      "imageAsset": "images/by-hash/ff1a89dfd71fc384.png"
+    },
+    {
+      "name": "OmsForwardAsTextMessage",
+      "imageAsset": "images/by-hash/bd10b4370e08029d.png"
+    },
+    {
+      "name": "OmsNewMultimediaMessage",
+      "imageAsset": "images/by-hash/821951c5fac6399f.png"
+    },
+    {
+      "name": "OmsNewMultimediaMessageToContact",
+      "imageAsset": "images/by-hash/821951c5fac6399f.png"
+    },
+    {
+      "name": "OmsNewTextMessageToContact",
+      "imageAsset": "images/by-hash/5682f4abe86b9ca0.png"
+    },
+    {
+      "name": "GroupOmsInsert",
+      "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+    },
+    {
+      "name": "GroupOmsSend",
+      "imageAsset": "images/by-hash/7432f97e3bc97d1d.png"
+    },
+    {
+      "name": "GroupOmsView",
+      "imageAsset": "images/by-hash/212d13be56c4f382.png"
+    },
+    {
+      "name": "OmsAccountSetup",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "OmsAudioFromFile",
+      "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+    },
+    {
+      "name": "OmsChangeSlideLayoutGallery",
+      "imageAsset": "images/by-hash/a6c216304374de23.png"
+    }
+  ],
+  "sameImageIds": [
+    "OmsNewTextMessageToContact"
+  ]
+}

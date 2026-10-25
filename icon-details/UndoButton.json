@@ -1,0 +1,61 @@
+{
+  "relatedIcons": [
+    {
+      "name": "JotOOCUndoAutoBullets",
+      "imageAsset": "images/by-hash/720e34890e473f48.png"
+    },
+    {
+      "name": "JotOOCUndoAutoNumbering",
+      "imageAsset": "images/by-hash/720e34890e473f48.png"
+    },
+    {
+      "name": "SourceControlUndoCheckOut",
+      "imageAsset": "images/by-hash/9a092616c2da4f72.png"
+    },
+    {
+      "name": "SourceSafeQuickUndoCheckOut",
+      "imageAsset": "images/by-hash/9a092616c2da4f72.png"
+    },
+    {
+      "name": "Undo",
+      "imageAsset": "images/by-hash/720e34890e473f48.png"
+    },
+    {
+      "name": "UndoCompressMedia",
+      "imageAsset": "images/by-hash/720e34890e473f48.png"
+    },
+    {
+      "name": "ActiveXButton",
+      "imageAsset": "images/by-hash/965d899ec226e108.png"
+    },
+    {
+      "name": "ActiveXRadioButton",
+      "imageAsset": "images/by-hash/1d4e488ea50d958c.png"
+    },
+    {
+      "name": "ActiveXSpinButton",
+      "imageAsset": "images/by-hash/ad584763f0010d33.png"
+    },
+    {
+      "name": "ActiveXToggleButton",
+      "imageAsset": "images/by-hash/ec7798c67ae9ecc9.png"
+    },
+    {
+      "name": "ARMPreviewButton",
+      "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+    },
+    {
+      "name": "BroadcastNotesSplitButton",
+      "imageAsset": "images/by-hash/25ceca008a74a306.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChartMostRecentlyUsed",
+    "GroupChess",
+    "JotOOCUndoAutoBullets",
+    "JotOOCUndoAutoNumbering",
+    "ResetCurrentView",
+    "Undo",
+    "UndoCompressMedia"
+  ]
+}

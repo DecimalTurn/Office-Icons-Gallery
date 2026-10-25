@@ -6,17 +6,22 @@ const { test, expect } = require("@playwright/test");
 
 test("maps icon IDs to existing shortened-SHA image assets", () => {
   const metadata = require("../icon-metadata.json");
-  const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
   const assetPaths = new Set(metadata.map((icon) => icon.imageAsset));
   const assetDirectory = path.join(__dirname, "..", "images", "by-hash");
+  const detailsDirectory = path.join(__dirname, "..", "icon-details");
   const assetFileNames = new Set(fs.readdirSync(assetDirectory));
 
   assert.equal(assetPaths.size, 3407);
   assert.deepEqual(assetFileNames, new Set([...assetPaths].map((asset) => path.basename(asset))));
   for (const icon of metadata) {
     assert.match(icon.imageAsset, /^images\/by-hash\/[a-f0-9]{16}\.png$/);
-    for (const sameImageName of icon.sameImageIds || []) {
-      assert.equal(metadataByName.get(sameImageName).imageAsset, icon.imageAsset);
+    const detailPath = path.join(detailsDirectory, `${icon.name}.json`);
+    if (fs.existsSync(detailPath)) {
+      const details = JSON.parse(fs.readFileSync(detailPath, "utf8"));
+      for (const sameImageName of details.sameImageIds) {
+        const sameImage = metadata.find((entry) => entry.name === sameImageName);
+        assert.equal(sameImage.imageAsset, icon.imageAsset);
+      }
     }
   }
 

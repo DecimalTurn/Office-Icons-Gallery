@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ArrangeByLogContact",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "FileCloseAndLogOff",
+      "imageAsset": "images/by-hash/8b8f6fc1118fc4fc.png"
+    },
+    {
+      "name": "ApplicationOptionsDialog",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "DsaShowStyleApplicationOverlay",
+      "imageAsset": "images/by-hash/99bd5296af20e5d6.png"
+    },
+    {
+      "name": "GroupStyleApplication",
+      "imageAsset": "images/by-hash/9d975f6d3c1a5bcf.png"
+    },
+    {
+      "name": "SynchronizeApplicationChanges",
+      "imageAsset": "images/by-hash/6fbe1de1a9ec36da.png"
+    }
+  ],
+  "sameImageIds": []
+}

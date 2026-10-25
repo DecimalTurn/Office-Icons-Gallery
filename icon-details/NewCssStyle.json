@@ -1,0 +1,37 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CssAttachStyleSheet",
+      "imageAsset": "images/by-hash/e74c513b67919470.png"
+    },
+    {
+      "name": "ApplyCssStyles",
+      "imageAsset": "images/by-hash/a85f46fb6686a11a.png"
+    },
+    {
+      "name": "CssReports",
+      "imageAsset": "images/by-hash/2916409a48e57bf5.png"
+    },
+    {
+      "name": "NewCSS",
+      "imageAsset": "images/by-hash/bccf3928a03f999d.png"
+    },
+    {
+      "name": "NewCSSPage",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "ReformatCss",
+      "imageAsset": "images/by-hash/7bb1047125b5f27c.png"
+    },
+    {
+      "name": "WorkspaceCssProperties",
+      "imageAsset": "images/by-hash/fb48779a5972c1de.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupCreate",
+    "StylesDialogClassic",
+    "StylesStyleVisibility"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SelectColumn",
+      "imageAsset": "images/by-hash/c08960493d58329d.png"
+    },
+    {
+      "name": "SelectTaskColumn",
+      "imageAsset": "images/by-hash/c08960493d58329d.png"
+    },
+    {
+      "name": "TableColumnSelect",
+      "imageAsset": "images/by-hash/c08960493d58329d.png"
+    },
+    {
+      "name": "TableSelectColumnInfoPath",
+      "imageAsset": "images/by-hash/c08960493d58329d.png"
+    },
+    {
+      "name": "CostResourceInsert",
+      "imageAsset": "images/by-hash/ba63fa30844f0db4.png"
+    },
+    {
+      "name": "FilterByResource",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupDataResource",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupResourceFormViewDetails",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "GroupResourceFormViewType",
+      "imageAsset": "images/by-hash/ddd38791ce7383ff.png"
+    },
+    {
+      "name": "GroupResourceGraphData",
+      "imageAsset": "images/by-hash/f45b35a2da16362a.png"
+    },
+    {
+      "name": "GroupResourceGraphFormat",
+      "imageAsset": "images/by-hash/df2710e93a68f49a.png"
+    },
+    {
+      "name": "GroupResourceGraphNavigate",
+      "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+    }
+  ],
+  "sameImageIds": []
+}

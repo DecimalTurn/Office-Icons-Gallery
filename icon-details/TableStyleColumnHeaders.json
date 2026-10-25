@@ -1,0 +1,41 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TableStyleRowHeaders",
+      "imageAsset": "images/by-hash/2ad5cd92ace79b94.png"
+    },
+    {
+      "name": "TableStyleFirstColumn",
+      "imageAsset": "images/by-hash/3d58f55d08816fe7.png"
+    },
+    {
+      "name": "TableStyleFirstColumnPowerPoint",
+      "imageAsset": "images/by-hash/3d58f55d08816fe7.png"
+    },
+    {
+      "name": "TableStyleLastColumn",
+      "imageAsset": "images/by-hash/39525362ffff9136.png"
+    },
+    {
+      "name": "TableStyleLastColumnPowerPoint",
+      "imageAsset": "images/by-hash/39525362ffff9136.png"
+    },
+    {
+      "name": "DownloadHeaders",
+      "imageAsset": "images/by-hash/4b98f83b90bb3eef.png"
+    },
+    {
+      "name": "DownloadHeadersInThisFolder",
+      "imageAsset": "images/by-hash/4b98f83b90bb3eef.png"
+    },
+    {
+      "name": "GroupDesignerHeaders",
+      "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+    },
+    {
+      "name": "PivotPlusMinusFieldHeadersShowHide",
+      "imageAsset": "images/by-hash/2310031ded195113.png"
+    }
+  ],
+  "sameImageIds": []
+}

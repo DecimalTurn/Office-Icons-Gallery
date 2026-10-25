@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SaveAsWordXml",
+      "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+    },
+    {
+      "name": "XmlExpansionPacksWord",
+      "imageAsset": "images/by-hash/631a72e069d480e9.png"
+    },
+    {
+      "name": "SaveAsProjectXmlData",
+      "imageAsset": "images/by-hash/2cbb1e7b3dd7b809.png"
+    },
+    {
+      "name": "FileSaveAsWord97_2003",
+      "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+    },
+    {
+      "name": "FileSaveAsWordDocx",
+      "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+    },
+    {
+      "name": "FileSaveAsWordDotx",
+      "imageAsset": "images/by-hash/86cb8dd56d7c9169.png"
+    },
+    {
+      "name": "FileSaveAsWordOpenDocumentText",
+      "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+    },
+    {
+      "name": "DataFromXmlFile",
+      "imageAsset": "images/by-hash/478cef47be710fe6.png"
+    },
+    {
+      "name": "DataSourceCatalogXMLFile",
+      "imageAsset": "images/by-hash/2cbb1e7b3dd7b809.png"
+    },
+    {
+      "name": "DesignXml",
+      "imageAsset": "images/by-hash/9e5d37636e482d4e.png"
+    },
+    {
+      "name": "ExportXmlFile",
+      "imageAsset": "images/by-hash/0cb67ed54ea88266.png"
+    },
+    {
+      "name": "GroupXml",
+      "imageAsset": "images/by-hash/9e5d37636e482d4e.png"
+    }
+  ],
+  "sameImageIds": [
+    "FileSaveAsWord97_2003",
+    "FileSaveAsWordDocx",
+    "FileSaveAsWordOpenDocumentText",
+    "SaveAsRichText",
+    "SaveAsRichTextOutline",
+    "SaveAsWordXml",
+    "SaveDocumentTask",
+    "SendNotesToWord"
+  ]
+}

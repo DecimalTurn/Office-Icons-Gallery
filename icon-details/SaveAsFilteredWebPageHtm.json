@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SaveAsWebPageHtm",
+      "imageAsset": "images/by-hash/382620ae1d543150.png"
+    },
+    {
+      "name": "FileSaveAsWebPage",
+      "imageAsset": "images/by-hash/382620ae1d543150.png"
+    },
+    {
+      "name": "GroupSaveWebPart",
+      "imageAsset": "images/by-hash/06b6f2220172ed5a.png"
+    },
+    {
+      "name": "SaveWebPartToDisk",
+      "imageAsset": "images/by-hash/feb6c68744003105.png"
+    },
+    {
+      "name": "SaveWebPartToSiteCatalog",
+      "imageAsset": "images/by-hash/06b6f2220172ed5a.png"
+    }
+  ],
+  "sameImageIds": []
+}

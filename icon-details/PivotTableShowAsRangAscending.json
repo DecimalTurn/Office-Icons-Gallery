@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AdpOutputOperationsSortAscending",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "JotFindSortAscending",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "SortAscendingExcel",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "SortAscendingWord",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    }
+  ],
+  "sameImageIds": []
+}

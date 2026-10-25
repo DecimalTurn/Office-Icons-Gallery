@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ObjectsAlignDistributeVerticallyRemove",
+      "imageAsset": "images/by-hash/2843e10cff3a10e3.png"
+    },
+    {
+      "name": "AlignDistributeHorizontally",
+      "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+    },
+    {
+      "name": "AlignDistributeHorizontallyClassic",
+      "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+    },
+    {
+      "name": "AlignDistributeVertically",
+      "imageAsset": "images/by-hash/faaef2a521a93bcd.png"
+    },
+    {
+      "name": "AlignDistributeVerticallyClassic",
+      "imageAsset": "images/by-hash/faaef2a521a93bcd.png"
+    },
+    {
+      "name": "ObjectsAlignBottom",
+      "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+    },
+    {
+      "name": "ObjectsAlignBottomOutlook",
+      "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+    },
+    {
+      "name": "ObjectsAlignBottomSmart",
+      "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+    },
+    {
+      "name": "ObjectsAlignCenterHorizontal",
+      "imageAsset": "images/by-hash/1d17157034356b58.png"
+    },
+    {
+      "name": "ObjectsAlignCenterHorizontalOutlook",
+      "imageAsset": "images/by-hash/1d17157034356b58.png"
+    },
+    {
+      "name": "ObjectsAlignCenterHorizontalSmart",
+      "imageAsset": "images/by-hash/1d17157034356b58.png"
+    },
+    {
+      "name": "ObjectsAlignCenterInFormHorixontally",
+      "imageAsset": "images/by-hash/5cb3a2d891c59971.png"
+    }
+  ],
+  "sameImageIds": []
+}

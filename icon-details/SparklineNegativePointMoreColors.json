@@ -1,0 +1,95 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SparklineFirstPointMoreColors",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "SparklineHighPointMoreColors",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "SparklineLastPointMoreColors",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "SparklineLowPointMoreColors",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "SparkLineNegativePointColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "SparklineMarkerMoreColors",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "SparklineMoreColors",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "FontColorMoreColorsDialogPowerPoint",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "SparklineFirstPointColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "SparklineHighPointColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "SparklineLastPointColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "SparklineLowPointColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    }
+  ],
+  "sameImageIds": [
+    "BorderMoreColorsDialog",
+    "ChartColorsGallery",
+    "ColorMenu",
+    "ColorPickerCalendar",
+    "CycleFillColor",
+    "FontColorCycle",
+    "FontColorMoreColorsDialog",
+    "FontColorMoreColorsDialogExcel",
+    "FontColorMoreColorsDialogPowerPoint",
+    "FontShadingColorMoreColorsDialog",
+    "GlowColorMoreColorsDialog",
+    "GlowColorPicker",
+    "GroupColor",
+    "GroupDiagramming",
+    "GroupPens",
+    "InkColorMoreColorsDialog",
+    "InkLineColorPicker",
+    "JotLineColor",
+    "MoreColorAndThicknessOptions",
+    "MoreHighlightColors",
+    "NavSectionColorPicker",
+    "ObjectBorderOutlineColorMoreColorsDialog",
+    "ObjectFillMoreColorsDialog",
+    "ObjectShadowColorMoreColorsDialog",
+    "PictureRecolorMoreColorsDialog",
+    "RecolorColorPicker",
+    "ShadingColorsMoreColorsDialog",
+    "SheetTabColorMoreColorsDialog",
+    "SmartArtChangeColorsGallery",
+    "SparklineFirstPointMoreColors",
+    "SparklineHighPointMoreColors",
+    "SparklineLastPointMoreColors",
+    "SparklineLowPointMoreColors",
+    "SparklineMarkerMoreColors",
+    "SparklineMoreColors",
+    "TableBorderColorMoreColorsDialog",
+    "TableFillColorMoreColorsDialog",
+    "TextFillColorMoreColorsDialog",
+    "TextGlowColorMoreColorsDialog",
+    "TextGlowColorPicker",
+    "TextOutlineColorMoreColorsDialog"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MailMergeFindRecipient",
+      "imageAsset": "images/by-hash/e58b441f04678b11.png"
+    },
+    {
+      "name": "MailMergePrintRecipientList",
+      "imageAsset": "images/by-hash/d51005c83a99eff1.png"
+    },
+    {
+      "name": "MailMergeSaveRecipientList",
+      "imageAsset": "images/by-hash/18a31966af485163.png"
+    },
+    {
+      "name": "SendAsAttachmentToMailRecipient",
+      "imageAsset": "images/by-hash/5551d7c978f81380.png"
+    },
+    {
+      "name": "SendCopySendToMailRecipient",
+      "imageAsset": "images/by-hash/e0cc6d34c73b1b24.png"
+    },
+    {
+      "name": "CatalogMergeFindRecipient",
+      "imageAsset": "images/by-hash/e58b441f04678b11.png"
+    },
+    {
+      "name": "GroupMailMergeFinish",
+      "imageAsset": "images/by-hash/13c4769b074c7428.png"
+    },
+    {
+      "name": "GroupMailMergePreviewResults",
+      "imageAsset": "images/by-hash/52e4b9789001a6b5.png"
+    },
+    {
+      "name": "GroupMailMergeStart",
+      "imageAsset": "images/by-hash/ab1eca44d289be82.png"
+    },
+    {
+      "name": "GroupMailMergeStartPublisher",
+      "imageAsset": "images/by-hash/ab1eca44d289be82.png"
+    },
+    {
+      "name": "GroupMailMergeWriteInsertFields",
+      "imageAsset": "images/by-hash/1f9b73fc5bc804c2.png"
+    },
+    {
+      "name": "MailMerge",
+      "imageAsset": "images/by-hash/ce1e3ee1e884ba58.png"
+    }
+  ],
+  "sameImageIds": []
+}

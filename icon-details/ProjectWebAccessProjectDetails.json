@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AccessFormModalDialogWeb",
+      "imageAsset": "images/by-hash/b2bff7bb772c34d4.png"
+    },
+    {
+      "name": "GroupAccessLayoutWeb",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "GroupReportLayoutWebAccess",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "WebQueryAccess",
+      "imageAsset": "images/by-hash/4e9a6401895d4655.png"
+    },
+    {
+      "name": "CalendarMonthDetailsSplitButton",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "CreateListDetailsView",
+      "imageAsset": "images/by-hash/98d6d5786db121b5.png"
+    },
+    {
+      "name": "DataViewDetailsView",
+      "imageAsset": "images/by-hash/141eb9b927f43b2a.png"
+    },
+    {
+      "name": "GroupResourceFormViewDetails",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "GroupResourceUsageViewDetails",
+      "imageAsset": "images/by-hash/f5fd508399661656.png"
+    },
+    {
+      "name": "GroupSparklineDetailsShow",
+      "imageAsset": "images/by-hash/f66f1f20b7d1d18a.png"
+    },
+    {
+      "name": "GroupTaskFormViewDetails",
+      "imageAsset": "images/by-hash/63d7dbe7c40472c1.png"
+    },
+    {
+      "name": "GroupTaskUsageViewDetails",
+      "imageAsset": "images/by-hash/f5fd508399661656.png"
+    }
+  ],
+  "sameImageIds": [
+    "MicrosoftProject",
+    "ShareProjectOnline"
+  ]
+}

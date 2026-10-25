@@ -1,0 +1,19 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BuildingBlocksCreateTableOfAuthorities",
+      "imageAsset": "images/by-hash/a9ab676bd06f72af.png"
+    },
+    {
+      "name": "TableOfAuthoritiesInsert",
+      "imageAsset": "images/by-hash/81ace383f637a0f1.png"
+    },
+    {
+      "name": "TableOfAuthoritiesUpdate",
+      "imageAsset": "images/by-hash/f99e4ea213e6e996.png"
+    }
+  ],
+  "sameImageIds": [
+    "CitationMark"
+  ]
+}

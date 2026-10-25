@@ -1,0 +1,63 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ArrangeByCategory",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "BlogCategoryInsert",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "ConnectOtherSitesCategory",
+      "imageAsset": "images/by-hash/ba3eb9d46af27681.png"
+    },
+    {
+      "name": "FacilitiesAssignCategory",
+      "imageAsset": "images/by-hash/81286b9a0ccb679f.png"
+    },
+    {
+      "name": "MarketplaceCategory",
+      "imageAsset": "images/by-hash/517667b03bbfdec9.png"
+    },
+    {
+      "name": "NewCategoryFolder",
+      "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+    },
+    {
+      "name": "PhotosVideosCategory",
+      "imageAsset": "images/by-hash/8df9bf88253a60ec.png"
+    },
+    {
+      "name": "QuickSearchAnyCategory",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "SharingCategory",
+      "imageAsset": "images/by-hash/3c306277cd6eb857.png"
+    },
+    {
+      "name": "StorageCategory",
+      "imageAsset": "images/by-hash/586dd7d7e09412dc.png"
+    },
+    {
+      "name": "CollapseAll",
+      "imageAsset": "images/by-hash/76f21377c8388105.png"
+    },
+    {
+      "name": "CollapseAllActionBlocks",
+      "imageAsset": "images/by-hash/94309facf94a1836.png"
+    }
+  ],
+  "sameImageIds": [
+    "BuildingBlocksOrganizer",
+    "GroupManage",
+    "LocalShareNotebook",
+    "NewLocalNotebook",
+    "NewNotebookShort",
+    "NotebookNew",
+    "NotebookOpen",
+    "OpenNotebook",
+    "Organizer"
+  ]
+}

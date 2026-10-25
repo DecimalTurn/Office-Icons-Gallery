@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AdministrationHome",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "BlogHomePage",
+      "imageAsset": "images/by-hash/cc7405a103b44a17.png"
+    },
+    {
+      "name": "ContactCardCallHome",
+      "imageAsset": "images/by-hash/b6c3160f01575fe9.png"
+    },
+    {
+      "name": "GroupContactCardCallHome",
+      "imageAsset": "images/by-hash/b6c3160f01575fe9.png"
+    },
+    {
+      "name": "GroupInsertTablesHome",
+      "imageAsset": "images/by-hash/16aa732cf3f2f3d5.png"
+    },
+    {
+      "name": "QuickSearchHasHomeAddress",
+      "imageAsset": "images/by-hash/cc7405a103b44a17.png"
+    },
+    {
+      "name": "QuickSearchHasHomePhone",
+      "imageAsset": "images/by-hash/cc7405a103b44a17.png"
+    },
+    {
+      "name": "RmsNavigationBarHome",
+      "imageAsset": "images/by-hash/cc7405a103b44a17.png"
+    },
+    {
+      "name": "SetHomePage",
+      "imageAsset": "images/by-hash/aa043165f3f133f8.png"
+    },
+    {
+      "name": "ShapeQuickStylesHome",
+      "imageAsset": "images/by-hash/a0ca653d58ecaf86.png"
+    },
+    {
+      "name": "ControlTabControl",
+      "imageAsset": "images/by-hash/d36bc6f2ef4d3e35.png"
+    },
+    {
+      "name": "GroupIncludeMainTab",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    }
+  ],
+  "sameImageIds": []
+}

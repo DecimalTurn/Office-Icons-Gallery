@@ -1,0 +1,26 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ContactGrooveProperties",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    }
+  ],
+  "sameImageIds": [
+    "AccessListContacts",
+    "ArrangeByLogContact",
+    "CatalogMergeUseOutlookContacts",
+    "ContactCardLookUpOutlookContact",
+    "ContactGrooveProperties",
+    "EnterPerson",
+    "GotoContacts",
+    "MailMergeRecepientsUseOutlookContacts",
+    "NewContact",
+    "NewContactCompact",
+    "NewContactFromSameCompany",
+    "NewContactNumbered",
+    "PersonaOpenContactMenu",
+    "SearchUpscopeToAllContactItems",
+    "SharingOpenContactFolder",
+    "ShowContactPage"
+  ]
+}

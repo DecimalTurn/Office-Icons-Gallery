@@ -1,0 +1,63 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ContactInviteToWorkspace",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "InviteAttendees",
+      "imageAsset": "images/by-hash/62fd3177490b858d.png"
+    },
+    {
+      "name": "InviteMembers",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "InviteMembersLB",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "InviteMembersMenu",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "InviteMyOtherComputers",
+      "imageAsset": "images/by-hash/b5ef06e64f620e41.png"
+    },
+    {
+      "name": "InviteViaOutlook",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    },
+    {
+      "name": "JotSendSharedNotebookInvite",
+      "imageAsset": "images/by-hash/eb0e54a34f26ad5c.png"
+    },
+    {
+      "name": "MenuInvite",
+      "imageAsset": "images/by-hash/62fd3177490b858d.png"
+    },
+    {
+      "name": "RecoverInviteToMeeting",
+      "imageAsset": "images/by-hash/4716683bb93cb115.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddUserToPermissionGroup",
+    "ContactInviteToWorkspace",
+    "DistributionListAddNewMember",
+    "DistributionListNewMemberMenu",
+    "GrantUserPermissions",
+    "GroupMembersNew",
+    "GroupPagePermissionsNew",
+    "GroupPermissionGroupsNew",
+    "GroupSiteActions",
+    "GroupSitePermissionsNew",
+    "GroupSummaryNew",
+    "InviteMembers",
+    "InviteMembersLB",
+    "InviteMembersMenu",
+    "NewResourceFromStandardMenu",
+    "ResourcesAddMenu",
+    "WorkResourceInsert"
+  ]
+}

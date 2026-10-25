@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "JotCreateHyperlinkToNotebookShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotNotebook",
+      "imageAsset": "images/by-hash/79c19b6cb9c41248.png"
+    },
+    {
+      "name": "JotSendSharedNotebookInvite",
+      "imageAsset": "images/by-hash/eb0e54a34f26ad5c.png"
+    },
+    {
+      "name": "JotShortcutToNotebook",
+      "imageAsset": "images/by-hash/53441b64d6d0b59f.png"
+    },
+    {
+      "name": "JotHideBodyText",
+      "imageAsset": "images/by-hash/91419e0e6aa6586a.png"
+    },
+    {
+      "name": "JotHideTitlesInPageTabs",
+      "imageAsset": "images/by-hash/21626849cefe9706.png"
+    },
+    {
+      "name": "JotHideToolbars",
+      "imageAsset": "images/by-hash/6155dac7634a9fb5.png"
+    },
+    {
+      "name": "LocalShareNotebook",
+      "imageAsset": "images/by-hash/f4dd61ec3a6e3b40.png"
+    },
+    {
+      "name": "MoveNotebook",
+      "imageAsset": "images/by-hash/17953f3a93be0e09.png"
+    },
+    {
+      "name": "NetworkShareNotebook",
+      "imageAsset": "images/by-hash/d36c3889b16cd2ac.png"
+    },
+    {
+      "name": "NewLocalNotebook",
+      "imageAsset": "images/by-hash/f4dd61ec3a6e3b40.png"
+    },
+    {
+      "name": "NewNetworkNotebook",
+      "imageAsset": "images/by-hash/d36c3889b16cd2ac.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,61 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OutlookTaskThisWeekContextual",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "OutlookTaskNextWeek",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "OutlookTaskNextWeekContextual",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "FlagThisWeek",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "TaskMoveBackOneWeek",
+      "imageAsset": "images/by-hash/1dccc3df7d611d9f.png"
+    },
+    {
+      "name": "TaskMoveForwardOneWeek",
+      "imageAsset": "images/by-hash/73084bafacd607ba.png"
+    },
+    {
+      "name": "JotCreateOutlookTask",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "JotOutlookTaskLabel",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "OutlookTaskCreate",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "OutlookTaskCustomDate",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "OutlookTaskCustomDateContextual",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "OutlookTaskLater",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    }
+  ],
+  "sameImageIds": [
+    "FlagNextWeek",
+    "FlagThisWeek",
+    "OutlookTaskLater",
+    "OutlookTaskLaterContextual",
+    "OutlookTaskNextWeek",
+    "OutlookTaskNextWeekContextual",
+    "OutlookTaskThisWeekContextual"
+  ]
+}

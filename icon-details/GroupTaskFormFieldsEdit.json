@@ -1,0 +1,95 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupTaskFormFieldsActions",
+      "imageAsset": "images/by-hash/068470b628dc1569.png"
+    },
+    {
+      "name": "GroupTaskFormFieldsNew",
+      "imageAsset": "images/by-hash/3a08b1e5d9651ea0.png"
+    },
+    {
+      "name": "SearchFormFields",
+      "imageAsset": "images/by-hash/f2f3893b310219d3.png"
+    },
+    {
+      "name": "EditForm",
+      "imageAsset": "images/by-hash/b363318e832a6776.png"
+    },
+    {
+      "name": "EditFormGallery",
+      "imageAsset": "images/by-hash/b363318e832a6776.png"
+    },
+    {
+      "name": "FormatAsLinkToEditForm",
+      "imageAsset": "images/by-hash/a8d97aa7547b2e9e.png"
+    },
+    {
+      "name": "FormControlCombinationDropDownEdit",
+      "imageAsset": "images/by-hash/ae8fc241a9e40930.png"
+    },
+    {
+      "name": "FormControlCombinationListEdit",
+      "imageAsset": "images/by-hash/98d6d5786db121b5.png"
+    },
+    {
+      "name": "FormControlEditBox",
+      "imageAsset": "images/by-hash/85eb24698c2fcdcf.png"
+    },
+    {
+      "name": "EditWorkflowTask",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "GroupTaskOutcomesEdit",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "GroupWorkflowTaskSummaryEdit",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    }
+  ],
+  "sameImageIds": [
+    "BlogOpenExisting",
+    "DataSourceCatalogProperties",
+    "DesignerOpen",
+    "EditPageWith",
+    "FileOpen",
+    "FileOpenDatabase",
+    "FileOpenDirectly",
+    "FileOpenUsingBackstage",
+    "FindAForm",
+    "FlyoutAnchorOpenMenu",
+    "FormRegionOpen",
+    "GroupAllFilesEdit",
+    "GroupAppointmentActions",
+    "GroupBdcEntitiesManage",
+    "GroupContentTypeWorkflowsEdit",
+    "GroupDataConnectionsEdit",
+    "GroupListCustomActionsEdit",
+    "GroupListFormsEdit",
+    "GroupListViewsEdit",
+    "GroupListWorkflowsEdit",
+    "GroupPagePermissionsEdit",
+    "GroupPageVersionHistoryActions",
+    "GroupRecurringAppointmentActions",
+    "GroupSitePermissionsEdit",
+    "GroupTaskOpen",
+    "GroupWorkflowFormsEdit",
+    "ListEditSelected",
+    "MenuOpenAppointment",
+    "MRUSlabOpenOfficeLiveWorkspaces",
+    "OpenAppointment",
+    "OpenAttach",
+    "OpenContentType",
+    "OpenFolder",
+    "OpenHollow",
+    "OpenList",
+    "OpenNotebookAsFolder",
+    "OpenSelectedItems",
+    "OpenSpecificFile",
+    "OpenSpecificFileWith",
+    "ReopenFromServer",
+    "TabRecent"
+  ]
+}

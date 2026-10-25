@@ -1,0 +1,20 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupTaskListManageTask",
+      "imageAsset": "images/by-hash/f215fc7ef7630348.png"
+    },
+    {
+      "name": "ManageStylesTaskPane",
+      "imageAsset": "images/by-hash/e9f425b082fffea3.png"
+    }
+  ],
+  "sameImageIds": [
+    "AssignTask",
+    "NewTaskForContact",
+    "NewTaskRequest",
+    "NewTaskRequest2",
+    "NewTaskRequestCompact",
+    "ShareTaskFolder"
+  ]
+}

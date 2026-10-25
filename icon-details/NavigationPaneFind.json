@@ -1,0 +1,86 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MenuNavigationPane",
+      "imageAsset": "images/by-hash/8c005537b968b2f0.png"
+    },
+    {
+      "name": "NavigationPaneShowHide",
+      "imageAsset": "images/by-hash/f9899aa5db8e5021.png"
+    },
+    {
+      "name": "ToggleAccessNavigationPane",
+      "imageAsset": "images/by-hash/8c005537b968b2f0.png"
+    },
+    {
+      "name": "ResultsPaneStartFindAndReplace",
+      "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+    },
+    {
+      "name": "AccessNavigationOptions",
+      "imageAsset": "images/by-hash/4e5f4392371728be.png"
+    },
+    {
+      "name": "CreateFormNavigationLeft",
+      "imageAsset": "images/by-hash/70f92f056f44c3ca.png"
+    },
+    {
+      "name": "CreateFormNavigationLeftWeb",
+      "imageAsset": "images/by-hash/70f92f056f44c3ca.png"
+    },
+    {
+      "name": "CreateFormNavigationRight",
+      "imageAsset": "images/by-hash/32bfeb084b1a9724.png"
+    },
+    {
+      "name": "CreateFormNavigationRightWeb",
+      "imageAsset": "images/by-hash/32bfeb084b1a9724.png"
+    },
+    {
+      "name": "CreateFormNavigationTop",
+      "imageAsset": "images/by-hash/ce2bad93e8aa90af.png"
+    },
+    {
+      "name": "CreateFormNavigationTopLeft",
+      "imageAsset": "images/by-hash/f9ba4ec68e6880cc.png"
+    },
+    {
+      "name": "CreateFormNavigationTopLeftWeb",
+      "imageAsset": "images/by-hash/f9ba4ec68e6880cc.png"
+    }
+  ],
+  "sameImageIds": [
+    "CodeFindMenu",
+    "FindDialog",
+    "FindDialogExcel",
+    "FindMenu",
+    "FindText",
+    "FormsToolAdvancedFind",
+    "FormsToolFind",
+    "FormsToolFindMenu",
+    "GroupActionsLaunchbar",
+    "GroupCalendarRefineSearch",
+    "GroupCodeEditing",
+    "GroupContactFind",
+    "GroupContactRefineSearch",
+    "GroupEditing",
+    "GroupEditingExcel",
+    "GroupEditingInfoPath",
+    "GroupFind",
+    "GroupFindAccess",
+    "GroupFindFormsTool",
+    "GroupFindNotepadTool",
+    "GroupJournalRefineSearch",
+    "GroupMailRefineSearch",
+    "GroupNavigate",
+    "GroupNoteRefineSearch",
+    "GroupOutlookEditing",
+    "GroupSearch",
+    "GroupTaskRefineSearch",
+    "InstantSearch",
+    "NotebookSearch",
+    "OpenDesktopSearch",
+    "ReadingViewSearch",
+    "SelectMenuExcel"
+  ]
+}

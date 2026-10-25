@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BibliographyManageSources",
+      "imageAsset": "images/by-hash/5f4bc0446d050166.png"
+    },
+    {
+      "name": "ExportOdbcDatabase",
+      "imageAsset": "images/by-hash/82d08bc7414ce1f2.png"
+    },
+    {
+      "name": "GetExternalDataFromOtherSources",
+      "imageAsset": "images/by-hash/4a0cf8d8cb920d82.png"
+    },
+    {
+      "name": "ImportOdbcDatabase",
+      "imageAsset": "images/by-hash/0b0edc3b0358c42f.png"
+    }
+  ],
+  "sameImageIds": []
+}

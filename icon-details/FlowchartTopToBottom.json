@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FlowchartBottomToTop",
+      "imageAsset": "images/by-hash/1381c632130b7a2e.png"
+    },
+    {
+      "name": "BorderTopAndBottom",
+      "imageAsset": "images/by-hash/97d4d6f21b6ad46d.png"
+    },
+    {
+      "name": "BorderTopAndDoubleBottom",
+      "imageAsset": "images/by-hash/028185ee930a8dd8.png"
+    },
+    {
+      "name": "BorderTopAndThickBottom",
+      "imageAsset": "images/by-hash/0b396e41f2fc3258.png"
+    },
+    {
+      "name": "ConditionalFormattingTopBottomMenu",
+      "imageAsset": "images/by-hash/e13a3b30a84c1bb4.png"
+    },
+    {
+      "name": "HierarchyBottomToTop",
+      "imageAsset": "images/by-hash/941d18374f20fd1c.png"
+    },
+    {
+      "name": "HierarchyTopToBottom",
+      "imageAsset": "images/by-hash/13edbd1b8a82b69f.png"
+    },
+    {
+      "name": "PivotDiagramBottomToTop",
+      "imageAsset": "images/by-hash/d1cbb528c2e34a2c.png"
+    },
+    {
+      "name": "PivotDiagramTopToBottom",
+      "imageAsset": "images/by-hash/c208912ec62178ed.png"
+    },
+    {
+      "name": "PivotShowTopAndBottomItemsMenu",
+      "imageAsset": "images/by-hash/10ff82f1292ff12f.png"
+    },
+    {
+      "name": "TextWrappingTopAndBottom",
+      "imageAsset": "images/by-hash/f855bfc5bb93bd8d.png"
+    },
+    {
+      "name": "TopToBottom",
+      "imageAsset": "images/by-hash/0035f7822dd40c75.png"
+    }
+  ],
+  "sameImageIds": []
+}

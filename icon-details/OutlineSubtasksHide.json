@@ -1,0 +1,20 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OutlineSubtasksShow",
+      "imageAsset": "images/by-hash/395d489311b8d0b4.png"
+    },
+    {
+      "name": "OutlineHideDetail",
+      "imageAsset": "images/by-hash/94309facf94a1836.png"
+    },
+    {
+      "name": "OutlineSymbolsShowHide",
+      "imageAsset": "images/by-hash/a218142461588677.png"
+    }
+  ],
+  "sameImageIds": [
+    "OutlineCollapse",
+    "OutlineCollapseMenu"
+  ]
+}

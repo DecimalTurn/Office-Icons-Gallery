@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupWebPartZoneLayout",
+      "imageAsset": "images/by-hash/9f594486e0e71fcd.png"
+    },
+    {
+      "name": "GroupWebPartZoneProperties",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "InsertWebPartZone",
+      "imageAsset": "images/by-hash/55547764828fbf3b.png"
+    },
+    {
+      "name": "ShowWebPartZoneBorders",
+      "imageAsset": "images/by-hash/55547764828fbf3b.png"
+    },
+    {
+      "name": "WebPartZoneLayoutMenu",
+      "imageAsset": "images/by-hash/9f594486e0e71fcd.png"
+    },
+    {
+      "name": "WebPartZoneProperties",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "ActiveXToggleButton",
+      "imageAsset": "images/by-hash/ec7798c67ae9ecc9.png"
+    },
+    {
+      "name": "BorderBottomNoToggle",
+      "imageAsset": "images/by-hash/55ed253243346cfc.png"
+    },
+    {
+      "name": "BorderLeftNoToggle",
+      "imageAsset": "images/by-hash/aa0534c0ead9c22c.png"
+    },
+    {
+      "name": "BorderRightNoToggle",
+      "imageAsset": "images/by-hash/6cdf266bdd875afb.png"
+    },
+    {
+      "name": "BorderTopNoToggle",
+      "imageAsset": "images/by-hash/ab7e4b394c677a88.png"
+    },
+    {
+      "name": "CharacterCodeToggle",
+      "imageAsset": "images/by-hash/a4513abcd4ee3ea2.png"
+    }
+  ],
+  "sameImageIds": []
+}

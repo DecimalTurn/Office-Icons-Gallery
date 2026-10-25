@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CalculateFull",
+      "imageAsset": "images/by-hash/99067d2863a50f42.png"
+    },
+    {
+      "name": "CalculateNow",
+      "imageAsset": "images/by-hash/61dfcf80cb5799bb.png"
+    },
+    {
+      "name": "PivotTableCalculateChanges",
+      "imageAsset": "images/by-hash/a12619fc5b31aabc.png"
+    },
+    {
+      "name": "ProjectCalculate",
+      "imageAsset": "images/by-hash/dfee45b4ed63677f.png"
+    },
+    {
+      "name": "CssAttachStyleSheet",
+      "imageAsset": "images/by-hash/e74c513b67919470.png"
+    },
+    {
+      "name": "GroupPageLayoutSheetOptions",
+      "imageAsset": "images/by-hash/881a414dd02984aa.png"
+    },
+    {
+      "name": "GroupShapeSheetEditing",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "GroupShapeSheetFormulaTracing",
+      "imageAsset": "images/by-hash/e970103affe3a677.png"
+    },
+    {
+      "name": "GroupShapeSheetRows",
+      "imageAsset": "images/by-hash/987f395d63e7009b.png"
+    },
+    {
+      "name": "GroupShapeSheetSections",
+      "imageAsset": "images/by-hash/eedb33b32bd62eaf.png"
+    },
+    {
+      "name": "GroupShapeSheetView",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "GroupSheetFormat",
+      "imageAsset": "images/by-hash/38d76334050dad66.png"
+    }
+  ],
+  "sameImageIds": []
+}

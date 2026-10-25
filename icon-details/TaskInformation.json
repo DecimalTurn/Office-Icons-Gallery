@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TaskAndAssignmentInformation",
+      "imageAsset": "images/by-hash/10607efc305a33d2.png"
+    },
+    {
+      "name": "AddSelectionToBusinessInformationLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AssignmentInformation",
+      "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+    },
+    {
+      "name": "FileDocumentManagementInformation",
+      "imageAsset": "images/by-hash/c02c1d323af75aa4.png"
+    },
+    {
+      "name": "FunctionsInformationInsertGallery",
+      "imageAsset": "images/by-hash/19bf43f96361e3fc.png"
+    },
+    {
+      "name": "GroupRemoveHiddenInformation",
+      "imageAsset": "images/by-hash/5c8255b42864d3e4.png"
+    },
+    {
+      "name": "InformationDialog",
+      "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+    },
+    {
+      "name": "MessageDeliveryInformation",
+      "imageAsset": "images/by-hash/412333e48ada1bf0.png"
+    },
+    {
+      "name": "MoreBusinessInformationInsert",
+      "imageAsset": "images/by-hash/4e750716e8bb8134.png"
+    },
+    {
+      "name": "ProjectInformationDialog",
+      "imageAsset": "images/by-hash/9ceb7ba7ff602e21.png"
+    },
+    {
+      "name": "PwaProjectInformationRequest",
+      "imageAsset": "images/by-hash/aa51886bdd8ff085.png"
+    },
+    {
+      "name": "ResourceInformation",
+      "imageAsset": "images/by-hash/86497283f682fdc3.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupTaskProperties",
+    "TaskDetailsMenu"
+  ]
+}

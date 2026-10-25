@@ -1,0 +1,13 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CreatePopupView",
+      "imageAsset": "images/by-hash/e5f8e67907af2026.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupPivotChartOptions",
+    "GroupPivotTableOptions",
+    "PivotTableOptions"
+  ]
+}

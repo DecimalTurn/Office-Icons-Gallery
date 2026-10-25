@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FileNewWebPage",
+      "imageAsset": "images/by-hash/0014f7c4731516ff.png"
+    },
+    {
+      "name": "FilePublishAsWebPage",
+      "imageAsset": "images/by-hash/19bf97b4b00c26dc.png"
+    },
+    {
+      "name": "GroupSaveWebPart",
+      "imageAsset": "images/by-hash/06b6f2220172ed5a.png"
+    },
+    {
+      "name": "SaveAsWebPageHtm",
+      "imageAsset": "images/by-hash/382620ae1d543150.png"
+    },
+    {
+      "name": "SaveWebPartToDisk",
+      "imageAsset": "images/by-hash/feb6c68744003105.png"
+    },
+    {
+      "name": "SaveWebPartToSiteCatalog",
+      "imageAsset": "images/by-hash/06b6f2220172ed5a.png"
+    },
+    {
+      "name": "FileSave",
+      "imageAsset": "images/by-hash/c4a2df5c55a7fc2e.png"
+    },
+    {
+      "name": "FileSaveACopy",
+      "imageAsset": "images/by-hash/a8cd2f77fc7baebd.png"
+    },
+    {
+      "name": "FileSaveAs",
+      "imageAsset": "images/by-hash/45781e547e6af23f.png"
+    },
+    {
+      "name": "FileSaveAsAccess2000",
+      "imageAsset": "images/by-hash/2c489c55aeaf516e.png"
+    },
+    {
+      "name": "FileSaveAsAccess2002_2003",
+      "imageAsset": "images/by-hash/2c489c55aeaf516e.png"
+    },
+    {
+      "name": "FileSaveAsAccess2007",
+      "imageAsset": "images/by-hash/4fd1cdb79071e82c.png"
+    }
+  ],
+  "sameImageIds": [
+    "SaveAsWebPageHtm"
+  ]
+}

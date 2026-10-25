@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupPivotChartTools",
+      "imageAsset": "images/by-hash/f3efe98ab9433ece.png"
+    },
+    {
+      "name": "GroupPivotTableTools",
+      "imageAsset": "images/by-hash/f86727545aa8937b.png"
+    },
+    {
+      "name": "GroupPivotTableToolsAccess",
+      "imageAsset": "images/by-hash/f3efe98ab9433ece.png"
+    },
+    {
+      "name": "PivotChartOlapTools",
+      "imageAsset": "images/by-hash/4ea78df29c034d14.png"
+    },
+    {
+      "name": "PivotTableOlapTools",
+      "imageAsset": "images/by-hash/4ea78df29c034d14.png"
+    },
+    {
+      "name": "GroupPivotDiagramLayout",
+      "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+    },
+    {
+      "name": "GroupPivotTableLayout",
+      "imageAsset": "images/by-hash/b3e15e28e66d4330.png"
+    },
+    {
+      "name": "PivotTableLayoutBlankRows",
+      "imageAsset": "images/by-hash/b9dde1c61a094280.png"
+    },
+    {
+      "name": "PivotTableLayoutGrandTotals",
+      "imageAsset": "images/by-hash/ad585748fd6dd2ae.png"
+    },
+    {
+      "name": "PivotTableLayoutReportLayout",
+      "imageAsset": "images/by-hash/aacf89b7dce63b02.png"
+    },
+    {
+      "name": "PivotTableLayoutShowInCompactForm",
+      "imageAsset": "images/by-hash/b3e15e28e66d4330.png"
+    },
+    {
+      "name": "PivotTableLayoutShowInOutlineForm",
+      "imageAsset": "images/by-hash/d88eba962280e0c7.png"
+    }
+  ],
+  "sameImageIds": []
+}

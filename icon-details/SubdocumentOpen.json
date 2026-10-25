@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MasterDocumentCreateSubdocument",
+      "imageAsset": "images/by-hash/03a1df5bc9798230.png"
+    },
+    {
+      "name": "MasterDocumentInsertSubdocument",
+      "imageAsset": "images/by-hash/13d08b959565a0fd.png"
+    },
+    {
+      "name": "MasterDocumentLockSubdocument",
+      "imageAsset": "images/by-hash/a8ffec5114e40639.png"
+    },
+    {
+      "name": "MasterDocumentUnlinkSubdocument",
+      "imageAsset": "images/by-hash/3f0c746a551ba006.png"
+    }
+  ],
+  "sameImageIds": []
+}

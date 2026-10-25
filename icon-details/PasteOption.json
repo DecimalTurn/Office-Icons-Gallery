@@ -1,0 +1,36 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OptionEditableForm",
+      "imageAsset": "images/by-hash/6004045baf563227.png"
+    },
+    {
+      "name": "OptionEditableFormAttachTemplate",
+      "imageAsset": "images/by-hash/e2222cd521ce9a3d.png"
+    },
+    {
+      "name": "OptionReadOnlySnapshot",
+      "imageAsset": "images/by-hash/c5dd142d728faec5.png"
+    },
+    {
+      "name": "WebControlOptionButton",
+      "imageAsset": "images/by-hash/1d4e488ea50d958c.png"
+    }
+  ],
+  "sameImageIds": [
+    "ContactCardPaste",
+    "ContextMenusAndPasteGiveFeedback",
+    "GroupClipboard",
+    "GroupClipboardInfoPath",
+    "GroupClipboardSimple",
+    "GroupIconEditClipboard",
+    "Paste",
+    "Paste2",
+    "PasteAlternative",
+    "PasteFeedback",
+    "PasteGallery",
+    "PasteGalleryMini",
+    "PastePage",
+    "PasteTableFromExcel"
+  ]
+}

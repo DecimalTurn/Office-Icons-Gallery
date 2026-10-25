@@ -1,0 +1,42 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartFormatTrendlineLabel",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartTrendline",
+      "imageAsset": "images/by-hash/52c7aae0259ec3d4.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChartFormatAxis",
+    "ChartFormatAxisTitle",
+    "ChartFormatBackWall",
+    "ChartFormatChartArea",
+    "ChartFormatChartTitle",
+    "ChartFormatDataLabel",
+    "ChartFormatDataLabels",
+    "ChartFormatDataPoint",
+    "ChartFormatDataSeries",
+    "ChartFormatDataTable",
+    "ChartFormatDisplayUnit",
+    "ChartFormatDownBars",
+    "ChartFormatDropLines",
+    "ChartFormatErrorBars",
+    "ChartFormatFloor",
+    "ChartFormatGridlines",
+    "ChartFormatHighLowLine",
+    "ChartFormatLeaderLines",
+    "ChartFormatLegend",
+    "ChartFormatLegendEntry",
+    "ChartFormatPlotArea",
+    "ChartFormatSeriesLine",
+    "ChartFormatSideWall",
+    "ChartFormatTrendlineLabel",
+    "ChartFormatUpBars",
+    "ChartFormatWalls",
+    "ChartStylesGallery",
+    "GroupChartStyles"
+  ]
+}

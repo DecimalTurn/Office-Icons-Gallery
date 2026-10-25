@@ -1,0 +1,13 @@
+{
+  "relatedIcons": [
+    {
+      "name": "RulesConditionRoleIsEqualToGallery",
+      "imageAsset": "images/by-hash/cf48c5267e35170b.png"
+    },
+    {
+      "name": "RulesConditionRoleIsNotEqualToGallery",
+      "imageAsset": "images/by-hash/c303d22bd2ea54b9.png"
+    }
+  ],
+  "sameImageIds": []
+}

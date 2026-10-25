@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EquationOperatorGallery",
+      "imageAsset": "images/by-hash/e33769815290cf80.png"
+    },
+    {
+      "name": "LargeEraser",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    },
+    {
+      "name": "LargeIcons",
+      "imageAsset": "images/by-hash/ac092781dfa8eecd.png"
+    },
+    {
+      "name": "RuleLinesLargeGrid",
+      "imageAsset": "images/by-hash/1ee61d970a13f929.png"
+    },
+    {
+      "name": "RuleLinesVeryLargeGrid",
+      "imageAsset": "images/by-hash/96551b977bf6b04c.png"
+    },
+    {
+      "name": "BuildingBlocksSaveEquation",
+      "imageAsset": "images/by-hash/1c9db4ad034af9ca.png"
+    },
+    {
+      "name": "EquationAccentGallery",
+      "imageAsset": "images/by-hash/3dfd59ecd0929991.png"
+    },
+    {
+      "name": "EquationChangeLimitLocation",
+      "imageAsset": "images/by-hash/ea294abf0b3df929.png"
+    },
+    {
+      "name": "EquationDelimiterGallery",
+      "imageAsset": "images/by-hash/21f117bb812cf471.png"
+    },
+    {
+      "name": "EquationEdit",
+      "imageAsset": "images/by-hash/5f27fe84419337f4.png"
+    },
+    {
+      "name": "EquationEditor",
+      "imageAsset": "images/by-hash/ebe6a4ef3f056757.png"
+    },
+    {
+      "name": "EquationFractionGallery",
+      "imageAsset": "images/by-hash/92a3ef3796619e43.png"
+    }
+  ],
+  "sameImageIds": []
+}

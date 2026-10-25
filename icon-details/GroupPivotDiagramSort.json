@@ -1,0 +1,71 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotDiagramSort",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "GroupPivotChartFilterAndSort",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupPivotTableFilterAndSort",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupPivotTableSort",
+      "imageAsset": "images/by-hash/613c49ee00fd0eaa.png"
+    },
+    {
+      "name": "PivotChartSortByTotalMenu",
+      "imageAsset": "images/by-hash/e1235ec7162a8924.png"
+    },
+    {
+      "name": "GroupPivotDiagramData",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "GroupPivotDiagramFormat",
+      "imageAsset": "images/by-hash/267a79f8d7d3956e.png"
+    },
+    {
+      "name": "GroupPivotDiagramLayout",
+      "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+    },
+    {
+      "name": "PivotDiagramAlignBottom",
+      "imageAsset": "images/by-hash/41b181deaed7563e.png"
+    },
+    {
+      "name": "PivotDiagramAlignCenter",
+      "imageAsset": "images/by-hash/c208912ec62178ed.png"
+    },
+    {
+      "name": "PivotDiagramAlignLeft",
+      "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+    },
+    {
+      "name": "PivotDiagramAlignment",
+      "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+    }
+  ],
+  "sameImageIds": [
+    "AdpOutputOperationsSortAscending",
+    "AlwaysSortFoldersAtoZ",
+    "ArrangeTools",
+    "ArrangeToolsSiteClient",
+    "JotFindSortAscending",
+    "PivotDiagramSort",
+    "SlicerSortUp",
+    "Sort",
+    "SortAndGroup",
+    "SortAscendingExcel",
+    "SortAscendingWord",
+    "SortByDialog",
+    "SortDialogClassic",
+    "SortFoldersAtoZ",
+    "SortGallery",
+    "SortMenu",
+    "SortUp"
+  ]
+}

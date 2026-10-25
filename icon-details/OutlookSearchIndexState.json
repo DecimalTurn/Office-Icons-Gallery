@@ -1,0 +1,37 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OutlookSearchOptions",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "ChromeStateMenu",
+      "imageAsset": "images/by-hash/811c24b2da8e11bf.png"
+    },
+    {
+      "name": "ContentsAndIndex",
+      "imageAsset": "images/by-hash/d81a09a9ce4cb2f7.png"
+    },
+    {
+      "name": "GroupIndex",
+      "imageAsset": "images/by-hash/fc40921640983d16.png"
+    },
+    {
+      "name": "IndexInsert",
+      "imageAsset": "images/by-hash/057001419540b77b.png"
+    },
+    {
+      "name": "IndexMarkEntry",
+      "imageAsset": "images/by-hash/fc40921640983d16.png"
+    },
+    {
+      "name": "IndexUpdate",
+      "imageAsset": "images/by-hash/f99e4ea213e6e996.png"
+    },
+    {
+      "name": "ZIndex",
+      "imageAsset": "images/by-hash/79e08fa6be16cddf.png"
+    }
+  ],
+  "sameImageIds": []
+}

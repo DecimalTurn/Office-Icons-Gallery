@@ -1,0 +1,32 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AdpDiagramArrangeSelection",
+      "imageAsset": "images/by-hash/917cc34f1d929f62.png"
+    },
+    {
+      "name": "AdpDiagramArrangeTables",
+      "imageAsset": "images/by-hash/fdd10e6aaa27bf02.png"
+    }
+  ],
+  "sameImageIds": [
+    "GalPosition",
+    "GroupArrange",
+    "GroupArrangeOutlook",
+    "GroupArrangePictures",
+    "GroupArrangeSpd",
+    "GroupOrder",
+    "GroupPictureToolArrange",
+    "GroupPosition",
+    "GroupTableArrange",
+    "GroupTextBoxArrange",
+    "ObjectBringToFront",
+    "ObjectBringToFrontMenu",
+    "ObjectBringToFrontMenuOutlook",
+    "ObjectBringToFrontOutlook",
+    "ObjectOrderMenu",
+    "SendToMenu",
+    "SketchpadToolArrangeMenu",
+    "SketchpadToolBringToFront"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupResourceUsageViewDetails",
+      "imageAsset": "images/by-hash/f5fd508399661656.png"
+    },
+    {
+      "name": "ResourceDetails",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "ResourceDetailsDisplay",
+      "imageAsset": "images/by-hash/3692f0c87b4355a9.png"
+    },
+    {
+      "name": "GroupTaskFormViewDetails",
+      "imageAsset": "images/by-hash/63d7dbe7c40472c1.png"
+    },
+    {
+      "name": "TaskDetailsForm",
+      "imageAsset": "images/by-hash/68745656fc8b7b8f.png"
+    },
+    {
+      "name": "GroupResourceFormViewType",
+      "imageAsset": "images/by-hash/ddd38791ce7383ff.png"
+    },
+    {
+      "name": "ResourceFormView",
+      "imageAsset": "images/by-hash/ddd38791ce7383ff.png"
+    },
+    {
+      "name": "ResourceNameFormView",
+      "imageAsset": "images/by-hash/3a8ea4e54f596693.png"
+    },
+    {
+      "name": "CalendarMonthDetailsSplitButton",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "CreateListDetailsView",
+      "imageAsset": "images/by-hash/98d6d5786db121b5.png"
+    },
+    {
+      "name": "DataViewDetailsView",
+      "imageAsset": "images/by-hash/141eb9b927f43b2a.png"
+    },
+    {
+      "name": "GroupSparklineDetailsShow",
+      "imageAsset": "images/by-hash/f66f1f20b7d1d18a.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByAppointmentStart",
+    "CalendarInsert",
+    "ContactCardScheduleMeeting",
+    "DailyView",
+    "DataTypeLongDate",
+    "DataTypeMediumDate",
+    "DataTypeShortDate",
+    "GotoCalendar",
+    "GroupOpen",
+    "MeetingsToolViewByDay",
+    "NewAppointment",
+    "NewAppointmentCompact",
+    "NewAppointmentNumbered",
+    "OpenAttachedCalendar",
+    "PersonaCalendarMenu",
+    "QuickSearchMeetings",
+    "SearchUpscopeToAllCalendarItems",
+    "ShowAppointmentPage",
+    "StatusDate",
+    "ViewByDay",
+    "ViewScheduleShow"
+  ]
+}

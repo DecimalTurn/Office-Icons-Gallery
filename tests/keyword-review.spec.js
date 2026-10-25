@@ -202,7 +202,7 @@ test("Tab accepts a suggestion and focuses the next keyword field", async ({ pag
 test("searching an identical-image ID opens its review representative", async ({ page }) => {
   await mockKeywordReview(page);
   const aliasId = "ChartFormatSelection";
-  const representative = reviewableIcons.find((icon) => icon.sameImageIds?.includes(aliasId));
+  const representative = reviewableIcons.find((icon) => imageGroupByName.get(icon.name)?.includes(aliasId));
   expect(representative).toBeTruthy();
 
   await page.goto("/keyword-review.html");
@@ -215,6 +215,18 @@ test("searching an identical-image ID opens its review representative", async ({
   await expect(page.locator("#selected-icon-name")).toHaveText(representative.name);
   await expect(page.locator("#same-image-ids")).toContainText(aliasId);
   await expect(page.locator("#icon-position")).toHaveText(`${reviewableIcons.indexOf(representative) + 1} of ${reviewableIcons.length.toLocaleString()}`);
+});
+
+test("opening an identical-image ID URL selects its review representative", async ({ page }) => {
+  await mockKeywordReview(page);
+  const aliasId = "ChartFormatSelection";
+  const representative = reviewableIcons.find((icon) => imageGroupByName.get(icon.name)?.includes(aliasId));
+
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(aliasId)}`);
+
+  await expect(page.locator("#selected-icon-name")).toHaveText(representative.name);
+  await expect(page.locator("#same-image-ids")).toContainText(aliasId);
+  await expect.poll(() => new URL(page.url()).searchParams.get("icon_id")).toBe(representative.name);
 });
 
 test("confirming review does not shift the workspace while saving", async ({ page }) => {

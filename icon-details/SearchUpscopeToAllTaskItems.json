@@ -1,0 +1,64 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SearchUpscopeToAllCalendarItems",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "SearchUpscopeToAllContactItems",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "SearchUpscopeToAllItemsOfType",
+      "imageAsset": "images/by-hash/7d0b88f74fa22558.png"
+    },
+    {
+      "name": "SearchUpscopeToAllJournalItems",
+      "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+    },
+    {
+      "name": "SearchUpscopeToAllNoteItems",
+      "imageAsset": "images/by-hash/9e6c27b717f1db46.png"
+    },
+    {
+      "name": "SearchUpscopeToAllItemTypes",
+      "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+    },
+    {
+      "name": "SearchUpscopeToSubfolders",
+      "imageAsset": "images/by-hash/69cb1fd75e73f868.png"
+    },
+    {
+      "name": "SearchUpscopeToThisMailbox",
+      "imageAsset": "images/by-hash/6506b3165d07ecdd.png"
+    },
+    {
+      "name": "GroupTaskRefineSearch",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "QuickSearchTaskDueDateGallery",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "QuickSearchTaskStartDateGallery",
+      "imageAsset": "images/by-hash/c7d6f3917cb26c65.png"
+    },
+    {
+      "name": "QuickSearchTaskStatusGallery",
+      "imageAsset": "images/by-hash/e6be1e2f3d68bbb9.png"
+    }
+  ],
+  "sameImageIds": [
+    "EditWorkflowTask",
+    "GotoTasks",
+    "JotCreateOutlookTask",
+    "JotOutlookTaskLabel",
+    "NewTask",
+    "NewTaskCompact",
+    "NewTaskNumbered",
+    "OutlookTaskCreate",
+    "SharingOpenTaskFolder",
+    "ShowTaskPage"
+  ]
+}

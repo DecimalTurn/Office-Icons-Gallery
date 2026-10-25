@@ -1,0 +1,45 @@
+{
+  "relatedIcons": [
+    {
+      "name": "InkFeltTipPen",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "OptionEditableForm",
+      "imageAsset": "images/by-hash/6004045baf563227.png"
+    },
+    {
+      "name": "OptionEditableFormAttachTemplate",
+      "imageAsset": "images/by-hash/e2222cd521ce9a3d.png"
+    },
+    {
+      "name": "OptionReadOnlySnapshot",
+      "imageAsset": "images/by-hash/c5dd142d728faec5.png"
+    },
+    {
+      "name": "PasteOption",
+      "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+    },
+    {
+      "name": "PlaybackTipPlay",
+      "imageAsset": "images/by-hash/2f95c00be27190f4.png"
+    },
+    {
+      "name": "ScreenTip",
+      "imageAsset": "images/by-hash/5774910ce666a5d5.png"
+    },
+    {
+      "name": "TipWizardHelp",
+      "imageAsset": "images/by-hash/9d98a74fb815027f.png"
+    },
+    {
+      "name": "TranslationToolTip",
+      "imageAsset": "images/by-hash/499a74b72396c743.png"
+    },
+    {
+      "name": "WebControlOptionButton",
+      "imageAsset": "images/by-hash/1d4e488ea50d958c.png"
+    }
+  ],
+  "sameImageIds": []
+}

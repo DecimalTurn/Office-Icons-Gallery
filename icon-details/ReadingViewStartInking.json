@@ -1,0 +1,69 @@
+{
+  "relatedIcons": [
+    {
+      "name": "InkStopInkingReadingView",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "InkingStart",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "StartInking",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "InkingBiasAuto",
+      "imageAsset": "images/by-hash/443025788bd82c49.png"
+    },
+    {
+      "name": "InkingBiasDraw",
+      "imageAsset": "images/by-hash/2a9330e9f8b65de5.png"
+    },
+    {
+      "name": "InkingBiasWrite",
+      "imageAsset": "images/by-hash/02b0c9eff20f5f64.png"
+    },
+    {
+      "name": "DocumentMapReadingView",
+      "imageAsset": "images/by-hash/8c005537b968b2f0.png"
+    },
+    {
+      "name": "ReadingMode",
+      "imageAsset": "images/by-hash/faeb4446f4fdb538.png"
+    },
+    {
+      "name": "ReadingModeColumnLayout",
+      "imageAsset": "images/by-hash/53c21f42593d741d.png"
+    },
+    {
+      "name": "ReadingModeColumnWidthDefault",
+      "imageAsset": "images/by-hash/53c21f42593d741d.png"
+    },
+    {
+      "name": "ReadingModeColumnWidthMenu",
+      "imageAsset": "images/by-hash/07769cf793dd35fb.png"
+    },
+    {
+      "name": "ReadingModeColumnWidthNarrow",
+      "imageAsset": "images/by-hash/b8b3c72b95a044fd.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupInfoPathInk",
+    "GroupInfoPathInkPens",
+    "GroupInk",
+    "GroupInkPens",
+    "GroupInkTools",
+    "GroupPensWrite",
+    "InkBallpointPen",
+    "InkFeltTipPen",
+    "InkingStart",
+    "InkMenu",
+    "InkSelectBallpointPen",
+    "InkSelectFelttipPen",
+    "InkTool",
+    "PenMode",
+    "StartInking"
+  ]
+}

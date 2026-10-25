@@ -1,0 +1,69 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BlogCategories",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "BlogCategoriesRefresh",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "BlogCategoryInsert",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "BlogHomePage",
+      "imageAsset": "images/by-hash/cc7405a103b44a17.png"
+    },
+    {
+      "name": "BlogInsertCategories",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "BlogManageAccounts",
+      "imageAsset": "images/by-hash/2b702d6430221cf3.png"
+    },
+    {
+      "name": "BlogOpenExisting",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "BlogPublish",
+      "imageAsset": "images/by-hash/2cc34b9c900b5e8b.png"
+    },
+    {
+      "name": "BlogPublishDraft",
+      "imageAsset": "images/by-hash/5058172c4e435e9c.png"
+    },
+    {
+      "name": "BlogPublishMenu",
+      "imageAsset": "images/by-hash/2cc34b9c900b5e8b.png"
+    },
+    {
+      "name": "FileNewBlogPost",
+      "imageAsset": "images/by-hash/e62c2e84dff07088.png"
+    },
+    {
+      "name": "GroupBlogBasicText",
+      "imageAsset": "images/by-hash/1a614d7d7f1a5953.png"
+    }
+  ],
+  "sameImageIds": [
+    "AllCategories",
+    "AppointmentColorDialog",
+    "ArrangeByCategory",
+    "BlogCategories",
+    "BlogCategoryInsert",
+    "BlogInsertCategories",
+    "CategorizeGallery",
+    "CategorizeMenu",
+    "GroupCalendarTags",
+    "GroupJournalOptions",
+    "GroupNotesOptions",
+    "GroupTaskListTags",
+    "QuickSearchAnyCategory",
+    "QuickSearchCategories",
+    "QuickStepTemplateCategorizeAndMove"
+  ]
+}

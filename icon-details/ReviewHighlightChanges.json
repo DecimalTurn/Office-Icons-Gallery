@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReviewReplyWithChanges",
+      "imageAsset": "images/by-hash/73d329c3d184a7ac.png"
+    },
+    {
+      "name": "ReviewShowChanges",
+      "imageAsset": "images/by-hash/eb3198150517c359.png"
+    },
+    {
+      "name": "ReviewTrackChanges",
+      "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+    },
+    {
+      "name": "ReviewTrackChangesMenu",
+      "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+    },
+    {
+      "name": "ReviewViewChangesInTheSourceDocument",
+      "imageAsset": "images/by-hash/1227a56cf218ae84.png"
+    },
+    {
+      "name": "AutoSummaryViewByHighlight",
+      "imageAsset": "images/by-hash/cb51119c7fae3a92.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightBetween",
+      "imageAsset": "images/by-hash/17e2e00ac82ac2bf.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightCellsMenu",
+      "imageAsset": "images/by-hash/6b7a34509ca46db1.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightCompareColumns",
+      "imageAsset": "images/by-hash/d37e78e67181e46e.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightDateOccuring",
+      "imageAsset": "images/by-hash/dc794190a6d4cf48.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightDuplicateValues",
+      "imageAsset": "images/by-hash/9bfced206c7586d2.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightEqualTo",
+      "imageAsset": "images/by-hash/4463aafa23fa2389.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupChangesTracking",
+    "ReadingViewTrackChanges",
+    "ReviewTrackChanges",
+    "ReviewTrackChangesMenu"
+  ]
+}

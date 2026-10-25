@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ConflictViewClose",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "FormsToolSaveAndClose",
+      "imageAsset": "images/by-hash/cd03c48facbc252d.png"
+    },
+    {
+      "name": "NotepadToolSaveAndClose",
+      "imageAsset": "images/by-hash/cd03c48facbc252d.png"
+    },
+    {
+      "name": "SaveAndClose",
+      "imageAsset": "images/by-hash/cd03c48facbc252d.png"
+    },
+    {
+      "name": "ConflictViewEnter",
+      "imageAsset": "images/by-hash/366c4f1b1cc4afd9.png"
+    },
+    {
+      "name": "GroupConflictErrorResolution",
+      "imageAsset": "images/by-hash/cc7f9b56cf5f0e52.png"
+    },
+    {
+      "name": "ResolveBusinessDataEntityInstanceConflict",
+      "imageAsset": "images/by-hash/cc7f9b56cf5f0e52.png"
+    },
+    {
+      "name": "ResolveConflict",
+      "imageAsset": "images/by-hash/78dff6663e341044.png"
+    },
+    {
+      "name": "ResolveConflictOrError",
+      "imageAsset": "images/by-hash/a9d09f6383031451.png"
+    },
+    {
+      "name": "BackgroundRemovalClose",
+      "imageAsset": "images/by-hash/48eab841d02031df.png"
+    },
+    {
+      "name": "CloseAllItems",
+      "imageAsset": "images/by-hash/c20326749b246570.png"
+    },
+    {
+      "name": "CloseAllPages",
+      "imageAsset": "images/by-hash/76ac83fb7e258b44.png"
+    }
+  ],
+  "sameImageIds": []
+}

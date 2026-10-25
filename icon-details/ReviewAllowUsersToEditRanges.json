@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReviewEditComment",
+      "imageAsset": "images/by-hash/6810f1895fe59935.png"
+    },
+    {
+      "name": "GroupAllow",
+      "imageAsset": "images/by-hash/5b6b764bd2f2fc93.png"
+    },
+    {
+      "name": "ReadingViewAllowMultiplePages",
+      "imageAsset": "images/by-hash/f32d3a8ba4c266de.png"
+    },
+    {
+      "name": "ReadingViewAllowTyping",
+      "imageAsset": "images/by-hash/705a8f62d6a6cc45.png"
+    },
+    {
+      "name": "SharingRequestAllow",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    }
+  ],
+  "sameImageIds": []
+}

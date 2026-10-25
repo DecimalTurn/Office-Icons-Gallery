@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TabTeamPlannerFormat",
+      "imageAsset": "images/by-hash/e9bcf20071fd7d28.png"
+    },
+    {
+      "name": "GroupPivotChartTools",
+      "imageAsset": "images/by-hash/f3efe98ab9433ece.png"
+    },
+    {
+      "name": "GroupPivotTableTools",
+      "imageAsset": "images/by-hash/f86727545aa8937b.png"
+    },
+    {
+      "name": "GroupPivotTableToolsAccess",
+      "imageAsset": "images/by-hash/f3efe98ab9433ece.png"
+    },
+    {
+      "name": "PivotChartOlapTools",
+      "imageAsset": "images/by-hash/4ea78df29c034d14.png"
+    },
+    {
+      "name": "PivotTableOlapTools",
+      "imageAsset": "images/by-hash/4ea78df29c034d14.png"
+    },
+    {
+      "name": "GroupPivotDiagramFormat",
+      "imageAsset": "images/by-hash/267a79f8d7d3956e.png"
+    },
+    {
+      "name": "ControlTabControl",
+      "imageAsset": "images/by-hash/d36bc6f2ef4d3e35.png"
+    },
+    {
+      "name": "GroupIncludeMainTab",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "GroupM1FutureSearchContextualTab",
+      "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+    },
+    {
+      "name": "InsertAlignmentTab",
+      "imageAsset": "images/by-hash/d150b160fa2e1d40.png"
+    },
+    {
+      "name": "SheetTabColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    }
+  ],
+  "sameImageIds": []
+}

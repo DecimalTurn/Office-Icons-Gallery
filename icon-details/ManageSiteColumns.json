@@ -1,0 +1,27 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupSiteAssetsManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "GroupSitePermissionsManage",
+      "imageAsset": "images/by-hash/3d4e109f94401bbe.png"
+    },
+    {
+      "name": "GroupSiteSubsitesManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "GroupSiteSummaryManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "GroupWebSiteMapManage",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    }
+  ],
+  "sameImageIds": [
+    "ColumnSettingsMenu"
+  ]
+}

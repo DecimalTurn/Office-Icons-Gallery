@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GanttBarColorPicker",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "GroupGanttChartBarStyles",
+      "imageAsset": "images/by-hash/6db82b29c3b23da6.png"
+    },
+    {
+      "name": "BarFormat",
+      "imageAsset": "images/by-hash/3a702ed22fd2622d.png"
+    },
+    {
+      "name": "BarStylesFormat",
+      "imageAsset": "images/by-hash/d2de08e369f7a81f.png"
+    },
+    {
+      "name": "CalendarViewFormatBarStyles",
+      "imageAsset": "images/by-hash/a38ac147ba61d6a4.png"
+    },
+    {
+      "name": "FormatBar",
+      "imageAsset": "images/by-hash/3a702ed22fd2622d.png"
+    },
+    {
+      "name": "FormatBarStylesMenu",
+      "imageAsset": "images/by-hash/3a702ed22fd2622d.png"
+    },
+    {
+      "name": "ResourceGraphBarStylesFormat",
+      "imageAsset": "images/by-hash/df2710e93a68f49a.png"
+    },
+    {
+      "name": "GroupGanttChartFormat",
+      "imageAsset": "images/by-hash/d2de08e369f7a81f.png"
+    },
+    {
+      "name": "ActiveXScrollBar",
+      "imageAsset": "images/by-hash/37c2f71d4bc88ce8.png"
+    },
+    {
+      "name": "BizBarPublishToSharePoint",
+      "imageAsset": "images/by-hash/6ee76565b405e6e3.png"
+    },
+    {
+      "name": "Chart3DBarChart",
+      "imageAsset": "images/by-hash/9b23d663320c8f76.png"
+    }
+  ],
+  "sameImageIds": [
+    "BarFormat",
+    "FormatBar",
+    "FormatBarStylesMenu"
+  ]
+}

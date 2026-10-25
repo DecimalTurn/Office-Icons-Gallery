@@ -1,0 +1,61 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SheetColumnsDelete",
+      "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+    },
+    {
+      "name": "SheetColumnsDeleteTouch",
+      "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+    },
+    {
+      "name": "SheetColumnsInsertTouch",
+      "imageAsset": "images/by-hash/242212fb7cde5c20.png"
+    },
+    {
+      "name": "CalculateSheet",
+      "imageAsset": "images/by-hash/75a85b739931966b.png"
+    },
+    {
+      "name": "CssAttachStyleSheet",
+      "imageAsset": "images/by-hash/e74c513b67919470.png"
+    },
+    {
+      "name": "GroupPageLayoutSheetOptions",
+      "imageAsset": "images/by-hash/881a414dd02984aa.png"
+    },
+    {
+      "name": "GroupShapeSheetEditing",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "GroupShapeSheetFormulaTracing",
+      "imageAsset": "images/by-hash/e970103affe3a677.png"
+    },
+    {
+      "name": "GroupShapeSheetRows",
+      "imageAsset": "images/by-hash/987f395d63e7009b.png"
+    },
+    {
+      "name": "GroupShapeSheetSections",
+      "imageAsset": "images/by-hash/eedb33b32bd62eaf.png"
+    },
+    {
+      "name": "GroupShapeSheetView",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "GroupSheetFormat",
+      "imageAsset": "images/by-hash/38d76334050dad66.png"
+    }
+  ],
+  "sameImageIds": [
+    "ColumnInsert",
+    "GroupColumns",
+    "InsertColumn3",
+    "InsertColumns",
+    "QueryInsertColumn",
+    "QueryInsertColumns",
+    "SheetColumnsInsertTouch"
+  ]
+}

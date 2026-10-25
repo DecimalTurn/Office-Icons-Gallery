@@ -1,0 +1,43 @@
+{
+  "relatedIcons": [
+    {
+      "name": "Risks",
+      "imageAsset": "images/by-hash/333fa763449f29e8.png"
+    },
+    {
+      "name": "PwaDataAnalysis",
+      "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+    },
+    {
+      "name": "PwaDocumentLibrary",
+      "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+    },
+    {
+      "name": "PwaIssues",
+      "imageAsset": "images/by-hash/76b90da3c7d64d0e.png"
+    },
+    {
+      "name": "PwaPagePermissions",
+      "imageAsset": "images/by-hash/3d4e109f94401bbe.png"
+    },
+    {
+      "name": "PwaProjectInformationRequest",
+      "imageAsset": "images/by-hash/aa51886bdd8ff085.png"
+    },
+    {
+      "name": "PwaProjectProgressUpdate",
+      "imageAsset": "images/by-hash/71a513fe9da318b8.png"
+    },
+    {
+      "name": "PwaResourceCenter",
+      "imageAsset": "images/by-hash/e78c16995ecdf282.png"
+    }
+  ],
+  "sameImageIds": [
+    "LogicIncomplete",
+    "MacroSecurity",
+    "Risks",
+    "TaskWarningsShow",
+    "TraceError"
+  ]
+}

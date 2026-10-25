@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DecimalsDecrease",
+      "imageAsset": "images/by-hash/54d3021dd030d0fc.png"
+    },
+    {
+      "name": "FormattingIncreaseDecimals",
+      "imageAsset": "images/by-hash/59ebfba4f50fae05.png"
+    },
+    {
+      "name": "DecimalsIncrease",
+      "imageAsset": "images/by-hash/59ebfba4f50fae05.png"
+    },
+    {
+      "name": "_3DPerspectiveDecrease",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "FontSizeDecrease",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "FontSizeDecrease1Point",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "FontSizeDecreaseWord",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "HorizontalSpacingDecrease",
+      "imageAsset": "images/by-hash/01646d5b7afb9c08.png"
+    },
+    {
+      "name": "IndentDecrease",
+      "imageAsset": "images/by-hash/7c5f9db43eef435c.png"
+    },
+    {
+      "name": "IndentDecreaseExcel",
+      "imageAsset": "images/by-hash/7c5f9db43eef435c.png"
+    },
+    {
+      "name": "IndentDecreaseWord",
+      "imageAsset": "images/by-hash/7c5f9db43eef435c.png"
+    },
+    {
+      "name": "ParagraphSpacingDecrease",
+      "imageAsset": "images/by-hash/50ae9dcdcab1d70e.png"
+    }
+  ],
+  "sameImageIds": [
+    "DecimalsDecrease"
+  ]
+}

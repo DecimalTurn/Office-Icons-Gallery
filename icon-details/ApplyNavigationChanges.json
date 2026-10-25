@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ApplyCoAuthoringLock",
+      "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+    },
+    {
+      "name": "ApplyCommaFormat",
+      "imageAsset": "images/by-hash/34cb51453b945174.png"
+    },
+    {
+      "name": "ApplyCssStyles",
+      "imageAsset": "images/by-hash/a85f46fb6686a11a.png"
+    },
+    {
+      "name": "ApplyCurrencyFormat",
+      "imageAsset": "images/by-hash/85a6a3a5829b5bdb.png"
+    },
+    {
+      "name": "ApplyFilter",
+      "imageAsset": "images/by-hash/721678c0a7e5e825.png"
+    },
+    {
+      "name": "ApplyImageBackgroundFill",
+      "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+    },
+    {
+      "name": "ApplyImageBackgroundTile",
+      "imageAsset": "images/by-hash/18e3f90d57530743.png"
+    },
+    {
+      "name": "ApplyImageToBackgroundMenu",
+      "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+    },
+    {
+      "name": "ApplyMasterPage1",
+      "imageAsset": "images/by-hash/644d9edfe733d347.png"
+    },
+    {
+      "name": "ApplyPercentageFormat",
+      "imageAsset": "images/by-hash/07a8f718edb1e043.png"
+    },
+    {
+      "name": "ApplyStylesPane",
+      "imageAsset": "images/by-hash/f8c95179d0041093.png"
+    },
+    {
+      "name": "ClickToRunApplyUpdates",
+      "imageAsset": "images/by-hash/c2ddcf2d05fd7d7e.png"
+    }
+  ],
+  "sameImageIds": []
+}

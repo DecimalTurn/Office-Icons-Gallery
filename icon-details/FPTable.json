@@ -1,0 +1,39 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FPAggregateDataSource",
+      "imageAsset": "images/by-hash/b17af7e5b8b3d41e.png"
+    },
+    {
+      "name": "FPTableAutoFormat",
+      "imageAsset": "images/by-hash/0ba6ee111531f8b8.png"
+    }
+  ],
+  "sameImageIds": [
+    "AccessFormDatasheet",
+    "AccessListCustomDatasheet",
+    "CatalogMergeMoreRowsColumns",
+    "CatalogMergeRowsColumnsGallery",
+    "ColumnsGroup",
+    "CreateDatasheetView",
+    "CreateSharePointList",
+    "CreateTable",
+    "CreateTableTemplatesGallery",
+    "CustomTablesGallery",
+    "GroupCreateTables",
+    "GroupCreateTablesWeb",
+    "GroupInsertTables",
+    "InsertTable",
+    "LayoutTable",
+    "QuickTablesInsertGallery",
+    "TableInsert",
+    "TableInsertDialog",
+    "TableInsertDialogWord",
+    "TableInsertGallery",
+    "TableInsertGalleryAlternate",
+    "TableInsertGallerySpd",
+    "TableLayoutInfoPath",
+    "TableRowsOrColumnsOrCellsInsert",
+    "ToggleAddTableUI"
+  ]
+}

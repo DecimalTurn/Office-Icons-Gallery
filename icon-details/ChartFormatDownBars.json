@@ -1,0 +1,82 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartUpDownBars",
+      "imageAsset": "images/by-hash/15e4f4da852f3edc.png"
+    },
+    {
+      "name": "ChartFormatErrorBars",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartFormatUpBars",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartErrorBars",
+      "imageAsset": "images/by-hash/da2407b5d0b3f924.png"
+    },
+    {
+      "name": "ConditionalFormattingDataBarsGallery",
+      "imageAsset": "images/by-hash/689b45cacd958d95.png"
+    },
+    {
+      "name": "IncludeInNavigationBars",
+      "imageAsset": "images/by-hash/446092e9be5d851d.png"
+    },
+    {
+      "name": "ShowAutoShapesAndDrawingBars",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "_3DTiltDownClassic",
+      "imageAsset": "images/by-hash/3feb97f7e19ab7cd.png"
+    },
+    {
+      "name": "BorderDiagonalDown",
+      "imageAsset": "images/by-hash/aa2d1c261fefbb4c.png"
+    },
+    {
+      "name": "ChartNavDrillDown",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "ContentControlDropDownList",
+      "imageAsset": "images/by-hash/c5dd030963b6ba3d.png"
+    },
+    {
+      "name": "DownArrow2",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChartFormatAxis",
+    "ChartFormatAxisTitle",
+    "ChartFormatBackWall",
+    "ChartFormatChartArea",
+    "ChartFormatChartTitle",
+    "ChartFormatDataLabel",
+    "ChartFormatDataLabels",
+    "ChartFormatDataPoint",
+    "ChartFormatDataSeries",
+    "ChartFormatDataTable",
+    "ChartFormatDisplayUnit",
+    "ChartFormatDropLines",
+    "ChartFormatErrorBars",
+    "ChartFormatFloor",
+    "ChartFormatGridlines",
+    "ChartFormatHighLowLine",
+    "ChartFormatLeaderLines",
+    "ChartFormatLegend",
+    "ChartFormatLegendEntry",
+    "ChartFormatPlotArea",
+    "ChartFormatSeriesLine",
+    "ChartFormatSideWall",
+    "ChartFormatTrendline",
+    "ChartFormatTrendlineLabel",
+    "ChartFormatUpBars",
+    "ChartFormatWalls",
+    "ChartStylesGallery",
+    "GroupChartStyles"
+  ]
+}

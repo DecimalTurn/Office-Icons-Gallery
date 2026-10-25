@@ -1,0 +1,63 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OutlookTaskOpen",
+      "imageAsset": "images/by-hash/ccd7997373e69eaa.png"
+    },
+    {
+      "name": "OutlookTaskOpenContextual",
+      "imageAsset": "images/by-hash/ccd7997373e69eaa.png"
+    },
+    {
+      "name": "SharingOpenTaskFolder",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "SharingOpenWssTaskList",
+      "imageAsset": "images/by-hash/906061656933d759.png"
+    }
+  ],
+  "sameImageIds": [
+    "BlogOpenExisting",
+    "DataSourceCatalogProperties",
+    "DesignerOpen",
+    "EditPageWith",
+    "FileOpen",
+    "FileOpenDatabase",
+    "FileOpenDirectly",
+    "FileOpenUsingBackstage",
+    "FindAForm",
+    "FlyoutAnchorOpenMenu",
+    "FormRegionOpen",
+    "GroupAllFilesEdit",
+    "GroupAppointmentActions",
+    "GroupBdcEntitiesManage",
+    "GroupContentTypeWorkflowsEdit",
+    "GroupDataConnectionsEdit",
+    "GroupListCustomActionsEdit",
+    "GroupListFormsEdit",
+    "GroupListViewsEdit",
+    "GroupListWorkflowsEdit",
+    "GroupPagePermissionsEdit",
+    "GroupPageVersionHistoryActions",
+    "GroupRecurringAppointmentActions",
+    "GroupSitePermissionsEdit",
+    "GroupTaskFormFieldsEdit",
+    "GroupWorkflowFormsEdit",
+    "ListEditSelected",
+    "MenuOpenAppointment",
+    "MRUSlabOpenOfficeLiveWorkspaces",
+    "OpenAppointment",
+    "OpenAttach",
+    "OpenContentType",
+    "OpenFolder",
+    "OpenHollow",
+    "OpenList",
+    "OpenNotebookAsFolder",
+    "OpenSelectedItems",
+    "OpenSpecificFile",
+    "OpenSpecificFileWith",
+    "ReopenFromServer",
+    "TabRecent"
+  ]
+}

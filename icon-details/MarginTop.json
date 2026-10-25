@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReadingViewMarginSettingsMenu",
+      "imageAsset": "images/by-hash/2bc037ee19b5f7b9.png"
+    },
+    {
+      "name": "SaveSelectionToPageNumberMargin",
+      "imageAsset": "images/by-hash/d93ef64e3b58678d.png"
+    },
+    {
+      "name": "TableMarginProperties",
+      "imageAsset": "images/by-hash/0832db3cd855a3b4.png"
+    },
+    {
+      "name": "TextBoxMarginGallery",
+      "imageAsset": "images/by-hash/f87dac09c8e4e566.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ArrangeByLocation",
+      "imageAsset": "images/by-hash/4150b8d940bfe058.png"
+    },
+    {
+      "name": "EquationChangeLimitLocation",
+      "imageAsset": "images/by-hash/ea294abf0b3df929.png"
+    },
+    {
+      "name": "GroupAddLocation",
+      "imageAsset": "images/by-hash/f8148898aea63c99.png"
+    },
+    {
+      "name": "GroupChartLocation",
+      "imageAsset": "images/by-hash/6e5a58100af6c7f2.png"
+    },
+    {
+      "name": "SparklineEditLocationAndData",
+      "imageAsset": "images/by-hash/f66f1f20b7d1d18a.png"
+    }
+  ],
+  "sameImageIds": []
+}

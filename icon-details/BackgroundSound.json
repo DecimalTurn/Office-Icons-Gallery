@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AnimationTransitionSoundGallery",
+      "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+    },
+    {
+      "name": "GroupSoundOptions",
+      "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+    },
+    {
+      "name": "ReminderSound",
+      "imageAsset": "images/by-hash/787c5004e1a222c9.png"
+    },
+    {
+      "name": "SoundInsertFromClipOrganizer",
+      "imageAsset": "images/by-hash/a6caf06e899d31c6.png"
+    },
+    {
+      "name": "SoundInsertFromFile",
+      "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+    },
+    {
+      "name": "SoundInsertMenu02",
+      "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+    },
+    {
+      "name": "SoundMaximumFileSize",
+      "imageAsset": "images/by-hash/abe42933a44bcaef.png"
+    },
+    {
+      "name": "SoundPlaySoundGallery",
+      "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+    },
+    {
+      "name": "ApplyImageBackgroundFill",
+      "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+    },
+    {
+      "name": "ApplyImageBackgroundTile",
+      "imageAsset": "images/by-hash/18e3f90d57530743.png"
+    },
+    {
+      "name": "ApplyImageToBackgroundMenu",
+      "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+    },
+    {
+      "name": "BackgroundImageGallery",
+      "imageAsset": "images/by-hash/413b79a699148fbf.png"
+    }
+  ],
+  "sameImageIds": [
+    "ObjectEditDialog"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupClipboardSimple",
+      "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+    },
+    {
+      "name": "GroupResourceViewSimple",
+      "imageAsset": "images/by-hash/b6e1b94b1994aa71.png"
+    },
+    {
+      "name": "GroupResourceViewSimpleStandard",
+      "imageAsset": "images/by-hash/b6e1b94b1994aa71.png"
+    }
+  ],
+  "sameImageIds": [
+    "GanttChartViewGallery",
+    "TaskAllViewsGallery",
+    "TaskAllViewsGalleryOnly"
+  ]
+}

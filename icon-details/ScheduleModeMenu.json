@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AutoScheduleSelectedTask",
+      "imageAsset": "images/by-hash/aa022e861f00f076.png"
+    },
+    {
+      "name": "ContactCardScheduleMeeting",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "GroupProjectSchedule",
+      "imageAsset": "images/by-hash/dfee45b4ed63677f.png"
+    },
+    {
+      "name": "GroupTaskSchedule",
+      "imageAsset": "images/by-hash/fe43016cac7f8388.png"
+    },
+    {
+      "name": "GroupTaskScheduleStandard",
+      "imageAsset": "images/by-hash/fe43016cac7f8388.png"
+    },
+    {
+      "name": "GroupTeamPlannerSchedule",
+      "imageAsset": "images/by-hash/29ad1679ebbe2e75.png"
+    },
+    {
+      "name": "ManuallyScheduleSelectedTask",
+      "imageAsset": "images/by-hash/fde603d72c3ddeec.png"
+    },
+    {
+      "name": "Schedule",
+      "imageAsset": "images/by-hash/8470eda604389163.png"
+    },
+    {
+      "name": "ScheduleTaskWhenResourcesAvailable",
+      "imageAsset": "images/by-hash/02c4ecdd36cf035e.png"
+    },
+    {
+      "name": "ScheduleTrackingForm",
+      "imageAsset": "images/by-hash/6f533a8764dc2f4c.png"
+    },
+    {
+      "name": "TaskAutoSchedule",
+      "imageAsset": "images/by-hash/aa022e861f00f076.png"
+    },
+    {
+      "name": "TeamPlannerAutoScheduleStyleMenu",
+      "imageAsset": "images/by-hash/aa022e861f00f076.png"
+    }
+  ],
+  "sameImageIds": []
+}

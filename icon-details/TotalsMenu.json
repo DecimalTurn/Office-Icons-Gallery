@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupGroupingAndTotals",
+      "imageAsset": "images/by-hash/170f9d5531971ed7.png"
+    },
+    {
+      "name": "PivotTableGrandTotalsOffForRowsAndColumns",
+      "imageAsset": "images/by-hash/90d4275591f12576.png"
+    },
+    {
+      "name": "PivotTableGrandTotalsOnForColumnsOnly",
+      "imageAsset": "images/by-hash/8d4ab8e2e9143bc7.png"
+    },
+    {
+      "name": "PivotTableGrandTotalsOnForRowsAndColumns",
+      "imageAsset": "images/by-hash/d2701395da25b98b.png"
+    },
+    {
+      "name": "PivotTableGrandTotalsOnForRowsOnly",
+      "imageAsset": "images/by-hash/1528f54377a7ea34.png"
+    },
+    {
+      "name": "PivotTableLayoutGrandTotals",
+      "imageAsset": "images/by-hash/ad585748fd6dd2ae.png"
+    },
+    {
+      "name": "PivotTableNonVisualTotals",
+      "imageAsset": "images/by-hash/882e6dee1ab2d187.png"
+    },
+    {
+      "name": "QueryTotalsShowHide",
+      "imageAsset": "images/by-hash/f3efe98ab9433ece.png"
+    },
+    {
+      "name": "RecordsTotals",
+      "imageAsset": "images/by-hash/f3efe98ab9433ece.png"
+    },
+    {
+      "name": "TableStyleTotalsRow",
+      "imageAsset": "images/by-hash/7e49e8212ce8620a.png"
+    }
+  ],
+  "sameImageIds": [
+    "AutoSum",
+    "GroupPivotChartTools",
+    "GroupPivotTableToolsAccess",
+    "GroupQueryShowHide",
+    "PivotAutoCalcMenu",
+    "QueryTotalsShowHide",
+    "RecordsTotals"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ControlPropertyDigitalSignatures",
+      "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+    },
+    {
+      "name": "GroupDigitalSignatures",
+      "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+    },
+    {
+      "name": "GroupDigitalSignaturesInfoPath",
+      "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+    },
+    {
+      "name": "FileAddDigitalSignature",
+      "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+    },
+    {
+      "name": "SignaturesLoading",
+      "imageAsset": "images/by-hash/be861681f35bbf2e.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,79 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FormDatasheetWeb",
+      "imageAsset": "images/by-hash/ad332571435de757.png"
+    },
+    {
+      "name": "AccessFormDatasheet",
+      "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+    },
+    {
+      "name": "AccessFormModalDialogWeb",
+      "imageAsset": "images/by-hash/b2bff7bb772c34d4.png"
+    },
+    {
+      "name": "CreateFormBlankFormWeb",
+      "imageAsset": "images/by-hash/ac1ad25aa1bf3d8a.png"
+    },
+    {
+      "name": "CreateFormMoreFormsWebMenu",
+      "imageAsset": "images/by-hash/b6a5d1892d5b7917.png"
+    },
+    {
+      "name": "CreateFormNavigationLeftWeb",
+      "imageAsset": "images/by-hash/70f92f056f44c3ca.png"
+    },
+    {
+      "name": "CreateFormNavigationRightWeb",
+      "imageAsset": "images/by-hash/32bfeb084b1a9724.png"
+    },
+    {
+      "name": "CreateFormNavigationTopLeftWeb",
+      "imageAsset": "images/by-hash/f9ba4ec68e6880cc.png"
+    },
+    {
+      "name": "CreateFormNavigationTopRightWeb",
+      "imageAsset": "images/by-hash/27cd7f759717eb5d.png"
+    },
+    {
+      "name": "CreateFormNavigationTopTopWeb",
+      "imageAsset": "images/by-hash/66cac5a7425f7c46.png"
+    },
+    {
+      "name": "CreateFormNavigationTopWeb",
+      "imageAsset": "images/by-hash/ce2bad93e8aa90af.png"
+    },
+    {
+      "name": "CreateFormWeb",
+      "imageAsset": "images/by-hash/b4c546d4ca553432.png"
+    }
+  ],
+  "sameImageIds": [
+    "ControlPropertyDisplayTextFieldName",
+    "ControlPropertySecondaryFieldPropertiesDialog",
+    "DesignAFormOutlook",
+    "DesignMode",
+    "DesignTemplate",
+    "DesignThisForm",
+    "EntityViewOperations",
+    "Errors",
+    "GroupCodeEventsControls",
+    "GroupCustomForms",
+    "GroupField",
+    "GroupForm",
+    "GroupListToolDesignerEdit",
+    "GroupListToolEnterDesigner",
+    "GroupSharePointField",
+    "GroupViews",
+    "GroupWebFormControlFormatting",
+    "ListToolEdit",
+    "PageWidthGuideShowHide",
+    "QueryDataDefinition",
+    "TableDesign",
+    "ViewsDesignView",
+    "ViewsModeMenu",
+    "ViewsSwitchToDefaultView",
+    "XDDSPDetails"
+  ]
+}

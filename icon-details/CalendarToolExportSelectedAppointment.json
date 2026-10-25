@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CalendarToolExportAllAppointments",
+      "imageAsset": "images/by-hash/d51ac3a5ee3618c2.png"
+    },
+    {
+      "name": "CalendarToolNewAppointment",
+      "imageAsset": "images/by-hash/9ed1f383c43f4ad5.png"
+    },
+    {
+      "name": "MeetingsToolAppointmentCalendar",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "ViewAppointmentInCalendar",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "AdpDiagramAutosizeSelectedTables",
+      "imageAsset": "images/by-hash/8f2da1eb3cb54652.png"
+    },
+    {
+      "name": "AutoScheduleSelectedTask",
+      "imageAsset": "images/by-hash/aa022e861f00f076.png"
+    },
+    {
+      "name": "CatalogMergeExcludeSelectedRecord",
+      "imageAsset": "images/by-hash/e81f88c0221dad15.png"
+    },
+    {
+      "name": "DuplicateSelectedSlides",
+      "imageAsset": "images/by-hash/ae6bfecbf2c445a9.png"
+    },
+    {
+      "name": "ExcludeSelectedRecord",
+      "imageAsset": "images/by-hash/e81f88c0221dad15.png"
+    },
+    {
+      "name": "ListAdminSelected",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "ListDeleteSelected",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "ListEditSelected",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    }
+  ],
+  "sameImageIds": [
+    "CalendarToolExportAllAppointments",
+    "FormsToolExportMenu",
+    "GroupDataNotepadTool",
+    "NotepadToolExport"
+  ]
+}

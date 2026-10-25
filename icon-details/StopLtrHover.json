@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GoLtrHover",
+      "imageAsset": "images/by-hash/8ac1c6e151bfa73f.png"
+    },
+    {
+      "name": "StopRtlHover",
+      "imageAsset": "images/by-hash/9679e00de8896fa3.png"
+    },
+    {
+      "name": "StopLtrDown",
+      "imageAsset": "images/by-hash/5c3d925427fe2363.png"
+    },
+    {
+      "name": "StopLtrFocus",
+      "imageAsset": "images/by-hash/b9c411dbae2bbfc2.png"
+    },
+    {
+      "name": "ControlPropertyPictureButtonBrowseHoverPicture",
+      "imageAsset": "images/by-hash/4feff2afcc852911.png"
+    },
+    {
+      "name": "GoRtlHover",
+      "imageAsset": "images/by-hash/c8c9a4a8dee4e65b.png"
+    },
+    {
+      "name": "GoLtrDown",
+      "imageAsset": "images/by-hash/ed537679509c0135.png"
+    },
+    {
+      "name": "GoLtrFocus",
+      "imageAsset": "images/by-hash/8ac1c6e151bfa73f.png"
+    },
+    {
+      "name": "AutoLinkingStop",
+      "imageAsset": "images/by-hash/71dee70b48fca71d.png"
+    },
+    {
+      "name": "CDAudioStopTime",
+      "imageAsset": "images/by-hash/c38f44103fadbac2.png"
+    },
+    {
+      "name": "CDAudioStopTrack",
+      "imageAsset": "images/by-hash/1717741d790f74d2.png"
+    },
+    {
+      "name": "InkStopInkingReadingView",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    }
+  ],
+  "sameImageIds": [
+    "StopRtlHover"
+  ]
+}

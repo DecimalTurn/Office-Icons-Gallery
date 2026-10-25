@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupZoomDocked",
+      "imageAsset": "images/by-hash/212d13be56c4f382.png"
+    },
+    {
+      "name": "NewDockedWindow",
+      "imageAsset": "images/by-hash/b3eb2d23fe33d0c0.png"
+    }
+  ],
+  "sameImageIds": [
+    "FullPageView",
+    "GroupView",
+    "GroupViewFullPage"
+  ]
+}

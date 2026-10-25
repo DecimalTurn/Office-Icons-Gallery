@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupTimelineInterval",
+      "imageAsset": "images/by-hash/8363ed52d3ee7f0b.png"
+    },
+    {
+      "name": "TimelineIntervalConfigure",
+      "imageAsset": "images/by-hash/8363ed52d3ee7f0b.png"
+    },
+    {
+      "name": "TimelineMilestoneSync",
+      "imageAsset": "images/by-hash/af10a7c4f02b7851.png"
+    },
+    {
+      "name": "RefreshIntervalMenu",
+      "imageAsset": "images/by-hash/34616ac3c1be3f5e.png"
+    },
+    {
+      "name": "BusinessDataSyncWithLocalCache",
+      "imageAsset": "images/by-hash/e32569309eaf06fa.png"
+    },
+    {
+      "name": "ConnectedToolSyncMenu",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    },
+    {
+      "name": "GroupBusinessDataSyncWithLocalCache",
+      "imageAsset": "images/by-hash/e32569309eaf06fa.png"
+    },
+    {
+      "name": "GroupSyncSharePointFilesToolO12",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    },
+    {
+      "name": "GroupSyncStatus",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    },
+    {
+      "name": "JotSyncIncomplete",
+      "imageAsset": "images/by-hash/9e7a60267d388ce3.png"
+    },
+    {
+      "name": "JotSyncOffline",
+      "imageAsset": "images/by-hash/e7ec23af266404b0.png"
+    },
+    {
+      "name": "JotSyncSyncing",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    }
+  ],
+  "sameImageIds": []
+}

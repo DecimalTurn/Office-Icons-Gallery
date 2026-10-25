@@ -1,0 +1,30 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupShapeStyles",
+      "imageAsset": "images/by-hash/a0ca653d58ecaf86.png"
+    },
+    {
+      "name": "ShapeQuickStylesHome",
+      "imageAsset": "images/by-hash/a0ca653d58ecaf86.png"
+    },
+    {
+      "name": "ShapeStylesGallery",
+      "imageAsset": "images/by-hash/a0ca653d58ecaf86.png"
+    },
+    {
+      "name": "ShapeStylesGalleryClassic",
+      "imageAsset": "images/by-hash/a0ca653d58ecaf86.png"
+    }
+  ],
+  "sameImageIds": [
+    "ContextStylesGallery",
+    "GroupShapeStyles",
+    "GroupTextBoxStyles",
+    "ShapeQuickStylesHome",
+    "ShapeStylesGallery",
+    "ShapeStylesGalleryClassic",
+    "StyleMenu",
+    "TextBoxStyleGallery"
+  ]
+}

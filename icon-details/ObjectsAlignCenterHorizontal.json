@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ObjectsAlignCenterHorizontalOutlook",
+      "imageAsset": "images/by-hash/1d17157034356b58.png"
+    },
+    {
+      "name": "ObjectsAlignCenterHorizontalSmart",
+      "imageAsset": "images/by-hash/1d17157034356b58.png"
+    },
+    {
+      "name": "ObjectsAlignCenterInFormHorixontally",
+      "imageAsset": "images/by-hash/5cb3a2d891c59971.png"
+    },
+    {
+      "name": "ObjectsAlignCenterInFormVertically",
+      "imageAsset": "images/by-hash/5eeaa4fc80213811.png"
+    },
+    {
+      "name": "OrgChartHorizontalCenter",
+      "imageAsset": "images/by-hash/fe3465ad6d5ba97d.png"
+    },
+    {
+      "name": "AlignCenter",
+      "imageAsset": "images/by-hash/19cf1467127373c6.png"
+    },
+    {
+      "name": "PivotDiagramAlignCenter",
+      "imageAsset": "images/by-hash/c208912ec62178ed.png"
+    },
+    {
+      "name": "TableCellAlignBottomCenter",
+      "imageAsset": "images/by-hash/f5b15a72674f074c.png"
+    },
+    {
+      "name": "TableCellAlignCenterVertically",
+      "imageAsset": "images/by-hash/4d79850f39eef76c.png"
+    },
+    {
+      "name": "TableCellAlignMiddleCenter",
+      "imageAsset": "images/by-hash/47fa033b124548f6.png"
+    },
+    {
+      "name": "TableCellAlignTopCenter",
+      "imageAsset": "images/by-hash/cc67dd504f6ee519.png"
+    },
+    {
+      "name": "TextAlignCenter",
+      "imageAsset": "images/by-hash/19cf1467127373c6.png"
+    }
+  ],
+  "sameImageIds": [
+    "ObjectsAlignCenterHorizontalOutlook",
+    "ObjectsAlignCenterHorizontalSmart"
+  ]
+}

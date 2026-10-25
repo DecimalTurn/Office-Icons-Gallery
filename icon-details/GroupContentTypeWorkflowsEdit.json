@@ -1,0 +1,95 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupContentTypeWorkflowsNew",
+      "imageAsset": "images/by-hash/4ed7bc16cc89d2b3.png"
+    },
+    {
+      "name": "ContentTypeEditColumn",
+      "imageAsset": "images/by-hash/53f035b400396894.png"
+    },
+    {
+      "name": "GroupContentTypeEdit",
+      "imageAsset": "images/by-hash/133cf0f80266344b.png"
+    },
+    {
+      "name": "GroupContentTypeSummaryEdit",
+      "imageAsset": "images/by-hash/53f035b400396894.png"
+    },
+    {
+      "name": "GroupListContentTypeEdit",
+      "imageAsset": "images/by-hash/53f035b400396894.png"
+    },
+    {
+      "name": "GroupListWorkflowsEdit",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "GroupWorkflowsGalleryEdit",
+      "imageAsset": "images/by-hash/149f3b0cae9e185f.png"
+    },
+    {
+      "name": "AddContentType",
+      "imageAsset": "images/by-hash/fcaa71a805f81e9f.png"
+    },
+    {
+      "name": "ColumnContentTypeSetting",
+      "imageAsset": "images/by-hash/133cf0f80266344b.png"
+    },
+    {
+      "name": "ContentTypeAddSiteColumn",
+      "imageAsset": "images/by-hash/3a08b1e5d9651ea0.png"
+    },
+    {
+      "name": "ContentTypeColumnActionsReadOnly",
+      "imageAsset": "images/by-hash/496a802468ac8523.png"
+    },
+    {
+      "name": "ContentTypeColumnActionsRemove",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    }
+  ],
+  "sameImageIds": [
+    "BlogOpenExisting",
+    "DataSourceCatalogProperties",
+    "DesignerOpen",
+    "EditPageWith",
+    "FileOpen",
+    "FileOpenDatabase",
+    "FileOpenDirectly",
+    "FileOpenUsingBackstage",
+    "FindAForm",
+    "FlyoutAnchorOpenMenu",
+    "FormRegionOpen",
+    "GroupAllFilesEdit",
+    "GroupAppointmentActions",
+    "GroupBdcEntitiesManage",
+    "GroupDataConnectionsEdit",
+    "GroupListCustomActionsEdit",
+    "GroupListFormsEdit",
+    "GroupListViewsEdit",
+    "GroupListWorkflowsEdit",
+    "GroupPagePermissionsEdit",
+    "GroupPageVersionHistoryActions",
+    "GroupRecurringAppointmentActions",
+    "GroupSitePermissionsEdit",
+    "GroupTaskFormFieldsEdit",
+    "GroupTaskOpen",
+    "GroupWorkflowFormsEdit",
+    "ListEditSelected",
+    "MenuOpenAppointment",
+    "MRUSlabOpenOfficeLiveWorkspaces",
+    "OpenAppointment",
+    "OpenAttach",
+    "OpenContentType",
+    "OpenFolder",
+    "OpenHollow",
+    "OpenList",
+    "OpenNotebookAsFolder",
+    "OpenSelectedItems",
+    "OpenSpecificFile",
+    "OpenSpecificFileWith",
+    "ReopenFromServer",
+    "TabRecent"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotTableSelectData",
+      "imageAsset": "images/by-hash/65504a08871b714f.png"
+    },
+    {
+      "name": "PivotTableSelectLabel",
+      "imageAsset": "images/by-hash/5622ad83d80bbca0.png"
+    },
+    {
+      "name": "PivotTableSelectLabelAndData",
+      "imageAsset": "images/by-hash/8770445ac1c74e7b.png"
+    },
+    {
+      "name": "FlyoutAnchorJotRecord",
+      "imageAsset": "images/by-hash/b9f7997a6d333fcc.png"
+    },
+    {
+      "name": "FlyoutAnchorOpenMenu",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "FlyoutAnchorTableInsertMenu",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "HyperlinkFlyoutAnchor",
+      "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+    },
+    {
+      "name": "JustifyVerticalFlyoutAnchor",
+      "imageAsset": "images/by-hash/c1d643ca366c9fb4.png"
+    },
+    {
+      "name": "ProofingToolsFlyoutAnchor",
+      "imageAsset": "images/by-hash/00cd4d0b28c70c30.png"
+    }
+  ],
+  "sameImageIds": []
+}

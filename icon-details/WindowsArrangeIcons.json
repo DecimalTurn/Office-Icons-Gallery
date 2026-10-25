@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "WindowsArrangeAll",
+      "imageAsset": "images/by-hash/b3d706cbe751a83c.png"
+    },
+    {
+      "name": "IconsAndDetails",
+      "imageAsset": "images/by-hash/cc81676e63da29d6.png"
+    },
+    {
+      "name": "IconsAndNames",
+      "imageAsset": "images/by-hash/4cef7c5bcd920c2f.png"
+    },
+    {
+      "name": "IconsOnly",
+      "imageAsset": "images/by-hash/04d965530595bf44.png"
+    },
+    {
+      "name": "LargeIcons",
+      "imageAsset": "images/by-hash/ac092781dfa8eecd.png"
+    },
+    {
+      "name": "LineUpIcons",
+      "imageAsset": "images/by-hash/0927f95a16394c1f.png"
+    },
+    {
+      "name": "NamesUnderIcons",
+      "imageAsset": "images/by-hash/d773ba49c692a331.png"
+    },
+    {
+      "name": "SmallIcons",
+      "imageAsset": "images/by-hash/e3d7f9fe83d27461.png"
+    },
+    {
+      "name": "WindowsCascade",
+      "imageAsset": "images/by-hash/03f66ee979843eb1.png"
+    },
+    {
+      "name": "WindowsCeInboxTransfer",
+      "imageAsset": "images/by-hash/fdb35632601f4665.png"
+    },
+    {
+      "name": "WindowsSwitch",
+      "imageAsset": "images/by-hash/f31605654e3b5082.png"
+    },
+    {
+      "name": "WindowsTileHorizontally",
+      "imageAsset": "images/by-hash/b3d706cbe751a83c.png"
+    }
+  ],
+  "sameImageIds": []
+}

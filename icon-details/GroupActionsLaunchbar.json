@@ -1,0 +1,50 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DeleteItemInLaunchbar",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "GroupViewLaunchbar",
+      "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+    },
+    {
+      "name": "OpenLaunchbar",
+      "imageAsset": "images/by-hash/9001439ebaed8ec9.png"
+    }
+  ],
+  "sameImageIds": [
+    "CodeFindMenu",
+    "FindDialog",
+    "FindDialogExcel",
+    "FindMenu",
+    "FindText",
+    "FormsToolAdvancedFind",
+    "FormsToolFind",
+    "FormsToolFindMenu",
+    "GroupCalendarRefineSearch",
+    "GroupCodeEditing",
+    "GroupContactFind",
+    "GroupContactRefineSearch",
+    "GroupEditing",
+    "GroupEditingExcel",
+    "GroupEditingInfoPath",
+    "GroupFind",
+    "GroupFindAccess",
+    "GroupFindFormsTool",
+    "GroupFindNotepadTool",
+    "GroupJournalRefineSearch",
+    "GroupMailRefineSearch",
+    "GroupNavigate",
+    "GroupNoteRefineSearch",
+    "GroupOutlookEditing",
+    "GroupSearch",
+    "GroupTaskRefineSearch",
+    "InstantSearch",
+    "NavigationPaneFind",
+    "NotebookSearch",
+    "OpenDesktopSearch",
+    "ReadingViewSearch",
+    "SelectMenuExcel"
+  ]
+}

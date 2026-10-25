@@ -1,0 +1,41 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupCheckoutFromProjectServer",
+      "imageAsset": "images/by-hash/b40fac805db5ef0f.png"
+    },
+    {
+      "name": "SourceSafeQuickCheckout",
+      "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+    },
+    {
+      "name": "GoToItemInVersions",
+      "imageAsset": "images/by-hash/8b0774845dc2a20a.png"
+    },
+    {
+      "name": "PageVersions",
+      "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+    },
+    {
+      "name": "PageVersionsHide",
+      "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+    },
+    {
+      "name": "PageVersionsShow",
+      "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+    },
+    {
+      "name": "RecoverUnsavedVersions",
+      "imageAsset": "images/by-hash/36c4195ac87c389c.png"
+    },
+    {
+      "name": "ReviewCompareTwoVersions",
+      "imageAsset": "images/by-hash/a3d43843c96022a2.png"
+    },
+    {
+      "name": "ShowVersionsHistory",
+      "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+    }
+  ],
+  "sameImageIds": []
+}

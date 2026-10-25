@@ -1,0 +1,15 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupSiteSubsitesEdit",
+      "imageAsset": "images/by-hash/e05fd11001f86d90.png"
+    },
+    {
+      "name": "GroupSiteSubsitesManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    }
+  ],
+  "sameImageIds": [
+    "CreateSubsite"
+  ]
+}

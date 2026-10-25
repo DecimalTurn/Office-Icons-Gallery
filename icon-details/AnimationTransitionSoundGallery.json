@@ -1,0 +1,61 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AnimationTransitionGallery",
+      "imageAsset": "images/by-hash/0534cdb0106aaafa.png"
+    },
+    {
+      "name": "AnimationTransitionSpeedGallery",
+      "imageAsset": "images/by-hash/34762937cec92fc4.png"
+    },
+    {
+      "name": "AnimationTransitionVariantGallery",
+      "imageAsset": "images/by-hash/e319589d9e3cfb91.png"
+    },
+    {
+      "name": "BackgroundSound",
+      "imageAsset": "images/by-hash/a861dadff9421bea.png"
+    },
+    {
+      "name": "GroupSoundOptions",
+      "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+    },
+    {
+      "name": "ReminderSound",
+      "imageAsset": "images/by-hash/787c5004e1a222c9.png"
+    },
+    {
+      "name": "SoundInsertFromClipOrganizer",
+      "imageAsset": "images/by-hash/a6caf06e899d31c6.png"
+    },
+    {
+      "name": "SoundInsertFromFile",
+      "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+    },
+    {
+      "name": "SoundInsertMenu02",
+      "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+    },
+    {
+      "name": "SoundMaximumFileSize",
+      "imageAsset": "images/by-hash/abe42933a44bcaef.png"
+    },
+    {
+      "name": "SoundPlaySoundGallery",
+      "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+    },
+    {
+      "name": "GroupTransitionStyles",
+      "imageAsset": "images/by-hash/0534cdb0106aaafa.png"
+    }
+  ],
+  "sameImageIds": [
+    "AnimationAudio",
+    "AudioInsert",
+    "GroupInsertMediaClips",
+    "OmsAudioFromFile",
+    "OmsInsertAudio",
+    "SoundInsertFromFile",
+    "SoundInsertMenu02"
+  ]
+}

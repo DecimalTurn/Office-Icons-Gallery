@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "HtmlInsertEndTag",
+      "imageAsset": "images/by-hash/304064119d95dfe8.png"
+    },
+    {
+      "name": "HtmlMatchTag",
+      "imageAsset": "images/by-hash/584c83b9e3e3d92c.png"
+    },
+    {
+      "name": "HtmlSelectTag",
+      "imageAsset": "images/by-hash/399520136998861b.png"
+    },
+    {
+      "name": "InsertImageHtmlTag",
+      "imageAsset": "images/by-hash/7c09e8bd015cd422.png"
+    },
+    {
+      "name": "InsertParagraphHtmlTag",
+      "imageAsset": "images/by-hash/e4d6825178600211.png"
+    },
+    {
+      "name": "DocViewHtml",
+      "imageAsset": "images/by-hash/b901bce065cea3fc.png"
+    },
+    {
+      "name": "ExportHtmlDocument",
+      "imageAsset": "images/by-hash/da2a8c907eebb5b3.png"
+    },
+    {
+      "name": "GalInsertHtml",
+      "imageAsset": "images/by-hash/4393164cb823d60d.png"
+    },
+    {
+      "name": "HtmlBalanceBraces",
+      "imageAsset": "images/by-hash/0d767782d0c455e6.png"
+    },
+    {
+      "name": "HtmlClearBookmarks",
+      "imageAsset": "images/by-hash/c262881d5094d18e.png"
+    },
+    {
+      "name": "HtmlCodeFragment",
+      "imageAsset": "images/by-hash/02c3023064a8b093.png"
+    },
+    {
+      "name": "HTMLFragmentProperties",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    }
+  ],
+  "sameImageIds": [
+    "InsertTag",
+    "InsertTagMenu"
+  ]
+}

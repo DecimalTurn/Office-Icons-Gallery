@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MenuPreviewPane",
+      "imageAsset": "images/by-hash/09ca90250a29ebbc.png"
+    },
+    {
+      "name": "OmsPreviewPane",
+      "imageAsset": "images/by-hash/328dad11514eede3.png"
+    }
+  ],
+  "sameImageIds": [
+    "DocumentMapReadingView",
+    "GroupLayout",
+    "GroupShowHide",
+    "GroupShowHideCalendarTool",
+    "GroupShowHideFilesTool",
+    "GroupShowHideNotepadTool",
+    "GroupShowHidePicturesTool",
+    "GroupShowHideSiteClient",
+    "MenuNavigationPane",
+    "TaskPanesMenuVisio",
+    "ToggleAccessNavigationPane"
+  ]
+}

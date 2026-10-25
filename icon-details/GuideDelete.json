@@ -1,0 +1,117 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddHorizontalGuide",
+      "imageAsset": "images/by-hash/f52ccfeb77807033.png"
+    },
+    {
+      "name": "AddVerticalGuide",
+      "imageAsset": "images/by-hash/770c3126573549c1.png"
+    },
+    {
+      "name": "AsianLayoutPhoneticGuide",
+      "imageAsset": "images/by-hash/28566b19d88d1297.png"
+    },
+    {
+      "name": "ContextMenuGuide",
+      "imageAsset": "images/by-hash/35e9bdd435048a0d.png"
+    },
+    {
+      "name": "GuideColorGallery",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "PageWidthGuideShowHide",
+      "imageAsset": "images/by-hash/828e97e4441434cb.png"
+    },
+    {
+      "name": "PhoneticGuideEdit",
+      "imageAsset": "images/by-hash/fe734f8a4cbcf984.png"
+    },
+    {
+      "name": "PhoneticGuideFieldShow",
+      "imageAsset": "images/by-hash/28566b19d88d1297.png"
+    },
+    {
+      "name": "PhoneticGuideMenu",
+      "imageAsset": "images/by-hash/fe734f8a4cbcf984.png"
+    },
+    {
+      "name": "PhoneticGuideSettings",
+      "imageAsset": "images/by-hash/ef5f62fc18e0b4e7.png"
+    }
+  ],
+  "sameImageIds": [
+    "Backspace",
+    "ChangeToDeclineInvitation",
+    "ClearGrid",
+    "ClearIconColors",
+    "ClearRow",
+    "ColumnActionsRemove",
+    "ContactDelete",
+    "ContentTypeColumnActionsRemove",
+    "DataSourceCatalogRemove",
+    "DeclineInvitation",
+    "DeclineTask",
+    "Delete",
+    "DeleteAppointmentGallery",
+    "DeleteContentType",
+    "DeleteDistributionGroup",
+    "DeleteFailedEntityInstanceCreateOperation",
+    "DeleteItem",
+    "DeleteItemInLaunchbar",
+    "DeleteNavigationLink",
+    "DeletePermissionGroup",
+    "DeleteSite",
+    "DeleteSpdPage",
+    "DeleteSPDSite",
+    "DeleteWeb",
+    "DeleteWorkspaceFromThisComputer",
+    "DeleteWorkspaceMenu",
+    "FolderDelete",
+    "FormsToolDelete",
+    "GanttTaskDelete",
+    "GroupActions",
+    "GroupCalendarTool",
+    "GroupDelete",
+    "GroupMailDelete",
+    "GroupMeetings",
+    "GroupMembersEdit",
+    "GroupPicturesTool",
+    "GroupSketchpad",
+    "GroupSummaryEdit",
+    "JotPermanentlyDelete",
+    "ListDeleteList",
+    "ListDeleteSelected",
+    "MailDelete",
+    "MeetingsToolAppointmentDelete",
+    "MeetingsToolAppointmentDeleteAgendaItem",
+    "MeetingsToolAppointmentDeleteNote",
+    "MeetingsToolAppointmentDeleteSummary",
+    "MenuDeclineInvitation",
+    "NotebookDelete",
+    "NoteLinkDelete",
+    "NoteLinkDeleteGallery",
+    "NoteLinksDeleteAll",
+    "OutlookTaskRemove",
+    "OutlookTaskRemoveContextual",
+    "PageVersionDelete",
+    "PivotClearAll",
+    "PivotTableDiscardChanges",
+    "RejectApprovalRequest",
+    "RelationshipsClearLayout",
+    "RemoveAttach",
+    "RemoveTaskPathHighlight",
+    "RemoveUserFromGroup",
+    "ReviewDeleteAllMarkupInPresentation",
+    "SharingRequestDeny",
+    "SiteColumnActionsRemove",
+    "SlicerDelete",
+    "SlicerDeleteTouch",
+    "TaskSummaryDeleteSelf",
+    "TimeSlicerDelete",
+    "TimeSlicerDeleteTouch",
+    "ToolDelete",
+    "WorkflowSummaryDeleteWorkflow"
+  ]
+}

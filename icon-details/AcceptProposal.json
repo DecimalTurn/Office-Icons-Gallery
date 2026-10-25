@@ -1,0 +1,73 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AcceptAndAdvance",
+      "imageAsset": "images/by-hash/a37d174078437c42.png"
+    },
+    {
+      "name": "AcceptInvitation",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "AcceptTask",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "CancelAcceptTask",
+      "imageAsset": "images/by-hash/8dfba6da393e2084.png"
+    },
+    {
+      "name": "ChangeToAcceptInvitation",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "ChangeToTentativeAcceptInvitation",
+      "imageAsset": "images/by-hash/1c6cfefae0b6575f.png"
+    },
+    {
+      "name": "ConflictsAccept",
+      "imageAsset": "images/by-hash/a37d174078437c42.png"
+    },
+    {
+      "name": "ConflictsAcceptAndMoveToNext",
+      "imageAsset": "images/by-hash/a37d174078437c42.png"
+    },
+    {
+      "name": "ConflictsAcceptMenu",
+      "imageAsset": "images/by-hash/a37d174078437c42.png"
+    },
+    {
+      "name": "MenuAcceptInvitation",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "ReviewAcceptChange",
+      "imageAsset": "images/by-hash/a37d174078437c42.png"
+    },
+    {
+      "name": "ReviewAcceptChangeAndMoveToNext",
+      "imageAsset": "images/by-hash/a37d174078437c42.png"
+    }
+  ],
+  "sameImageIds": [
+    "AcceptInvitation",
+    "AcceptTask",
+    "ApproveApprovalRequest",
+    "ChangeToAcceptInvitation",
+    "ContactCardUntagForAlerts",
+    "GroupInkCreate",
+    "InkShapeClose",
+    "KeepBackgroundRemoval",
+    "MarkTaskComplete",
+    "MenuAcceptInvitation",
+    "OutlookTaskMarkComplete",
+    "OutlookTaskMarkCompleteContextual",
+    "PersonaMenuUnTagContact",
+    "QuickSearchAllCompleted",
+    "QuickSearchCompletedToday",
+    "QuickSearchCompleteMenu",
+    "QuickSearchJournalEndDateGallery",
+    "SharingRequestAllow",
+    "TagMarkComplete"
+  ]
+}

@@ -26,7 +26,9 @@
     searchResults: [],
     activeResult: -1,
     keywordBaseline: [],
-    keywordSuggestions: []
+    keywordSuggestions: [],
+    sameImageIdsByName: new Map(),
+    reviewRepresentativeById: new Map()
   };
   let reviewButtonFlashTimer;
 
@@ -70,7 +72,7 @@
     if (!state.currentIcon) {
       return new Set();
     }
-    return new Set([state.currentIcon.name, ...(state.currentIcon.sameImageIds || [])]
+    return new Set([state.currentIcon.name, ...(state.sameImageIdsByName.get(state.currentIcon.name) || [])]
       .flatMap(splitIconName)
       .filter((word) => word.length >= 4));
   }
@@ -193,8 +195,9 @@
     elements.search.value = icon.name;
     closeResults();
     elements.imageHash.textContent = icon.imageSha256 ? `SHA-256 ${icon.imageSha256}` : "";
-    elements.sameImageIds.textContent = icon.sameImageIds?.length
-      ? `Identical image IDs: ${icon.sameImageIds.join(", ")}`
+    const sameImageIds = state.sameImageIdsByName.get(icon.name) || [];
+    elements.sameImageIds.textContent = sameImageIds.length
+      ? `Identical image IDs: ${sameImageIds.join(", ")}`
       : "Unique image file";
     renderKeywords(icon.keywords);
     updateReviewState(state.reviewStatus[icon.name] === true);
@@ -210,7 +213,7 @@
       return;
     }
     state.searchResults = state.icons
-      .filter((icon) => [icon.name, ...(icon.sameImageIds || [])]
+      .filter((icon) => [icon.name, ...(state.sameImageIdsByName.get(icon.name) || [])]
         .some((iconId) => iconId.toLocaleLowerCase("en").includes(query)))
       .slice(0, 30);
     elements.results.replaceChildren(...state.searchResults.map((icon, index) => {
@@ -382,6 +385,24 @@
         requestJson("./icon-metadata.json"),
         requestJson("./icon-review-status.json")
       ]);
+      const iconsByImageHash = new Map();
+      for (const icon of metadata) {
+        if (icon.imageStatus === "placeholder" || !icon.imageSha256) {
+          continue;
+        }
+        const group = iconsByImageHash.get(icon.imageSha256) || [];
+        group.push(icon);
+        iconsByImageHash.set(icon.imageSha256, group);
+      }
+      for (const group of iconsByImageHash.values()) {
+        const representative = group[0];
+        for (const icon of group) {
+          state.sameImageIdsByName.set(icon.name, group
+            .filter((sameImageIcon) => sameImageIcon.name !== icon.name)
+            .map((sameImageIcon) => sameImageIcon.name));
+          state.reviewRepresentativeById.set(icon.name, representative);
+        }
+      }
       state.icons = uniqueRealImageIcons(metadata);
       state.keywordSuggestions = [...new Set(metadata.flatMap((icon) => icon.keywords || []))]
         .sort((left, right) => left.localeCompare(right, "en"));
@@ -389,7 +410,8 @@
       updateReviewCount();
       const requestedIconId = new URLSearchParams(window.location.search).get("icon_id")
         || new URLSearchParams(window.location.search).get("icon");
-      const initialIcon = state.icons.find((icon) => icon.name === requestedIconId || icon.sameImageIds?.includes(requestedIconId))
+      const initialIcon = state.icons.find((icon) => icon.name === requestedIconId)
+        || state.reviewRepresentativeById.get(requestedIconId)
         || state.icons.find((icon) => state.reviewStatus[icon.name] !== true)
         || state.icons[0];
       if (!initialIcon) {

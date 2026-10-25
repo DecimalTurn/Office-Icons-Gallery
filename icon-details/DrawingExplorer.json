@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MasterExplorer",
+      "imageAsset": "images/by-hash/b39a0c1f5c3a667e.png"
+    },
+    {
+      "name": "RecurrenceExplorer",
+      "imageAsset": "images/by-hash/5064aeaf0a3850c9.png"
+    },
+    {
+      "name": "StencilExplorer",
+      "imageAsset": "images/by-hash/76e85c2196e5c1bc.png"
+    },
+    {
+      "name": "StyleExplorer",
+      "imageAsset": "images/by-hash/b39a0c1f5c3a667e.png"
+    },
+    {
+      "name": "CadDrawing",
+      "imageAsset": "images/by-hash/f9f0aa1127c8085c.png"
+    },
+    {
+      "name": "CreateNewDrawing",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "DeveloperDrawingTools",
+      "imageAsset": "images/by-hash/cb43a68ff1bbd52c.png"
+    },
+    {
+      "name": "Drawing1ColorPickerLineStyles",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "Drawing1ColorPickerLineStyles2",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "Drawing1ColorPickerLineStylesWordArt",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "Drawing1GalleryBrightness",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "Drawing1GalleryContrast",
+      "imageAsset": "images/by-hash/73b12724fec13c12.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupShowHideDeveloperVisio",
+    "GroupStencilView",
+    "MasterExplorer",
+    "StyleExplorer",
+    "ViewDocumentMap"
+  ]
+}

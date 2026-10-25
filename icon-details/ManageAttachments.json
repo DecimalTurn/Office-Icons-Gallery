@@ -1,0 +1,42 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EnableAttachments",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "MeetingsToolAppointmentAddAttachments",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "MenuAttachmentsMoreActions",
+      "imageAsset": "images/by-hash/aa76cc8c166ebc5f.png"
+    },
+    {
+      "name": "QuickSearchHasAttachments",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "SaveAttachments",
+      "imageAsset": "images/by-hash/f052123ac0779d7f.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByAttachment",
+    "AttachFile",
+    "AttachMenu",
+    "ControlAttachment",
+    "DataTypeAttachment",
+    "EnableAttachments",
+    "FileAttachmentInsert",
+    "GroupAttach",
+    "GroupInclude",
+    "GroupIncludeMainTab",
+    "GroupInsertFiles",
+    "GroupMeetingsToolAppointmentAgendaOptions",
+    "GroupTranslate",
+    "MeetingsToolAppointmentAddAttachments",
+    "OLAttachment",
+    "QuickSearchHasAttachments"
+  ]
+}

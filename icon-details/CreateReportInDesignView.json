@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CreateFormInDesignView",
+      "imageAsset": "images/by-hash/e15d79514a0ddc33.png"
+    },
+    {
+      "name": "CreateQueryInDesignView",
+      "imageAsset": "images/by-hash/79cce7297bfffb37.png"
+    },
+    {
+      "name": "CreateTableInDesignView",
+      "imageAsset": "images/by-hash/faa99bee2a7f02ec.png"
+    },
+    {
+      "name": "CreateNewReportMenu",
+      "imageAsset": "images/by-hash/d424eccd1c1aec43.png"
+    },
+    {
+      "name": "CreateReport",
+      "imageAsset": "images/by-hash/cfb13b5ee60551a3.png"
+    },
+    {
+      "name": "CreateReportBlankReport",
+      "imageAsset": "images/by-hash/d613ffa6c31b0db5.png"
+    },
+    {
+      "name": "CreateReportBlankReportWeb",
+      "imageAsset": "images/by-hash/3ee4f566a710eb41.png"
+    },
+    {
+      "name": "CreateReportFromWizard",
+      "imageAsset": "images/by-hash/5c00f5fe6e818d5a.png"
+    },
+    {
+      "name": "CreateReportWeb",
+      "imageAsset": "images/by-hash/1720c3829a6f0c95.png"
+    },
+    {
+      "name": "WebSiteMapCreateReport",
+      "imageAsset": "images/by-hash/5da1e8a65873b1c6.png"
+    },
+    {
+      "name": "DataDesignWorkflow",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "DesignAccentsGallery",
+      "imageAsset": "images/by-hash/78c9b1acec75c0da.png"
+    }
+  ],
+  "sameImageIds": [
+    "ClientReportsMenu",
+    "CreateNewReportMenu"
+  ]
+}

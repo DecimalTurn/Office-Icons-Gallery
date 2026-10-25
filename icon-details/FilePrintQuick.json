@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FilePrint",
+      "imageAsset": "images/by-hash/9851f75ba5d983b7.png"
+    },
+    {
+      "name": "FilePrintPreview",
+      "imageAsset": "images/by-hash/c02c1d323af75aa4.png"
+    },
+    {
+      "name": "FilePrintSetup",
+      "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+    }
+  ],
+  "sameImageIds": []
+}

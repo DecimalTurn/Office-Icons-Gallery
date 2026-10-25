@@ -1,0 +1,30 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PictureBorderColorPickerClassic",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "PictureColorDialog",
+      "imageAsset": "images/by-hash/6ba4f4a6160a8d70.png"
+    },
+    {
+      "name": "PictureColorReset",
+      "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+    },
+    {
+      "name": "PictureColorTempertatureGallery",
+      "imageAsset": "images/by-hash/e1e6082fe0dac8bb.png"
+    },
+    {
+      "name": "PictureSetTransparentColor",
+      "imageAsset": "images/by-hash/ea0ebc16e5dee9c4.png"
+    }
+  ],
+  "sameImageIds": [
+    "PictureRecolorGallery",
+    "PictureRecolorGalleryWord",
+    "VideoColorMenu",
+    "VideoRecolorGallery"
+  ]
+}

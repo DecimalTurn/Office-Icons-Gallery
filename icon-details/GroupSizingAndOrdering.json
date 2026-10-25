@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotClearCustomOrdering",
+      "imageAsset": "images/by-hash/378982d77fb68197.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupControlPositionLayout",
+    "GroupControlSize",
+    "GroupMarginsAndPaddingControlLayout",
+    "GroupPositionLayout",
+    "GroupSizeAndPosition",
+    "SizeToFit",
+    "SizeToFitAccess"
+  ]
+}

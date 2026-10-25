@@ -1,0 +1,14 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ShapeFillMoreGradientsDialog",
+      "imageAsset": "images/by-hash/d029d90b3636118e.png"
+    }
+  ],
+  "sameImageIds": [
+    "GradientGallery",
+    "ShapeFillGradientGalleryClassic",
+    "ShapeFillMoreGradientsDialog",
+    "TextFillGradientGallery"
+  ]
+}

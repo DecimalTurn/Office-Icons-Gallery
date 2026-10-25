@@ -1,0 +1,65 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ControlMarginsNarrow",
+      "imageAsset": "images/by-hash/b35a2e9329ea7a66.png"
+    },
+    {
+      "name": "ControlPaddingNarrow",
+      "imageAsset": "images/by-hash/c41bf62b99bdcd38.png"
+    },
+    {
+      "name": "GroupInkEditNarrow",
+      "imageAsset": "images/by-hash/6945be477de49d52.png"
+    },
+    {
+      "name": "GroupWindowNarrow",
+      "imageAsset": "images/by-hash/c95c189a111e0473.png"
+    },
+    {
+      "name": "ReadingModeColumnWidthNarrow",
+      "imageAsset": "images/by-hash/b8b3c72b95a044fd.png"
+    },
+    {
+      "name": "RuleLinesNarrow",
+      "imageAsset": "images/by-hash/e67fbec2f727f415.png"
+    },
+    {
+      "name": "FilePageSetupCalendar",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    },
+    {
+      "name": "FilePageSetupCalendarFonts",
+      "imageAsset": "images/by-hash/38d76334050dad66.png"
+    },
+    {
+      "name": "FilePageSetupPage",
+      "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+    },
+    {
+      "name": "FilePrintSetup",
+      "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+    },
+    {
+      "name": "GroupCDAudioSetup",
+      "imageAsset": "images/by-hash/c4155e7df729c0ca.png"
+    },
+    {
+      "name": "GroupPageLayoutSetup",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    }
+  ],
+  "sameImageIds": [
+    "FilePageSetupCalendar",
+    "GroupPageLayoutAccess",
+    "GroupPageLayoutSetup",
+    "GroupPageSetup",
+    "GroupPageSetupHandoutMaster",
+    "GroupPageSetupNotesMaster",
+    "GroupPageSize",
+    "GroupSlideSize",
+    "PageSize",
+    "PageSizeGallery",
+    "PaperSize"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FileSaveAsExcelOpenDocumentSpreadsheet",
+      "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+    },
+    {
+      "name": "FileSaveAsPowerPointOpenDocumentPresentation",
+      "imageAsset": "images/by-hash/024b979096487fc1.png"
+    },
+    {
+      "name": "FileSaveToDocumentManagementServer",
+      "imageAsset": "images/by-hash/87ce166b8e25d0f6.png"
+    },
+    {
+      "name": "FileSaveAsWord97_2003",
+      "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+    },
+    {
+      "name": "FileSaveAsWordDocx",
+      "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+    },
+    {
+      "name": "FileSaveAsWordDotx",
+      "imageAsset": "images/by-hash/86cb8dd56d7c9169.png"
+    },
+    {
+      "name": "SharingOpenDocumentFolder",
+      "imageAsset": "images/by-hash/cebb6d36cf27c851.png"
+    },
+    {
+      "name": "SharingOpenWssDocumentList",
+      "imageAsset": "images/by-hash/603665a9404e542f.png"
+    },
+    {
+      "name": "WordOpenParaAbove",
+      "imageAsset": "images/by-hash/64cbc56ebe9e8277.png"
+    },
+    {
+      "name": "WordOpenParaBelow",
+      "imageAsset": "images/by-hash/652e8c1fd14b8f9c.png"
+    },
+    {
+      "name": "FileCreateDocumentWorkspace",
+      "imageAsset": "images/by-hash/ce51006ac5985a02.png"
+    },
+    {
+      "name": "FileDocumentEncrypt",
+      "imageAsset": "images/by-hash/f081b0a568838ad0.png"
+    }
+  ],
+  "sameImageIds": [
+    "FileSaveAsWord97_2003",
+    "FileSaveAsWordDocx",
+    "SaveAsRichText",
+    "SaveAsRichTextOutline",
+    "SaveAsWord11Xml",
+    "SaveAsWordXml",
+    "SaveDocumentTask",
+    "SendNotesToWord"
+  ]
+}

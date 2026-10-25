@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ActualSize",
+      "imageAsset": "images/by-hash/fe00ad022d5e66dd.png"
+    },
+    {
+      "name": "TeamPlannerActualBorderColor",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "TeamPlannerActualFillColor",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "TeamPlannerActualStyleMenu",
+      "imageAsset": "images/by-hash/4928ec2102019372.png"
+    },
+    {
+      "name": "CostResourceInsert",
+      "imageAsset": "images/by-hash/ba63fa30844f0db4.png"
+    },
+    {
+      "name": "CostTrackingForm",
+      "imageAsset": "images/by-hash/c56f9e5e66372dbb.png"
+    },
+    {
+      "name": "ReportCostGallery",
+      "imageAsset": "images/by-hash/a78fc8835b8c2fe2.png"
+    },
+    {
+      "name": "ViewCostShow",
+      "imageAsset": "images/by-hash/ba63fa30844f0db4.png"
+    },
+    {
+      "name": "ViewCumulativeCostShow",
+      "imageAsset": "images/by-hash/be153295e8703e76.png"
+    },
+    {
+      "name": "ControlPropertyMasterDetail",
+      "imageAsset": "images/by-hash/66a2bd0368cd0e85.png"
+    },
+    {
+      "name": "GroupMasterDetail",
+      "imageAsset": "images/by-hash/66a2bd0368cd0e85.png"
+    },
+    {
+      "name": "MasterDetail",
+      "imageAsset": "images/by-hash/66a2bd0368cd0e85.png"
+    }
+  ],
+  "sameImageIds": []
+}

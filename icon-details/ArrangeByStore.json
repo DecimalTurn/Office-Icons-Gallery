@@ -1,0 +1,16 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddToContentStore",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "InsertContentStore",
+      "imageAsset": "images/by-hash/339c0395fd114d77.png"
+    }
+  ],
+  "sameImageIds": [
+    "NewOutlookDataFile",
+    "SearchStoresToSearchGallery"
+  ]
+}

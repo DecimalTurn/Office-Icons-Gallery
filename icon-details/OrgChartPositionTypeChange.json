@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OrgChartLayoutSpacingChange",
+      "imageAsset": "images/by-hash/4be828dd2621d9d0.png"
+    },
+    {
+      "name": "ChangeControlTypeMenu",
+      "imageAsset": "images/by-hash/e8d7cfd98fa7c60e.png"
+    },
+    {
+      "name": "ChangePictureFileType",
+      "imageAsset": "images/by-hash/b6920ebf67401601.png"
+    },
+    {
+      "name": "ChartChangeType",
+      "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+    },
+    {
+      "name": "ChartSeriesTypeChange",
+      "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+    },
+    {
+      "name": "ColumnActionsChangeType",
+      "imageAsset": "images/by-hash/5f241bde88d838b2.png"
+    },
+    {
+      "name": "ShapeSheetChangeRowType",
+      "imageAsset": "images/by-hash/0a28579ba4cfd5a5.png"
+    },
+    {
+      "name": "SiteColumnActionsChangeType",
+      "imageAsset": "images/by-hash/5f241bde88d838b2.png"
+    },
+    {
+      "name": "GalPosition",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "GroupControlPositionLayout",
+      "imageAsset": "images/by-hash/1a818d7a07dd3cd5.png"
+    },
+    {
+      "name": "GroupHeaderFooterPosition",
+      "imageAsset": "images/by-hash/0b76d10d2d30d097.png"
+    },
+    {
+      "name": "GroupPosition",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupOutliningClose",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "ArrangeTools",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "ArrangeToolsSiteClient",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "AudioToolsTrim",
+      "imageAsset": "images/by-hash/9de2f9e4dcce8de7.png"
+    },
+    {
+      "name": "AutoSummaryToolsMenu",
+      "imageAsset": "images/by-hash/61c99640ab898dcc.png"
+    },
+    {
+      "name": "DeveloperDrawingTools",
+      "imageAsset": "images/by-hash/cb43a68ff1bbd52c.png"
+    },
+    {
+      "name": "GroupAccessTools",
+      "imageAsset": "images/by-hash/6e89cbd7d71902d5.png"
+    },
+    {
+      "name": "GroupAdpQueryTools",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupAdpSqlStatementDesignTools",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupAudioToolsAdjust",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "GroupBroadcastTools",
+      "imageAsset": "images/by-hash/9be846b45cd05c28.png"
+    },
+    {
+      "name": "GroupConnectedToolsWorkspace",
+      "imageAsset": "images/by-hash/361923eeca76eb5a.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupPivotTableSelections",
+    "OutlineDemote",
+    "SmartArtDemote"
+  ]
+}

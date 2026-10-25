@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupMessageFormat",
+      "imageAsset": "images/by-hash/06f09efbf605e6e2.png"
+    },
+    {
+      "name": "GroupMessageFormatNew",
+      "imageAsset": "images/by-hash/06f09efbf605e6e2.png"
+    },
+    {
+      "name": "MessageFormatPlainText",
+      "imageAsset": "images/by-hash/6f5d43fba605d1c6.png"
+    },
+    {
+      "name": "MessageFormatRichText",
+      "imageAsset": "images/by-hash/1819d9833fe56cf4.png"
+    },
+    {
+      "name": "DocViewHtml",
+      "imageAsset": "images/by-hash/b901bce065cea3fc.png"
+    },
+    {
+      "name": "ExportHtmlDocument",
+      "imageAsset": "images/by-hash/da2a8c907eebb5b3.png"
+    },
+    {
+      "name": "GalInsertHtml",
+      "imageAsset": "images/by-hash/4393164cb823d60d.png"
+    },
+    {
+      "name": "HtmlBalanceBraces",
+      "imageAsset": "images/by-hash/0d767782d0c455e6.png"
+    },
+    {
+      "name": "HtmlClearBookmarks",
+      "imageAsset": "images/by-hash/c262881d5094d18e.png"
+    },
+    {
+      "name": "HtmlCodeFragment",
+      "imageAsset": "images/by-hash/02c3023064a8b093.png"
+    },
+    {
+      "name": "HTMLFragmentProperties",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "HtmlInsertComment",
+      "imageAsset": "images/by-hash/aa50ea3f6845ef69.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChangeCase",
+    "ChangeCaseDialogClassic",
+    "ChangeCaseGallery",
+    "ChangeCaseGalleryPublisher",
+    "ContentControlRichText",
+    "GroupMessageFormat",
+    "GroupMessageFormatNew",
+    "TextNormalCase"
+  ]
+}

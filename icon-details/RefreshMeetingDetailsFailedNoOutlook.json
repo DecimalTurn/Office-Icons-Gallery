@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "RefreshMeetingDetailsFailed",
+      "imageAsset": "images/by-hash/97aa2707913941c1.png"
+    },
+    {
+      "name": "RefreshMeetingDetailsFailedNotFound",
+      "imageAsset": "images/by-hash/97aa2707913941c1.png"
+    },
+    {
+      "name": "RefreshMeetingDetails",
+      "imageAsset": "images/by-hash/e8081053f6abd3be.png"
+    },
+    {
+      "name": "RefreshMeetingDetailsRunning",
+      "imageAsset": "images/by-hash/e8081053f6abd3be.png"
+    },
+    {
+      "name": "MeetingDetailsInsertGallery",
+      "imageAsset": "images/by-hash/c674434a67623947.png"
+    },
+    {
+      "name": "MeetingDetailsOtherDayInsert",
+      "imageAsset": "images/by-hash/c674434a67623947.png"
+    },
+    {
+      "name": "DeleteFailedEntityInstanceCreateOperation",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "BorderBottomNoToggle",
+      "imageAsset": "images/by-hash/55ed253243346cfc.png"
+    },
+    {
+      "name": "BorderLeftNoToggle",
+      "imageAsset": "images/by-hash/aa0534c0ead9c22c.png"
+    },
+    {
+      "name": "BorderRightNoToggle",
+      "imageAsset": "images/by-hash/6cdf266bdd875afb.png"
+    },
+    {
+      "name": "BorderTopNoToggle",
+      "imageAsset": "images/by-hash/ab7e4b394c677a88.png"
+    },
+    {
+      "name": "CalculatedYesNo",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    }
+  ],
+  "sameImageIds": [
+    "RefreshMeetingDetailsFailed",
+    "RefreshMeetingDetailsFailedNotFound"
+  ]
+}

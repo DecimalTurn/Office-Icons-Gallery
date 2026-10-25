@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupPagePermissionsEdit",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "GroupSitePermissionsEdit",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "DatabasePermissions",
+      "imageAsset": "images/by-hash/0fc48be98e297bf9.png"
+    },
+    {
+      "name": "DatabasePermissionsMenu",
+      "imageAsset": "images/by-hash/3d4e109f94401bbe.png"
+    },
+    {
+      "name": "GrantUserPermissions",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "GroupPagePermissionsActions",
+      "imageAsset": "images/by-hash/c73b835e6c7da564.png"
+    },
+    {
+      "name": "GroupPagePermissionsManage",
+      "imageAsset": "images/by-hash/3d4e109f94401bbe.png"
+    },
+    {
+      "name": "GroupPagePermissionsNew",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "GroupSitePermissionsActions",
+      "imageAsset": "images/by-hash/c73b835e6c7da564.png"
+    },
+    {
+      "name": "GroupSitePermissionsManage",
+      "imageAsset": "images/by-hash/3d4e109f94401bbe.png"
+    },
+    {
+      "name": "GroupSitePermissionsNew",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "InheritPermissions",
+      "imageAsset": "images/by-hash/c73b835e6c7da564.png"
+    }
+  ],
+  "sameImageIds": [
+    "CatalogMergeEditList",
+    "EditPermissionGroup",
+    "GroupPermissionGroupsEdit",
+    "MailMergeRecipientsEditList"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "JotLeaveRtcSession",
+      "imageAsset": "images/by-hash/1a8438bc59cc8811.png"
+    },
+    {
+      "name": "JotRtcStartSession",
+      "imageAsset": "images/by-hash/b8151c390b4c21c4.png"
+    },
+    {
+      "name": "RtcJoinExistingSession",
+      "imageAsset": "images/by-hash/785cdcfb6d5f39c8.png"
+    },
+    {
+      "name": "RtcLeaveSession",
+      "imageAsset": "images/by-hash/e20b82e24f3270ea.png"
+    },
+    {
+      "name": "GroupRtc",
+      "imageAsset": "images/by-hash/06f20870e535961c.png"
+    },
+    {
+      "name": "RtcMenu",
+      "imageAsset": "images/by-hash/06f20870e535961c.png"
+    },
+    {
+      "name": "RtcShowDetails",
+      "imageAsset": "images/by-hash/8c98ca6430444fe7.png"
+    },
+    {
+      "name": "BroadcastFromCurrent",
+      "imageAsset": "images/by-hash/1ce01d1424245dc7.png"
+    },
+    {
+      "name": "CurrentEraser",
+      "imageAsset": "images/by-hash/e876e8df44c2bf8d.png"
+    },
+    {
+      "name": "CurrentViewGallery",
+      "imageAsset": "images/by-hash/3cb7771c306e0262.png"
+    },
+    {
+      "name": "CurrentViewSave",
+      "imageAsset": "images/by-hash/af65b186fe0f6cb9.png"
+    },
+    {
+      "name": "CurrentViewSettings",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupRtc",
+    "RtcMenu"
+  ]
+}

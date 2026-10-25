@@ -1,0 +1,18 @@
+{
+  "relatedIcons": [
+    {
+      "name": "InsertColumnLeft",
+      "imageAsset": "images/by-hash/0d51255d3efa9e47.png"
+    },
+    {
+      "name": "InsertColumnRightAccess",
+      "imageAsset": "images/by-hash/c44ace9a9c2303d5.png"
+    }
+  ],
+  "sameImageIds": [
+    "EquationMatrixInsertColumnBefore",
+    "InsertColumnLeft",
+    "TableColumnsInsertLeft",
+    "TableInsertColumnsLeft"
+  ]
+}

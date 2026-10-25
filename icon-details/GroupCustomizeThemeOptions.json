@@ -1,0 +1,64 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CustomizeMySite",
+      "imageAsset": "images/by-hash/93781d39d8f61aa1.png"
+    },
+    {
+      "name": "CustomizeSearchFolder",
+      "imageAsset": "images/by-hash/5eca02018885dfc7.png"
+    },
+    {
+      "name": "CustomizeXSLTMenu",
+      "imageAsset": "images/by-hash/daf258dce7e70476.png"
+    },
+    {
+      "name": "NumberingCustomize",
+      "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+    },
+    {
+      "name": "OmsCustomizeLayout",
+      "imageAsset": "images/by-hash/6b84ae529df0daa2.png"
+    },
+    {
+      "name": "TagsCustomize",
+      "imageAsset": "images/by-hash/4cf8a0d18ea84259.png"
+    },
+    {
+      "name": "GroupMasterEditTheme",
+      "imageAsset": "images/by-hash/38388a6cca16597f.png"
+    },
+    {
+      "name": "GroupThemeVariants",
+      "imageAsset": "images/by-hash/eb8d74686e3c6945.png"
+    },
+    {
+      "name": "PasteDestinationTheme",
+      "imageAsset": "images/by-hash/94aff1473d9111ab.png"
+    },
+    {
+      "name": "PasteDragDropDestinationTheme",
+      "imageAsset": "images/by-hash/94aff1473d9111ab.png"
+    },
+    {
+      "name": "PasteExcelChartDestinationTheme",
+      "imageAsset": "images/by-hash/94aff1473d9111ab.png"
+    },
+    {
+      "name": "PasteLinkedExcelChartDestinationTheme",
+      "imageAsset": "images/by-hash/30dad84575949f2d.png"
+    }
+  ],
+  "sameImageIds": [
+    "BackgroundsGallery",
+    "FormatBackground",
+    "GroupBackground",
+    "GroupBackgrounds",
+    "LaunchFormatBackground",
+    "PageColorGallery",
+    "PageColorPicker",
+    "SlideBackgroundFormatDialog",
+    "SlideBackgroundStylesGallery",
+    "XDBackgroundColor"
+  ]
+}

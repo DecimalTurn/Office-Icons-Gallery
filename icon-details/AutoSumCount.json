@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AutoSum",
+      "imageAsset": "images/by-hash/f3efe98ab9433ece.png"
+    },
+    {
+      "name": "CoauthorCount",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    },
+    {
+      "name": "WordCount",
+      "imageAsset": "images/by-hash/24838349988e2606.png"
+    },
+    {
+      "name": "WordCountList",
+      "imageAsset": "images/by-hash/24838349988e2606.png"
+    }
+  ],
+  "sameImageIds": []
+}

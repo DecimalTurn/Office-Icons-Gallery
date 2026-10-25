@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AccessFormWizard",
+      "imageAsset": "images/by-hash/e66e4f9a48e1e90f.png"
+    },
+    {
+      "name": "AutoFormatWizard",
+      "imageAsset": "images/by-hash/e1c785943851c579.png"
+    },
+    {
+      "name": "BusinessFormWizard",
+      "imageAsset": "images/by-hash/ff2b8b263256718d.png"
+    },
+    {
+      "name": "CreateQueryFromWizard",
+      "imageAsset": "images/by-hash/b674448c3a22d477.png"
+    },
+    {
+      "name": "CreateReportFromWizard",
+      "imageAsset": "images/by-hash/5c00f5fe6e818d5a.png"
+    },
+    {
+      "name": "DatabaseUserLevelSecurityWizard",
+      "imageAsset": "images/by-hash/2b78127422e675d2.png"
+    },
+    {
+      "name": "EmailMergeWizard",
+      "imageAsset": "images/by-hash/eeb096887d505037.png"
+    },
+    {
+      "name": "FunctionWizard",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "MailMergeWizard",
+      "imageAsset": "images/by-hash/eeb096887d505037.png"
+    },
+    {
+      "name": "PostcardWizard",
+      "imageAsset": "images/by-hash/111c129dd027d9a8.png"
+    },
+    {
+      "name": "PublishWizard",
+      "imageAsset": "images/by-hash/af14d4bc91435098.png"
+    },
+    {
+      "name": "ResourceSubstitutionWizard",
+      "imageAsset": "images/by-hash/5ceb899f7b6ec067.png"
+    }
+  ],
+  "sameImageIds": []
+}

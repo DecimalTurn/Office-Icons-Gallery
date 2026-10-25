@@ -1,0 +1,65 @@
+{
+  "relatedIcons": [
+    {
+      "name": "InfopathPromoteFormProperties",
+      "imageAsset": "images/by-hash/9ae8770f7e5d5f6f.png"
+    },
+    {
+      "name": "OutlinePromote",
+      "imageAsset": "images/by-hash/e1ca9077091fbbf5.png"
+    },
+    {
+      "name": "OutlinePromoteToHeading",
+      "imageAsset": "images/by-hash/cee3478b2e52842c.png"
+    },
+    {
+      "name": "PivotDiagramPromote",
+      "imageAsset": "images/by-hash/a3aa1d1b18d2bb65.png"
+    },
+    {
+      "name": "SmartArtPromote",
+      "imageAsset": "images/by-hash/e1ca9077091fbbf5.png"
+    },
+    {
+      "name": "CatalogPagesInsert",
+      "imageAsset": "images/by-hash/c4291bde75d4f2b1.png"
+    },
+    {
+      "name": "CloseAllPages",
+      "imageAsset": "images/by-hash/76ac83fb7e258b44.png"
+    },
+    {
+      "name": "EnvelopeSendAllPages",
+      "imageAsset": "images/by-hash/e0cc6d34c73b1b24.png"
+    },
+    {
+      "name": "GalPrintPagesTall",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "GalPrintPagesWide",
+      "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+    },
+    {
+      "name": "GroupInsertPages",
+      "imageAsset": "images/by-hash/2e3940b44c217189.png"
+    },
+    {
+      "name": "GroupLayoutPagesEdit",
+      "imageAsset": "images/by-hash/90f5920b899619e8.png"
+    }
+  ],
+  "sameImageIds": [
+    "BackAttach",
+    "GanttPrevious",
+    "LeftArrow2",
+    "NavBack",
+    "OrgChartReportMoveLeft",
+    "PageLeftPreview",
+    "PivotDiagramMoveLeft",
+    "PreviousResource",
+    "ResultsPaneGoPrev",
+    "RightToLeftEmbedding",
+    "WebGoBack"
+  ]
+}

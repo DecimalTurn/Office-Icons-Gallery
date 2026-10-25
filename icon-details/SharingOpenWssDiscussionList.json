@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SharingPreviewWssDiscussionList",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingOpenWssCalendar",
+      "imageAsset": "images/by-hash/feff041c0012ff48.png"
+    },
+    {
+      "name": "SharingOpenWssContactList",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "SharingOpenWssDocumentList",
+      "imageAsset": "images/by-hash/603665a9404e542f.png"
+    },
+    {
+      "name": "SharingOpenWssTaskList",
+      "imageAsset": "images/by-hash/906061656933d759.png"
+    },
+    {
+      "name": "SharingPreviewWssCalendar",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingPreviewWssContactList",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingPreviewWssDocumentList",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingPreviewWssTaskList",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "OpenFromWSS",
+      "imageAsset": "images/by-hash/98c54f34d050e16b.png"
+    },
+    {
+      "name": "SharingOpenCalendarFolder",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "SharingOpenContactFolder",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    }
+  ],
+  "sameImageIds": []
+}

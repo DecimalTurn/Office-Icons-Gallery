@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "VerifySelectedHyperlinks",
+      "imageAsset": "images/by-hash/d622155ca0500559.png"
+    },
+    {
+      "name": "AdpVerifySqlSyntax",
+      "imageAsset": "images/by-hash/3da4d8e7b632430f.png"
+    },
+    {
+      "name": "HyperlinksRemove",
+      "imageAsset": "images/by-hash/8e57aabc8dedd4c1.png"
+    }
+  ],
+  "sameImageIds": [
+    "TaskRespectLinks",
+    "TaskRespectLinksVisibleByContext",
+    "VerifySelectedHyperlinks"
+  ]
+}

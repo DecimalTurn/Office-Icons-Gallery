@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SendCopyCheckNames",
+      "imageAsset": "images/by-hash/7a6a332bf2402a9a.png"
+    },
+    {
+      "name": "MailSelectNames",
+      "imageAsset": "images/by-hash/55c1de91a1dbd4c1.png"
+    },
+    {
+      "name": "SendCopyFlag",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "SendCopyOptions",
+      "imageAsset": "images/by-hash/b6ea474febb006d7.png"
+    },
+    {
+      "name": "SendCopySendNow",
+      "imageAsset": "images/by-hash/676a2358a8eb6d14.png"
+    },
+    {
+      "name": "SendCopySendToMailRecipient",
+      "imageAsset": "images/by-hash/e0cc6d34c73b1b24.png"
+    },
+    {
+      "name": "AdpDiagramColumnNames",
+      "imageAsset": "images/by-hash/c5ddb0905ee042e2.png"
+    },
+    {
+      "name": "CheckNames",
+      "imageAsset": "images/by-hash/7a6a332bf2402a9a.png"
+    },
+    {
+      "name": "GroupNames",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "IconsAndNames",
+      "imageAsset": "images/by-hash/4cef7c5bcd920c2f.png"
+    },
+    {
+      "name": "MacroNames",
+      "imageAsset": "images/by-hash/71badbe5c1978a66.png"
+    },
+    {
+      "name": "NamesOnly",
+      "imageAsset": "images/by-hash/60aeac4b474d55f7.png"
+    }
+  ],
+  "sameImageIds": [
+    "MailSelectNames"
+  ]
+}

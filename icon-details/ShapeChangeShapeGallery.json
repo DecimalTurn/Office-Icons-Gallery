@@ -1,0 +1,36 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartChangeDataLabelShapeGallery",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "ShapeSheetChangeRowType",
+      "imageAsset": "images/by-hash/0a28579ba4cfd5a5.png"
+    },
+    {
+      "name": "WordArtChangeShapeGallery",
+      "imageAsset": "images/by-hash/a556869938bec4ed.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChartChangeDataLabelShapeGallery",
+    "ChartChangeDataLabelShapesGallery",
+    "GalleryAllShapesAndCanvas",
+    "GalleryAllShapesAndTextboxes",
+    "GroupChartShapes",
+    "GroupInsertIllustrations",
+    "GroupInsertShapes",
+    "GroupInsertShapesOneNote",
+    "GroupShapes",
+    "GroupShapesChart",
+    "GroupShapesClassic",
+    "InkShapeGallery",
+    "PictureShapeGallery",
+    "ReplaceShape",
+    "ShapesInsertGallery",
+    "ShapesMoreShapes",
+    "ShowAutoShapesAndDrawingBars",
+    "VideoShapeGallery"
+  ]
+}

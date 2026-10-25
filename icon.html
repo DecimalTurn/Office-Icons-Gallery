@@ -140,17 +140,17 @@
             }
             return response.json();
           }),
-          fetch(`./related-icons/${encodeURIComponent(iconName)}.json`).then((response) => {
+          fetch(`./icon-details/${encodeURIComponent(iconName)}.json`).then((response) => {
             if (response.status === 404) {
-              return [];
+              return { relatedIcons: [], sameImageIds: [] };
             }
             if (!response.ok) {
-              throw new Error("Could not load related icons");
+              throw new Error("Could not load icon details");
             }
             return response.json();
           })
         ])
-          .then(([metadata, relatedIcons]) => {
+          .then(([metadata, iconDetails]) => {
             const icon = metadata.find((entry) => entry.name === iconName);
             iconKeywords.replaceChildren(...(icon?.keywords || []).map((keyword) => {
               const item = document.createElement("li");
@@ -166,8 +166,8 @@
             }
 
             const metadataByName = new Map(metadata.map((entry) => [entry.name, entry]));
-            if (relatedIcons.length > 0) {
-              const relatedItems = relatedIcons.map((relatedIcon) => {
+            if (iconDetails.relatedIcons.length > 0) {
+              const relatedItems = iconDetails.relatedIcons.map((relatedIcon) => {
                 const item = document.createElement("li");
                 const link = document.createElement("a");
                 const image = document.createElement("img");
@@ -188,7 +188,7 @@
               updateRelatedIconControls();
             }
 
-            const sameImageIds = (icon?.sameImageIds || [])
+            const sameImageIds = (iconDetails.sameImageIds || [])
               .filter((name) => metadataByName.has(name));
             if (sameImageIds.length > 0) {
               const sameImageItems = sameImageIds.map((name) => {

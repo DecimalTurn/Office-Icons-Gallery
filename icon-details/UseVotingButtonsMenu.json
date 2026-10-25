@@ -1,0 +1,52 @@
+{
+  "relatedIcons": [
+    {
+      "name": "VotingGallery",
+      "imageAsset": "images/by-hash/9fd46fceb1eb4a60.png"
+    },
+    {
+      "name": "PivotChartShowFieldButtons",
+      "imageAsset": "images/by-hash/343b4155affdf05f.png"
+    },
+    {
+      "name": "PivotChartShowFieldButtonsMenu",
+      "imageAsset": "images/by-hash/343b4155affdf05f.png"
+    },
+    {
+      "name": "PivotPlusMinusButtonsShowHide",
+      "imageAsset": "images/by-hash/b2b5915c644d84b0.png"
+    },
+    {
+      "name": "CatalogMergeUseOutlookContacts",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "MailMergeRecepientsUseExistingList",
+      "imageAsset": "images/by-hash/ed662b1b3d27fe6e.png"
+    },
+    {
+      "name": "MailMergeRecepientsUseOutlookContacts",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "NameUseInFormula",
+      "imageAsset": "images/by-hash/d5923aa78fc61dbb.png"
+    },
+    {
+      "name": "SlideShowUsePresenterView",
+      "imageAsset": "images/by-hash/919a51806dcb421a.png"
+    },
+    {
+      "name": "SlideShowUseRehearsedTimings",
+      "imageAsset": "images/by-hash/ab36690dee5875c7.png"
+    },
+    {
+      "name": "UseAccountOnAnotherComputer",
+      "imageAsset": "images/by-hash/eec5e4235d18acbc.png"
+    }
+  ],
+  "sameImageIds": [
+    "VoteMenu",
+    "VotingGallery"
+  ]
+}

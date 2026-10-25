@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "_3DMaterialMetal",
+      "imageAsset": "images/by-hash/a68a2cae81684f42.png"
+    },
+    {
+      "name": "_3DMaterialMixed",
+      "imageAsset": "images/by-hash/6a125824c21803dd.png"
+    },
+    {
+      "name": "_3DMaterialPlastic",
+      "imageAsset": "images/by-hash/a4e97b65fce60bc5.png"
+    },
+    {
+      "name": "_3DSurfaceMaterialClassic",
+      "imageAsset": "images/by-hash/2f28872e58d8de88.png"
+    },
+    {
+      "name": "_3DSurfaceMaterialGalleryClassic",
+      "imageAsset": "images/by-hash/2f28872e58d8de88.png"
+    },
+    {
+      "name": "MaterialResourceInsert",
+      "imageAsset": "images/by-hash/06437e920f391343.png"
+    }
+  ],
+  "sameImageIds": []
+}

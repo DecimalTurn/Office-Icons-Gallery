@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "StarRatedEmpty",
+      "imageAsset": "images/by-hash/7f262bb91d7afccd.png"
+    },
+    {
+      "name": "StarRatedHalf",
+      "imageAsset": "images/by-hash/2950bde0d45d5356.png"
+    },
+    {
+      "name": "StarUnratedFull",
+      "imageAsset": "images/by-hash/81eff785356b544a.png"
+    },
+    {
+      "name": "ShapeStar",
+      "imageAsset": "images/by-hash/7f262bb91d7afccd.png"
+    },
+    {
+      "name": "StarUnratedEmpty",
+      "imageAsset": "images/by-hash/564c93f8926fe9a0.png"
+    },
+    {
+      "name": "CalculateFull",
+      "imageAsset": "images/by-hash/99067d2863a50f42.png"
+    },
+    {
+      "name": "FullPageView",
+      "imageAsset": "images/by-hash/f344b77178a2d9f7.png"
+    },
+    {
+      "name": "FullScreenViewClassic",
+      "imageAsset": "images/by-hash/919a51806dcb421a.png"
+    },
+    {
+      "name": "GroupViewFullPage",
+      "imageAsset": "images/by-hash/f344b77178a2d9f7.png"
+    },
+    {
+      "name": "PrintPreviewFullScreen",
+      "imageAsset": "images/by-hash/c02c1d323af75aa4.png"
+    },
+    {
+      "name": "TimelineViewCopyFullSize",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    },
+    {
+      "name": "ViewFullScreenReadingView",
+      "imageAsset": "images/by-hash/faeb4446f4fdb538.png"
+    }
+  ],
+  "sameImageIds": []
+}

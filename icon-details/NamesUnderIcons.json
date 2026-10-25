@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "IconsAndNames",
+      "imageAsset": "images/by-hash/4cef7c5bcd920c2f.png"
+    },
+    {
+      "name": "IconsAndDetails",
+      "imageAsset": "images/by-hash/cc81676e63da29d6.png"
+    },
+    {
+      "name": "IconsOnly",
+      "imageAsset": "images/by-hash/04d965530595bf44.png"
+    },
+    {
+      "name": "LargeIcons",
+      "imageAsset": "images/by-hash/ac092781dfa8eecd.png"
+    },
+    {
+      "name": "LineUpIcons",
+      "imageAsset": "images/by-hash/0927f95a16394c1f.png"
+    },
+    {
+      "name": "SmallIcons",
+      "imageAsset": "images/by-hash/e3d7f9fe83d27461.png"
+    },
+    {
+      "name": "WindowsArrangeIcons",
+      "imageAsset": "images/by-hash/00ff86c8b54acd38.png"
+    },
+    {
+      "name": "AdpDiagramColumnNames",
+      "imageAsset": "images/by-hash/c5ddb0905ee042e2.png"
+    },
+    {
+      "name": "CheckNames",
+      "imageAsset": "images/by-hash/7a6a332bf2402a9a.png"
+    },
+    {
+      "name": "GroupNames",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "MacroNames",
+      "imageAsset": "images/by-hash/71badbe5c1978a66.png"
+    },
+    {
+      "name": "MailSelectNames",
+      "imageAsset": "images/by-hash/55c1de91a1dbd4c1.png"
+    }
+  ],
+  "sameImageIds": []
+}

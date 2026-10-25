@@ -1,0 +1,125 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AdpDiagramRelationships",
+      "imageAsset": "images/by-hash/64480077e54e1b8b.png"
+    },
+    {
+      "name": "AsppRelationships",
+      "imageAsset": "images/by-hash/64480077e54e1b8b.png"
+    },
+    {
+      "name": "DatabaseRelationships",
+      "imageAsset": "images/by-hash/64480077e54e1b8b.png"
+    },
+    {
+      "name": "GroupDatasheetRelationships",
+      "imageAsset": "images/by-hash/137ac164f27ccd56.png"
+    },
+    {
+      "name": "GroupRelationships",
+      "imageAsset": "images/by-hash/137ac164f27ccd56.png"
+    },
+    {
+      "name": "GroupRelationshipsTools",
+      "imageAsset": "images/by-hash/432b65cc42d1977f.png"
+    },
+    {
+      "name": "GroupTableRelationships",
+      "imageAsset": "images/by-hash/64480077e54e1b8b.png"
+    },
+    {
+      "name": "RelationshipDesignAllRelationships",
+      "imageAsset": "images/by-hash/7af7901de0ee8ad7.png"
+    },
+    {
+      "name": "RelationshipsDirectRelationships",
+      "imageAsset": "images/by-hash/64480077e54e1b8b.png"
+    },
+    {
+      "name": "RelationshipsEditRelationships",
+      "imageAsset": "images/by-hash/432b65cc42d1977f.png"
+    },
+    {
+      "name": "RelationshipsHideTable",
+      "imageAsset": "images/by-hash/1325a20eb32207e6.png"
+    },
+    {
+      "name": "RelationshipsReport",
+      "imageAsset": "images/by-hash/8241609b6a3ff858.png"
+    }
+  ],
+  "sameImageIds": [
+    "Backspace",
+    "ChangeToDeclineInvitation",
+    "ClearGrid",
+    "ClearIconColors",
+    "ClearRow",
+    "ColumnActionsRemove",
+    "ContactDelete",
+    "ContentTypeColumnActionsRemove",
+    "DataSourceCatalogRemove",
+    "DeclineInvitation",
+    "DeclineTask",
+    "Delete",
+    "DeleteAppointmentGallery",
+    "DeleteContentType",
+    "DeleteDistributionGroup",
+    "DeleteFailedEntityInstanceCreateOperation",
+    "DeleteItem",
+    "DeleteItemInLaunchbar",
+    "DeleteNavigationLink",
+    "DeletePermissionGroup",
+    "DeleteSite",
+    "DeleteSpdPage",
+    "DeleteSPDSite",
+    "DeleteWeb",
+    "DeleteWorkspaceFromThisComputer",
+    "DeleteWorkspaceMenu",
+    "FolderDelete",
+    "FormsToolDelete",
+    "GanttTaskDelete",
+    "GroupActions",
+    "GroupCalendarTool",
+    "GroupDelete",
+    "GroupMailDelete",
+    "GroupMeetings",
+    "GroupMembersEdit",
+    "GroupPicturesTool",
+    "GroupSketchpad",
+    "GroupSummaryEdit",
+    "GuideDelete",
+    "JotPermanentlyDelete",
+    "ListDeleteList",
+    "ListDeleteSelected",
+    "MailDelete",
+    "MeetingsToolAppointmentDelete",
+    "MeetingsToolAppointmentDeleteAgendaItem",
+    "MeetingsToolAppointmentDeleteNote",
+    "MeetingsToolAppointmentDeleteSummary",
+    "MenuDeclineInvitation",
+    "NotebookDelete",
+    "NoteLinkDelete",
+    "NoteLinkDeleteGallery",
+    "NoteLinksDeleteAll",
+    "OutlookTaskRemove",
+    "OutlookTaskRemoveContextual",
+    "PageVersionDelete",
+    "PivotClearAll",
+    "PivotTableDiscardChanges",
+    "RejectApprovalRequest",
+    "RemoveAttach",
+    "RemoveTaskPathHighlight",
+    "RemoveUserFromGroup",
+    "ReviewDeleteAllMarkupInPresentation",
+    "SharingRequestDeny",
+    "SiteColumnActionsRemove",
+    "SlicerDelete",
+    "SlicerDeleteTouch",
+    "TaskSummaryDeleteSelf",
+    "TimeSlicerDelete",
+    "TimeSlicerDeleteTouch",
+    "ToolDelete",
+    "WorkflowSummaryDeleteWorkflow"
+  ]
+}

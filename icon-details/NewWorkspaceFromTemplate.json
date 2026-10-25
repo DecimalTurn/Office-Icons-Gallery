@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SaveWorkspaceAsTemplate",
+      "imageAsset": "images/by-hash/1916a6246f07c799.png"
+    },
+    {
+      "name": "ContactInviteToWorkspace",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "ContactWorkspaceUninvite",
+      "imageAsset": "images/by-hash/feaa203db9c1adcc.png"
+    },
+    {
+      "name": "DataFromWorkspace",
+      "imageAsset": "images/by-hash/0ff39c62f6fe47fe.png"
+    },
+    {
+      "name": "DeleteWorkspaceFromThisComputer",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "DeleteWorkspaceMenu",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "FileCreateDocumentWorkspace",
+      "imageAsset": "images/by-hash/ce51006ac5985a02.png"
+    },
+    {
+      "name": "GroupConnectedToolsWorkspace",
+      "imageAsset": "images/by-hash/361923eeca76eb5a.png"
+    },
+    {
+      "name": "GroupFormPublishSharePointWorkspace",
+      "imageAsset": "images/by-hash/37e39fbb534fae4d.png"
+    },
+    {
+      "name": "GroupToolsWorkspace",
+      "imageAsset": "images/by-hash/361923eeca76eb5a.png"
+    },
+    {
+      "name": "GroupWorkspace",
+      "imageAsset": "images/by-hash/603fb4ebaa16b57b.png"
+    },
+    {
+      "name": "MarkWorkspaceReadInMenu",
+      "imageAsset": "images/by-hash/42e40667ed43a78e.png"
+    }
+  ],
+  "sameImageIds": [
+    "SaveWorkspaceAsTemplate"
+  ]
+}

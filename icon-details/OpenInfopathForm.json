@@ -1,0 +1,37 @@
+{
+  "relatedIcons": [
+    {
+      "name": "InfopathFormActionsMenu",
+      "imageAsset": "images/by-hash/9c1800795abd321b.png"
+    },
+    {
+      "name": "InfopathPromoteFormProperties",
+      "imageAsset": "images/by-hash/9ae8770f7e5d5f6f.png"
+    },
+    {
+      "name": "ListInfopathForm",
+      "imageAsset": "images/by-hash/049d1f525a07b318.png"
+    },
+    {
+      "name": "FormRegionOpen",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "LogicOpenAnotherFormAction",
+      "imageAsset": "images/by-hash/44f7e04d71af0ce4.png"
+    },
+    {
+      "name": "InfopathExportForms",
+      "imageAsset": "images/by-hash/72a11390b0e6f49f.png"
+    },
+    {
+      "name": "InfopathExportToExcel",
+      "imageAsset": "images/by-hash/3f1548fe28ed03b8.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChooseInfoPathForm",
+    "FormFillingFeedback",
+    "ListInfopathForm"
+  ]
+}

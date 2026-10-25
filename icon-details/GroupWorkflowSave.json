@@ -1,0 +1,26 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupWorkflowSummarySave",
+      "imageAsset": "images/by-hash/246a59d100792609.png"
+    },
+    {
+      "name": "GroupWorkflowTaskSummarySave",
+      "imageAsset": "images/by-hash/246a59d100792609.png"
+    },
+    {
+      "name": "GroupWorkflowVisualDesignerSave",
+      "imageAsset": "images/by-hash/246a59d100792609.png"
+    },
+    {
+      "name": "SaveWorkflowAsTemplate",
+      "imageAsset": "images/by-hash/d54f12eed95a6b63.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupWorkflowSummarySave",
+    "GroupWorkflowTaskSummarySave",
+    "GroupWorkflowVisualDesignerSave",
+    "PublishWorkflow"
+  ]
+}

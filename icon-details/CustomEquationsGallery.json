@@ -1,0 +1,18 @@
+{
+  "relatedIcons": [
+    {
+      "name": "InsertBuildingBlocksEquationsGallery",
+      "imageAsset": "images/by-hash/5f27fe84419337f4.png"
+    }
+  ],
+  "sameImageIds": [
+    "EquationEdit",
+    "EquationInsertGallery",
+    "EquationInsertNew",
+    "EquationOptions",
+    "EquationOptionsMenu",
+    "EquationToggle",
+    "GroupEquationTools",
+    "InsertBuildingBlocksEquationsGallery"
+  ]
+}

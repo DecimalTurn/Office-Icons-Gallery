@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "LogicChangeRestURLAction",
+      "imageAsset": "images/by-hash/29d7edd7ebfcda27.png"
+    },
+    {
+      "name": "LogicCloseFormAction",
+      "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+    },
+    {
+      "name": "LogicHideControlAction",
+      "imageAsset": "images/by-hash/086b8afc0fc67633.png"
+    },
+    {
+      "name": "LogicOpenAnotherFormAction",
+      "imageAsset": "images/by-hash/44f7e04d71af0ce4.png"
+    },
+    {
+      "name": "LogicQueryDataAction",
+      "imageAsset": "images/by-hash/b33769799ec9cc88.png"
+    },
+    {
+      "name": "LogicSetFieldValueAction",
+      "imageAsset": "images/by-hash/3b14a2807b82ee8b.png"
+    },
+    {
+      "name": "LogicShowDialogBoxAction",
+      "imageAsset": "images/by-hash/f6ff25ee185c491a.png"
+    },
+    {
+      "name": "LogicShowErrorAction",
+      "imageAsset": "images/by-hash/00c1ba4dd365a3db.png"
+    },
+    {
+      "name": "LogicShowMessageAction",
+      "imageAsset": "images/by-hash/c944c7c2db6c3e42.png"
+    },
+    {
+      "name": "LogicSubmitFormAction",
+      "imageAsset": "images/by-hash/718cecc6f117cf61.png"
+    },
+    {
+      "name": "LogicSwitchToViewAction",
+      "imageAsset": "images/by-hash/a05d059b94ff932c.png"
+    },
+    {
+      "name": "LogicWebPartConnectionAction",
+      "imageAsset": "images/by-hash/f2594b837f79cb7a.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TabTeamPlannerFormat",
+      "imageAsset": "images/by-hash/e9bcf20071fd7d28.png"
+    },
+    {
+      "name": "ConvertSmartArtMenu",
+      "imageAsset": "images/by-hash/0e337530ca1d575e.png"
+    },
+    {
+      "name": "ConvertToSmartArt",
+      "imageAsset": "images/by-hash/df0b06c2bd8de1bb.png"
+    },
+    {
+      "name": "ConvertToSmartArtMoreSmartArtGraphicsDialog",
+      "imageAsset": "images/by-hash/df0b06c2bd8de1bb.png"
+    },
+    {
+      "name": "GroupSmartArtCreateGraphic",
+      "imageAsset": "images/by-hash/dd87254046e40348.png"
+    },
+    {
+      "name": "GroupSmartArtLayouts",
+      "imageAsset": "images/by-hash/df0b06c2bd8de1bb.png"
+    },
+    {
+      "name": "GroupSmartArtQuickStyles",
+      "imageAsset": "images/by-hash/0dcccd324a3aeb0f.png"
+    },
+    {
+      "name": "GroupSmartArtReset",
+      "imageAsset": "images/by-hash/d69e055aa1887fd3.png"
+    },
+    {
+      "name": "GroupSmartArtShapes",
+      "imageAsset": "images/by-hash/7516c18e337fbb2a.png"
+    },
+    {
+      "name": "GroupSmartArtSize",
+      "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+    },
+    {
+      "name": "PicturesConvertToSmartArt",
+      "imageAsset": "images/by-hash/a984bf709b50d24d.png"
+    },
+    {
+      "name": "SmartArtAddAssistant",
+      "imageAsset": "images/by-hash/58c1d1416f3bfe7b.png"
+    }
+  ],
+  "sameImageIds": []
+}

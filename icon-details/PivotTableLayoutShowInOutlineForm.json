@@ -1,0 +1,49 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotTableLayoutShowInCompactForm",
+      "imageAsset": "images/by-hash/b3e15e28e66d4330.png"
+    },
+    {
+      "name": "PivotTableLayoutShowInTabularForm",
+      "imageAsset": "images/by-hash/a80fc3e4a09cb789.png"
+    },
+    {
+      "name": "XDFormLayout",
+      "imageAsset": "images/by-hash/05585dac69b5b14f.png"
+    },
+    {
+      "name": "GroupPivotDiagramLayout",
+      "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+    },
+    {
+      "name": "GroupPivotTableLayout",
+      "imageAsset": "images/by-hash/b3e15e28e66d4330.png"
+    },
+    {
+      "name": "PivotTableLayoutBlankRows",
+      "imageAsset": "images/by-hash/b9dde1c61a094280.png"
+    },
+    {
+      "name": "PivotTableLayoutGrandTotals",
+      "imageAsset": "images/by-hash/ad585748fd6dd2ae.png"
+    },
+    {
+      "name": "PivotTableLayoutReportLayout",
+      "imageAsset": "images/by-hash/aacf89b7dce63b02.png"
+    },
+    {
+      "name": "PivotTableLayoutSubtotals",
+      "imageAsset": "images/by-hash/1d45910b273cc3d8.png"
+    },
+    {
+      "name": "AccessFormPivotTable",
+      "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+    },
+    {
+      "name": "CreateFormPivotChart",
+      "imageAsset": "images/by-hash/501aa8ac35fff42b.png"
+    }
+  ],
+  "sameImageIds": []
+}

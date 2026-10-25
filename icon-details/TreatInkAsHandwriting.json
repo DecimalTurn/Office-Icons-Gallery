@@ -1,0 +1,20 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TreatInkAsDrawing",
+      "imageAsset": "images/by-hash/2a9330e9f8b65de5.png"
+    },
+    {
+      "name": "JotTreatAsDrawingCM",
+      "imageAsset": "images/by-hash/2a9330e9f8b65de5.png"
+    },
+    {
+      "name": "JotTreatAsWritingCM",
+      "imageAsset": "images/by-hash/02b0c9eff20f5f64.png"
+    }
+  ],
+  "sameImageIds": [
+    "InkingBiasWrite",
+    "JotTreatAsWritingCM"
+  ]
+}

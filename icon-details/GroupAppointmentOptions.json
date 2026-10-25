@@ -1,0 +1,33 @@
+{
+  "relatedIcons": [],
+  "sameImageIds": [
+    "ArrangeByToDoDue",
+    "ArrangeByToDoStart",
+    "EmailFormTagMessage",
+    "FlagCustom",
+    "FlagMessage",
+    "FlagNoDate",
+    "FlagToday",
+    "FollowUpComposeMenu",
+    "FollowUpMenu",
+    "FollowUpReadMenu",
+    "GroupContactOptions",
+    "GroupContactsOptions",
+    "GroupFollowUp",
+    "GroupMailOptions",
+    "GroupMessageOptions",
+    "GroupTaskOptions",
+    "GroupTasksOptions",
+    "MailMergeFollowupMenu",
+    "OutlookTaskCustomDate",
+    "OutlookTaskCustomDateContextual",
+    "OutlookTasksMenu",
+    "OutlookTaskToday",
+    "OutlookTaskTodayContextual",
+    "QuickSearchAllIncomplete",
+    "QuickSearchFlaggedByMe",
+    "QuickSearchTaskDueDateGallery",
+    "QuickStepTemplateFlagAndMove",
+    "SendCopyFlag"
+  ]
+}

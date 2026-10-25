@@ -1,0 +1,15 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CreateProfilePage",
+      "imageAsset": "images/by-hash/27f267587fee5282.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentProfileOptions",
+      "imageAsset": "images/by-hash/5064aeaf0a3850c9.png"
+    }
+  ],
+  "sameImageIds": [
+    "CreateProfilePage"
+  ]
+}

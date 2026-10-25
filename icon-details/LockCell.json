@@ -1,0 +1,60 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ApplyCoAuthoringLock",
+      "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+    },
+    {
+      "name": "ContainerLock",
+      "imageAsset": "images/by-hash/d32429aef761d851.png"
+    },
+    {
+      "name": "JotLockDrawingCM",
+      "imageAsset": "images/by-hash/4d3d6a02242f6197.png"
+    },
+    {
+      "name": "Lock",
+      "imageAsset": "images/by-hash/c3beb967840ee83a.png"
+    },
+    {
+      "name": "MasterDocumentLockSubdocument",
+      "imageAsset": "images/by-hash/a8ffec5114e40639.png"
+    },
+    {
+      "name": "RevisionsLockTracking",
+      "imageAsset": "images/by-hash/86646826e38e2bc9.png"
+    },
+    {
+      "name": "AddCellLeft",
+      "imageAsset": "images/by-hash/f693e00fc510f4c2.png"
+    },
+    {
+      "name": "AddCellRight",
+      "imageAsset": "images/by-hash/4364d9ec4c315f9e.png"
+    },
+    {
+      "name": "CellAlignmentOptions",
+      "imageAsset": "images/by-hash/e9f568ef88bffd72.png"
+    },
+    {
+      "name": "CellDiagonalsGallery",
+      "imageAsset": "images/by-hash/088ec5cd2b00db68.png"
+    },
+    {
+      "name": "CellFillColorPicker",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "CellHeight",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    }
+  ],
+  "sameImageIds": [
+    "EncryptMessage",
+    "GroupRestrictions",
+    "Lock",
+    "PasswordProtectSection",
+    "PasswordProtectSectionContextual",
+    "Private"
+  ]
+}

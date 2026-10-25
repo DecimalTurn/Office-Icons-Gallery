@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupCatalogMergeLayoutCanvases",
+      "imageAsset": "images/by-hash/1f9b73fc5bc804c2.png"
+    },
+    {
+      "name": "CatalogMergePickCatalogPageLayout",
+      "imageAsset": "images/by-hash/c4291bde75d4f2b1.png"
+    },
+    {
+      "name": "CatalogMergeCreateList",
+      "imageAsset": "images/by-hash/faa99bee2a7f02ec.png"
+    },
+    {
+      "name": "CatalogMergeEditList",
+      "imageAsset": "images/by-hash/3d4778e367c16353.png"
+    },
+    {
+      "name": "CatalogMergeExcludeSelectedRecord",
+      "imageAsset": "images/by-hash/e81f88c0221dad15.png"
+    },
+    {
+      "name": "CatalogMergeFillOrderMenu",
+      "imageAsset": "images/by-hash/b3d706cbe751a83c.png"
+    },
+    {
+      "name": "CatalogMergeFindRecipient",
+      "imageAsset": "images/by-hash/e58b441f04678b11.png"
+    },
+    {
+      "name": "CatalogMergeGoToFirstRecord",
+      "imageAsset": "images/by-hash/1720f362fe7a57f6.png"
+    },
+    {
+      "name": "CatalogMergeGoToLastRecord",
+      "imageAsset": "images/by-hash/885b15570afb85d5.png"
+    },
+    {
+      "name": "CatalogMergeGoToNextRecord",
+      "imageAsset": "images/by-hash/0f42881fbb368916.png"
+    },
+    {
+      "name": "CatalogMergeGoToPreviousRecord",
+      "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+    },
+    {
+      "name": "CatalogMergeInsertPictureFieldsGallery",
+      "imageAsset": "images/by-hash/89cb4b5ad71c7ef1.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupCatalogMergeFinish",
+    "GroupCatalogMergeInsertFields",
+    "GroupCatalogMergeLayoutCanvases",
+    "GroupMailMergeWriteInsertFields",
+    "MailMergeHighlightMergeFields"
+  ]
+}

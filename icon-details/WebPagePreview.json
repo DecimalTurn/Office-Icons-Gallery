@@ -1,0 +1,31 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupWebPreview",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    }
+  ],
+  "sameImageIds": [
+    "BroadcastResume",
+    "ContextualInBrowserGallery",
+    "GroupListCustomActionsManage",
+    "GroupListFormsManage",
+    "GroupPageSummaryManage",
+    "GroupPreviewInBrowser",
+    "GroupWebPreview",
+    "InBrowserGallery",
+    "OpenInBrowserOutlook",
+    "OpenInWebBrowser",
+    "OpenTargetURL",
+    "PreviewInBrowserDefault",
+    "PreviewInMultipleBrowsers",
+    "RssViewArticle",
+    "SharingPreviewPublishedCalendar",
+    "SharingPreviewWssCalendar",
+    "SharingPreviewWssContactList",
+    "SharingPreviewWssDiscussionList",
+    "SharingPreviewWssDocumentList",
+    "SharingPreviewWssTaskList",
+    "WebSiteMapPageCentricView"
+  ]
+}

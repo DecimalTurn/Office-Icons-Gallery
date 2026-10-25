@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ShapeConnectorStyleElbow",
+      "imageAsset": "images/by-hash/15dfd6bd1c12057b.png"
+    },
+    {
+      "name": "ShapeElbowConnector",
+      "imageAsset": "images/by-hash/15dfd6bd1c12057b.png"
+    },
+    {
+      "name": "ShapeStraightConnectorArrow",
+      "imageAsset": "images/by-hash/c0361fe67ca4bdb0.png"
+    },
+    {
+      "name": "JotInsertElbowLineDoubleArrow",
+      "imageAsset": "images/by-hash/e264e22e5d00fb31.png"
+    },
+    {
+      "name": "JotInsertElbowLineNoArrow",
+      "imageAsset": "images/by-hash/bcf7763d2b706cc2.png"
+    },
+    {
+      "name": "JotInsertElbowLineSingleArrow",
+      "imageAsset": "images/by-hash/79d529881c7a8109.png"
+    },
+    {
+      "name": "ShapeDownArrow",
+      "imageAsset": "images/by-hash/ceef6ea19bc7b287.png"
+    },
+    {
+      "name": "ShapeLeftArrow",
+      "imageAsset": "images/by-hash/9eed2ef0d0855740.png"
+    },
+    {
+      "name": "ShapeRightArrow",
+      "imageAsset": "images/by-hash/1f8015fc6e21f1d1.png"
+    },
+    {
+      "name": "ShapeUpArrow",
+      "imageAsset": "images/by-hash/b8be3c3d362b92f1.png"
+    },
+    {
+      "name": "ShapeConnectorStyleCurved",
+      "imageAsset": "images/by-hash/3752d4301ce9294c.png"
+    },
+    {
+      "name": "ShapeConnectorStyleMenu",
+      "imageAsset": "images/by-hash/3c712b5cc06d4393.png"
+    }
+  ],
+  "sameImageIds": []
+}

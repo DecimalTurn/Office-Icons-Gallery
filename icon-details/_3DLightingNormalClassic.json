@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "_3DLightingClassic",
+      "imageAsset": "images/by-hash/a0c0f4caffae01f3.png"
+    },
+    {
+      "name": "_3DLightingDimClassic",
+      "imageAsset": "images/by-hash/2815e70dbe7d7642.png"
+    },
+    {
+      "name": "_3DLightingFlatClassic",
+      "imageAsset": "images/by-hash/1943882723dd9b94.png"
+    },
+    {
+      "name": "_3DLightingGalleryClassic",
+      "imageAsset": "images/by-hash/a0c0f4caffae01f3.png"
+    },
+    {
+      "name": "DocViewNormal",
+      "imageAsset": "images/by-hash/ceff0212f691c95c.png"
+    },
+    {
+      "name": "EditPageNormalMode",
+      "imageAsset": "images/by-hash/90f5920b899619e8.png"
+    },
+    {
+      "name": "EquationNormalText",
+      "imageAsset": "images/by-hash/109a68e96d56ed5f.png"
+    },
+    {
+      "name": "InkNormalMode",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "NormalViewOneNote",
+      "imageAsset": "images/by-hash/c99ee027e81cfb1f.png"
+    },
+    {
+      "name": "TextNormalCase",
+      "imageAsset": "images/by-hash/06f09efbf605e6e2.png"
+    },
+    {
+      "name": "ViewNormalView",
+      "imageAsset": "images/by-hash/62968ae11e63d152.png"
+    },
+    {
+      "name": "ViewNormalViewExcel",
+      "imageAsset": "images/by-hash/72598fdf6ee3fe5b.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,20 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CreateClassModule",
+      "imageAsset": "images/by-hash/3e63674e0f7b0dfe.png"
+    },
+    {
+      "name": "AllModuleNameItems",
+      "imageAsset": "images/by-hash/7d0b88f74fa22558.png"
+    },
+    {
+      "name": "ModuleInsert",
+      "imageAsset": "images/by-hash/d2771bddcd274833.png"
+    }
+  ],
+  "sameImageIds": [
+    "ClientAdvancedObjectsMenu",
+    "ModuleInsert"
+  ]
+}

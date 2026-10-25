@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotTableDoNotRepeatItemLabels",
+      "imageAsset": "images/by-hash/a80fc3e4a09cb789.png"
+    },
+    {
+      "name": "PivotTableRepeatItemLabels",
+      "imageAsset": "images/by-hash/36528dde1fe4d497.png"
+    },
+    {
+      "name": "RedoOrRepeat",
+      "imageAsset": "images/by-hash/3b64db7773991543.png"
+    },
+    {
+      "name": "Repeat",
+      "imageAsset": "images/by-hash/2fc9d06a341864fe.png"
+    },
+    {
+      "name": "CatalogMergeMoreRowsColumns",
+      "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+    },
+    {
+      "name": "CatalogMergeRowsColumnsGallery",
+      "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+    },
+    {
+      "name": "DeleteRows",
+      "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+    },
+    {
+      "name": "DeleteRowsOneNote",
+      "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+    },
+    {
+      "name": "GroupMacroRows",
+      "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+    },
+    {
+      "name": "GroupShapeSheetRows",
+      "imageAsset": "images/by-hash/987f395d63e7009b.png"
+    },
+    {
+      "name": "GroupTableRows",
+      "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+    },
+    {
+      "name": "GroupTableRowsAndColumns",
+      "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+    }
+  ],
+  "sameImageIds": []
+}

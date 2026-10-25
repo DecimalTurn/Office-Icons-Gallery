@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FilesToolShowDownloadProgress",
+      "imageAsset": "images/by-hash/4ad3d28435029ee8.png"
+    },
+    {
+      "name": "ProgressLines",
+      "imageAsset": "images/by-hash/54041972ad35f3c6.png"
+    },
+    {
+      "name": "PwaProjectProgressUpdate",
+      "imageAsset": "images/by-hash/71a513fe9da318b8.png"
+    },
+    {
+      "name": "ReportInProgressGallery",
+      "imageAsset": "images/by-hash/23bf74d8802ab56d.png"
+    },
+    {
+      "name": "ShowProgress",
+      "imageAsset": "images/by-hash/4ad3d28435029ee8.png"
+    }
+  ],
+  "sameImageIds": []
+}

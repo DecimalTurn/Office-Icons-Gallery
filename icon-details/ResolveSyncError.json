@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ResolveBusinessDataEntityInstanceError",
+      "imageAsset": "images/by-hash/a9d09f6383031451.png"
+    },
+    {
+      "name": "ResolveConflictOrError",
+      "imageAsset": "images/by-hash/a9d09f6383031451.png"
+    },
+    {
+      "name": "MoreSyncErrorInfo",
+      "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+    },
+    {
+      "name": "GroupResolveConflictsAndErrors",
+      "imageAsset": "images/by-hash/a9d09f6383031451.png"
+    },
+    {
+      "name": "GroupResolveToolConflictsAndErrors",
+      "imageAsset": "images/by-hash/10c4fe9c1c1d53e3.png"
+    },
+    {
+      "name": "ReplicationResolveConflicts",
+      "imageAsset": "images/by-hash/b0030a5966b54c8c.png"
+    },
+    {
+      "name": "ResolveBusinessDataEntityInstanceConflict",
+      "imageAsset": "images/by-hash/cc7f9b56cf5f0e52.png"
+    },
+    {
+      "name": "ResolveConflict",
+      "imageAsset": "images/by-hash/78dff6663e341044.png"
+    },
+    {
+      "name": "ResolveLater",
+      "imageAsset": "images/by-hash/fb2e28f2746b7a79.png"
+    },
+    {
+      "name": "ChartErrorBars",
+      "imageAsset": "images/by-hash/da2407b5d0b3f924.png"
+    },
+    {
+      "name": "ChartFormatErrorBars",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "DisplayErrorMessageInfoPath",
+      "imageAsset": "images/by-hash/7af31981dd4e0deb.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupResolveToolConflictsAndErrors"
+  ]
+}

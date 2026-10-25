@@ -1,0 +1,75 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NewMeetingWithContact",
+      "imageAsset": "images/by-hash/cd232eb2dfc33f91.png"
+    },
+    {
+      "name": "ContactCardAddToIMContacts",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "ContactCardAddToOutlookContacts",
+      "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+    },
+    {
+      "name": "ContactCardCallComputer",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "ContactCardCallHome",
+      "imageAsset": "images/by-hash/b6c3160f01575fe9.png"
+    },
+    {
+      "name": "ContactCardCallMobile",
+      "imageAsset": "images/by-hash/808692b540d5562b.png"
+    },
+    {
+      "name": "ContactCardCallNewNumber",
+      "imageAsset": "images/by-hash/af23a5423f4b1e21.png"
+    },
+    {
+      "name": "ContactCardCallOther",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "ContactCardCallVoiceMail",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "ContactCardCallWork",
+      "imageAsset": "images/by-hash/381581df7c59e7dc.png"
+    },
+    {
+      "name": "ContactCardClear",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    },
+    {
+      "name": "ContactCardCopy",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByAppointmentStart",
+    "CalendarInsert",
+    "DailyView",
+    "DataTypeLongDate",
+    "DataTypeMediumDate",
+    "DataTypeShortDate",
+    "GotoCalendar",
+    "GroupOpen",
+    "GroupResourceFormViewDetails",
+    "MeetingsToolViewByDay",
+    "NewAppointment",
+    "NewAppointmentCompact",
+    "NewAppointmentNumbered",
+    "OpenAttachedCalendar",
+    "PersonaCalendarMenu",
+    "QuickSearchMeetings",
+    "SearchUpscopeToAllCalendarItems",
+    "ShowAppointmentPage",
+    "StatusDate",
+    "ViewByDay",
+    "ViewScheduleShow"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ContTypeCreateContentType",
+      "imageAsset": "images/by-hash/7fcdf1e7192f5f00.png"
+    },
+    {
+      "name": "ContTypeSetting",
+      "imageAsset": "images/by-hash/133cf0f80266344b.png"
+    },
+    {
+      "name": "GroupContTypeManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "GroupContTypeNew",
+      "imageAsset": "images/by-hash/7fcdf1e7192f5f00.png"
+    },
+    {
+      "name": "GroupContTypeSummaryManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "ApplyCoAuthoringLock",
+      "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+    },
+    {
+      "name": "ApplyCommaFormat",
+      "imageAsset": "images/by-hash/34cb51453b945174.png"
+    },
+    {
+      "name": "ApplyCssStyles",
+      "imageAsset": "images/by-hash/a85f46fb6686a11a.png"
+    },
+    {
+      "name": "ApplyCurrencyFormat",
+      "imageAsset": "images/by-hash/85a6a3a5829b5bdb.png"
+    },
+    {
+      "name": "ApplyFilter",
+      "imageAsset": "images/by-hash/721678c0a7e5e825.png"
+    },
+    {
+      "name": "ApplyImageBackgroundFill",
+      "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+    },
+    {
+      "name": "ApplyImageBackgroundTile",
+      "imageAsset": "images/by-hash/18e3f90d57530743.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddContentType",
+    "GroupContentTypeActions",
+    "GroupContentTypeSummaryActions",
+    "GroupListContentTypeNew",
+    "ListAddContentType"
+  ]
+}

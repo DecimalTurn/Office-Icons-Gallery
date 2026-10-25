@@ -1,0 +1,68 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BookmarkInsertPublisher",
+      "imageAsset": "images/by-hash/94545ae26a01263b.png"
+    },
+    {
+      "name": "BordersDiagonalPublisher",
+      "imageAsset": "images/by-hash/cc5877255b2f193f.png"
+    },
+    {
+      "name": "BulletsAndNumberingNumberingDialogPublisher",
+      "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+    },
+    {
+      "name": "ChangeCaseGalleryPublisher",
+      "imageAsset": "images/by-hash/06f09efbf605e6e2.png"
+    },
+    {
+      "name": "DrawingObjectFormatPublisher",
+      "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+    },
+    {
+      "name": "DropCapGalleryPublisher",
+      "imageAsset": "images/by-hash/ffa54dad003b689f.png"
+    },
+    {
+      "name": "FooterInsertPublisher",
+      "imageAsset": "images/by-hash/40c451bf43fef867.png"
+    },
+    {
+      "name": "GroupHeaderFooterPublisher",
+      "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+    },
+    {
+      "name": "GroupMailMergeStartPublisher",
+      "imageAsset": "images/by-hash/ab1eca44d289be82.png"
+    },
+    {
+      "name": "GroupTableFormatsPublisher",
+      "imageAsset": "images/by-hash/da7ea7478bb82308.png"
+    },
+    {
+      "name": "GroupTableSizePublisher",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "HeaderInsertPublisher",
+      "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupDocumentViews",
+    "GroupDocumentViewsVisio",
+    "GroupMasterViews",
+    "GroupPresentationViews",
+    "GroupViewDirection",
+    "HideScratchArea",
+    "MenuView2",
+    "PrintPreviewWholePage",
+    "ShowNotes",
+    "ShowScratchArea",
+    "TextFromFileInsert",
+    "ViewPrintLayoutView",
+    "ZoomCurrent75",
+    "ZoomOnePage"
+  ]
+}

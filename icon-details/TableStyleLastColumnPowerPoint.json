@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TableStyleFirstColumnPowerPoint",
+      "imageAsset": "images/by-hash/3d58f55d08816fe7.png"
+    },
+    {
+      "name": "TableStyleLastColumn",
+      "imageAsset": "images/by-hash/39525362ffff9136.png"
+    },
+    {
+      "name": "GroupTableStyleOptionsPowerPoint",
+      "imageAsset": "images/by-hash/1ca26394e52f08e7.png"
+    },
+    {
+      "name": "TableStyleBandedColumnsPowerPoint",
+      "imageAsset": "images/by-hash/9aea98d7607c8a78.png"
+    },
+    {
+      "name": "TableStyleBandedRowsPowerPoint",
+      "imageAsset": "images/by-hash/1ca26394e52f08e7.png"
+    },
+    {
+      "name": "TableStyleFirstRowPowerPoint",
+      "imageAsset": "images/by-hash/2ad5cd92ace79b94.png"
+    },
+    {
+      "name": "TableStyleTotalRowPowerPoint",
+      "imageAsset": "images/by-hash/7cd446b5c8ff9a94.png"
+    },
+    {
+      "name": "SparklineLastPointColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "SparklineLastPointMoreColors",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "FileCompatibilityCheckerPowerPoint",
+      "imageAsset": "images/by-hash/05715540b1645725.png"
+    },
+    {
+      "name": "FileSaveAsPowerPoint97_2003",
+      "imageAsset": "images/by-hash/024b979096487fc1.png"
+    },
+    {
+      "name": "FileSaveAsPowerPointOpenDocumentPresentation",
+      "imageAsset": "images/by-hash/024b979096487fc1.png"
+    }
+  ],
+  "sameImageIds": [
+    "TableStyleLastColumn"
+  ]
+}

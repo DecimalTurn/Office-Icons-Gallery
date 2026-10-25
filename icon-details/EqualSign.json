@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ConditionalFormattingHighlightEqualTo",
+      "imageAsset": "images/by-hash/4463aafa23fa2389.png"
+    },
+    {
+      "name": "HorizontalSpacingMakeEqual",
+      "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+    },
+    {
+      "name": "RulesConditionIsEqualToGallery",
+      "imageAsset": "images/by-hash/80c5d9e9da57e20a.png"
+    },
+    {
+      "name": "RulesConditionIsNotEqualToGallery",
+      "imageAsset": "images/by-hash/fffa1ed216cbda85.png"
+    },
+    {
+      "name": "RulesConditionRoleIsEqualToGallery",
+      "imageAsset": "images/by-hash/cf48c5267e35170b.png"
+    },
+    {
+      "name": "RulesConditionRoleIsNotEqualToGallery",
+      "imageAsset": "images/by-hash/c303d22bd2ea54b9.png"
+    },
+    {
+      "name": "VerticalSpacingMakeEqual",
+      "imageAsset": "images/by-hash/faaef2a521a93bcd.png"
+    },
+    {
+      "name": "ColonSign",
+      "imageAsset": "images/by-hash/b268ade2a0ded546.png"
+    },
+    {
+      "name": "CommaSign",
+      "imageAsset": "images/by-hash/07c9ca0a5d503f31.png"
+    },
+    {
+      "name": "DigitallySignMessage",
+      "imageAsset": "images/by-hash/d73d28146aefa9a6.png"
+    },
+    {
+      "name": "DivisionSign",
+      "imageAsset": "images/by-hash/5cb361fcde6b6f94.png"
+    },
+    {
+      "name": "DollarSign",
+      "imageAsset": "images/by-hash/387a66fbb5395c14.png"
+    }
+  ],
+  "sameImageIds": []
+}

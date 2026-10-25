@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ImexRunExport",
+      "imageAsset": "images/by-hash/57f50df1c1e38c1d.png"
+    },
+    {
+      "name": "ClickToRunAboutUpdates",
+      "imageAsset": "images/by-hash/7404d79e63593d89.png"
+    },
+    {
+      "name": "ClickToRunApplyUpdates",
+      "imageAsset": "images/by-hash/c2ddcf2d05fd7d7e.png"
+    },
+    {
+      "name": "ClickToRunEnableUpdates",
+      "imageAsset": "images/by-hash/15f524a4080c974d.png"
+    },
+    {
+      "name": "ClickToRunLearnMore",
+      "imageAsset": "images/by-hash/b1155395fa45b05b.png"
+    },
+    {
+      "name": "ClickToRunMobileOfficeCreationButton",
+      "imageAsset": "images/by-hash/64544a6240853d88.png"
+    },
+    {
+      "name": "ClickToRunUpdateOptions",
+      "imageAsset": "images/by-hash/15ef775dae4a4a08.png"
+    },
+    {
+      "name": "ClickToRunViewUpdates",
+      "imageAsset": "images/by-hash/bfbf930e4ac19247.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckRun",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "FormsToolRunMacroGallery",
+      "imageAsset": "images/by-hash/6a80a427c8e73043.png"
+    },
+    {
+      "name": "MacroRun",
+      "imageAsset": "images/by-hash/07f140dfeb71d28d.png"
+    },
+    {
+      "name": "QueryRunQuery",
+      "imageAsset": "images/by-hash/181dccef35a50532.png"
+    }
+  ],
+  "sameImageIds": []
+}

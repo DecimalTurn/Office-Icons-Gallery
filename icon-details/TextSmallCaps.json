@@ -1,0 +1,41 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TextAllCaps",
+      "imageAsset": "images/by-hash/d9e097bc50e5d154.png"
+    },
+    {
+      "name": "CompressMediaSmall",
+      "imageAsset": "images/by-hash/625887af43cf713e.png"
+    },
+    {
+      "name": "GroupBasicTextSmall",
+      "imageAsset": "images/by-hash/1a614d7d7f1a5953.png"
+    },
+    {
+      "name": "GroupInsertSmall",
+      "imageAsset": "images/by-hash/e0e443496fa9a016.png"
+    },
+    {
+      "name": "GroupTaggingSmall",
+      "imageAsset": "images/by-hash/1696736e05a30c3c.png"
+    },
+    {
+      "name": "PointEraserSmall",
+      "imageAsset": "images/by-hash/d70bcff83c399d86.png"
+    },
+    {
+      "name": "RuleLinesSmallGrid",
+      "imageAsset": "images/by-hash/fc3b8b9bd9d01e09.png"
+    },
+    {
+      "name": "SmallEraser",
+      "imageAsset": "images/by-hash/d70bcff83c399d86.png"
+    },
+    {
+      "name": "SmallIcons",
+      "imageAsset": "images/by-hash/e3d7f9fe83d27461.png"
+    }
+  ],
+  "sameImageIds": []
+}

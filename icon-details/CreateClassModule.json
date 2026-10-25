@@ -1,0 +1,19 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CreateModule",
+      "imageAsset": "images/by-hash/d2771bddcd274833.png"
+    },
+    {
+      "name": "AllModuleNameItems",
+      "imageAsset": "images/by-hash/7d0b88f74fa22558.png"
+    },
+    {
+      "name": "ModuleInsert",
+      "imageAsset": "images/by-hash/d2771bddcd274833.png"
+    }
+  ],
+  "sameImageIds": [
+    "ViewVisualBasicCodeAccess"
+  ]
+}

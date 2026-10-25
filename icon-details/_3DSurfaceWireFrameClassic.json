@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "_3DSurfaceMaterialClassic",
+      "imageAsset": "images/by-hash/2f28872e58d8de88.png"
+    },
+    {
+      "name": "_3DSurfaceMaterialGalleryClassic",
+      "imageAsset": "images/by-hash/2f28872e58d8de88.png"
+    },
+    {
+      "name": "_3DSurfaceMatteClassic",
+      "imageAsset": "images/by-hash/98a6151e6fd28abe.png"
+    },
+    {
+      "name": "_3DSurfaceMetalClassic",
+      "imageAsset": "images/by-hash/f1d876fe9033b256.png"
+    },
+    {
+      "name": "_3DSurfacePlasticClassic",
+      "imageAsset": "images/by-hash/de23e5fb0db9143d.png"
+    },
+    {
+      "name": "ActiveXFrame",
+      "imageAsset": "images/by-hash/4d62ac0a7451562d.png"
+    },
+    {
+      "name": "ControlBoundObjectFrame",
+      "imageAsset": "images/by-hash/3623cdfe7d9d0b15.png"
+    },
+    {
+      "name": "ControlUnboundObjectFrame",
+      "imageAsset": "images/by-hash/70fe56143cd29f19.png"
+    },
+    {
+      "name": "FrameCreateAbove",
+      "imageAsset": "images/by-hash/d97def2a448b794f.png"
+    },
+    {
+      "name": "FrameCreateBelow",
+      "imageAsset": "images/by-hash/2d601bf5ff7bb319.png"
+    },
+    {
+      "name": "FrameCreateLeft",
+      "imageAsset": "images/by-hash/79617202f6815d25.png"
+    },
+    {
+      "name": "FrameCreateRight",
+      "imageAsset": "images/by-hash/1b9d6fc042a8fe96.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupCustomizeThemeOptions",
+      "imageAsset": "images/by-hash/f49b012b69437cca.png"
+    },
+    {
+      "name": "GroupMasterEditTheme",
+      "imageAsset": "images/by-hash/38388a6cca16597f.png"
+    },
+    {
+      "name": "GroupThemeVariants",
+      "imageAsset": "images/by-hash/eb8d74686e3c6945.png"
+    },
+    {
+      "name": "PasteDestinationTheme",
+      "imageAsset": "images/by-hash/94aff1473d9111ab.png"
+    },
+    {
+      "name": "PasteDragDropDestinationTheme",
+      "imageAsset": "images/by-hash/94aff1473d9111ab.png"
+    },
+    {
+      "name": "PasteExcelChartDestinationTheme",
+      "imageAsset": "images/by-hash/94aff1473d9111ab.png"
+    },
+    {
+      "name": "PasteLinkedExcelChartDestinationTheme",
+      "imageAsset": "images/by-hash/30dad84575949f2d.png"
+    },
+    {
+      "name": "PasteSourceTheme",
+      "imageAsset": "images/by-hash/e148546483e598d2.png"
+    },
+    {
+      "name": "SaveAsOfficeTheme",
+      "imageAsset": "images/by-hash/9c4061675150354d.png"
+    },
+    {
+      "name": "ThemeBrowseForThemes",
+      "imageAsset": "images/by-hash/dc96ee1575103b12.png"
+    },
+    {
+      "name": "ThemeBrowseForThemesPowerPoint",
+      "imageAsset": "images/by-hash/dc96ee1575103b12.png"
+    },
+    {
+      "name": "ThemeColorsGallery",
+      "imageAsset": "images/by-hash/7a54cea2fe5c351f.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupSchemes",
+    "SchemeColorsGallery",
+    "SparklineAccentColorMenu",
+    "ThemeColorsGallery",
+    "WPColorSchemes"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "XmlExpansionPacksWord",
+      "imageAsset": "images/by-hash/631a72e069d480e9.png"
+    },
+    {
+      "name": "DataFromXmlFile",
+      "imageAsset": "images/by-hash/478cef47be710fe6.png"
+    },
+    {
+      "name": "DataSourceCatalogXMLFile",
+      "imageAsset": "images/by-hash/2cbb1e7b3dd7b809.png"
+    },
+    {
+      "name": "DesignXml",
+      "imageAsset": "images/by-hash/9e5d37636e482d4e.png"
+    },
+    {
+      "name": "ExportXmlFile",
+      "imageAsset": "images/by-hash/0cb67ed54ea88266.png"
+    },
+    {
+      "name": "GroupXml",
+      "imageAsset": "images/by-hash/9e5d37636e482d4e.png"
+    },
+    {
+      "name": "GroupXmlMappingPane",
+      "imageAsset": "images/by-hash/9e5d37636e482d4e.png"
+    },
+    {
+      "name": "ImportXmlFile",
+      "imageAsset": "images/by-hash/6549358767a5c46b.png"
+    },
+    {
+      "name": "NewXmlPage",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "ReformatXml",
+      "imageAsset": "images/by-hash/7a5c9d479a5349e6.png"
+    },
+    {
+      "name": "SaveAsProjectXmlData",
+      "imageAsset": "images/by-hash/2cbb1e7b3dd7b809.png"
+    },
+    {
+      "name": "SaveAsWord11Xml",
+      "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+    }
+  ],
+  "sameImageIds": [
+    "XmlExpansionPacksWord"
+  ]
+}

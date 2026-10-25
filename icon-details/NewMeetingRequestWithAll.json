@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NewMeetingRequest",
+      "imageAsset": "images/by-hash/feff041c0012ff48.png"
+    },
+    {
+      "name": "NewMeetingRequest2",
+      "imageAsset": "images/by-hash/feff041c0012ff48.png"
+    },
+    {
+      "name": "NewMeetingRequestCompact",
+      "imageAsset": "images/by-hash/feff041c0012ff48.png"
+    },
+    {
+      "name": "NewMeetingRequestNumbered",
+      "imageAsset": "images/by-hash/feff041c0012ff48.png"
+    },
+    {
+      "name": "ApproveApprovalRequest",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "CancelRequest",
+      "imageAsset": "images/by-hash/cabe4c9851b37f45.png"
+    },
+    {
+      "name": "NewTaskRequest",
+      "imageAsset": "images/by-hash/9960556f722cbf0b.png"
+    },
+    {
+      "name": "NewTaskRequest2",
+      "imageAsset": "images/by-hash/9960556f722cbf0b.png"
+    },
+    {
+      "name": "NewTaskRequestCompact",
+      "imageAsset": "images/by-hash/9960556f722cbf0b.png"
+    },
+    {
+      "name": "PwaProjectInformationRequest",
+      "imageAsset": "images/by-hash/aa51886bdd8ff085.png"
+    },
+    {
+      "name": "RejectApprovalRequest",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "RequestDocument",
+      "imageAsset": "images/by-hash/8ea103e009e28958.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "HideDetails",
+      "imageAsset": "images/by-hash/62d53a97e62ece02.png"
+    },
+    {
+      "name": "PivotShowDetails",
+      "imageAsset": "images/by-hash/720c358b6629506e.png"
+    },
+    {
+      "name": "GroupPivotChartShowHide",
+      "imageAsset": "images/by-hash/294ba2e393d6032b.png"
+    },
+    {
+      "name": "GroupPivotChartShowOrHide",
+      "imageAsset": "images/by-hash/65fdc3005a4acdbf.png"
+    },
+    {
+      "name": "GroupPivotTableShowHide",
+      "imageAsset": "images/by-hash/65fdc3005a4acdbf.png"
+    },
+    {
+      "name": "GroupPivotTableShowHideAccess",
+      "imageAsset": "images/by-hash/294ba2e393d6032b.png"
+    },
+    {
+      "name": "PivotChartLegendShowHide",
+      "imageAsset": "images/by-hash/4213917e8fae73f2.png"
+    },
+    {
+      "name": "PivotFieldListShowHide",
+      "imageAsset": "images/by-hash/65fdc3005a4acdbf.png"
+    },
+    {
+      "name": "PivotFieldListShowHideContextual",
+      "imageAsset": "images/by-hash/65fdc3005a4acdbf.png"
+    },
+    {
+      "name": "PivotPlusMinusButtonsShowHide",
+      "imageAsset": "images/by-hash/b2b5915c644d84b0.png"
+    },
+    {
+      "name": "PivotPlusMinusFieldHeadersShowHide",
+      "imageAsset": "images/by-hash/2310031ded195113.png"
+    },
+    {
+      "name": "CalendarMonthDetailsSplitButton",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    }
+  ],
+  "sameImageIds": []
+}

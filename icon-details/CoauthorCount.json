@@ -1,0 +1,28 @@
+{
+  "relatedIcons": [
+    {
+      "name": "WordCount",
+      "imageAsset": "images/by-hash/24838349988e2606.png"
+    },
+    {
+      "name": "WordCountList",
+      "imageAsset": "images/by-hash/24838349988e2606.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddDepartment",
+    "DelegateAccess",
+    "GroupAssignments",
+    "GroupAssignmentsStandard",
+    "GroupAttendees",
+    "GroupAttendeesMeetingSent",
+    "GroupRecurringAttendees",
+    "NewDistributionList",
+    "NewDistributionListCompact",
+    "NewDistributionListNumbered",
+    "QuickSearchNotToCcMe",
+    "ResourcesAssign",
+    "ShareWithPeople",
+    "ShowMembersPage"
+  ]
+}

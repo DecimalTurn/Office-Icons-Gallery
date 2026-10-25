@@ -1,0 +1,37 @@
+{
+  "relatedIcons": [
+    {
+      "name": "StylesModifyStyle",
+      "imageAsset": "images/by-hash/4bcd5bd3d89520db.png"
+    },
+    {
+      "name": "StylesPaneNewStyle",
+      "imageAsset": "images/by-hash/e6f7d1945ad3787b.png"
+    },
+    {
+      "name": "StylesStyleInspector",
+      "imageAsset": "images/by-hash/696f8cf4c9d30272.png"
+    },
+    {
+      "name": "StylesStyleSeparator",
+      "imageAsset": "images/by-hash/53e7d016ba4ae8ea.png"
+    },
+    {
+      "name": "VisibilityHidden",
+      "imageAsset": "images/by-hash/f92fed8efe25017d.png"
+    },
+    {
+      "name": "VisibilityInherit",
+      "imageAsset": "images/by-hash/2a07aae085246d6a.png"
+    },
+    {
+      "name": "VisibilityVisible",
+      "imageAsset": "images/by-hash/d7347318b5bd316e.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupCreate",
+    "NewCssStyle",
+    "StylesDialogClassic"
+  ]
+}

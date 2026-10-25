@@ -1,0 +1,41 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CustomizeSearchFolder",
+      "imageAsset": "images/by-hash/5eca02018885dfc7.png"
+    },
+    {
+      "name": "NewSearchFolder",
+      "imageAsset": "images/by-hash/e2c82753eeca5c76.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByFolder",
+    "BrowseBackgroundImage",
+    "CloseWeb",
+    "ContentFolderMenu",
+    "FileClose",
+    "FileCloseAll",
+    "FileCloseDatabase",
+    "FileCloseOrCloseAll",
+    "FilesToolNewFolderGallery",
+    "FilesToolShowHideFolders",
+    "FindPublicFolder",
+    "Folder",
+    "FolderView",
+    "GotoFolderList",
+    "GroupMacroClose",
+    "GroupNew",
+    "GroupQueryClose",
+    "GroupViewLaunchbar",
+    "JotCloseFolder",
+    "LogicCloseFormAction",
+    "NewCategoryFolder",
+    "NewFolder",
+    "NewFolder2",
+    "NewFolderHere",
+    "NewInlineFolder",
+    "SaveSentItemRecentlyUsedFolder",
+    "SharedImageBrowse"
+  ]
+}

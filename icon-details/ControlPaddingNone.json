@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "_3DExtrusionDepthNoneClassic",
+      "imageAsset": "images/by-hash/a145561b043f3641.png"
+    },
+    {
+      "name": "BorderNone",
+      "imageAsset": "images/by-hash/6b65545fb0b8a68f.png"
+    },
+    {
+      "name": "ControlMarginsNone",
+      "imageAsset": "images/by-hash/e475869b818ad819.png"
+    },
+    {
+      "name": "DatasheetGridlinesNone",
+      "imageAsset": "images/by-hash/6b65545fb0b8a68f.png"
+    },
+    {
+      "name": "ParagraphSpaceBeforeNone",
+      "imageAsset": "images/by-hash/c4ff6f009f58df45.png"
+    },
+    {
+      "name": "ReadingModePageColorNone",
+      "imageAsset": "images/by-hash/53c21f42593d741d.png"
+    },
+    {
+      "name": "SharingNone",
+      "imageAsset": "images/by-hash/641163a646886389.png"
+    },
+    {
+      "name": "ShowDisplayNoneMark",
+      "imageAsset": "images/by-hash/72410556c6dd47e1.png"
+    },
+    {
+      "name": "TextWrappingNoneClassic",
+      "imageAsset": "images/by-hash/4bd5a9b7f98aece9.png"
+    },
+    {
+      "name": "ControlPaddingGallery",
+      "imageAsset": "images/by-hash/afb0b3259f5bc4e2.png"
+    },
+    {
+      "name": "ControlPaddingMedium",
+      "imageAsset": "images/by-hash/afb0b3259f5bc4e2.png"
+    },
+    {
+      "name": "ControlPaddingMenu",
+      "imageAsset": "images/by-hash/afb0b3259f5bc4e2.png"
+    }
+  ],
+  "sameImageIds": []
+}

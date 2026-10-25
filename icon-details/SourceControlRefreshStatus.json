@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "RefreshStatus",
+      "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+    },
+    {
+      "name": "GroupCachedModeStatus",
+      "imageAsset": "images/by-hash/2b5023e578e03294.png"
+    },
+    {
+      "name": "GroupProjectStatus",
+      "imageAsset": "images/by-hash/bcfb3706706b8cb6.png"
+    },
+    {
+      "name": "GroupStatusProjectStandard",
+      "imageAsset": "images/by-hash/bcfb3706706b8cb6.png"
+    },
+    {
+      "name": "GroupStatusTask",
+      "imageAsset": "images/by-hash/8f8754120435881b.png"
+    },
+    {
+      "name": "GroupSyncStatus",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    },
+    {
+      "name": "OLCopyTrackingStatus",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    },
+    {
+      "name": "PersonaStatusAway",
+      "imageAsset": "images/by-hash/ac0b3c7a6fd0433a.png"
+    },
+    {
+      "name": "PersonaStatusBusy",
+      "imageAsset": "images/by-hash/52e3e2062b9e333e.png"
+    },
+    {
+      "name": "PersonaStatusOffline",
+      "imageAsset": "images/by-hash/c109adcafbdb0e8d.png"
+    },
+    {
+      "name": "PersonaStatusOnline",
+      "imageAsset": "images/by-hash/51554fb2b30a5af6.png"
+    },
+    {
+      "name": "QuickSearchTaskStatusGallery",
+      "imageAsset": "images/by-hash/e6be1e2f3d68bbb9.png"
+    }
+  ],
+  "sameImageIds": []
+}

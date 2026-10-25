@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TableCellAlignBottomCenter",
+      "imageAsset": "images/by-hash/f5b15a72674f074c.png"
+    },
+    {
+      "name": "TableCellAlignBottomLeft",
+      "imageAsset": "images/by-hash/340a70bc026cbb7d.png"
+    },
+    {
+      "name": "TableCellAlignBottomRight",
+      "imageAsset": "images/by-hash/bab03738ca3ae9dc.png"
+    },
+    {
+      "name": "TableCellAlignCenterVertically",
+      "imageAsset": "images/by-hash/4d79850f39eef76c.png"
+    },
+    {
+      "name": "TableCellAlignMiddleCenter",
+      "imageAsset": "images/by-hash/47fa033b124548f6.png"
+    },
+    {
+      "name": "TableCellAlignMiddleLeft",
+      "imageAsset": "images/by-hash/1a7b49e80261c29a.png"
+    },
+    {
+      "name": "TableCellAlignMiddleRight",
+      "imageAsset": "images/by-hash/bdae78d4a94aa8a0.png"
+    },
+    {
+      "name": "TableCellAlignTop",
+      "imageAsset": "images/by-hash/6ae9097ef639d562.png"
+    },
+    {
+      "name": "TableCellAlignTopCenter",
+      "imageAsset": "images/by-hash/cc67dd504f6ee519.png"
+    },
+    {
+      "name": "TableCellAlignTopLeft",
+      "imageAsset": "images/by-hash/bf9a248a09906367.png"
+    },
+    {
+      "name": "TableCellAlignTopRight",
+      "imageAsset": "images/by-hash/2f1f90312be0506f.png"
+    },
+    {
+      "name": "AlignBottomExcel",
+      "imageAsset": "images/by-hash/4b6fbf0f99c0e63a.png"
+    }
+  ],
+  "sameImageIds": []
+}

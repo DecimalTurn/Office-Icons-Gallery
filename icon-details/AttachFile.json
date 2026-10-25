@@ -1,0 +1,70 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AttachItem",
+      "imageAsset": "images/by-hash/5551d7c978f81380.png"
+    },
+    {
+      "name": "AttachItemCombo",
+      "imageAsset": "images/by-hash/5551d7c978f81380.png"
+    },
+    {
+      "name": "AttachMenu",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "AttachNotesToMeeting",
+      "imageAsset": "images/by-hash/25ceca008a74a306.png"
+    },
+    {
+      "name": "BackAttach",
+      "imageAsset": "images/by-hash/1816c21da026fa8e.png"
+    },
+    {
+      "name": "CopyAttach",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    },
+    {
+      "name": "CssAttachStyleSheet",
+      "imageAsset": "images/by-hash/e74c513b67919470.png"
+    },
+    {
+      "name": "DrawingAttachToTask",
+      "imageAsset": "images/by-hash/bd64cfdcc01a5bd4.png"
+    },
+    {
+      "name": "ForwardAttach",
+      "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+    },
+    {
+      "name": "GalAttachMasterPage",
+      "imageAsset": "images/by-hash/1e82353866e0c2fd.png"
+    },
+    {
+      "name": "GroupAttach",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "OpenAttach",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByAttachment",
+    "AttachMenu",
+    "ControlAttachment",
+    "DataTypeAttachment",
+    "EnableAttachments",
+    "FileAttachmentInsert",
+    "GroupAttach",
+    "GroupInclude",
+    "GroupIncludeMainTab",
+    "GroupInsertFiles",
+    "GroupMeetingsToolAppointmentAgendaOptions",
+    "GroupTranslate",
+    "ManageAttachments",
+    "MeetingsToolAppointmentAddAttachments",
+    "OLAttachment",
+    "QuickSearchHasAttachments"
+  ]
+}

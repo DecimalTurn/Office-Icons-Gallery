@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "XDMoreDetailsInfo",
+      "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+    },
+    {
+      "name": "NewAlert",
+      "imageAsset": "images/by-hash/787c5004e1a222c9.png"
+    },
+    {
+      "name": "TableListAlertMe",
+      "imageAsset": "images/by-hash/fe66ad46008b41a4.png"
+    },
+    {
+      "name": "XDBackgroundColor",
+      "imageAsset": "images/by-hash/f49b012b69437cca.png"
+    },
+    {
+      "name": "XDBlock",
+      "imageAsset": "images/by-hash/67d47d0de11c3614.png"
+    },
+    {
+      "name": "XDCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "XDConditionalFormatting",
+      "imageAsset": "images/by-hash/468cf6e9e64ac27c.png"
+    },
+    {
+      "name": "XDDataValidation",
+      "imageAsset": "images/by-hash/91f56a8a930ceea2.png"
+    },
+    {
+      "name": "XDFormLayout",
+      "imageAsset": "images/by-hash/05585dac69b5b14f.png"
+    },
+    {
+      "name": "XDInkPicture",
+      "imageAsset": "images/by-hash/a9de9ec09bddb7a6.png"
+    },
+    {
+      "name": "XDInsertDatePicker",
+      "imageAsset": "images/by-hash/70eb64b8f3d082fd.png"
+    },
+    {
+      "name": "XDInsertPictureControl",
+      "imageAsset": "images/by-hash/5e6946411ffa8d11.png"
+    }
+  ],
+  "sameImageIds": [
+    "CancelRequest",
+    "JotExitFind"
+  ]
+}

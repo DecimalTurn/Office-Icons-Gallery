@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TaskAddToTimeline",
+      "imageAsset": "images/by-hash/2128fa0a06829f22.png"
+    },
+    {
+      "name": "TimelineGotoSelectedTask",
+      "imageAsset": "images/by-hash/2341aed38d0392a7.png"
+    },
+    {
+      "name": "TimelineViewCalloutTaskInsert",
+      "imageAsset": "images/by-hash/7371975126bb7deb.png"
+    },
+    {
+      "name": "TimelineViewTaskInsert",
+      "imageAsset": "images/by-hash/a7b612b49586b2ee.png"
+    },
+    {
+      "name": "OutlookTaskRemove",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "OutlookTaskRemoveContextual",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "RemoveTaskPathHighlight",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "AddExistingTasksToTimeline",
+      "imageAsset": "images/by-hash/2128fa0a06829f22.png"
+    },
+    {
+      "name": "GroupSwitchTimeline",
+      "imageAsset": "images/by-hash/72b4b05dbce825cc.png"
+    },
+    {
+      "name": "GroupTimelineCopy",
+      "imageAsset": "images/by-hash/32ebe58844eba5fd.png"
+    },
+    {
+      "name": "GroupTimelineInterval",
+      "imageAsset": "images/by-hash/8363ed52d3ee7f0b.png"
+    },
+    {
+      "name": "GroupTimelineMilestone",
+      "imageAsset": "images/by-hash/f906e2c9c1411cd9.png"
+    }
+  ],
+  "sameImageIds": []
+}

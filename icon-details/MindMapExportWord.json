@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MindMapExportData",
+      "imageAsset": "images/by-hash/d00b060864269378.png"
+    },
+    {
+      "name": "MindMapExportExcel",
+      "imageAsset": "images/by-hash/cf6d21dcaee1479f.png"
+    },
+    {
+      "name": "GroupMindMapAddTopics",
+      "imageAsset": "images/by-hash/8a0b9b0ac48f4771.png"
+    },
+    {
+      "name": "GroupMindMapArrange",
+      "imageAsset": "images/by-hash/eb3e8f8806f181e2.png"
+    },
+    {
+      "name": "GroupMindMapManage",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "MindMapAutoArrange",
+      "imageAsset": "images/by-hash/eb3e8f8806f181e2.png"
+    },
+    {
+      "name": "MindMapChangeTopic",
+      "imageAsset": "images/by-hash/ab71863d558f37c4.png"
+    },
+    {
+      "name": "MindMapDiagramStyle",
+      "imageAsset": "images/by-hash/4d6269c5ddbb7774.png"
+    },
+    {
+      "name": "MindMapImportData",
+      "imageAsset": "images/by-hash/25e25390f388f017.png"
+    },
+    {
+      "name": "MindMapLayout",
+      "imageAsset": "images/by-hash/fe3465ad6d5ba97d.png"
+    },
+    {
+      "name": "MindMapMain",
+      "imageAsset": "images/by-hash/8a0b9b0ac48f4771.png"
+    },
+    {
+      "name": "MindMapMoveTopic",
+      "imageAsset": "images/by-hash/5917cab293971409.png"
+    }
+  ],
+  "sameImageIds": []
+}

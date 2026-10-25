@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CDAudioStartTrack",
+      "imageAsset": "images/by-hash/6805ad7549fb04e1.png"
+    },
+    {
+      "name": "CDAudioStopTrack",
+      "imageAsset": "images/by-hash/1717741d790f74d2.png"
+    },
+    {
+      "name": "MoviePlayAutomatically",
+      "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+    },
+    {
+      "name": "CDAudioStartTime",
+      "imageAsset": "images/by-hash/d83f7fd798761854.png"
+    },
+    {
+      "name": "CDAudioStopTime",
+      "imageAsset": "images/by-hash/c38f44103fadbac2.png"
+    },
+    {
+      "name": "GroupCDAudioSetup",
+      "imageAsset": "images/by-hash/c4155e7df729c0ca.png"
+    },
+    {
+      "name": "DataAutomaticallyLink",
+      "imageAsset": "images/by-hash/d600f66db6b9eec3.png"
+    },
+    {
+      "name": "TransitionTimeAutomaticallyAfter",
+      "imageAsset": "images/by-hash/ad750451ddb1bd82.png"
+    },
+    {
+      "name": "FilePackageForCD",
+      "imageAsset": "images/by-hash/66640d64525a2dff.png"
+    },
+    {
+      "name": "GroupListToolTrack",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "GroupTrack",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "ReadingViewTrackChanges",
+      "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+    }
+  ],
+  "sameImageIds": [
+    "AudioStartGallery",
+    "GroupAudioOptions",
+    "GroupMovieOptions",
+    "GroupSoundOptions",
+    "GroupVideoOptions",
+    "MoviePlayAutomatically",
+    "SoundPlaySoundGallery",
+    "VideoStartGallery"
+  ]
+}

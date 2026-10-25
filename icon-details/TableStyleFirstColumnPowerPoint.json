@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TableStyleLastColumnPowerPoint",
+      "imageAsset": "images/by-hash/39525362ffff9136.png"
+    },
+    {
+      "name": "GroupTableStyleOptionsPowerPoint",
+      "imageAsset": "images/by-hash/1ca26394e52f08e7.png"
+    },
+    {
+      "name": "TableStyleBandedColumnsPowerPoint",
+      "imageAsset": "images/by-hash/9aea98d7607c8a78.png"
+    },
+    {
+      "name": "TableStyleBandedRowsPowerPoint",
+      "imageAsset": "images/by-hash/1ca26394e52f08e7.png"
+    },
+    {
+      "name": "TableStyleFirstRowPowerPoint",
+      "imageAsset": "images/by-hash/2ad5cd92ace79b94.png"
+    },
+    {
+      "name": "TableStyleTotalRowPowerPoint",
+      "imageAsset": "images/by-hash/7cd446b5c8ff9a94.png"
+    },
+    {
+      "name": "FileCompatibilityCheckerPowerPoint",
+      "imageAsset": "images/by-hash/05715540b1645725.png"
+    },
+    {
+      "name": "FileSaveAsPowerPoint97_2003",
+      "imageAsset": "images/by-hash/024b979096487fc1.png"
+    },
+    {
+      "name": "FileSaveAsPowerPointOpenDocumentPresentation",
+      "imageAsset": "images/by-hash/024b979096487fc1.png"
+    },
+    {
+      "name": "FileSaveAsPowerPointPpsx",
+      "imageAsset": "images/by-hash/6ffa6584cc8fb200.png"
+    },
+    {
+      "name": "FileSaveAsPowerPointPptx",
+      "imageAsset": "images/by-hash/024b979096487fc1.png"
+    },
+    {
+      "name": "FileSendToPowerPoint",
+      "imageAsset": "images/by-hash/5ba3effcbc766f9e.png"
+    }
+  ],
+  "sameImageIds": [
+    "TableStyleFirstColumn"
+  ]
+}

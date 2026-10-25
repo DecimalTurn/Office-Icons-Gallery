@@ -1,0 +1,61 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ScheduleTaskWhenResourcesAvailable",
+      "imageAsset": "images/by-hash/02c4ecdd36cf035e.png"
+    },
+    {
+      "name": "GroupRemoveHiddenInformation",
+      "imageAsset": "images/by-hash/5c8255b42864d3e4.png"
+    },
+    {
+      "name": "SelectionPaneHidden",
+      "imageAsset": "images/by-hash/f92fed8efe25017d.png"
+    },
+    {
+      "name": "VisibilityHidden",
+      "imageAsset": "images/by-hash/f92fed8efe25017d.png"
+    },
+    {
+      "name": "WebControlHidden",
+      "imageAsset": "images/by-hash/c5cca1c850a09b17.png"
+    },
+    {
+      "name": "RescheduleToNextAvailableVisibleByContext",
+      "imageAsset": "images/by-hash/02c4ecdd36cf035e.png"
+    },
+    {
+      "name": "ShowVisibleBorders",
+      "imageAsset": "images/by-hash/03df044ee313fe31.png"
+    },
+    {
+      "name": "TableSelectVisibleCells",
+      "imageAsset": "images/by-hash/66edf9c3b5b84bc5.png"
+    },
+    {
+      "name": "TaskRespectLinksVisibleByContext",
+      "imageAsset": "images/by-hash/d622155ca0500559.png"
+    },
+    {
+      "name": "VisibilityVisible",
+      "imageAsset": "images/by-hash/d7347318b5bd316e.png"
+    },
+    {
+      "name": "AttachNotesToMeeting",
+      "imageAsset": "images/by-hash/25ceca008a74a306.png"
+    },
+    {
+      "name": "CancelMeeting",
+      "imageAsset": "images/by-hash/c93d36c1197d267c.png"
+    }
+  ],
+  "sameImageIds": [
+    "NewMeetingRequest",
+    "NewMeetingRequest2",
+    "NewMeetingRequestCompact",
+    "NewMeetingRequestNumbered",
+    "NewMeetingWithAllMenu",
+    "QuickStepTemplateNewMeeting",
+    "SharingOpenWssCalendar"
+  ]
+}

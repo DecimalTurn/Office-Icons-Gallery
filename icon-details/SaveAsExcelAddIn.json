@@ -1,0 +1,43 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SaveAsExcel11AddIn",
+      "imageAsset": "images/by-hash/e0c10115b1a06572.png"
+    },
+    {
+      "name": "FileSaveAsExcel97_2003",
+      "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+    },
+    {
+      "name": "FileSaveAsExcelOpenDocumentSpreadsheet",
+      "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+    },
+    {
+      "name": "FileSaveAsExcelXlsb",
+      "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+    },
+    {
+      "name": "FileSaveAsExcelXlsx",
+      "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+    },
+    {
+      "name": "FileSaveAsExcelXlsxMacro",
+      "imageAsset": "images/by-hash/73713247068d1008.png"
+    },
+    {
+      "name": "SaveAsExcelTemplate",
+      "imageAsset": "images/by-hash/16fd1ef44991b34c.png"
+    },
+    {
+      "name": "SaveAsPowerPoint11AddIn",
+      "imageAsset": "images/by-hash/cce9d40508f4a551.png"
+    },
+    {
+      "name": "SaveAsPowerPointAddIn",
+      "imageAsset": "images/by-hash/e9a16633ef1ed18c.png"
+    }
+  ],
+  "sameImageIds": [
+    "SaveAsExcel11AddIn"
+  ]
+}

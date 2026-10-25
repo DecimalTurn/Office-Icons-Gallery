@@ -1,0 +1,35 @@
+{
+  "relatedIcons": [
+    {
+      "name": "RibbonModeHideRibbon",
+      "imageAsset": "images/by-hash/20555e72707e01c4.png"
+    },
+    {
+      "name": "DesignerRibbonGiveFeedback",
+      "imageAsset": "images/by-hash/c9f0013582e4d949.png"
+    },
+    {
+      "name": "EditorRibbonGiveFeedback",
+      "imageAsset": "images/by-hash/c9f0013582e4d949.png"
+    },
+    {
+      "name": "MinimizeRibbon",
+      "imageAsset": "images/by-hash/471ebde47b65e0ea.png"
+    },
+    {
+      "name": "RibbonGiveFeedback",
+      "imageAsset": "images/by-hash/c9f0013582e4d949.png"
+    },
+    {
+      "name": "RibbonModeCollapsedRibbon",
+      "imageAsset": "images/by-hash/f50a11386005cacb.png"
+    },
+    {
+      "name": "RibbonModeExpandedRibbon",
+      "imageAsset": "images/by-hash/34f5ef17c5800a3a.png"
+    }
+  ],
+  "sameImageIds": [
+    "RibbonModeHideRibbon"
+  ]
+}

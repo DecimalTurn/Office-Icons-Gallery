@@ -1,0 +1,76 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SectionGroupLinkCreate",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotCreateHyperlinkToSectionShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "NotebookLinkCreate",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "PageLinkCreate",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "TextBoxLinkCreate",
+      "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+    },
+    {
+      "name": "ChoiceSection",
+      "imageAsset": "images/by-hash/517348324e3305cc.png"
+    },
+    {
+      "name": "CopyOrMoveToSection",
+      "imageAsset": "images/by-hash/fd8cc2eeecc48d42.png"
+    },
+    {
+      "name": "GroupSection",
+      "imageAsset": "images/by-hash/79c19b6cb9c41248.png"
+    },
+    {
+      "name": "HeaderFooterNextSection",
+      "imageAsset": "images/by-hash/aa6852b3a1d745ee.png"
+    },
+    {
+      "name": "HeaderFooterPreviousSection",
+      "imageAsset": "images/by-hash/dea8fdc2f8ab15ef.png"
+    },
+    {
+      "name": "JotInsertSectionShort",
+      "imageAsset": "images/by-hash/79c19b6cb9c41248.png"
+    },
+    {
+      "name": "MoveDownSection",
+      "imageAsset": "images/by-hash/79274de9857dec98.png"
+    }
+  ],
+  "sameImageIds": [
+    "CopyAsLink",
+    "CopyAsLinkMenu",
+    "CopyEntryAsLink",
+    "EditLinks",
+    "FileLinksToFiles",
+    "GroupClipboardMeetingsToolO12",
+    "GroupClipboardWithLink",
+    "GroupDocumentsClipboard",
+    "GroupShareBrowserOnlyTool",
+    "HyperlinkCreate",
+    "JotCreateHyperlinkShort",
+    "JotCreateHyperlinkToFolderShort",
+    "JotCreateHyperlinkToNotebookShort",
+    "JotCreateHyperlinkToPageShort",
+    "JotCreateHyperlinkToSectionShort",
+    "LinkedNotesTargetUrlCopy",
+    "ListToolCopyAsLink",
+    "ListToolCopyEntryAsLink",
+    "ListToolCopyToolAsLink",
+    "NotebookLinkCreate",
+    "PageLinkCreate",
+    "SectionGroupLinkCreate"
+  ]
+}

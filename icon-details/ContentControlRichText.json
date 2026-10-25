@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DataTypeRichText",
+      "imageAsset": "images/by-hash/1819d9833fe56cf4.png"
+    },
+    {
+      "name": "GroupRichText",
+      "imageAsset": "images/by-hash/19cf1467127373c6.png"
+    },
+    {
+      "name": "MessageFormatRichText",
+      "imageAsset": "images/by-hash/1819d9833fe56cf4.png"
+    },
+    {
+      "name": "RichText",
+      "imageAsset": "images/by-hash/1819d9833fe56cf4.png"
+    },
+    {
+      "name": "SaveAsRichText",
+      "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+    },
+    {
+      "name": "SaveAsRichTextOutline",
+      "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+    },
+    {
+      "name": "TabListToolRichText",
+      "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+    },
+    {
+      "name": "XDRichTextArea",
+      "imageAsset": "images/by-hash/53f6eabea38bbc35.png"
+    },
+    {
+      "name": "AddContentType",
+      "imageAsset": "images/by-hash/fcaa71a805f81e9f.png"
+    },
+    {
+      "name": "AddSelectionToContentLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddToContentStore",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "ColumnContentTypeSetting",
+      "imageAsset": "images/by-hash/133cf0f80266344b.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChangeCase",
+    "ChangeCaseDialogClassic",
+    "ChangeCaseGallery",
+    "ChangeCaseGalleryPublisher",
+    "GroupMessageFormat",
+    "GroupMessageFormatNew",
+    "MessageFormatHtml",
+    "TextNormalCase"
+  ]
+}

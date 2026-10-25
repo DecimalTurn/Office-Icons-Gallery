@@ -1,0 +1,24 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupWebSiteMapManage",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "ManageWebPartConnections",
+      "imageAsset": "images/by-hash/64480077e54e1b8b.png"
+    },
+    {
+      "name": "OfficeExtensionsGallery",
+      "imageAsset": "images/by-hash/668372c1fb3de3ae.png"
+    },
+    {
+      "name": "ShapeExtensions",
+      "imageAsset": "images/by-hash/9f9664eb548714e8.png"
+    }
+  ],
+  "sameImageIds": [
+    "DataFromRESTWebService",
+    "DataSourceCatalogServerScript"
+  ]
+}

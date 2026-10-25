@@ -1,0 +1,63 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupContentTypeSummaryEdit",
+      "imageAsset": "images/by-hash/53f035b400396894.png"
+    },
+    {
+      "name": "GroupListsSummaryEdit",
+      "imageAsset": "images/by-hash/1447278bbaf5d3c6.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentEditSummary",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    },
+    {
+      "name": "GroupSiteSummaryEdit",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "GroupSummaryEdit",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "GroupWorkflowSummaryEdit",
+      "imageAsset": "images/by-hash/149f3b0cae9e185f.png"
+    },
+    {
+      "name": "GroupWorkflowTaskSummaryEdit",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "AutoSummaryResummarize",
+      "imageAsset": "images/by-hash/61c99640ab898dcc.png"
+    },
+    {
+      "name": "AutoSummaryToolsMenu",
+      "imageAsset": "images/by-hash/61c99640ab898dcc.png"
+    },
+    {
+      "name": "AutoSummaryViewByHighlight",
+      "imageAsset": "images/by-hash/cb51119c7fae3a92.png"
+    },
+    {
+      "name": "EntityViewSummary",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupContentTypeSummaryActions",
+      "imageAsset": "images/by-hash/fcaa71a805f81e9f.png"
+    }
+  ],
+  "sameImageIds": [
+    "EditFileGallery",
+    "EditPage",
+    "EditPageAdvancedMode",
+    "EditPageNormalMode",
+    "EditSpdPage",
+    "GroupDocumentLibraryEdit",
+    "GroupLayoutPagesEdit",
+    "GroupMasterPagesEdit",
+    "GroupSiteAssetsEdit"
+  ]
+}

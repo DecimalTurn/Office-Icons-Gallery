@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FormatPictureOrShapeDialogClassic",
+      "imageAsset": "images/by-hash/da5ff4d2d3c30465.png"
+    },
+    {
+      "name": "HeaderFooterFormatPicture",
+      "imageAsset": "images/by-hash/24f88f3dbf743246.png"
+    },
+    {
+      "name": "PictureFormatDialog",
+      "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+    },
+    {
+      "name": "PictureFormatDialogVisio",
+      "imageAsset": "images/by-hash/24f88f3dbf743246.png"
+    },
+    {
+      "name": "PictureSwapTwoPictureFormat",
+      "imageAsset": "images/by-hash/eb69d03156274df8.png"
+    },
+    {
+      "name": "FontsReplaceFonts",
+      "imageAsset": "images/by-hash/ea48b3923982405f.png"
+    },
+    {
+      "name": "ReplaceDialog",
+      "imageAsset": "images/by-hash/630ccf1e05ee9dfa.png"
+    },
+    {
+      "name": "ReplaceShape",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "ReplaceWithAutoText",
+      "imageAsset": "images/by-hash/efe168a0e0dce76c.png"
+    },
+    {
+      "name": "ResultsPaneStartFindAndReplace",
+      "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+    },
+    {
+      "name": "BibliographyAddNewSource",
+      "imageAsset": "images/by-hash/07772fa5f13c3b98.png"
+    },
+    {
+      "name": "CatalogMergeOpenDataSource",
+      "imageAsset": "images/by-hash/ed662b1b3d27fe6e.png"
+    }
+  ],
+  "sameImageIds": []
+}

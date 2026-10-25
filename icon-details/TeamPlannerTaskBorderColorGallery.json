@@ -1,0 +1,78 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TeamPlannerActualBorderColor",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "TeamPlannerTaskFillColorGallery",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "TeamPlannerAutoScheduledBorder",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "TeamPlannerExternalBorder",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "TeamPlannerLateBorder",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "TeamPlannerManualBorder",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "TeamPlannerActualFillColor",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "TeamPlannerAutoScheduledFillColor",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "TeamPlannerExternalFillColor",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "TeamPlannerLateFillColor",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "TeamPlannerManuallyScheduledFillColor",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "GroupTeamPlannerFormat",
+      "imageAsset": "images/by-hash/e9bcf20071fd7d28.png"
+    }
+  ],
+  "sameImageIds": [
+    "BorderColorPicker",
+    "BorderColorPickerExcel",
+    "Drawing1ColorPickerLineStyles",
+    "Drawing1ColorPickerLineStyles2",
+    "Drawing1ColorPickerLineStylesWordArt",
+    "GroupSparklineStyle",
+    "GuideColorGallery",
+    "OutlineColorPicker",
+    "PictureBorderColorPickerClassic",
+    "ShapeOutlineColorPicker",
+    "SparklineColorPicker",
+    "SparklineFirstPointColorPicker",
+    "SparklineHighPointColorPicker",
+    "SparklineLastPointColorPicker",
+    "SparklineLowPointColorPicker",
+    "SparklineMarkerColorPicker",
+    "SparkLineNegativePointColorPicker",
+    "TableBorderPenColorPicker",
+    "TeamPlannerActualBorderColor",
+    "TeamPlannerAutoScheduledBorder",
+    "TeamPlannerExternalBorder",
+    "TeamPlannerLateBorder",
+    "TeamPlannerManualBorder",
+    "VideoBorderGallery"
+  ]
+}

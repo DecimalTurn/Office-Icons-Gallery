@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ContactCardReplyAllEmail",
+      "imageAsset": "images/by-hash/7b3a0741c95874c2.png"
+    },
+    {
+      "name": "ContactCardReplyWithInstantMessage",
+      "imageAsset": "images/by-hash/57d1bb90bfbd9267.png"
+    },
+    {
+      "name": "PersonaReplyAllByIMMenu",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "PersonaReplyByIMMenu",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "PostReply",
+      "imageAsset": "images/by-hash/284058bf50d3d773.png"
+    },
+    {
+      "name": "PostReplyToFolder",
+      "imageAsset": "images/by-hash/284058bf50d3d773.png"
+    },
+    {
+      "name": "Reply",
+      "imageAsset": "images/by-hash/40fe8321a3ca61b1.png"
+    },
+    {
+      "name": "ReplyAll",
+      "imageAsset": "images/by-hash/7b3a0741c95874c2.png"
+    },
+    {
+      "name": "ReplyAllMenu",
+      "imageAsset": "images/by-hash/7b3a0741c95874c2.png"
+    },
+    {
+      "name": "ReplyAllWithInstantMessage",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "ReplyToAllAttendeesWithMessage",
+      "imageAsset": "images/by-hash/7b3a0741c95874c2.png"
+    },
+    {
+      "name": "ReplyToAttendeesWithMessage",
+      "imageAsset": "images/by-hash/40fe8321a3ca61b1.png"
+    }
+  ],
+  "sameImageIds": [
+    "OtherResponsesExMenu"
+  ]
+}

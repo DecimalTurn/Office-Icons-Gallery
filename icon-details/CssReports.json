@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ApplyCssStyles",
+      "imageAsset": "images/by-hash/a85f46fb6686a11a.png"
+    },
+    {
+      "name": "CssAttachStyleSheet",
+      "imageAsset": "images/by-hash/e74c513b67919470.png"
+    },
+    {
+      "name": "NewCSS",
+      "imageAsset": "images/by-hash/bccf3928a03f999d.png"
+    },
+    {
+      "name": "NewCSSPage",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "NewCssStyle",
+      "imageAsset": "images/by-hash/d9d9273e665f2cba.png"
+    },
+    {
+      "name": "ReformatCss",
+      "imageAsset": "images/by-hash/7bb1047125b5f27c.png"
+    },
+    {
+      "name": "WorkspaceCssProperties",
+      "imageAsset": "images/by-hash/fb48779a5972c1de.png"
+    },
+    {
+      "name": "AccessibilityReports",
+      "imageAsset": "images/by-hash/fe1c107d924da4c2.png"
+    },
+    {
+      "name": "ClientReportsMenu",
+      "imageAsset": "images/by-hash/d424eccd1c1aec43.png"
+    },
+    {
+      "name": "CompatibilityReports",
+      "imageAsset": "images/by-hash/ccffa2d1204f844d.png"
+    },
+    {
+      "name": "GroupCreateReports",
+      "imageAsset": "images/by-hash/cfb13b5ee60551a3.png"
+    },
+    {
+      "name": "GroupCreateReportsWeb",
+      "imageAsset": "images/by-hash/cfb13b5ee60551a3.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ConditionIsNotBetween",
+      "imageAsset": "images/by-hash/2f5f03dde73b434a.png"
+    },
+    {
+      "name": "RulesConditionIsAfterDateGallery",
+      "imageAsset": "images/by-hash/514f480d0558883f.png"
+    },
+    {
+      "name": "RulesConditionIsBeforeDateGallery",
+      "imageAsset": "images/by-hash/4fd59b93ada726e0.png"
+    },
+    {
+      "name": "RulesConditionIsBlankGallery",
+      "imageAsset": "images/by-hash/a27cbe8c2471ca9d.png"
+    },
+    {
+      "name": "RulesConditionIsCheckedGallery",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "RulesConditionIsEqualToGallery",
+      "imageAsset": "images/by-hash/80c5d9e9da57e20a.png"
+    },
+    {
+      "name": "RulesConditionIsGreaterThanGallery",
+      "imageAsset": "images/by-hash/514f480d0558883f.png"
+    },
+    {
+      "name": "RulesConditionIsInTheFutureGallery",
+      "imageAsset": "images/by-hash/49d231fa10bd937f.png"
+    },
+    {
+      "name": "RulesConditionIsInThePastGallery",
+      "imageAsset": "images/by-hash/b460c61e348ecdfd.png"
+    },
+    {
+      "name": "RulesConditionIsLessThanGallery",
+      "imageAsset": "images/by-hash/4fd59b93ada726e0.png"
+    },
+    {
+      "name": "RulesConditionIsNotCheckedGallery",
+      "imageAsset": "images/by-hash/badd3f8aadd76365.png"
+    },
+    {
+      "name": "RulesConditionIsNotEqualToGallery",
+      "imageAsset": "images/by-hash/fffa1ed216cbda85.png"
+    }
+  ],
+  "sameImageIds": []
+}

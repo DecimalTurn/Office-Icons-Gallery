@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NamedMacroMenu",
+      "imageAsset": "images/by-hash/35d9002c8659d82c.png"
+    },
+    {
+      "name": "NewNamedDataMacro",
+      "imageAsset": "images/by-hash/b73d89a80f4ecfc2.png"
+    },
+    {
+      "name": "AccessMergeCells",
+      "imageAsset": "images/by-hash/32b656a3b1ec1c0d.png"
+    },
+    {
+      "name": "CellsDelete",
+      "imageAsset": "images/by-hash/f836ed27023164d9.png"
+    },
+    {
+      "name": "CellsDeleteSmart",
+      "imageAsset": "images/by-hash/f836ed27023164d9.png"
+    },
+    {
+      "name": "CellsInsertDialog",
+      "imageAsset": "images/by-hash/86df329d6ababfa0.png"
+    },
+    {
+      "name": "CellsInsertSmart",
+      "imageAsset": "images/by-hash/86df329d6ababfa0.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightCellsMenu",
+      "imageAsset": "images/by-hash/6b7a34509ca46db1.png"
+    },
+    {
+      "name": "DeleteCells",
+      "imageAsset": "images/by-hash/f836ed27023164d9.png"
+    },
+    {
+      "name": "DeleteCells2",
+      "imageAsset": "images/by-hash/f836ed27023164d9.png"
+    },
+    {
+      "name": "FormatCellsDialog",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "FormatCellsFontDialog",
+      "imageAsset": "images/by-hash/facb4b355bd224b5.png"
+    }
+  ],
+  "sameImageIds": [
+    "NameDefineMenu",
+    "NameManager"
+  ]
+}

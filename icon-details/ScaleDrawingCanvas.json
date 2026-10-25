@@ -1,0 +1,60 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DrawingCanvasScale",
+      "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+    },
+    {
+      "name": "DrawingCanvasExpand",
+      "imageAsset": "images/by-hash/2cbd4e11686252de.png"
+    },
+    {
+      "name": "DrawingCanvasFit",
+      "imageAsset": "images/by-hash/2fef15dde34fdfb9.png"
+    },
+    {
+      "name": "DrawingCanvasInsert",
+      "imageAsset": "images/by-hash/d9469ffed7b9b79b.png"
+    },
+    {
+      "name": "DrawingCanvasResize",
+      "imageAsset": "images/by-hash/96077b881b235e69.png"
+    },
+    {
+      "name": "InsertDrawingCanvas",
+      "imageAsset": "images/by-hash/7c09e8bd015cd422.png"
+    },
+    {
+      "name": "JotMergeDrawingCanvas",
+      "imageAsset": "images/by-hash/ba8dd2f2697e6449.png"
+    },
+    {
+      "name": "GalleryAllShapesAndCanvas",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "DiagramScale",
+      "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+    },
+    {
+      "name": "GalPrintScale",
+      "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+    },
+    {
+      "name": "GroupPageLayoutScaleToFit",
+      "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+    },
+    {
+      "name": "OrgChartScale",
+      "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+    }
+  ],
+  "sameImageIds": [
+    "DiagramScale",
+    "DrawingCanvasScale",
+    "GalPrintScale",
+    "OrgChartScale",
+    "PageScaleToFitScale",
+    "SmartArtSmallerShape"
+  ]
+}

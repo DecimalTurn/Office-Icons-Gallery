@@ -1,0 +1,79 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AdpDiagramAddRelatedTables",
+      "imageAsset": "images/by-hash/3ce52e58a86dd5ae.png"
+    },
+    {
+      "name": "AdpDiagramArrangeTables",
+      "imageAsset": "images/by-hash/fdd10e6aaa27bf02.png"
+    },
+    {
+      "name": "AdpDiagramAutosizeSelectedTables",
+      "imageAsset": "images/by-hash/8f2da1eb3cb54652.png"
+    },
+    {
+      "name": "CustomTablesGallery",
+      "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+    },
+    {
+      "name": "DatabaseModelingShowRelatedTables",
+      "imageAsset": "images/by-hash/d64d8723b69c63c3.png"
+    },
+    {
+      "name": "FileServerLinkTables",
+      "imageAsset": "images/by-hash/03d8cc77bd05dbdd.png"
+    },
+    {
+      "name": "GroupArrangeChartsTables",
+      "imageAsset": "images/by-hash/3ba5178b9f938bd5.png"
+    },
+    {
+      "name": "GroupCreateTables",
+      "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+    },
+    {
+      "name": "GroupCreateTablesWeb",
+      "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+    },
+    {
+      "name": "GroupInsertTablesExcel",
+      "imageAsset": "images/by-hash/16aa732cf3f2f3d5.png"
+    },
+    {
+      "name": "GroupInsertTablesHome",
+      "imageAsset": "images/by-hash/16aa732cf3f2f3d5.png"
+    },
+    {
+      "name": "GroupReconnectTables",
+      "imageAsset": "images/by-hash/6fbe1de1a9ec36da.png"
+    }
+  ],
+  "sameImageIds": [
+    "AccessFormDatasheet",
+    "AccessListCustomDatasheet",
+    "CatalogMergeMoreRowsColumns",
+    "CatalogMergeRowsColumnsGallery",
+    "ColumnsGroup",
+    "CreateDatasheetView",
+    "CreateSharePointList",
+    "CreateTable",
+    "CreateTableTemplatesGallery",
+    "CustomTablesGallery",
+    "FPTable",
+    "GroupCreateTables",
+    "GroupCreateTablesWeb",
+    "InsertTable",
+    "LayoutTable",
+    "QuickTablesInsertGallery",
+    "TableInsert",
+    "TableInsertDialog",
+    "TableInsertDialogWord",
+    "TableInsertGallery",
+    "TableInsertGalleryAlternate",
+    "TableInsertGallerySpd",
+    "TableLayoutInfoPath",
+    "TableRowsOrColumnsOrCellsInsert",
+    "ToggleAddTableUI"
+  ]
+}

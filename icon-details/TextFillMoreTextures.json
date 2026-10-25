@@ -1,0 +1,19 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ShapeFillEffectMoreTexturesDialogClassic",
+      "imageAsset": "images/by-hash/a3ae03cb7ef4932f.png"
+    },
+    {
+      "name": "Drawing1GalleryTextures",
+      "imageAsset": "images/by-hash/a3ae03cb7ef4932f.png"
+    }
+  ],
+  "sameImageIds": [
+    "Drawing1GalleryTextures",
+    "MoreTextureOptions",
+    "ShapeFillEffectMoreTexturesDialogClassic",
+    "ShapeFillTextureGallery",
+    "TextFillTextureGallery"
+  ]
+}

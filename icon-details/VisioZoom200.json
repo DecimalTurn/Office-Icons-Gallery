@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "Zoom100Visio",
+      "imageAsset": "images/by-hash/212d13be56c4f382.png"
+    },
+    {
+      "name": "ZoomFitToWindowVisio",
+      "imageAsset": "images/by-hash/2fef15dde34fdfb9.png"
+    },
+    {
+      "name": "ZoomPageWidthVisio",
+      "imageAsset": "images/by-hash/730f1a1d097606df.png"
+    },
+    {
+      "name": "CalendarViewZoom",
+      "imageAsset": "images/by-hash/212d13be56c4f382.png"
+    },
+    {
+      "name": "GroupPrintPreviewZoom",
+      "imageAsset": "images/by-hash/212d13be56c4f382.png"
+    },
+    {
+      "name": "GroupTimelineViewZoom",
+      "imageAsset": "images/by-hash/212d13be56c4f382.png"
+    },
+    {
+      "name": "GroupViewZoom",
+      "imageAsset": "images/by-hash/212d13be56c4f382.png"
+    },
+    {
+      "name": "GroupZoom",
+      "imageAsset": "images/by-hash/212d13be56c4f382.png"
+    },
+    {
+      "name": "GroupZoomDocked",
+      "imageAsset": "images/by-hash/212d13be56c4f382.png"
+    },
+    {
+      "name": "NetworkDiagramZoom",
+      "imageAsset": "images/by-hash/212d13be56c4f382.png"
+    },
+    {
+      "name": "OmsChangeZoom",
+      "imageAsset": "images/by-hash/212d13be56c4f382.png"
+    },
+    {
+      "name": "PanAndZoomWindow",
+      "imageAsset": "images/by-hash/e895f5d168902b39.png"
+    }
+  ],
+  "sameImageIds": []
+}

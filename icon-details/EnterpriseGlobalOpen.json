@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EnterpriseResourcesOpen",
+      "imageAsset": "images/by-hash/904f30d162e4d831.png"
+    },
+    {
+      "name": "ManageGlobalTemplate",
+      "imageAsset": "images/by-hash/e9c57970baa3681f.png"
+    },
+    {
+      "name": "EnterpriseProjectImport",
+      "imageAsset": "images/by-hash/bf2f236ff3ebad5f.png"
+    },
+    {
+      "name": "EnterpriseProjectProfiles",
+      "imageAsset": "images/by-hash/2b702d6430221cf3.png"
+    },
+    {
+      "name": "EnterpriseResourcesImport",
+      "imageAsset": "images/by-hash/001c88135bd2684c.png"
+    }
+  ],
+  "sameImageIds": []
+}

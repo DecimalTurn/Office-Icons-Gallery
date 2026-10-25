@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SketchpadToolBackgroundMenu",
+      "imageAsset": "images/by-hash/52387a3c842c9964.png"
+    },
+    {
+      "name": "SketchpadToolInsertBackground",
+      "imageAsset": "images/by-hash/52387a3c842c9964.png"
+    },
+    {
+      "name": "PictureBackgroundRemovalMarkDelete",
+      "imageAsset": "images/by-hash/40c5f299a9d180cf.png"
+    },
+    {
+      "name": "GroupNewSketchpadTool",
+      "imageAsset": "images/by-hash/dd87254046e40348.png"
+    },
+    {
+      "name": "GroupSketchpad",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "NewSketchpadTool",
+      "imageAsset": "images/by-hash/93534773692ce795.png"
+    },
+    {
+      "name": "SketchpadToolArrangeMenu",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "SketchpadToolBringForward",
+      "imageAsset": "images/by-hash/3ba5178b9f938bd5.png"
+    },
+    {
+      "name": "SketchpadToolBringToFront",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "SketchpadToolNewSketch",
+      "imageAsset": "images/by-hash/dd87254046e40348.png"
+    },
+    {
+      "name": "SketchpadToolSendBackward",
+      "imageAsset": "images/by-hash/a3ed927dc0efa66a.png"
+    },
+    {
+      "name": "SketchpadToolSendToBack",
+      "imageAsset": "images/by-hash/3bfc8059daba52d5.png"
+    }
+  ],
+  "sameImageIds": []
+}

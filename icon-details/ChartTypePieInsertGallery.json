@@ -1,0 +1,19 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartTypePieInsertDialog",
+      "imageAsset": "images/by-hash/0fcda986e50c3a81.png"
+    },
+    {
+      "name": "Chart3DPieChart",
+      "imageAsset": "images/by-hash/14598c34f3b0b6c1.png"
+    },
+    {
+      "name": "ChartlibAddRemoveDataLabelCalloutPie",
+      "imageAsset": "images/by-hash/0731b75f63b46726.png"
+    }
+  ],
+  "sameImageIds": [
+    "Chart3DPieChart"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReviewRestrictFormatting",
+      "imageAsset": "images/by-hash/2a9d5ce71f064303.png"
+    },
+    {
+      "name": "FilePermissionRestrictMenu",
+      "imageAsset": "images/by-hash/d183c0780b942621.png"
+    },
+    {
+      "name": "PermissionRestrict",
+      "imageAsset": "images/by-hash/f783c4fd4f755618.png"
+    },
+    {
+      "name": "PermissionRestrictMenu",
+      "imageAsset": "images/by-hash/f783c4fd4f755618.png"
+    },
+    {
+      "name": "CancelEditing",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "EastAsianEditingMarks",
+      "imageAsset": "images/by-hash/684c66fc88321c81.png"
+    },
+    {
+      "name": "GroupAudioEditing",
+      "imageAsset": "images/by-hash/9de2f9e4dcce8de7.png"
+    },
+    {
+      "name": "GroupCodeEditing",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "GroupEditing",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "GroupEditingExcel",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "GroupEditingInfoPath",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "GroupEditingSpd",
+      "imageAsset": "images/by-hash/e990b26262ad2738.png"
+    }
+  ],
+  "sameImageIds": [
+    "ReviewProtectWorkbook",
+    "ReviewProtectWorkbookMenu"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DataValidationCircleInvalid",
+      "imageAsset": "images/by-hash/0b6b8b124e99cafc.png"
+    },
+    {
+      "name": "GroupHotspot",
+      "imageAsset": "images/by-hash/4feff2afcc852911.png"
+    },
+    {
+      "name": "Hotspot",
+      "imageAsset": "images/by-hash/733e2364678e679c.png"
+    },
+    {
+      "name": "HotspotGallery",
+      "imageAsset": "images/by-hash/4feff2afcc852911.png"
+    },
+    {
+      "name": "ImageHotspotProperties",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "PolygonHotspot",
+      "imageAsset": "images/by-hash/ca312aa7a539ac51.png"
+    },
+    {
+      "name": "RectangleHotspot",
+      "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+    }
+  ],
+  "sameImageIds": [
+    "DrawFilledEllipse",
+    "EllipseTool",
+    "ShapeOval"
+  ]
+}

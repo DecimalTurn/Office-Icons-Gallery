@@ -1,0 +1,26 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SelectColumn",
+      "imageAsset": "images/by-hash/c08960493d58329d.png"
+    },
+    {
+      "name": "TableColumnSelect",
+      "imageAsset": "images/by-hash/c08960493d58329d.png"
+    },
+    {
+      "name": "TableSelectColumnInfoPath",
+      "imageAsset": "images/by-hash/c08960493d58329d.png"
+    },
+    {
+      "name": "SelectTaskCell",
+      "imageAsset": "images/by-hash/21caa061890b9878.png"
+    }
+  ],
+  "sameImageIds": [
+    "SelectColumn",
+    "SelectColumns",
+    "TableColumnSelect",
+    "TableSelectColumnInfoPath"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ShareContactsFolder",
+      "imageAsset": "images/by-hash/d18a1653eb9dba65.png"
+    },
+    {
+      "name": "AccessListContacts",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "AccessTableContacts",
+      "imageAsset": "images/by-hash/86497283f682fdc3.png"
+    },
+    {
+      "name": "CatalogMergeUseOutlookContacts",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "ContactAddMyContacts",
+      "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+    },
+    {
+      "name": "ContactCardAddToIMContacts",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "ContactCardAddToOutlookContacts",
+      "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+    },
+    {
+      "name": "ContactCardInstantMessageAddToOutlookContacts",
+      "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+    },
+    {
+      "name": "ContactsNewItemMenu",
+      "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+    },
+    {
+      "name": "CopyToPersonalContacts",
+      "imageAsset": "images/by-hash/3bd570c61f1f381b.png"
+    },
+    {
+      "name": "DistributionListSelectMembersFromContacts",
+      "imageAsset": "images/by-hash/3f25d7cc9127c399.png"
+    },
+    {
+      "name": "GotoContacts",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    }
+  ],
+  "sameImageIds": [
+    "ShareContactsFolder"
+  ]
+}

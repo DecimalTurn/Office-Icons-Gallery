@@ -1,4 +1,5 @@
 const { test, expect } = require("@playwright/test");
+const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
@@ -47,7 +48,11 @@ test("metadata contains only keywords and excludes short icon-name words", async
   }
   for (const [name, keywords] of Object.entries(reviewedKeywords)) {
     const icon = metadataByName.get(name);
-    const relatedNames = icon?.imageStatus === "placeholder" ? [name] : [name, ...(icon?.sameImageIds || [])];
+    const relatedNames = icon?.imageStatus === "placeholder" ? [name] : [
+      name,
+      ...metadata.filter((other) => other.imageStatus !== "placeholder" &&
+        other.imageSha256 === icon?.imageSha256 && other.name !== name).map((other) => other.name)
+    ];
     const expectedKeywords = removeShortNameKeywords(relatedNames, keywords);
     if (!expectedKeywords.every((keyword) => icon?.keywords.includes(keyword))) {
       metadataViolations.push(`reviewed keywords for ${name} are missing from metadata`);
@@ -85,32 +90,52 @@ test("metadata contains only keywords and excludes short icon-name words", async
   ]);
 });
 
-test("stores related icons in per-icon sidecar files", async ({ request }) => {
+test("stores detail data in per-icon sidecar files", async ({ request }) => {
   const response = await request.get("/icon-metadata.json");
   expect(response.ok()).toBe(true);
 
   const metadata = await response.json();
-  expect(metadata.every((icon) => !Object.hasOwn(icon, "relatedIcons"))).toBe(true);
-  const relatedDirectory = path.join(__dirname, "..", "related-icons");
-  const relatedFileNames = fs.readdirSync(relatedDirectory).filter((fileName) => fileName.endsWith(".json"));
+  expect(metadata.every((icon) => !Object.hasOwn(icon, "relatedIcons") && !Object.hasOwn(icon, "sameImageIds"))).toBe(true);
+  const detailsDirectory = path.join(__dirname, "..", "icon-details");
+  const detailFileNames = fs.readdirSync(detailsDirectory).filter((fileName) => fileName.endsWith(".json"));
   const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
   const placeholderNames = new Set(metadata
     .filter((icon) => icon.imageStatus === "placeholder")
     .map((icon) => icon.name));
+  const namesByImageHash = new Map();
+  for (const icon of metadata) {
+    if (icon.imageStatus === "placeholder") {
+      continue;
+    }
+    const names = namesByImageHash.get(icon.imageSha256) || [];
+    names.push(icon.name);
+    namesByImageHash.set(icon.imageSha256, names);
+  }
   const invalidSuggestions = [];
-  for (const fileName of relatedFileNames) {
+  const invalidDetails = [];
+  for (const fileName of detailFileNames) {
     const iconName = path.basename(fileName, ".json");
-    const relatedIcons = JSON.parse(fs.readFileSync(path.join(relatedDirectory, fileName), "utf8"));
-    expect(metadataByName.has(iconName)).toBe(true);
-    expect(relatedIcons.length).toBeGreaterThan(0);
-    for (const relatedIcon of relatedIcons) {
+    const details = JSON.parse(fs.readFileSync(path.join(detailsDirectory, fileName), "utf8"));
+    const icon = metadataByName.get(iconName);
+    if (!icon || !Array.isArray(details.relatedIcons) || !Array.isArray(details.sameImageIds)) {
+      invalidDetails.push(`${iconName}: invalid detail data`);
+      continue;
+    }
+    const expectedSameImageIds = icon.imageStatus === "placeholder"
+      ? []
+      : (namesByImageHash.get(icon.imageSha256) || []).filter((name) => name !== iconName);
+    if (JSON.stringify(details.sameImageIds) !== JSON.stringify(expectedSameImageIds)) {
+      invalidDetails.push(`${iconName}: same-image IDs do not match its image hash group`);
+    }
+    for (const relatedIcon of details.relatedIcons) {
       if (placeholderNames.has(relatedIcon.name) || metadataByName.get(relatedIcon.name)?.imageAsset !== relatedIcon.imageAsset) {
         invalidSuggestions.push(`${iconName}: ${relatedIcon.name}`);
       }
     }
   }
   expect(placeholderNames).toContain("ClientQuery");
-  expect(fs.existsSync(path.join(relatedDirectory, "Club.json"))).toBe(false);
+  expect(fs.existsSync(path.join(detailsDirectory, "Club.json"))).toBe(false);
+  assert.deepEqual(invalidDetails, []);
   expect(invalidSuggestions).toEqual([]);
 });
 

@@ -1,0 +1,20 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PictureReflectionGallery",
+      "imageAsset": "images/by-hash/557805e0b24dcadf.png"
+    },
+    {
+      "name": "PictureReflectionGalleryItem",
+      "imageAsset": "images/by-hash/f944eb25132de916.png"
+    },
+    {
+      "name": "TextReflectionGallery",
+      "imageAsset": "images/by-hash/06b3950f4a177531.png"
+    }
+  ],
+  "sameImageIds": [
+    "ReflectionsMoreOptions",
+    "TextEffectsReflectionsMoreOptions"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ShapeLeftBrace",
+      "imageAsset": "images/by-hash/93a2066f450ad771.png"
+    },
+    {
+      "name": "ShapeRightArrow",
+      "imageAsset": "images/by-hash/1f8015fc6e21f1d1.png"
+    },
+    {
+      "name": "MatchBrace",
+      "imageAsset": "images/by-hash/04ba488b5ad02203.png"
+    }
+  ],
+  "sameImageIds": []
+}

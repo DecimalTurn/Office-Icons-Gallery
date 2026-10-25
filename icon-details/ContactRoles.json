@@ -1,0 +1,26 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupUserRoles",
+      "imageAsset": "images/by-hash/593a12528fc132a5.png"
+    },
+    {
+      "name": "SetRoles",
+      "imageAsset": "images/by-hash/593a12528fc132a5.png"
+    },
+    {
+      "name": "UserRolesManage",
+      "imageAsset": "images/by-hash/593a12528fc132a5.png"
+    }
+  ],
+  "sameImageIds": [
+    "DatabasePermissionsMenu",
+    "GroupAdminister",
+    "GroupPagePermissionsManage",
+    "GroupSitePermissionsManage",
+    "PermissionLevels",
+    "PwaPagePermissions",
+    "SharingPermissions",
+    "WorkgroupAdmin"
+  ]
+}

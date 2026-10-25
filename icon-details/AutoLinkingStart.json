@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AutoLinkingStop",
+      "imageAsset": "images/by-hash/71dee70b48fca71d.png"
+    },
+    {
+      "name": "GroupLinking",
+      "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+    },
+    {
+      "name": "AnimationStartDropdown",
+      "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+    },
+    {
+      "name": "ArrangeByAppointmentStart",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "ArrangeByToDoStart",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "AudioStartGallery",
+      "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+    },
+    {
+      "name": "CDAudioStartTime",
+      "imageAsset": "images/by-hash/d83f7fd798761854.png"
+    },
+    {
+      "name": "CDAudioStartTrack",
+      "imageAsset": "images/by-hash/6805ad7549fb04e1.png"
+    },
+    {
+      "name": "EmailMergeStart",
+      "imageAsset": "images/by-hash/529f029eb10ff921.png"
+    },
+    {
+      "name": "FileStartWorkflow",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "GanttGoToStart",
+      "imageAsset": "images/by-hash/1720f362fe7a57f6.png"
+    },
+    {
+      "name": "GroupCatalogMergeStart",
+      "imageAsset": "images/by-hash/ab1eca44d289be82.png"
+    }
+  ],
+  "sameImageIds": []
+}

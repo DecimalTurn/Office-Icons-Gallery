@@ -1,0 +1,30 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupJunkEmail",
+      "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+    },
+    {
+      "name": "JunkEmailAddToBlockedSendersList",
+      "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+    },
+    {
+      "name": "JunkEmailMarkAsNotJunk",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    },
+    {
+      "name": "JunkEmailOptions",
+      "imageAsset": "images/by-hash/791cc4acbb726258.png"
+    },
+    {
+      "name": "JunkEmailSafeListsMenu",
+      "imageAsset": "images/by-hash/44ac5b462eeb6978.png"
+    }
+  ],
+  "sameImageIds": [
+    "ApplyCoAuthoringLock",
+    "BlockAuthorsMenu",
+    "GroupJunkEmail",
+    "JunkEmailAddToBlockedSendersList"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ComAddInsDialog",
+      "imageAsset": "images/by-hash/ee94c895a540e52b.png"
+    },
+    {
+      "name": "GroupAddInsCustomToolbars",
+      "imageAsset": "images/by-hash/23485d21e490ec41.png"
+    },
+    {
+      "name": "GroupAddInsMenuCommands",
+      "imageAsset": "images/by-hash/57494247c3fb8b12.png"
+    },
+    {
+      "name": "GroupAddInsToolbarCommands",
+      "imageAsset": "images/by-hash/25b4eab910f34c24.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddOnsMenu"
+  ]
+}

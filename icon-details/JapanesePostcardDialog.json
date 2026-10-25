@@ -1,0 +1,35 @@
+{
+  "relatedIcons": [
+    {
+      "name": "JapanesePostcardCreateAddressSide",
+      "imageAsset": "images/by-hash/7bc0d89aa4baf964.png"
+    },
+    {
+      "name": "JapanesePostcardCreateLetterSide",
+      "imageAsset": "images/by-hash/4cd2ac6eeb060b18.png"
+    },
+    {
+      "name": "JapanesePostcardMenu",
+      "imageAsset": "images/by-hash/66e07a44761b804d.png"
+    },
+    {
+      "name": "PostcardWizard",
+      "imageAsset": "images/by-hash/111c129dd027d9a8.png"
+    },
+    {
+      "name": "JapaneseGreetingsInsertMenu",
+      "imageAsset": "images/by-hash/504fae1d399e11bd.png"
+    },
+    {
+      "name": "MailMergeJapanesePostalBarcode",
+      "imageAsset": "images/by-hash/1e05321ba85ebd9f.png"
+    },
+    {
+      "name": "ReviewJapaneseConsistencyChecker",
+      "imageAsset": "images/by-hash/8649c2627554b28b.png"
+    }
+  ],
+  "sameImageIds": [
+    "JapanesePostcardMenu"
+  ]
+}

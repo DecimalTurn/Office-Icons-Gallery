@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartFormatFloor",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "FloorPlanConvertToWalls",
+      "imageAsset": "images/by-hash/5bc689796c87270c.png"
+    },
+    {
+      "name": "FloorPlanDisplayOptions",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupFloorPlanPlan",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    }
+  ],
+  "sameImageIds": []
+}

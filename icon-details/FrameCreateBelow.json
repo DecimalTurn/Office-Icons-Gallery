@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FrameCreateAbove",
+      "imageAsset": "images/by-hash/d97def2a448b794f.png"
+    },
+    {
+      "name": "FrameCreateLeft",
+      "imageAsset": "images/by-hash/79617202f6815d25.png"
+    },
+    {
+      "name": "FrameCreateRight",
+      "imageAsset": "images/by-hash/1b9d6fc042a8fe96.png"
+    },
+    {
+      "name": "ConditionalFormattingBelowAverage",
+      "imageAsset": "images/by-hash/3cf99b131af86a6e.png"
+    },
+    {
+      "name": "InsertRowBelow",
+      "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+    },
+    {
+      "name": "InsertRowBelowAccess",
+      "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+    },
+    {
+      "name": "SmartArtAddShapeBelow",
+      "imageAsset": "images/by-hash/d1ed79282cd7c496.png"
+    },
+    {
+      "name": "TableInsertRowsBelow",
+      "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+    },
+    {
+      "name": "TableRowsInsertBelowExcel",
+      "imageAsset": "images/by-hash/dd60bdd944ee993d.png"
+    },
+    {
+      "name": "TableRowsInsertBelowWord",
+      "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+    },
+    {
+      "name": "WordCloseParaBelow",
+      "imageAsset": "images/by-hash/44c043bd192a2499.png"
+    },
+    {
+      "name": "WordOpenParaBelow",
+      "imageAsset": "images/by-hash/652e8c1fd14b8f9c.png"
+    }
+  ],
+  "sameImageIds": []
+}

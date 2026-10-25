@@ -1,0 +1,63 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OpenAttachedMasterPage",
+      "imageAsset": "images/by-hash/2a6dfca67a47567a.png"
+    },
+    {
+      "name": "CalendarOpen",
+      "imageAsset": "images/by-hash/d9540932999d0043.png"
+    },
+    {
+      "name": "OpenMyDepartmentCalendar",
+      "imageAsset": "images/by-hash/89db66eab60e7214.png"
+    },
+    {
+      "name": "OpenSharedCalendar",
+      "imageAsset": "images/by-hash/8db446fcf66f5604.png"
+    },
+    {
+      "name": "SharingOpenCalendarFolder",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "SharingOpenICalendar",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "SharingOpenPublishedCalendar",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "SharingOpenWebCalendar",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "SharingOpenWssCalendar",
+      "imageAsset": "images/by-hash/feff041c0012ff48.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByAppointmentStart",
+    "CalendarInsert",
+    "ContactCardScheduleMeeting",
+    "DailyView",
+    "DataTypeLongDate",
+    "DataTypeMediumDate",
+    "DataTypeShortDate",
+    "GotoCalendar",
+    "GroupOpen",
+    "GroupResourceFormViewDetails",
+    "MeetingsToolViewByDay",
+    "NewAppointment",
+    "NewAppointmentCompact",
+    "NewAppointmentNumbered",
+    "PersonaCalendarMenu",
+    "QuickSearchMeetings",
+    "SearchUpscopeToAllCalendarItems",
+    "ShowAppointmentPage",
+    "StatusDate",
+    "ViewByDay",
+    "ViewScheduleShow"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartNavDrillDown",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "DrillOut",
+      "imageAsset": "images/by-hash/a9756fc15ca12e11.png"
+    },
+    {
+      "name": "NavDrillDown",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "NavDrillUp",
+      "imageAsset": "images/by-hash/9c3ea6230877361d.png"
+    },
+    {
+      "name": "SelectedItemNavDrillDown",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "SelectedItemNavDrillUp",
+      "imageAsset": "images/by-hash/9c3ea6230877361d.png"
+    }
+  ],
+  "sameImageIds": []
+}

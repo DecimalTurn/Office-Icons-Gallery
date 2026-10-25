@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PictureSwapMenu",
+      "imageAsset": "images/by-hash/2784c5fcbdfb542c.png"
+    },
+    {
+      "name": "PictureSwapPicture",
+      "imageAsset": "images/by-hash/2784c5fcbdfb542c.png"
+    },
+    {
+      "name": "PictureSwapTwoPicture",
+      "imageAsset": "images/by-hash/2784c5fcbdfb542c.png"
+    },
+    {
+      "name": "PictureSwapTwoPictureFormat",
+      "imageAsset": "images/by-hash/eb69d03156274df8.png"
+    },
+    {
+      "name": "GroupPictureTools",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "GroupPictureToolsAdjustClassic",
+      "imageAsset": "images/by-hash/b6920ebf67401601.png"
+    },
+    {
+      "name": "GroupPictureToolsClassic",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "GroupPictureToolsClassicEffects",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "PictureCropTools",
+      "imageAsset": "images/by-hash/96077b881b235e69.png"
+    },
+    {
+      "name": "ArrangeTools",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "ArrangeToolsSiteClient",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "AudioToolsTrim",
+      "imageAsset": "images/by-hash/9de2f9e4dcce8de7.png"
+    }
+  ],
+  "sameImageIds": [
+    "PictureSwapMenu",
+    "PictureSwapPicture",
+    "PictureSwapTwoPicture"
+  ]
+}

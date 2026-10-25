@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ContentControlsGroup",
+      "imageAsset": "images/by-hash/6f1d93970a6e51e2.png"
+    },
+    {
+      "name": "ContentControlsGroupMenu",
+      "imageAsset": "images/by-hash/6f1d93970a6e51e2.png"
+    },
+    {
+      "name": "ObjectsUngroup",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    },
+    {
+      "name": "ObjectsUngroupMultiple",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    },
+    {
+      "name": "ObjectsUngroupOutlook",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    },
+    {
+      "name": "OutlineUngroup",
+      "imageAsset": "images/by-hash/c031917157434ff3.png"
+    },
+    {
+      "name": "OutlineUngroupMenu",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    },
+    {
+      "name": "PivotUngroupItems",
+      "imageAsset": "images/by-hash/c031917157434ff3.png"
+    },
+    {
+      "name": "SparklinesUngroupSelected",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    },
+    {
+      "name": "ControlsGallery",
+      "imageAsset": "images/by-hash/a7c67257e1463a6d.png"
+    },
+    {
+      "name": "ControlsGalleryClassic",
+      "imageAsset": "images/by-hash/a7c67257e1463a6d.png"
+    },
+    {
+      "name": "ControlsGalleryInfoPath",
+      "imageAsset": "images/by-hash/a7c67257e1463a6d.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "_3DTiltDownClassic",
+      "imageAsset": "images/by-hash/3feb97f7e19ab7cd.png"
+    },
+    {
+      "name": "_3DTiltLeftClassic",
+      "imageAsset": "images/by-hash/2d5efc2c9652df88.png"
+    },
+    {
+      "name": "_3DTiltUpClassic",
+      "imageAsset": "images/by-hash/7a46f6d38b719d2e.png"
+    }
+  ],
+  "sameImageIds": []
+}

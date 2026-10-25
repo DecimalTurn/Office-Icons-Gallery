@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "_3DRotationGallery",
+      "imageAsset": "images/by-hash/7e8b56359c980dd8.png"
+    },
+    {
+      "name": "_3DRotationOptionsDialog",
+      "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+    },
+    {
+      "name": "ChartRotationOptionsDialog",
+      "imageAsset": "images/by-hash/b2d12a6affc2897a.png"
+    },
+    {
+      "name": "RotationTool",
+      "imageAsset": "images/by-hash/71ada65545a9763d.png"
+    },
+    {
+      "name": "TextEffects3DRotationGallery",
+      "imageAsset": "images/by-hash/0052c83d0e5c3339.png"
+    },
+    {
+      "name": "TextEffects3DRotationOptionsDialog",
+      "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+    }
+  ],
+  "sameImageIds": []
+}

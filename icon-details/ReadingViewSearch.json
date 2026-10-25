@@ -1,0 +1,86 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DocumentMapReadingView",
+      "imageAsset": "images/by-hash/8c005537b968b2f0.png"
+    },
+    {
+      "name": "InkStopInkingReadingView",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "ReadingMode",
+      "imageAsset": "images/by-hash/faeb4446f4fdb538.png"
+    },
+    {
+      "name": "ReadingModeColumnLayout",
+      "imageAsset": "images/by-hash/53c21f42593d741d.png"
+    },
+    {
+      "name": "ReadingModeColumnWidthDefault",
+      "imageAsset": "images/by-hash/53c21f42593d741d.png"
+    },
+    {
+      "name": "ReadingModeColumnWidthMenu",
+      "imageAsset": "images/by-hash/07769cf793dd35fb.png"
+    },
+    {
+      "name": "ReadingModeColumnWidthNarrow",
+      "imageAsset": "images/by-hash/b8b3c72b95a044fd.png"
+    },
+    {
+      "name": "ReadingModeColumnWidthWide",
+      "imageAsset": "images/by-hash/9236380ac5d8eefd.png"
+    },
+    {
+      "name": "ReadingModeLayoutMenu",
+      "imageAsset": "images/by-hash/d50a949df0433651.png"
+    },
+    {
+      "name": "ReadingModeMini",
+      "imageAsset": "images/by-hash/0f6afe10e0b28f5e.png"
+    },
+    {
+      "name": "ReadingModePageColorInverse",
+      "imageAsset": "images/by-hash/a1491bff5e46638f.png"
+    },
+    {
+      "name": "ReadingModePageColorMenu",
+      "imageAsset": "images/by-hash/84a62c7a27f34957.png"
+    }
+  ],
+  "sameImageIds": [
+    "CodeFindMenu",
+    "FindDialog",
+    "FindDialogExcel",
+    "FindMenu",
+    "FindText",
+    "FormsToolAdvancedFind",
+    "FormsToolFind",
+    "FormsToolFindMenu",
+    "GroupActionsLaunchbar",
+    "GroupCalendarRefineSearch",
+    "GroupCodeEditing",
+    "GroupContactFind",
+    "GroupContactRefineSearch",
+    "GroupEditing",
+    "GroupEditingExcel",
+    "GroupEditingInfoPath",
+    "GroupFind",
+    "GroupFindAccess",
+    "GroupFindFormsTool",
+    "GroupFindNotepadTool",
+    "GroupJournalRefineSearch",
+    "GroupMailRefineSearch",
+    "GroupNavigate",
+    "GroupNoteRefineSearch",
+    "GroupOutlookEditing",
+    "GroupSearch",
+    "GroupTaskRefineSearch",
+    "InstantSearch",
+    "NavigationPaneFind",
+    "NotebookSearch",
+    "OpenDesktopSearch",
+    "SelectMenuExcel"
+  ]
+}

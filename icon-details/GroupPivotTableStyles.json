@@ -1,0 +1,26 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotTableStylesGallery",
+      "imageAsset": "images/by-hash/da7ea7478bb82308.png"
+    }
+  ],
+  "sameImageIds": [
+    "FormatAsTableGallery",
+    "GroupSlicerStyles",
+    "GroupTableBordersOneNote",
+    "GroupTableFormatsPublisher",
+    "GroupTableStylesExcel",
+    "GroupTableStylesPowerPoint",
+    "GroupTableStylesWord",
+    "GroupTimelineStyles",
+    "GroupViewStyle",
+    "PivotTableStylesGallery",
+    "SlicerStyles",
+    "TableFormatsGalleryPublisher",
+    "TableStylesGallery",
+    "TableStylesGalleryExcel",
+    "TableStylesGalleryWord",
+    "TimelineStyles"
+  ]
+}

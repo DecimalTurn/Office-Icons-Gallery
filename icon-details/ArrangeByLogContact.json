@@ -1,0 +1,30 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FileCloseAndLogOff",
+      "imageAsset": "images/by-hash/8b8f6fc1118fc4fc.png"
+    },
+    {
+      "name": "GroupApplicationLog",
+      "imageAsset": "images/by-hash/a0d6e56de238e3d2.png"
+    }
+  ],
+  "sameImageIds": [
+    "AccessListContacts",
+    "CatalogMergeUseOutlookContacts",
+    "ContactCardLookUpOutlookContact",
+    "ContactGrooveProperties",
+    "ContactProperties",
+    "EnterPerson",
+    "GotoContacts",
+    "MailMergeRecepientsUseOutlookContacts",
+    "NewContact",
+    "NewContactCompact",
+    "NewContactFromSameCompany",
+    "NewContactNumbered",
+    "PersonaOpenContactMenu",
+    "SearchUpscopeToAllContactItems",
+    "SharingOpenContactFolder",
+    "ShowContactPage"
+  ]
+}

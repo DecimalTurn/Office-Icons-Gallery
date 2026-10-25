@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "JotConvertToBodyTextRTL",
+      "imageAsset": "images/by-hash/23674351039cc240.png"
+    },
+    {
+      "name": "JotHideBodyText",
+      "imageAsset": "images/by-hash/91419e0e6aa6586a.png"
+    },
+    {
+      "name": "JotShowBodyText",
+      "imageAsset": "images/by-hash/1397e5c8b73d7a6c.png"
+    },
+    {
+      "name": "BodyTextHide",
+      "imageAsset": "images/by-hash/e655d777209c8ac1.png"
+    },
+    {
+      "name": "OutlineDemoteToBodyText",
+      "imageAsset": "images/by-hash/afd902d3a9df8623.png"
+    },
+    {
+      "name": "ConvertDatabaseFormat",
+      "imageAsset": "images/by-hash/242adac7d08820da.png"
+    },
+    {
+      "name": "ConvertInkMenu",
+      "imageAsset": "images/by-hash/b3fdda08a32ab45e.png"
+    },
+    {
+      "name": "ConvertInkToText",
+      "imageAsset": "images/by-hash/b3fdda08a32ab45e.png"
+    },
+    {
+      "name": "ConvertSmartArtMenu",
+      "imageAsset": "images/by-hash/0e337530ca1d575e.png"
+    },
+    {
+      "name": "ConvertTableToText",
+      "imageAsset": "images/by-hash/56d57c45104d8c48.png"
+    },
+    {
+      "name": "ConvertTextToTable",
+      "imageAsset": "images/by-hash/fe55c1b5eac25a2d.png"
+    },
+    {
+      "name": "ConvertToExcelSpreadsheet",
+      "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+    }
+  ],
+  "sameImageIds": []
+}

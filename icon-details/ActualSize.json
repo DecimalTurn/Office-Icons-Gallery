@@ -1,0 +1,19 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TeamPlannerActualBorderColor",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "TeamPlannerActualFillColor",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "TeamPlannerActualStyleMenu",
+      "imageAsset": "images/by-hash/4928ec2102019372.png"
+    }
+  ],
+  "sameImageIds": [
+    "AlignRelativeToPage"
+  ]
+}

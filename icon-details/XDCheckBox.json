@@ -1,0 +1,72 @@
+{
+  "relatedIcons": [
+    {
+      "name": "XDListBox",
+      "imageAsset": "images/by-hash/5afbe6d1834bbe58.png"
+    },
+    {
+      "name": "ActiveXCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "ContentControlCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "DataTypeCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "FormControlCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "WebControlCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "XDBackgroundColor",
+      "imageAsset": "images/by-hash/f49b012b69437cca.png"
+    },
+    {
+      "name": "XDBlock",
+      "imageAsset": "images/by-hash/67d47d0de11c3614.png"
+    },
+    {
+      "name": "XDConditionalFormatting",
+      "imageAsset": "images/by-hash/468cf6e9e64ac27c.png"
+    },
+    {
+      "name": "XDDataValidation",
+      "imageAsset": "images/by-hash/91f56a8a930ceea2.png"
+    },
+    {
+      "name": "XDFormLayout",
+      "imageAsset": "images/by-hash/05585dac69b5b14f.png"
+    },
+    {
+      "name": "XDInkPicture",
+      "imageAsset": "images/by-hash/a9de9ec09bddb7a6.png"
+    }
+  ],
+  "sameImageIds": [
+    "ActiveXCheckBox",
+    "CalculatedYesNo",
+    "ContentControlCheckBox",
+    "DataTypeCheckBox",
+    "DataTypeOnOff",
+    "DataTypeTrueFalse",
+    "DataTypeYesNo",
+    "DataTypeYesNoBasic",
+    "FormControlCheckBox",
+    "GroupCalendarViewShowHide",
+    "GroupGanttChartShowHide",
+    "GroupNetworkDiagramShowHide",
+    "GroupResourceUsageShowHide",
+    "GroupTaskUsageShowHide",
+    "GroupTeamPlannerShowHide",
+    "GroupTimelineViewShowHide",
+    "RulesConditionIsCheckedGallery",
+    "WebControlCheckBox"
+  ]
+}

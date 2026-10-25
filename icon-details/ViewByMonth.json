@@ -1,0 +1,31 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CalendarMonthDetailsSplitButton",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "GroupDayWeekMonthArrangement",
+      "imageAsset": "images/by-hash/f80a7aaa0a54faa5.png"
+    },
+    {
+      "name": "MeetingsToolViewByMonth",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "MeetingsToolWorkMonth",
+      "imageAsset": "images/by-hash/7f9c1c843fc62c9c.png"
+    },
+    {
+      "name": "ViewByBusinessMonth",
+      "imageAsset": "images/by-hash/7f9c1c843fc62c9c.png"
+    }
+  ],
+  "sameImageIds": [
+    "CalendarMonthDetailsSplitButton",
+    "CalendarsGallery",
+    "MeetingsToolFilterMeetingListMenu",
+    "MeetingsToolViewByMonth",
+    "MonthlyView"
+  ]
+}

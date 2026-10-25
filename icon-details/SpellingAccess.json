@@ -1,0 +1,34 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupListToolSpelling",
+      "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+    },
+    {
+      "name": "GroupSpelling",
+      "imageAsset": "images/by-hash/a4a83187d27d2b74.png"
+    },
+    {
+      "name": "Spelling",
+      "imageAsset": "images/by-hash/a4a83187d27d2b74.png"
+    },
+    {
+      "name": "SpellingAndGrammar",
+      "imageAsset": "images/by-hash/a4a83187d27d2b74.png"
+    },
+    {
+      "name": "SpellingMenu",
+      "imageAsset": "images/by-hash/a4a83187d27d2b74.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupBlogProofing",
+    "GroupProofing",
+    "GroupProofingActions",
+    "GroupSpelling",
+    "SpellCheck",
+    "Spelling",
+    "SpellingAndGrammar",
+    "SpellingMenu"
+  ]
+}

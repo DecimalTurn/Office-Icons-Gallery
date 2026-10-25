@@ -1,0 +1,34 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SendCalendarViaEmail",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    }
+  ],
+  "sameImageIds": [
+    "EnvelopesAndLabels",
+    "EnvelopesAndLabelsDialog",
+    "FileNewEmail",
+    "GroupEnvelopeLabelCreate",
+    "GroupSendOptions",
+    "InviteViaOutlook",
+    "JunkEmailMarkAsNotJunk",
+    "MailMergeStartEnvelopes",
+    "MarkAsUnread",
+    "NewItem",
+    "NewMailMessage",
+    "NewMailMessage2",
+    "NewMailMessageCompact",
+    "NewMailMessageNumbered",
+    "NewMessageToAttendees",
+    "NewMessageToContact",
+    "NewSecondaryItem",
+    "PersonaSendMailMenu",
+    "QuickSearchHasEmailAddress",
+    "QuickStepTemplateNewEmail",
+    "SendCalendarViaEmail",
+    "SharingOpenMailFolder",
+    "ShowEnvelope",
+    "TimelineViewCopyForEmail"
+  ]
+}

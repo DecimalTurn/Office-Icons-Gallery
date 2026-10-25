@@ -1,0 +1,76 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddSelectionToAccentsLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToAdvertisementLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToBusinessInformationLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToCalendarsLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToContentLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToPagePartsLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToTextLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToVertTextLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AdpDiagramArrangeSelection",
+      "imageAsset": "images/by-hash/917cc34f1d929f62.png"
+    },
+    {
+      "name": "BordersSelectionGallery",
+      "imageAsset": "images/by-hash/f53633d00e54bd31.png"
+    },
+    {
+      "name": "FilterBySelection",
+      "imageAsset": "images/by-hash/c0fbf1688be91555.png"
+    },
+    {
+      "name": "GroupAttachmentSelection",
+      "imageAsset": "images/by-hash/b5751416d10b354a.png"
+    }
+  ],
+  "sameImageIds": [
+    "_3DBevelOptionsDialog",
+    "_3DRotationOptionsDialog",
+    "DrawingObjectFormatPublisher",
+    "DrawingProperties",
+    "FormatComment",
+    "FormatDiagram",
+    "FormatHorizRule",
+    "FormatObject2",
+    "FormatOrgChart",
+    "FormatPlaceholder",
+    "GroupChartCurrentSelection",
+    "GroupShape",
+    "ImagePropertiesInfoPath",
+    "ObjectFormatDialog",
+    "PictureDisplay",
+    "PictureFormatDialog",
+    "TableFormatPublisher",
+    "TextBoxFormat",
+    "TextBoxFormatPublisher",
+    "TextEffects3DRotationOptionsDialog",
+    "TextEffectsBevelMore3DOptionsDialog",
+    "WordArtFormat"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupTimelineInterval",
+      "imageAsset": "images/by-hash/8363ed52d3ee7f0b.png"
+    },
+    {
+      "name": "TimelineIntervalSync",
+      "imageAsset": "images/by-hash/65af621fe8c05dcd.png"
+    },
+    {
+      "name": "TimelineConfigure",
+      "imageAsset": "images/by-hash/ada430fa6be478a9.png"
+    },
+    {
+      "name": "TimelineMilestoneConfigure",
+      "imageAsset": "images/by-hash/f906e2c9c1411cd9.png"
+    },
+    {
+      "name": "RefreshIntervalMenu",
+      "imageAsset": "images/by-hash/34616ac3c1be3f5e.png"
+    },
+    {
+      "name": "CalendarConfigure",
+      "imageAsset": "images/by-hash/b84f9e3863fbae59.png"
+    },
+    {
+      "name": "GanttWorkingTimeConfigure",
+      "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+    },
+    {
+      "name": "AddExistingTasksToTimeline",
+      "imageAsset": "images/by-hash/2128fa0a06829f22.png"
+    },
+    {
+      "name": "GroupSwitchTimeline",
+      "imageAsset": "images/by-hash/72b4b05dbce825cc.png"
+    },
+    {
+      "name": "GroupTimelineCopy",
+      "imageAsset": "images/by-hash/32ebe58844eba5fd.png"
+    },
+    {
+      "name": "GroupTimelineMilestone",
+      "imageAsset": "images/by-hash/f906e2c9c1411cd9.png"
+    },
+    {
+      "name": "GroupTimelineStyles",
+      "imageAsset": "images/by-hash/da7ea7478bb82308.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupTimelineInterval"
+  ]
+}

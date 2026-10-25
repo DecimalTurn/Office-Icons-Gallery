@@ -1,0 +1,65 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AdpDiagramAddRelatedTables",
+      "imageAsset": "images/by-hash/3ce52e58a86dd5ae.png"
+    },
+    {
+      "name": "CreateRelatedItems",
+      "imageAsset": "images/by-hash/7b76b454e441cffd.png"
+    },
+    {
+      "name": "DatabaseModelingShowRelatedTables",
+      "imageAsset": "images/by-hash/d64d8723b69c63c3.png"
+    },
+    {
+      "name": "FindAllRelatedMenu",
+      "imageAsset": "images/by-hash/f93dc3e7893789f2.png"
+    },
+    {
+      "name": "FindRelatedMenu",
+      "imageAsset": "images/by-hash/f93dc3e7893789f2.png"
+    },
+    {
+      "name": "GroupRelatedItems",
+      "imageAsset": "images/by-hash/7b76b454e441cffd.png"
+    },
+    {
+      "name": "RelatedItems",
+      "imageAsset": "images/by-hash/fdba436cc1402b3a.png"
+    },
+    {
+      "name": "RelatedTasksLayoutNow",
+      "imageAsset": "images/by-hash/ca4a3e13618c0d37.png"
+    },
+    {
+      "name": "AttachItem",
+      "imageAsset": "images/by-hash/5551d7c978f81380.png"
+    },
+    {
+      "name": "AttachItemCombo",
+      "imageAsset": "images/by-hash/5551d7c978f81380.png"
+    },
+    {
+      "name": "CalendarNewItemMenu",
+      "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+    },
+    {
+      "name": "ContactsNewItemMenu",
+      "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+    }
+  ],
+  "sameImageIds": [
+    "AdpDiagramRelationships",
+    "AsppRelationships",
+    "CreateDiagram",
+    "DatabaseRelationships",
+    "DataInterconnect",
+    "GroupAnalyze",
+    "GroupDatabaseAnalyze",
+    "GroupTableRelationships",
+    "GroupViewsShowHide",
+    "ManageWebPartConnections",
+    "RelationshipsDirectRelationships"
+  ]
+}

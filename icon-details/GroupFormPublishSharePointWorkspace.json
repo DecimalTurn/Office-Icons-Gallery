@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NewSharePointWorkspace",
+      "imageAsset": "images/by-hash/7141c47a0c0e44b3.png"
+    },
+    {
+      "name": "BizBarPublishToSharePoint",
+      "imageAsset": "images/by-hash/6ee76565b405e6e3.png"
+    },
+    {
+      "name": "FilePublishToSharePoint",
+      "imageAsset": "images/by-hash/cd738a271dddfdd2.png"
+    },
+    {
+      "name": "GroupPublishToSharePoint",
+      "imageAsset": "images/by-hash/2ca488a6cc4512e7.png"
+    },
+    {
+      "name": "FormPublish",
+      "imageAsset": "images/by-hash/171c9ae19f0ea557.png"
+    },
+    {
+      "name": "FormPublishMenu",
+      "imageAsset": "images/by-hash/171c9ae19f0ea557.png"
+    },
+    {
+      "name": "ControlPropertySharePointListEditChoices",
+      "imageAsset": "images/by-hash/931847df0679422a.png"
+    },
+    {
+      "name": "CreateSharePointList",
+      "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+    },
+    {
+      "name": "CreateSharePointPage",
+      "imageAsset": "images/by-hash/986fcf09c1358767.png"
+    },
+    {
+      "name": "CreateSharePointPageInGallery",
+      "imageAsset": "images/by-hash/986fcf09c1358767.png"
+    },
+    {
+      "name": "CreateTableUsingSharePointListsGallery",
+      "imageAsset": "images/by-hash/275d48d742decaef.png"
+    },
+    {
+      "name": "CreateTableUsingSharePointListsMenu",
+      "imageAsset": "images/by-hash/275d48d742decaef.png"
+    }
+  ],
+  "sameImageIds": []
+}

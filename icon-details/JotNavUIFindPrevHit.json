@@ -1,0 +1,61 @@
+{
+  "relatedIcons": [
+    {
+      "name": "JotNavUIFindNextHit",
+      "imageAsset": "images/by-hash/0f42881fbb368916.png"
+    },
+    {
+      "name": "JotNavUIPrevPage",
+      "imageAsset": "images/by-hash/9c3ea6230877361d.png"
+    },
+    {
+      "name": "JotNavUIFind",
+      "imageAsset": "images/by-hash/8ac1c6e151bfa73f.png"
+    },
+    {
+      "name": "JotNavUIFindResults",
+      "imageAsset": "images/by-hash/6b28a008f02b0e87.png"
+    },
+    {
+      "name": "JotNavUIFindRTL",
+      "imageAsset": "images/by-hash/795585269d9eb56a.png"
+    },
+    {
+      "name": "JotFindHitResults",
+      "imageAsset": "images/by-hash/9d02c57d77872cbe.png"
+    },
+    {
+      "name": "JotNavUINewPage",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "JotNavUINextPage",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "JotNavUIParentFolder",
+      "imageAsset": "images/by-hash/4c569d92bdc6384c.png"
+    },
+    {
+      "name": "JotExitFind",
+      "imageAsset": "images/by-hash/cabe4c9851b37f45.png"
+    },
+    {
+      "name": "JotFindPageTitles",
+      "imageAsset": "images/by-hash/9d02c57d77872cbe.png"
+    },
+    {
+      "name": "JotFindSortAscending",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    }
+  ],
+  "sameImageIds": [
+    "CatalogMergeGoToPreviousRecord",
+    "MailMergeGoToPreviousRecord",
+    "PreviousPageOneNote",
+    "ReadingNextPageRtl",
+    "ReadingViewPreviousPage",
+    "RewindShort",
+    "TraceBack"
+  ]
+}

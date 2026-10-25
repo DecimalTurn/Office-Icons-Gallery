@@ -1,0 +1,64 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ContactCardDefaultSendInstantMessage",
+      "imageAsset": "images/by-hash/09795bc87c775160.png"
+    },
+    {
+      "name": "ContactCardSendEmail",
+      "imageAsset": "images/by-hash/676a2358a8eb6d14.png"
+    },
+    {
+      "name": "ContactCardDefaultPhoneCall",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "ContactCardReplyAllEmail",
+      "imageAsset": "images/by-hash/7b3a0741c95874c2.png"
+    },
+    {
+      "name": "ContactCardSendInstantMessage",
+      "imageAsset": "images/by-hash/09795bc87c775160.png"
+    },
+    {
+      "name": "SendDefault",
+      "imageAsset": "images/by-hash/676a2358a8eb6d14.png"
+    },
+    {
+      "name": "SendCalendarViaEmail",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    },
+    {
+      "name": "SendEmailToMembers",
+      "imageAsset": "images/by-hash/676a2358a8eb6d14.png"
+    },
+    {
+      "name": "SendNotesViaEmail",
+      "imageAsset": "images/by-hash/eb0e54a34f26ad5c.png"
+    },
+    {
+      "name": "ContactCardAddToIMContacts",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "ContactCardAddToOutlookContacts",
+      "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+    },
+    {
+      "name": "ContactCardCallComputer",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    }
+  ],
+  "sameImageIds": [
+    "ContactCardSendEmail",
+    "GroupSend",
+    "RoutingSlip",
+    "SendAgain",
+    "SendAll",
+    "SendCopySendNow",
+    "SendDefault",
+    "SendEmailToMembers",
+    "SendItem",
+    "SendUpdate"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReviewDeleteAllMarkupInPresentation",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "ReviewDeleteAllMarkupOnSlide",
+      "imageAsset": "images/by-hash/7b7295af1530cd0c.png"
+    },
+    {
+      "name": "ReviewDeleteMarkup",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ReviewMarkupPrevious",
+      "imageAsset": "images/by-hash/730591bb5fb612a1.png"
+    },
+    {
+      "name": "ReviewMarkupTrack",
+      "imageAsset": "images/by-hash/ffc17504b6a8e2c4.png"
+    },
+    {
+      "name": "ReviewShowMarkupMenu",
+      "imageAsset": "images/by-hash/156b137c27e114f8.png"
+    },
+    {
+      "name": "ReviewShowOrHideMarkup",
+      "imageAsset": "images/by-hash/e78cab15f948c015.png"
+    },
+    {
+      "name": "ReviewAcceptChangeAndMoveToNext",
+      "imageAsset": "images/by-hash/a37d174078437c42.png"
+    },
+    {
+      "name": "ReviewNextChange",
+      "imageAsset": "images/by-hash/ef6bafdb1b35f180.png"
+    },
+    {
+      "name": "ReviewNextChangeClassic",
+      "imageAsset": "images/by-hash/ef6bafdb1b35f180.png"
+    },
+    {
+      "name": "ReviewNextComment",
+      "imageAsset": "images/by-hash/dee3f9af7b80e89b.png"
+    },
+    {
+      "name": "ReviewNextCommentPowerPoint",
+      "imageAsset": "images/by-hash/dee3f9af7b80e89b.png"
+    }
+  ],
+  "sameImageIds": [
+    "ConflictsNext",
+    "GoToNextErrorInfoPath",
+    "ResultsPaneEditPage"
+  ]
+}

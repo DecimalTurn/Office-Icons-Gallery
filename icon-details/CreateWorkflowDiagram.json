@@ -1,0 +1,51 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CreateWorkflowDiagramVisualDesigner",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "GroupWorkflowDiagram",
+      "imageAsset": "images/by-hash/dae42f48bf05f54c.png"
+    },
+    {
+      "name": "CreateListWorkflowGallery",
+      "imageAsset": "images/by-hash/018b27e5bde959ad.png"
+    },
+    {
+      "name": "CreateSiteWorkflow",
+      "imageAsset": "images/by-hash/0dff1a210c7d8072.png"
+    },
+    {
+      "name": "CreateWorkflow",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "CreateWorkflowTemplate",
+      "imageAsset": "images/by-hash/c15d0363b97b34e1.png"
+    },
+    {
+      "name": "ListCreateWorkflow",
+      "imageAsset": "images/by-hash/018b27e5bde959ad.png"
+    },
+    {
+      "name": "CreateDiagram",
+      "imageAsset": "images/by-hash/64480077e54e1b8b.png"
+    },
+    {
+      "name": "CreateStageViewDiagram",
+      "imageAsset": "images/by-hash/37b66dc9df29ec86.png"
+    }
+  ],
+  "sameImageIds": [
+    "CreateWorkflow",
+    "CreateWorkflowDiagramVisualDesigner",
+    "DataDesignWorkflow",
+    "FileStartWorkflow",
+    "GroupWorkflows",
+    "GroupWorkflowsGalleryActions",
+    "GroupWorkflowsGalleryManage",
+    "GroupWorkflowSummaryActions",
+    "GroupWorkflowSummaryManage"
+  ]
+}

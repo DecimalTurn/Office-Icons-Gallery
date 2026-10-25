@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddSelectionToBusinessInformationLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AssignmentInformation",
+      "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+    },
+    {
+      "name": "FileDocumentManagementInformation",
+      "imageAsset": "images/by-hash/c02c1d323af75aa4.png"
+    },
+    {
+      "name": "FormulaMoreFunctionsMenu",
+      "imageAsset": "images/by-hash/cf9665e68d47e7c1.png"
+    },
+    {
+      "name": "FunctionsCompatibility",
+      "imageAsset": "images/by-hash/e1db9c3e230dcd47.png"
+    },
+    {
+      "name": "FunctionsCubeInsertGallery",
+      "imageAsset": "images/by-hash/d4c362bffdd01aa9.png"
+    },
+    {
+      "name": "FunctionsDateTimeInsertGallery",
+      "imageAsset": "images/by-hash/e6e5054249325b83.png"
+    },
+    {
+      "name": "FunctionsEngineeringInsertGallery",
+      "imageAsset": "images/by-hash/44f924ac4ed9d605.png"
+    },
+    {
+      "name": "FunctionsFinancialInsertGallery",
+      "imageAsset": "images/by-hash/61332c33d96ab94f.png"
+    },
+    {
+      "name": "FunctionsLogicalInsertGallery",
+      "imageAsset": "images/by-hash/35e8db692fcc14a3.png"
+    },
+    {
+      "name": "FunctionsLookupReferenceInsertGallery",
+      "imageAsset": "images/by-hash/45f84a2af3e6d14b.png"
+    },
+    {
+      "name": "FunctionsMathTrigInsertGallery",
+      "imageAsset": "images/by-hash/62cf113381ec8787.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,20 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BackgroundsGallery",
+      "imageAsset": "images/by-hash/f49b012b69437cca.png"
+    }
+  ],
+  "sameImageIds": [
+    "BackgroundsGallery",
+    "FormatBackground",
+    "GroupBackground",
+    "GroupCustomizeThemeOptions",
+    "LaunchFormatBackground",
+    "PageColorGallery",
+    "PageColorPicker",
+    "SlideBackgroundFormatDialog",
+    "SlideBackgroundStylesGallery",
+    "XDBackgroundColor"
+  ]
+}

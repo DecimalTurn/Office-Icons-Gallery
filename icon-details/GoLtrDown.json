@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "StopLtrDown",
+      "imageAsset": "images/by-hash/5c3d925427fe2363.png"
+    },
+    {
+      "name": "GoLtrFocus",
+      "imageAsset": "images/by-hash/8ac1c6e151bfa73f.png"
+    },
+    {
+      "name": "GoLtrHover",
+      "imageAsset": "images/by-hash/8ac1c6e151bfa73f.png"
+    },
+    {
+      "name": "GoRtlDown",
+      "imageAsset": "images/by-hash/f511ba2e9e8af645.png"
+    },
+    {
+      "name": "StopLtrFocus",
+      "imageAsset": "images/by-hash/b9c411dbae2bbfc2.png"
+    },
+    {
+      "name": "StopLtrHover",
+      "imageAsset": "images/by-hash/9679e00de8896fa3.png"
+    },
+    {
+      "name": "_3DTiltDownClassic",
+      "imageAsset": "images/by-hash/3feb97f7e19ab7cd.png"
+    },
+    {
+      "name": "BorderDiagonalDown",
+      "imageAsset": "images/by-hash/aa2d1c261fefbb4c.png"
+    },
+    {
+      "name": "ChartFormatDownBars",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartNavDrillDown",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "ChartUpDownBars",
+      "imageAsset": "images/by-hash/15e4f4da852f3edc.png"
+    },
+    {
+      "name": "ContentControlDropDownList",
+      "imageAsset": "images/by-hash/c5dd030963b6ba3d.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,81 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ApplyCssStyles",
+      "imageAsset": "images/by-hash/a85f46fb6686a11a.png"
+    },
+    {
+      "name": "CssAttachStyleSheet",
+      "imageAsset": "images/by-hash/e74c513b67919470.png"
+    },
+    {
+      "name": "CssReports",
+      "imageAsset": "images/by-hash/2916409a48e57bf5.png"
+    },
+    {
+      "name": "NewCSS",
+      "imageAsset": "images/by-hash/bccf3928a03f999d.png"
+    },
+    {
+      "name": "NewCssStyle",
+      "imageAsset": "images/by-hash/d9d9273e665f2cba.png"
+    },
+    {
+      "name": "ReformatCss",
+      "imageAsset": "images/by-hash/7bb1047125b5f27c.png"
+    },
+    {
+      "name": "WorkspaceCssProperties",
+      "imageAsset": "images/by-hash/fb48779a5972c1de.png"
+    }
+  ],
+  "sameImageIds": [
+    "BackgroundPageInsert",
+    "BlankPageInsert",
+    "BlankPageInsertMenu",
+    "BlankPageInsertVisio",
+    "CreateBlankPage",
+    "CreateMasterPage",
+    "CreateNewDrawing",
+    "FileNew",
+    "FileNewBlankDocument",
+    "FileNewContext",
+    "FileNewDatabase",
+    "FileNewDefault",
+    "FileNewDialogClassic",
+    "FileNewDocument",
+    "FilesToolNewFileGallery",
+    "GroupAllFilesNew",
+    "GroupDocumentLibraryNew",
+    "GroupNewChessTool",
+    "GroupPictureCaption",
+    "InsertBuildingBlock",
+    "InsertMoreDesigns",
+    "JotNavUINewPage",
+    "NewASPXPage",
+    "NewAssetMenu",
+    "NewBlankDrawingMetric",
+    "NewBlankDrawingUS",
+    "NewDocumentLibraryContentMenu",
+    "NewFileMenu",
+    "NewHtmlPage",
+    "NewJavaScriptPage",
+    "NewNotebookMenu",
+    "NewOfficeDocument",
+    "NewPageAfterCurrentGroup",
+    "NewPageHere",
+    "NewPageMenu",
+    "NewPageOneNote",
+    "NewPageShort",
+    "NewTextFileHere",
+    "NewXmlPage",
+    "PageInsertBlank",
+    "PageInsertMenu",
+    "PageOrientationPortrait",
+    "PictureEdgeEffectsGallery",
+    "PubInsertText",
+    "RemoveBuildingBlockFromMRU",
+    "UxContentLibGallery",
+    "VisioInsertNewPage"
+  ]
+}

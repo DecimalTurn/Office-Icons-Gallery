@@ -1,0 +1,72 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartChangeDataLabelShapesGallery",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "CombineShapesGallery",
+      "imageAsset": "images/by-hash/5f9fba2194e87a87.png"
+    },
+    {
+      "name": "CombineShapesMenu",
+      "imageAsset": "images/by-hash/5f9fba2194e87a87.png"
+    },
+    {
+      "name": "ConnectShapes",
+      "imageAsset": "images/by-hash/ae3d2a33d753543f.png"
+    },
+    {
+      "name": "DataLinkDataToShapes",
+      "imageAsset": "images/by-hash/68574b4538de7a49.png"
+    },
+    {
+      "name": "FacilitiesLabelShapes",
+      "imageAsset": "images/by-hash/b641fa2969faccdd.png"
+    },
+    {
+      "name": "GalleryAllShapesAndCanvas",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "GalleryAllShapesAndTextboxes",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "GroupChartShapes",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "GroupFacilitiesShapes",
+      "imageAsset": "images/by-hash/b641fa2969faccdd.png"
+    },
+    {
+      "name": "GroupInsertShapes",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "GroupInsertShapesOneNote",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChartChangeDataLabelShapeGallery",
+    "ChartChangeDataLabelShapesGallery",
+    "GalleryAllShapesAndCanvas",
+    "GalleryAllShapesAndTextboxes",
+    "GroupChartShapes",
+    "GroupInsertIllustrations",
+    "GroupInsertShapes",
+    "GroupInsertShapesOneNote",
+    "GroupShapes",
+    "GroupShapesChart",
+    "GroupShapesClassic",
+    "InkShapeGallery",
+    "PictureShapeGallery",
+    "ReplaceShape",
+    "ShapeChangeShapeGallery",
+    "ShapesMoreShapes",
+    "ShowAutoShapesAndDrawingBars",
+    "VideoShapeGallery"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MoveActionsMenu",
+      "imageAsset": "images/by-hash/075bf2ba18038c02.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupCalendarActions",
+    "GroupContactsActions",
+    "GroupJournalsActions",
+    "GroupMailActions",
+    "GroupNotesActions",
+    "GroupTaskListActions",
+    "GroupTasksActions",
+    "Move",
+    "MoveItem",
+    "MoveToFolder",
+    "MoveToFolderFileMenu",
+    "MoveToFolderGallery",
+    "MoveToFolderMenu",
+    "QuickStepTemplateMoveToFolder"
+  ]
+}

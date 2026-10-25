@@ -1,0 +1,23 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CreateStageViewDiagram",
+      "imageAsset": "images/by-hash/37b66dc9df29ec86.png"
+    },
+    {
+      "name": "AddAssignmentStage",
+      "imageAsset": "images/by-hash/4c50252de9e4f7f7.png"
+    },
+    {
+      "name": "InsertStage",
+      "imageAsset": "images/by-hash/9599df23a198fca3.png"
+    },
+    {
+      "name": "InsertStageGallery",
+      "imageAsset": "images/by-hash/9599df23a198fca3.png"
+    }
+  ],
+  "sameImageIds": [
+    "CreateStageViewDiagram"
+  ]
+}

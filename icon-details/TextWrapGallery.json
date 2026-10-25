@@ -1,0 +1,22 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PicturePropertiesTextWrap",
+      "imageAsset": "images/by-hash/041cff09359041da.png"
+    },
+    {
+      "name": "TextWrappingEditWrapPoints",
+      "imageAsset": "images/by-hash/365164a10e92196c.png"
+    },
+    {
+      "name": "WrapText",
+      "imageAsset": "images/by-hash/92f220e687827a9b.png"
+    }
+  ],
+  "sameImageIds": [
+    "PicturePropertiesTextWrap",
+    "TextWrappingGallery",
+    "TextWrappingMenu",
+    "WrappingStyleGallery"
+  ]
+}

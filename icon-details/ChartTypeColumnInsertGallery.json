@@ -1,0 +1,67 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartTypeColumnInsertDialog",
+      "imageAsset": "images/by-hash/fa549734f1496b6f.png"
+    },
+    {
+      "name": "ColumnActionsChangeType",
+      "imageAsset": "images/by-hash/5f241bde88d838b2.png"
+    },
+    {
+      "name": "ColumnContentTypeSetting",
+      "imageAsset": "images/by-hash/133cf0f80266344b.png"
+    },
+    {
+      "name": "ContentTypeAddSiteColumn",
+      "imageAsset": "images/by-hash/3a08b1e5d9651ea0.png"
+    },
+    {
+      "name": "ContentTypeColumnActionsReadOnly",
+      "imageAsset": "images/by-hash/496a802468ac8523.png"
+    },
+    {
+      "name": "ContentTypeColumnActionsRemove",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "ContentTypeEditColumn",
+      "imageAsset": "images/by-hash/53f035b400396894.png"
+    },
+    {
+      "name": "DataTypeCalculatedColumn",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "GroupContentTypeColumnActions",
+      "imageAsset": "images/by-hash/7fcdf1e7192f5f00.png"
+    },
+    {
+      "name": "GroupContentTypeColumnAdministration",
+      "imageAsset": "images/by-hash/133cf0f80266344b.png"
+    },
+    {
+      "name": "SiteColumnActionsChangeType",
+      "imageAsset": "images/by-hash/5f241bde88d838b2.png"
+    }
+  ],
+  "sameImageIds": [
+    "Chart3DColumnChart",
+    "ChartChangeType",
+    "ChartInsert",
+    "ChartLaunchAddElementCallout",
+    "ChartLaunchDataLayoutCallout",
+    "ChartSeriesTypeChange",
+    "ChartTypeAllInsertDialog",
+    "ControlChart",
+    "DataGridInsert",
+    "GroupChartType",
+    "GroupInsertChartsExcel",
+    "GroupReportInsert",
+    "GroupVisualReports",
+    "InsertChart",
+    "PivotChartType",
+    "ViewsPivotChartView",
+    "VisualReports"
+  ]
+}

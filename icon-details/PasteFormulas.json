@@ -1,0 +1,37 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PasteFormulasAndNumberFormatting",
+      "imageAsset": "images/by-hash/b769e81f308120a3.png"
+    },
+    {
+      "name": "PivotChartFormulasMenu",
+      "imageAsset": "images/by-hash/530fa87f2639955a.png"
+    },
+    {
+      "name": "PivotFormulasMenu",
+      "imageAsset": "images/by-hash/530fa87f2639955a.png"
+    },
+    {
+      "name": "PivotTableFormulasMenu",
+      "imageAsset": "images/by-hash/530fa87f2639955a.png"
+    },
+    {
+      "name": "PivotTableListFormulas",
+      "imageAsset": "images/by-hash/530fa87f2639955a.png"
+    },
+    {
+      "name": "PivotTableOlapConvertToFormulas",
+      "imageAsset": "images/by-hash/f86727545aa8937b.png"
+    },
+    {
+      "name": "ShapeSheetShowFormulas",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "ShowFormulas",
+      "imageAsset": "images/by-hash/88808e7b3374cc4d.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,46 @@
+{
+  "relatedIcons": [
+    {
+      "name": "WebOpenSearchPage",
+      "imageAsset": "images/by-hash/b4a4335cbc1b0178.png"
+    },
+    {
+      "name": "SaveShortcutToDesktop",
+      "imageAsset": "images/by-hash/8e69f5484fb7813d.png"
+    }
+  ],
+  "sameImageIds": [
+    "CodeFindMenu",
+    "FindDialog",
+    "FindDialogExcel",
+    "FindMenu",
+    "FindText",
+    "FormsToolAdvancedFind",
+    "FormsToolFind",
+    "FormsToolFindMenu",
+    "GroupActionsLaunchbar",
+    "GroupCalendarRefineSearch",
+    "GroupCodeEditing",
+    "GroupContactFind",
+    "GroupContactRefineSearch",
+    "GroupEditing",
+    "GroupEditingExcel",
+    "GroupEditingInfoPath",
+    "GroupFind",
+    "GroupFindAccess",
+    "GroupFindFormsTool",
+    "GroupFindNotepadTool",
+    "GroupJournalRefineSearch",
+    "GroupMailRefineSearch",
+    "GroupNavigate",
+    "GroupNoteRefineSearch",
+    "GroupOutlookEditing",
+    "GroupSearch",
+    "GroupTaskRefineSearch",
+    "InstantSearch",
+    "NavigationPaneFind",
+    "NotebookSearch",
+    "ReadingViewSearch",
+    "SelectMenuExcel"
+  ]
+}

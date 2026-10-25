@@ -1,0 +1,19 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FileDocumentManagementInformation",
+      "imageAsset": "images/by-hash/c02c1d323af75aa4.png"
+    },
+    {
+      "name": "FileSaveToDocumentManagementServer",
+      "imageAsset": "images/by-hash/87ce166b8e25d0f6.png"
+    },
+    {
+      "name": "GroupRightsManagement",
+      "imageAsset": "images/by-hash/f783c4fd4f755618.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupViewsInfoPath"
+  ]
+}

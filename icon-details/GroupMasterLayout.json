@@ -1,0 +1,18 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SlideMasterInsertLayout",
+      "imageAsset": "images/by-hash/6ef37eabed847ffc.png"
+    },
+    {
+      "name": "SlideMasterMasterLayout",
+      "imageAsset": "images/by-hash/c0650bc23021cfc2.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupBroadcastResume",
+    "GroupBroadcastTools",
+    "SlideMasterContentPlaceholderInsert",
+    "SlideMasterInsertPlaceholderMenu"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TaskMoveBackFourWeeks",
+      "imageAsset": "images/by-hash/16e7b26af5154c6b.png"
+    },
+    {
+      "name": "TaskMoveBackOneDay",
+      "imageAsset": "images/by-hash/c3cc5e0e51ac1502.png"
+    },
+    {
+      "name": "TaskMoveBackOneWeek",
+      "imageAsset": "images/by-hash/1dccc3df7d611d9f.png"
+    },
+    {
+      "name": "TaskMoveForwardCustom",
+      "imageAsset": "images/by-hash/b5cbbd84a151589c.png"
+    },
+    {
+      "name": "MoveDownCustomAction",
+      "imageAsset": "images/by-hash/79274de9857dec98.png"
+    },
+    {
+      "name": "MoveUpCustomAction",
+      "imageAsset": "images/by-hash/068470b628dc1569.png"
+    },
+    {
+      "name": "OutlookTaskCustomDate",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "OutlookTaskCustomDateContextual",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "MoveTaskMenu",
+      "imageAsset": "images/by-hash/a372ea0002b4bafc.png"
+    },
+    {
+      "name": "TaskMoveCompletedPartsToStatusDate",
+      "imageAsset": "images/by-hash/c298599340a1ea9d.png"
+    },
+    {
+      "name": "TaskMoveForwardFourWeeks",
+      "imageAsset": "images/by-hash/ba391f5bd14bab4b.png"
+    },
+    {
+      "name": "TaskMoveForwardOneDay",
+      "imageAsset": "images/by-hash/a372ea0002b4bafc.png"
+    }
+  ],
+  "sameImageIds": []
+}

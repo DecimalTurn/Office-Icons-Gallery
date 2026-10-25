@@ -1,0 +1,72 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DataTypeYesNo",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "CalculatedYesNo",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "DataTypeCurrencyBasic",
+      "imageAsset": "images/by-hash/aadd121764a6ba34.png"
+    },
+    {
+      "name": "GroupBasicText",
+      "imageAsset": "images/by-hash/1a614d7d7f1a5953.png"
+    },
+    {
+      "name": "GroupBasicTextSmall",
+      "imageAsset": "images/by-hash/1a614d7d7f1a5953.png"
+    },
+    {
+      "name": "GroupBlogBasicText",
+      "imageAsset": "images/by-hash/1a614d7d7f1a5953.png"
+    },
+    {
+      "name": "GroupCodeEventsBasic",
+      "imageAsset": "images/by-hash/69582c3f940b47be.png"
+    },
+    {
+      "name": "MacroConvertMacrosToVisualBasic",
+      "imageAsset": "images/by-hash/1fe608665d11efe2.png"
+    },
+    {
+      "name": "ViewVisualBasicCode",
+      "imageAsset": "images/by-hash/db2c4c4ecd92dfcd.png"
+    },
+    {
+      "name": "ViewVisualBasicCodeAccess",
+      "imageAsset": "images/by-hash/3e63674e0f7b0dfe.png"
+    },
+    {
+      "name": "VisualBasic",
+      "imageAsset": "images/by-hash/65516a9f8188979e.png"
+    },
+    {
+      "name": "VisualBasicReferences",
+      "imageAsset": "images/by-hash/9947222a5325510c.png"
+    }
+  ],
+  "sameImageIds": [
+    "ActiveXCheckBox",
+    "CalculatedYesNo",
+    "ContentControlCheckBox",
+    "DataTypeCheckBox",
+    "DataTypeOnOff",
+    "DataTypeTrueFalse",
+    "DataTypeYesNo",
+    "FormControlCheckBox",
+    "GroupCalendarViewShowHide",
+    "GroupGanttChartShowHide",
+    "GroupNetworkDiagramShowHide",
+    "GroupResourceUsageShowHide",
+    "GroupTaskUsageShowHide",
+    "GroupTeamPlannerShowHide",
+    "GroupTimelineViewShowHide",
+    "RulesConditionIsCheckedGallery",
+    "WebControlCheckBox",
+    "XDCheckBox"
+  ]
+}

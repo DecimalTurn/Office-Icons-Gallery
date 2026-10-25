@@ -1,0 +1,69 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReviewInkCommentNew",
+      "imageAsset": "images/by-hash/ece91f2f3843e367.png"
+    },
+    {
+      "name": "ReviewInkCommentPen",
+      "imageAsset": "images/by-hash/70c81a5311820d0c.png"
+    },
+    {
+      "name": "InkEraser",
+      "imageAsset": "images/by-hash/e876e8df44c2bf8d.png"
+    },
+    {
+      "name": "InkEraserMenu",
+      "imageAsset": "images/by-hash/f532e699158ad7e6.png"
+    },
+    {
+      "name": "ReviewDeleteComment",
+      "imageAsset": "images/by-hash/56da31b9400bf392.png"
+    },
+    {
+      "name": "ReviewDeleteCommentPowerPoint",
+      "imageAsset": "images/by-hash/56da31b9400bf392.png"
+    },
+    {
+      "name": "ReviewEditComment",
+      "imageAsset": "images/by-hash/6810f1895fe59935.png"
+    },
+    {
+      "name": "ReviewNewComment",
+      "imageAsset": "images/by-hash/2f4fab18ebad3483.png"
+    },
+    {
+      "name": "ReviewNewCommentMenu",
+      "imageAsset": "images/by-hash/2f4fab18ebad3483.png"
+    },
+    {
+      "name": "ReviewNextComment",
+      "imageAsset": "images/by-hash/dee3f9af7b80e89b.png"
+    },
+    {
+      "name": "ReviewNextCommentPowerPoint",
+      "imageAsset": "images/by-hash/dee3f9af7b80e89b.png"
+    },
+    {
+      "name": "ReviewNextCommentWord",
+      "imageAsset": "images/by-hash/dee3f9af7b80e89b.png"
+    }
+  ],
+  "sameImageIds": [
+    "BorderErase",
+    "Clear",
+    "ClearAll",
+    "ClearMenu",
+    "ContactCardClear",
+    "EraserMode",
+    "FormFieldClear",
+    "FormFieldReset",
+    "FormsToolClearFindResults",
+    "InkEraseMode",
+    "LargeEraser",
+    "ListToolClearResults",
+    "ResultsPaneClearResults",
+    "SparklineClearSelected",
+    "SparklineClearSelectedGroups"
+  ]
+}

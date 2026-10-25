@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SyncThisfolderMarkedSplit",
+      "imageAsset": "images/by-hash/68af2dfe51aa8b2e.png"
+    },
+    {
+      "name": "SyncAllMarked",
+      "imageAsset": "images/by-hash/82ec4ba7acd270db.png"
+    },
+    {
+      "name": "BusinessDataSyncWithLocalCache",
+      "imageAsset": "images/by-hash/e32569309eaf06fa.png"
+    },
+    {
+      "name": "ConnectedToolSyncMenu",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    },
+    {
+      "name": "GroupBusinessDataSyncWithLocalCache",
+      "imageAsset": "images/by-hash/e32569309eaf06fa.png"
+    },
+    {
+      "name": "GroupSyncSharePointFilesToolO12",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    },
+    {
+      "name": "GroupSyncStatus",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    },
+    {
+      "name": "JotSyncIncomplete",
+      "imageAsset": "images/by-hash/9e7a60267d388ce3.png"
+    },
+    {
+      "name": "JotSyncOffline",
+      "imageAsset": "images/by-hash/e7ec23af266404b0.png"
+    },
+    {
+      "name": "JotSyncSyncing",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    },
+    {
+      "name": "JotSyncUpToDate",
+      "imageAsset": "images/by-hash/a52b87d473b372f2.png"
+    },
+    {
+      "name": "MoreSyncErrorInfo",
+      "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+    }
+  ],
+  "sameImageIds": [
+    "SyncThisfolderMarkedSplit"
+  ]
+}

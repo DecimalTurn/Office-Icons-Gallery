@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddWebPartConnection",
+      "imageAsset": "images/by-hash/46504686e3dd6015.png"
+    },
+    {
+      "name": "ConnectionPoints",
+      "imageAsset": "images/by-hash/1119b395369eaace.png"
+    },
+    {
+      "name": "ConnectionPointTool",
+      "imageAsset": "images/by-hash/01135eab7c18dba3.png"
+    },
+    {
+      "name": "ConnectionSettings",
+      "imageAsset": "images/by-hash/c9127e4088b92041.png"
+    },
+    {
+      "name": "CreateWebServiceConnection",
+      "imageAsset": "images/by-hash/699b40367d81b599.png"
+    },
+    {
+      "name": "DialupConnectionMenu",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "GlueToConnectionPoints",
+      "imageAsset": "images/by-hash/40dd59a2350ba12e.png"
+    },
+    {
+      "name": "LogicWebPartConnectionAction",
+      "imageAsset": "images/by-hash/f2594b837f79cb7a.png"
+    },
+    {
+      "name": "ServerConnection",
+      "imageAsset": "images/by-hash/f6aa2080fed8d170.png"
+    },
+    {
+      "name": "AccessOnlineLists",
+      "imageAsset": "images/by-hash/9cd35fda88c3c0c0.png"
+    },
+    {
+      "name": "DiagrammingOnline",
+      "imageAsset": "images/by-hash/236de1b21ae5236e.png"
+    },
+    {
+      "name": "FolderViewOnlineTable",
+      "imageAsset": "images/by-hash/9cb33b7d06bc21b8.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddCalendarFromInternet",
+    "IconServiceDefault",
+    "QuerySqlPassThroughQuery",
+    "WorkOffline"
+  ]
+}

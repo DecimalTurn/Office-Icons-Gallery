@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DownloadHeaders",
+      "imageAsset": "images/by-hash/4b98f83b90bb3eef.png"
+    },
+    {
+      "name": "DownloadHeadersInThisFolder",
+      "imageAsset": "images/by-hash/4b98f83b90bb3eef.png"
+    },
+    {
+      "name": "TreeDownThenLeft",
+      "imageAsset": "images/by-hash/3db143d6aa9eecce.png"
+    },
+    {
+      "name": "TreeDownThenRight",
+      "imageAsset": "images/by-hash/71bf2c57833261bf.png"
+    },
+    {
+      "name": "TreeLeftThenDown",
+      "imageAsset": "images/by-hash/01c9f05fa9fac61f.png"
+    },
+    {
+      "name": "TreeRightThenDown",
+      "imageAsset": "images/by-hash/fb5e4fdd35948003.png"
+    },
+    {
+      "name": "GroupDesignerHeaders",
+      "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+    },
+    {
+      "name": "PivotPlusMinusFieldHeadersShowHide",
+      "imageAsset": "images/by-hash/2310031ded195113.png"
+    },
+    {
+      "name": "TableStyleColumnHeaders",
+      "imageAsset": "images/by-hash/ba873d6e3e13d6f8.png"
+    },
+    {
+      "name": "TableStyleRowHeaders",
+      "imageAsset": "images/by-hash/2ad5cd92ace79b94.png"
+    },
+    {
+      "name": "CalculateFull",
+      "imageAsset": "images/by-hash/99067d2863a50f42.png"
+    },
+    {
+      "name": "FullPageView",
+      "imageAsset": "images/by-hash/f344b77178a2d9f7.png"
+    }
+  ],
+  "sameImageIds": []
+}

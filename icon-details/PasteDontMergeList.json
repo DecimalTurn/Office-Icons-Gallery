@@ -1,0 +1,23 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PasteMergeConditionalFormatting",
+      "imageAsset": "images/by-hash/58a4e4d5af8ba153.png"
+    },
+    {
+      "name": "PasteMergeFormatting",
+      "imageAsset": "images/by-hash/7bc3e3075bc64c0e.png"
+    },
+    {
+      "name": "PasteMergeList",
+      "imageAsset": "images/by-hash/e39255a13a08c6ec.png"
+    },
+    {
+      "name": "BlackAndWhiteDontShow",
+      "imageAsset": "images/by-hash/bfee4f7602ee7bcf.png"
+    }
+  ],
+  "sameImageIds": [
+    "PasteNewList"
+  ]
+}

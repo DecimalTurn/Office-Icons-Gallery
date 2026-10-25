@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FrontPageToggleBookmark",
+      "imageAsset": "images/by-hash/94545ae26a01263b.png"
+    },
+    {
+      "name": "ObjectBringInFrontOfText",
+      "imageAsset": "images/by-hash/9ddfa5f164b34a9f.png"
+    },
+    {
+      "name": "ObjectBringToFront",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "ObjectBringToFrontMenu",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "ObjectBringToFrontMenuOutlook",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "ObjectBringToFrontOutlook",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "SketchpadToolBringToFront",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "ViewGridlinesFrontPage",
+      "imageAsset": "images/by-hash/12ae76f3ac265004.png"
+    },
+    {
+      "name": "LayoutOptionsDialogWrapping",
+      "imageAsset": "images/by-hash/b2d12a6affc2897a.png"
+    },
+    {
+      "name": "TextWrappingBehindText",
+      "imageAsset": "images/by-hash/b1e43b4249d27be0.png"
+    },
+    {
+      "name": "TextWrappingEditWrapPoints",
+      "imageAsset": "images/by-hash/365164a10e92196c.png"
+    },
+    {
+      "name": "TextWrappingGallery",
+      "imageAsset": "images/by-hash/041cff09359041da.png"
+    }
+  ],
+  "sameImageIds": [
+    "TextWrappingMenuClassic",
+    "TextWrappingNoneClassic"
+  ]
+}

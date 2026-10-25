@@ -1,0 +1,69 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BaselineClear",
+      "imageAsset": "images/by-hash/351c77e57014f044.png"
+    },
+    {
+      "name": "ClearAll",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    },
+    {
+      "name": "ClearAllFormatting",
+      "imageAsset": "images/by-hash/3b2ebb675e017ab8.png"
+    },
+    {
+      "name": "ClearFormats",
+      "imageAsset": "images/by-hash/c9d1c6e0348c455d.png"
+    },
+    {
+      "name": "ClearFormatting",
+      "imageAsset": "images/by-hash/3b2ebb675e017ab8.png"
+    },
+    {
+      "name": "ClearGrid",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "ClearIconColors",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "ClearMenu",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    },
+    {
+      "name": "ClearNotesProject",
+      "imageAsset": "images/by-hash/2249b7207f0bb122.png"
+    },
+    {
+      "name": "ClearRow",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "ConditionalFormattingClearMenu",
+      "imageAsset": "images/by-hash/b1acc239f64b373e.png"
+    },
+    {
+      "name": "ContactCardClear",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    }
+  ],
+  "sameImageIds": [
+    "BorderErase",
+    "ClearAll",
+    "ClearMenu",
+    "ContactCardClear",
+    "EraserMode",
+    "FormFieldClear",
+    "FormFieldReset",
+    "FormsToolClearFindResults",
+    "InkEraseMode",
+    "LargeEraser",
+    "ListToolClearResults",
+    "ResultsPaneClearResults",
+    "ReviewInkCommentEraser",
+    "SparklineClearSelected",
+    "SparklineClearSelectedGroups"
+  ]
+}

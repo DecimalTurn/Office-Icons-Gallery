@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DocInfoActivate",
+      "imageAsset": "images/by-hash/0a3d9472fcfe41f3.png"
+    },
+    {
+      "name": "DocViewNoFrames",
+      "imageAsset": "images/by-hash/8e9020bf9da64ce1.png"
+    },
+    {
+      "name": "DocViewNormal",
+      "imageAsset": "images/by-hash/ceff0212f691c95c.png"
+    },
+    {
+      "name": "DocViewSplit",
+      "imageAsset": "images/by-hash/4922e4070e03f44e.png"
+    },
+    {
+      "name": "SlabDocUpdatesAvailableSaveAndReview",
+      "imageAsset": "images/by-hash/f18099fa4182f9d1.png"
+    },
+    {
+      "name": "SlabDocUpdatesAvailableSaveAndUpdateIcon",
+      "imageAsset": "images/by-hash/513aaa7362e46b49.png"
+    },
+    {
+      "name": "WebSiteMapCompareToDoc",
+      "imageAsset": "images/by-hash/a3d43843c96022a2.png"
+    },
+    {
+      "name": "ExportHtmlDocument",
+      "imageAsset": "images/by-hash/da2a8c907eebb5b3.png"
+    },
+    {
+      "name": "GalInsertHtml",
+      "imageAsset": "images/by-hash/4393164cb823d60d.png"
+    },
+    {
+      "name": "HtmlBalanceBraces",
+      "imageAsset": "images/by-hash/0d767782d0c455e6.png"
+    },
+    {
+      "name": "HtmlClearBookmarks",
+      "imageAsset": "images/by-hash/c262881d5094d18e.png"
+    },
+    {
+      "name": "HtmlCodeFragment",
+      "imageAsset": "images/by-hash/02c3023064a8b093.png"
+    }
+  ],
+  "sameImageIds": [
+    "WebSiteMapModifyShapeText"
+  ]
+}

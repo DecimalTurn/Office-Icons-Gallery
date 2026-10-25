@@ -1,0 +1,65 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupSiteAssetsActions",
+      "imageAsset": "images/by-hash/47cf5c778774c235.png"
+    },
+    {
+      "name": "GroupSiteAssetsEdit",
+      "imageAsset": "images/by-hash/90f5920b899619e8.png"
+    },
+    {
+      "name": "GroupSiteAssetsNew",
+      "imageAsset": "images/by-hash/234c9ee96761b0e4.png"
+    },
+    {
+      "name": "GroupSitePermissionsManage",
+      "imageAsset": "images/by-hash/3d4e109f94401bbe.png"
+    },
+    {
+      "name": "GroupSiteSubsitesManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "GroupSiteSummaryManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "GroupWebSiteMapManage",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "ManageSiteColumns",
+      "imageAsset": "images/by-hash/70b411bad8d3c5de.png"
+    },
+    {
+      "name": "AccessListAssets",
+      "imageAsset": "images/by-hash/8d751cb3dda2189b.png"
+    },
+    {
+      "name": "AccessTableAssets",
+      "imageAsset": "images/by-hash/2961e97c4c7f08b5.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddInManager",
+    "AdministrationHome",
+    "AnimationCustomActionVerbDialog",
+    "AnimationCustomAddActionVerbDialog",
+    "CurrentViewSettings",
+    "GroupContTypeManage",
+    "GroupContTypeSummaryManage",
+    "GroupCurrentView",
+    "GroupDocumentLibraryManage",
+    "GroupLayoutPagesManage",
+    "GroupListContentTypeManage",
+    "GroupListManage",
+    "GroupListsSummaryManage",
+    "GroupListViewsManage",
+    "GroupListWorkflowsManage",
+    "GroupMasterPagesManage",
+    "GroupSiteSubsitesManage",
+    "GroupSiteSummaryManage",
+    "ListAdminSelected"
+  ]
+}

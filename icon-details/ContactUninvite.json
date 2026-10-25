@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ContactUninviteMember",
+      "imageAsset": "images/by-hash/feaa203db9c1adcc.png"
+    },
+    {
+      "name": "ContactWorkspaceUninvite",
+      "imageAsset": "images/by-hash/feaa203db9c1adcc.png"
+    }
+  ],
+  "sameImageIds": [
+    "ContactUninviteMember",
+    "ContactWorkspaceUninvite",
+    "DistributionListRemoveMember"
+  ]
+}

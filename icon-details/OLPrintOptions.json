@@ -1,0 +1,23 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OLAttachment",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "OLCopyTrackingStatus",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    }
+  ],
+  "sameImageIds": [
+    "FilePageSetupPage",
+    "FilePrintSetup",
+    "MorePageSizes",
+    "PageSetup",
+    "PageSetupDialog",
+    "PageSetupDialogVisio",
+    "PageSetupPageDialog",
+    "PrintOptionsMenu",
+    "PrintOptionsMenuWord"
+  ]
+}
