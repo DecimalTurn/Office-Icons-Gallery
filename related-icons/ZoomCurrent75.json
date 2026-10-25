@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ZoomCurrent100",
+    "imageAsset": "images/by-hash/9ef2c6b0378983c5.png"
+  },
+  {
+    "name": "BroadcastFromCurrent",
+    "imageAsset": "images/by-hash/1ce01d1424245dc7.png"
+  },
+  {
+    "name": "CurrentEraser",
+    "imageAsset": "images/by-hash/e876e8df44c2bf8d.png"
+  },
+  {
+    "name": "CurrentViewGallery",
+    "imageAsset": "images/by-hash/3cb7771c306e0262.png"
+  },
+  {
+    "name": "CurrentViewSave",
+    "imageAsset": "images/by-hash/af65b186fe0f6cb9.png"
+  },
+  {
+    "name": "CurrentViewSettings",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "CurrentWindowDock",
+    "imageAsset": "images/by-hash/113ba97a1ddb5fcc.png"
+  },
+  {
+    "name": "FileSaveAsCurrentFileFormat",
+    "imageAsset": "images/by-hash/62eb4b3024f10f55.png"
+  },
+  {
+    "name": "FrameSaveCurrentAs",
+    "imageAsset": "images/by-hash/c4a2df5c55a7fc2e.png"
+  },
+  {
+    "name": "GroupChartCurrentSelection",
+    "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+  },
+  {
+    "name": "GroupCurrentView",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "GroupTimelineViewCurrentSelection",
+    "imageAsset": "images/by-hash/ce6214ad3639071a.png"
+  }
+]

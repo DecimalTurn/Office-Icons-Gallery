@@ -1,0 +1,46 @@
+[
+  {
+    "name": "ContactCardDefaultSendInstantMessage",
+    "imageAsset": "images/by-hash/09795bc87c775160.png"
+  },
+  {
+    "name": "ContactCardSendInstantMessage",
+    "imageAsset": "images/by-hash/09795bc87c775160.png"
+  },
+  {
+    "name": "ContactCardInstantMessageAddToOutlookContacts",
+    "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+  },
+  {
+    "name": "ContactCardReplyWithInstantMessage",
+    "imageAsset": "images/by-hash/57d1bb90bfbd9267.png"
+  },
+  {
+    "name": "ReplyAllWithInstantMessage",
+    "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+  },
+  {
+    "name": "ReplyWithInstantMessage",
+    "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+  },
+  {
+    "name": "ContactSendGrooveMessage",
+    "imageAsset": "images/by-hash/80d63c75087a1371.png"
+  },
+  {
+    "name": "ListToolSendMessage",
+    "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+  },
+  {
+    "name": "SendGrooveMessage",
+    "imageAsset": "images/by-hash/80d63c75087a1371.png"
+  },
+  {
+    "name": "SendMessageMenu",
+    "imageAsset": "images/by-hash/1487b024edffbdfa.png"
+  },
+  {
+    "name": "InstantSearch",
+    "imageAsset": "images/by-hash/33960362b2c61f33.png"
+  }
+]

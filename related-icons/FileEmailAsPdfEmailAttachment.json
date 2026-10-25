@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FileEmailAsXpsEmailAttachment",
+    "imageAsset": "images/by-hash/4fa26b547fff4abe.png"
+  },
+  {
+    "name": "SendAsPdfAttachment",
+    "imageAsset": "images/by-hash/2866181297205e61.png"
+  },
+  {
+    "name": "FileSaveAsPdf",
+    "imageAsset": "images/by-hash/57ac0370ed50d4cf.png"
+  },
+  {
+    "name": "FileSaveAsPdfOrXps",
+    "imageAsset": "images/by-hash/57ac0370ed50d4cf.png"
+  },
+  {
+    "name": "FileAttachmentInsert",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  },
+  {
+    "name": "FileSendAsAttachment",
+    "imageAsset": "images/by-hash/5551d7c978f81380.png"
+  },
+  {
+    "name": "FileNewEmail",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  },
+  {
+    "name": "PublishToPdfOrEdoc",
+    "imageAsset": "images/by-hash/099b2cb42af5d836.png"
+  },
+  {
+    "name": "SaveAsPDF",
+    "imageAsset": "images/by-hash/57ac0370ed50d4cf.png"
+  },
+  {
+    "name": "SendPdf",
+    "imageAsset": "images/by-hash/2866181297205e61.png"
+  },
+  {
+    "name": "AppointmentAttachment",
+    "imageAsset": "images/by-hash/31f2a81ec01323f7.png"
+  },
+  {
+    "name": "ArrangeByAttachment",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  }
+]

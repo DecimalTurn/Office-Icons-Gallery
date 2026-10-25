@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ListToolCopyEntryAsLink",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "CopyAsLink",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "CopyAsLinkMenu",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "ListToolCopyAsLink",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "ListToolCopyToolAsLink",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "ChartFormatLegendEntry",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "CheckInEntry",
+    "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+  },
+  {
+    "name": "CheckOutEntry",
+    "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+  },
+  {
+    "name": "CloseInkEntryMode",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "IndexMarkEntry",
+    "imageAsset": "images/by-hash/fc40921640983d16.png"
+  },
+  {
+    "name": "InkEntry",
+    "imageAsset": "images/by-hash/70c81a5311820d0c.png"
+  },
+  {
+    "name": "InkEntryMode",
+    "imageAsset": "images/by-hash/70c81a5311820d0c.png"
+  }
+]

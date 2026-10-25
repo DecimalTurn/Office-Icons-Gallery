@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AccessFormDatasheet",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "AccessListCustom",
+    "imageAsset": "images/by-hash/275d48d742decaef.png"
+  },
+  {
+    "name": "CreateDatasheetView",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "DatasheetColumnDelete",
+    "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+  },
+  {
+    "name": "DatasheetColumnLookup",
+    "imageAsset": "images/by-hash/2053cf596680b0b7.png"
+  },
+  {
+    "name": "DatasheetColumnRename",
+    "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+  },
+  {
+    "name": "DatasheetGridlinesBoth",
+    "imageAsset": "images/by-hash/ebfac0c46cdfe306.png"
+  },
+  {
+    "name": "DatasheetGridlinesHorizontal",
+    "imageAsset": "images/by-hash/1b6f3f7a2c4fa2e9.png"
+  },
+  {
+    "name": "DatasheetGridlinesMenu",
+    "imageAsset": "images/by-hash/4b5faa22f8448c69.png"
+  },
+  {
+    "name": "DatasheetGridlinesNone",
+    "imageAsset": "images/by-hash/6b65545fb0b8a68f.png"
+  },
+  {
+    "name": "DatasheetGridlinesVertical",
+    "imageAsset": "images/by-hash/cee41c2c93925cf8.png"
+  },
+  {
+    "name": "DatasheetNewField",
+    "imageAsset": "images/by-hash/2c6ae4e29ec7a99f.png"
+  }
+]

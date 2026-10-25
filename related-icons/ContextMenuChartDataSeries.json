@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ChartFormatDataSeries",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartFormatSeriesLine",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartSeriesTypeChange",
+    "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+  },
+  {
+    "name": "JotNewPageInSeriesShort",
+    "imageAsset": "images/by-hash/3f0f6db488175b62.png"
+  },
+  {
+    "name": "NewPageInSeries",
+    "imageAsset": "images/by-hash/3f0f6db488175b62.png"
+  },
+  {
+    "name": "RecurrenceEditSeries",
+    "imageAsset": "images/by-hash/52c612a90b7bd0c5.png"
+  },
+  {
+    "name": "ContextHelp",
+    "imageAsset": "images/by-hash/ad7c7e4b18bb841c.png"
+  },
+  {
+    "name": "ContextMenuArrangementGallery",
+    "imageAsset": "images/by-hash/3cb7771c306e0262.png"
+  },
+  {
+    "name": "ContextMenuContactCardOverflowDropdown",
+    "imageAsset": "images/by-hash/b2349f10ed68e03a.png"
+  },
+  {
+    "name": "ContextMenuGroupContactCardPhoneDropdown",
+    "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+  },
+  {
+    "name": "ContextMenuGuide",
+    "imageAsset": "images/by-hash/35e9bdd435048a0d.png"
+  },
+  {
+    "name": "ContextMenusAndPasteGiveFeedback",
+    "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+  }
+]

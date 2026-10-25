@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ChartSecondaryVerticalAxisTitle",
+    "imageAsset": "images/by-hash/5b7cb2cc84288fee.png"
+  },
+  {
+    "name": "ChartPrimaryHorizontalAxisTitle",
+    "imageAsset": "images/by-hash/5bd5d4c05ff97c34.png"
+  },
+  {
+    "name": "ChartSecondaryHorizontalAxis",
+    "imageAsset": "images/by-hash/0985b467e5ed6ac6.png"
+  },
+  {
+    "name": "ChartDepthAxisTitle",
+    "imageAsset": "images/by-hash/9f0f29b5f7330e4f.png"
+  },
+  {
+    "name": "ChartFormatAxisTitle",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartPrimaryVerticalAxisTitle",
+    "imageAsset": "images/by-hash/ad28662262a66c19.png"
+  },
+  {
+    "name": "ChartSecondaryVerticalAxis",
+    "imageAsset": "images/by-hash/38884725d11cea50.png"
+  },
+  {
+    "name": "ChartSecondaryHorizontalGridlines",
+    "imageAsset": "images/by-hash/025f1de07804fbee.png"
+  },
+  {
+    "name": "ChartPrimaryHorizontalAxis",
+    "imageAsset": "images/by-hash/0985b467e5ed6ac6.png"
+  },
+  {
+    "name": "ChartFormatChartTitle",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartTitle",
+    "imageAsset": "images/by-hash/9c63384e868b6128.png"
+  },
+  {
+    "name": "ControlTitle",
+    "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+  }
+]

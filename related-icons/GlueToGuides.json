@@ -1,0 +1,42 @@
+[
+  {
+    "name": "GlueToConnectionPoints",
+    "imageAsset": "images/by-hash/40dd59a2350ba12e.png"
+  },
+  {
+    "name": "GlueToggle",
+    "imageAsset": "images/by-hash/a093df539e5e67cc.png"
+  },
+  {
+    "name": "GlueToShapeGeometry",
+    "imageAsset": "images/by-hash/c0b802f33a7d3649.png"
+  },
+  {
+    "name": "GlueToShapeHandles",
+    "imageAsset": "images/by-hash/e544cd72b95aa27c.png"
+  },
+  {
+    "name": "GlueToShapeVertices",
+    "imageAsset": "images/by-hash/f6fb22dd8eb0322d.png"
+  },
+  {
+    "name": "GridGuidesMenu",
+    "imageAsset": "images/by-hash/c79e464f06f373ec.png"
+  },
+  {
+    "name": "LayoutGuidesGallery",
+    "imageAsset": "images/by-hash/95db6721cba26fd6.png"
+  },
+  {
+    "name": "MasterPageGuides",
+    "imageAsset": "images/by-hash/8537cdd61973aa7f.png"
+  },
+  {
+    "name": "ShowGuides",
+    "imageAsset": "images/by-hash/d9e8046e19f717b6.png"
+  },
+  {
+    "name": "SnapToGuides",
+    "imageAsset": "images/by-hash/0ba34f66b73d8296.png"
+  }
+]

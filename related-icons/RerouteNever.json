@@ -1,0 +1,18 @@
+[
+  {
+    "name": "RerouteAsNeeded",
+    "imageAsset": "images/by-hash/ad2bda191256781a.png"
+  },
+  {
+    "name": "RerouteFreely",
+    "imageAsset": "images/by-hash/e601d98b026b18e8.png"
+  },
+  {
+    "name": "RerouteOnCrossover",
+    "imageAsset": "images/by-hash/c46b307a408ee646.png"
+  },
+  {
+    "name": "ShapeRerouteConnectors",
+    "imageAsset": "images/by-hash/5959806ca5134c5d.png"
+  }
+]

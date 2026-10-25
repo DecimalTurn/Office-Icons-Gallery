@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AddOrRemoveAttendees",
+    "imageAsset": "images/by-hash/62fd3177490b858d.png"
+  },
+  {
+    "name": "ContactInviteToWorkspace",
+    "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+  },
+  {
+    "name": "GroupAttendees",
+    "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+  },
+  {
+    "name": "GroupAttendeesMeetingNotSent",
+    "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+  },
+  {
+    "name": "GroupAttendeesMeetingSent",
+    "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+  },
+  {
+    "name": "GroupInvite",
+    "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+  },
+  {
+    "name": "GroupRecurringAttendees",
+    "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+  },
+  {
+    "name": "InviteMembers",
+    "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+  },
+  {
+    "name": "InviteMembersLB",
+    "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+  },
+  {
+    "name": "InviteMembersMenu",
+    "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+  },
+  {
+    "name": "InviteMyOtherComputers",
+    "imageAsset": "images/by-hash/b5ef06e64f620e41.png"
+  },
+  {
+    "name": "InviteViaOutlook",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  }
+]

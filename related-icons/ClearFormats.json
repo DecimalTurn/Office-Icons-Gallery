@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FileSaveAsOtherFormats",
+    "imageAsset": "images/by-hash/45781e547e6af23f.png"
+  },
+  {
+    "name": "GroupTableFormatsPublisher",
+    "imageAsset": "images/by-hash/da7ea7478bb82308.png"
+  },
+  {
+    "name": "TableFormatsGalleryPublisher",
+    "imageAsset": "images/by-hash/da7ea7478bb82308.png"
+  },
+  {
+    "name": "BaselineClear",
+    "imageAsset": "images/by-hash/351c77e57014f044.png"
+  },
+  {
+    "name": "Clear",
+    "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+  },
+  {
+    "name": "ClearAll",
+    "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+  },
+  {
+    "name": "ClearAllFormatting",
+    "imageAsset": "images/by-hash/3b2ebb675e017ab8.png"
+  },
+  {
+    "name": "ClearFormatting",
+    "imageAsset": "images/by-hash/3b2ebb675e017ab8.png"
+  },
+  {
+    "name": "ClearGrid",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "ClearIconColors",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "ClearMenu",
+    "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+  },
+  {
+    "name": "ClearNotesProject",
+    "imageAsset": "images/by-hash/2249b7207f0bb122.png"
+  }
+]

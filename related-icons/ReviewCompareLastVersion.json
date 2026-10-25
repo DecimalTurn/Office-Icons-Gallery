@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ReviewCompareMajorVersion",
+    "imageAsset": "images/by-hash/ceac849c65095193.png"
+  },
+  {
+    "name": "ReviewCompareSpecificVersion",
+    "imageAsset": "images/by-hash/3ae7f6e5d72acd3c.png"
+  },
+  {
+    "name": "GroupReviewCompare",
+    "imageAsset": "images/by-hash/747289478e8b2199.png"
+  },
+  {
+    "name": "ReviewCompareAndMerge",
+    "imageAsset": "images/by-hash/747289478e8b2199.png"
+  },
+  {
+    "name": "ReviewCompareMenu",
+    "imageAsset": "images/by-hash/747289478e8b2199.png"
+  },
+  {
+    "name": "ReviewCompareTwoVersions",
+    "imageAsset": "images/by-hash/a3d43843c96022a2.png"
+  },
+  {
+    "name": "CatalogMergeGoToLastRecord",
+    "imageAsset": "images/by-hash/885b15570afb85d5.png"
+  },
+  {
+    "name": "EraserLastUsed",
+    "imageAsset": "images/by-hash/d70bcff83c399d86.png"
+  },
+  {
+    "name": "JumpsAddToLastLine",
+    "imageAsset": "images/by-hash/8d725884012d9cce.png"
+  },
+  {
+    "name": "LastModifiedBy",
+    "imageAsset": "images/by-hash/2cb8cfb3c6a0f08f.png"
+  },
+  {
+    "name": "LastPage",
+    "imageAsset": "images/by-hash/e21a59d787d1194e.png"
+  },
+  {
+    "name": "LastTile",
+    "imageAsset": "images/by-hash/716d1cf9fcfccee1.png"
+  }
+]

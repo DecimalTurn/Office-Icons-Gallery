@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupMailMergeStart",
+    "imageAsset": "images/by-hash/ab1eca44d289be82.png"
+  },
+  {
+    "name": "GroupMailMergeStartPublisher",
+    "imageAsset": "images/by-hash/ab1eca44d289be82.png"
+  },
+  {
+    "name": "MailMergeStart",
+    "imageAsset": "images/by-hash/ab1eca44d289be82.png"
+  },
+  {
+    "name": "MailMergeStartEmail",
+    "imageAsset": "images/by-hash/eb0e54a34f26ad5c.png"
+  },
+  {
+    "name": "MailMergeStartEmailMergeMenu",
+    "imageAsset": "images/by-hash/529f029eb10ff921.png"
+  },
+  {
+    "name": "MailMergeStartEnvelopes",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  },
+  {
+    "name": "MailMergeStartLabels",
+    "imageAsset": "images/by-hash/e0cc6d34c73b1b24.png"
+  },
+  {
+    "name": "MailMergeStartLetters",
+    "imageAsset": "images/by-hash/62968ae11e63d152.png"
+  },
+  {
+    "name": "MailMergeStartMailMergeMenu",
+    "imageAsset": "images/by-hash/ab1eca44d289be82.png"
+  },
+  {
+    "name": "EmailMergeStart",
+    "imageAsset": "images/by-hash/529f029eb10ff921.png"
+  },
+  {
+    "name": "GroupCatalogMergeStart",
+    "imageAsset": "images/by-hash/ab1eca44d289be82.png"
+  },
+  {
+    "name": "GroupMailMergeFinish",
+    "imageAsset": "images/by-hash/13c4769b074c7428.png"
+  }
+]

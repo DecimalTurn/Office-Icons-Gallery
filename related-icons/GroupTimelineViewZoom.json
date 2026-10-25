@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CalendarViewZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "GroupPrintPreviewZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "GroupViewZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "GroupZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "GroupZoomDocked",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "NetworkDiagramZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "OmsChangeZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "PanAndZoomWindow",
+    "imageAsset": "images/by-hash/e895f5d168902b39.png"
+  },
+  {
+    "name": "PreviewZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "PreviewZoomAllPages",
+    "imageAsset": "images/by-hash/0e116039c9bf96df.png"
+  },
+  {
+    "name": "PrintPreviewZoomMenu",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "PrintPreviewZoomTwoPages",
+    "imageAsset": "images/by-hash/f32d3a8ba4c266de.png"
+  }
+]

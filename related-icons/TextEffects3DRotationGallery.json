@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TextEffects3DRotationOptionsDialog",
+    "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+  },
+  {
+    "name": "_3DRotationGallery",
+    "imageAsset": "images/by-hash/7e8b56359c980dd8.png"
+  },
+  {
+    "name": "_3DRotationOptionsDialog",
+    "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+  },
+  {
+    "name": "ChartRotationOptionsDialog",
+    "imageAsset": "images/by-hash/b2d12a6affc2897a.png"
+  },
+  {
+    "name": "PictureRotationGallery",
+    "imageAsset": "images/by-hash/eb2338f7bd18768f.png"
+  },
+  {
+    "name": "RotationTool",
+    "imageAsset": "images/by-hash/71ada65545a9763d.png"
+  },
+  {
+    "name": "_3DEffectsGalleryClassic",
+    "imageAsset": "images/by-hash/7e8b56359c980dd8.png"
+  },
+  {
+    "name": "_3DEffectsOnOffClassic",
+    "imageAsset": "images/by-hash/80b52f37f2b6692a.png"
+  },
+  {
+    "name": "ArtisticEffectsDialog",
+    "imageAsset": "images/by-hash/6ba4f4a6160a8d70.png"
+  },
+  {
+    "name": "Group3DEffects",
+    "imageAsset": "images/by-hash/cba7c0795e843fbd.png"
+  },
+  {
+    "name": "GroupEffects",
+    "imageAsset": "images/by-hash/7e8b56359c980dd8.png"
+  },
+  {
+    "name": "GroupPictureEffects",
+    "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+  }
+]

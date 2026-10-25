@@ -1,0 +1,30 @@
+[
+  {
+    "name": "NewAppointmentNumbered",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "NewContactNumbered",
+    "imageAsset": "images/by-hash/77ab365d2852a887.png"
+  },
+  {
+    "name": "NewDistributionListNumbered",
+    "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+  },
+  {
+    "name": "NewMailMessageNumbered",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  },
+  {
+    "name": "NewMeetingRequestNumbered",
+    "imageAsset": "images/by-hash/feff041c0012ff48.png"
+  },
+  {
+    "name": "NewNoteNumbered",
+    "imageAsset": "images/by-hash/9e6c27b717f1db46.png"
+  },
+  {
+    "name": "NewTaskNumbered",
+    "imageAsset": "images/by-hash/685d08ad2b856414.png"
+  }
+]

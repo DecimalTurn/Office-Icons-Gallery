@@ -1,0 +1,42 @@
+[
+  {
+    "name": "DistributionListAddNewMember",
+    "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+  },
+  {
+    "name": "DistributionListNewMemberMenu",
+    "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+  },
+  {
+    "name": "DistributionListRemoveMember",
+    "imageAsset": "images/by-hash/feaa203db9c1adcc.png"
+  },
+  {
+    "name": "DistributionListSelectMembers",
+    "imageAsset": "images/by-hash/3f25d7cc9127c399.png"
+  },
+  {
+    "name": "DistributionListSelectMembersFromContacts",
+    "imageAsset": "images/by-hash/3f25d7cc9127c399.png"
+  },
+  {
+    "name": "DistributionListUpdateMembers",
+    "imageAsset": "images/by-hash/cd8520ea1c9f6e35.png"
+  },
+  {
+    "name": "NewDistributionList",
+    "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+  },
+  {
+    "name": "NewDistributionListCompact",
+    "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+  },
+  {
+    "name": "NewDistributionListNumbered",
+    "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+  },
+  {
+    "name": "PrepareForDistributionMenu",
+    "imageAsset": "images/by-hash/75049f9d90ee7c46.png"
+  }
+]

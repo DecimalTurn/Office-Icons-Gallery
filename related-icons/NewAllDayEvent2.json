@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupDayWeekMonthArrangement",
+    "imageAsset": "images/by-hash/f80a7aaa0a54faa5.png"
+  },
+  {
+    "name": "MeetingDetailsOtherDayInsert",
+    "imageAsset": "images/by-hash/c674434a67623947.png"
+  },
+  {
+    "name": "MeetingsToolViewByDay",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "TaskMoveBackOneDay",
+    "imageAsset": "images/by-hash/c3cc5e0e51ac1502.png"
+  },
+  {
+    "name": "TaskMoveForwardOneDay",
+    "imageAsset": "images/by-hash/a372ea0002b4bafc.png"
+  },
+  {
+    "name": "ViewByDay",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "CondolatoryEvent",
+    "imageAsset": "images/by-hash/a52b748478280b59.png"
+  },
+  {
+    "name": "CongratulatoryEvent",
+    "imageAsset": "images/by-hash/3c52a8d48547749a.png"
+  },
+  {
+    "name": "EventMonitor",
+    "imageAsset": "images/by-hash/6754ee105a791d52.png"
+  },
+  {
+    "name": "EventOnAfterChange",
+    "imageAsset": "images/by-hash/9d3655335c8c6406.png"
+  },
+  {
+    "name": "EventOnBeforeChange",
+    "imageAsset": "images/by-hash/843e6b743f01410b.png"
+  },
+  {
+    "name": "EventOnContextChange",
+    "imageAsset": "images/by-hash/f4fe958aef2cb5d1.png"
+  }
+]

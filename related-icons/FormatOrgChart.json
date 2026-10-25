@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupOrgChartArrange",
+    "imageAsset": "images/by-hash/605f848185171a7d.png"
+  },
+  {
+    "name": "GroupOrgChartLayout",
+    "imageAsset": "images/by-hash/fe3465ad6d5ba97d.png"
+  },
+  {
+    "name": "GroupOrgChartOrganizationData",
+    "imageAsset": "images/by-hash/25e25390f388f017.png"
+  },
+  {
+    "name": "GroupOrgChartPicture",
+    "imageAsset": "images/by-hash/09afe70e742584fe.png"
+  },
+  {
+    "name": "GroupOrgChartSpacing",
+    "imageAsset": "images/by-hash/4be828dd2621d9d0.png"
+  },
+  {
+    "name": "GroupOrgChartSynchronize",
+    "imageAsset": "images/by-hash/1c1dec4fa0ab5f36.png"
+  },
+  {
+    "name": "OrgChartCopyCreate",
+    "imageAsset": "images/by-hash/1c1dec4fa0ab5f36.png"
+  },
+  {
+    "name": "OrgChartDataCompare",
+    "imageAsset": "images/by-hash/0ce45d47470a6c47.png"
+  },
+  {
+    "name": "OrgChartDataExport",
+    "imageAsset": "images/by-hash/d00b060864269378.png"
+  },
+  {
+    "name": "OrgChartDataImport",
+    "imageAsset": "images/by-hash/25e25390f388f017.png"
+  },
+  {
+    "name": "OrgChartDataOptionsDisplay",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "OrgChartFitToPage",
+    "imageAsset": "images/by-hash/2fef15dde34fdfb9.png"
+  }
+]

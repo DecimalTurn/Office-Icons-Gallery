@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FilesToolArrangeGallery",
+    "imageAsset": "images/by-hash/cf92637eb802c6af.png"
+  },
+  {
+    "name": "GroupArrangeFilesTool",
+    "imageAsset": "images/by-hash/cf92637eb802c6af.png"
+  },
+  {
+    "name": "FileLinksToFiles",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "FilesToolAddFiles",
+    "imageAsset": "images/by-hash/a50041174ebc9149.png"
+  },
+  {
+    "name": "FilesToolDownloadFile",
+    "imageAsset": "images/by-hash/8ea103e009e28958.png"
+  },
+  {
+    "name": "FilesToolDownloadMenu",
+    "imageAsset": "images/by-hash/8ea103e009e28958.png"
+  },
+  {
+    "name": "FilesToolFileProperties",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "FilesToolFilePropertiesMenu",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "FilesToolGrooveFileProperties",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "FilesToolNavigateToParentFolder",
+    "imageAsset": "images/by-hash/b9888a2c43c332a0.png"
+  },
+  {
+    "name": "FilesToolNewFileGallery",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "FilesToolNewFolderGallery",
+    "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+  }
+]

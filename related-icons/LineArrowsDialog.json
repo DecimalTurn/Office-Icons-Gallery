@@ -1,0 +1,22 @@
+[
+  {
+    "name": "LineArrowsGallery",
+    "imageAsset": "images/by-hash/4ff3d1a37fabcdcf.png"
+  },
+  {
+    "name": "ArrowsMore",
+    "imageAsset": "images/by-hash/027562b49e54f056.png"
+  },
+  {
+    "name": "TraceDependentRemoveArrows",
+    "imageAsset": "images/by-hash/791c472a58c1ac60.png"
+  },
+  {
+    "name": "TracePrecedentsRemoveArrows",
+    "imageAsset": "images/by-hash/7cd7c72a3e2c9202.png"
+  },
+  {
+    "name": "TraceRemoveAllArrows",
+    "imageAsset": "images/by-hash/25b05961ab3adc91.png"
+  }
+]

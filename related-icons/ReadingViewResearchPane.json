@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ResearchPane",
+    "imageAsset": "images/by-hash/00cd4d0b28c70c30.png"
+  },
+  {
+    "name": "ReadingPaneBottom",
+    "imageAsset": "images/by-hash/b2b0c61d42ba1a39.png"
+  },
+  {
+    "name": "ReadingPaneOff",
+    "imageAsset": "images/by-hash/d8f9c44014793142.png"
+  },
+  {
+    "name": "ReadingPaneRight",
+    "imageAsset": "images/by-hash/143d98311f83ee01.png"
+  },
+  {
+    "name": "DocumentMapReadingView",
+    "imageAsset": "images/by-hash/8c005537b968b2f0.png"
+  },
+  {
+    "name": "InkStopInkingReadingView",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "ReadingMode",
+    "imageAsset": "images/by-hash/faeb4446f4fdb538.png"
+  },
+  {
+    "name": "ReadingModeColumnLayout",
+    "imageAsset": "images/by-hash/53c21f42593d741d.png"
+  },
+  {
+    "name": "ReadingModeColumnWidthDefault",
+    "imageAsset": "images/by-hash/53c21f42593d741d.png"
+  },
+  {
+    "name": "ReadingModeColumnWidthMenu",
+    "imageAsset": "images/by-hash/07769cf793dd35fb.png"
+  },
+  {
+    "name": "ReadingModeColumnWidthNarrow",
+    "imageAsset": "images/by-hash/b8b3c72b95a044fd.png"
+  },
+  {
+    "name": "ReadingModeColumnWidthWide",
+    "imageAsset": "images/by-hash/9236380ac5d8eefd.png"
+  }
+]

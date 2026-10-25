@@ -1,0 +1,50 @@
+[
+  {
+    "name": "MeetingsToolAppointmentMoveUp",
+    "imageAsset": "images/by-hash/cf4e1aea2c0e020f.png"
+  },
+  {
+    "name": "MoveElementUp",
+    "imageAsset": "images/by-hash/068470b628dc1569.png"
+  },
+  {
+    "name": "MoveUp",
+    "imageAsset": "images/by-hash/6cb246f6a08ee6e1.png"
+  },
+  {
+    "name": "MoveUpCustomAction",
+    "imageAsset": "images/by-hash/068470b628dc1569.png"
+  },
+  {
+    "name": "MoveUpSection",
+    "imageAsset": "images/by-hash/068470b628dc1569.png"
+  },
+  {
+    "name": "SectionMoveUp",
+    "imageAsset": "images/by-hash/6cb246f6a08ee6e1.png"
+  },
+  {
+    "name": "OutlineMoveDown",
+    "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+  },
+  {
+    "name": "_3DTiltUpClassic",
+    "imageAsset": "images/by-hash/7a46f6d38b719d2e.png"
+  },
+  {
+    "name": "BorderDiagonalUp",
+    "imageAsset": "images/by-hash/cc5877255b2f193f.png"
+  },
+  {
+    "name": "ChartFormatUpBars",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartUpDownBars",
+    "imageAsset": "images/by-hash/15e4f4da852f3edc.png"
+  },
+  {
+    "name": "ContactCardLookUpOutlookContact",
+    "imageAsset": "images/by-hash/77ab365d2852a887.png"
+  }
+]

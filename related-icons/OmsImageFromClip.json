@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OmsImageFromFile",
+    "imageAsset": "images/by-hash/a3c1694aead52859.png"
+  },
+  {
+    "name": "OmsScanImage",
+    "imageAsset": "images/by-hash/51f884df639d7c92.png"
+  },
+  {
+    "name": "ClipArtInsert",
+    "imageAsset": "images/by-hash/6090897e04d44e0f.png"
+  },
+  {
+    "name": "ClipArtInsertDialog",
+    "imageAsset": "images/by-hash/6090897e04d44e0f.png"
+  },
+  {
+    "name": "MovieFromClipOrganizerInsert",
+    "imageAsset": "images/by-hash/b4503a8b2cb0995d.png"
+  },
+  {
+    "name": "SlideMasterClipArtPlaceholderInsert",
+    "imageAsset": "images/by-hash/bd4fb506fe813959.png"
+  },
+  {
+    "name": "SoundInsertFromClipOrganizer",
+    "imageAsset": "images/by-hash/a6caf06e899d31c6.png"
+  },
+  {
+    "name": "ActiveXImage",
+    "imageAsset": "images/by-hash/a3c1694aead52859.png"
+  },
+  {
+    "name": "ApplyImageBackgroundFill",
+    "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+  },
+  {
+    "name": "ApplyImageBackgroundTile",
+    "imageAsset": "images/by-hash/18e3f90d57530743.png"
+  },
+  {
+    "name": "ApplyImageToBackgroundMenu",
+    "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+  },
+  {
+    "name": "BackgroundImageGallery",
+    "imageAsset": "images/by-hash/413b79a699148fbf.png"
+  }
+]

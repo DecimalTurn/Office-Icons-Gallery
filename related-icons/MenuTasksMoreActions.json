@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupTasksActions",
+    "imageAsset": "images/by-hash/a29be37adf30f0e1.png"
+  },
+  {
+    "name": "AccessListTasks",
+    "imageAsset": "images/by-hash/eb984634b74705b7.png"
+  },
+  {
+    "name": "AccessTableTasks",
+    "imageAsset": "images/by-hash/eb984634b74705b7.png"
+  },
+  {
+    "name": "AddExistingTasksToTimeline",
+    "imageAsset": "images/by-hash/2128fa0a06829f22.png"
+  },
+  {
+    "name": "DesignTasks",
+    "imageAsset": "images/by-hash/6368b89015ef2590.png"
+  },
+  {
+    "name": "FileMenuServerTasksHeader",
+    "imageAsset": "images/by-hash/374c984d4a9fc494.png"
+  },
+  {
+    "name": "FileServerTasksMenu",
+    "imageAsset": "images/by-hash/374c984d4a9fc494.png"
+  },
+  {
+    "name": "FileWorkflowTasks",
+    "imageAsset": "images/by-hash/a7c53f53aead05b3.png"
+  },
+  {
+    "name": "GotoTasks",
+    "imageAsset": "images/by-hash/685d08ad2b856414.png"
+  },
+  {
+    "name": "GroupGanttTasks",
+    "imageAsset": "images/by-hash/e0650d801fd4cfb6.png"
+  },
+  {
+    "name": "GroupTasksLayout",
+    "imageAsset": "images/by-hash/fde603d72c3ddeec.png"
+  },
+  {
+    "name": "GroupTasksLayoutStandard",
+    "imageAsset": "images/by-hash/fde603d72c3ddeec.png"
+  }
+]

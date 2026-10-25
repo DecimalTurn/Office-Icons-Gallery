@@ -1,0 +1,50 @@
+[
+  {
+    "name": "RightButtonIconColor",
+    "imageAsset": "images/by-hash/e5a5c0346b4a3986.png"
+  },
+  {
+    "name": "ClearIconColors",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "ConditionalFormattingIconSetsGallery",
+    "imageAsset": "images/by-hash/cae3e88b6f47d6fc.png"
+  },
+  {
+    "name": "DataGraphicIconSet",
+    "imageAsset": "images/by-hash/df77f5f25285305e.png"
+  },
+  {
+    "name": "EditIcon",
+    "imageAsset": "images/by-hash/d4dd0b28662db68f.png"
+  },
+  {
+    "name": "GroupIconArrangement",
+    "imageAsset": "images/by-hash/103c6fedc45f72ff.png"
+  },
+  {
+    "name": "GroupIconEditClipboard",
+    "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+  },
+  {
+    "name": "GroupIconEditPaint",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "GroupIconEditSelect",
+    "imageAsset": "images/by-hash/30fa90eadcee4633.png"
+  },
+  {
+    "name": "IconBucketTool",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "IconEditClose",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "IconPencilTool",
+    "imageAsset": "images/by-hash/8ffec6544ecdbee1.png"
+  }
+]

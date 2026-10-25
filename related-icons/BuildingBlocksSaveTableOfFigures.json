@@ -1,0 +1,50 @@
+[
+  {
+    "name": "BuildingBlocksSaveCoverPage",
+    "imageAsset": "images/by-hash/6040b3b0e1c12c80.png"
+  },
+  {
+    "name": "BuildingBlocksSaveEquation",
+    "imageAsset": "images/by-hash/1c9db4ad034af9ca.png"
+  },
+  {
+    "name": "BuildingBlocksSaveTableOfContents",
+    "imageAsset": "images/by-hash/f1c892057176853b.png"
+  },
+  {
+    "name": "BuildingBlocksCreateTableOfAuthorities",
+    "imageAsset": "images/by-hash/a9ab676bd06f72af.png"
+  },
+  {
+    "name": "BuildingBlocksOrganizer",
+    "imageAsset": "images/by-hash/f4dd61ec3a6e3b40.png"
+  },
+  {
+    "name": "GroupBuildingBlocks",
+    "imageAsset": "images/by-hash/e8587442c1dbbff4.png"
+  },
+  {
+    "name": "InsertBuildingBlocksCommonPartsGallery",
+    "imageAsset": "images/by-hash/e8587442c1dbbff4.png"
+  },
+  {
+    "name": "InsertBuildingBlocksEquationsGallery",
+    "imageAsset": "images/by-hash/5f27fe84419337f4.png"
+  },
+  {
+    "name": "InsertBuildingBlocksFooterGallery",
+    "imageAsset": "images/by-hash/40c451bf43fef867.png"
+  },
+  {
+    "name": "InsertBuildingBlocksHeaderGallery",
+    "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+  },
+  {
+    "name": "TableOfFiguresInsert",
+    "imageAsset": "images/by-hash/381025c0c1173aa6.png"
+  },
+  {
+    "name": "TableOfFiguresUpdate",
+    "imageAsset": "images/by-hash/f99e4ea213e6e996.png"
+  }
+]

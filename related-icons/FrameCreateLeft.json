@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FrameCreateAbove",
+    "imageAsset": "images/by-hash/d97def2a448b794f.png"
+  },
+  {
+    "name": "FrameCreateBelow",
+    "imageAsset": "images/by-hash/2d601bf5ff7bb319.png"
+  },
+  {
+    "name": "FrameCreateRight",
+    "imageAsset": "images/by-hash/1b9d6fc042a8fe96.png"
+  },
+  {
+    "name": "CreateFormNavigationLeft",
+    "imageAsset": "images/by-hash/70f92f056f44c3ca.png"
+  },
+  {
+    "name": "CreateFormNavigationLeftWeb",
+    "imageAsset": "images/by-hash/70f92f056f44c3ca.png"
+  },
+  {
+    "name": "CreateFormNavigationTopLeft",
+    "imageAsset": "images/by-hash/f9ba4ec68e6880cc.png"
+  },
+  {
+    "name": "CreateFormNavigationTopLeftWeb",
+    "imageAsset": "images/by-hash/f9ba4ec68e6880cc.png"
+  },
+  {
+    "name": "_3DSurfaceWireFrameClassic",
+    "imageAsset": "images/by-hash/10048e73d673db65.png"
+  },
+  {
+    "name": "ActiveXFrame",
+    "imageAsset": "images/by-hash/4d62ac0a7451562d.png"
+  },
+  {
+    "name": "ControlBoundObjectFrame",
+    "imageAsset": "images/by-hash/3623cdfe7d9d0b15.png"
+  },
+  {
+    "name": "ControlUnboundObjectFrame",
+    "imageAsset": "images/by-hash/70fe56143cd29f19.png"
+  },
+  {
+    "name": "FrameDelete",
+    "imageAsset": "images/by-hash/29765682e3c859ad.png"
+  }
+]

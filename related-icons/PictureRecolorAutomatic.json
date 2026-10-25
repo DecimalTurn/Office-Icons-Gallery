@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PictureRecolorBlackAndWhite",
+    "imageAsset": "images/by-hash/06f37aff9ab7979f.png"
+  },
+  {
+    "name": "PictureRecolorGallery",
+    "imageAsset": "images/by-hash/33a2a499c4e19654.png"
+  },
+  {
+    "name": "PictureRecolorGalleryWord",
+    "imageAsset": "images/by-hash/33a2a499c4e19654.png"
+  },
+  {
+    "name": "PictureRecolorGrayscale",
+    "imageAsset": "images/by-hash/436568c6ac0fdd41.png"
+  },
+  {
+    "name": "PictureRecolorMoreColorsDialog",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "PictureRecolorWashout",
+    "imageAsset": "images/by-hash/d53865222e8d6935.png"
+  },
+  {
+    "name": "AutomaticResize",
+    "imageAsset": "images/by-hash/a5261425578a6472.png"
+  },
+  {
+    "name": "BlackAndWhiteAutomatic",
+    "imageAsset": "images/by-hash/778d7cbd5c31bd4f.png"
+  },
+  {
+    "name": "EyedropperRecolor",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "RecolorColorPicker",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "SmartArtRecolorImages",
+    "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+  },
+  {
+    "name": "VideoRecolorGallery",
+    "imageAsset": "images/by-hash/33a2a499c4e19654.png"
+  }
+]

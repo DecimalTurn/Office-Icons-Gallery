@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SourceControlUndoCheckOut",
+    "imageAsset": "images/by-hash/9a092616c2da4f72.png"
+  },
+  {
+    "name": "SourceSafeQuickCheckIn",
+    "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+  },
+  {
+    "name": "SourceSafeQuickCheckout",
+    "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+  },
+  {
+    "name": "SourceControlCheckOut",
+    "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+  },
+  {
+    "name": "CheckOutEntry",
+    "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+  },
+  {
+    "name": "CheckOutFile",
+    "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+  },
+  {
+    "name": "DiscardCheckOut",
+    "imageAsset": "images/by-hash/e50e1b451754030b.png"
+  },
+  {
+    "name": "DiscardCheckOutMenu",
+    "imageAsset": "images/by-hash/e50e1b451754030b.png"
+  },
+  {
+    "name": "FileCheckOut",
+    "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+  },
+  {
+    "name": "FileCheckOutDiscard",
+    "imageAsset": "images/by-hash/e50e1b451754030b.png"
+  },
+  {
+    "name": "SourceControlCheckIn",
+    "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+  },
+  {
+    "name": "JunkEmailSafeListsMenu",
+    "imageAsset": "images/by-hash/44ac5b462eeb6978.png"
+  }
+]

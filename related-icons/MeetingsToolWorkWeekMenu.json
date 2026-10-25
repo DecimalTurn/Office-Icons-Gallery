@@ -1,0 +1,50 @@
+[
+  {
+    "name": "MeetingsToolWorkWeek",
+    "imageAsset": "images/by-hash/3f960c8626c1ba56.png"
+  },
+  {
+    "name": "WorkWeek",
+    "imageAsset": "images/by-hash/3f960c8626c1ba56.png"
+  },
+  {
+    "name": "MeetingsToolViewByWeek",
+    "imageAsset": "images/by-hash/f80a7aaa0a54faa5.png"
+  },
+  {
+    "name": "MeetingsToolWorkMonth",
+    "imageAsset": "images/by-hash/7f9c1c843fc62c9c.png"
+  },
+  {
+    "name": "CalendarViewWeekHeightBestFit",
+    "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+  },
+  {
+    "name": "ContactCardCallWork",
+    "imageAsset": "images/by-hash/381581df7c59e7dc.png"
+  },
+  {
+    "name": "FlagNextWeek",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "FlagThisWeek",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "GroupContactCardCallWork",
+    "imageAsset": "images/by-hash/381581df7c59e7dc.png"
+  },
+  {
+    "name": "GroupDayWeekMonthArrangement",
+    "imageAsset": "images/by-hash/f80a7aaa0a54faa5.png"
+  },
+  {
+    "name": "OutlookTaskNextWeek",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "OutlookTaskNextWeekContextual",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  }
+]

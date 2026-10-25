@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AddSelectionToAccentsLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "AddSelectionToAdvertisementLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "AddSelectionToBusinessInformationLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "AddSelectionToCalendarsLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "AddSelectionToPagePartsLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "AddSelectionToTextLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "AddSelectionToVertTextLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "NewDocumentLibraryContentMenu",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "AddContentType",
+    "imageAsset": "images/by-hash/fcaa71a805f81e9f.png"
+  },
+  {
+    "name": "AddToContentStore",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "ContentTypeAddSiteColumn",
+    "imageAsset": "images/by-hash/3a08b1e5d9651ea0.png"
+  },
+  {
+    "name": "GroupContentTypeAddOptions",
+    "imageAsset": "images/by-hash/3a08b1e5d9651ea0.png"
+  }
+]

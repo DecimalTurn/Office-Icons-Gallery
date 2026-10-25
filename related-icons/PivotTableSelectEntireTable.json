@@ -1,0 +1,22 @@
+[
+  {
+    "name": "PivotTableSelectData",
+    "imageAsset": "images/by-hash/65504a08871b714f.png"
+  },
+  {
+    "name": "PivotTableSelectFlyout",
+    "imageAsset": "images/by-hash/1bdc0ebd3832afae.png"
+  },
+  {
+    "name": "PivotTableSelectLabel",
+    "imageAsset": "images/by-hash/5622ad83d80bbca0.png"
+  },
+  {
+    "name": "PivotTableSelectLabelAndData",
+    "imageAsset": "images/by-hash/8770445ac1c74e7b.png"
+  },
+  {
+    "name": "ZoomEntireProject",
+    "imageAsset": "images/by-hash/4477a86d65bd6c55.png"
+  }
+]

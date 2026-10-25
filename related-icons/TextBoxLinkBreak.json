@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TextBoxLinkCreate",
+    "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+  },
+  {
+    "name": "Break",
+    "imageAsset": "images/by-hash/c1486f7656137390.png"
+  },
+  {
+    "name": "BreakInsertDialog",
+    "imageAsset": "images/by-hash/1117a9c0eb047b1d.png"
+  },
+  {
+    "name": "GroupTextBreak",
+    "imageAsset": "images/by-hash/b3f1a429d1adfcaa.png"
+  },
+  {
+    "name": "PageBreakInsertOrRemove",
+    "imageAsset": "images/by-hash/1117a9c0eb047b1d.png"
+  },
+  {
+    "name": "PageBreakInsertWord",
+    "imageAsset": "images/by-hash/1117a9c0eb047b1d.png"
+  },
+  {
+    "name": "PageBreakMenu",
+    "imageAsset": "images/by-hash/1117a9c0eb047b1d.png"
+  },
+  {
+    "name": "ShowLineBreakMark",
+    "imageAsset": "images/by-hash/cac2ee87863e6360.png"
+  },
+  {
+    "name": "ViewPageBreakPreviewView",
+    "imageAsset": "images/by-hash/0ec3e0d4b2badb88.png"
+  },
+  {
+    "name": "ContactLinkMenu",
+    "imageAsset": "images/by-hash/34930536af15236a.png"
+  },
+  {
+    "name": "CopyAsLink",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "CopyAsLinkMenu",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  }
+]

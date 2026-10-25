@@ -1,0 +1,30 @@
+[
+  {
+    "name": "TextWrappingEditWrapPoints",
+    "imageAsset": "images/by-hash/365164a10e92196c.png"
+  },
+  {
+    "name": "ObjectEditDialog",
+    "imageAsset": "images/by-hash/a861dadff9421bea.png"
+  },
+  {
+    "name": "ObjectEditShapeMenu",
+    "imageAsset": "images/by-hash/bc418a9f0b960640.png"
+  },
+  {
+    "name": "ObjectEditShapeMenuClassic",
+    "imageAsset": "images/by-hash/bc418a9f0b960640.png"
+  },
+  {
+    "name": "ObjectEditText",
+    "imageAsset": "images/by-hash/8187ee8d4735072e.png"
+  },
+  {
+    "name": "ConnectionPoints",
+    "imageAsset": "images/by-hash/1119b395369eaace.png"
+  },
+  {
+    "name": "GlueToConnectionPoints",
+    "imageAsset": "images/by-hash/40dd59a2350ba12e.png"
+  }
+]

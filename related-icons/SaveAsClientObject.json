@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SaveDatabaseObjectTask",
+    "imageAsset": "images/by-hash/45781e547e6af23f.png"
+  },
+  {
+    "name": "SaveObjectAs",
+    "imageAsset": "images/by-hash/45781e547e6af23f.png"
+  },
+  {
+    "name": "ArrangeToolsSiteClient",
+    "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+  },
+  {
+    "name": "ClientAdvancedObjectsMenu",
+    "imageAsset": "images/by-hash/d2771bddcd274833.png"
+  },
+  {
+    "name": "ClientFormsMenu",
+    "imageAsset": "images/by-hash/e15d79514a0ddc33.png"
+  },
+  {
+    "name": "ClientQueriesMenu",
+    "imageAsset": "images/by-hash/b674448c3a22d477.png"
+  },
+  {
+    "name": "ClientReportsMenu",
+    "imageAsset": "images/by-hash/d424eccd1c1aec43.png"
+  },
+  {
+    "name": "DatabaseServerCompatibilityCheckClientObjects",
+    "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+  },
+  {
+    "name": "GroupArrangeSiteClient",
+    "imageAsset": "images/by-hash/cf92637eb802c6af.png"
+  },
+  {
+    "name": "GroupCreateClient",
+    "imageAsset": "images/by-hash/b674448c3a22d477.png"
+  },
+  {
+    "name": "GroupCreateClientQuery",
+    "imageAsset": "images/by-hash/79cce7297bfffb37.png"
+  },
+  {
+    "name": "GroupDocumentsViewSiteClient",
+    "imageAsset": "images/by-hash/cf92637eb802c6af.png"
+  }
+]

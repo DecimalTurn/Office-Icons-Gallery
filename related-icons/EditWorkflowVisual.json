@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CreateWorkflowDiagramVisualDesigner",
+    "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+  },
+  {
+    "name": "GroupWorkflowVisualDesignerManage",
+    "imageAsset": "images/by-hash/c966d15d29d8a20d.png"
+  },
+  {
+    "name": "GroupWorkflowVisualDesignerModify",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "GroupWorkflowVisualDesignerSave",
+    "imageAsset": "images/by-hash/246a59d100792609.png"
+  },
+  {
+    "name": "GroupWorkflowVisualDesignerVariables",
+    "imageAsset": "images/by-hash/0f5a38804b681599.png"
+  },
+  {
+    "name": "EditWorkflow",
+    "imageAsset": "images/by-hash/149f3b0cae9e185f.png"
+  },
+  {
+    "name": "EditWorkflowGallery",
+    "imageAsset": "images/by-hash/149f3b0cae9e185f.png"
+  },
+  {
+    "name": "EditWorkflowTask",
+    "imageAsset": "images/by-hash/685d08ad2b856414.png"
+  },
+  {
+    "name": "GroupWorkflowFormsEdit",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "GroupWorkflowSummaryEdit",
+    "imageAsset": "images/by-hash/149f3b0cae9e185f.png"
+  },
+  {
+    "name": "GroupWorkflowTaskSummaryEdit",
+    "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+  },
+  {
+    "name": "GroupVisualAids",
+    "imageAsset": "images/by-hash/17105cf663d7c445.png"
+  }
+]

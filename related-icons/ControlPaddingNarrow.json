@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ControlMarginsNarrow",
+    "imageAsset": "images/by-hash/b35a2e9329ea7a66.png"
+  },
+  {
+    "name": "GroupInkEditNarrow",
+    "imageAsset": "images/by-hash/6945be477de49d52.png"
+  },
+  {
+    "name": "GroupPageSetupNarrow",
+    "imageAsset": "images/by-hash/fc276fb850114877.png"
+  },
+  {
+    "name": "GroupWindowNarrow",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "ReadingModeColumnWidthNarrow",
+    "imageAsset": "images/by-hash/b8b3c72b95a044fd.png"
+  },
+  {
+    "name": "RuleLinesNarrow",
+    "imageAsset": "images/by-hash/e67fbec2f727f415.png"
+  },
+  {
+    "name": "ControlPaddingGallery",
+    "imageAsset": "images/by-hash/afb0b3259f5bc4e2.png"
+  },
+  {
+    "name": "ControlPaddingMedium",
+    "imageAsset": "images/by-hash/afb0b3259f5bc4e2.png"
+  },
+  {
+    "name": "ControlPaddingMenu",
+    "imageAsset": "images/by-hash/afb0b3259f5bc4e2.png"
+  },
+  {
+    "name": "ControlPaddingNone",
+    "imageAsset": "images/by-hash/c55c681170ab84bd.png"
+  },
+  {
+    "name": "ControlPaddingWide",
+    "imageAsset": "images/by-hash/d23e7fb8e7d230f7.png"
+  },
+  {
+    "name": "ControlPropertyPaddingAndMargins",
+    "imageAsset": "images/by-hash/e195793523d65673.png"
+  }
+]

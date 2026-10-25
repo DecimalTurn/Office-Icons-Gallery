@@ -1,0 +1,22 @@
+[
+  {
+    "name": "AutomaticResize",
+    "imageAsset": "images/by-hash/a5261425578a6472.png"
+  },
+  {
+    "name": "DiagramResizeClassic",
+    "imageAsset": "images/by-hash/96077b881b235e69.png"
+  },
+  {
+    "name": "DrawingCanvasResize",
+    "imageAsset": "images/by-hash/96077b881b235e69.png"
+  },
+  {
+    "name": "GroupSlabResize",
+    "imageAsset": "images/by-hash/b74103378135a2ce.png"
+  },
+  {
+    "name": "OrganizationChartResize",
+    "imageAsset": "images/by-hash/96077b881b235e69.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "BorderColorPicker",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "BorderColorPickerExcel",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "LineBorderColorSplitDropdown",
+    "imageAsset": "images/by-hash/526d6565d950b7d9.png"
+  },
+  {
+    "name": "ObjectBorderOutlineColorMoreColorsDialog",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "PictureBorderColorPickerClassic",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "TableBorderColorMoreColorsDialog",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "TableBorderPenColorPicker",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "TeamPlannerActualBorderColor",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "TeamPlannerTaskBorderColorGallery",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "BorderBottom",
+    "imageAsset": "images/by-hash/55ed253243346cfc.png"
+  },
+  {
+    "name": "BorderBottomNoToggle",
+    "imageAsset": "images/by-hash/55ed253243346cfc.png"
+  },
+  {
+    "name": "BorderBottomWord",
+    "imageAsset": "images/by-hash/55ed253243346cfc.png"
+  }
+]

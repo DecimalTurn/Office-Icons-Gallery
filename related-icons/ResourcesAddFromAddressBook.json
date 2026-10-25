@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AddressBook",
+    "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+  },
+  {
+    "name": "DownloadAddressBook",
+    "imageAsset": "images/by-hash/f5ee821d90999a62.png"
+  },
+  {
+    "name": "AddResourcesFromActiveDirectory",
+    "imageAsset": "images/by-hash/e1d564e7fc6ca424.png"
+  },
+  {
+    "name": "ResourcesAddFromProjectServer",
+    "imageAsset": "images/by-hash/dde6df49338d2433.png"
+  },
+  {
+    "name": "ResourcesAddMenu",
+    "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+  },
+  {
+    "name": "JapanesePostcardCreateAddressSide",
+    "imageAsset": "images/by-hash/7bc0d89aa4baf964.png"
+  },
+  {
+    "name": "MailMergeAddressBlockInsert",
+    "imageAsset": "images/by-hash/fb6d6ec9391f1c51.png"
+  },
+  {
+    "name": "MapContactAddress",
+    "imageAsset": "images/by-hash/4150b8d940bfe058.png"
+  },
+  {
+    "name": "QuickSearchAddressMenu",
+    "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+  },
+  {
+    "name": "QuickSearchHasBusinessAddress",
+    "imageAsset": "images/by-hash/497a4f1948c9ced5.png"
+  },
+  {
+    "name": "QuickSearchHasEmailAddress",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  },
+  {
+    "name": "QuickSearchHasHomeAddress",
+    "imageAsset": "images/by-hash/cc7405a103b44a17.png"
+  }
+]

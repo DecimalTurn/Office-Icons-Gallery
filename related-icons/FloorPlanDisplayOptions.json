@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FloorPlanConvertToWalls",
+    "imageAsset": "images/by-hash/5bc689796c87270c.png"
+  },
+  {
+    "name": "GroupFloorPlanPlan",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "PlanAMeeting",
+    "imageAsset": "images/by-hash/8e9958d3b3b7ab24.png"
+  },
+  {
+    "name": "ChartFloor",
+    "imageAsset": "images/by-hash/6abcb06783e92a89.png"
+  },
+  {
+    "name": "ChartFormatFloor",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartFormatDisplayUnit",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ControlPropertyDisplayTextFieldName",
+    "imageAsset": "images/by-hash/828e97e4441434cb.png"
+  },
+  {
+    "name": "DatabaseModelingDisplayOptions",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "DisplayErrorMessageInfoPath",
+    "imageAsset": "images/by-hash/7af31981dd4e0deb.png"
+  },
+  {
+    "name": "DisplayForm",
+    "imageAsset": "images/by-hash/0a69470924c1ff8d.png"
+  },
+  {
+    "name": "DisplayRuler",
+    "imageAsset": "images/by-hash/2b18eaf5a8c1c3c5.png"
+  },
+  {
+    "name": "FormatAsLinkToDisplayForm",
+    "imageAsset": "images/by-hash/865804e56ae0c5fc.png"
+  }
+]

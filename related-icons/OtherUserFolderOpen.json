@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OpenFolder",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "OpenNotebookAsFolder",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "SharingOpenCalendarFolder",
+    "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+  },
+  {
+    "name": "SharingOpenContactFolder",
+    "imageAsset": "images/by-hash/77ab365d2852a887.png"
+  },
+  {
+    "name": "SharingOpenDocumentFolder",
+    "imageAsset": "images/by-hash/cebb6d36cf27c851.png"
+  },
+  {
+    "name": "SharingOpenJournalFolder",
+    "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+  },
+  {
+    "name": "SharingOpenMailFolder",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  },
+  {
+    "name": "SharingOpenNotesFolder",
+    "imageAsset": "images/by-hash/85b5d0d61b183246.png"
+  },
+  {
+    "name": "SharingOpenTaskFolder",
+    "imageAsset": "images/by-hash/685d08ad2b856414.png"
+  },
+  {
+    "name": "AddUserToPermissionGroup",
+    "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+  },
+  {
+    "name": "DatabaseModelingUserDefinedTypes",
+    "imageAsset": "images/by-hash/9b76dc94999ad56b.png"
+  },
+  {
+    "name": "DatabaseUserAndGroupAccounts",
+    "imageAsset": "images/by-hash/f0d8576b9ed9c30f.png"
+  }
+]

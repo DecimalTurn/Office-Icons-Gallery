@@ -28,7 +28,7 @@ The gallery and searchable metadata are generated from PNG filenames directly in
 node generate-icon-metadata.js
 ```
 
-The generator includes every word split from each icon ID in its keywords and gives IDs with the same real image a shared keyword set. Reviewed keyword arrays in `icon-keywords.json` replace generated keyword suggestions for those IDs. It ranks related icons by shared, less-common words, keeps curated matches first, filters weak single-word matches, and limits each related-icon list to 12 entries.
+The generator includes every word split from each icon ID in its keywords and gives IDs with the same real image a shared keyword set. Reviewed keyword arrays in `icon-keywords.json` replace generated keyword suggestions for those IDs. It writes related-icon recommendations to `related-icons/{iconId}.json` sidecars instead of including them in `icon-metadata.json`. It ranks related icons by shared, less-common words, keeps curated matches first, filters weak single-word matches, and limits each related-icon list to 12 entries.
 
 It also creates one `images/by-hash/` asset per unique PNG and stores each icon's shared asset path in the metadata. The gallery uses these content-addressed URLs so IDs with identical images share a browser-cache entry. The original `images/{idMso}.png` files remain the exporter's source files.
 

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SiteColumnAdminEditable",
+    "imageAsset": "images/by-hash/496a802468ac8523.png"
+  },
+  {
+    "name": "SiteColumnAdminPushChanges",
+    "imageAsset": "images/by-hash/ae5988bdfc6b6bbe.png"
+  },
+  {
+    "name": "WorkgroupAdmin",
+    "imageAsset": "images/by-hash/3d4e109f94401bbe.png"
+  },
+  {
+    "name": "AdpDiagramAutosizeSelectedTables",
+    "imageAsset": "images/by-hash/8f2da1eb3cb54652.png"
+  },
+  {
+    "name": "AutoScheduleSelectedTask",
+    "imageAsset": "images/by-hash/aa022e861f00f076.png"
+  },
+  {
+    "name": "CalendarToolExportSelectedAppointment",
+    "imageAsset": "images/by-hash/d51ac3a5ee3618c2.png"
+  },
+  {
+    "name": "CatalogMergeExcludeSelectedRecord",
+    "imageAsset": "images/by-hash/e81f88c0221dad15.png"
+  },
+  {
+    "name": "DuplicateSelectedSlides",
+    "imageAsset": "images/by-hash/ae6bfecbf2c445a9.png"
+  },
+  {
+    "name": "ExcludeSelectedRecord",
+    "imageAsset": "images/by-hash/e81f88c0221dad15.png"
+  },
+  {
+    "name": "ListDeleteSelected",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "ListEditSelected",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "ManuallyScheduleSelectedTask",
+    "imageAsset": "images/by-hash/fde603d72c3ddeec.png"
+  }
+]

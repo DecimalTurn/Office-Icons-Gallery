@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SaveAndCloseConflictView",
+    "imageAsset": "images/by-hash/3804cbe976808c70.png"
+  },
+  {
+    "name": "ConflictViewEnter",
+    "imageAsset": "images/by-hash/366c4f1b1cc4afd9.png"
+  },
+  {
+    "name": "GroupConflictErrorResolution",
+    "imageAsset": "images/by-hash/cc7f9b56cf5f0e52.png"
+  },
+  {
+    "name": "ResolveBusinessDataEntityInstanceConflict",
+    "imageAsset": "images/by-hash/cc7f9b56cf5f0e52.png"
+  },
+  {
+    "name": "ResolveConflict",
+    "imageAsset": "images/by-hash/78dff6663e341044.png"
+  },
+  {
+    "name": "ResolveConflictOrError",
+    "imageAsset": "images/by-hash/a9d09f6383031451.png"
+  },
+  {
+    "name": "BackgroundRemovalClose",
+    "imageAsset": "images/by-hash/48eab841d02031df.png"
+  },
+  {
+    "name": "CloseAllItems",
+    "imageAsset": "images/by-hash/c20326749b246570.png"
+  },
+  {
+    "name": "CloseAllPages",
+    "imageAsset": "images/by-hash/76ac83fb7e258b44.png"
+  },
+  {
+    "name": "CloseComparison",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "CloseDocument",
+    "imageAsset": "images/by-hash/404990c6a245f899.png"
+  },
+  {
+    "name": "CloseHollow",
+    "imageAsset": "images/by-hash/6414b740b3567dff.png"
+  }
+]

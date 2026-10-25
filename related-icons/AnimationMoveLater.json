@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AnimationMoveEarlier",
+    "imageAsset": "images/by-hash/6cb246f6a08ee6e1.png"
+  },
+  {
+    "name": "OutlookTaskLater",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "OutlookTaskLaterContextual",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "ResolveLater",
+    "imageAsset": "images/by-hash/fb2e28f2746b7a79.png"
+  },
+  {
+    "name": "AnimationAddGallery",
+    "imageAsset": "images/by-hash/ba70d0080115f1f9.png"
+  },
+  {
+    "name": "AnimationAudio",
+    "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+  },
+  {
+    "name": "AnimationCustom",
+    "imageAsset": "images/by-hash/465f039a3ce00653.png"
+  },
+  {
+    "name": "AnimationCustomActionVerbDialog",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "AnimationCustomAddActionVerbDialog",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "AnimationCustomAddEmphasisDialog",
+    "imageAsset": "images/by-hash/a56b4ce19f37b719.png"
+  },
+  {
+    "name": "AnimationCustomAddEntranceDialog",
+    "imageAsset": "images/by-hash/55961b81c0a13492.png"
+  },
+  {
+    "name": "AnimationCustomAddExitDialog",
+    "imageAsset": "images/by-hash/9df3ac47e85dd523.png"
+  }
+]

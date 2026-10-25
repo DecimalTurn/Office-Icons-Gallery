@@ -1,0 +1,50 @@
+[
+  {
+    "name": "DrawFilledArc",
+    "imageAsset": "images/by-hash/78aaf3a6b15031f9.png"
+  },
+  {
+    "name": "DrawFilledEllipse",
+    "imageAsset": "images/by-hash/68be14455095e1c5.png"
+  },
+  {
+    "name": "DrawFilledPolygon",
+    "imageAsset": "images/by-hash/ac1a24e52a290463.png"
+  },
+  {
+    "name": "ControlRectangle",
+    "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+  },
+  {
+    "name": "JotShapeRectangle",
+    "imageAsset": "images/by-hash/d4feea3bf0e813ea.png"
+  },
+  {
+    "name": "RectangleHotspot",
+    "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+  },
+  {
+    "name": "RectangleTool",
+    "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+  },
+  {
+    "name": "ShapeRectangle",
+    "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+  },
+  {
+    "name": "ShapeRoundedRectangle",
+    "imageAsset": "images/by-hash/7d1190827187ab7c.png"
+  },
+  {
+    "name": "BorderDrawGrid",
+    "imageAsset": "images/by-hash/9ded66d331c178c3.png"
+  },
+  {
+    "name": "BorderDrawLine",
+    "imageAsset": "images/by-hash/9362babc74fd142d.png"
+  },
+  {
+    "name": "BorderDrawMenu",
+    "imageAsset": "images/by-hash/9362babc74fd142d.png"
+  }
+]

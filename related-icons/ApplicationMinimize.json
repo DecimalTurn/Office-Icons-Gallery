@@ -1,0 +1,30 @@
+[
+  {
+    "name": "MinimizeRibbon",
+    "imageAsset": "images/by-hash/471ebde47b65e0ea.png"
+  },
+  {
+    "name": "WindowMinimize",
+    "imageAsset": "images/by-hash/08ac5274acde9af2.png"
+  },
+  {
+    "name": "ApplicationOptionsDialog",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "DsaShowStyleApplicationOverlay",
+    "imageAsset": "images/by-hash/99bd5296af20e5d6.png"
+  },
+  {
+    "name": "GroupApplicationLog",
+    "imageAsset": "images/by-hash/a0d6e56de238e3d2.png"
+  },
+  {
+    "name": "GroupStyleApplication",
+    "imageAsset": "images/by-hash/9d975f6d3c1a5bcf.png"
+  },
+  {
+    "name": "SynchronizeApplicationChanges",
+    "imageAsset": "images/by-hash/6fbe1de1a9ec36da.png"
+  }
+]

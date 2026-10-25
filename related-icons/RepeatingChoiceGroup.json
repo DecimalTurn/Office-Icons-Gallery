@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ChoiceGroup",
+    "imageAsset": "images/by-hash/bc29e82eb43abde5.png"
+  },
+  {
+    "name": "ChoiceSection",
+    "imageAsset": "images/by-hash/517348324e3305cc.png"
+  },
+  {
+    "name": "ContentControlRepeating",
+    "imageAsset": "images/by-hash/8e76329cc3929150.png"
+  },
+  {
+    "name": "GroupSharePointListChoiceControl",
+    "imageAsset": "images/by-hash/931847df0679422a.png"
+  },
+  {
+    "name": "HorizontalRepeatingTable",
+    "imageAsset": "images/by-hash/9b0ad3fb6a181554.png"
+  },
+  {
+    "name": "RepeatingRecursiveSection",
+    "imageAsset": "images/by-hash/739f3146729e80c0.png"
+  }
+]

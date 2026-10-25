@@ -1,0 +1,50 @@
+[
+  {
+    "name": "QuickSearchModifiedDateGallery",
+    "imageAsset": "images/by-hash/06d68d8d5fedd861.png"
+  },
+  {
+    "name": "ArrangeByCreatedDate",
+    "imageAsset": "images/by-hash/5398b427a47b2421.png"
+  },
+  {
+    "name": "ArrangeByDate",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  },
+  {
+    "name": "LastModifiedBy",
+    "imageAsset": "images/by-hash/2cb8cfb3c6a0f08f.png"
+  },
+  {
+    "name": "QuickSearchModifiedToday",
+    "imageAsset": "images/by-hash/06d68d8d5fedd861.png"
+  },
+  {
+    "name": "CalculatedDateTime",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  },
+  {
+    "name": "CalendarToolSelectDate",
+    "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+  },
+  {
+    "name": "ConditionalFormattingHighlightDateOccuring",
+    "imageAsset": "images/by-hash/dc794190a6d4cf48.png"
+  },
+  {
+    "name": "ContentControlDate",
+    "imageAsset": "images/by-hash/70eb64b8f3d082fd.png"
+  },
+  {
+    "name": "DataTypeDateTime",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  },
+  {
+    "name": "DataTypeLongDate",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "DataTypeMediumDate",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PivotDiagramBottomToTop",
+    "imageAsset": "images/by-hash/d1cbb528c2e34a2c.png"
+  },
+  {
+    "name": "PivotDiagramTopToBottom",
+    "imageAsset": "images/by-hash/c208912ec62178ed.png"
+  },
+  {
+    "name": "PivotDiagramAlignCenter",
+    "imageAsset": "images/by-hash/c208912ec62178ed.png"
+  },
+  {
+    "name": "PivotDiagramAlignLeft",
+    "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+  },
+  {
+    "name": "PivotDiagramAlignMiddle",
+    "imageAsset": "images/by-hash/aecaa713bb24966e.png"
+  },
+  {
+    "name": "PivotDiagramAlignRight",
+    "imageAsset": "images/by-hash/8bbb268d4acfc242.png"
+  },
+  {
+    "name": "PivotDiagramAlignTop",
+    "imageAsset": "images/by-hash/73983d87d2039817.png"
+  },
+  {
+    "name": "AlignBottomExcel",
+    "imageAsset": "images/by-hash/4b6fbf0f99c0e63a.png"
+  },
+  {
+    "name": "BottomVerticalAlign",
+    "imageAsset": "images/by-hash/4b6fbf0f99c0e63a.png"
+  },
+  {
+    "name": "ObjectsAlignBottom",
+    "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+  },
+  {
+    "name": "ObjectsAlignBottomOutlook",
+    "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+  },
+  {
+    "name": "ObjectsAlignBottomSmart",
+    "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+  }
+]

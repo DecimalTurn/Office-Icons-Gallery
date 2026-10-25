@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ObjectSizeAndPositionDialog",
+    "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+  },
+  {
+    "name": "SizeAndPositionWindow",
+    "imageAsset": "images/by-hash/2aca96d2cfa6b539.png"
+  },
+  {
+    "name": "GalPosition",
+    "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+  },
+  {
+    "name": "GroupControlPositionLayout",
+    "imageAsset": "images/by-hash/1a818d7a07dd3cd5.png"
+  },
+  {
+    "name": "GroupHeaderFooterPosition",
+    "imageAsset": "images/by-hash/0b76d10d2d30d097.png"
+  },
+  {
+    "name": "GroupPosition",
+    "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+  },
+  {
+    "name": "GroupPositionLayout",
+    "imageAsset": "images/by-hash/1a818d7a07dd3cd5.png"
+  },
+  {
+    "name": "HeaderFooterPositionFooterFromBottom",
+    "imageAsset": "images/by-hash/c26f65d2a8163637.png"
+  },
+  {
+    "name": "HeaderFooterPositionHeaderFromTop",
+    "imageAsset": "images/by-hash/0b76d10d2d30d097.png"
+  },
+  {
+    "name": "LayoutOptionsDialogPosition",
+    "imageAsset": "images/by-hash/b2d12a6affc2897a.png"
+  },
+  {
+    "name": "OrgChartPositionTypeChange",
+    "imageAsset": "images/by-hash/35d9eb88f2b8e305.png"
+  },
+  {
+    "name": "PicturePositionGallery",
+    "imageAsset": "images/by-hash/6644438184825ba8.png"
+  }
+]

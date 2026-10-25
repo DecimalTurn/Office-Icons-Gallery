@@ -1,0 +1,50 @@
+[
+  {
+    "name": "EnterProductKey",
+    "imageAsset": "images/by-hash/639eba94048305d4.png"
+  },
+  {
+    "name": "BusinessDataPrimaryField",
+    "imageAsset": "images/by-hash/057759d52550730d.png"
+  },
+  {
+    "name": "ChartPrimaryHorizontalAxis",
+    "imageAsset": "images/by-hash/0985b467e5ed6ac6.png"
+  },
+  {
+    "name": "ChartPrimaryHorizontalAxisTitle",
+    "imageAsset": "images/by-hash/5bd5d4c05ff97c34.png"
+  },
+  {
+    "name": "ChartPrimaryHorizontalGridlines",
+    "imageAsset": "images/by-hash/025f1de07804fbee.png"
+  },
+  {
+    "name": "ChartPrimaryVerticalAxis",
+    "imageAsset": "images/by-hash/38884725d11cea50.png"
+  },
+  {
+    "name": "ChartPrimaryVerticalAxisTitle",
+    "imageAsset": "images/by-hash/ad28662262a66c19.png"
+  },
+  {
+    "name": "ChartPrimaryVerticalGridlines",
+    "imageAsset": "images/by-hash/a73d5f6ba135d41e.png"
+  },
+  {
+    "name": "AdpConstraints",
+    "imageAsset": "images/by-hash/855fdd3e9ceeec28.png"
+  },
+  {
+    "name": "AdpDiagramAddRelatedTables",
+    "imageAsset": "images/by-hash/3ce52e58a86dd5ae.png"
+  },
+  {
+    "name": "AdpDiagramAddTable",
+    "imageAsset": "images/by-hash/137ac164f27ccd56.png"
+  },
+  {
+    "name": "AdpDiagramArrangeSelection",
+    "imageAsset": "images/by-hash/917cc34f1d929f62.png"
+  }
+]

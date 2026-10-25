@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OmsSlideInsert",
+    "imageAsset": "images/by-hash/3e092565b0b5cedf.png"
+  },
+  {
+    "name": "OmsChangeZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "OmsCustomizeLayout",
+    "imageAsset": "images/by-hash/6b84ae529df0daa2.png"
+  },
+  {
+    "name": "SlideLayoutGallery",
+    "imageAsset": "images/by-hash/c0650bc23021cfc2.png"
+  },
+  {
+    "name": "SlideMasterInsertLayout",
+    "imageAsset": "images/by-hash/6ef37eabed847ffc.png"
+  },
+  {
+    "name": "SlideMasterMasterLayout",
+    "imageAsset": "images/by-hash/c0650bc23021cfc2.png"
+  },
+  {
+    "name": "OrgChartLayoutSpacingChange",
+    "imageAsset": "images/by-hash/4be828dd2621d9d0.png"
+  },
+  {
+    "name": "SmartArtChangeLayout",
+    "imageAsset": "images/by-hash/df0b06c2bd8de1bb.png"
+  },
+  {
+    "name": "GroupOmsInsert",
+    "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+  },
+  {
+    "name": "GroupOmsMessageOptions",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "GroupOmsSend",
+    "imageAsset": "images/by-hash/7432f97e3bc97d1d.png"
+  },
+  {
+    "name": "GroupOmsView",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  }
+]

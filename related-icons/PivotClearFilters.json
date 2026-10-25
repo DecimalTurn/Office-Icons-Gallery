@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FilterClearAllFilters",
+    "imageAsset": "images/by-hash/44789bde2b072809.png"
+  },
+  {
+    "name": "PivotChartClearMenu",
+    "imageAsset": "images/by-hash/6fd2138471f1bdd8.png"
+  },
+  {
+    "name": "PivotClearAll",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "PivotClearCustomOrdering",
+    "imageAsset": "images/by-hash/378982d77fb68197.png"
+  },
+  {
+    "name": "PivotTableClearMenu",
+    "imageAsset": "images/by-hash/94983053a0601311.png"
+  },
+  {
+    "name": "Filters",
+    "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+  },
+  {
+    "name": "FiltersGallery",
+    "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+  },
+  {
+    "name": "FiltersMenu",
+    "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+  },
+  {
+    "name": "HighlightFilters",
+    "imageAsset": "images/by-hash/230503be4ca25bcb.png"
+  },
+  {
+    "name": "HighlightFiltersGroup",
+    "imageAsset": "images/by-hash/230503be4ca25bcb.png"
+  },
+  {
+    "name": "MoreFilters",
+    "imageAsset": "images/by-hash/f2f3893b310219d3.png"
+  },
+  {
+    "name": "ResultsPaneRemoveFilters",
+    "imageAsset": "images/by-hash/c66959e89a4e3461.png"
+  }
+]

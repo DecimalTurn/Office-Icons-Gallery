@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Baseline",
+    "imageAsset": "images/by-hash/6db82b29c3b23da6.png"
+  },
+  {
+    "name": "BaselineClear",
+    "imageAsset": "images/by-hash/351c77e57014f044.png"
+  },
+  {
+    "name": "SetBaselineMenu",
+    "imageAsset": "images/by-hash/87a2cff9be52b574.png"
+  }
+]

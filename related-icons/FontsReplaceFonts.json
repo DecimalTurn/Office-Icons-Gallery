@@ -1,0 +1,30 @@
+[
+  {
+    "name": "FilePageSetupCalendarFonts",
+    "imageAsset": "images/by-hash/38d76334050dad66.png"
+  },
+  {
+    "name": "SchemeFontsGallery",
+    "imageAsset": "images/by-hash/a8d33beb83ac8dfe.png"
+  },
+  {
+    "name": "ThemeFontsGallery",
+    "imageAsset": "images/by-hash/a8d33beb83ac8dfe.png"
+  },
+  {
+    "name": "ReplaceDialog",
+    "imageAsset": "images/by-hash/630ccf1e05ee9dfa.png"
+  },
+  {
+    "name": "ReplaceShape",
+    "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+  },
+  {
+    "name": "ReplaceWithAutoText",
+    "imageAsset": "images/by-hash/efe168a0e0dce76c.png"
+  },
+  {
+    "name": "ResultsPaneStartFindAndReplace",
+    "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+  }
+]

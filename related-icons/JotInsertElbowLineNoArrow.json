@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JotInsertElbowLineDoubleArrow",
+    "imageAsset": "images/by-hash/e264e22e5d00fb31.png"
+  },
+  {
+    "name": "JotInsertElbowLineSingleArrow",
+    "imageAsset": "images/by-hash/79d529881c7a8109.png"
+  },
+  {
+    "name": "ShapeElbowConnectorArrow",
+    "imageAsset": "images/by-hash/0b089e5883678f63.png"
+  },
+  {
+    "name": "JotInsertNewLine",
+    "imageAsset": "images/by-hash/8d0f886d94ba3948.png"
+  },
+  {
+    "name": "JotLineColor",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "ShapeConnectorStyleElbow",
+    "imageAsset": "images/by-hash/15dfd6bd1c12057b.png"
+  },
+  {
+    "name": "ShapeElbowConnector",
+    "imageAsset": "images/by-hash/15dfd6bd1c12057b.png"
+  },
+  {
+    "name": "Arrow",
+    "imageAsset": "images/by-hash/7954a6ad4fe60647.png"
+  },
+  {
+    "name": "ArrowStyleGallery",
+    "imageAsset": "images/by-hash/027562b49e54f056.png"
+  },
+  {
+    "name": "DoubleArrow",
+    "imageAsset": "images/by-hash/d8a12eb0d19ccd67.png"
+  },
+  {
+    "name": "DownArrow2",
+    "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+  },
+  {
+    "name": "DrawArrow",
+    "imageAsset": "images/by-hash/7954a6ad4fe60647.png"
+  }
+]

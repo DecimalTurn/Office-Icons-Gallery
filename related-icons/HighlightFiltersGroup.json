@@ -1,0 +1,50 @@
+[
+  {
+    "name": "HighlightFilters",
+    "imageAsset": "images/by-hash/230503be4ca25bcb.png"
+  },
+  {
+    "name": "FilterClearAllFilters",
+    "imageAsset": "images/by-hash/44789bde2b072809.png"
+  },
+  {
+    "name": "Filters",
+    "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+  },
+  {
+    "name": "FiltersGallery",
+    "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+  },
+  {
+    "name": "FiltersMenu",
+    "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+  },
+  {
+    "name": "MoreFilters",
+    "imageAsset": "images/by-hash/f2f3893b310219d3.png"
+  },
+  {
+    "name": "ResultsPaneRemoveFilters",
+    "imageAsset": "images/by-hash/c66959e89a4e3461.png"
+  },
+  {
+    "name": "AutoSummaryViewByHighlight",
+    "imageAsset": "images/by-hash/cb51119c7fae3a92.png"
+  },
+  {
+    "name": "ConditionalFormattingHighlightBetween",
+    "imageAsset": "images/by-hash/17e2e00ac82ac2bf.png"
+  },
+  {
+    "name": "ConditionalFormattingHighlightCellsMenu",
+    "imageAsset": "images/by-hash/6b7a34509ca46db1.png"
+  },
+  {
+    "name": "ConditionalFormattingHighlightCompareColumns",
+    "imageAsset": "images/by-hash/d37e78e67181e46e.png"
+  },
+  {
+    "name": "ConditionalFormattingHighlightDateOccuring",
+    "imageAsset": "images/by-hash/dc794190a6d4cf48.png"
+  }
+]

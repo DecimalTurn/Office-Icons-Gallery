@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ParagraphSpacingIncrease",
+    "imageAsset": "images/by-hash/d2b2cc19e0ad1036.png"
+  },
+  {
+    "name": "VerticalSpacingIncrease",
+    "imageAsset": "images/by-hash/4be828dd2621d9d0.png"
+  },
+  {
+    "name": "HorizontalSpacingDecrease",
+    "imageAsset": "images/by-hash/01646d5b7afb9c08.png"
+  },
+  {
+    "name": "HorizontalSpacingMakeEqual",
+    "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+  },
+  {
+    "name": "_3DPerspectiveIncrease",
+    "imageAsset": "images/by-hash/9c3ea6230877361d.png"
+  },
+  {
+    "name": "DecimalsIncrease",
+    "imageAsset": "images/by-hash/59ebfba4f50fae05.png"
+  },
+  {
+    "name": "DurationIncreaseOnAssigment",
+    "imageAsset": "images/by-hash/6482a71ec3b3b1c3.png"
+  },
+  {
+    "name": "FontSizeIncrease",
+    "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+  },
+  {
+    "name": "FontSizeIncrease1Point",
+    "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+  },
+  {
+    "name": "FontSizeIncreaseWord",
+    "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+  },
+  {
+    "name": "FormattingIncreaseDecimals",
+    "imageAsset": "images/by-hash/59ebfba4f50fae05.png"
+  },
+  {
+    "name": "IndentIncrease",
+    "imageAsset": "images/by-hash/e0d2fb795c751c19.png"
+  }
+]

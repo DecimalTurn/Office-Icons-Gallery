@@ -1,0 +1,50 @@
+[
+  {
+    "name": "BroadcastSlideShow",
+    "imageAsset": "images/by-hash/0dd8d48f11eac3c8.png"
+  },
+  {
+    "name": "BroadcastSlideShowBackstage",
+    "imageAsset": "images/by-hash/0dd8d48f11eac3c8.png"
+  },
+  {
+    "name": "BroadcastSlideShowGeneric",
+    "imageAsset": "images/by-hash/0dd8d48f11eac3c8.png"
+  },
+  {
+    "name": "BroadcastSlideShowOfficeHosted",
+    "imageAsset": "images/by-hash/0dd8d48f11eac3c8.png"
+  },
+  {
+    "name": "BroadcastEdit",
+    "imageAsset": "images/by-hash/06d68d8d5fedd861.png"
+  },
+  {
+    "name": "BroadcastEnd",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "BroadcastFromBeginning",
+    "imageAsset": "images/by-hash/1622c4b78b9481be.png"
+  },
+  {
+    "name": "BroadcastFromCurrent",
+    "imageAsset": "images/by-hash/1ce01d1424245dc7.png"
+  },
+  {
+    "name": "BroadcastNotes",
+    "imageAsset": "images/by-hash/25ceca008a74a306.png"
+  },
+  {
+    "name": "BroadcastNotesSplitButton",
+    "imageAsset": "images/by-hash/25ceca008a74a306.png"
+  },
+  {
+    "name": "BroadcastResume",
+    "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+  },
+  {
+    "name": "BroadcastSendInvitation",
+    "imageAsset": "images/by-hash/17e648f52c2a4500.png"
+  }
+]

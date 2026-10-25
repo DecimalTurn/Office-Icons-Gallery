@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TaskMoveBackOneWeek",
+    "imageAsset": "images/by-hash/1dccc3df7d611d9f.png"
+  },
+  {
+    "name": "TaskMoveForwardCustom",
+    "imageAsset": "images/by-hash/b5cbbd84a151589c.png"
+  },
+  {
+    "name": "TaskMoveForwardFourWeeks",
+    "imageAsset": "images/by-hash/ba391f5bd14bab4b.png"
+  },
+  {
+    "name": "TaskMoveForwardOneDay",
+    "imageAsset": "images/by-hash/a372ea0002b4bafc.png"
+  },
+  {
+    "name": "DiagramShapeMoveForwardClassic",
+    "imageAsset": "images/by-hash/c12295902ffef66c.png"
+  },
+  {
+    "name": "OutlookTaskNextWeek",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "OutlookTaskNextWeekContextual",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "OutlookTaskThisWeek",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "OutlookTaskThisWeekContextual",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "ForwardTask",
+    "imageAsset": "images/by-hash/d4f0e3112d0c691d.png"
+  },
+  {
+    "name": "MoveTaskMenu",
+    "imageAsset": "images/by-hash/a372ea0002b4bafc.png"
+  },
+  {
+    "name": "TaskMoveBackCustom",
+    "imageAsset": "images/by-hash/b64e89ff93e6753b.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SparklineConvertToColumn",
+    "imageAsset": "images/by-hash/8d35c38c3d04e1b4.png"
+  },
+  {
+    "name": "SwitchSparklineRowColumn",
+    "imageAsset": "images/by-hash/991ad5f8c5b8f80c.png"
+  },
+  {
+    "name": "GroupSparklineDataEdit",
+    "imageAsset": "images/by-hash/f66f1f20b7d1d18a.png"
+  },
+  {
+    "name": "GroupSparklineDetailsShow",
+    "imageAsset": "images/by-hash/f66f1f20b7d1d18a.png"
+  },
+  {
+    "name": "GroupSparklineGroup",
+    "imageAsset": "images/by-hash/657c2c8f53440940.png"
+  },
+  {
+    "name": "GroupSparklineStyle",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "GroupSparklineType",
+    "imageAsset": "images/by-hash/553c22234553f743.png"
+  },
+  {
+    "name": "SparklineAccentColorMenu",
+    "imageAsset": "images/by-hash/7a54cea2fe5c351f.png"
+  },
+  {
+    "name": "SparklineAxisMenu",
+    "imageAsset": "images/by-hash/657c2c8f53440940.png"
+  },
+  {
+    "name": "SparklineClearSelected",
+    "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+  },
+  {
+    "name": "SparklineClearSelectedGroups",
+    "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+  },
+  {
+    "name": "SparklineColorPicker",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  }
+]

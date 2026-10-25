@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupTasksLayout",
+    "imageAsset": "images/by-hash/fde603d72c3ddeec.png"
+  },
+  {
+    "name": "GroupTasksLayoutStandard",
+    "imageAsset": "images/by-hash/fde603d72c3ddeec.png"
+  },
+  {
+    "name": "RelatedTasksLayoutNow",
+    "imageAsset": "images/by-hash/ca4a3e13618c0d37.png"
+  },
+  {
+    "name": "CalendarViewLayoutNow",
+    "imageAsset": "images/by-hash/e1723442c7a5a838.png"
+  },
+  {
+    "name": "GroupCalendarViewLayout",
+    "imageAsset": "images/by-hash/e1723442c7a5a838.png"
+  },
+  {
+    "name": "AccessListTasks",
+    "imageAsset": "images/by-hash/eb984634b74705b7.png"
+  },
+  {
+    "name": "AccessTableTasks",
+    "imageAsset": "images/by-hash/eb984634b74705b7.png"
+  },
+  {
+    "name": "AddExistingTasksToTimeline",
+    "imageAsset": "images/by-hash/2128fa0a06829f22.png"
+  },
+  {
+    "name": "DesignTasks",
+    "imageAsset": "images/by-hash/6368b89015ef2590.png"
+  },
+  {
+    "name": "FileMenuServerTasksHeader",
+    "imageAsset": "images/by-hash/374c984d4a9fc494.png"
+  },
+  {
+    "name": "FileServerTasksMenu",
+    "imageAsset": "images/by-hash/374c984d4a9fc494.png"
+  },
+  {
+    "name": "FileWorkflowTasks",
+    "imageAsset": "images/by-hash/a7c53f53aead05b3.png"
+  }
+]

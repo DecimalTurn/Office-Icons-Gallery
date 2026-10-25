@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ReviewHighlightChanges",
+    "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+  },
+  {
+    "name": "ReviewReplyWithChanges",
+    "imageAsset": "images/by-hash/73d329c3d184a7ac.png"
+  },
+  {
+    "name": "ReviewTrackChanges",
+    "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+  },
+  {
+    "name": "ReviewTrackChangesMenu",
+    "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+  },
+  {
+    "name": "ReviewViewChangesInTheSourceDocument",
+    "imageAsset": "images/by-hash/1227a56cf218ae84.png"
+  },
+  {
+    "name": "ChangesDiscardAndRefresh",
+    "imageAsset": "images/by-hash/a9a39c031d036e56.png"
+  },
+  {
+    "name": "ContentTypePushChanges",
+    "imageAsset": "images/by-hash/ae5988bdfc6b6bbe.png"
+  },
+  {
+    "name": "DiscardTableChanges",
+    "imageAsset": "images/by-hash/e50e1b451754030b.png"
+  },
+  {
+    "name": "FileDiscardCachedChanges",
+    "imageAsset": "images/by-hash/e7b96ed34b3b06b2.png"
+  },
+  {
+    "name": "GroupChanges",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "GroupChangesExcel",
+    "imageAsset": "images/by-hash/68f9138863bbef4a.png"
+  },
+  {
+    "name": "GroupChangesTracking",
+    "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+  }
+]

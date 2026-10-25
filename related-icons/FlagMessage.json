@@ -1,0 +1,34 @@
+[
+  {
+    "name": "FlagCustom",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "FlagNextWeek",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "FlagNoDate",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "FlagThisWeek",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "FlagToday",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "FlagTomorrow",
+    "imageAsset": "images/by-hash/aab3f29e91f304f1.png"
+  },
+  {
+    "name": "QuickStepTemplateFlagAndMove",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "SendCopyFlag",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  }
+]

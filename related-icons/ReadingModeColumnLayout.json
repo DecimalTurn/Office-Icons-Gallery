@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ReadingModeColumnWidthDefault",
+    "imageAsset": "images/by-hash/53c21f42593d741d.png"
+  },
+  {
+    "name": "ReadingModeColumnWidthMenu",
+    "imageAsset": "images/by-hash/07769cf793dd35fb.png"
+  },
+  {
+    "name": "ReadingModeColumnWidthNarrow",
+    "imageAsset": "images/by-hash/b8b3c72b95a044fd.png"
+  },
+  {
+    "name": "ReadingModeColumnWidthWide",
+    "imageAsset": "images/by-hash/9236380ac5d8eefd.png"
+  },
+  {
+    "name": "ReadingModeLayoutMenu",
+    "imageAsset": "images/by-hash/d50a949df0433651.png"
+  },
+  {
+    "name": "ReadingModePageLayout",
+    "imageAsset": "images/by-hash/62968ae11e63d152.png"
+  },
+  {
+    "name": "ReadingMode",
+    "imageAsset": "images/by-hash/faeb4446f4fdb538.png"
+  },
+  {
+    "name": "ReadingModeMini",
+    "imageAsset": "images/by-hash/0f6afe10e0b28f5e.png"
+  },
+  {
+    "name": "ReadingModePageColorInverse",
+    "imageAsset": "images/by-hash/a1491bff5e46638f.png"
+  },
+  {
+    "name": "ReadingModePageColorMenu",
+    "imageAsset": "images/by-hash/84a62c7a27f34957.png"
+  },
+  {
+    "name": "ReadingModePageColorNone",
+    "imageAsset": "images/by-hash/53c21f42593d741d.png"
+  },
+  {
+    "name": "ReadingModePageColorSepia",
+    "imageAsset": "images/by-hash/d9426293f1528497.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupTaskFormFieldsActions",
+    "imageAsset": "images/by-hash/068470b628dc1569.png"
+  },
+  {
+    "name": "GroupTaskFormFieldsEdit",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "GroupTaskFormFieldsNew",
+    "imageAsset": "images/by-hash/3a08b1e5d9651ea0.png"
+  },
+  {
+    "name": "GroupM1FutureSearchContextualTab",
+    "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+  },
+  {
+    "name": "OutlookTaskCustomDateContextual",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "OutlookTaskLaterContextual",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "OutlookTaskMarkCompleteContextual",
+    "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+  },
+  {
+    "name": "OutlookTaskNextWeekContextual",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "OutlookTaskOpenContextual",
+    "imageAsset": "images/by-hash/ccd7997373e69eaa.png"
+  },
+  {
+    "name": "OutlookTaskRemoveContextual",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "OutlookTaskThisWeekContextual",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "OutlookTaskTodayContextual",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  }
+]

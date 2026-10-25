@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OpenInNewWindowSiteClient",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "OpenItemInNewWindow",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "OpenInWebBrowser",
+    "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+  },
+  {
+    "name": "OpenWeb",
+    "imageAsset": "images/by-hash/b982ce3cb83d2e1e.png"
+  },
+  {
+    "name": "SharingOpenWebCalendar",
+    "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+  },
+  {
+    "name": "WebOpenSearchPage",
+    "imageAsset": "images/by-hash/b4a4335cbc1b0178.png"
+  },
+  {
+    "name": "CurrentWindowDock",
+    "imageAsset": "images/by-hash/113ba97a1ddb5fcc.png"
+  },
+  {
+    "name": "ExternalDataWindow",
+    "imageAsset": "images/by-hash/68574b4538de7a49.png"
+  },
+  {
+    "name": "GroupWindow",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "GroupWindowAccess",
+    "imageAsset": "images/by-hash/03f66ee979843eb1.png"
+  },
+  {
+    "name": "GroupWindowNarrow",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "GroupWindowSiteClient",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  }
+]

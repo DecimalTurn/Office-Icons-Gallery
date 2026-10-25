@@ -1,0 +1,50 @@
+[
+  {
+    "name": "DatabaseOpenFromProject",
+    "imageAsset": "images/by-hash/cca87607941481c5.png"
+  },
+  {
+    "name": "GroupDatabaseSourceControl",
+    "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+  },
+  {
+    "name": "SourceControlAddDatabase",
+    "imageAsset": "images/by-hash/5b478506b12c635c.png"
+  },
+  {
+    "name": "GroupCreateWebDatabaseObject",
+    "imageAsset": "images/by-hash/f2f3893b310219d3.png"
+  },
+  {
+    "name": "AutoFilterProject",
+    "imageAsset": "images/by-hash/c0fbf1688be91555.png"
+  },
+  {
+    "name": "ClearNotesProject",
+    "imageAsset": "images/by-hash/2249b7207f0bb122.png"
+  },
+  {
+    "name": "ColumnHideProject",
+    "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+  },
+  {
+    "name": "EnterpriseProjectImport",
+    "imageAsset": "images/by-hash/bf2f236ff3ebad5f.png"
+  },
+  {
+    "name": "EnterpriseProjectProfiles",
+    "imageAsset": "images/by-hash/2b702d6430221cf3.png"
+  },
+  {
+    "name": "GridlinesProject",
+    "imageAsset": "images/by-hash/ebfac0c46cdfe306.png"
+  },
+  {
+    "name": "GroupCheckoutFromProjectServer",
+    "imageAsset": "images/by-hash/b40fac805db5ef0f.png"
+  },
+  {
+    "name": "GroupCompareProject",
+    "imageAsset": "images/by-hash/426016ab765ea783.png"
+  }
+]

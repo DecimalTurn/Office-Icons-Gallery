@@ -1,0 +1,50 @@
+[
+  {
+    "name": "InkTransparency",
+    "imageAsset": "images/by-hash/c82b676208e234f7.png"
+  },
+  {
+    "name": "PictureTransparencyGallery",
+    "imageAsset": "images/by-hash/2c2c27bb8e92957e.png"
+  },
+  {
+    "name": "ShapeTransparency",
+    "imageAsset": "images/by-hash/c82b676208e234f7.png"
+  },
+  {
+    "name": "BlankPageInsertVisio",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "DataGraphicsGalleryVisio",
+    "imageAsset": "images/by-hash/597a303869210250.png"
+  },
+  {
+    "name": "FontDialogVisio",
+    "imageAsset": "images/by-hash/facb4b355bd224b5.png"
+  },
+  {
+    "name": "FunctionInsertVisio",
+    "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+  },
+  {
+    "name": "GoToPageVisio",
+    "imageAsset": "images/by-hash/b3de6ffd5767cca9.png"
+  },
+  {
+    "name": "GroupDocumentViewsVisio",
+    "imageAsset": "images/by-hash/592601d3eae5f5bc.png"
+  },
+  {
+    "name": "GroupShowHideDeveloperVisio",
+    "imageAsset": "images/by-hash/b39a0c1f5c3a667e.png"
+  },
+  {
+    "name": "GroupThemesVisio",
+    "imageAsset": "images/by-hash/38388a6cca16597f.png"
+  },
+  {
+    "name": "GroupThemesVisioLegacy",
+    "imageAsset": "images/by-hash/38388a6cca16597f.png"
+  }
+]

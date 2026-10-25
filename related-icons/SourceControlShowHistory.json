@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FileVersionHistory",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "FileVersionHistoryWord",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "GroupPageVersionHistoryActions",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "GroupPageVersionHistoryManage",
+    "imageAsset": "images/by-hash/7b68147841e28c39.png"
+  },
+  {
+    "name": "MessageHistory",
+    "imageAsset": "images/by-hash/d36cd2a11f0e8024.png"
+  },
+  {
+    "name": "ShowVersionsHistory",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "VersionHistory",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "BibliographyAddNewSource",
+    "imageAsset": "images/by-hash/07772fa5f13c3b98.png"
+  },
+  {
+    "name": "CatalogMergeOpenDataSource",
+    "imageAsset": "images/by-hash/ed662b1b3d27fe6e.png"
+  },
+  {
+    "name": "ChartEditDataSource",
+    "imageAsset": "images/by-hash/48a32676dd8b617d.png"
+  },
+  {
+    "name": "ChartSourceDataContextualMenu",
+    "imageAsset": "images/by-hash/48a32676dd8b617d.png"
+  },
+  {
+    "name": "DataFormSource",
+    "imageAsset": "images/by-hash/e25f6c250b708ee2.png"
+  }
+]

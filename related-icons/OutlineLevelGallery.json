@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OutlineShowLevel",
+    "imageAsset": "images/by-hash/7c5d10b7eea42885.png"
+  },
+  {
+    "name": "DatabaseUserLevelSecurityWizard",
+    "imageAsset": "images/by-hash/2b78127422e675d2.png"
+  },
+  {
+    "name": "GroupLevel",
+    "imageAsset": "images/by-hash/0057f5c5abbbed1b.png"
+  },
+  {
+    "name": "LevelNow",
+    "imageAsset": "images/by-hash/b2148c39a7088689.png"
+  },
+  {
+    "name": "LevelResource",
+    "imageAsset": "images/by-hash/88780f036575576c.png"
+  },
+  {
+    "name": "LevelSelection",
+    "imageAsset": "images/by-hash/0057f5c5abbbed1b.png"
+  },
+  {
+    "name": "ListLevelGallery",
+    "imageAsset": "images/by-hash/8a762c746694ed0c.png"
+  },
+  {
+    "name": "OrganizationChartSelectLevel",
+    "imageAsset": "images/by-hash/bbddf95182822389.png"
+  },
+  {
+    "name": "SecurityLevelDomainInternet",
+    "imageAsset": "images/by-hash/621b755704223df8.png"
+  },
+  {
+    "name": "SecurityLevelDomainIntranet",
+    "imageAsset": "images/by-hash/621b755704223df8.png"
+  },
+  {
+    "name": "SecurityLevelDomainLocal",
+    "imageAsset": "images/by-hash/621b755704223df8.png"
+  },
+  {
+    "name": "SecurityLevelDomainTrusted",
+    "imageAsset": "images/by-hash/621b755704223df8.png"
+  }
+]

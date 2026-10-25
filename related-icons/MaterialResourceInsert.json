@@ -1,0 +1,50 @@
+[
+  {
+    "name": "_3DMaterialGallery",
+    "imageAsset": "images/by-hash/e34eb54c888e40a0.png"
+  },
+  {
+    "name": "_3DMaterialMetal",
+    "imageAsset": "images/by-hash/a68a2cae81684f42.png"
+  },
+  {
+    "name": "_3DMaterialMixed",
+    "imageAsset": "images/by-hash/6a125824c21803dd.png"
+  },
+  {
+    "name": "_3DMaterialPlastic",
+    "imageAsset": "images/by-hash/a4e97b65fce60bc5.png"
+  },
+  {
+    "name": "_3DSurfaceMaterialClassic",
+    "imageAsset": "images/by-hash/2f28872e58d8de88.png"
+  },
+  {
+    "name": "_3DSurfaceMaterialGalleryClassic",
+    "imageAsset": "images/by-hash/2f28872e58d8de88.png"
+  },
+  {
+    "name": "CostResourceInsert",
+    "imageAsset": "images/by-hash/ba63fa30844f0db4.png"
+  },
+  {
+    "name": "FilterByResource",
+    "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+  },
+  {
+    "name": "GroupDataResource",
+    "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+  },
+  {
+    "name": "GroupResourceFormViewDetails",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "GroupResourceFormViewType",
+    "imageAsset": "images/by-hash/ddd38791ce7383ff.png"
+  },
+  {
+    "name": "GroupResourceGraphData",
+    "imageAsset": "images/by-hash/f45b35a2da16362a.png"
+  }
+]

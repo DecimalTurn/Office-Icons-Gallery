@@ -1,0 +1,50 @@
+[
+  {
+    "name": "BordersAndShadingDialog",
+    "imageAsset": "images/by-hash/05809549f6d9a95f.png"
+  },
+  {
+    "name": "BordersAndShadingInfoPath",
+    "imageAsset": "images/by-hash/f53633d00e54bd31.png"
+  },
+  {
+    "name": "BordersShadingDialog",
+    "imageAsset": "images/by-hash/f53633d00e54bd31.png"
+  },
+  {
+    "name": "BordersShadingDialogSpd",
+    "imageAsset": "images/by-hash/441df2dcdc406ed9.png"
+  },
+  {
+    "name": "BordersShadingDialogWord",
+    "imageAsset": "images/by-hash/441df2dcdc406ed9.png"
+  },
+  {
+    "name": "CharacterShading",
+    "imageAsset": "images/by-hash/6d25e7b158c63ee6.png"
+  },
+  {
+    "name": "FieldShading",
+    "imageAsset": "images/by-hash/53730a6cfd1ee339.png"
+  },
+  {
+    "name": "FontShadingColorMoreColorsDialog",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "GroupBordersAndShading",
+    "imageAsset": "images/by-hash/441df2dcdc406ed9.png"
+  },
+  {
+    "name": "GroupControlBordersAndShading",
+    "imageAsset": "images/by-hash/441df2dcdc406ed9.png"
+  },
+  {
+    "name": "LightShading",
+    "imageAsset": "images/by-hash/8dc085f17b98b8f0.png"
+  },
+  {
+    "name": "PageBorderAndShadingDialog",
+    "imageAsset": "images/by-hash/441df2dcdc406ed9.png"
+  }
+]

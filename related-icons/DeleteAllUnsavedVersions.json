@@ -1,0 +1,34 @@
+[
+  {
+    "name": "RecoverUnsavedVersions",
+    "imageAsset": "images/by-hash/36c4195ac87c389c.png"
+  },
+  {
+    "name": "GoToItemInVersions",
+    "imageAsset": "images/by-hash/8b0774845dc2a20a.png"
+  },
+  {
+    "name": "PageVersions",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "PageVersionsHide",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "PageVersionsShow",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "ReviewCompareTwoVersions",
+    "imageAsset": "images/by-hash/a3d43843c96022a2.png"
+  },
+  {
+    "name": "ShowVersionsHistory",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "VersionsAndCheckout",
+    "imageAsset": "images/by-hash/900cf1bee3c78291.png"
+  }
+]

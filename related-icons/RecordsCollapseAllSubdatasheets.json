@@ -1,0 +1,50 @@
+[
+  {
+    "name": "RecordsExpandAllSubdatasheets",
+    "imageAsset": "images/by-hash/b96d28954e6051db.png"
+  },
+  {
+    "name": "CategoryCollapse",
+    "imageAsset": "images/by-hash/f4dd61ec3a6e3b40.png"
+  },
+  {
+    "name": "CollapseAll",
+    "imageAsset": "images/by-hash/76f21377c8388105.png"
+  },
+  {
+    "name": "CollapseAllActionBlocks",
+    "imageAsset": "images/by-hash/94309facf94a1836.png"
+  },
+  {
+    "name": "CollapseAllBlocks",
+    "imageAsset": "images/by-hash/94309facf94a1836.png"
+  },
+  {
+    "name": "CollapseAllHeadings",
+    "imageAsset": "images/by-hash/76f21377c8388105.png"
+  },
+  {
+    "name": "CollapseSearchPane",
+    "imageAsset": "images/by-hash/ba421c65cbe137b5.png"
+  },
+  {
+    "name": "First10RecordsPreview",
+    "imageAsset": "images/by-hash/28bd0f887f0c23de.png"
+  },
+  {
+    "name": "GroupRecords",
+    "imageAsset": "images/by-hash/97b7019dd2d01c8e.png"
+  },
+  {
+    "name": "MasterDocumentExpandOrCollapseSubdocuments",
+    "imageAsset": "images/by-hash/3b64db7773991543.png"
+  },
+  {
+    "name": "MenuExpandCollapse",
+    "imageAsset": "images/by-hash/0447cf9131dc29fc.png"
+  },
+  {
+    "name": "OutlineCollapse",
+    "imageAsset": "images/by-hash/408c3a903c073626.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ChangeToTentativeAcceptInvitation",
+    "imageAsset": "images/by-hash/1c6cfefae0b6575f.png"
+  },
+  {
+    "name": "TentativeAcceptInvitation",
+    "imageAsset": "images/by-hash/1c6cfefae0b6575f.png"
+  },
+  {
+    "name": "QuickSearchTentativeAppointments",
+    "imageAsset": "images/by-hash/52e007d83b8a8f69.png"
+  },
+  {
+    "name": "AcceptInvitation",
+    "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+  },
+  {
+    "name": "BroadcastSendInvitation",
+    "imageAsset": "images/by-hash/17e648f52c2a4500.png"
+  },
+  {
+    "name": "CancelAllInvitation",
+    "imageAsset": "images/by-hash/3c40bf60f3731fd8.png"
+  },
+  {
+    "name": "CancelInvitation",
+    "imageAsset": "images/by-hash/c93d36c1197d267c.png"
+  },
+  {
+    "name": "ChangeToAcceptInvitation",
+    "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+  },
+  {
+    "name": "ChangeToDeclineInvitation",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "CopyInvitationToClipboard",
+    "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+  },
+  {
+    "name": "DeclineInvitation",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "MenuAcceptInvitation",
+    "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+  }
+]

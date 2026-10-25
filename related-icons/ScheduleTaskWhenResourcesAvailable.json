@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AutoScheduleSelectedTask",
+    "imageAsset": "images/by-hash/aa022e861f00f076.png"
+  },
+  {
+    "name": "GroupTaskSchedule",
+    "imageAsset": "images/by-hash/fe43016cac7f8388.png"
+  },
+  {
+    "name": "GroupTaskScheduleStandard",
+    "imageAsset": "images/by-hash/fe43016cac7f8388.png"
+  },
+  {
+    "name": "ManuallyScheduleSelectedTask",
+    "imageAsset": "images/by-hash/fde603d72c3ddeec.png"
+  },
+  {
+    "name": "TaskAutoSchedule",
+    "imageAsset": "images/by-hash/aa022e861f00f076.png"
+  },
+  {
+    "name": "NewMeetingHiddenWhenWithAllVisible",
+    "imageAsset": "images/by-hash/feff041c0012ff48.png"
+  },
+  {
+    "name": "RescheduleToNextAvailableVisibleByContext",
+    "imageAsset": "images/by-hash/02c4ecdd36cf035e.png"
+  },
+  {
+    "name": "SlabDocUpdatesAvailableSaveAndReview",
+    "imageAsset": "images/by-hash/f18099fa4182f9d1.png"
+  },
+  {
+    "name": "SlabDocUpdatesAvailableSaveAndUpdateIcon",
+    "imageAsset": "images/by-hash/513aaa7362e46b49.png"
+  },
+  {
+    "name": "AddResourcesFromActiveDirectory",
+    "imageAsset": "images/by-hash/e1d564e7fc6ca424.png"
+  },
+  {
+    "name": "EnterpriseResourcesImport",
+    "imageAsset": "images/by-hash/001c88135bd2684c.png"
+  },
+  {
+    "name": "EnterpriseResourcesOpen",
+    "imageAsset": "images/by-hash/904f30d162e4d831.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SendCopyCheckNames",
+    "imageAsset": "images/by-hash/7a6a332bf2402a9a.png"
+  },
+  {
+    "name": "SendCopyFlag",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "SendCopyOptions",
+    "imageAsset": "images/by-hash/b6ea474febb006d7.png"
+  },
+  {
+    "name": "SendCopySelectNames",
+    "imageAsset": "images/by-hash/55c1de91a1dbd4c1.png"
+  },
+  {
+    "name": "SendCopySendToMailRecipient",
+    "imageAsset": "images/by-hash/e0cc6d34c73b1b24.png"
+  },
+  {
+    "name": "AutoFormatNow",
+    "imageAsset": "images/by-hash/925884a9fc60d012.png"
+  },
+  {
+    "name": "CalculateNow",
+    "imageAsset": "images/by-hash/61dfcf80cb5799bb.png"
+  },
+  {
+    "name": "CalendarViewLayoutNow",
+    "imageAsset": "images/by-hash/e1723442c7a5a838.png"
+  },
+  {
+    "name": "ConferenceMeetNow",
+    "imageAsset": "images/by-hash/422acfe07d0b8745.png"
+  },
+  {
+    "name": "ContactCardShareNow",
+    "imageAsset": "images/by-hash/4bf5763d1a3376fb.png"
+  },
+  {
+    "name": "LevelNow",
+    "imageAsset": "images/by-hash/b2148c39a7088689.png"
+  },
+  {
+    "name": "RelatedTasksLayoutNow",
+    "imageAsset": "images/by-hash/ca4a3e13618c0d37.png"
+  }
+]

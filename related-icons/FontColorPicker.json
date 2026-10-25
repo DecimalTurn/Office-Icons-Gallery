@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FontAlternateFillBackColorPicker",
+    "imageAsset": "images/by-hash/123a710986a11765.png"
+  },
+  {
+    "name": "FontFillBackColorPicker",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "EyedropperFontColor",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "FontColorCycle",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "FontColorGallery",
+    "imageAsset": "images/by-hash/1a614d7d7f1a5953.png"
+  },
+  {
+    "name": "FontColorMoreColorsDialog",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "FontColorMoreColorsDialogExcel",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "FontColorMoreColorsDialogPowerPoint",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "FontForeColorSplitDropdown",
+    "imageAsset": "images/by-hash/1a614d7d7f1a5953.png"
+  },
+  {
+    "name": "FontShadingColorMoreColorsDialog",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "_3DEffectColorPickerClassic",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "BorderColorPicker",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  }
+]

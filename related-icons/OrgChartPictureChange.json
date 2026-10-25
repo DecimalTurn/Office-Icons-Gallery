@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OrgChartLayoutSpacingChange",
+    "imageAsset": "images/by-hash/4be828dd2621d9d0.png"
+  },
+  {
+    "name": "OrgChartPositionTypeChange",
+    "imageAsset": "images/by-hash/35d9eb88f2b8e305.png"
+  },
+  {
+    "name": "GroupOrgChartPicture",
+    "imageAsset": "images/by-hash/09afe70e742584fe.png"
+  },
+  {
+    "name": "OrgChartPictureDelete",
+    "imageAsset": "images/by-hash/42025fe41b6b60f1.png"
+  },
+  {
+    "name": "OrgChartPictureHide",
+    "imageAsset": "images/by-hash/564c35cd0395321a.png"
+  },
+  {
+    "name": "OrgChartPictureInsert",
+    "imageAsset": "images/by-hash/09afe70e742584fe.png"
+  },
+  {
+    "name": "OrgChartPictureInsertMultiple",
+    "imageAsset": "images/by-hash/8d7630979745bd92.png"
+  },
+  {
+    "name": "ChangePictureFileType",
+    "imageAsset": "images/by-hash/b6920ebf67401601.png"
+  },
+  {
+    "name": "ChangePictureFromScanner",
+    "imageAsset": "images/by-hash/51f884df639d7c92.png"
+  },
+  {
+    "name": "PictureChange",
+    "imageAsset": "images/by-hash/b6920ebf67401601.png"
+  },
+  {
+    "name": "PictureChangeMenu",
+    "imageAsset": "images/by-hash/b6920ebf67401601.png"
+  },
+  {
+    "name": "FormatOrgChart",
+    "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+  }
+]

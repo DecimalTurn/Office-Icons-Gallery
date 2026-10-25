@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PersonaAddToContactsMenu",
+    "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+  },
+  {
+    "name": "PersonaAddToMessengerMenu",
+    "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+  },
+  {
+    "name": "PersonaMenuMySite",
+    "imageAsset": "images/by-hash/0fd8be26c86aab0c.png"
+  },
+  {
+    "name": "PersonaMenuStartAudioConference",
+    "imageAsset": "images/by-hash/cc9dcaf6cf044b7a.png"
+  },
+  {
+    "name": "PersonaMenuUnTagContact",
+    "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+  },
+  {
+    "name": "PersonaOpenContactMenu",
+    "imageAsset": "images/by-hash/77ab365d2852a887.png"
+  },
+  {
+    "name": "PersonaReplyAllByIMMenu",
+    "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+  },
+  {
+    "name": "PersonaReplyByIMMenu",
+    "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+  },
+  {
+    "name": "PersonaSendIMMenu",
+    "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+  },
+  {
+    "name": "PersonaSendMailMenu",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  },
+  {
+    "name": "PersonaStatusAway",
+    "imageAsset": "images/by-hash/ac0b3c7a6fd0433a.png"
+  },
+  {
+    "name": "PersonaStatusBusy",
+    "imageAsset": "images/by-hash/52e3e2062b9e333e.png"
+  }
+]

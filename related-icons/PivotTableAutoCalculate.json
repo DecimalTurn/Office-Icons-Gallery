@@ -1,0 +1,30 @@
+[
+  {
+    "name": "PivotTableCalculateChanges",
+    "imageAsset": "images/by-hash/a12619fc5b31aabc.png"
+  },
+  {
+    "name": "PivotAutoCalcMenu",
+    "imageAsset": "images/by-hash/f3efe98ab9433ece.png"
+  },
+  {
+    "name": "PivotAutoFilter",
+    "imageAsset": "images/by-hash/0f587dcc8e84a46c.png"
+  },
+  {
+    "name": "CalculateFull",
+    "imageAsset": "images/by-hash/99067d2863a50f42.png"
+  },
+  {
+    "name": "CalculateNow",
+    "imageAsset": "images/by-hash/61dfcf80cb5799bb.png"
+  },
+  {
+    "name": "CalculateSheet",
+    "imageAsset": "images/by-hash/75a85b739931966b.png"
+  },
+  {
+    "name": "ProjectCalculate",
+    "imageAsset": "images/by-hash/dfee45b4ed63677f.png"
+  }
+]

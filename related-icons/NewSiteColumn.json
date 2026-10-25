@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ContentTypeAddSiteColumn",
+    "imageAsset": "images/by-hash/3a08b1e5d9651ea0.png"
+  },
+  {
+    "name": "GroupSiteColumnActions",
+    "imageAsset": "images/by-hash/51e0176935ae9460.png"
+  },
+  {
+    "name": "GroupSiteColumnAdministration",
+    "imageAsset": "images/by-hash/ae5988bdfc6b6bbe.png"
+  },
+  {
+    "name": "ListAddSiteColumn",
+    "imageAsset": "images/by-hash/3a08b1e5d9651ea0.png"
+  },
+  {
+    "name": "SiteAddNewColumnMenu",
+    "imageAsset": "images/by-hash/8166418eccf14f70.png"
+  },
+  {
+    "name": "SiteColumn",
+    "imageAsset": "images/by-hash/a1747ed7ef36806f.png"
+  },
+  {
+    "name": "SiteColumnActionsChangeType",
+    "imageAsset": "images/by-hash/5f241bde88d838b2.png"
+  },
+  {
+    "name": "SiteColumnActionsColumnSettings",
+    "imageAsset": "images/by-hash/51e0176935ae9460.png"
+  },
+  {
+    "name": "SiteColumnActionsRemove",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "SiteColumnActionsValidationSettings",
+    "imageAsset": "images/by-hash/3f804db01cf4d0b6.png"
+  },
+  {
+    "name": "SiteColumnAdminEditable",
+    "imageAsset": "images/by-hash/496a802468ac8523.png"
+  },
+  {
+    "name": "SiteColumnAdminPushChanges",
+    "imageAsset": "images/by-hash/ae5988bdfc6b6bbe.png"
+  }
+]

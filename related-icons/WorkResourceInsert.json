@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ContactCardCallWork",
+    "imageAsset": "images/by-hash/381581df7c59e7dc.png"
+  },
+  {
+    "name": "GroupContactCardCallWork",
+    "imageAsset": "images/by-hash/381581df7c59e7dc.png"
+  },
+  {
+    "name": "MeetingsToolWorkMonth",
+    "imageAsset": "images/by-hash/7f9c1c843fc62c9c.png"
+  },
+  {
+    "name": "MeetingsToolWorkWeek",
+    "imageAsset": "images/by-hash/3f960c8626c1ba56.png"
+  },
+  {
+    "name": "MeetingsToolWorkWeekMenu",
+    "imageAsset": "images/by-hash/f80a7aaa0a54faa5.png"
+  },
+  {
+    "name": "ReduceWorkOnAssignment",
+    "imageAsset": "images/by-hash/663b37e631b9981b.png"
+  },
+  {
+    "name": "SharePointListsWorkOffline",
+    "imageAsset": "images/by-hash/eeed91e2c3dc2847.png"
+  },
+  {
+    "name": "ShowWorkHourOnly",
+    "imageAsset": "images/by-hash/9919a0b8c8a2f4d3.png"
+  },
+  {
+    "name": "ViewCumulativeWorkShow",
+    "imageAsset": "images/by-hash/8e674522497d8cc0.png"
+  },
+  {
+    "name": "ViewWorkAvailabilityShow",
+    "imageAsset": "images/by-hash/c0793e663bdd1e65.png"
+  },
+  {
+    "name": "ViewWorkShow",
+    "imageAsset": "images/by-hash/da60ea3ae2d62776.png"
+  },
+  {
+    "name": "WorkOffline",
+    "imageAsset": "images/by-hash/acd07aef3fcbd50a.png"
+  }
+]

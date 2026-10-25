@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AlignDistributeVerticallyClassic",
+    "imageAsset": "images/by-hash/faaef2a521a93bcd.png"
+  },
+  {
+    "name": "ObjectsAlignDistributeVerticallyRemove",
+    "imageAsset": "images/by-hash/2843e10cff3a10e3.png"
+  },
+  {
+    "name": "ObjectsAlignCenterInFormVertically",
+    "imageAsset": "images/by-hash/5eeaa4fc80213811.png"
+  },
+  {
+    "name": "TableCellAlignCenterVertically",
+    "imageAsset": "images/by-hash/4d79850f39eef76c.png"
+  },
+  {
+    "name": "AlignDistributeHorizontally",
+    "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+  },
+  {
+    "name": "AlignDistributeHorizontallyClassic",
+    "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+  },
+  {
+    "name": "ObjectsAlignDistributeHorizontallyRemove",
+    "imageAsset": "images/by-hash/1c0c58008cee41b3.png"
+  },
+  {
+    "name": "SplitVertically",
+    "imageAsset": "images/by-hash/0124452aab8db547.png"
+  },
+  {
+    "name": "VerticallyDistributed",
+    "imageAsset": "images/by-hash/3baf1fa8f6f65db6.png"
+  },
+  {
+    "name": "WindowsTileVertically",
+    "imageAsset": "images/by-hash/0b2bcfdb0dbafa7a.png"
+  },
+  {
+    "name": "DistributeAllLinesParagraph",
+    "imageAsset": "images/by-hash/f65954aad1f1e694.png"
+  },
+  {
+    "name": "DistributeMiddle",
+    "imageAsset": "images/by-hash/a9d1ae3661a829d5.png"
+  }
+]

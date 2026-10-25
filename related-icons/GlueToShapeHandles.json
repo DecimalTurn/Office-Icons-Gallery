@@ -1,0 +1,22 @@
+[
+  {
+    "name": "GlueToShapeGeometry",
+    "imageAsset": "images/by-hash/c0b802f33a7d3649.png"
+  },
+  {
+    "name": "GlueToShapeVertices",
+    "imageAsset": "images/by-hash/f6fb22dd8eb0322d.png"
+  },
+  {
+    "name": "GlueToConnectionPoints",
+    "imageAsset": "images/by-hash/40dd59a2350ba12e.png"
+  },
+  {
+    "name": "GlueToggle",
+    "imageAsset": "images/by-hash/a093df539e5e67cc.png"
+  },
+  {
+    "name": "GlueToGuides",
+    "imageAsset": "images/by-hash/6e3cb10128cb82be.png"
+  }
+]

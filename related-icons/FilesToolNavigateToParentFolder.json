@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JotNavUIParentFolder",
+    "imageAsset": "images/by-hash/4c569d92bdc6384c.png"
+  },
+  {
+    "name": "FilesToolNewFolderGallery",
+    "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+  },
+  {
+    "name": "ChartTypeParentComboChart",
+    "imageAsset": "images/by-hash/3d10b9bfd87cf020.png"
+  },
+  {
+    "name": "GroupNavigate",
+    "imageAsset": "images/by-hash/33960362b2c61f33.png"
+  },
+  {
+    "name": "GroupNavigateCalendarTool",
+    "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+  },
+  {
+    "name": "GroupNavigateMeetingsTool",
+    "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+  },
+  {
+    "name": "GroupResourceGraphNavigate",
+    "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+  },
+  {
+    "name": "ParentPermissions",
+    "imageAsset": "images/by-hash/befec48273b3ab66.png"
+  },
+  {
+    "name": "SelectParentContainer",
+    "imageAsset": "images/by-hash/7afb336897807cf4.png"
+  },
+  {
+    "name": "FileLinksToFiles",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "FilesToolAddFiles",
+    "imageAsset": "images/by-hash/a50041174ebc9149.png"
+  },
+  {
+    "name": "FilesToolArrange",
+    "imageAsset": "images/by-hash/cf92637eb802c6af.png"
+  }
+]

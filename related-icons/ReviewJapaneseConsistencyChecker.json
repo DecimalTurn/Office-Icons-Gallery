@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JapaneseGreetingsInsertMenu",
+    "imageAsset": "images/by-hash/504fae1d399e11bd.png"
+  },
+  {
+    "name": "JapanesePostcardCreateAddressSide",
+    "imageAsset": "images/by-hash/7bc0d89aa4baf964.png"
+  },
+  {
+    "name": "JapanesePostcardCreateLetterSide",
+    "imageAsset": "images/by-hash/4cd2ac6eeb060b18.png"
+  },
+  {
+    "name": "JapanesePostcardDialog",
+    "imageAsset": "images/by-hash/66e07a44761b804d.png"
+  },
+  {
+    "name": "JapanesePostcardMenu",
+    "imageAsset": "images/by-hash/66e07a44761b804d.png"
+  },
+  {
+    "name": "MailMergeJapanesePostalBarcode",
+    "imageAsset": "images/by-hash/1e05321ba85ebd9f.png"
+  },
+  {
+    "name": "AccessibilityChecker",
+    "imageAsset": "images/by-hash/c919dba1611f85c4.png"
+  },
+  {
+    "name": "DesignChecker",
+    "imageAsset": "images/by-hash/e338d30487667f9b.png"
+  },
+  {
+    "name": "DesignCheckerShowHide",
+    "imageAsset": "images/by-hash/e338d30487667f9b.png"
+  },
+  {
+    "name": "FileCompatibilityChecker",
+    "imageAsset": "images/by-hash/168925a6db937c0e.png"
+  },
+  {
+    "name": "FileCompatibilityCheckerPowerPoint",
+    "imageAsset": "images/by-hash/05715540b1645725.png"
+  },
+  {
+    "name": "FileCompatibilityCheckerWord",
+    "imageAsset": "images/by-hash/cf6b73a16cf53f89.png"
+  }
+]

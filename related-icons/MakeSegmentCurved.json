@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ConnectorCurved",
+    "imageAsset": "images/by-hash/8e67f5d9a93f23b9.png"
+  },
+  {
+    "name": "ConnectorCurvedLines",
+    "imageAsset": "images/by-hash/3752d4301ce9294c.png"
+  },
+  {
+    "name": "CurvedConnector",
+    "imageAsset": "images/by-hash/3752d4301ce9294c.png"
+  },
+  {
+    "name": "ShapeConnectorStyleCurved",
+    "imageAsset": "images/by-hash/3752d4301ce9294c.png"
+  },
+  {
+    "name": "VisioCurvedConnector",
+    "imageAsset": "images/by-hash/bdc6d6e10cc8a2fe.png"
+  },
+  {
+    "name": "AdpStoredProcedureQueryMakeTable",
+    "imageAsset": "images/by-hash/8d588e96f4f6abb6.png"
+  },
+  {
+    "name": "DatabaseMakeMdeFile",
+    "imageAsset": "images/by-hash/c9ab25d1a4d28d90.png"
+  },
+  {
+    "name": "HorizontalSpacingMakeEqual",
+    "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+  },
+  {
+    "name": "MakeDefaultGroup",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "MakeSameSizeMenu",
+    "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+  },
+  {
+    "name": "MakeThisLatest",
+    "imageAsset": "images/by-hash/697dd855d429c4a9.png"
+  },
+  {
+    "name": "QueryMakeTable",
+    "imageAsset": "images/by-hash/8d588e96f4f6abb6.png"
+  }
+]

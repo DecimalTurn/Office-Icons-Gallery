@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CellsDeleteSmart",
+    "imageAsset": "images/by-hash/f836ed27023164d9.png"
+  },
+  {
+    "name": "DeleteCells",
+    "imageAsset": "images/by-hash/f836ed27023164d9.png"
+  },
+  {
+    "name": "DeleteCells2",
+    "imageAsset": "images/by-hash/f836ed27023164d9.png"
+  },
+  {
+    "name": "TableRowsOrColumnsOrCellsDelete",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "AccessMergeCells",
+    "imageAsset": "images/by-hash/32b656a3b1ec1c0d.png"
+  },
+  {
+    "name": "CellsInsertDialog",
+    "imageAsset": "images/by-hash/86df329d6ababfa0.png"
+  },
+  {
+    "name": "CellsInsertSmart",
+    "imageAsset": "images/by-hash/86df329d6ababfa0.png"
+  },
+  {
+    "name": "ConditionalFormattingHighlightCellsMenu",
+    "imageAsset": "images/by-hash/6b7a34509ca46db1.png"
+  },
+  {
+    "name": "FormatCellsDialog",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "FormatCellsFontDialog",
+    "imageAsset": "images/by-hash/facb4b355bd224b5.png"
+  },
+  {
+    "name": "FormatCellsMenu",
+    "imageAsset": "images/by-hash/a0fc101de8c2cabe.png"
+  },
+  {
+    "name": "FormatCellsNumberDialog",
+    "imageAsset": "images/by-hash/07a8f718edb1e043.png"
+  }
+]

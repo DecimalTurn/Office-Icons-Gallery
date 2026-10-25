@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ColorGrayscaleMenu",
+    "imageAsset": "images/by-hash/01f80c11096b75c2.png"
+  },
+  {
+    "name": "BlackAndWhiteBlackWithGrayscaleFill",
+    "imageAsset": "images/by-hash/d651f992d2fe4486.png"
+  },
+  {
+    "name": "BlackAndWhiteGrayscale",
+    "imageAsset": "images/by-hash/1990b834750e1a6d.png"
+  },
+  {
+    "name": "BlackAndWhiteInverseGrayscale",
+    "imageAsset": "images/by-hash/c362a6c1862643fb.png"
+  },
+  {
+    "name": "BlackAndWhiteLightGrayscale",
+    "imageAsset": "images/by-hash/d5e8423b02b59f5c.png"
+  },
+  {
+    "name": "PictureRecolorGrayscale",
+    "imageAsset": "images/by-hash/436568c6ac0fdd41.png"
+  },
+  {
+    "name": "ViewDisplayInGrayscale",
+    "imageAsset": "images/by-hash/da3a5046e81eec76.png"
+  }
+]

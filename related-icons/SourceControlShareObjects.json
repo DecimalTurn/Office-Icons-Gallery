@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SourceControlAddObjects",
+    "imageAsset": "images/by-hash/a50041174ebc9149.png"
+  },
+  {
+    "name": "ClientAdvancedObjectsMenu",
+    "imageAsset": "images/by-hash/d2771bddcd274833.png"
+  },
+  {
+    "name": "CreateAdvancedObjectsMenu",
+    "imageAsset": "images/by-hash/f1d930c1fb20b2ea.png"
+  },
+  {
+    "name": "CreateOtherObjectsMenu",
+    "imageAsset": "images/by-hash/f1d930c1fb20b2ea.png"
+  },
+  {
+    "name": "DatabaseServerCompatibilityCheckClientObjects",
+    "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+  },
+  {
+    "name": "DatabaseServerCompatibilityCheckWebObjects",
+    "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+  },
+  {
+    "name": "GroupObjects",
+    "imageAsset": "images/by-hash/8187ee8d4735072e.png"
+  },
+  {
+    "name": "ObjectsAlignBottom",
+    "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+  },
+  {
+    "name": "ObjectsAlignBottomOutlook",
+    "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+  },
+  {
+    "name": "ObjectsAlignBottomSmart",
+    "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+  },
+  {
+    "name": "ObjectsAlignCenterHorizontal",
+    "imageAsset": "images/by-hash/1d17157034356b58.png"
+  },
+  {
+    "name": "ObjectsAlignCenterHorizontalOutlook",
+    "imageAsset": "images/by-hash/1d17157034356b58.png"
+  }
+]

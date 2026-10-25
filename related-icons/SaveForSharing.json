@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ContactCardUntagForAlerts",
+    "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+  },
+  {
+    "name": "FilePackageForCD",
+    "imageAsset": "images/by-hash/66640d64525a2dff.png"
+  },
+  {
+    "name": "MailMergeAutoCheckForErrors",
+    "imageAsset": "images/by-hash/78dff6663e341044.png"
+  },
+  {
+    "name": "MarkForDownload",
+    "imageAsset": "images/by-hash/8ea103e009e28958.png"
+  },
+  {
+    "name": "MarkForDownloadSplitButton",
+    "imageAsset": "images/by-hash/8ea103e009e28958.png"
+  },
+  {
+    "name": "NewJournalEntryForContact",
+    "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+  },
+  {
+    "name": "NewTaskForContact",
+    "imageAsset": "images/by-hash/9960556f722cbf0b.png"
+  },
+  {
+    "name": "NoResponseRequiredForInvitation",
+    "imageAsset": "images/by-hash/5f4eca0e202702e3.png"
+  },
+  {
+    "name": "PivotTableGrandTotalsOffForRowsAndColumns",
+    "imageAsset": "images/by-hash/90d4275591f12576.png"
+  },
+  {
+    "name": "PivotTableGrandTotalsOnForColumnsOnly",
+    "imageAsset": "images/by-hash/8d4ab8e2e9143bc7.png"
+  },
+  {
+    "name": "PivotTableGrandTotalsOnForRowsAndColumns",
+    "imageAsset": "images/by-hash/d2701395da25b98b.png"
+  },
+  {
+    "name": "PivotTableGrandTotalsOnForRowsOnly",
+    "imageAsset": "images/by-hash/1528f54377a7ea34.png"
+  }
+]

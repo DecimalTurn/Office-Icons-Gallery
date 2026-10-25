@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ShapesObjectCombine",
+    "imageAsset": "images/by-hash/5f9fba2194e87a87.png"
+  },
+  {
+    "name": "ShapesObjectFragment",
+    "imageAsset": "images/by-hash/7f27b4c19be231ce.png"
+  },
+  {
+    "name": "ShapesObjectIntersect",
+    "imageAsset": "images/by-hash/fd145401a2bb7f81.png"
+  },
+  {
+    "name": "ShapesObjectJoin",
+    "imageAsset": "images/by-hash/befdfe05f3b3fcd4.png"
+  },
+  {
+    "name": "ShapesObjectSubtract",
+    "imageAsset": "images/by-hash/1adb6e780a0227b4.png"
+  },
+  {
+    "name": "ShapesObjectTrim",
+    "imageAsset": "images/by-hash/8d2933e9fde55a2e.png"
+  },
+  {
+    "name": "ShapesObjectUnion",
+    "imageAsset": "images/by-hash/1cf805405de331b1.png"
+  },
+  {
+    "name": "GroupOffset",
+    "imageAsset": "images/by-hash/6681fe487d168071.png"
+  },
+  {
+    "name": "OffsetBottom",
+    "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+  },
+  {
+    "name": "OffsetLeft",
+    "imageAsset": "images/by-hash/6681fe487d168071.png"
+  },
+  {
+    "name": "OffsetRight",
+    "imageAsset": "images/by-hash/4b95fb857b0f2970.png"
+  },
+  {
+    "name": "OffsetTop",
+    "imageAsset": "images/by-hash/25cd28379a50db64.png"
+  }
+]

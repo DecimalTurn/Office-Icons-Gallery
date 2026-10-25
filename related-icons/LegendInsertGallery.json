@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ChartFormatLegend",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartFormatLegendEntry",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartLegend",
+    "imageAsset": "images/by-hash/78bde400f8e17145.png"
+  },
+  {
+    "name": "CompareProjectsShowLegend",
+    "imageAsset": "images/by-hash/4213917e8fae73f2.png"
+  },
+  {
+    "name": "DataGraphicLegendHoriz1",
+    "imageAsset": "images/by-hash/150cfb73f106baa5.png"
+  },
+  {
+    "name": "DataGraphicLegendStyleGallery",
+    "imageAsset": "images/by-hash/fcdc243f0117ee64.png"
+  },
+  {
+    "name": "DataGraphicLegendVert1",
+    "imageAsset": "images/by-hash/0035f7822dd40c75.png"
+  },
+  {
+    "name": "Legend",
+    "imageAsset": "images/by-hash/4213917e8fae73f2.png"
+  },
+  {
+    "name": "PivotChartLegendShowHide",
+    "imageAsset": "images/by-hash/4213917e8fae73f2.png"
+  }
+]

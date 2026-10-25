@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OmsForwardAsMultimediaMessage",
+    "imageAsset": "images/by-hash/ff1a89dfd71fc384.png"
+  },
+  {
+    "name": "OmsNewMultimediaMessage",
+    "imageAsset": "images/by-hash/821951c5fac6399f.png"
+  },
+  {
+    "name": "OmsNewTextMessageToContact",
+    "imageAsset": "images/by-hash/5682f4abe86b9ca0.png"
+  },
+  {
+    "name": "GroupOmsMessageOptions",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "OmsForwardAsTextMessage",
+    "imageAsset": "images/by-hash/bd10b4370e08029d.png"
+  },
+  {
+    "name": "OmsNewTextMessage",
+    "imageAsset": "images/by-hash/5682f4abe86b9ca0.png"
+  },
+  {
+    "name": "ContactCardDefaultSendInstantMessage",
+    "imageAsset": "images/by-hash/09795bc87c775160.png"
+  },
+  {
+    "name": "ContactCardInstantMessageAddToOutlookContacts",
+    "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+  },
+  {
+    "name": "ContactCardReplyWithInstantMessage",
+    "imageAsset": "images/by-hash/57d1bb90bfbd9267.png"
+  },
+  {
+    "name": "ContactCardSendInstantMessage",
+    "imageAsset": "images/by-hash/09795bc87c775160.png"
+  },
+  {
+    "name": "ContactSendGrooveMessage",
+    "imageAsset": "images/by-hash/80d63c75087a1371.png"
+  },
+  {
+    "name": "NewMessageToContact",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  }
+]

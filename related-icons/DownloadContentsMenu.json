@@ -1,0 +1,50 @@
+[
+  {
+    "name": "DownloadContents",
+    "imageAsset": "images/by-hash/8ea103e009e28958.png"
+  },
+  {
+    "name": "ChangeFolderDownloadSettings",
+    "imageAsset": "images/by-hash/5f9639c5060c2a1f.png"
+  },
+  {
+    "name": "DownloadAddressBook",
+    "imageAsset": "images/by-hash/f5ee821d90999a62.png"
+  },
+  {
+    "name": "DownloadHeaders",
+    "imageAsset": "images/by-hash/4b98f83b90bb3eef.png"
+  },
+  {
+    "name": "DownloadHeadersInThisFolder",
+    "imageAsset": "images/by-hash/4b98f83b90bb3eef.png"
+  },
+  {
+    "name": "DownloadPreferencesMenu",
+    "imageAsset": "images/by-hash/798833e4a4c752ed.png"
+  },
+  {
+    "name": "FilesToolDownloadFile",
+    "imageAsset": "images/by-hash/8ea103e009e28958.png"
+  },
+  {
+    "name": "FilesToolDownloadMenu",
+    "imageAsset": "images/by-hash/8ea103e009e28958.png"
+  },
+  {
+    "name": "FilesToolShowDownloadProgress",
+    "imageAsset": "images/by-hash/4ad3d28435029ee8.png"
+  },
+  {
+    "name": "GroupDownload",
+    "imageAsset": "images/by-hash/4ad3d28435029ee8.png"
+  },
+  {
+    "name": "MarkForDownload",
+    "imageAsset": "images/by-hash/8ea103e009e28958.png"
+  },
+  {
+    "name": "MarkForDownloadSplitButton",
+    "imageAsset": "images/by-hash/8ea103e009e28958.png"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "AnimationTriggerAddOnMediaBookmark",
+    "imageAsset": "images/by-hash/aa12c08ca0884264.png"
+  },
+  {
+    "name": "CompressMediaSmall",
+    "imageAsset": "images/by-hash/625887af43cf713e.png"
+  },
+  {
+    "name": "CompressMediaSmaller",
+    "imageAsset": "images/by-hash/27024e54c4a15b8f.png"
+  },
+  {
+    "name": "CompressMediaSmallest",
+    "imageAsset": "images/by-hash/07502733f3a4b4c9.png"
+  },
+  {
+    "name": "GroupCompressMedia",
+    "imageAsset": "images/by-hash/af60ac8aeaedf4aa.png"
+  },
+  {
+    "name": "GroupInsertMediaClips",
+    "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+  },
+  {
+    "name": "GroupMediaPreview",
+    "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+  },
+  {
+    "name": "Media14PausePreview",
+    "imageAsset": "images/by-hash/e42ed1f67934e74a.png"
+  },
+  {
+    "name": "MediaPlayPreview",
+    "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+  },
+  {
+    "name": "SlideMasterMediaPlaceholderInsert",
+    "imageAsset": "images/by-hash/1acab12879d39f90.png"
+  },
+  {
+    "name": "UndoCompressMedia",
+    "imageAsset": "images/by-hash/720e34890e473f48.png"
+  }
+]

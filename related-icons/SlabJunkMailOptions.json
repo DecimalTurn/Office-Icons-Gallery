@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupJunkEmail",
+    "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+  },
+  {
+    "name": "GroupSlabResize",
+    "imageAsset": "images/by-hash/b74103378135a2ce.png"
+  },
+  {
+    "name": "JunkEmailAddToBlockedSendersList",
+    "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+  },
+  {
+    "name": "JunkEmailMarkAsNotJunk",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  },
+  {
+    "name": "JunkEmailOptions",
+    "imageAsset": "images/by-hash/791cc4acbb726258.png"
+  },
+  {
+    "name": "JunkEmailSafeListsMenu",
+    "imageAsset": "images/by-hash/44ac5b462eeb6978.png"
+  },
+  {
+    "name": "JunkMenu",
+    "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+  },
+  {
+    "name": "MRUSlabOpenOfficeLiveWorkspaces",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "SlabDocUpdatesAvailableSaveAndReview",
+    "imageAsset": "images/by-hash/f18099fa4182f9d1.png"
+  },
+  {
+    "name": "SlabDocUpdatesAvailableSaveAndUpdateIcon",
+    "imageAsset": "images/by-hash/513aaa7362e46b49.png"
+  },
+  {
+    "name": "SlabGrow",
+    "imageAsset": "images/by-hash/b74103378135a2ce.png"
+  },
+  {
+    "name": "SlabShrink",
+    "imageAsset": "images/by-hash/a881974877e2686e.png"
+  }
+]

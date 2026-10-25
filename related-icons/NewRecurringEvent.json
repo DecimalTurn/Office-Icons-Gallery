@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupCalendarRecurringRespond",
+    "imageAsset": "images/by-hash/40fe8321a3ca61b1.png"
+  },
+  {
+    "name": "GroupRecurringAppointmentActions",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "GroupRecurringAttendees",
+    "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+  },
+  {
+    "name": "MenuForwardRecurring",
+    "imageAsset": "images/by-hash/d4f0e3112d0c691d.png"
+  },
+  {
+    "name": "NewRecurringAppointment",
+    "imageAsset": "images/by-hash/dbcab0e9bea5ed47.png"
+  },
+  {
+    "name": "NewRecurringAppointment2",
+    "imageAsset": "images/by-hash/dbcab0e9bea5ed47.png"
+  },
+  {
+    "name": "RecurringTaskInsert",
+    "imageAsset": "images/by-hash/3c8a589faa6343f6.png"
+  },
+  {
+    "name": "CondolatoryEvent",
+    "imageAsset": "images/by-hash/a52b748478280b59.png"
+  },
+  {
+    "name": "CongratulatoryEvent",
+    "imageAsset": "images/by-hash/3c52a8d48547749a.png"
+  },
+  {
+    "name": "EventMonitor",
+    "imageAsset": "images/by-hash/6754ee105a791d52.png"
+  },
+  {
+    "name": "EventOnAfterChange",
+    "imageAsset": "images/by-hash/9d3655335c8c6406.png"
+  },
+  {
+    "name": "EventOnBeforeChange",
+    "imageAsset": "images/by-hash/843e6b743f01410b.png"
+  }
+]

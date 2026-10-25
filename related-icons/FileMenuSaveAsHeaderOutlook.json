@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FileMenuPublishHeader",
+    "imageAsset": "images/by-hash/b9b0aea1b63f72df.png"
+  },
+  {
+    "name": "FileMenuSendHeader",
+    "imageAsset": "images/by-hash/17e648f52c2a4500.png"
+  },
+  {
+    "name": "FileMenuServerTasksHeader",
+    "imageAsset": "images/by-hash/374c984d4a9fc494.png"
+  },
+  {
+    "name": "HeaderFooterFileNameInsert",
+    "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+  },
+  {
+    "name": "HeaderFooterFilePathInsert",
+    "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+  },
+  {
+    "name": "SaveSelectionToHeaderGallery",
+    "imageAsset": "images/by-hash/5f63e6d5ff2eee41.png"
+  },
+  {
+    "name": "CloseOutlookDataFile",
+    "imageAsset": "images/by-hash/3c506956af95ad34.png"
+  },
+  {
+    "name": "NewOutlookDataFile",
+    "imageAsset": "images/by-hash/eb9bf265cbaf32e3.png"
+  },
+  {
+    "name": "OutlookDataFileOpen",
+    "imageAsset": "images/by-hash/2a6dfca67a47567a.png"
+  },
+  {
+    "name": "RecordsSaveAsOutlookContact",
+    "imageAsset": "images/by-hash/121bf0aa601c26d3.png"
+  },
+  {
+    "name": "FileSave",
+    "imageAsset": "images/by-hash/c4a2df5c55a7fc2e.png"
+  },
+  {
+    "name": "FileSaveACopy",
+    "imageAsset": "images/by-hash/a8cd2f77fc7baebd.png"
+  }
+]

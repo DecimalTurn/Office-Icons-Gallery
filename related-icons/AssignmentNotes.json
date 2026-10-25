@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AddAssignmentStage",
+    "imageAsset": "images/by-hash/4c50252de9e4f7f7.png"
+  },
+  {
+    "name": "ArrangeByAssignment",
+    "imageAsset": "images/by-hash/906061656933d759.png"
+  },
+  {
+    "name": "AssignmentInformation",
+    "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+  },
+  {
+    "name": "CancelTaskAssignment",
+    "imageAsset": "images/by-hash/8dfba6da393e2084.png"
+  },
+  {
+    "name": "GroupAssignmentProperties",
+    "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+  },
+  {
+    "name": "ReduceWorkOnAssignment",
+    "imageAsset": "images/by-hash/663b37e631b9981b.png"
+  },
+  {
+    "name": "TaskAndAssignmentInformation",
+    "imageAsset": "images/by-hash/10607efc305a33d2.png"
+  },
+  {
+    "name": "AttachNotesToMeeting",
+    "imageAsset": "images/by-hash/25ceca008a74a306.png"
+  },
+  {
+    "name": "BroadcastNotes",
+    "imageAsset": "images/by-hash/25ceca008a74a306.png"
+  },
+  {
+    "name": "BroadcastNotesSplitButton",
+    "imageAsset": "images/by-hash/25ceca008a74a306.png"
+  },
+  {
+    "name": "ClearNotesProject",
+    "imageAsset": "images/by-hash/2249b7207f0bb122.png"
+  },
+  {
+    "name": "FindTaggedNotes",
+    "imageAsset": "images/by-hash/e3b544f4be322600.png"
+  }
+]

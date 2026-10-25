@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GanttTaskUnlink",
+    "imageAsset": "images/by-hash/dcbb67b1b7fa410c.png"
+  },
+  {
+    "name": "JotANUnlinkNote",
+    "imageAsset": "images/by-hash/0aef63b0b7a4a95d.png"
+  },
+  {
+    "name": "MasterDocumentUnlinkSubdocument",
+    "imageAsset": "images/by-hash/3f0c746a551ba006.png"
+  },
+  {
+    "name": "TasksUnlink",
+    "imageAsset": "images/by-hash/dcbb67b1b7fa410c.png"
+  },
+  {
+    "name": "ExternalDataWindow",
+    "imageAsset": "images/by-hash/68574b4538de7a49.png"
+  },
+  {
+    "name": "GetExternalDataExistingConnections",
+    "imageAsset": "images/by-hash/5b478506b12c635c.png"
+  },
+  {
+    "name": "GetExternalDataFromAccess",
+    "imageAsset": "images/by-hash/720ec1122b4c64ff.png"
+  },
+  {
+    "name": "GetExternalDataFromOtherSources",
+    "imageAsset": "images/by-hash/4a0cf8d8cb920d82.png"
+  },
+  {
+    "name": "GetExternalDataFromText",
+    "imageAsset": "images/by-hash/e2858bfee74a6c9d.png"
+  },
+  {
+    "name": "GetExternalDataFromWeb",
+    "imageAsset": "images/by-hash/e8ffa00f6655dab8.png"
+  },
+  {
+    "name": "GetExternalDataImportClassic",
+    "imageAsset": "images/by-hash/25a03f0b5effe4aa.png"
+  },
+  {
+    "name": "GroupExternalData",
+    "imageAsset": "images/by-hash/68574b4538de7a49.png"
+  }
+]

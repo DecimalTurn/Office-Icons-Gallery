@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FormControlScrollBar",
+    "imageAsset": "images/by-hash/37c2f71d4bc88ce8.png"
+  },
+  {
+    "name": "GanttScrollToTask",
+    "imageAsset": "images/by-hash/cd4b86c772ddb63f.png"
+  },
+  {
+    "name": "JotScrollHalfPage",
+    "imageAsset": "images/by-hash/9e55cd5892ffb47d.png"
+  },
+  {
+    "name": "ActiveXButton",
+    "imageAsset": "images/by-hash/965d899ec226e108.png"
+  },
+  {
+    "name": "ActiveXCheckBox",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "ActiveXComboBox",
+    "imageAsset": "images/by-hash/1f3cf0d15015b32a.png"
+  },
+  {
+    "name": "ActiveXFrame",
+    "imageAsset": "images/by-hash/4d62ac0a7451562d.png"
+  },
+  {
+    "name": "ActiveXImage",
+    "imageAsset": "images/by-hash/a3c1694aead52859.png"
+  },
+  {
+    "name": "ActiveXLabel",
+    "imageAsset": "images/by-hash/facb4b355bd224b5.png"
+  },
+  {
+    "name": "ActiveXListBox",
+    "imageAsset": "images/by-hash/5afbe6d1834bbe58.png"
+  },
+  {
+    "name": "ActiveXRadioButton",
+    "imageAsset": "images/by-hash/1d4e488ea50d958c.png"
+  },
+  {
+    "name": "ActiveXSpinButton",
+    "imageAsset": "images/by-hash/ad584763f0010d33.png"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "GroupMessageFormat",
+    "imageAsset": "images/by-hash/06f09efbf605e6e2.png"
+  },
+  {
+    "name": "GroupMessageFormatNew",
+    "imageAsset": "images/by-hash/06f09efbf605e6e2.png"
+  },
+  {
+    "name": "MessageFormatHtml",
+    "imageAsset": "images/by-hash/06f09efbf605e6e2.png"
+  },
+  {
+    "name": "MessageFormatRichText",
+    "imageAsset": "images/by-hash/1819d9833fe56cf4.png"
+  },
+  {
+    "name": "SaveAsPlainText",
+    "imageAsset": "images/by-hash/d996e98d9f8d2131.png"
+  },
+  {
+    "name": "XDPlainList",
+    "imageAsset": "images/by-hash/fc07628bb0d8dba1.png"
+  },
+  {
+    "name": "XDPlainTextField",
+    "imageAsset": "images/by-hash/132afc8193cf8935.png"
+  }
+]

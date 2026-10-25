@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PictureResetAndSize",
+    "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+  },
+  {
+    "name": "VideoDesignResetAndSize",
+    "imageAsset": "images/by-hash/5cead1458d00c645.png"
+  },
+  {
+    "name": "GroupPictureReset",
+    "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+  },
+  {
+    "name": "PictureArtisticEffectsReset",
+    "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+  },
+  {
+    "name": "PictureColorReset",
+    "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+  },
+  {
+    "name": "PictureCorrectionsReset",
+    "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+  },
+  {
+    "name": "PictureReset",
+    "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+  },
+  {
+    "name": "PictureResetSplitButton",
+    "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+  },
+  {
+    "name": "GroupPictureSize",
+    "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+  },
+  {
+    "name": "GroupPictureSizeClassic",
+    "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+  },
+  {
+    "name": "PicturePropertiesSize",
+    "imageAsset": "images/by-hash/a439dbfbe46d902e.png"
+  },
+  {
+    "name": "ChartResetToMatchStyle",
+    "imageAsset": "images/by-hash/9940c20fa1f26a2a.png"
+  }
+]

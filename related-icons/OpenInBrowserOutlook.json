@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OpenInWebBrowser",
+    "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+  },
+  {
+    "name": "OpenViewInBrowser",
+    "imageAsset": "images/by-hash/5eee0ac41c83d70d.png"
+  },
+  {
+    "name": "OpenWebsiteInBrowser",
+    "imageAsset": "images/by-hash/19bf97b4b00c26dc.png"
+  },
+  {
+    "name": "SiteClientOpenInBrowser",
+    "imageAsset": "images/by-hash/19bf97b4b00c26dc.png"
+  },
+  {
+    "name": "TableOpenInBrowser",
+    "imageAsset": "images/by-hash/ad332571435de757.png"
+  },
+  {
+    "name": "OutlookDataFileOpen",
+    "imageAsset": "images/by-hash/2a6dfca67a47567a.png"
+  },
+  {
+    "name": "OutlookTaskOpen",
+    "imageAsset": "images/by-hash/ccd7997373e69eaa.png"
+  },
+  {
+    "name": "OutlookTaskOpenContextual",
+    "imageAsset": "images/by-hash/ccd7997373e69eaa.png"
+  },
+  {
+    "name": "ContextualInBrowserGallery",
+    "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+  },
+  {
+    "name": "GroupGoToBrowserOnlyTool",
+    "imageAsset": "images/by-hash/9001439ebaed8ec9.png"
+  },
+  {
+    "name": "GroupPreviewInBrowser",
+    "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+  },
+  {
+    "name": "GroupShareBrowserOnlyTool",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  }
+]

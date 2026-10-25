@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ChartSecondaryHorizontalAxis",
+    "imageAsset": "images/by-hash/0985b467e5ed6ac6.png"
+  },
+  {
+    "name": "ChartSecondaryHorizontalAxisTitle",
+    "imageAsset": "images/by-hash/5728d6bdb0ff9dc7.png"
+  },
+  {
+    "name": "ChartSecondaryVerticalAxis",
+    "imageAsset": "images/by-hash/38884725d11cea50.png"
+  },
+  {
+    "name": "ChartSecondaryVerticalAxisTitle",
+    "imageAsset": "images/by-hash/5b7cb2cc84288fee.png"
+  },
+  {
+    "name": "ChartSecondaryHorizontalGridlines",
+    "imageAsset": "images/by-hash/025f1de07804fbee.png"
+  },
+  {
+    "name": "ChartPrimaryHorizontalAxis",
+    "imageAsset": "images/by-hash/0985b467e5ed6ac6.png"
+  },
+  {
+    "name": "ChartPrimaryHorizontalAxisTitle",
+    "imageAsset": "images/by-hash/5bd5d4c05ff97c34.png"
+  },
+  {
+    "name": "OptionEditableForm",
+    "imageAsset": "images/by-hash/6004045baf563227.png"
+  },
+  {
+    "name": "OptionEditableFormAttachTemplate",
+    "imageAsset": "images/by-hash/e2222cd521ce9a3d.png"
+  },
+  {
+    "name": "OptionReadOnlySnapshot",
+    "imageAsset": "images/by-hash/c5dd142d728faec5.png"
+  },
+  {
+    "name": "PasteOption",
+    "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+  },
+  {
+    "name": "WebControlOptionButton",
+    "imageAsset": "images/by-hash/1d4e488ea50d958c.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SiteColumnActionsValidationSettings",
+    "imageAsset": "images/by-hash/3f804db01cf4d0b6.png"
+  },
+  {
+    "name": "ColumnActionsColumnSettings",
+    "imageAsset": "images/by-hash/504905cdfe5d50ef.png"
+  },
+  {
+    "name": "ColumnActionsValidationSettings",
+    "imageAsset": "images/by-hash/3f804db01cf4d0b6.png"
+  },
+  {
+    "name": "GroupSiteColumnActions",
+    "imageAsset": "images/by-hash/51e0176935ae9460.png"
+  },
+  {
+    "name": "SiteColumnActionsChangeType",
+    "imageAsset": "images/by-hash/5f241bde88d838b2.png"
+  },
+  {
+    "name": "SiteColumnActionsRemove",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "ColumnSettingsMenu",
+    "imageAsset": "images/by-hash/70b411bad8d3c5de.png"
+  },
+  {
+    "name": "GroupSiteActions",
+    "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+  },
+  {
+    "name": "GroupSiteAssetsActions",
+    "imageAsset": "images/by-hash/47cf5c778774c235.png"
+  },
+  {
+    "name": "GroupSitePermissionsActions",
+    "imageAsset": "images/by-hash/c73b835e6c7da564.png"
+  },
+  {
+    "name": "ContentTypeAddSiteColumn",
+    "imageAsset": "images/by-hash/3a08b1e5d9651ea0.png"
+  },
+  {
+    "name": "GroupSiteColumnAdministration",
+    "imageAsset": "images/by-hash/ae5988bdfc6b6bbe.png"
+  }
+]

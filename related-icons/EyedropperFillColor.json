@@ -1,0 +1,50 @@
+[
+  {
+    "name": "EyedropperFill",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "EyedropperFillText",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "Eyedropper3DColor",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "EyedropperFontColor",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "EyedropperLineColor",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "EyedropperLineColorText",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "EyedropperShadowColor",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "CellFillColorPicker",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "ColorPickerCommentFill",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "CycleFillColor",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "FillBackColorSplitDropdown",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "FillColorGallery",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "HighlightDrivenSuccessors",
+    "imageAsset": "images/by-hash/6ae28647453de3ed.png"
+  },
+  {
+    "name": "HighlightSuccessors",
+    "imageAsset": "images/by-hash/1b4de7082c600b93.png"
+  },
+  {
+    "name": "ViewPredecessorsSuccessorsShow",
+    "imageAsset": "images/by-hash/63d7dbe7c40472c1.png"
+  },
+  {
+    "name": "AddResourcesFromActiveDirectory",
+    "imageAsset": "images/by-hash/e1d564e7fc6ca424.png"
+  },
+  {
+    "name": "EnterpriseResourcesImport",
+    "imageAsset": "images/by-hash/001c88135bd2684c.png"
+  },
+  {
+    "name": "EnterpriseResourcesOpen",
+    "imageAsset": "images/by-hash/904f30d162e4d831.png"
+  },
+  {
+    "name": "HelpDevResources",
+    "imageAsset": "images/by-hash/d81a09a9ce4cb2f7.png"
+  },
+  {
+    "name": "ResourcesAddFromAddressBook",
+    "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+  },
+  {
+    "name": "ResourcesAddFromProjectServer",
+    "imageAsset": "images/by-hash/dde6df49338d2433.png"
+  },
+  {
+    "name": "ResourcesAddMenu",
+    "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+  },
+  {
+    "name": "ResourcesAssign",
+    "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+  },
+  {
+    "name": "ResourcesShare",
+    "imageAsset": "images/by-hash/34f2e08976f4937f.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JumpStyleSquare",
+    "imageAsset": "images/by-hash/9d1e57bd04cf08d1.png"
+  },
+  {
+    "name": "LayoutOptionsDialogWrapping",
+    "imageAsset": "images/by-hash/b2d12a6affc2897a.png"
+  },
+  {
+    "name": "TextWrappingBehindText",
+    "imageAsset": "images/by-hash/b1e43b4249d27be0.png"
+  },
+  {
+    "name": "TextWrappingEditWrapPoints",
+    "imageAsset": "images/by-hash/365164a10e92196c.png"
+  },
+  {
+    "name": "TextWrappingGallery",
+    "imageAsset": "images/by-hash/041cff09359041da.png"
+  },
+  {
+    "name": "TextWrappingInFrontOfText",
+    "imageAsset": "images/by-hash/4bd5a9b7f98aece9.png"
+  },
+  {
+    "name": "TextWrappingInLineWithText",
+    "imageAsset": "images/by-hash/cbb2a6f4f7fea0dd.png"
+  },
+  {
+    "name": "TextWrappingMenu",
+    "imageAsset": "images/by-hash/041cff09359041da.png"
+  },
+  {
+    "name": "TextWrappingMenuClassic",
+    "imageAsset": "images/by-hash/4bd5a9b7f98aece9.png"
+  },
+  {
+    "name": "TextWrappingNoneClassic",
+    "imageAsset": "images/by-hash/4bd5a9b7f98aece9.png"
+  },
+  {
+    "name": "TextWrappingThrough",
+    "imageAsset": "images/by-hash/2442e7012f64003e.png"
+  },
+  {
+    "name": "TextWrappingTight",
+    "imageAsset": "images/by-hash/e04e27c3058c85be.png"
+  }
+]

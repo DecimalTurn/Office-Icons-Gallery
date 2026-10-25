@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Break",
+    "imageAsset": "images/by-hash/c1486f7656137390.png"
+  },
+  {
+    "name": "BreakInsertDialog",
+    "imageAsset": "images/by-hash/1117a9c0eb047b1d.png"
+  },
+  {
+    "name": "GroupTextBreak",
+    "imageAsset": "images/by-hash/b3f1a429d1adfcaa.png"
+  },
+  {
+    "name": "PageBreakInsertOrRemove",
+    "imageAsset": "images/by-hash/1117a9c0eb047b1d.png"
+  },
+  {
+    "name": "PageBreakInsertWord",
+    "imageAsset": "images/by-hash/1117a9c0eb047b1d.png"
+  },
+  {
+    "name": "PageBreakMenu",
+    "imageAsset": "images/by-hash/1117a9c0eb047b1d.png"
+  },
+  {
+    "name": "TextBoxLinkBreak",
+    "imageAsset": "images/by-hash/dcbb67b1b7fa410c.png"
+  },
+  {
+    "name": "ViewPageBreakPreviewView",
+    "imageAsset": "images/by-hash/0ec3e0d4b2badb88.png"
+  },
+  {
+    "name": "CitationMark",
+    "imageAsset": "images/by-hash/3d3bcaf0f87623b3.png"
+  },
+  {
+    "name": "FileMarkAsFinal",
+    "imageAsset": "images/by-hash/78dff6663e341044.png"
+  },
+  {
+    "name": "FormattingMarkDropDown",
+    "imageAsset": "images/by-hash/e4d6825178600211.png"
+  },
+  {
+    "name": "IndexMarkEntry",
+    "imageAsset": "images/by-hash/fc40921640983d16.png"
+  }
+]

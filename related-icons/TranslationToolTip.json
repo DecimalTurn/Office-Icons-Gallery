@@ -1,0 +1,42 @@
+[
+  {
+    "name": "InkFeltTipPen",
+    "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+  },
+  {
+    "name": "PlaybackTipPlay",
+    "imageAsset": "images/by-hash/2f95c00be27190f4.png"
+  },
+  {
+    "name": "ScreenTip",
+    "imageAsset": "images/by-hash/5774910ce666a5d5.png"
+  },
+  {
+    "name": "TipWizardHelp",
+    "imageAsset": "images/by-hash/9d98a74fb815027f.png"
+  },
+  {
+    "name": "ChineseTranslationDialog",
+    "imageAsset": "images/by-hash/e4c009ef03535104.png"
+  },
+  {
+    "name": "ChineseTranslationDialogReadonly",
+    "imageAsset": "images/by-hash/e4c009ef03535104.png"
+  },
+  {
+    "name": "ChineseTranslationMenu",
+    "imageAsset": "images/by-hash/33487980f9deb57f.png"
+  },
+  {
+    "name": "GroupChineseTranslation",
+    "imageAsset": "images/by-hash/eea9c1e27e571eba.png"
+  },
+  {
+    "name": "GroupChineseTranslationReadonly",
+    "imageAsset": "images/by-hash/eea9c1e27e571eba.png"
+  },
+  {
+    "name": "TranslationPane",
+    "imageAsset": "images/by-hash/71defe40dc4fe8e3.png"
+  }
+]

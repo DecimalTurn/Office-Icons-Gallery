@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PersonaStatusOffline",
+    "imageAsset": "images/by-hash/c109adcafbdb0e8d.png"
+  },
+  {
+    "name": "JotSyncOffline",
+    "imageAsset": "images/by-hash/e7ec23af266404b0.png"
+  },
+  {
+    "name": "GroupSyncStatus",
+    "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+  },
+  {
+    "name": "SyncStatusIncomplete",
+    "imageAsset": "images/by-hash/2473267e2fcacf6a.png"
+  },
+  {
+    "name": "SyncStatusUpToDate",
+    "imageAsset": "images/by-hash/4bd86946952764c0.png"
+  },
+  {
+    "name": "AccessOfflineLists",
+    "imageAsset": "images/by-hash/f7fc3736c97dae97.png"
+  },
+  {
+    "name": "OfflineCacheOn",
+    "imageAsset": "images/by-hash/03bee4658242746d.png"
+  },
+  {
+    "name": "SetupClassicOffline",
+    "imageAsset": "images/by-hash/cbbdb74f0d3dd99b.png"
+  },
+  {
+    "name": "SharePointListsWorkOffline",
+    "imageAsset": "images/by-hash/eeed91e2c3dc2847.png"
+  },
+  {
+    "name": "SharePointOfflineGiveFeedback",
+    "imageAsset": "images/by-hash/275d48d742decaef.png"
+  },
+  {
+    "name": "WorkOffline",
+    "imageAsset": "images/by-hash/acd07aef3fcbd50a.png"
+  },
+  {
+    "name": "GroupCachedModeStatus",
+    "imageAsset": "images/by-hash/2b5023e578e03294.png"
+  }
+]

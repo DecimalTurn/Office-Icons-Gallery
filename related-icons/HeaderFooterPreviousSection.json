@@ -1,0 +1,50 @@
+[
+  {
+    "name": "HeaderFooterNextSection",
+    "imageAsset": "images/by-hash/aa6852b3a1d745ee.png"
+  },
+  {
+    "name": "HeaderFooterLinkToPrevious",
+    "imageAsset": "images/by-hash/e56eb24b062a60a7.png"
+  },
+  {
+    "name": "SectionMergeWithPrevious",
+    "imageAsset": "images/by-hash/02ab0d741e01026e.png"
+  },
+  {
+    "name": "FormHeaderOrFooterShowHide",
+    "imageAsset": "images/by-hash/9a9da529e09061b0.png"
+  },
+  {
+    "name": "GroupFormHeaderFooter",
+    "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+  },
+  {
+    "name": "GroupHeaderFooter",
+    "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+  },
+  {
+    "name": "GroupHeaderFooterClose",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "GroupHeaderFooterElements",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  },
+  {
+    "name": "GroupHeaderFooterExcel",
+    "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+  },
+  {
+    "name": "GroupHeaderFooterInsert",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  },
+  {
+    "name": "GroupHeaderFooterLayout",
+    "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+  },
+  {
+    "name": "GroupHeaderFooterNavigation",
+    "imageAsset": "images/by-hash/6a2a6a83cc94a2fe.png"
+  }
+]

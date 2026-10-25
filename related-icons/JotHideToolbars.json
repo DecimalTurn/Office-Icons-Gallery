@@ -1,0 +1,22 @@
+[
+  {
+    "name": "JotShowToolbars",
+    "imageAsset": "images/by-hash/0a08d8da2dcfc4f0.png"
+  },
+  {
+    "name": "JotHideBodyText",
+    "imageAsset": "images/by-hash/91419e0e6aa6586a.png"
+  },
+  {
+    "name": "JotHideNotebook",
+    "imageAsset": "images/by-hash/6143cdaaaee0a536.png"
+  },
+  {
+    "name": "JotHideTitlesInPageTabs",
+    "imageAsset": "images/by-hash/21626849cefe9706.png"
+  },
+  {
+    "name": "GroupAddInsCustomToolbars",
+    "imageAsset": "images/by-hash/23485d21e490ec41.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "VerticalSpacingMakeEqual",
+    "imageAsset": "images/by-hash/faaef2a521a93bcd.png"
+  },
+  {
+    "name": "HorizontalSpacingDecrease",
+    "imageAsset": "images/by-hash/01646d5b7afb9c08.png"
+  },
+  {
+    "name": "HorizontalSpacingIncrease",
+    "imageAsset": "images/by-hash/f7a20f25ecbdbcdc.png"
+  },
+  {
+    "name": "AdpStoredProcedureQueryMakeTable",
+    "imageAsset": "images/by-hash/8d588e96f4f6abb6.png"
+  },
+  {
+    "name": "ConditionalFormattingHighlightEqualTo",
+    "imageAsset": "images/by-hash/4463aafa23fa2389.png"
+  },
+  {
+    "name": "DatabaseMakeMdeFile",
+    "imageAsset": "images/by-hash/c9ab25d1a4d28d90.png"
+  },
+  {
+    "name": "EqualSign",
+    "imageAsset": "images/by-hash/0cf0d3bc56807fda.png"
+  },
+  {
+    "name": "MakeDefaultGroup",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "MakeSameSizeMenu",
+    "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+  },
+  {
+    "name": "MakeThisLatest",
+    "imageAsset": "images/by-hash/697dd855d429c4a9.png"
+  },
+  {
+    "name": "QueryMakeTable",
+    "imageAsset": "images/by-hash/8d588e96f4f6abb6.png"
+  },
+  {
+    "name": "RulesConditionIsEqualToGallery",
+    "imageAsset": "images/by-hash/80c5d9e9da57e20a.png"
+  }
+]

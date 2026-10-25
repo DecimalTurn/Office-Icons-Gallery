@@ -1,0 +1,50 @@
+[
+  {
+    "name": "LeftArrow2",
+    "imageAsset": "images/by-hash/1816c21da026fa8e.png"
+  },
+  {
+    "name": "ShapeDownArrow",
+    "imageAsset": "images/by-hash/ceef6ea19bc7b287.png"
+  },
+  {
+    "name": "ShapeElbowConnectorArrow",
+    "imageAsset": "images/by-hash/0b089e5883678f63.png"
+  },
+  {
+    "name": "ShapeRightArrow",
+    "imageAsset": "images/by-hash/1f8015fc6e21f1d1.png"
+  },
+  {
+    "name": "ShapeStraightConnectorArrow",
+    "imageAsset": "images/by-hash/c0361fe67ca4bdb0.png"
+  },
+  {
+    "name": "ShapeUpArrow",
+    "imageAsset": "images/by-hash/b8be3c3d362b92f1.png"
+  },
+  {
+    "name": "ShapeLeftBrace",
+    "imageAsset": "images/by-hash/93a2066f450ad771.png"
+  },
+  {
+    "name": "Arrow",
+    "imageAsset": "images/by-hash/7954a6ad4fe60647.png"
+  },
+  {
+    "name": "ArrowStyleGallery",
+    "imageAsset": "images/by-hash/027562b49e54f056.png"
+  },
+  {
+    "name": "DoubleArrow",
+    "imageAsset": "images/by-hash/d8a12eb0d19ccd67.png"
+  },
+  {
+    "name": "DownArrow2",
+    "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+  },
+  {
+    "name": "DrawArrow",
+    "imageAsset": "images/by-hash/7954a6ad4fe60647.png"
+  }
+]

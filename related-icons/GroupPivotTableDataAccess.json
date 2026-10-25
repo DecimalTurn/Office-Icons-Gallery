@@ -1,0 +1,30 @@
+[
+  {
+    "name": "AccessFormPivotTable",
+    "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+  },
+  {
+    "name": "GroupPivotChartActiveFieldAccess",
+    "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+  },
+  {
+    "name": "GroupPivotChartDataAccess",
+    "imageAsset": "images/by-hash/740882e026184acf.png"
+  },
+  {
+    "name": "GroupPivotTableActiveFieldAccess",
+    "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+  },
+  {
+    "name": "GroupPivotTableShowHideAccess",
+    "imageAsset": "images/by-hash/294ba2e393d6032b.png"
+  },
+  {
+    "name": "GroupPivotTableToolsAccess",
+    "imageAsset": "images/by-hash/f3efe98ab9433ece.png"
+  },
+  {
+    "name": "PivotCollapseFieldAccess",
+    "imageAsset": "images/by-hash/94309facf94a1836.png"
+  }
+]

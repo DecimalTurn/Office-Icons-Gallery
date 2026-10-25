@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AdpDiagramRecalculatePageBreaks",
+    "imageAsset": "images/by-hash/481fdb9f01101d71.png"
+  },
+  {
+    "name": "AdpDiagramViewPageBreaks",
+    "imageAsset": "images/by-hash/0e116039c9bf96df.png"
+  },
+  {
+    "name": "BreaksGallery",
+    "imageAsset": "images/by-hash/1117a9c0eb047b1d.png"
+  },
+  {
+    "name": "PageBreaksShow",
+    "imageAsset": "images/by-hash/0ec3e0d4b2badb88.png"
+  },
+  {
+    "name": "ShowPageBreaks",
+    "imageAsset": "images/by-hash/0e116039c9bf96df.png"
+  },
+  {
+    "name": "_3DEffectsOnOffClassic",
+    "imageAsset": "images/by-hash/80b52f37f2b6692a.png"
+  },
+  {
+    "name": "DataTypeOnOff",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "FileCloseAndLogOff",
+    "imageAsset": "images/by-hash/8b8f6fc1118fc4fc.png"
+  },
+  {
+    "name": "ListToolPreviewOff",
+    "imageAsset": "images/by-hash/d8f9c44014793142.png"
+  },
+  {
+    "name": "PivotTableGrandTotalsOffForRowsAndColumns",
+    "imageAsset": "images/by-hash/90d4275591f12576.png"
+  },
+  {
+    "name": "ReadingPaneOff",
+    "imageAsset": "images/by-hash/d8f9c44014793142.png"
+  },
+  {
+    "name": "ShadowOnOrOffClassic",
+    "imageAsset": "images/by-hash/0fcb970eb86252ad.png"
+  }
+]

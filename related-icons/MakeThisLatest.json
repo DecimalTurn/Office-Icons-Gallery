@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CompareWithLatest",
+    "imageAsset": "images/by-hash/b8cfe4606c311f5e.png"
+  },
+  {
+    "name": "SourceControlGetLatestVersion",
+    "imageAsset": "images/by-hash/a70def5def773e65.png"
+  },
+  {
+    "name": "AdpStoredProcedureQueryMakeTable",
+    "imageAsset": "images/by-hash/8d588e96f4f6abb6.png"
+  },
+  {
+    "name": "DatabaseMakeMdeFile",
+    "imageAsset": "images/by-hash/c9ab25d1a4d28d90.png"
+  },
+  {
+    "name": "HorizontalSpacingMakeEqual",
+    "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+  },
+  {
+    "name": "MakeDefaultGroup",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "MakeSameSizeMenu",
+    "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+  },
+  {
+    "name": "QueryMakeTable",
+    "imageAsset": "images/by-hash/8d588e96f4f6abb6.png"
+  },
+  {
+    "name": "VerticalSpacingMakeEqual",
+    "imageAsset": "images/by-hash/faaef2a521a93bcd.png"
+  },
+  {
+    "name": "CopyThisFolder",
+    "imageAsset": "images/by-hash/f059de2577113260.png"
+  },
+  {
+    "name": "DeleteThisFolder",
+    "imageAsset": "images/by-hash/b8d6f8c164da340f.png"
+  },
+  {
+    "name": "DeleteWorkspaceFromThisComputer",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  }
+]

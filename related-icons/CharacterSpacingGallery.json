@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AsianLayoutCharacterScaling",
+    "imageAsset": "images/by-hash/8cbf09e565cd0616.png"
+  },
+  {
+    "name": "CharacterBorder",
+    "imageAsset": "images/by-hash/254f5e98b6576c90.png"
+  },
+  {
+    "name": "CharacterCodeToggle",
+    "imageAsset": "images/by-hash/a4513abcd4ee3ea2.png"
+  },
+  {
+    "name": "CharacterShading",
+    "imageAsset": "images/by-hash/6d25e7b158c63ee6.png"
+  },
+  {
+    "name": "GroupOrgChartSpacing",
+    "imageAsset": "images/by-hash/4be828dd2621d9d0.png"
+  },
+  {
+    "name": "HorizontalSpacingDecrease",
+    "imageAsset": "images/by-hash/01646d5b7afb9c08.png"
+  },
+  {
+    "name": "HorizontalSpacingIncrease",
+    "imageAsset": "images/by-hash/f7a20f25ecbdbcdc.png"
+  },
+  {
+    "name": "HorizontalSpacingMakeEqual",
+    "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+  },
+  {
+    "name": "LineSpacing",
+    "imageAsset": "images/by-hash/2c0984713ce5172e.png"
+  },
+  {
+    "name": "LineSpacingGallery",
+    "imageAsset": "images/by-hash/2c0984713ce5172e.png"
+  },
+  {
+    "name": "LineSpacingGalleryPowerPoint",
+    "imageAsset": "images/by-hash/2c0984713ce5172e.png"
+  },
+  {
+    "name": "LineSpacingMenu",
+    "imageAsset": "images/by-hash/2c0984713ce5172e.png"
+  }
+]

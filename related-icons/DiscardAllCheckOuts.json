@@ -1,0 +1,50 @@
+[
+  {
+    "name": "DiscardCheckOut",
+    "imageAsset": "images/by-hash/e50e1b451754030b.png"
+  },
+  {
+    "name": "DiscardCheckOutMenu",
+    "imageAsset": "images/by-hash/e50e1b451754030b.png"
+  },
+  {
+    "name": "FileCheckOutDiscard",
+    "imageAsset": "images/by-hash/e50e1b451754030b.png"
+  },
+  {
+    "name": "ChangesDiscardAndRefresh",
+    "imageAsset": "images/by-hash/a9a39c031d036e56.png"
+  },
+  {
+    "name": "DiscardTableChanges",
+    "imageAsset": "images/by-hash/e50e1b451754030b.png"
+  },
+  {
+    "name": "FileDiscardCachedChanges",
+    "imageAsset": "images/by-hash/e7b96ed34b3b06b2.png"
+  },
+  {
+    "name": "MeetingsToolAppointmentDiscardChanges",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "PivotTableDiscardChanges",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "SaveAsDiscardNoWarn",
+    "imageAsset": "images/by-hash/a8cd2f77fc7baebd.png"
+  },
+  {
+    "name": "SharePointListsDiscardAllChanges",
+    "imageAsset": "images/by-hash/e50e1b451754030b.png"
+  },
+  {
+    "name": "SharePointListsDiscardAllChangesAndRefresh",
+    "imageAsset": "images/by-hash/a9a39c031d036e56.png"
+  },
+  {
+    "name": "SharePointListsDiscardChangesMenu",
+    "imageAsset": "images/by-hash/e50e1b451754030b.png"
+  }
+]

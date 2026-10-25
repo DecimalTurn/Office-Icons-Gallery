@@ -1,0 +1,50 @@
+[
+  {
+    "name": "LaunchFormatBackground",
+    "imageAsset": "images/by-hash/f49b012b69437cca.png"
+  },
+  {
+    "name": "SlideBackgroundFormatDialog",
+    "imageAsset": "images/by-hash/f49b012b69437cca.png"
+  },
+  {
+    "name": "ApplyImageBackgroundFill",
+    "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+  },
+  {
+    "name": "ApplyImageBackgroundTile",
+    "imageAsset": "images/by-hash/18e3f90d57530743.png"
+  },
+  {
+    "name": "ApplyImageToBackgroundMenu",
+    "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+  },
+  {
+    "name": "BackgroundImageGallery",
+    "imageAsset": "images/by-hash/413b79a699148fbf.png"
+  },
+  {
+    "name": "BackgroundPageInsert",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "BackgroundRemovalClose",
+    "imageAsset": "images/by-hash/48eab841d02031df.png"
+  },
+  {
+    "name": "BackgroundSound",
+    "imageAsset": "images/by-hash/a861dadff9421bea.png"
+  },
+  {
+    "name": "BrowseBackgroundImage",
+    "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+  },
+  {
+    "name": "GroupBackground",
+    "imageAsset": "images/by-hash/f49b012b69437cca.png"
+  },
+  {
+    "name": "GroupBackgroundRemovalClose",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  }
+]

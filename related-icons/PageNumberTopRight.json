@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CustomPageNumberTopGallery",
+    "imageAsset": "images/by-hash/fb67f616e4a4e0ae.png"
+  },
+  {
+    "name": "PageNumberTopCenter",
+    "imageAsset": "images/by-hash/ee91b7c98c62c655.png"
+  },
+  {
+    "name": "PageNumberTopLeft",
+    "imageAsset": "images/by-hash/3fbf4319b37200d4.png"
+  },
+  {
+    "name": "SaveSelectionToPageNumberTop",
+    "imageAsset": "images/by-hash/d93ef64e3b58678d.png"
+  },
+  {
+    "name": "PageNumberBottomRight",
+    "imageAsset": "images/by-hash/caa16ed695e0f7d2.png"
+  },
+  {
+    "name": "CreateFormNavigationTopRight",
+    "imageAsset": "images/by-hash/27cd7f759717eb5d.png"
+  },
+  {
+    "name": "CreateFormNavigationTopRightWeb",
+    "imageAsset": "images/by-hash/27cd7f759717eb5d.png"
+  },
+  {
+    "name": "TableCellAlignTopRight",
+    "imageAsset": "images/by-hash/2f1f90312be0506f.png"
+  },
+  {
+    "name": "TextBoxAlignTopRight",
+    "imageAsset": "images/by-hash/2f1f90312be0506f.png"
+  },
+  {
+    "name": "CalculatedNumber",
+    "imageAsset": "images/by-hash/5f241bde88d838b2.png"
+  },
+  {
+    "name": "ContactCardCallNewNumber",
+    "imageAsset": "images/by-hash/af23a5423f4b1e21.png"
+  },
+  {
+    "name": "CustomPageNumberBottomGallery",
+    "imageAsset": "images/by-hash/2db8e446d7f58899.png"
+  }
+]

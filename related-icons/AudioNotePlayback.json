@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AudioNoteDelete",
+    "imageAsset": "images/by-hash/3909ecc087b3166e.png"
+  },
+  {
+    "name": "GroupPlayback",
+    "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+  },
+  {
+    "name": "JotANStopPlayback",
+    "imageAsset": "images/by-hash/3814a7700dd50fe4.png"
+  },
+  {
+    "name": "PlaybackTipPlay",
+    "imageAsset": "images/by-hash/2f95c00be27190f4.png"
+  },
+  {
+    "name": "AnimationAudio",
+    "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+  },
+  {
+    "name": "AudioAndVideoGiveFeedback",
+    "imageAsset": "images/by-hash/17cc4e91fcc92c9b.png"
+  },
+  {
+    "name": "AudioBookmarkAdd",
+    "imageAsset": "images/by-hash/6c0673dc10bb736d.png"
+  },
+  {
+    "name": "AudioBookmarkRemove",
+    "imageAsset": "images/by-hash/268c751644bda49a.png"
+  },
+  {
+    "name": "AudioFadeInTime",
+    "imageAsset": "images/by-hash/98ded0db3abf56e4.png"
+  },
+  {
+    "name": "AudioFadeOutTime",
+    "imageAsset": "images/by-hash/d6721e5b45ce0e97.png"
+  },
+  {
+    "name": "AudioInsert",
+    "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+  },
+  {
+    "name": "AudioRecordingInsert",
+    "imageAsset": "images/by-hash/948196d5243d4a4c.png"
+  }
+]

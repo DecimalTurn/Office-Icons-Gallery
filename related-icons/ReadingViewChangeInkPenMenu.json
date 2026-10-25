@@ -1,0 +1,50 @@
+[
+  {
+    "name": "InkBallpointPen",
+    "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+  },
+  {
+    "name": "InkFeltTipPen",
+    "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+  },
+  {
+    "name": "InkPen0",
+    "imageAsset": "images/by-hash/70c81a5311820d0c.png"
+  },
+  {
+    "name": "InkPen1",
+    "imageAsset": "images/by-hash/70c81a5311820d0c.png"
+  },
+  {
+    "name": "InkPen2",
+    "imageAsset": "images/by-hash/70c81a5311820d0c.png"
+  },
+  {
+    "name": "InkPen3",
+    "imageAsset": "images/by-hash/70c81a5311820d0c.png"
+  },
+  {
+    "name": "InkPen4",
+    "imageAsset": "images/by-hash/70c81a5311820d0c.png"
+  },
+  {
+    "name": "InkSelectBallpointPen",
+    "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+  },
+  {
+    "name": "InkSelectFelttipPen",
+    "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+  },
+  {
+    "name": "ReviewInkCommentPen",
+    "imageAsset": "images/by-hash/70c81a5311820d0c.png"
+  },
+  {
+    "name": "InkStopInkingReadingView",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "FavoritePen1",
+    "imageAsset": "images/by-hash/1b8fcbd11730172a.png"
+  }
+]

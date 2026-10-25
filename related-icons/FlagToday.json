@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CalendarToolToday",
+    "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+  },
+  {
+    "name": "FlagCustom",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "FlagMessage",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "FlagNextWeek",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "FlagNoDate",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "FlagThisWeek",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "FlagTomorrow",
+    "imageAsset": "images/by-hash/aab3f29e91f304f1.png"
+  },
+  {
+    "name": "GotoOutlookToday",
+    "imageAsset": "images/by-hash/a1240d244a3db79e.png"
+  },
+  {
+    "name": "MeetingsToolToday",
+    "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+  },
+  {
+    "name": "OutlookTaskToday",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "OutlookTaskTodayContextual",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "QuickSearchCompletedToday",
+    "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+  }
+]

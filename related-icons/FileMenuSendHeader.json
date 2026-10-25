@@ -1,0 +1,34 @@
+[
+  {
+    "name": "FileMenuPublishHeader",
+    "imageAsset": "images/by-hash/b9b0aea1b63f72df.png"
+  },
+  {
+    "name": "FileMenuServerTasksHeader",
+    "imageAsset": "images/by-hash/374c984d4a9fc494.png"
+  },
+  {
+    "name": "HeaderFooterFileNameInsert",
+    "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+  },
+  {
+    "name": "HeaderFooterFilePathInsert",
+    "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+  },
+  {
+    "name": "FileSendAsAttachment",
+    "imageAsset": "images/by-hash/5551d7c978f81380.png"
+  },
+  {
+    "name": "FileSendMenu",
+    "imageAsset": "images/by-hash/17e648f52c2a4500.png"
+  },
+  {
+    "name": "FileSendToPowerPoint",
+    "imageAsset": "images/by-hash/5ba3effcbc766f9e.png"
+  },
+  {
+    "name": "OmsFileSend",
+    "imageAsset": "images/by-hash/7432f97e3bc97d1d.png"
+  }
+]

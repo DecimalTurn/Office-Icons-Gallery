@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OpenInBrowserOutlook",
+    "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+  },
+  {
+    "name": "OutlookTaskOpen",
+    "imageAsset": "images/by-hash/ccd7997373e69eaa.png"
+  },
+  {
+    "name": "OutlookTaskOpenContextual",
+    "imageAsset": "images/by-hash/ccd7997373e69eaa.png"
+  },
+  {
+    "name": "CloseOutlookDataFile",
+    "imageAsset": "images/by-hash/3c506956af95ad34.png"
+  },
+  {
+    "name": "NewOutlookDataFile",
+    "imageAsset": "images/by-hash/eb9bf265cbaf32e3.png"
+  },
+  {
+    "name": "FileOpen",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "FileOpenDatabase",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "FileOpenDirectly",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "FileOpenRecentFile",
+    "imageAsset": "images/by-hash/665d74369cb8bd63.png"
+  },
+  {
+    "name": "FileOpenUsingBackstage",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "FileSaveAsExcelOpenDocumentSpreadsheet",
+    "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+  },
+  {
+    "name": "FileSaveAsPowerPointOpenDocumentPresentation",
+    "imageAsset": "images/by-hash/024b979096487fc1.png"
+  }
+]

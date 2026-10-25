@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AddInManager",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "CommunicationsManager",
+    "imageAsset": "images/by-hash/c9127e4088b92041.png"
+  },
+  {
+    "name": "DatabaseLinedTableManager",
+    "imageAsset": "images/by-hash/c96b1ecf18078b5c.png"
+  },
+  {
+    "name": "DatabaseSwitchboardManager",
+    "imageAsset": "images/by-hash/cb66f7ea351b8b1d.png"
+  },
+  {
+    "name": "DataConnectionsManager",
+    "imageAsset": "images/by-hash/7921b73a38f534b8.png"
+  },
+  {
+    "name": "DataMacroManager",
+    "imageAsset": "images/by-hash/08116315c572a271.png"
+  },
+  {
+    "name": "GraphicsManagerShowHide",
+    "imageAsset": "images/by-hash/42076ad6f67fb0c2.png"
+  },
+  {
+    "name": "RulesManager",
+    "imageAsset": "images/by-hash/b980d48b0d21d0d9.png"
+  },
+  {
+    "name": "AdpDiagramNameOnly",
+    "imageAsset": "images/by-hash/01ce8db5665e111c.png"
+  },
+  {
+    "name": "AllModuleNameItems",
+    "imageAsset": "images/by-hash/7d0b88f74fa22558.png"
+  },
+  {
+    "name": "ControlPropertyDisplayTextFieldName",
+    "imageAsset": "images/by-hash/828e97e4441434cb.png"
+  },
+  {
+    "name": "HeaderFooterFileNameInsert",
+    "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+  }
+]

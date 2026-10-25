@@ -1,0 +1,22 @@
+[
+  {
+    "name": "GroupOffset",
+    "imageAsset": "images/by-hash/6681fe487d168071.png"
+  },
+  {
+    "name": "OffsetBottom",
+    "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+  },
+  {
+    "name": "OffsetRight",
+    "imageAsset": "images/by-hash/4b95fb857b0f2970.png"
+  },
+  {
+    "name": "OffsetTop",
+    "imageAsset": "images/by-hash/25cd28379a50db64.png"
+  },
+  {
+    "name": "ShapesObjectOffset",
+    "imageAsset": "images/by-hash/b3c2b4c12f2f3b87.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ControlPropertyMasterDetail",
+    "imageAsset": "images/by-hash/66a2bd0368cd0e85.png"
+  },
+  {
+    "name": "GroupMasterDetail",
+    "imageAsset": "images/by-hash/66a2bd0368cd0e85.png"
+  },
+  {
+    "name": "MasterDetail",
+    "imageAsset": "images/by-hash/66a2bd0368cd0e85.png"
+  },
+  {
+    "name": "OutlineHideDetail",
+    "imageAsset": "images/by-hash/94309facf94a1836.png"
+  },
+  {
+    "name": "OutlineShowDetail",
+    "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+  },
+  {
+    "name": "PivotChartDatapointShowDetail",
+    "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+  },
+  {
+    "name": "PivotMoveToDetailArea",
+    "imageAsset": "images/by-hash/e3a8c78fb38207b6.png"
+  },
+  {
+    "name": "GroupResourceUsageShowHide",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "GroupResourceUsageViewDetails",
+    "imageAsset": "images/by-hash/f5fd508399661656.png"
+  },
+  {
+    "name": "GroupTaskUsageShowHide",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "GroupTaskUsageViewDetails",
+    "imageAsset": "images/by-hash/f5fd508399661656.png"
+  },
+  {
+    "name": "GroupUsageViewFormat",
+    "imageAsset": "images/by-hash/f5fd508399661656.png"
+  }
+]

@@ -85,21 +85,32 @@ test("metadata contains only keywords and excludes short icon-name words", async
   ]);
 });
 
-test("never suggests placeholder images as related icons", async ({ request }) => {
+test("stores related icons in per-icon sidecar files", async ({ request }) => {
   const response = await request.get("/icon-metadata.json");
   expect(response.ok()).toBe(true);
 
   const metadata = await response.json();
+  expect(metadata.every((icon) => !Object.hasOwn(icon, "relatedIcons"))).toBe(true);
+  const relatedDirectory = path.join(__dirname, "..", "related-icons");
+  const relatedFileNames = fs.readdirSync(relatedDirectory).filter((fileName) => fileName.endsWith(".json"));
+  const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
   const placeholderNames = new Set(metadata
     .filter((icon) => icon.imageStatus === "placeholder")
     .map((icon) => icon.name));
-  const invalidSuggestions = metadata.flatMap((icon) =>
-    (icon.relatedIcons || [])
-      .filter((relatedName) => placeholderNames.has(relatedName))
-      .map((relatedName) => `${icon.name}: ${relatedName}`)
-  );
-
+  const invalidSuggestions = [];
+  for (const fileName of relatedFileNames) {
+    const iconName = path.basename(fileName, ".json");
+    const relatedIcons = JSON.parse(fs.readFileSync(path.join(relatedDirectory, fileName), "utf8"));
+    expect(metadataByName.has(iconName)).toBe(true);
+    expect(relatedIcons.length).toBeGreaterThan(0);
+    for (const relatedIcon of relatedIcons) {
+      if (placeholderNames.has(relatedIcon.name) || metadataByName.get(relatedIcon.name)?.imageAsset !== relatedIcon.imageAsset) {
+        invalidSuggestions.push(`${iconName}: ${relatedIcon.name}`);
+      }
+    }
+  }
   expect(placeholderNames).toContain("ClientQuery");
+  expect(fs.existsSync(path.join(relatedDirectory, "Club.json"))).toBe(false);
   expect(invalidSuggestions).toEqual([]);
 });
 

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "RoutingDirectionLeft",
+    "imageAsset": "images/by-hash/85be4ebff83525a1.png"
+  },
+  {
+    "name": "RoutingDirectionRight",
+    "imageAsset": "images/by-hash/f2898bf2a96aadd5.png"
+  },
+  {
+    "name": "RoutingDirectionUp",
+    "imageAsset": "images/by-hash/c3b44289c5a381f2.png"
+  },
+  {
+    "name": "GroupLayoutRouting",
+    "imageAsset": "images/by-hash/a8548e1f3b219e8d.png"
+  },
+  {
+    "name": "PageSetupLayoutAndRoutingDialog",
+    "imageAsset": "images/by-hash/a8548e1f3b219e8d.png"
+  },
+  {
+    "name": "RoutingSlip",
+    "imageAsset": "images/by-hash/676a2358a8eb6d14.png"
+  },
+  {
+    "name": "_3DDirectionGalleryClassic",
+    "imageAsset": "images/by-hash/402edaf5c50287a6.png"
+  },
+  {
+    "name": "_3DExtrusionDirectionClassic",
+    "imageAsset": "images/by-hash/402edaf5c50287a6.png"
+  },
+  {
+    "name": "CrossFunctionalFlowchartDirection",
+    "imageAsset": "images/by-hash/65e909d2c7efca22.png"
+  },
+  {
+    "name": "CrossFunctionalFlowchartVerticalDirection",
+    "imageAsset": "images/by-hash/5494baebb98fef03.png"
+  },
+  {
+    "name": "GroupViewDirection",
+    "imageAsset": "images/by-hash/592601d3eae5f5bc.png"
+  },
+  {
+    "name": "PivotDiagramDirection",
+    "imageAsset": "images/by-hash/c208912ec62178ed.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JotSyncIncomplete",
+    "imageAsset": "images/by-hash/9e7a60267d388ce3.png"
+  },
+  {
+    "name": "QuickSearchAllIncomplete",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "SyncStatusIncomplete",
+    "imageAsset": "images/by-hash/2473267e2fcacf6a.png"
+  },
+  {
+    "name": "TaskMoveIncompletePartsToStatusDate",
+    "imageAsset": "images/by-hash/f904ef0706eb5c45.png"
+  },
+  {
+    "name": "LogicChangeRestURLAction",
+    "imageAsset": "images/by-hash/29d7edd7ebfcda27.png"
+  },
+  {
+    "name": "LogicCloseFormAction",
+    "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+  },
+  {
+    "name": "LogicHideControlAction",
+    "imageAsset": "images/by-hash/086b8afc0fc67633.png"
+  },
+  {
+    "name": "LogicNew",
+    "imageAsset": "images/by-hash/6556735107a0f942.png"
+  },
+  {
+    "name": "LogicOpenAnotherFormAction",
+    "imageAsset": "images/by-hash/44f7e04d71af0ce4.png"
+  },
+  {
+    "name": "LogicQueryDataAction",
+    "imageAsset": "images/by-hash/b33769799ec9cc88.png"
+  },
+  {
+    "name": "LogicSetFieldValueAction",
+    "imageAsset": "images/by-hash/3b14a2807b82ee8b.png"
+  },
+  {
+    "name": "LogicShowDialogBoxAction",
+    "imageAsset": "images/by-hash/f6ff25ee185c491a.png"
+  }
+]

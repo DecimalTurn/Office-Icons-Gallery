@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FPTable",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "FPTableAutoFormat",
+    "imageAsset": "images/by-hash/0ba6ee111531f8b8.png"
+  },
+  {
+    "name": "BibliographyAddNewSource",
+    "imageAsset": "images/by-hash/07772fa5f13c3b98.png"
+  },
+  {
+    "name": "CatalogMergeOpenDataSource",
+    "imageAsset": "images/by-hash/ed662b1b3d27fe6e.png"
+  },
+  {
+    "name": "ChartEditDataSource",
+    "imageAsset": "images/by-hash/48a32676dd8b617d.png"
+  },
+  {
+    "name": "ChartSourceDataContextualMenu",
+    "imageAsset": "images/by-hash/48a32676dd8b617d.png"
+  },
+  {
+    "name": "DataFormSource",
+    "imageAsset": "images/by-hash/e25f6c250b708ee2.png"
+  },
+  {
+    "name": "DataSourceCatalogCopyModify",
+    "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+  },
+  {
+    "name": "DataSourceCatalogDataBase",
+    "imageAsset": "images/by-hash/141eb9b927f43b2a.png"
+  },
+  {
+    "name": "DataSourceCatalogManage",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "DataSourceCatalogProperties",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "DataSourceCatalogRemove",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  }
+]

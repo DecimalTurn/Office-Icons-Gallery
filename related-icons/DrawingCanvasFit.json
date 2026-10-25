@@ -1,0 +1,50 @@
+[
+  {
+    "name": "DrawingCanvasExpand",
+    "imageAsset": "images/by-hash/2cbd4e11686252de.png"
+  },
+  {
+    "name": "DrawingCanvasInsert",
+    "imageAsset": "images/by-hash/d9469ffed7b9b79b.png"
+  },
+  {
+    "name": "DrawingCanvasResize",
+    "imageAsset": "images/by-hash/96077b881b235e69.png"
+  },
+  {
+    "name": "DrawingCanvasScale",
+    "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+  },
+  {
+    "name": "InsertDrawingCanvas",
+    "imageAsset": "images/by-hash/7c09e8bd015cd422.png"
+  },
+  {
+    "name": "JotMergeDrawingCanvas",
+    "imageAsset": "images/by-hash/ba8dd2f2697e6449.png"
+  },
+  {
+    "name": "ScaleDrawingCanvas",
+    "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+  },
+  {
+    "name": "PageFitToDrawing",
+    "imageAsset": "images/by-hash/a5261425578a6472.png"
+  },
+  {
+    "name": "GalleryAllShapesAndCanvas",
+    "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+  },
+  {
+    "name": "AsianLayoutFitText",
+    "imageAsset": "images/by-hash/f65954aad1f1e694.png"
+  },
+  {
+    "name": "BestFit",
+    "imageAsset": "images/by-hash/317f27be1f20e9a3.png"
+  },
+  {
+    "name": "CalendarViewWeekHeightBestFit",
+    "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+  }
+]

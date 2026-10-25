@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OrgChartVerticalLeftStack",
+    "imageAsset": "images/by-hash/1397174e228219e1.png"
+  },
+  {
+    "name": "OrgChartVerticalRight",
+    "imageAsset": "images/by-hash/f82e0174fcb69fe3.png"
+  },
+  {
+    "name": "OrgChartVerticalRightJog",
+    "imageAsset": "images/by-hash/104b22e719bd3a24.png"
+  },
+  {
+    "name": "OrgChartVerticalStaffRight",
+    "imageAsset": "images/by-hash/89bc421a00b4ef2c.png"
+  },
+  {
+    "name": "OrgChartVerticalGallery",
+    "imageAsset": "images/by-hash/f82e0174fcb69fe3.png"
+  },
+  {
+    "name": "OrgChartVerticalLeft",
+    "imageAsset": "images/by-hash/d7797fe9ebddeb1b.png"
+  },
+  {
+    "name": "OrgChartVerticalLeftJog",
+    "imageAsset": "images/by-hash/212ef426faccbc0c.png"
+  },
+  {
+    "name": "OrgChartVerticalStaffLeft",
+    "imageAsset": "images/by-hash/71b8adc8585106cc.png"
+  },
+  {
+    "name": "OrgChartHorizontalRight",
+    "imageAsset": "images/by-hash/dd34513b2e2f14f8.png"
+  },
+  {
+    "name": "OrgChartHorizontalRightAlt",
+    "imageAsset": "images/by-hash/1199350f2dbc8498.png"
+  },
+  {
+    "name": "OrgChartReportMoveRight",
+    "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+  },
+  {
+    "name": "FormatOrgChart",
+    "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+  }
+]

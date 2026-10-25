@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupWorkflowTaskSummaryEdit",
+    "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+  },
+  {
+    "name": "GroupWorkflowTaskSummarySave",
+    "imageAsset": "images/by-hash/246a59d100792609.png"
+  },
+  {
+    "name": "GroupWorkflowSummaryActions",
+    "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+  },
+  {
+    "name": "GroupWorkflowSummaryEdit",
+    "imageAsset": "images/by-hash/149f3b0cae9e185f.png"
+  },
+  {
+    "name": "GroupWorkflowSummaryManage",
+    "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+  },
+  {
+    "name": "GroupWorkflowSummarySave",
+    "imageAsset": "images/by-hash/246a59d100792609.png"
+  },
+  {
+    "name": "WorkflowSummary",
+    "imageAsset": "images/by-hash/6532a6561e20fa90.png"
+  },
+  {
+    "name": "WorkflowSummaryDeleteWorkflow",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "SummaryTaskInsert",
+    "imageAsset": "images/by-hash/93710ee86e9abb5d.png"
+  },
+  {
+    "name": "TaskSummaryCreateFormField",
+    "imageAsset": "images/by-hash/8166418eccf14f70.png"
+  },
+  {
+    "name": "TaskSummaryCreateOutcome",
+    "imageAsset": "images/by-hash/67c24c68c08b69a8.png"
+  },
+  {
+    "name": "TaskSummaryDeleteSelf",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  }
+]

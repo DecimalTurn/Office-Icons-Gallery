@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AssignTask",
+    "imageAsset": "images/by-hash/9960556f722cbf0b.png"
+  },
+  {
+    "name": "ResourcesAssign",
+    "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+  },
+  {
+    "name": "FacilitiesImportData",
+    "imageAsset": "images/by-hash/68574b4538de7a49.png"
+  },
+  {
+    "name": "FacilitiesLabelShapes",
+    "imageAsset": "images/by-hash/b641fa2969faccdd.png"
+  },
+  {
+    "name": "FacilitiesRefresh",
+    "imageAsset": "images/by-hash/740882e026184acf.png"
+  },
+  {
+    "name": "GroupFacilitiesData",
+    "imageAsset": "images/by-hash/68574b4538de7a49.png"
+  },
+  {
+    "name": "GroupFacilitiesManage",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "GroupFacilitiesShapes",
+    "imageAsset": "images/by-hash/b641fa2969faccdd.png"
+  },
+  {
+    "name": "ArrangeByCategory",
+    "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+  },
+  {
+    "name": "BlogCategoryInsert",
+    "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+  },
+  {
+    "name": "CategoryCollapse",
+    "imageAsset": "images/by-hash/f4dd61ec3a6e3b40.png"
+  },
+  {
+    "name": "ConnectOtherSitesCategory",
+    "imageAsset": "images/by-hash/ba3eb9d46af27681.png"
+  }
+]

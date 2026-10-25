@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ConflictsAcceptAndMoveToNext",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "ConflictsRejectAndMoveToNext",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "ConflictsAccept",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "ConflictsAcceptMenu",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "ConflictsPrevious",
+    "imageAsset": "images/by-hash/730591bb5fb612a1.png"
+  },
+  {
+    "name": "ConflictsReject",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "ConflictsRejectMenu",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "GroupConflicts",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "GroupConflictsClose",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "GroupResolveConflictsAndErrors",
+    "imageAsset": "images/by-hash/a9d09f6383031451.png"
+  },
+  {
+    "name": "GroupResolveToolConflictsAndErrors",
+    "imageAsset": "images/by-hash/10c4fe9c1c1d53e3.png"
+  },
+  {
+    "name": "ReplicationResolveConflicts",
+    "imageAsset": "images/by-hash/b0030a5966b54c8c.png"
+  }
+]

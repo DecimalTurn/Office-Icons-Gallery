@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GanttTaskDelete",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "GanttTaskIndent",
+    "imageAsset": "images/by-hash/fe43016cac7f8388.png"
+  },
+  {
+    "name": "GanttTaskLink",
+    "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+  },
+  {
+    "name": "GanttTaskNew",
+    "imageAsset": "images/by-hash/e0650d801fd4cfb6.png"
+  },
+  {
+    "name": "GanttTaskOutdent",
+    "imageAsset": "images/by-hash/48dc8ebac3968970.png"
+  },
+  {
+    "name": "GanttTaskUnlink",
+    "imageAsset": "images/by-hash/dcbb67b1b7fa410c.png"
+  },
+  {
+    "name": "ActiveXScrollBar",
+    "imageAsset": "images/by-hash/37c2f71d4bc88ce8.png"
+  },
+  {
+    "name": "FormControlScrollBar",
+    "imageAsset": "images/by-hash/37c2f71d4bc88ce8.png"
+  },
+  {
+    "name": "JotScrollHalfPage",
+    "imageAsset": "images/by-hash/9e55cd5892ffb47d.png"
+  },
+  {
+    "name": "GanttBarColorPicker",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "GanttBarFormat",
+    "imageAsset": "images/by-hash/3a702ed22fd2622d.png"
+  },
+  {
+    "name": "GanttChartGallery",
+    "imageAsset": "images/by-hash/1048ea84b87d7f16.png"
+  }
+]

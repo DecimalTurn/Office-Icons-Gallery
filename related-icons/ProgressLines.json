@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FilesToolShowDownloadProgress",
+    "imageAsset": "images/by-hash/4ad3d28435029ee8.png"
+  },
+  {
+    "name": "ProgressLine",
+    "imageAsset": "images/by-hash/4a70808580b0d714.png"
+  },
+  {
+    "name": "PwaProjectProgressUpdate",
+    "imageAsset": "images/by-hash/71a513fe9da318b8.png"
+  },
+  {
+    "name": "ReportInProgressGallery",
+    "imageAsset": "images/by-hash/23bf74d8802ab56d.png"
+  },
+  {
+    "name": "ShowProgress",
+    "imageAsset": "images/by-hash/4ad3d28435029ee8.png"
+  },
+  {
+    "name": "ChartFormatDropLines",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartFormatLeaderLines",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartLines",
+    "imageAsset": "images/by-hash/89c41117d6409be5.png"
+  },
+  {
+    "name": "ConnectorCurvedLines",
+    "imageAsset": "images/by-hash/3752d4301ce9294c.png"
+  },
+  {
+    "name": "ConnectorStraightLines",
+    "imageAsset": "images/by-hash/1486805d920ad3d9.png"
+  },
+  {
+    "name": "DistributeAllLinesParagraph",
+    "imageAsset": "images/by-hash/f65954aad1f1e694.png"
+  },
+  {
+    "name": "JumpsAddToHorizontalLines",
+    "imageAsset": "images/by-hash/78e259cccdea5789.png"
+  }
+]

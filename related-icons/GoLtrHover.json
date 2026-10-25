@@ -1,0 +1,50 @@
+[
+  {
+    "name": "StopLtrHover",
+    "imageAsset": "images/by-hash/9679e00de8896fa3.png"
+  },
+  {
+    "name": "GoRtlHover",
+    "imageAsset": "images/by-hash/c8c9a4a8dee4e65b.png"
+  },
+  {
+    "name": "GoLtrDown",
+    "imageAsset": "images/by-hash/ed537679509c0135.png"
+  },
+  {
+    "name": "GoLtrFocus",
+    "imageAsset": "images/by-hash/8ac1c6e151bfa73f.png"
+  },
+  {
+    "name": "ControlPropertyPictureButtonBrowseHoverPicture",
+    "imageAsset": "images/by-hash/4feff2afcc852911.png"
+  },
+  {
+    "name": "StopRtlHover",
+    "imageAsset": "images/by-hash/9679e00de8896fa3.png"
+  },
+  {
+    "name": "StopLtrDown",
+    "imageAsset": "images/by-hash/5c3d925427fe2363.png"
+  },
+  {
+    "name": "StopLtrFocus",
+    "imageAsset": "images/by-hash/b9c411dbae2bbfc2.png"
+  },
+  {
+    "name": "CatalogMergeGoToFirstRecord",
+    "imageAsset": "images/by-hash/1720f362fe7a57f6.png"
+  },
+  {
+    "name": "CatalogMergeGoToLastRecord",
+    "imageAsset": "images/by-hash/885b15570afb85d5.png"
+  },
+  {
+    "name": "CatalogMergeGoToNextRecord",
+    "imageAsset": "images/by-hash/0f42881fbb368916.png"
+  },
+  {
+    "name": "CatalogMergeGoToPreviousRecord",
+    "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+  }
+]

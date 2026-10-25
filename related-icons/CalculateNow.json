@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CalculateFull",
+    "imageAsset": "images/by-hash/99067d2863a50f42.png"
+  },
+  {
+    "name": "CalculateSheet",
+    "imageAsset": "images/by-hash/75a85b739931966b.png"
+  },
+  {
+    "name": "PivotTableCalculateChanges",
+    "imageAsset": "images/by-hash/a12619fc5b31aabc.png"
+  },
+  {
+    "name": "ProjectCalculate",
+    "imageAsset": "images/by-hash/dfee45b4ed63677f.png"
+  },
+  {
+    "name": "AutoFormatNow",
+    "imageAsset": "images/by-hash/925884a9fc60d012.png"
+  },
+  {
+    "name": "CalendarViewLayoutNow",
+    "imageAsset": "images/by-hash/e1723442c7a5a838.png"
+  },
+  {
+    "name": "ConferenceMeetNow",
+    "imageAsset": "images/by-hash/422acfe07d0b8745.png"
+  },
+  {
+    "name": "ContactCardShareNow",
+    "imageAsset": "images/by-hash/4bf5763d1a3376fb.png"
+  },
+  {
+    "name": "LevelNow",
+    "imageAsset": "images/by-hash/b2148c39a7088689.png"
+  },
+  {
+    "name": "RelatedTasksLayoutNow",
+    "imageAsset": "images/by-hash/ca4a3e13618c0d37.png"
+  },
+  {
+    "name": "ReplicationSynchronizeNow",
+    "imageAsset": "images/by-hash/8375af0816f794d8.png"
+  },
+  {
+    "name": "RunRulesNow",
+    "imageAsset": "images/by-hash/fa47cdc41633e860.png"
+  }
+]

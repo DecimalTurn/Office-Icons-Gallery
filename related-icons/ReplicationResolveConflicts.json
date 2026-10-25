@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupResolveConflictsAndErrors",
+    "imageAsset": "images/by-hash/a9d09f6383031451.png"
+  },
+  {
+    "name": "GroupResolveToolConflictsAndErrors",
+    "imageAsset": "images/by-hash/10c4fe9c1c1d53e3.png"
+  },
+  {
+    "name": "ReplicationCreateReplica",
+    "imageAsset": "images/by-hash/5e183d766493551d.png"
+  },
+  {
+    "name": "ReplicationOptionsMenu",
+    "imageAsset": "images/by-hash/144c3a7e929ba7d0.png"
+  },
+  {
+    "name": "ReplicationRecoverDesignMaster",
+    "imageAsset": "images/by-hash/9434d12e681942fa.png"
+  },
+  {
+    "name": "ReplicationSynchronizeNow",
+    "imageAsset": "images/by-hash/8375af0816f794d8.png"
+  },
+  {
+    "name": "ResolveBusinessDataEntityInstanceConflict",
+    "imageAsset": "images/by-hash/cc7f9b56cf5f0e52.png"
+  },
+  {
+    "name": "ResolveBusinessDataEntityInstanceError",
+    "imageAsset": "images/by-hash/a9d09f6383031451.png"
+  },
+  {
+    "name": "ResolveConflict",
+    "imageAsset": "images/by-hash/78dff6663e341044.png"
+  },
+  {
+    "name": "ResolveConflictOrError",
+    "imageAsset": "images/by-hash/a9d09f6383031451.png"
+  },
+  {
+    "name": "ResolveLater",
+    "imageAsset": "images/by-hash/fb2e28f2746b7a79.png"
+  },
+  {
+    "name": "ResolveSyncError",
+    "imageAsset": "images/by-hash/10c4fe9c1c1d53e3.png"
+  }
+]

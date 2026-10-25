@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GetExternalDataExistingConnections",
+    "imageAsset": "images/by-hash/5b478506b12c635c.png"
+  },
+  {
+    "name": "GetExternalDataFromAccess",
+    "imageAsset": "images/by-hash/720ec1122b4c64ff.png"
+  },
+  {
+    "name": "GetExternalDataFromOtherSources",
+    "imageAsset": "images/by-hash/4a0cf8d8cb920d82.png"
+  },
+  {
+    "name": "GetExternalDataFromText",
+    "imageAsset": "images/by-hash/e2858bfee74a6c9d.png"
+  },
+  {
+    "name": "GetExternalDataFromWeb",
+    "imageAsset": "images/by-hash/e8ffa00f6655dab8.png"
+  },
+  {
+    "name": "GetExternalDataImportClassic",
+    "imageAsset": "images/by-hash/25a03f0b5effe4aa.png"
+  },
+  {
+    "name": "GetLinks",
+    "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+  },
+  {
+    "name": "GroupGetExternalData",
+    "imageAsset": "images/by-hash/5b478506b12c635c.png"
+  },
+  {
+    "name": "PivotTableGenerateGetPivotData",
+    "imageAsset": "images/by-hash/753d13224ad86f72.png"
+  },
+  {
+    "name": "SourceControlGetLatestVersion",
+    "imageAsset": "images/by-hash/a70def5def773e65.png"
+  },
+  {
+    "name": "Connections",
+    "imageAsset": "images/by-hash/1ac8159b65bc960f.png"
+  },
+  {
+    "name": "DataConnectionsManager",
+    "imageAsset": "images/by-hash/7921b73a38f534b8.png"
+  }
+]

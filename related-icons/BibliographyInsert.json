@@ -1,0 +1,34 @@
+[
+  {
+    "name": "BibliographyAddNewPlaceholder",
+    "imageAsset": "images/by-hash/409e0cf2268bebce.png"
+  },
+  {
+    "name": "BibliographyAddNewSource",
+    "imageAsset": "images/by-hash/07772fa5f13c3b98.png"
+  },
+  {
+    "name": "BibliographyGallery",
+    "imageAsset": "images/by-hash/8800fcc688219b3f.png"
+  },
+  {
+    "name": "BibliographyManageSources",
+    "imageAsset": "images/by-hash/5f4bc0446d050166.png"
+  },
+  {
+    "name": "BibliographyStyle",
+    "imageAsset": "images/by-hash/d314012d2dc422dd.png"
+  },
+  {
+    "name": "CustomBibliographyGallery",
+    "imageAsset": "images/by-hash/ffa7e3d15238bb3c.png"
+  },
+  {
+    "name": "GroupCitationsAndBibliography",
+    "imageAsset": "images/by-hash/4e139b3b3521145a.png"
+  },
+  {
+    "name": "UpdateBibliography",
+    "imageAsset": "images/by-hash/f99e4ea213e6e996.png"
+  }
+]

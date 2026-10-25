@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ChartlibAddRemoveDataLabelCallout",
+    "imageAsset": "images/by-hash/9a51ae1cf080f85e.png"
+  },
+  {
+    "name": "ChartlibAddRemoveDataLabelCalloutLine",
+    "imageAsset": "images/by-hash/eaf05310ae833364.png"
+  },
+  {
+    "name": "ChartLaunchAddElementCallout",
+    "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+  },
+  {
+    "name": "AddOrRemoveAttendees",
+    "imageAsset": "images/by-hash/62fd3177490b858d.png"
+  },
+  {
+    "name": "ParagraphSpaceAddOrRemoveBefore",
+    "imageAsset": "images/by-hash/3b64db7773991543.png"
+  },
+  {
+    "name": "Chart3DPieChart",
+    "imageAsset": "images/by-hash/14598c34f3b0b6c1.png"
+  },
+  {
+    "name": "ChartTypePieInsertDialog",
+    "imageAsset": "images/by-hash/0fcda986e50c3a81.png"
+  },
+  {
+    "name": "ChartTypePieInsertGallery",
+    "imageAsset": "images/by-hash/14598c34f3b0b6c1.png"
+  },
+  {
+    "name": "Callout",
+    "imageAsset": "images/by-hash/09795bc87c775160.png"
+  },
+  {
+    "name": "CalloutGallery",
+    "imageAsset": "images/by-hash/bf67b647bb74b7bc.png"
+  },
+  {
+    "name": "CalloutOptions",
+    "imageAsset": "images/by-hash/1def5e53a9c523bd.png"
+  },
+  {
+    "name": "ChartLaunchDataLayoutCallout",
+    "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+  }
+]

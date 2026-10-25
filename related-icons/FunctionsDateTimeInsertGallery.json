@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CalculatedDateTime",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  },
+  {
+    "name": "DataTypeDateTime",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  },
+  {
+    "name": "DateAndTimeInsert",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  },
+  {
+    "name": "DateAndTimeInsertOneNote",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  },
+  {
+    "name": "FormulaMoreFunctionsMenu",
+    "imageAsset": "images/by-hash/cf9665e68d47e7c1.png"
+  },
+  {
+    "name": "FunctionsCompatibility",
+    "imageAsset": "images/by-hash/e1db9c3e230dcd47.png"
+  },
+  {
+    "name": "FunctionsCubeInsertGallery",
+    "imageAsset": "images/by-hash/d4c362bffdd01aa9.png"
+  },
+  {
+    "name": "FunctionsEngineeringInsertGallery",
+    "imageAsset": "images/by-hash/44f924ac4ed9d605.png"
+  },
+  {
+    "name": "FunctionsFinancialInsertGallery",
+    "imageAsset": "images/by-hash/61332c33d96ab94f.png"
+  },
+  {
+    "name": "FunctionsInformationInsertGallery",
+    "imageAsset": "images/by-hash/19bf43f96361e3fc.png"
+  },
+  {
+    "name": "FunctionsLogicalInsertGallery",
+    "imageAsset": "images/by-hash/35e8db692fcc14a3.png"
+  },
+  {
+    "name": "FunctionsLookupReferenceInsertGallery",
+    "imageAsset": "images/by-hash/45f84a2af3e6d14b.png"
+  }
+]

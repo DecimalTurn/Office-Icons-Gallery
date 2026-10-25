@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupEquationSymbols",
+    "imageAsset": "images/by-hash/564d5021a5f8b330.png"
+  },
+  {
+    "name": "GroupBlogSymbols",
+    "imageAsset": "images/by-hash/fd58947909154d03.png"
+  },
+  {
+    "name": "GroupInsertSymbols",
+    "imageAsset": "images/by-hash/fd58947909154d03.png"
+  },
+  {
+    "name": "OutlineSymbolsShow",
+    "imageAsset": "images/by-hash/6fe3dd1c6cb847f7.png"
+  },
+  {
+    "name": "OutlineSymbolsShowHide",
+    "imageAsset": "images/by-hash/a218142461588677.png"
+  },
+  {
+    "name": "SymbolsDialog",
+    "imageAsset": "images/by-hash/fd58947909154d03.png"
+  },
+  {
+    "name": "BuildingBlocksSaveEquation",
+    "imageAsset": "images/by-hash/1c9db4ad034af9ca.png"
+  },
+  {
+    "name": "EquationAccentGallery",
+    "imageAsset": "images/by-hash/3dfd59ecd0929991.png"
+  },
+  {
+    "name": "EquationChangeLimitLocation",
+    "imageAsset": "images/by-hash/ea294abf0b3df929.png"
+  },
+  {
+    "name": "EquationDelimiterGallery",
+    "imageAsset": "images/by-hash/21f117bb812cf471.png"
+  },
+  {
+    "name": "EquationEdit",
+    "imageAsset": "images/by-hash/5f27fe84419337f4.png"
+  },
+  {
+    "name": "EquationEditor",
+    "imageAsset": "images/by-hash/ebe6a4ef3f056757.png"
+  }
+]

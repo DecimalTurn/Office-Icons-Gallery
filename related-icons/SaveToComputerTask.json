@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupWorkflowTaskSummarySave",
+    "imageAsset": "images/by-hash/246a59d100792609.png"
+  },
+  {
+    "name": "SaveDatabaseObjectTask",
+    "imageAsset": "images/by-hash/45781e547e6af23f.png"
+  },
+  {
+    "name": "SaveDocumentTask",
+    "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+  },
+  {
+    "name": "SavePresentationTask",
+    "imageAsset": "images/by-hash/024b979096487fc1.png"
+  },
+  {
+    "name": "SavePublicationTask",
+    "imageAsset": "images/by-hash/cb125fa158d324a3.png"
+  },
+  {
+    "name": "SaveToOfficeLiveTask",
+    "imageAsset": "images/by-hash/43e68571891a735b.png"
+  },
+  {
+    "name": "SaveToSharePointTask",
+    "imageAsset": "images/by-hash/e538b715a1b0d721.png"
+  },
+  {
+    "name": "SaveWorkbookTask",
+    "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+  },
+  {
+    "name": "ContactCardCallComputer",
+    "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+  },
+  {
+    "name": "DeleteWorkspaceFromThisComputer",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "GroupContactCardCallComputer",
+    "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+  },
+  {
+    "name": "PackAndGoComputer",
+    "imageAsset": "images/by-hash/5734cc99d3b4d0c8.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupWorkflowTaskSummarySave",
+    "imageAsset": "images/by-hash/246a59d100792609.png"
+  },
+  {
+    "name": "SaveDatabaseObjectTask",
+    "imageAsset": "images/by-hash/45781e547e6af23f.png"
+  },
+  {
+    "name": "SaveDocumentTask",
+    "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+  },
+  {
+    "name": "SavePresentationTask",
+    "imageAsset": "images/by-hash/024b979096487fc1.png"
+  },
+  {
+    "name": "SavePublicationTask",
+    "imageAsset": "images/by-hash/cb125fa158d324a3.png"
+  },
+  {
+    "name": "SaveToComputerTask",
+    "imageAsset": "images/by-hash/45781e547e6af23f.png"
+  },
+  {
+    "name": "SaveToOfficeLiveTask",
+    "imageAsset": "images/by-hash/43e68571891a735b.png"
+  },
+  {
+    "name": "SaveToSharePointTask",
+    "imageAsset": "images/by-hash/e538b715a1b0d721.png"
+  },
+  {
+    "name": "GroupWorkbookViews",
+    "imageAsset": "images/by-hash/4cfc1d2cbf68bdcc.png"
+  },
+  {
+    "name": "ImportWorkbook",
+    "imageAsset": "images/by-hash/02c68339f70e51a8.png"
+  },
+  {
+    "name": "ReviewProtectAndShareWorkbook",
+    "imageAsset": "images/by-hash/1b69b0561cb6a535.png"
+  },
+  {
+    "name": "ReviewProtectWorkbook",
+    "imageAsset": "images/by-hash/7286a677f4683105.png"
+  }
+]

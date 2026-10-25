@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupLinkedMeetingNotes",
+    "imageAsset": "images/by-hash/fd7733a5f115e79e.png"
+  },
+  {
+    "name": "GroupLinkedNotes",
+    "imageAsset": "images/by-hash/fd7733a5f115e79e.png"
+  },
+  {
+    "name": "LinkedNotes",
+    "imageAsset": "images/by-hash/fd7733a5f115e79e.png"
+  },
+  {
+    "name": "LinkedNotesOptions",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "LinkedNotesTargetUrlCopy",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "PasteLinkedExcelChartDestinationTheme",
+    "imageAsset": "images/by-hash/30dad84575949f2d.png"
+  },
+  {
+    "name": "PasteLinkedExcelChartSourceFormatting",
+    "imageAsset": "images/by-hash/472cd15540f4b8ca.png"
+  },
+  {
+    "name": "PasteLinkedExcelTableDestinationTableStyle",
+    "imageAsset": "images/by-hash/7d21edc54ca5ca20.png"
+  },
+  {
+    "name": "PasteLinkedExcelTableSourceFormatting",
+    "imageAsset": "images/by-hash/472cd15540f4b8ca.png"
+  },
+  {
+    "name": "PasteLinkedSingleCellExcelTableDestinationFormatting",
+    "imageAsset": "images/by-hash/839e05e4f24e3b1f.png"
+  },
+  {
+    "name": "TextBoxNextLinked",
+    "imageAsset": "images/by-hash/8f15cd134e28c9bc.png"
+  },
+  {
+    "name": "TextBoxPreviousLinked",
+    "imageAsset": "images/by-hash/bb716791cf5016fe.png"
+  }
+]

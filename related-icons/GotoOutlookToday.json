@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OutlookTaskToday",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "OutlookTaskTodayContextual",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "CalendarToolToday",
+    "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+  },
+  {
+    "name": "FlagToday",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "MeetingsToolToday",
+    "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+  },
+  {
+    "name": "QuickSearchCompletedToday",
+    "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+  },
+  {
+    "name": "QuickSearchModifiedToday",
+    "imageAsset": "images/by-hash/06d68d8d5fedd861.png"
+  },
+  {
+    "name": "Today",
+    "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+  },
+  {
+    "name": "GotoCalendar",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "GotoContacts",
+    "imageAsset": "images/by-hash/77ab365d2852a887.png"
+  },
+  {
+    "name": "GotoFolderList",
+    "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+  },
+  {
+    "name": "GotoJournal",
+    "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+  }
+]

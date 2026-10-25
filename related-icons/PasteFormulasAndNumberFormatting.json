@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PasteValuesAndNumberFormatting",
+    "imageAsset": "images/by-hash/fac93ad2a4d9855d.png"
+  },
+  {
+    "name": "PasteFormulas",
+    "imageAsset": "images/by-hash/b44c18f1a02c23d8.png"
+  },
+  {
+    "name": "PasteDestinationFormatting",
+    "imageAsset": "images/by-hash/6007443628c8ca1e.png"
+  },
+  {
+    "name": "PasteDragDropSourceFormatting",
+    "imageAsset": "images/by-hash/e148546483e598d2.png"
+  },
+  {
+    "name": "PasteExcelChartSourceFormatting",
+    "imageAsset": "images/by-hash/e148546483e598d2.png"
+  },
+  {
+    "name": "PasteExcelTableSourceFormatting",
+    "imageAsset": "images/by-hash/e148546483e598d2.png"
+  },
+  {
+    "name": "PasteFormatting",
+    "imageAsset": "images/by-hash/f681a25e2f898e41.png"
+  },
+  {
+    "name": "PasteLinkedExcelChartSourceFormatting",
+    "imageAsset": "images/by-hash/472cd15540f4b8ca.png"
+  },
+  {
+    "name": "PasteLinkedExcelTableSourceFormatting",
+    "imageAsset": "images/by-hash/472cd15540f4b8ca.png"
+  },
+  {
+    "name": "PasteLinkedSingleCellExcelTableDestinationFormatting",
+    "imageAsset": "images/by-hash/839e05e4f24e3b1f.png"
+  },
+  {
+    "name": "PasteMergeConditionalFormatting",
+    "imageAsset": "images/by-hash/58a4e4d5af8ba153.png"
+  },
+  {
+    "name": "PasteMergeFormatting",
+    "imageAsset": "images/by-hash/7bc3e3075bc64c0e.png"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "CreateStageView",
+    "imageAsset": "images/by-hash/37b66dc9df29ec86.png"
+  },
+  {
+    "name": "CreateDiagram",
+    "imageAsset": "images/by-hash/64480077e54e1b8b.png"
+  },
+  {
+    "name": "CreateWorkflowDiagram",
+    "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+  },
+  {
+    "name": "CreateWorkflowDiagramVisualDesigner",
+    "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+  },
+  {
+    "name": "AddAssignmentStage",
+    "imageAsset": "images/by-hash/4c50252de9e4f7f7.png"
+  },
+  {
+    "name": "InsertStage",
+    "imageAsset": "images/by-hash/9599df23a198fca3.png"
+  },
+  {
+    "name": "InsertStageGallery",
+    "imageAsset": "images/by-hash/9599df23a198fca3.png"
+  }
+]

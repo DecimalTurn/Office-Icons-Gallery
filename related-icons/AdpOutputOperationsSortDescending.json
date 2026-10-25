@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AdpOutputOperationsSortAscending",
+    "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+  },
+  {
+    "name": "AdpOutputOperationsAddToOutput",
+    "imageAsset": "images/by-hash/9cd8f25ed0b383c0.png"
+  },
+  {
+    "name": "AdpOutputOperationsGroupBy",
+    "imageAsset": "images/by-hash/170f9d5531971ed7.png"
+  },
+  {
+    "name": "AdpOutputOperationsTableRemove",
+    "imageAsset": "images/by-hash/bb692ed17b20b5b6.png"
+  },
+  {
+    "name": "GroupAdpOutputOperations",
+    "imageAsset": "images/by-hash/3ce52e58a86dd5ae.png"
+  },
+  {
+    "name": "JotFindSortDescending",
+    "imageAsset": "images/by-hash/77440f0b8550bd69.png"
+  },
+  {
+    "name": "SortDescendingExcel",
+    "imageAsset": "images/by-hash/77440f0b8550bd69.png"
+  },
+  {
+    "name": "SortDescendingWord",
+    "imageAsset": "images/by-hash/77440f0b8550bd69.png"
+  },
+  {
+    "name": "EntityViewOperations",
+    "imageAsset": "images/by-hash/828e97e4441434cb.png"
+  },
+  {
+    "name": "LicenseOperations",
+    "imageAsset": "images/by-hash/8a8aee32e89e888e.png"
+  },
+  {
+    "name": "OperationsMenu",
+    "imageAsset": "images/by-hash/1cf805405de331b1.png"
+  },
+  {
+    "name": "AlwaysSortFoldersAtoZ",
+    "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+  }
+]

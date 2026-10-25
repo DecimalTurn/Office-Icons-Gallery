@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PivotTableDoNotRepeatItemLabels",
+    "imageAsset": "images/by-hash/a80fc3e4a09cb789.png"
+  },
+  {
+    "name": "PivotTableRepeatItemLabels",
+    "imageAsset": "images/by-hash/36528dde1fe4d497.png"
+  },
+  {
+    "name": "CalculatedCurrency",
+    "imageAsset": "images/by-hash/aadd121764a6ba34.png"
+  },
+  {
+    "name": "CalculatedDateTime",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  },
+  {
+    "name": "CalculatedNumber",
+    "imageAsset": "images/by-hash/5f241bde88d838b2.png"
+  },
+  {
+    "name": "CalculatedText",
+    "imageAsset": "images/by-hash/312d517b85059562.png"
+  },
+  {
+    "name": "CalculatedYesNo",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "DataTypeCalculatedColumn",
+    "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+  },
+  {
+    "name": "GroupCalculatedColumns",
+    "imageAsset": "images/by-hash/61dfcf80cb5799bb.png"
+  },
+  {
+    "name": "AttachItem",
+    "imageAsset": "images/by-hash/5551d7c978f81380.png"
+  },
+  {
+    "name": "AttachItemCombo",
+    "imageAsset": "images/by-hash/5551d7c978f81380.png"
+  },
+  {
+    "name": "CalendarNewItemMenu",
+    "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+  }
+]

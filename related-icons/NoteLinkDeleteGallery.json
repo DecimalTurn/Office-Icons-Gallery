@@ -1,0 +1,50 @@
+[
+  {
+    "name": "NoteLinkDelete",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "DeleteNavigationLink",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "NoteLinkReLink",
+    "imageAsset": "images/by-hash/a26c82dd6767cbcc.png"
+  },
+  {
+    "name": "NoteLinkRepairLink",
+    "imageAsset": "images/by-hash/3e8539bbb7cd5d81.png"
+  },
+  {
+    "name": "AudioNoteDelete",
+    "imageAsset": "images/by-hash/3909ecc087b3166e.png"
+  },
+  {
+    "name": "DeleteColumnsOneNote",
+    "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+  },
+  {
+    "name": "DeleteRowsOneNote",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "DeleteTableOneNote",
+    "imageAsset": "images/by-hash/c268ed86a77d2091.png"
+  },
+  {
+    "name": "MeetingsToolAppointmentDeleteNote",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "NoteLinksDeleteAll",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "PageDeleteOneNote",
+    "imageAsset": "images/by-hash/ea7f8a7c519f0911.png"
+  },
+  {
+    "name": "ContactLinkMenu",
+    "imageAsset": "images/by-hash/34930536af15236a.png"
+  }
+]

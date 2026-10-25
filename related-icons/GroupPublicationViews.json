@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CatalogMergeMergeToExistingPublication",
+    "imageAsset": "images/by-hash/00f0aa0dc99ae8a6.png"
+  },
+  {
+    "name": "CatalogMergeMergeToNewPublication",
+    "imageAsset": "images/by-hash/b014d809dc177062.png"
+  },
+  {
+    "name": "MergeToExistingPublication",
+    "imageAsset": "images/by-hash/09c977e77be6d11e.png"
+  },
+  {
+    "name": "MergeToNewPublication",
+    "imageAsset": "images/by-hash/b7b4002a179ba229.png"
+  },
+  {
+    "name": "SavePublicationTask",
+    "imageAsset": "images/by-hash/cb125fa158d324a3.png"
+  },
+  {
+    "name": "CustomViews",
+    "imageAsset": "images/by-hash/881a414dd02984aa.png"
+  },
+  {
+    "name": "GroupBusinessDataSourceViews",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "GroupDocumentViews",
+    "imageAsset": "images/by-hash/592601d3eae5f5bc.png"
+  },
+  {
+    "name": "GroupDocumentViewsVisio",
+    "imageAsset": "images/by-hash/592601d3eae5f5bc.png"
+  },
+  {
+    "name": "GroupListViewsActions",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "GroupListViewsEdit",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "GroupListViewsManage",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  }
+]

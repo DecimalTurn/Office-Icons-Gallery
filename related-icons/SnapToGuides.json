@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GlueToGuides",
+    "imageAsset": "images/by-hash/6e3cb10128cb82be.png"
+  },
+  {
+    "name": "GridGuidesMenu",
+    "imageAsset": "images/by-hash/c79e464f06f373ec.png"
+  },
+  {
+    "name": "LayoutGuidesGallery",
+    "imageAsset": "images/by-hash/95db6721cba26fd6.png"
+  },
+  {
+    "name": "MasterPageGuides",
+    "imageAsset": "images/by-hash/8537cdd61973aa7f.png"
+  },
+  {
+    "name": "ShowGuides",
+    "imageAsset": "images/by-hash/d9e8046e19f717b6.png"
+  },
+  {
+    "name": "ControlSnapToGrid",
+    "imageAsset": "images/by-hash/13b79a09bb412143.png"
+  },
+  {
+    "name": "GridSnapTo",
+    "imageAsset": "images/by-hash/13b79a09bb412143.png"
+  },
+  {
+    "name": "SnapToAlignmentBox",
+    "imageAsset": "images/by-hash/21355b0e1d2f412c.png"
+  },
+  {
+    "name": "SnapToDrawingAids",
+    "imageAsset": "images/by-hash/02e576eeb893cfb8.png"
+  },
+  {
+    "name": "SnapToggle",
+    "imageAsset": "images/by-hash/8ca6feefaea10b3c.png"
+  },
+  {
+    "name": "SnapToGrid",
+    "imageAsset": "images/by-hash/13b79a09bb412143.png"
+  },
+  {
+    "name": "SnapToGridSpd",
+    "imageAsset": "images/by-hash/13b79a09bb412143.png"
+  }
+]

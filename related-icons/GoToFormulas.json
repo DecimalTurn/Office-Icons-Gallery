@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PasteFormulas",
+    "imageAsset": "images/by-hash/b44c18f1a02c23d8.png"
+  },
+  {
+    "name": "PasteFormulasAndNumberFormatting",
+    "imageAsset": "images/by-hash/b769e81f308120a3.png"
+  },
+  {
+    "name": "PivotChartFormulasMenu",
+    "imageAsset": "images/by-hash/530fa87f2639955a.png"
+  },
+  {
+    "name": "PivotFormulasMenu",
+    "imageAsset": "images/by-hash/530fa87f2639955a.png"
+  },
+  {
+    "name": "PivotTableFormulasMenu",
+    "imageAsset": "images/by-hash/530fa87f2639955a.png"
+  },
+  {
+    "name": "PivotTableListFormulas",
+    "imageAsset": "images/by-hash/530fa87f2639955a.png"
+  },
+  {
+    "name": "PivotTableOlapConvertToFormulas",
+    "imageAsset": "images/by-hash/f86727545aa8937b.png"
+  },
+  {
+    "name": "ShapeSheetShowFormulas",
+    "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+  },
+  {
+    "name": "ShowFormulas",
+    "imageAsset": "images/by-hash/88808e7b3374cc4d.png"
+  },
+  {
+    "name": "CatalogMergeGoToFirstRecord",
+    "imageAsset": "images/by-hash/1720f362fe7a57f6.png"
+  },
+  {
+    "name": "CatalogMergeGoToLastRecord",
+    "imageAsset": "images/by-hash/885b15570afb85d5.png"
+  },
+  {
+    "name": "CatalogMergeGoToNextRecord",
+    "imageAsset": "images/by-hash/0f42881fbb368916.png"
+  }
+]

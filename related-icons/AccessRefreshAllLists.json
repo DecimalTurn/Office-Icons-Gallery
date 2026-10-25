@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SharePointListsDiscardAllChangesAndRefresh",
+    "imageAsset": "images/by-hash/a9a39c031d036e56.png"
+  },
+  {
+    "name": "TableSharePointListsRefreshList",
+    "imageAsset": "images/by-hash/ecc5677e4cfbd468.png"
+  },
+  {
+    "name": "AccessOfflineLists",
+    "imageAsset": "images/by-hash/f7fc3736c97dae97.png"
+  },
+  {
+    "name": "AccessOnlineLists",
+    "imageAsset": "images/by-hash/9cd35fda88c3c0c0.png"
+  },
+  {
+    "name": "AccessRelinkLists",
+    "imageAsset": "images/by-hash/8d84800ce786e29c.png"
+  },
+  {
+    "name": "CreateTableUsingSharePointListsGallery",
+    "imageAsset": "images/by-hash/275d48d742decaef.png"
+  },
+  {
+    "name": "CreateTableUsingSharePointListsMenu",
+    "imageAsset": "images/by-hash/275d48d742decaef.png"
+  },
+  {
+    "name": "GroupLists",
+    "imageAsset": "images/by-hash/72598fdf6ee3fe5b.png"
+  },
+  {
+    "name": "GroupListsSummaryEdit",
+    "imageAsset": "images/by-hash/1447278bbaf5d3c6.png"
+  },
+  {
+    "name": "GroupListsSummaryManage",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "GroupSharepointLists",
+    "imageAsset": "images/by-hash/6fbe1de1a9ec36da.png"
+  },
+  {
+    "name": "JunkEmailSafeListsMenu",
+    "imageAsset": "images/by-hash/44ac5b462eeb6978.png"
+  }
+]

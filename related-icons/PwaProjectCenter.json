@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PwaResourceCenter",
+    "imageAsset": "images/by-hash/e78c16995ecdf282.png"
+  },
+  {
+    "name": "PwaProjectInformationRequest",
+    "imageAsset": "images/by-hash/aa51886bdd8ff085.png"
+  },
+  {
+    "name": "PwaProjectProgressUpdate",
+    "imageAsset": "images/by-hash/71a513fe9da318b8.png"
+  },
+  {
+    "name": "PwaDataAnalysis",
+    "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+  },
+  {
+    "name": "PwaDocumentLibrary",
+    "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+  },
+  {
+    "name": "PwaIssues",
+    "imageAsset": "images/by-hash/76b90da3c7d64d0e.png"
+  },
+  {
+    "name": "PwaPagePermissions",
+    "imageAsset": "images/by-hash/3d4e109f94401bbe.png"
+  },
+  {
+    "name": "PwaRisks",
+    "imageAsset": "images/by-hash/333fa763449f29e8.png"
+  },
+  {
+    "name": "AlignCenter",
+    "imageAsset": "images/by-hash/19cf1467127373c6.png"
+  },
+  {
+    "name": "EquationVerticalAlignmentCenter",
+    "imageAsset": "images/by-hash/62510396ad5969d1.png"
+  },
+  {
+    "name": "MergeCenter",
+    "imageAsset": "images/by-hash/a4678243e25368a5.png"
+  },
+  {
+    "name": "ObjectsAlignCenterHorizontal",
+    "imageAsset": "images/by-hash/1d17157034356b58.png"
+  }
+]

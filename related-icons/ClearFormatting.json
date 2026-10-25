@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ClearAllFormatting",
+    "imageAsset": "images/by-hash/3b2ebb675e017ab8.png"
+  },
+  {
+    "name": "ConditionalFormattingClearMenu",
+    "imageAsset": "images/by-hash/b1acc239f64b373e.png"
+  },
+  {
+    "name": "BaselineClear",
+    "imageAsset": "images/by-hash/351c77e57014f044.png"
+  },
+  {
+    "name": "Clear",
+    "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+  },
+  {
+    "name": "ClearAll",
+    "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+  },
+  {
+    "name": "ClearFormats",
+    "imageAsset": "images/by-hash/c9d1c6e0348c455d.png"
+  },
+  {
+    "name": "ClearGrid",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "ClearIconColors",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "ClearMenu",
+    "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+  },
+  {
+    "name": "ClearNotesProject",
+    "imageAsset": "images/by-hash/2249b7207f0bb122.png"
+  },
+  {
+    "name": "ClearRow",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "ContactCardClear",
+    "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+  }
+]

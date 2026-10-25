@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JotTreatAsDrawingCM",
+    "imageAsset": "images/by-hash/2a9330e9f8b65de5.png"
+  },
+  {
+    "name": "JotTreatAsWritingCM",
+    "imageAsset": "images/by-hash/02b0c9eff20f5f64.png"
+  },
+  {
+    "name": "JotDrawingToolbar",
+    "imageAsset": "images/by-hash/d9469ffed7b9b79b.png"
+  },
+  {
+    "name": "JotMergeDrawingCanvas",
+    "imageAsset": "images/by-hash/ba8dd2f2697e6449.png"
+  },
+  {
+    "name": "ApplyCoAuthoringLock",
+    "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+  },
+  {
+    "name": "ContainerLock",
+    "imageAsset": "images/by-hash/d32429aef761d851.png"
+  },
+  {
+    "name": "Lock",
+    "imageAsset": "images/by-hash/c3beb967840ee83a.png"
+  },
+  {
+    "name": "LockCell",
+    "imageAsset": "images/by-hash/c3beb967840ee83a.png"
+  },
+  {
+    "name": "MasterDocumentLockSubdocument",
+    "imageAsset": "images/by-hash/a8ffec5114e40639.png"
+  },
+  {
+    "name": "RevisionsLockTracking",
+    "imageAsset": "images/by-hash/86646826e38e2bc9.png"
+  },
+  {
+    "name": "CadDrawing",
+    "imageAsset": "images/by-hash/f9f0aa1127c8085c.png"
+  },
+  {
+    "name": "CreateNewDrawing",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  }
+]

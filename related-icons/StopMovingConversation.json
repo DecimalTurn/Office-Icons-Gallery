@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AlwaysMoveConversation",
+    "imageAsset": "images/by-hash/e566674bba46631e.png"
+  },
+  {
+    "name": "ArrangeByConversation",
+    "imageAsset": "images/by-hash/d2e4c0b505521746.png"
+  },
+  {
+    "name": "IgnoreConversation",
+    "imageAsset": "images/by-hash/6ccc5fc0709da263.png"
+  },
+  {
+    "name": "AutoLinkingStop",
+    "imageAsset": "images/by-hash/71dee70b48fca71d.png"
+  },
+  {
+    "name": "CDAudioStopTime",
+    "imageAsset": "images/by-hash/c38f44103fadbac2.png"
+  },
+  {
+    "name": "CDAudioStopTrack",
+    "imageAsset": "images/by-hash/1717741d790f74d2.png"
+  },
+  {
+    "name": "InkStopInkingReadingView",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "JotANStopPlayback",
+    "imageAsset": "images/by-hash/3814a7700dd50fe4.png"
+  },
+  {
+    "name": "MacroRecorderStop",
+    "imageAsset": "images/by-hash/3814a7700dd50fe4.png"
+  },
+  {
+    "name": "MacroRecordOrStop",
+    "imageAsset": "images/by-hash/c5d9aaad5e527456.png"
+  },
+  {
+    "name": "RecorderStopVisio",
+    "imageAsset": "images/by-hash/3814a7700dd50fe4.png"
+  },
+  {
+    "name": "RecordingStop",
+    "imageAsset": "images/by-hash/3814a7700dd50fe4.png"
+  }
+]

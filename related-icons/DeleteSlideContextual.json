@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ReviewDeleteAllMarkupOnSlide",
+    "imageAsset": "images/by-hash/7b7295af1530cd0c.png"
+  },
+  {
+    "name": "SlideDelete",
+    "imageAsset": "images/by-hash/ea765333a68ebb60.png"
+  },
+  {
+    "name": "ChartShowDataContextualMenu",
+    "imageAsset": "images/by-hash/1e52fa86f5c7fb87.png"
+  },
+  {
+    "name": "ChartSourceDataContextualMenu",
+    "imageAsset": "images/by-hash/48a32676dd8b617d.png"
+  },
+  {
+    "name": "ContextualInBrowserGallery",
+    "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+  },
+  {
+    "name": "FileSaveAsContextualItem",
+    "imageAsset": "images/by-hash/45781e547e6af23f.png"
+  },
+  {
+    "name": "GroupM1FutureSearchContextualTab",
+    "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+  },
+  {
+    "name": "OutlookTaskCustomDateContextual",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "OutlookTaskLaterContextual",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "OutlookTaskMarkCompleteContextual",
+    "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+  },
+  {
+    "name": "OutlookTaskNextWeekContextual",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "OutlookTaskOpenContextual",
+    "imageAsset": "images/by-hash/ccd7997373e69eaa.png"
+  }
+]

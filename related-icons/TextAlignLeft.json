@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AlignLeft",
+    "imageAsset": "images/by-hash/9a721c9b12989d11.png"
+  },
+  {
+    "name": "AlignLeftToRightMenu",
+    "imageAsset": "images/by-hash/7ae32f26706df8a1.png"
+  },
+  {
+    "name": "ObjectsAlignLeft",
+    "imageAsset": "images/by-hash/6681fe487d168071.png"
+  },
+  {
+    "name": "ObjectsAlignLeftOutlook",
+    "imageAsset": "images/by-hash/6681fe487d168071.png"
+  },
+  {
+    "name": "ObjectsAlignLeftSmart",
+    "imageAsset": "images/by-hash/6681fe487d168071.png"
+  },
+  {
+    "name": "PivotDiagramAlignLeft",
+    "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+  },
+  {
+    "name": "TableCellAlignBottomLeft",
+    "imageAsset": "images/by-hash/340a70bc026cbb7d.png"
+  },
+  {
+    "name": "TableCellAlignMiddleLeft",
+    "imageAsset": "images/by-hash/1a7b49e80261c29a.png"
+  },
+  {
+    "name": "TableCellAlignTopLeft",
+    "imageAsset": "images/by-hash/bf9a248a09906367.png"
+  },
+  {
+    "name": "TextBoxAlignBottomLeft",
+    "imageAsset": "images/by-hash/340a70bc026cbb7d.png"
+  },
+  {
+    "name": "TextBoxAlignMiddleLeft",
+    "imageAsset": "images/by-hash/1a7b49e80261c29a.png"
+  },
+  {
+    "name": "TextBoxAlignTopLeft",
+    "imageAsset": "images/by-hash/bf9a248a09906367.png"
+  }
+]

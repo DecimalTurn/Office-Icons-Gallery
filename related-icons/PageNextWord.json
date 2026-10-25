@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FootnoteNextWord",
+    "imageAsset": "images/by-hash/e48eeed1639f64f2.png"
+  },
+  {
+    "name": "ReviewNextCommentWord",
+    "imageAsset": "images/by-hash/dee3f9af7b80e89b.png"
+  },
+  {
+    "name": "BrowseNext",
+    "imageAsset": "images/by-hash/c9c63177fb82c411.png"
+  },
+  {
+    "name": "CatalogMergeGoToNextRecord",
+    "imageAsset": "images/by-hash/0f42881fbb368916.png"
+  },
+  {
+    "name": "ConflictsAcceptAndMoveToNext",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "ConflictsNext",
+    "imageAsset": "images/by-hash/0ee7ef56b0fdb5a3.png"
+  },
+  {
+    "name": "ConflictsRejectAndMoveToNext",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "FindNext",
+    "imageAsset": "images/by-hash/ae2421dd27688a51.png"
+  },
+  {
+    "name": "FlagNextWeek",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "FootnoteNext",
+    "imageAsset": "images/by-hash/e48eeed1639f64f2.png"
+  },
+  {
+    "name": "GanttNext",
+    "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+  },
+  {
+    "name": "GoToNextAppointment",
+    "imageAsset": "images/by-hash/ec7f3fc9d7efc7be.png"
+  }
+]

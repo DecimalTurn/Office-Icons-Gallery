@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CrossFunctionalFlowchartOrientation",
+    "imageAsset": "images/by-hash/ac432e36ae9932cc.png"
+  },
+  {
+    "name": "HandoutOrientation",
+    "imageAsset": "images/by-hash/910667546f2dfb94.png"
+  },
+  {
+    "name": "MasterNotesPageOrientation",
+    "imageAsset": "images/by-hash/0bf81216e83541fd.png"
+  },
+  {
+    "name": "PageOrientation",
+    "imageAsset": "images/by-hash/d50a949df0433651.png"
+  },
+  {
+    "name": "PageOrientationGallery",
+    "imageAsset": "images/by-hash/d50a949df0433651.png"
+  },
+  {
+    "name": "PageOrientationLandscape",
+    "imageAsset": "images/by-hash/9fdf070c5989df95.png"
+  },
+  {
+    "name": "PageOrientationPortrait",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "PageOrientationPortraitLandscape",
+    "imageAsset": "images/by-hash/d50a949df0433651.png"
+  },
+  {
+    "name": "SlideOrientationGallery",
+    "imageAsset": "images/by-hash/d50a949df0433651.png"
+  },
+  {
+    "name": "TextOrientationAngleClockwise",
+    "imageAsset": "images/by-hash/dc2f9ad35d4d6bad.png"
+  },
+  {
+    "name": "TextOrientationAngleCounterclockwise",
+    "imageAsset": "images/by-hash/9d821c3052f14295.png"
+  },
+  {
+    "name": "TextOrientationRotateDown",
+    "imageAsset": "images/by-hash/f9e13ad3c3810220.png"
+  }
+]

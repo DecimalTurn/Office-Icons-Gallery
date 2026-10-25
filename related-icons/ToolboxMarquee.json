@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ControlToolboxOutlook",
+    "imageAsset": "images/by-hash/2906b0aa2177acec.png"
+  },
+  {
+    "name": "ToolboxAudio",
+    "imageAsset": "images/by-hash/8f159c8d69aca004.png"
+  },
+  {
+    "name": "ToolboxGallery",
+    "imageAsset": "images/by-hash/2906b0aa2177acec.png"
+  },
+  {
+    "name": "ToolboxGalleryWeb",
+    "imageAsset": "images/by-hash/2906b0aa2177acec.png"
+  },
+  {
+    "name": "ToolboxVideo",
+    "imageAsset": "images/by-hash/950b456ae0756ce5.png"
+  }
+]

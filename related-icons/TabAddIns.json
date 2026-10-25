@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AddInsMenu",
+    "imageAsset": "images/by-hash/a2163034651143da.png"
+  },
+  {
+    "name": "ComAddInsDialog",
+    "imageAsset": "images/by-hash/ee94c895a540e52b.png"
+  },
+  {
+    "name": "GroupAddInsCustomToolbars",
+    "imageAsset": "images/by-hash/23485d21e490ec41.png"
+  },
+  {
+    "name": "GroupAddInsMenuCommands",
+    "imageAsset": "images/by-hash/57494247c3fb8b12.png"
+  },
+  {
+    "name": "GroupAddInsToolbarCommands",
+    "imageAsset": "images/by-hash/25b4eab910f34c24.png"
+  },
+  {
+    "name": "ControlTabControl",
+    "imageAsset": "images/by-hash/d36bc6f2ef4d3e35.png"
+  },
+  {
+    "name": "GroupIncludeMainTab",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  },
+  {
+    "name": "GroupM1FutureSearchContextualTab",
+    "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+  },
+  {
+    "name": "InsertAlignmentTab",
+    "imageAsset": "images/by-hash/d150b160fa2e1d40.png"
+  },
+  {
+    "name": "SheetTabColorMoreColorsDialog",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "TabHelp",
+    "imageAsset": "images/by-hash/2cb8cfb3c6a0f08f.png"
+  },
+  {
+    "name": "TabInfo",
+    "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+  }
+]

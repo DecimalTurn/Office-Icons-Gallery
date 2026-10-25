@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupShapeSheetRows",
+    "imageAsset": "images/by-hash/987f395d63e7009b.png"
+  },
+  {
+    "name": "SheetRowsDelete",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "SheetRowsDeleteTouch",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "SheetRowsInsertTouch",
+    "imageAsset": "images/by-hash/987f395d63e7009b.png"
+  },
+  {
+    "name": "CalculateSheet",
+    "imageAsset": "images/by-hash/75a85b739931966b.png"
+  },
+  {
+    "name": "CatalogMergeMoreRowsColumns",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "CatalogMergeRowsColumnsGallery",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "CssAttachStyleSheet",
+    "imageAsset": "images/by-hash/e74c513b67919470.png"
+  },
+  {
+    "name": "DeleteRows",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "DeleteRowsOneNote",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "GroupMacroRows",
+    "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+  },
+  {
+    "name": "GroupPageLayoutSheetOptions",
+    "imageAsset": "images/by-hash/881a414dd02984aa.png"
+  }
+]

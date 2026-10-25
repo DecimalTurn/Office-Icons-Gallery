@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupOmsInsert",
+    "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+  },
+  {
+    "name": "GroupOmsMessageOptions",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "GroupOmsSend",
+    "imageAsset": "images/by-hash/7432f97e3bc97d1d.png"
+  },
+  {
+    "name": "GroupOmsView",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "OmsAccountSetup",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "OmsAudioFromFile",
+    "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+  },
+  {
+    "name": "OmsChangeSlideLayoutGallery",
+    "imageAsset": "images/by-hash/a6c216304374de23.png"
+  },
+  {
+    "name": "OmsChangeZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "OmsCustomizeLayout",
+    "imageAsset": "images/by-hash/6b84ae529df0daa2.png"
+  },
+  {
+    "name": "OmsEmoticonInsertGallery",
+    "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+  },
+  {
+    "name": "OmsEmoticonStringInsertGallery",
+    "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+  },
+  {
+    "name": "OmsFileSend",
+    "imageAsset": "images/by-hash/7432f97e3bc97d1d.png"
+  }
+]

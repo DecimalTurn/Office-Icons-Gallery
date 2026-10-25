@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CatalogMergeMoreRowsColumns",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "CatalogMergeRowsColumnsGallery",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "DeleteRows",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "DeleteRowsOneNote",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "GroupMacroRows",
+    "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+  },
+  {
+    "name": "GroupShapeSheetRows",
+    "imageAsset": "images/by-hash/987f395d63e7009b.png"
+  },
+  {
+    "name": "GroupTableRows",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "GroupTableRowsAndColumns",
+    "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+  },
+  {
+    "name": "InsertRowsColumnsMenu",
+    "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+  },
+  {
+    "name": "PasteTableAsNewRows",
+    "imageAsset": "images/by-hash/b811fff06cde8292.png"
+  },
+  {
+    "name": "PivotTableBlankRowsInsert",
+    "imageAsset": "images/by-hash/6af118bf4fd08f49.png"
+  },
+  {
+    "name": "PivotTableBlankRowsRemove",
+    "imageAsset": "images/by-hash/10117bd7c5d17a59.png"
+  }
+]

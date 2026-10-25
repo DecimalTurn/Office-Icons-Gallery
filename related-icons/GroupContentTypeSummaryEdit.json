@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupContentTypeSummaryActions",
+    "imageAsset": "images/by-hash/fcaa71a805f81e9f.png"
+  },
+  {
+    "name": "ContentTypeEditColumn",
+    "imageAsset": "images/by-hash/53f035b400396894.png"
+  },
+  {
+    "name": "GroupContentTypeEdit",
+    "imageAsset": "images/by-hash/133cf0f80266344b.png"
+  },
+  {
+    "name": "GroupContentTypeWorkflowsEdit",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "GroupListContentTypeEdit",
+    "imageAsset": "images/by-hash/53f035b400396894.png"
+  },
+  {
+    "name": "GroupContTypeSummaryManage",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "GroupListsSummaryEdit",
+    "imageAsset": "images/by-hash/1447278bbaf5d3c6.png"
+  },
+  {
+    "name": "GroupMeetingsToolAppointmentEditSummary",
+    "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+  },
+  {
+    "name": "GroupPageSummaryEdit",
+    "imageAsset": "images/by-hash/90f5920b899619e8.png"
+  },
+  {
+    "name": "GroupSiteSummaryEdit",
+    "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+  },
+  {
+    "name": "GroupSummaryEdit",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "GroupWorkflowSummaryEdit",
+    "imageAsset": "images/by-hash/149f3b0cae9e185f.png"
+  }
+]

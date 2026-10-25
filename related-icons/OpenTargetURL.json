@@ -1,0 +1,26 @@
+[
+  {
+    "name": "LinkedNotesTargetUrlCopy",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "ConditionIsNotURL",
+    "imageAsset": "images/by-hash/3bbc606800df6a78.png"
+  },
+  {
+    "name": "LogicChangeRestURLAction",
+    "imageAsset": "images/by-hash/29d7edd7ebfcda27.png"
+  },
+  {
+    "name": "DiagramChangeToTargetClassic",
+    "imageAsset": "images/by-hash/3947e125ac9caa6c.png"
+  },
+  {
+    "name": "DiagramTargetInsertClassic",
+    "imageAsset": "images/by-hash/3947e125ac9caa6c.png"
+  },
+  {
+    "name": "DsaTargetRule",
+    "imageAsset": "images/by-hash/703c1f868e0e23e5.png"
+  }
+]

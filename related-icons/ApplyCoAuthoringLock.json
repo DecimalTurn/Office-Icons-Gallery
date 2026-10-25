@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ContainerLock",
+    "imageAsset": "images/by-hash/d32429aef761d851.png"
+  },
+  {
+    "name": "JotLockDrawingCM",
+    "imageAsset": "images/by-hash/4d3d6a02242f6197.png"
+  },
+  {
+    "name": "Lock",
+    "imageAsset": "images/by-hash/c3beb967840ee83a.png"
+  },
+  {
+    "name": "LockCell",
+    "imageAsset": "images/by-hash/c3beb967840ee83a.png"
+  },
+  {
+    "name": "MasterDocumentLockSubdocument",
+    "imageAsset": "images/by-hash/a8ffec5114e40639.png"
+  },
+  {
+    "name": "RevisionsLockTracking",
+    "imageAsset": "images/by-hash/86646826e38e2bc9.png"
+  },
+  {
+    "name": "ApplyCommaFormat",
+    "imageAsset": "images/by-hash/34cb51453b945174.png"
+  },
+  {
+    "name": "ApplyCssStyles",
+    "imageAsset": "images/by-hash/a85f46fb6686a11a.png"
+  },
+  {
+    "name": "ApplyCurrencyFormat",
+    "imageAsset": "images/by-hash/85a6a3a5829b5bdb.png"
+  },
+  {
+    "name": "ApplyFilter",
+    "imageAsset": "images/by-hash/721678c0a7e5e825.png"
+  },
+  {
+    "name": "ApplyImageBackgroundFill",
+    "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+  },
+  {
+    "name": "ApplyImageBackgroundTile",
+    "imageAsset": "images/by-hash/18e3f90d57530743.png"
+  }
+]

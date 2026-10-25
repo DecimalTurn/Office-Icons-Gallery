@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ControlPropertyPictureButtonBrowsePicture",
+    "imageAsset": "images/by-hash/a3c1694aead52859.png"
+  },
+  {
+    "name": "GroupPictureButton",
+    "imageAsset": "images/by-hash/ea199f05aadf553e.png"
+  },
+  {
+    "name": "PictureButtonControl",
+    "imageAsset": "images/by-hash/ea199f05aadf553e.png"
+  },
+  {
+    "name": "PictureResetSplitButton",
+    "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+  },
+  {
+    "name": "GoLtrHover",
+    "imageAsset": "images/by-hash/8ac1c6e151bfa73f.png"
+  },
+  {
+    "name": "GoRtlHover",
+    "imageAsset": "images/by-hash/c8c9a4a8dee4e65b.png"
+  },
+  {
+    "name": "StopLtrHover",
+    "imageAsset": "images/by-hash/9679e00de8896fa3.png"
+  },
+  {
+    "name": "StopRtlHover",
+    "imageAsset": "images/by-hash/9679e00de8896fa3.png"
+  },
+  {
+    "name": "BrowseBackgroundImage",
+    "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+  },
+  {
+    "name": "BrowseNext",
+    "imageAsset": "images/by-hash/c9c63177fb82c411.png"
+  },
+  {
+    "name": "BrowsePrevious",
+    "imageAsset": "images/by-hash/cac95a2441cd4e80.png"
+  },
+  {
+    "name": "BrowseSelector",
+    "imageAsset": "images/by-hash/a4cafd4afc575d87.png"
+  }
+]

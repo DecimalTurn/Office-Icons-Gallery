@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SheetColumnsInsertTouch",
+    "imageAsset": "images/by-hash/242212fb7cde5c20.png"
+  },
+  {
+    "name": "SheetRowsDeleteTouch",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "SheetColumnsDelete",
+    "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+  },
+  {
+    "name": "SheetRowsInsertTouch",
+    "imageAsset": "images/by-hash/987f395d63e7009b.png"
+  },
+  {
+    "name": "ColumnsHideTouch",
+    "imageAsset": "images/by-hash/c6f16f06d3b53a7a.png"
+  },
+  {
+    "name": "ColumnsUnhideTouch",
+    "imageAsset": "images/by-hash/18e34dcca42fcff3.png"
+  },
+  {
+    "name": "SlicerDeleteTouch",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "TimeSlicerDeleteTouch",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "SheetColumnsInsert",
+    "imageAsset": "images/by-hash/242212fb7cde5c20.png"
+  },
+  {
+    "name": "ShapeSheetDeleteRow",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "ShapeSheetDeleteSection",
+    "imageAsset": "images/by-hash/39484885c66f3f00.png"
+  },
+  {
+    "name": "SheetDelete",
+    "imageAsset": "images/by-hash/9ea6e1059ad9c831.png"
+  }
+]

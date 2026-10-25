@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SparklineAxisMenu",
+    "imageAsset": "images/by-hash/657c2c8f53440940.png"
+  },
+  {
+    "name": "ChartPrimaryVerticalAxis",
+    "imageAsset": "images/by-hash/38884725d11cea50.png"
+  },
+  {
+    "name": "ChartPrimaryVerticalAxisTitle",
+    "imageAsset": "images/by-hash/ad28662262a66c19.png"
+  },
+  {
+    "name": "ChartSecondaryVerticalAxis",
+    "imageAsset": "images/by-hash/38884725d11cea50.png"
+  },
+  {
+    "name": "ChartSecondaryVerticalAxisTitle",
+    "imageAsset": "images/by-hash/5b7cb2cc84288fee.png"
+  },
+  {
+    "name": "AutomaticResize",
+    "imageAsset": "images/by-hash/a5261425578a6472.png"
+  },
+  {
+    "name": "BlackAndWhiteAutomatic",
+    "imageAsset": "images/by-hash/778d7cbd5c31bd4f.png"
+  },
+  {
+    "name": "PictureRecolorAutomatic",
+    "imageAsset": "images/by-hash/83ae31440ca80215.png"
+  },
+  {
+    "name": "ControlPropertyDefaultValue",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "ControlPropertyHeightValue",
+    "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+  },
+  {
+    "name": "ControlPropertyWidthValue",
+    "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+  },
+  {
+    "name": "DataGraphicColorByValue",
+    "imageAsset": "images/by-hash/4a0bb8efe940ce73.png"
+  }
+]

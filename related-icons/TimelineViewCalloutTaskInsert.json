@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TimelineViewDisplayAsCallout",
+    "imageAsset": "images/by-hash/40c735b4f58dbf06.png"
+  },
+  {
+    "name": "TaskAddToTimeline",
+    "imageAsset": "images/by-hash/2128fa0a06829f22.png"
+  },
+  {
+    "name": "TimelineGotoSelectedTask",
+    "imageAsset": "images/by-hash/2341aed38d0392a7.png"
+  },
+  {
+    "name": "TimelineViewRemoveTask",
+    "imageAsset": "images/by-hash/1fd75773272cbd20.png"
+  },
+  {
+    "name": "TimelineViewTaskInsert",
+    "imageAsset": "images/by-hash/a7b612b49586b2ee.png"
+  },
+  {
+    "name": "Callout",
+    "imageAsset": "images/by-hash/09795bc87c775160.png"
+  },
+  {
+    "name": "CalloutGallery",
+    "imageAsset": "images/by-hash/bf67b647bb74b7bc.png"
+  },
+  {
+    "name": "CalloutOptions",
+    "imageAsset": "images/by-hash/1def5e53a9c523bd.png"
+  },
+  {
+    "name": "ChartLaunchAddElementCallout",
+    "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+  },
+  {
+    "name": "ChartLaunchDataLayoutCallout",
+    "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+  },
+  {
+    "name": "ChartlibAddRemoveDataLabelCallout",
+    "imageAsset": "images/by-hash/9a51ae1cf080f85e.png"
+  },
+  {
+    "name": "ChartlibAddRemoveDataLabelCalloutLine",
+    "imageAsset": "images/by-hash/eaf05310ae833364.png"
+  }
+]

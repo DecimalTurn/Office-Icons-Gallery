@@ -1,0 +1,50 @@
+[
+  {
+    "name": "LogicOpenAnotherFormAction",
+    "imageAsset": "images/by-hash/44f7e04d71af0ce4.png"
+  },
+  {
+    "name": "ContactCardCallComputer",
+    "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+  },
+  {
+    "name": "DeleteWorkspaceFromThisComputer",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "GroupContactCardCallComputer",
+    "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+  },
+  {
+    "name": "PackAndGoComputer",
+    "imageAsset": "images/by-hash/5734cc99d3b4d0c8.png"
+  },
+  {
+    "name": "SaveToComputerTask",
+    "imageAsset": "images/by-hash/45781e547e6af23f.png"
+  },
+  {
+    "name": "CatalogMergeUseOutlookContacts",
+    "imageAsset": "images/by-hash/77ab365d2852a887.png"
+  },
+  {
+    "name": "MailMergeRecepientsUseExistingList",
+    "imageAsset": "images/by-hash/ed662b1b3d27fe6e.png"
+  },
+  {
+    "name": "MailMergeRecepientsUseOutlookContacts",
+    "imageAsset": "images/by-hash/77ab365d2852a887.png"
+  },
+  {
+    "name": "NameUseInFormula",
+    "imageAsset": "images/by-hash/d5923aa78fc61dbb.png"
+  },
+  {
+    "name": "SlideShowUsePresenterView",
+    "imageAsset": "images/by-hash/919a51806dcb421a.png"
+  },
+  {
+    "name": "SlideShowUseRehearsedTimings",
+    "imageAsset": "images/by-hash/ab36690dee5875c7.png"
+  }
+]

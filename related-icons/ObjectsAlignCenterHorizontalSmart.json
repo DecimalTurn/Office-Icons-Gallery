@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ObjectsAlignCenterHorizontal",
+    "imageAsset": "images/by-hash/1d17157034356b58.png"
+  },
+  {
+    "name": "ObjectsAlignCenterHorizontalOutlook",
+    "imageAsset": "images/by-hash/1d17157034356b58.png"
+  },
+  {
+    "name": "ObjectsAlignCenterInFormHorixontally",
+    "imageAsset": "images/by-hash/5cb3a2d891c59971.png"
+  },
+  {
+    "name": "ObjectsAlignCenterInFormVertically",
+    "imageAsset": "images/by-hash/5eeaa4fc80213811.png"
+  },
+  {
+    "name": "ObjectsAlignBottomSmart",
+    "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+  },
+  {
+    "name": "ObjectsAlignLeftSmart",
+    "imageAsset": "images/by-hash/6681fe487d168071.png"
+  },
+  {
+    "name": "ObjectsAlignMiddleVerticalSmart",
+    "imageAsset": "images/by-hash/51561e72403de4fc.png"
+  },
+  {
+    "name": "ObjectsAlignRightSmart",
+    "imageAsset": "images/by-hash/4b95fb857b0f2970.png"
+  },
+  {
+    "name": "ObjectsAlignTopSmart",
+    "imageAsset": "images/by-hash/25cd28379a50db64.png"
+  },
+  {
+    "name": "OrgChartHorizontalCenter",
+    "imageAsset": "images/by-hash/fe3465ad6d5ba97d.png"
+  },
+  {
+    "name": "AlignCenter",
+    "imageAsset": "images/by-hash/19cf1467127373c6.png"
+  },
+  {
+    "name": "PivotDiagramAlignCenter",
+    "imageAsset": "images/by-hash/c208912ec62178ed.png"
+  }
+]

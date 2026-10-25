@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ApplyCoAuthoringLock",
+    "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+  },
+  {
+    "name": "JotLockDrawingCM",
+    "imageAsset": "images/by-hash/4d3d6a02242f6197.png"
+  },
+  {
+    "name": "Lock",
+    "imageAsset": "images/by-hash/c3beb967840ee83a.png"
+  },
+  {
+    "name": "LockCell",
+    "imageAsset": "images/by-hash/c3beb967840ee83a.png"
+  },
+  {
+    "name": "MasterDocumentLockSubdocument",
+    "imageAsset": "images/by-hash/a8ffec5114e40639.png"
+  },
+  {
+    "name": "RevisionsLockTracking",
+    "imageAsset": "images/by-hash/86646826e38e2bc9.png"
+  },
+  {
+    "name": "ContainerDisband",
+    "imageAsset": "images/by-hash/728fc5b5adeae1b1.png"
+  },
+  {
+    "name": "ContainerGallery",
+    "imageAsset": "images/by-hash/7610de93334dbed8.png"
+  },
+  {
+    "name": "ContainerHeadingStyles",
+    "imageAsset": "images/by-hash/e6d1f634c916badf.png"
+  },
+  {
+    "name": "ContainerMargins",
+    "imageAsset": "images/by-hash/2bc037ee19b5f7b9.png"
+  },
+  {
+    "name": "ContainerStyles",
+    "imageAsset": "images/by-hash/7d66254ae7c2926e.png"
+  },
+  {
+    "name": "DataGraphicContainer",
+    "imageAsset": "images/by-hash/5158126858f0a708.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupMailMergeFinish",
+    "imageAsset": "images/by-hash/13c4769b074c7428.png"
+  },
+  {
+    "name": "GroupMailMergePreviewResults",
+    "imageAsset": "images/by-hash/52e4b9789001a6b5.png"
+  },
+  {
+    "name": "GroupMailMergeStart",
+    "imageAsset": "images/by-hash/ab1eca44d289be82.png"
+  },
+  {
+    "name": "GroupMailMergeStartPublisher",
+    "imageAsset": "images/by-hash/ab1eca44d289be82.png"
+  },
+  {
+    "name": "GroupMailMergeWriteInsertFields",
+    "imageAsset": "images/by-hash/1f9b73fc5bc804c2.png"
+  },
+  {
+    "name": "MailMerge",
+    "imageAsset": "images/by-hash/ce1e3ee1e884ba58.png"
+  },
+  {
+    "name": "MailMergeAddressBlockInsert",
+    "imageAsset": "images/by-hash/fb6d6ec9391f1c51.png"
+  },
+  {
+    "name": "MailMergeClearMergeType",
+    "imageAsset": "images/by-hash/5ad385ae86e721ac.png"
+  },
+  {
+    "name": "MailMergeCreateList",
+    "imageAsset": "images/by-hash/faa99bee2a7f02ec.png"
+  },
+  {
+    "name": "MailMergeDocument",
+    "imageAsset": "images/by-hash/6b2c7976b3a167de.png"
+  },
+  {
+    "name": "MailMergeExportRecipientList",
+    "imageAsset": "images/by-hash/2aab4ef185d5aaa7.png"
+  },
+  {
+    "name": "MailMergeFieldFormatMenu",
+    "imageAsset": "images/by-hash/ffc17504b6a8e2c4.png"
+  }
+]

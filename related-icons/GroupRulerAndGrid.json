@@ -1,0 +1,50 @@
+[
+  {
+    "name": "RulerGridConfig",
+    "imageAsset": "images/by-hash/7167c3068d4c2035.png"
+  },
+  {
+    "name": "DisplayRuler",
+    "imageAsset": "images/by-hash/2b18eaf5a8c1c3c5.png"
+  },
+  {
+    "name": "RulerResetOrigin",
+    "imageAsset": "images/by-hash/9152a95567013c32.png"
+  },
+  {
+    "name": "RulerSetFromSelection",
+    "imageAsset": "images/by-hash/1e3f8cb9ce3ad685.png"
+  },
+  {
+    "name": "RulerShowHide",
+    "imageAsset": "images/by-hash/dd9f9ec1423b5d0a.png"
+  },
+  {
+    "name": "ShowRuler",
+    "imageAsset": "images/by-hash/2b18eaf5a8c1c3c5.png"
+  },
+  {
+    "name": "ShowRulerSpd",
+    "imageAsset": "images/by-hash/2b18eaf5a8c1c3c5.png"
+  },
+  {
+    "name": "ShowRulerVisio",
+    "imageAsset": "images/by-hash/682a600c84b13126.png"
+  },
+  {
+    "name": "SnapToRulerSubdivisions",
+    "imageAsset": "images/by-hash/6b9b55d347e0179c.png"
+  },
+  {
+    "name": "ViewRulerExcel",
+    "imageAsset": "images/by-hash/2b18eaf5a8c1c3c5.png"
+  },
+  {
+    "name": "ViewRulerPowerPoint",
+    "imageAsset": "images/by-hash/2b18eaf5a8c1c3c5.png"
+  },
+  {
+    "name": "ViewRulerWord",
+    "imageAsset": "images/by-hash/2b18eaf5a8c1c3c5.png"
+  }
+]

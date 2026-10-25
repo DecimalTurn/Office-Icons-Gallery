@@ -1,0 +1,46 @@
+[
+  {
+    "name": "EventOnBeforeChange",
+    "imageAsset": "images/by-hash/843e6b743f01410b.png"
+  },
+  {
+    "name": "BeforeDelete",
+    "imageAsset": "images/by-hash/81886a0aa4187a49.png"
+  },
+  {
+    "name": "EquationMatrixInsertColumnBefore",
+    "imageAsset": "images/by-hash/0d51255d3efa9e47.png"
+  },
+  {
+    "name": "EquationMatrixInsertRowBefore",
+    "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+  },
+  {
+    "name": "GroupBeforeEvents",
+    "imageAsset": "images/by-hash/5f2892e11b522506.png"
+  },
+  {
+    "name": "ParagraphSpaceAddOrRemoveBefore",
+    "imageAsset": "images/by-hash/3b64db7773991543.png"
+  },
+  {
+    "name": "ParagraphSpaceBefore",
+    "imageAsset": "images/by-hash/3d2a37e209849db7.png"
+  },
+  {
+    "name": "ParagraphSpaceBeforeNone",
+    "imageAsset": "images/by-hash/c4ff6f009f58df45.png"
+  },
+  {
+    "name": "ParagraphSpacingBefore",
+    "imageAsset": "images/by-hash/d2b2cc19e0ad1036.png"
+  },
+  {
+    "name": "RulesConditionIsBeforeDateGallery",
+    "imageAsset": "images/by-hash/4fd59b93ada726e0.png"
+  },
+  {
+    "name": "SmartArtAddShapeBefore",
+    "imageAsset": "images/by-hash/452e6837dcbf2bfc.png"
+  }
+]

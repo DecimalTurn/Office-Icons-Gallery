@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FlyoutAnchorJotRecord",
+    "imageAsset": "images/by-hash/b9f7997a6d333fcc.png"
+  },
+  {
+    "name": "FlyoutAnchorOpenMenu",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "FlyoutAnchorTableInsertMenu",
+    "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+  },
+  {
+    "name": "HyperlinkFlyoutAnchor",
+    "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+  },
+  {
+    "name": "JustifyVerticalFlyoutAnchor",
+    "imageAsset": "images/by-hash/c1d643ca366c9fb4.png"
+  },
+  {
+    "name": "ProofingToolsFlyoutAnchor",
+    "imageAsset": "images/by-hash/00cd4d0b28c70c30.png"
+  },
+  {
+    "name": "PictureInsertFromFilePowerPoint",
+    "imageAsset": "images/by-hash/a3c1694aead52859.png"
+  },
+  {
+    "name": "FileCompatibilityCheckerPowerPoint",
+    "imageAsset": "images/by-hash/05715540b1645725.png"
+  },
+  {
+    "name": "FileSaveAsPowerPoint97_2003",
+    "imageAsset": "images/by-hash/024b979096487fc1.png"
+  },
+  {
+    "name": "FileSaveAsPowerPointOpenDocumentPresentation",
+    "imageAsset": "images/by-hash/024b979096487fc1.png"
+  },
+  {
+    "name": "FileSaveAsPowerPointPpsx",
+    "imageAsset": "images/by-hash/6ffa6584cc8fb200.png"
+  },
+  {
+    "name": "FileSaveAsPowerPointPptx",
+    "imageAsset": "images/by-hash/024b979096487fc1.png"
+  }
+]

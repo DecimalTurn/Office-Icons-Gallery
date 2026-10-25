@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ManuallyScheduleSelectedTask",
+    "imageAsset": "images/by-hash/fde603d72c3ddeec.png"
+  },
+  {
+    "name": "TaskAutoSchedule",
+    "imageAsset": "images/by-hash/aa022e861f00f076.png"
+  },
+  {
+    "name": "TeamPlannerAutoScheduleStyleMenu",
+    "imageAsset": "images/by-hash/aa022e861f00f076.png"
+  },
+  {
+    "name": "GroupTaskSchedule",
+    "imageAsset": "images/by-hash/fe43016cac7f8388.png"
+  },
+  {
+    "name": "GroupTaskScheduleStandard",
+    "imageAsset": "images/by-hash/fe43016cac7f8388.png"
+  },
+  {
+    "name": "ScheduleTaskWhenResourcesAvailable",
+    "imageAsset": "images/by-hash/02c4ecdd36cf035e.png"
+  },
+  {
+    "name": "SelectedTaskGoTo",
+    "imageAsset": "images/by-hash/2341aed38d0392a7.png"
+  },
+  {
+    "name": "TimelineGotoSelectedTask",
+    "imageAsset": "images/by-hash/2341aed38d0392a7.png"
+  },
+  {
+    "name": "ContactCardScheduleMeeting",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "GroupProjectSchedule",
+    "imageAsset": "images/by-hash/dfee45b4ed63677f.png"
+  },
+  {
+    "name": "GroupTeamPlannerSchedule",
+    "imageAsset": "images/by-hash/29ad1679ebbe2e75.png"
+  },
+  {
+    "name": "Schedule",
+    "imageAsset": "images/by-hash/8470eda604389163.png"
+  }
+]

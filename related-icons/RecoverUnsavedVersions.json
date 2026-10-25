@@ -1,0 +1,46 @@
+[
+  {
+    "name": "GroupRecover",
+    "imageAsset": "images/by-hash/4716683bb93cb115.png"
+  },
+  {
+    "name": "RecoverDeletedItems",
+    "imageAsset": "images/by-hash/c2e1f18a05b43ffc.png"
+  },
+  {
+    "name": "RecoverInviteToMeeting",
+    "imageAsset": "images/by-hash/4716683bb93cb115.png"
+  },
+  {
+    "name": "ReplicationRecoverDesignMaster",
+    "imageAsset": "images/by-hash/9434d12e681942fa.png"
+  },
+  {
+    "name": "GoToItemInVersions",
+    "imageAsset": "images/by-hash/8b0774845dc2a20a.png"
+  },
+  {
+    "name": "PageVersions",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "PageVersionsHide",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "PageVersionsShow",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "ReviewCompareTwoVersions",
+    "imageAsset": "images/by-hash/a3d43843c96022a2.png"
+  },
+  {
+    "name": "ShowVersionsHistory",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "VersionsAndCheckout",
+    "imageAsset": "images/by-hash/900cf1bee3c78291.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "WorkflowVisioImport",
+    "imageAsset": "images/by-hash/9c544afa051f3ad2.png"
+  },
+  {
+    "name": "WorkflowVisioImport14",
+    "imageAsset": "images/by-hash/9c544afa051f3ad2.png"
+  },
+  {
+    "name": "WorkflowVisioImportGallery",
+    "imageAsset": "images/by-hash/9c544afa051f3ad2.png"
+  },
+  {
+    "name": "SharePointWorkflowImport",
+    "imageAsset": "images/by-hash/3ae7deedad3cce48.png"
+  },
+  {
+    "name": "WorkflowVisioExport",
+    "imageAsset": "images/by-hash/b8d2f4662b620c56.png"
+  },
+  {
+    "name": "WorkflowVisioExportFromGallery",
+    "imageAsset": "images/by-hash/b8d2f4662b620c56.png"
+  },
+  {
+    "name": "CalendarImport",
+    "imageAsset": "images/by-hash/5a8bcbbad3b43e7e.png"
+  },
+  {
+    "name": "CalendarToolImport",
+    "imageAsset": "images/by-hash/60c3e96c65603c01.png"
+  },
+  {
+    "name": "DatabaseModelingImport",
+    "imageAsset": "images/by-hash/234c9ee96761b0e4.png"
+  },
+  {
+    "name": "EnterpriseProjectImport",
+    "imageAsset": "images/by-hash/bf2f236ff3ebad5f.png"
+  },
+  {
+    "name": "EnterpriseResourcesImport",
+    "imageAsset": "images/by-hash/001c88135bd2684c.png"
+  },
+  {
+    "name": "FacilitiesImportData",
+    "imageAsset": "images/by-hash/68574b4538de7a49.png"
+  }
+]

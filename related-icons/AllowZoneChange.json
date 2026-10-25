@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupAllow",
+    "imageAsset": "images/by-hash/5b6b764bd2f2fc93.png"
+  },
+  {
+    "name": "ReadingViewAllowMultiplePages",
+    "imageAsset": "images/by-hash/f32d3a8ba4c266de.png"
+  },
+  {
+    "name": "ReadingViewAllowTyping",
+    "imageAsset": "images/by-hash/705a8f62d6a6cc45.png"
+  },
+  {
+    "name": "ReviewAllowUsersToEditRanges",
+    "imageAsset": "images/by-hash/73a75a5b1c82da6d.png"
+  },
+  {
+    "name": "SharingRequestAllow",
+    "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+  },
+  {
+    "name": "GroupWebPartZoneLayout",
+    "imageAsset": "images/by-hash/9f594486e0e71fcd.png"
+  },
+  {
+    "name": "GroupWebPartZoneProperties",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "InsertWebPartZone",
+    "imageAsset": "images/by-hash/55547764828fbf3b.png"
+  },
+  {
+    "name": "ShowWebPartZoneBorders",
+    "imageAsset": "images/by-hash/55547764828fbf3b.png"
+  },
+  {
+    "name": "ToggleGroupByZone",
+    "imageAsset": "images/by-hash/7426d53f6bf22e1b.png"
+  },
+  {
+    "name": "WebPartZoneLayoutMenu",
+    "imageAsset": "images/by-hash/9f594486e0e71fcd.png"
+  },
+  {
+    "name": "WebPartZoneProperties",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  }
+]

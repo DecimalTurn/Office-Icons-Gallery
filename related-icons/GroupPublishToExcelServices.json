@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FilePublishExcelServices",
+    "imageAsset": "images/by-hash/cd738a271dddfdd2.png"
+  },
+  {
+    "name": "PublishToAccessServices",
+    "imageAsset": "images/by-hash/e538b715a1b0d721.png"
+  },
+  {
+    "name": "PublishToVisioServices",
+    "imageAsset": "images/by-hash/409ae1bebe39dfdf.png"
+  },
+  {
+    "name": "FileExcelServicesOptions",
+    "imageAsset": "images/by-hash/bd9350e8ad9eefc5.png"
+  },
+  {
+    "name": "LoadingServicesGroup",
+    "imageAsset": "images/by-hash/7affffd6bce426f0.png"
+  },
+  {
+    "name": "ManageServices",
+    "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+  },
+  {
+    "name": "AdvertisePublishAs",
+    "imageAsset": "images/by-hash/9ffc68917f511636.png"
+  },
+  {
+    "name": "BizBarPublishToSharePoint",
+    "imageAsset": "images/by-hash/6ee76565b405e6e3.png"
+  },
+  {
+    "name": "BlogPublish",
+    "imageAsset": "images/by-hash/2cc34b9c900b5e8b.png"
+  },
+  {
+    "name": "BlogPublishDraft",
+    "imageAsset": "images/by-hash/5058172c4e435e9c.png"
+  },
+  {
+    "name": "BlogPublishMenu",
+    "imageAsset": "images/by-hash/2cc34b9c900b5e8b.png"
+  },
+  {
+    "name": "DIPPublish",
+    "imageAsset": "images/by-hash/6610e1f301334f9d.png"
+  }
+]

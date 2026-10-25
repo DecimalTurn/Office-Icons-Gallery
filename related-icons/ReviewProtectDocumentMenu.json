@@ -1,0 +1,46 @@
+[
+  {
+    "name": "ProtectDocument",
+    "imageAsset": "images/by-hash/2a9d5ce71f064303.png"
+  },
+  {
+    "name": "ProtectDocumentVisio",
+    "imageAsset": "images/by-hash/2a9d5ce71f064303.png"
+  },
+  {
+    "name": "ReviewProtectAndShareWorkbook",
+    "imageAsset": "images/by-hash/1b69b0561cb6a535.png"
+  },
+  {
+    "name": "ReviewProtectPresentationMenu",
+    "imageAsset": "images/by-hash/2a9d5ce71f064303.png"
+  },
+  {
+    "name": "ReviewProtectWorkbook",
+    "imageAsset": "images/by-hash/7286a677f4683105.png"
+  },
+  {
+    "name": "ReviewProtectWorkbookMenu",
+    "imageAsset": "images/by-hash/7286a677f4683105.png"
+  },
+  {
+    "name": "ReviewViewChangesInTheSourceDocument",
+    "imageAsset": "images/by-hash/1227a56cf218ae84.png"
+  },
+  {
+    "name": "GroupProtect",
+    "imageAsset": "images/by-hash/2a9d5ce71f064303.png"
+  },
+  {
+    "name": "PasswordProtectSection",
+    "imageAsset": "images/by-hash/c3beb967840ee83a.png"
+  },
+  {
+    "name": "PasswordProtectSectionContextual",
+    "imageAsset": "images/by-hash/c3beb967840ee83a.png"
+  },
+  {
+    "name": "SheetProtect",
+    "imageAsset": "images/by-hash/68f9138863bbef4a.png"
+  }
+]

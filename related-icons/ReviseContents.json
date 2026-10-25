@@ -1,0 +1,50 @@
+[
+  {
+    "name": "BuildingBlocksSaveTableOfContents",
+    "imageAsset": "images/by-hash/f1c892057176853b.png"
+  },
+  {
+    "name": "ContentsAndIndex",
+    "imageAsset": "images/by-hash/d81a09a9ce4cb2f7.png"
+  },
+  {
+    "name": "CustomTableOfContentsGallery",
+    "imageAsset": "images/by-hash/c561df83f0bcb5f8.png"
+  },
+  {
+    "name": "DiagramFitToContentsClassic",
+    "imageAsset": "images/by-hash/2fef15dde34fdfb9.png"
+  },
+  {
+    "name": "DownloadContents",
+    "imageAsset": "images/by-hash/8ea103e009e28958.png"
+  },
+  {
+    "name": "DownloadContentsMenu",
+    "imageAsset": "images/by-hash/8ea103e009e28958.png"
+  },
+  {
+    "name": "FitToContents",
+    "imageAsset": "images/by-hash/b04cb80a831af576.png"
+  },
+  {
+    "name": "GoToTableOfContents",
+    "imageAsset": "images/by-hash/d522d07f6a0dbad2.png"
+  },
+  {
+    "name": "GroupTableOfContents",
+    "imageAsset": "images/by-hash/c561df83f0bcb5f8.png"
+  },
+  {
+    "name": "RevertContents",
+    "imageAsset": "images/by-hash/f3cadd0351496e55.png"
+  },
+  {
+    "name": "SaveSelectionToTableOfContentsGallery",
+    "imageAsset": "images/by-hash/f1c892057176853b.png"
+  },
+  {
+    "name": "SelectContents",
+    "imageAsset": "images/by-hash/9434fcac28b3d332.png"
+  }
+]

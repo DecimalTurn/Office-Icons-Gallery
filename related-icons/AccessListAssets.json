@@ -1,0 +1,22 @@
+[
+  {
+    "name": "AccessTableAssets",
+    "imageAsset": "images/by-hash/2961e97c4c7f08b5.png"
+  },
+  {
+    "name": "GroupSiteAssetsActions",
+    "imageAsset": "images/by-hash/47cf5c778774c235.png"
+  },
+  {
+    "name": "GroupSiteAssetsEdit",
+    "imageAsset": "images/by-hash/90f5920b899619e8.png"
+  },
+  {
+    "name": "GroupSiteAssetsManage",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "GroupSiteAssetsNew",
+    "imageAsset": "images/by-hash/234c9ee96761b0e4.png"
+  }
+]

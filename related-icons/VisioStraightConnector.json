@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ConnectorStraight",
+    "imageAsset": "images/by-hash/ff9d9d267187baf0.png"
+  },
+  {
+    "name": "ConnectorStraightLines",
+    "imageAsset": "images/by-hash/1486805d920ad3d9.png"
+  },
+  {
+    "name": "ShapeConnectorStyleStraight",
+    "imageAsset": "images/by-hash/1486805d920ad3d9.png"
+  },
+  {
+    "name": "ShapeStraightConnector",
+    "imageAsset": "images/by-hash/1486805d920ad3d9.png"
+  },
+  {
+    "name": "ShapeStraightConnectorArrow",
+    "imageAsset": "images/by-hash/c0361fe67ca4bdb0.png"
+  },
+  {
+    "name": "VisioAngledConnector",
+    "imageAsset": "images/by-hash/095e5d20afda9ef0.png"
+  },
+  {
+    "name": "VisioCurvedConnector",
+    "imageAsset": "images/by-hash/bdc6d6e10cc8a2fe.png"
+  },
+  {
+    "name": "ConnectorCurved",
+    "imageAsset": "images/by-hash/8e67f5d9a93f23b9.png"
+  },
+  {
+    "name": "ConnectorCurvedLines",
+    "imageAsset": "images/by-hash/3752d4301ce9294c.png"
+  },
+  {
+    "name": "ConnectorRightAngle",
+    "imageAsset": "images/by-hash/15dfd6bd1c12057b.png"
+  },
+  {
+    "name": "ConnectorTool",
+    "imageAsset": "images/by-hash/de067880af71db08.png"
+  },
+  {
+    "name": "ConnectorToolMenu",
+    "imageAsset": "images/by-hash/de067880af71db08.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PictureBackgroundRemovalMarkBackground",
+    "imageAsset": "images/by-hash/a135add48b00661c.png"
+  },
+  {
+    "name": "PictureBackgroundRemovalMarkForeground",
+    "imageAsset": "images/by-hash/896221af76c1e705.png"
+  },
+  {
+    "name": "PictureBackgroundRemoval",
+    "imageAsset": "images/by-hash/f7b2fac34b1b4100.png"
+  },
+  {
+    "name": "BackgroundRemovalClose",
+    "imageAsset": "images/by-hash/48eab841d02031df.png"
+  },
+  {
+    "name": "GroupBackgroundRemovalClose",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "GroupBackgroundRemovalMode",
+    "imageAsset": "images/by-hash/896221af76c1e705.png"
+  },
+  {
+    "name": "KeepBackgroundRemoval",
+    "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+  },
+  {
+    "name": "SketchpadToolDeleteBackground",
+    "imageAsset": "images/by-hash/fee8f30c23a087f7.png"
+  },
+  {
+    "name": "TableBackgroundPictureFill",
+    "imageAsset": "images/by-hash/7c09e8bd015cd422.png"
+  },
+  {
+    "name": "OrgChartPictureDelete",
+    "imageAsset": "images/by-hash/42025fe41b6b60f1.png"
+  },
+  {
+    "name": "ApplyImageBackgroundFill",
+    "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+  },
+  {
+    "name": "ApplyImageBackgroundTile",
+    "imageAsset": "images/by-hash/18e3f90d57530743.png"
+  }
+]

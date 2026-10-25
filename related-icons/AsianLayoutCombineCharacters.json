@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AsianLayoutCharactersEnclose",
+    "imageAsset": "images/by-hash/b4b0c0c1d476a36c.png"
+  },
+  {
+    "name": "CombineCharacters",
+    "imageAsset": "images/by-hash/864d154c334988f7.png"
+  },
+  {
+    "name": "AsianLayoutCharacterScaling",
+    "imageAsset": "images/by-hash/8cbf09e565cd0616.png"
+  },
+  {
+    "name": "AsianLayoutFitText",
+    "imageAsset": "images/by-hash/f65954aad1f1e694.png"
+  },
+  {
+    "name": "AsianLayoutHorizontalInVertical",
+    "imageAsset": "images/by-hash/ca87cdc980134c13.png"
+  },
+  {
+    "name": "AsianLayoutMenu",
+    "imageAsset": "images/by-hash/8cbf09e565cd0616.png"
+  },
+  {
+    "name": "AsianLayoutPhoneticGuide",
+    "imageAsset": "images/by-hash/28566b19d88d1297.png"
+  },
+  {
+    "name": "CombineShapesGallery",
+    "imageAsset": "images/by-hash/5f9fba2194e87a87.png"
+  },
+  {
+    "name": "CombineShapesMenu",
+    "imageAsset": "images/by-hash/5f9fba2194e87a87.png"
+  },
+  {
+    "name": "CompareAndCombine",
+    "imageAsset": "images/by-hash/747289478e8b2199.png"
+  },
+  {
+    "name": "ReviewCombineRevisions",
+    "imageAsset": "images/by-hash/945d05d3589e739b.png"
+  },
+  {
+    "name": "ShapesCombine",
+    "imageAsset": "images/by-hash/5f9fba2194e87a87.png"
+  }
+]

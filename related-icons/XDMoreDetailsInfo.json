@@ -1,0 +1,50 @@
+[
+  {
+    "name": "XDMoreDetailsAlert",
+    "imageAsset": "images/by-hash/cabe4c9851b37f45.png"
+  },
+  {
+    "name": "XDBackgroundColor",
+    "imageAsset": "images/by-hash/f49b012b69437cca.png"
+  },
+  {
+    "name": "XDBlock",
+    "imageAsset": "images/by-hash/67d47d0de11c3614.png"
+  },
+  {
+    "name": "XDCheckBox",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "XDConditionalFormatting",
+    "imageAsset": "images/by-hash/468cf6e9e64ac27c.png"
+  },
+  {
+    "name": "XDDataValidation",
+    "imageAsset": "images/by-hash/91f56a8a930ceea2.png"
+  },
+  {
+    "name": "XDFormLayout",
+    "imageAsset": "images/by-hash/05585dac69b5b14f.png"
+  },
+  {
+    "name": "XDInkPicture",
+    "imageAsset": "images/by-hash/a9de9ec09bddb7a6.png"
+  },
+  {
+    "name": "XDInsertDatePicker",
+    "imageAsset": "images/by-hash/70eb64b8f3d082fd.png"
+  },
+  {
+    "name": "XDInsertPictureControl",
+    "imageAsset": "images/by-hash/5e6946411ffa8d11.png"
+  },
+  {
+    "name": "XDListBox",
+    "imageAsset": "images/by-hash/5afbe6d1834bbe58.png"
+  },
+  {
+    "name": "XDOptionalGroup",
+    "imageAsset": "images/by-hash/77ffd9281f590cd6.png"
+  }
+]

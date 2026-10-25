@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ManageWebPartConnections",
+    "imageAsset": "images/by-hash/64480077e54e1b8b.png"
+  },
+  {
+    "name": "Connections",
+    "imageAsset": "images/by-hash/1ac8159b65bc960f.png"
+  },
+  {
+    "name": "DataConnectionsGetMore",
+    "imageAsset": "images/by-hash/9ec10291a785eb4a.png"
+  },
+  {
+    "name": "DataConnectionsManager",
+    "imageAsset": "images/by-hash/7921b73a38f534b8.png"
+  },
+  {
+    "name": "DataConnectionsSubmitMore",
+    "imageAsset": "images/by-hash/4aed5d61b782f5bd.png"
+  },
+  {
+    "name": "GetExternalDataExistingConnections",
+    "imageAsset": "images/by-hash/5b478506b12c635c.png"
+  },
+  {
+    "name": "GroupConnections",
+    "imageAsset": "images/by-hash/244cb1e8fbeb8bfc.png"
+  },
+  {
+    "name": "GroupDataConnectionsActions",
+    "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+  },
+  {
+    "name": "GroupDataConnectionsEdit",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "GroupDataConnectionsNew",
+    "imageAsset": "images/by-hash/141eb9b927f43b2a.png"
+  },
+  {
+    "name": "GroupWebPartConnections",
+    "imageAsset": "images/by-hash/46504686e3dd6015.png"
+  },
+  {
+    "name": "SlicerConnectionsMenu",
+    "imageAsset": "images/by-hash/5e10610ca6b6e526.png"
+  }
+]

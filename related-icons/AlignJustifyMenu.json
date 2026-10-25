@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AlignJustify",
+    "imageAsset": "images/by-hash/d185b01fc1e08c23.png"
+  },
+  {
+    "name": "AlignJustifyHigh",
+    "imageAsset": "images/by-hash/0c7035d218299b2c.png"
+  },
+  {
+    "name": "AlignJustifyLow",
+    "imageAsset": "images/by-hash/7cc7551fd5ca81e9.png"
+  },
+  {
+    "name": "AlignJustifyMedium",
+    "imageAsset": "images/by-hash/ea610af81dd29998.png"
+  },
+  {
+    "name": "AlignJustifyThai",
+    "imageAsset": "images/by-hash/14c5405747729e75.png"
+  },
+  {
+    "name": "AlignJustifyWithMixedLanguages",
+    "imageAsset": "images/by-hash/d185b01fc1e08c23.png"
+  },
+  {
+    "name": "TextAlignLetterJustify",
+    "imageAsset": "images/by-hash/93ebb9dda214f74e.png"
+  },
+  {
+    "name": "TextAlignStretchJustify",
+    "imageAsset": "images/by-hash/fac06a5b793b831f.png"
+  },
+  {
+    "name": "TextAlignWordJustify",
+    "imageAsset": "images/by-hash/a0d006e6ca0b0d55.png"
+  },
+  {
+    "name": "AsianNewspaperJustify",
+    "imageAsset": "images/by-hash/f6b5d9f00575876d.png"
+  },
+  {
+    "name": "JustifyHighVertical",
+    "imageAsset": "images/by-hash/d3aec530cfef44fd.png"
+  },
+  {
+    "name": "JustifyLowVertical",
+    "imageAsset": "images/by-hash/861f95c4f28d3239.png"
+  }
+]

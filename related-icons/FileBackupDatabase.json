@@ -1,0 +1,50 @@
+[
+  {
+    "name": "DatabaseCopyDatabaseFile",
+    "imageAsset": "images/by-hash/0ce45d47470a6c47.png"
+  },
+  {
+    "name": "DatabaseMakeMdeFile",
+    "imageAsset": "images/by-hash/c9ab25d1a4d28d90.png"
+  },
+  {
+    "name": "FileBackUpSqlDatabase",
+    "imageAsset": "images/by-hash/ffaec45de999bcea.png"
+  },
+  {
+    "name": "FileCloseDatabase",
+    "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+  },
+  {
+    "name": "FileCompactAndRepairDatabase",
+    "imageAsset": "images/by-hash/6e89cbd7d71902d5.png"
+  },
+  {
+    "name": "FileDatabaseProperties",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "FileDropSqlDatabase",
+    "imageAsset": "images/by-hash/a0176d556cbf9157.png"
+  },
+  {
+    "name": "FileNewDatabase",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "FileOpenDatabase",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "FileSaveDatabaseAsLocal",
+    "imageAsset": "images/by-hash/33bc875ecd54e6e4.png"
+  },
+  {
+    "name": "FileServerTransferDatabase",
+    "imageAsset": "images/by-hash/6d6286434039bf1a.png"
+  },
+  {
+    "name": "BackupSite",
+    "imageAsset": "images/by-hash/ffaec45de999bcea.png"
+  }
+]

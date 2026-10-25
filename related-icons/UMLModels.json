@@ -1,0 +1,30 @@
+[
+  {
+    "name": "GroupUMLManage",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "GroupUMLModel",
+    "imageAsset": "images/by-hash/fb395256647d28f3.png"
+  },
+  {
+    "name": "GroupUMLShowHide",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "UMLDrawingOptions",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "UMLEvents",
+    "imageAsset": "images/by-hash/b62426a37b8cc53f.png"
+  },
+  {
+    "name": "UMLPackages",
+    "imageAsset": "images/by-hash/e21133a23391a96f.png"
+  },
+  {
+    "name": "UMLStereotypes",
+    "imageAsset": "images/by-hash/69625599b43a3a3f.png"
+  }
+]

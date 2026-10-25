@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TaskMoveCompletedPartsToStatusDate",
+    "imageAsset": "images/by-hash/c298599340a1ea9d.png"
+  },
+  {
+    "name": "TaskMoveIncompletePartsToStatusDate",
+    "imageAsset": "images/by-hash/f904ef0706eb5c45.png"
+  },
+  {
+    "name": "StatusDate",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "SyncStatusUpToDate",
+    "imageAsset": "images/by-hash/4bd86946952764c0.png"
+  },
+  {
+    "name": "GroupStatusTask",
+    "imageAsset": "images/by-hash/8f8754120435881b.png"
+  },
+  {
+    "name": "QuickSearchTaskStatusGallery",
+    "imageAsset": "images/by-hash/e6be1e2f3d68bbb9.png"
+  },
+  {
+    "name": "OutlookTaskCustomDate",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "OutlookTaskCustomDateContextual",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "QuickSearchTaskDueDateGallery",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "QuickSearchTaskStartDateGallery",
+    "imageAsset": "images/by-hash/c7d6f3917cb26c65.png"
+  },
+  {
+    "name": "MoveTaskMenu",
+    "imageAsset": "images/by-hash/a372ea0002b4bafc.png"
+  },
+  {
+    "name": "TaskMoveBackCustom",
+    "imageAsset": "images/by-hash/b64e89ff93e6753b.png"
+  }
+]

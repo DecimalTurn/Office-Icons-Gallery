@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JotNavUIFind",
+    "imageAsset": "images/by-hash/8ac1c6e151bfa73f.png"
+  },
+  {
+    "name": "JotNavUIFindNextHit",
+    "imageAsset": "images/by-hash/0f42881fbb368916.png"
+  },
+  {
+    "name": "JotNavUIFindPrevHit",
+    "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+  },
+  {
+    "name": "JotNavUIFindResults",
+    "imageAsset": "images/by-hash/6b28a008f02b0e87.png"
+  },
+  {
+    "name": "JotNavUIFindRTL",
+    "imageAsset": "images/by-hash/795585269d9eb56a.png"
+  },
+  {
+    "name": "JotNavUINextPage",
+    "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+  },
+  {
+    "name": "JotNavUIParentFolder",
+    "imageAsset": "images/by-hash/4c569d92bdc6384c.png"
+  },
+  {
+    "name": "JotNavUIPrevPage",
+    "imageAsset": "images/by-hash/9c3ea6230877361d.png"
+  },
+  {
+    "name": "BusyUI",
+    "imageAsset": "images/by-hash/8f20d098de403a20.png"
+  },
+  {
+    "name": "SearchUI",
+    "imageAsset": "images/by-hash/c02c1d323af75aa4.png"
+  },
+  {
+    "name": "ToggleAddTableUI",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "ChartNavDrillDown",
+    "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+  }
+]

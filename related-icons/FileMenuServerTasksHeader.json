@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FileServerTasksMenu",
+    "imageAsset": "images/by-hash/374c984d4a9fc494.png"
+  },
+  {
+    "name": "FileSaveToDocumentManagementServer",
+    "imageAsset": "images/by-hash/87ce166b8e25d0f6.png"
+  },
+  {
+    "name": "FileServerLinkTables",
+    "imageAsset": "images/by-hash/03d8cc77bd05dbdd.png"
+  },
+  {
+    "name": "FileServerMenu",
+    "imageAsset": "images/by-hash/374c984d4a9fc494.png"
+  },
+  {
+    "name": "FileServerTransferDatabase",
+    "imageAsset": "images/by-hash/6d6286434039bf1a.png"
+  },
+  {
+    "name": "FileWorkflowTasks",
+    "imageAsset": "images/by-hash/a7c53f53aead05b3.png"
+  },
+  {
+    "name": "FileMenuPublishHeader",
+    "imageAsset": "images/by-hash/b9b0aea1b63f72df.png"
+  },
+  {
+    "name": "FileMenuSendHeader",
+    "imageAsset": "images/by-hash/17e648f52c2a4500.png"
+  },
+  {
+    "name": "HeaderFooterFileNameInsert",
+    "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+  },
+  {
+    "name": "HeaderFooterFilePathInsert",
+    "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+  },
+  {
+    "name": "AccessListTasks",
+    "imageAsset": "images/by-hash/eb984634b74705b7.png"
+  },
+  {
+    "name": "AccessTableTasks",
+    "imageAsset": "images/by-hash/eb984634b74705b7.png"
+  }
+]

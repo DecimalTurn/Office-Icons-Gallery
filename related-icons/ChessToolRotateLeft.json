@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ChessToolRotateRight",
+    "imageAsset": "images/by-hash/2be74a485b86b3c5.png"
+  },
+  {
+    "name": "DiagramRotateLeft",
+    "imageAsset": "images/by-hash/15ce65f4ce94ed7f.png"
+  },
+  {
+    "name": "ObjectRotateLeft90",
+    "imageAsset": "images/by-hash/65c1b10f192ddd9b.png"
+  },
+  {
+    "name": "RotateLeft2",
+    "imageAsset": "images/by-hash/65c1b10f192ddd9b.png"
+  },
+  {
+    "name": "RotateLeft45OneNote",
+    "imageAsset": "images/by-hash/6eea7fe7f1fb4277.png"
+  },
+  {
+    "name": "ChessToolNewGame",
+    "imageAsset": "images/by-hash/dd87254046e40348.png"
+  },
+  {
+    "name": "GroupChess",
+    "imageAsset": "images/by-hash/720e34890e473f48.png"
+  },
+  {
+    "name": "GroupNewChessTool",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "NewChessTool",
+    "imageAsset": "images/by-hash/578e80fc586e922d.png"
+  },
+  {
+    "name": "CrossFunctionalFlowchartRotateLaneLabel",
+    "imageAsset": "images/by-hash/96f10ff6e106a8a4.png"
+  },
+  {
+    "name": "DiagramRotateRight",
+    "imageAsset": "images/by-hash/582d5eff99286d80.png"
+  },
+  {
+    "name": "Drawing1GalleryRotateObject",
+    "imageAsset": "images/by-hash/2be74a485b86b3c5.png"
+  }
+]

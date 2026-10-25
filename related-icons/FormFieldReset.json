@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FormFieldClear",
+    "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+  },
+  {
+    "name": "FormFieldProperties",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "ShowHiddentFormFieldMark",
+    "imageAsset": "images/by-hash/b5dacc7dddc7630d.png"
+  },
+  {
+    "name": "TaskSummaryCreateFormField",
+    "imageAsset": "images/by-hash/8166418eccf14f70.png"
+  },
+  {
+    "name": "ChartResetToMatchStyle",
+    "imageAsset": "images/by-hash/9940c20fa1f26a2a.png"
+  },
+  {
+    "name": "GroupPictureReset",
+    "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+  },
+  {
+    "name": "GroupSmartArtReset",
+    "imageAsset": "images/by-hash/d69e055aa1887fd3.png"
+  },
+  {
+    "name": "PictureArtisticEffectsReset",
+    "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+  },
+  {
+    "name": "PictureColorReset",
+    "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+  },
+  {
+    "name": "PictureCorrectionsReset",
+    "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+  },
+  {
+    "name": "PictureReset",
+    "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+  },
+  {
+    "name": "PictureResetAndSize",
+    "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+  }
+]

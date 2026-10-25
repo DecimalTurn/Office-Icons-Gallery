@@ -1,0 +1,42 @@
+[
+  {
+    "name": "QuickStepTemplateCategorizeAndMove",
+    "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+  },
+  {
+    "name": "QuickStepTemplateFlagAndMove",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "QuickStepTemplateForward",
+    "imageAsset": "images/by-hash/d4f0e3112d0c691d.png"
+  },
+  {
+    "name": "QuickStepTemplateMoveToFolder",
+    "imageAsset": "images/by-hash/a29be37adf30f0e1.png"
+  },
+  {
+    "name": "QuickStepTemplateNewEmail",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  },
+  {
+    "name": "QuickStepTemplateNewMeeting",
+    "imageAsset": "images/by-hash/feff041c0012ff48.png"
+  },
+  {
+    "name": "InsertDeclarativeStep",
+    "imageAsset": "images/by-hash/497eefbe40fb07d0.png"
+  },
+  {
+    "name": "InsertSequentialStep",
+    "imageAsset": "images/by-hash/497eefbe40fb07d0.png"
+  },
+  {
+    "name": "InsertStepMenu",
+    "imageAsset": "images/by-hash/497eefbe40fb07d0.png"
+  },
+  {
+    "name": "MacroSingleStep",
+    "imageAsset": "images/by-hash/7beaf3718642418a.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SelectCell",
+    "imageAsset": "images/by-hash/21caa061890b9878.png"
+  },
+  {
+    "name": "SelectTaskCell",
+    "imageAsset": "images/by-hash/21caa061890b9878.png"
+  },
+  {
+    "name": "TableSelectCell",
+    "imageAsset": "images/by-hash/21caa061890b9878.png"
+  },
+  {
+    "name": "TableSelectCellInfoPath",
+    "imageAsset": "images/by-hash/21caa061890b9878.png"
+  },
+  {
+    "name": "BrowsePrevious",
+    "imageAsset": "images/by-hash/cac95a2441cd4e80.png"
+  },
+  {
+    "name": "CatalogMergeGoToPreviousRecord",
+    "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+  },
+  {
+    "name": "ConflictsPrevious",
+    "imageAsset": "images/by-hash/730591bb5fb612a1.png"
+  },
+  {
+    "name": "DeletePagePreviousVersion",
+    "imageAsset": "images/by-hash/1921c3efdc66749a.png"
+  },
+  {
+    "name": "GanttPrevious",
+    "imageAsset": "images/by-hash/1816c21da026fa8e.png"
+  },
+  {
+    "name": "GoToPreviousAppointment",
+    "imageAsset": "images/by-hash/37f399aa9a0ca61a.png"
+  },
+  {
+    "name": "HeaderFooterLinkToPrevious",
+    "imageAsset": "images/by-hash/e56eb24b062a60a7.png"
+  },
+  {
+    "name": "HeaderFooterPreviousSection",
+    "imageAsset": "images/by-hash/dea8fdc2f8ab15ef.png"
+  }
+]

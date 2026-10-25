@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupLayoutRouting",
+    "imageAsset": "images/by-hash/a8548e1f3b219e8d.png"
+  },
+  {
+    "name": "GroupPageLayoutSetup",
+    "imageAsset": "images/by-hash/fc276fb850114877.png"
+  },
+  {
+    "name": "RoutingDirectionDown",
+    "imageAsset": "images/by-hash/3443375742fe21fc.png"
+  },
+  {
+    "name": "RoutingDirectionLeft",
+    "imageAsset": "images/by-hash/85be4ebff83525a1.png"
+  },
+  {
+    "name": "RoutingDirectionRight",
+    "imageAsset": "images/by-hash/f2898bf2a96aadd5.png"
+  },
+  {
+    "name": "RoutingDirectionUp",
+    "imageAsset": "images/by-hash/c3b44289c5a381f2.png"
+  },
+  {
+    "name": "RoutingSlip",
+    "imageAsset": "images/by-hash/676a2358a8eb6d14.png"
+  },
+  {
+    "name": "FilePageSetupCalendar",
+    "imageAsset": "images/by-hash/fc276fb850114877.png"
+  },
+  {
+    "name": "FilePageSetupCalendarFonts",
+    "imageAsset": "images/by-hash/38d76334050dad66.png"
+  },
+  {
+    "name": "FilePageSetupPage",
+    "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+  },
+  {
+    "name": "FilePrintSetup",
+    "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+  },
+  {
+    "name": "GroupCDAudioSetup",
+    "imageAsset": "images/by-hash/c4155e7df729c0ca.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FileExcelServicesOptions",
+    "imageAsset": "images/by-hash/bd9350e8ad9eefc5.png"
+  },
+  {
+    "name": "PublishToAccessServices",
+    "imageAsset": "images/by-hash/e538b715a1b0d721.png"
+  },
+  {
+    "name": "PublishToVisioServices",
+    "imageAsset": "images/by-hash/409ae1bebe39dfdf.png"
+  },
+  {
+    "name": "FileMenuPublishHeader",
+    "imageAsset": "images/by-hash/b9b0aea1b63f72df.png"
+  },
+  {
+    "name": "FilePublish",
+    "imageAsset": "images/by-hash/b40fac805db5ef0f.png"
+  },
+  {
+    "name": "FilePublishAsWebPage",
+    "imageAsset": "images/by-hash/19bf97b4b00c26dc.png"
+  },
+  {
+    "name": "FilePublishSlides",
+    "imageAsset": "images/by-hash/1cdf488bfe3001c7.png"
+  },
+  {
+    "name": "FilePublishToSharePoint",
+    "imageAsset": "images/by-hash/cd738a271dddfdd2.png"
+  },
+  {
+    "name": "FileSaveAsExcel97_2003",
+    "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+  },
+  {
+    "name": "FileSaveAsExcelOpenDocumentSpreadsheet",
+    "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+  },
+  {
+    "name": "FileSaveAsExcelXlsb",
+    "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+  },
+  {
+    "name": "FileSaveAsExcelXlsx",
+    "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "FacilitiesAssignCategory",
+    "imageAsset": "images/by-hash/81286b9a0ccb679f.png"
+  },
+  {
+    "name": "FacilitiesImportData",
+    "imageAsset": "images/by-hash/68574b4538de7a49.png"
+  },
+  {
+    "name": "FacilitiesLabelShapes",
+    "imageAsset": "images/by-hash/b641fa2969faccdd.png"
+  },
+  {
+    "name": "FacilitiesRefresh",
+    "imageAsset": "images/by-hash/740882e026184acf.png"
+  },
+  {
+    "name": "GroupFacilitiesManage",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "GroupFacilitiesShapes",
+    "imageAsset": "images/by-hash/b641fa2969faccdd.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PivotTableGrandTotalsOnForRowsOnly",
+    "imageAsset": "images/by-hash/1528f54377a7ea34.png"
+  },
+  {
+    "name": "PivotTableGrandTotalsOffForRowsAndColumns",
+    "imageAsset": "images/by-hash/90d4275591f12576.png"
+  },
+  {
+    "name": "PivotTableGrandTotalsOnForRowsAndColumns",
+    "imageAsset": "images/by-hash/d2701395da25b98b.png"
+  },
+  {
+    "name": "PivotTableLayoutGrandTotals",
+    "imageAsset": "images/by-hash/ad585748fd6dd2ae.png"
+  },
+  {
+    "name": "PivotTableNonVisualTotals",
+    "imageAsset": "images/by-hash/882e6dee1ab2d187.png"
+  },
+  {
+    "name": "PivotShowOnlyTheBottomMenu",
+    "imageAsset": "images/by-hash/04f960c083da66e2.png"
+  },
+  {
+    "name": "PivotShowOnlyTheTopMenu",
+    "imageAsset": "images/by-hash/04f960c083da66e2.png"
+  },
+  {
+    "name": "GroupGroupingAndTotals",
+    "imageAsset": "images/by-hash/170f9d5531971ed7.png"
+  },
+  {
+    "name": "QueryTotalsShowHide",
+    "imageAsset": "images/by-hash/f3efe98ab9433ece.png"
+  },
+  {
+    "name": "RecordsTotals",
+    "imageAsset": "images/by-hash/f3efe98ab9433ece.png"
+  },
+  {
+    "name": "TableStyleTotalsRow",
+    "imageAsset": "images/by-hash/7e49e8212ce8620a.png"
+  },
+  {
+    "name": "TotalsMenu",
+    "imageAsset": "images/by-hash/f3efe98ab9433ece.png"
+  }
+]

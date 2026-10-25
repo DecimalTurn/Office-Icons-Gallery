@@ -1,0 +1,34 @@
+[
+  {
+    "name": "GroupTranslate",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  },
+  {
+    "name": "TranslateDocument",
+    "imageAsset": "images/by-hash/3222766fdad4b576.png"
+  },
+  {
+    "name": "TranslateMenu",
+    "imageAsset": "images/by-hash/7df1c39bdf305979.png"
+  },
+  {
+    "name": "TranslateSelected",
+    "imageAsset": "images/by-hash/71defe40dc4fe8e3.png"
+  },
+  {
+    "name": "TranslateToSimplifiedChinese",
+    "imageAsset": "images/by-hash/eea9c1e27e571eba.png"
+  },
+  {
+    "name": "TranslateToSimplifiedChineseReadonly",
+    "imageAsset": "images/by-hash/eea9c1e27e571eba.png"
+  },
+  {
+    "name": "TranslateToTraditionalChinese",
+    "imageAsset": "images/by-hash/33487980f9deb57f.png"
+  },
+  {
+    "name": "TranslateToTraditionalChineseReadonly",
+    "imageAsset": "images/by-hash/33487980f9deb57f.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SmartArtOrganizationChartRightHanging",
+    "imageAsset": "images/by-hash/f82e0174fcb69fe3.png"
+  },
+  {
+    "name": "OrganizationChartLayoutLeftHanging",
+    "imageAsset": "images/by-hash/afd453969bae38d0.png"
+  },
+  {
+    "name": "SmartArtOrganizationChartBoth",
+    "imageAsset": "images/by-hash/c06343c84f9380b8.png"
+  },
+  {
+    "name": "SmartArtOrganizationChartMenu",
+    "imageAsset": "images/by-hash/fe3465ad6d5ba97d.png"
+  },
+  {
+    "name": "SmartArtOrganizationChartStandard",
+    "imageAsset": "images/by-hash/fe3465ad6d5ba97d.png"
+  },
+  {
+    "name": "SmartArtRightToLeft",
+    "imageAsset": "images/by-hash/a1fc6083d5622b63.png"
+  },
+  {
+    "name": "OrganizationChartLayoutBothHanging",
+    "imageAsset": "images/by-hash/47578ee07b7a36f8.png"
+  },
+  {
+    "name": "OrganizationChartLayoutRightHanging",
+    "imageAsset": "images/by-hash/f82e0174fcb69fe3.png"
+  },
+  {
+    "name": "ConvertSmartArtMenu",
+    "imageAsset": "images/by-hash/0e337530ca1d575e.png"
+  },
+  {
+    "name": "ConvertToSmartArt",
+    "imageAsset": "images/by-hash/df0b06c2bd8de1bb.png"
+  },
+  {
+    "name": "ConvertToSmartArtMoreSmartArtGraphicsDialog",
+    "imageAsset": "images/by-hash/df0b06c2bd8de1bb.png"
+  },
+  {
+    "name": "GroupSmartArtCreateGraphic",
+    "imageAsset": "images/by-hash/dd87254046e40348.png"
+  }
+]

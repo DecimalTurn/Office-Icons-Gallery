@@ -1,0 +1,42 @@
+[
+  {
+    "name": "AnimationCustomAddExitDialog",
+    "imageAsset": "images/by-hash/9df3ac47e85dd523.png"
+  },
+  {
+    "name": "AnimationCustomExitDialog",
+    "imageAsset": "images/by-hash/9df3ac47e85dd523.png"
+  },
+  {
+    "name": "ChartExitEditText",
+    "imageAsset": "images/by-hash/8187ee8d4735072e.png"
+  },
+  {
+    "name": "CloseHollow",
+    "imageAsset": "images/by-hash/6414b740b3567dff.png"
+  },
+  {
+    "name": "FileExit",
+    "imageAsset": "images/by-hash/8b8f6fc1118fc4fc.png"
+  },
+  {
+    "name": "JotExitFind",
+    "imageAsset": "images/by-hash/cabe4c9851b37f45.png"
+  },
+  {
+    "name": "OpenHollow",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "OptionsHollow",
+    "imageAsset": "images/by-hash/a4b0115356cf93ef.png"
+  },
+  {
+    "name": "SaveAsHollow",
+    "imageAsset": "images/by-hash/4f59b338d3f5a439.png"
+  },
+  {
+    "name": "SaveHollow",
+    "imageAsset": "images/by-hash/1c9db4ad034af9ca.png"
+  }
+]

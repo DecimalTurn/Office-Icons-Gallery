@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ArrangementGallery",
+    "imageAsset": "images/by-hash/103c6fedc45f72ff.png"
+  },
+  {
+    "name": "ContextMenuArrangementGallery",
+    "imageAsset": "images/by-hash/3cb7771c306e0262.png"
+  },
+  {
+    "name": "GroupDailyTaskListArrangement",
+    "imageAsset": "images/by-hash/103c6fedc45f72ff.png"
+  },
+  {
+    "name": "GroupDayWeekMonthArrangement",
+    "imageAsset": "images/by-hash/f80a7aaa0a54faa5.png"
+  },
+  {
+    "name": "GroupIconArrangement",
+    "imageAsset": "images/by-hash/103c6fedc45f72ff.png"
+  },
+  {
+    "name": "GroupTableArrangement",
+    "imageAsset": "images/by-hash/103c6fedc45f72ff.png"
+  },
+  {
+    "name": "GroupTaskListArrangement",
+    "imageAsset": "images/by-hash/103c6fedc45f72ff.png"
+  },
+  {
+    "name": "GotoJournal",
+    "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+  },
+  {
+    "name": "GroupJournalNew",
+    "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+  },
+  {
+    "name": "GroupJournalOptions",
+    "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+  },
+  {
+    "name": "GroupJournalRefineSearch",
+    "imageAsset": "images/by-hash/33960362b2c61f33.png"
+  },
+  {
+    "name": "JournalNewItemMenu",
+    "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+  }
+]

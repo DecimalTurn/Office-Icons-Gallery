@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SourceSafeQuickCheckIn",
+    "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+  },
+  {
+    "name": "SourceSafeQuickUndoCheckOut",
+    "imageAsset": "images/by-hash/9a092616c2da4f72.png"
+  },
+  {
+    "name": "GroupCheckoutFromProjectServer",
+    "imageAsset": "images/by-hash/b40fac805db5ef0f.png"
+  },
+  {
+    "name": "VersionsAndCheckout",
+    "imageAsset": "images/by-hash/900cf1bee3c78291.png"
+  },
+  {
+    "name": "JunkEmailSafeListsMenu",
+    "imageAsset": "images/by-hash/44ac5b462eeb6978.png"
+  },
+  {
+    "name": "BibliographyAddNewSource",
+    "imageAsset": "images/by-hash/07772fa5f13c3b98.png"
+  },
+  {
+    "name": "CatalogMergeOpenDataSource",
+    "imageAsset": "images/by-hash/ed662b1b3d27fe6e.png"
+  },
+  {
+    "name": "ChartEditDataSource",
+    "imageAsset": "images/by-hash/48a32676dd8b617d.png"
+  },
+  {
+    "name": "ChartSourceDataContextualMenu",
+    "imageAsset": "images/by-hash/48a32676dd8b617d.png"
+  },
+  {
+    "name": "DataFormSource",
+    "imageAsset": "images/by-hash/e25f6c250b708ee2.png"
+  },
+  {
+    "name": "DataSourceCatalogCopyModify",
+    "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+  },
+  {
+    "name": "DataSourceCatalogDataBase",
+    "imageAsset": "images/by-hash/141eb9b927f43b2a.png"
+  }
+]

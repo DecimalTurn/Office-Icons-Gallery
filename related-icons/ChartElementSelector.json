@@ -1,0 +1,30 @@
+[
+  {
+    "name": "BrowseSelector",
+    "imageAsset": "images/by-hash/a4cafd4afc575d87.png"
+  },
+  {
+    "name": "AddChartElementMenu",
+    "imageAsset": "images/by-hash/1296182aef35db2b.png"
+  },
+  {
+    "name": "ChartLaunchAddElementCallout",
+    "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+  },
+  {
+    "name": "ChartMoreElement",
+    "imageAsset": "images/by-hash/a06c2047723e311d.png"
+  },
+  {
+    "name": "MoveElementDown",
+    "imageAsset": "images/by-hash/79274de9857dec98.png"
+  },
+  {
+    "name": "MoveElementUp",
+    "imageAsset": "images/by-hash/068470b628dc1569.png"
+  },
+  {
+    "name": "WorkflowElementProperties",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  }
+]

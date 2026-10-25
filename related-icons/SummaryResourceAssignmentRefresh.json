@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ResourcePoolRefresh",
+    "imageAsset": "images/by-hash/f103c78a39220ff6.png"
+  },
+  {
+    "name": "AddAssignmentStage",
+    "imageAsset": "images/by-hash/4c50252de9e4f7f7.png"
+  },
+  {
+    "name": "ArrangeByAssignment",
+    "imageAsset": "images/by-hash/906061656933d759.png"
+  },
+  {
+    "name": "AssignmentInformation",
+    "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+  },
+  {
+    "name": "AssignmentNotes",
+    "imageAsset": "images/by-hash/9e6c27b717f1db46.png"
+  },
+  {
+    "name": "CancelTaskAssignment",
+    "imageAsset": "images/by-hash/8dfba6da393e2084.png"
+  },
+  {
+    "name": "GroupAssignmentProperties",
+    "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+  },
+  {
+    "name": "ReduceWorkOnAssignment",
+    "imageAsset": "images/by-hash/663b37e631b9981b.png"
+  },
+  {
+    "name": "TaskAndAssignmentInformation",
+    "imageAsset": "images/by-hash/10607efc305a33d2.png"
+  },
+  {
+    "name": "AutoSummaryResummarize",
+    "imageAsset": "images/by-hash/61c99640ab898dcc.png"
+  },
+  {
+    "name": "AutoSummaryToolsMenu",
+    "imageAsset": "images/by-hash/61c99640ab898dcc.png"
+  },
+  {
+    "name": "AutoSummaryViewByHighlight",
+    "imageAsset": "images/by-hash/cb51119c7fae3a92.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SparklineAxisMenu",
+    "imageAsset": "images/by-hash/657c2c8f53440940.png"
+  },
+  {
+    "name": "GroupSparklineType",
+    "imageAsset": "images/by-hash/553c22234553f743.png"
+  },
+  {
+    "name": "DataTypeDateTime",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  },
+  {
+    "name": "DataTypeLongDate",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "DataTypeMediumDate",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "DataTypeShortDate",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "ChartAxisTitles",
+    "imageAsset": "images/by-hash/dd0376fb28331e0a.png"
+  },
+  {
+    "name": "ChartAxisTitlesGallery",
+    "imageAsset": "images/by-hash/dd0376fb28331e0a.png"
+  },
+  {
+    "name": "ChartDepthAxis",
+    "imageAsset": "images/by-hash/109f31e55e8dba3d.png"
+  },
+  {
+    "name": "ChartDepthAxisTitle",
+    "imageAsset": "images/by-hash/9f0f29b5f7330e4f.png"
+  },
+  {
+    "name": "ChartFormatAxis",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartFormatAxisTitle",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  }
+]

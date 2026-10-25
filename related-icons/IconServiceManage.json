@@ -1,0 +1,50 @@
+[
+  {
+    "name": "IconServiceDefault",
+    "imageAsset": "images/by-hash/acd07aef3fcbd50a.png"
+  },
+  {
+    "name": "CreateWebServiceConnection",
+    "imageAsset": "images/by-hash/699b40367d81b599.png"
+  },
+  {
+    "name": "DataFromRESTWebService",
+    "imageAsset": "images/by-hash/12112a45fa5c84b7.png"
+  },
+  {
+    "name": "DataFromSOAPWebService",
+    "imageAsset": "images/by-hash/6c47b422fb9cec32.png"
+  },
+  {
+    "name": "DataFromWebService",
+    "imageAsset": "images/by-hash/1982f889c87dc93a.png"
+  },
+  {
+    "name": "DataSubmitToWebService",
+    "imageAsset": "images/by-hash/17f56f580b441277.png"
+  },
+  {
+    "name": "ClearIconColors",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "ConditionalFormattingIconSetsGallery",
+    "imageAsset": "images/by-hash/cae3e88b6f47d6fc.png"
+  },
+  {
+    "name": "DataGraphicIconSet",
+    "imageAsset": "images/by-hash/df77f5f25285305e.png"
+  },
+  {
+    "name": "EditIcon",
+    "imageAsset": "images/by-hash/d4dd0b28662db68f.png"
+  },
+  {
+    "name": "GroupIconArrangement",
+    "imageAsset": "images/by-hash/103c6fedc45f72ff.png"
+  },
+  {
+    "name": "GroupIconEditClipboard",
+    "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "MailMergeRecepientsUseOutlookContacts",
+    "imageAsset": "images/by-hash/77ab365d2852a887.png"
+  },
+  {
+    "name": "MailMergeRecepientsUseExistingList",
+    "imageAsset": "images/by-hash/ed662b1b3d27fe6e.png"
+  },
+  {
+    "name": "ContactCardAddToOutlookContacts",
+    "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+  },
+  {
+    "name": "ContactCardInstantMessageAddToOutlookContacts",
+    "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+  },
+  {
+    "name": "CatalogMergeCreateList",
+    "imageAsset": "images/by-hash/faa99bee2a7f02ec.png"
+  },
+  {
+    "name": "CatalogMergeEditList",
+    "imageAsset": "images/by-hash/3d4778e367c16353.png"
+  },
+  {
+    "name": "CatalogMergeExcludeSelectedRecord",
+    "imageAsset": "images/by-hash/e81f88c0221dad15.png"
+  },
+  {
+    "name": "CatalogMergeFillOrderMenu",
+    "imageAsset": "images/by-hash/b3d706cbe751a83c.png"
+  },
+  {
+    "name": "CatalogMergeFindRecipient",
+    "imageAsset": "images/by-hash/e58b441f04678b11.png"
+  },
+  {
+    "name": "CatalogMergeGoToFirstRecord",
+    "imageAsset": "images/by-hash/1720f362fe7a57f6.png"
+  },
+  {
+    "name": "CatalogMergeGoToLastRecord",
+    "imageAsset": "images/by-hash/885b15570afb85d5.png"
+  },
+  {
+    "name": "CatalogMergeGoToNextRecord",
+    "imageAsset": "images/by-hash/0f42881fbb368916.png"
+  }
+]

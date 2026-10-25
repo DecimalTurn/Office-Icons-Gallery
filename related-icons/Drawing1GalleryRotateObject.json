@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ObjectRotateFree",
+    "imageAsset": "images/by-hash/2fc9d06a341864fe.png"
+  },
+  {
+    "name": "ObjectRotateGallery",
+    "imageAsset": "images/by-hash/2be74a485b86b3c5.png"
+  },
+  {
+    "name": "ObjectRotateLeft90",
+    "imageAsset": "images/by-hash/65c1b10f192ddd9b.png"
+  },
+  {
+    "name": "ObjectRotateRight90",
+    "imageAsset": "images/by-hash/2be74a485b86b3c5.png"
+  },
+  {
+    "name": "DrawingObjectFormatDialog",
+    "imageAsset": "images/by-hash/c440abf3e2037b9b.png"
+  },
+  {
+    "name": "DrawingObjectFormatPublisher",
+    "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+  },
+  {
+    "name": "ChessToolRotateLeft",
+    "imageAsset": "images/by-hash/65c1b10f192ddd9b.png"
+  },
+  {
+    "name": "ChessToolRotateRight",
+    "imageAsset": "images/by-hash/2be74a485b86b3c5.png"
+  },
+  {
+    "name": "CrossFunctionalFlowchartRotateLaneLabel",
+    "imageAsset": "images/by-hash/96f10ff6e106a8a4.png"
+  },
+  {
+    "name": "DiagramRotateLeft",
+    "imageAsset": "images/by-hash/15ce65f4ce94ed7f.png"
+  },
+  {
+    "name": "DiagramRotateRight",
+    "imageAsset": "images/by-hash/582d5eff99286d80.png"
+  },
+  {
+    "name": "GalRotateShape",
+    "imageAsset": "images/by-hash/2be74a485b86b3c5.png"
+  }
+]

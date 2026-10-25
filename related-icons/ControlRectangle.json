@@ -1,0 +1,26 @@
+[
+  {
+    "name": "DrawFilledRectangle",
+    "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+  },
+  {
+    "name": "JotShapeRectangle",
+    "imageAsset": "images/by-hash/d4feea3bf0e813ea.png"
+  },
+  {
+    "name": "RectangleHotspot",
+    "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+  },
+  {
+    "name": "RectangleTool",
+    "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+  },
+  {
+    "name": "ShapeRectangle",
+    "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+  },
+  {
+    "name": "ShapeRoundedRectangle",
+    "imageAsset": "images/by-hash/7d1190827187ab7c.png"
+  }
+]

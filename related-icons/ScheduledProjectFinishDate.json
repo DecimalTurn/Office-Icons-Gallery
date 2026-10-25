@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ScheduledProjectStartDate",
+    "imageAsset": "images/by-hash/aa022e861f00f076.png"
+  },
+  {
+    "name": "GanttGoToFinish",
+    "imageAsset": "images/by-hash/885b15570afb85d5.png"
+  },
+  {
+    "name": "GroupCatalogMergeFinish",
+    "imageAsset": "images/by-hash/1f9b73fc5bc804c2.png"
+  },
+  {
+    "name": "GroupMailMergeFinish",
+    "imageAsset": "images/by-hash/13c4769b074c7428.png"
+  },
+  {
+    "name": "MailMergeFinishAndMergeMenu",
+    "imageAsset": "images/by-hash/13c4769b074c7428.png"
+  },
+  {
+    "name": "ScheduledTaskInsert",
+    "imageAsset": "images/by-hash/a7b612b49586b2ee.png"
+  },
+  {
+    "name": "TeamPlannerAutoScheduledBorder",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "TeamPlannerAutoScheduledFillColor",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "TeamPlannerManuallyScheduledFillColor",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "UpdateAsScheduled",
+    "imageAsset": "images/by-hash/412165697685a106.png"
+  },
+  {
+    "name": "UpdateAsScheduledMenu",
+    "imageAsset": "images/by-hash/ed932db054599512.png"
+  },
+  {
+    "name": "ArrangeByCreatedDate",
+    "imageAsset": "images/by-hash/5398b427a47b2421.png"
+  }
+]

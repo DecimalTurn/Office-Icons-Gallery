@@ -1,0 +1,50 @@
+[
+  {
+    "name": "DiagramShapeInsertClassic",
+    "imageAsset": "images/by-hash/dd87254046e40348.png"
+  },
+  {
+    "name": "DiagramShapeMoveBackwardClassic",
+    "imageAsset": "images/by-hash/b36e6bdfe546ed4b.png"
+  },
+  {
+    "name": "DiagramShapeMoveForwardClassic",
+    "imageAsset": "images/by-hash/c12295902ffef66c.png"
+  },
+  {
+    "name": "GroupPivotDiagramData",
+    "imageAsset": "images/by-hash/740882e026184acf.png"
+  },
+  {
+    "name": "GroupPivotDiagramFormat",
+    "imageAsset": "images/by-hash/267a79f8d7d3956e.png"
+  },
+  {
+    "name": "GroupPivotDiagramLayout",
+    "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+  },
+  {
+    "name": "GroupPivotDiagramSort",
+    "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+  },
+  {
+    "name": "PivotDiagramAlignBottom",
+    "imageAsset": "images/by-hash/41b181deaed7563e.png"
+  },
+  {
+    "name": "PivotDiagramAlignCenter",
+    "imageAsset": "images/by-hash/c208912ec62178ed.png"
+  },
+  {
+    "name": "PivotDiagramAlignLeft",
+    "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+  },
+  {
+    "name": "PivotDiagramAlignment",
+    "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+  },
+  {
+    "name": "PivotDiagramAlignMiddle",
+    "imageAsset": "images/by-hash/aecaa713bb24966e.png"
+  }
+]

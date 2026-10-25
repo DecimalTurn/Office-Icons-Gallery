@@ -1,0 +1,22 @@
+[
+  {
+    "name": "SaveHollow",
+    "imageAsset": "images/by-hash/1c9db4ad034af9ca.png"
+  },
+  {
+    "name": "CloseHollow",
+    "imageAsset": "images/by-hash/6414b740b3567dff.png"
+  },
+  {
+    "name": "ExitHollow",
+    "imageAsset": "images/by-hash/13f298e432e05ef0.png"
+  },
+  {
+    "name": "OpenHollow",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "OptionsHollow",
+    "imageAsset": "images/by-hash/a4b0115356cf93ef.png"
+  }
+]

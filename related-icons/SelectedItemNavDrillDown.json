@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SelectedItemNavDrillUp",
+    "imageAsset": "images/by-hash/9c3ea6230877361d.png"
+  },
+  {
+    "name": "ChartNavDrillDown",
+    "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+  },
+  {
+    "name": "NavDrillDown",
+    "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+  },
+  {
+    "name": "NavDrillUp",
+    "imageAsset": "images/by-hash/9c3ea6230877361d.png"
+  },
+  {
+    "name": "DrillInto",
+    "imageAsset": "images/by-hash/2bb6116b6cf27b51.png"
+  },
+  {
+    "name": "DrillOut",
+    "imageAsset": "images/by-hash/a9756fc15ca12e11.png"
+  },
+  {
+    "name": "JotNavUIFind",
+    "imageAsset": "images/by-hash/8ac1c6e151bfa73f.png"
+  },
+  {
+    "name": "JotNavUIFindNextHit",
+    "imageAsset": "images/by-hash/0f42881fbb368916.png"
+  },
+  {
+    "name": "JotNavUIFindPrevHit",
+    "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+  },
+  {
+    "name": "JotNavUIFindResults",
+    "imageAsset": "images/by-hash/6b28a008f02b0e87.png"
+  },
+  {
+    "name": "JotNavUIFindRTL",
+    "imageAsset": "images/by-hash/795585269d9eb56a.png"
+  },
+  {
+    "name": "JotNavUINewPage",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  }
+]

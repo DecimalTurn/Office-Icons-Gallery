@@ -1,0 +1,30 @@
+[
+  {
+    "name": "AdpStoredProcedureQueryMakeTable",
+    "imageAsset": "images/by-hash/8d588e96f4f6abb6.png"
+  },
+  {
+    "name": "DatabaseMakeMdeFile",
+    "imageAsset": "images/by-hash/c9ab25d1a4d28d90.png"
+  },
+  {
+    "name": "HorizontalSpacingMakeEqual",
+    "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+  },
+  {
+    "name": "MakeDefaultGroup",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "MakeThisLatest",
+    "imageAsset": "images/by-hash/697dd855d429c4a9.png"
+  },
+  {
+    "name": "QueryMakeTable",
+    "imageAsset": "images/by-hash/8d588e96f4f6abb6.png"
+  },
+  {
+    "name": "VerticalSpacingMakeEqual",
+    "imageAsset": "images/by-hash/faaef2a521a93bcd.png"
+  }
+]

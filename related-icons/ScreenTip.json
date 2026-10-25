@@ -1,0 +1,50 @@
+[
+  {
+    "name": "InkFeltTipPen",
+    "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+  },
+  {
+    "name": "PlaybackTipPlay",
+    "imageAsset": "images/by-hash/2f95c00be27190f4.png"
+  },
+  {
+    "name": "TipWizardHelp",
+    "imageAsset": "images/by-hash/9d98a74fb815027f.png"
+  },
+  {
+    "name": "TranslationToolTip",
+    "imageAsset": "images/by-hash/499a74b72396c743.png"
+  },
+  {
+    "name": "FullScreenViewClassic",
+    "imageAsset": "images/by-hash/919a51806dcb421a.png"
+  },
+  {
+    "name": "JotScreenCaptureShort",
+    "imageAsset": "images/by-hash/e0e443496fa9a016.png"
+  },
+  {
+    "name": "PrintPreviewFullScreen",
+    "imageAsset": "images/by-hash/c02c1d323af75aa4.png"
+  },
+  {
+    "name": "ScreenCaptureInsert",
+    "imageAsset": "images/by-hash/e0e443496fa9a016.png"
+  },
+  {
+    "name": "ScreenClipping",
+    "imageAsset": "images/by-hash/e0e443496fa9a016.png"
+  },
+  {
+    "name": "ScreenNavigatorBack",
+    "imageAsset": "images/by-hash/0cacf429781a9870.png"
+  },
+  {
+    "name": "ScreenNavigatorBackMenu",
+    "imageAsset": "images/by-hash/0cacf429781a9870.png"
+  },
+  {
+    "name": "ScreenNavigatorForward",
+    "imageAsset": "images/by-hash/3dd6c1c7546be437.png"
+  }
+]

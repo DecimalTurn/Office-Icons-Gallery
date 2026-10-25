@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupWindowSiteClient",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "SiteClientOpenInBrowser",
+    "imageAsset": "images/by-hash/19bf97b4b00c26dc.png"
+  },
+  {
+    "name": "ArrangeToolsSiteClient",
+    "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+  },
+  {
+    "name": "GroupArrangeSiteClient",
+    "imageAsset": "images/by-hash/cf92637eb802c6af.png"
+  },
+  {
+    "name": "GroupDocumentsViewSiteClient",
+    "imageAsset": "images/by-hash/cf92637eb802c6af.png"
+  },
+  {
+    "name": "GroupListToolQuickViewSiteClient",
+    "imageAsset": "images/by-hash/cf92637eb802c6af.png"
+  },
+  {
+    "name": "GroupShowHideSiteClient",
+    "imageAsset": "images/by-hash/8c005537b968b2f0.png"
+  },
+  {
+    "name": "GroupSiteClientGoTo",
+    "imageAsset": "images/by-hash/9001439ebaed8ec9.png"
+  },
+  {
+    "name": "GroupToolSiteClient",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "OpenItemInNewWindow",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "WebOpenInNewWindow",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "OpenSharePointSite",
+    "imageAsset": "images/by-hash/19bf97b4b00c26dc.png"
+  }
+]

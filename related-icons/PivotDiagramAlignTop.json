@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PivotDiagramBottomToTop",
+    "imageAsset": "images/by-hash/d1cbb528c2e34a2c.png"
+  },
+  {
+    "name": "PivotDiagramTopToBottom",
+    "imageAsset": "images/by-hash/c208912ec62178ed.png"
+  },
+  {
+    "name": "PivotDiagramAlignBottom",
+    "imageAsset": "images/by-hash/41b181deaed7563e.png"
+  },
+  {
+    "name": "PivotDiagramAlignCenter",
+    "imageAsset": "images/by-hash/c208912ec62178ed.png"
+  },
+  {
+    "name": "PivotDiagramAlignLeft",
+    "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+  },
+  {
+    "name": "PivotDiagramAlignMiddle",
+    "imageAsset": "images/by-hash/aecaa713bb24966e.png"
+  },
+  {
+    "name": "PivotDiagramAlignRight",
+    "imageAsset": "images/by-hash/8bbb268d4acfc242.png"
+  },
+  {
+    "name": "AlignTopExcel",
+    "imageAsset": "images/by-hash/2eb3ead835d5835c.png"
+  },
+  {
+    "name": "ObjectsAlignTop",
+    "imageAsset": "images/by-hash/25cd28379a50db64.png"
+  },
+  {
+    "name": "ObjectsAlignTopOutlook",
+    "imageAsset": "images/by-hash/25cd28379a50db64.png"
+  },
+  {
+    "name": "ObjectsAlignTopSmart",
+    "imageAsset": "images/by-hash/25cd28379a50db64.png"
+  },
+  {
+    "name": "TableCellAlignTop",
+    "imageAsset": "images/by-hash/6ae9097ef639d562.png"
+  }
+]

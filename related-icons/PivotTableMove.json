@@ -1,0 +1,30 @@
+[
+  {
+    "name": "PivotDiagramMoveLeft",
+    "imageAsset": "images/by-hash/1816c21da026fa8e.png"
+  },
+  {
+    "name": "PivotDiagramMoveRight",
+    "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+  },
+  {
+    "name": "PivotMoveField",
+    "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+  },
+  {
+    "name": "PivotMoveToColumnArea",
+    "imageAsset": "images/by-hash/7e73fe787205a7e1.png"
+  },
+  {
+    "name": "PivotMoveToDetailArea",
+    "imageAsset": "images/by-hash/e3a8c78fb38207b6.png"
+  },
+  {
+    "name": "PivotMoveToFieldArea",
+    "imageAsset": "images/by-hash/27d0accbe8c8885a.png"
+  },
+  {
+    "name": "PivotMoveToFilterArea",
+    "imageAsset": "images/by-hash/a7e7ea389b94a3b7.png"
+  }
+]

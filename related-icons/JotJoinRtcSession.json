@@ -1,0 +1,38 @@
+[
+  {
+    "name": "RtcJoinExistingSession",
+    "imageAsset": "images/by-hash/785cdcfb6d5f39c8.png"
+  },
+  {
+    "name": "JotLeaveRtcSession",
+    "imageAsset": "images/by-hash/1a8438bc59cc8811.png"
+  },
+  {
+    "name": "JotRtcStartSession",
+    "imageAsset": "images/by-hash/b8151c390b4c21c4.png"
+  },
+  {
+    "name": "RtcLeaveSession",
+    "imageAsset": "images/by-hash/e20b82e24f3270ea.png"
+  },
+  {
+    "name": "RtcShareCurrentSession",
+    "imageAsset": "images/by-hash/06f20870e535961c.png"
+  },
+  {
+    "name": "ShapesObjectJoin",
+    "imageAsset": "images/by-hash/befdfe05f3b3fcd4.png"
+  },
+  {
+    "name": "GroupRtc",
+    "imageAsset": "images/by-hash/06f20870e535961c.png"
+  },
+  {
+    "name": "RtcMenu",
+    "imageAsset": "images/by-hash/06f20870e535961c.png"
+  },
+  {
+    "name": "RtcShowDetails",
+    "imageAsset": "images/by-hash/8c98ca6430444fe7.png"
+  }
+]

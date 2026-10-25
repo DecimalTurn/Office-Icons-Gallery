@@ -1,0 +1,26 @@
+[
+  {
+    "name": "OrganizationChartAutoLayout",
+    "imageAsset": "images/by-hash/ac0a56f0072f5dde.png"
+  },
+  {
+    "name": "GroupAdpDiagramLayout",
+    "imageAsset": "images/by-hash/fdd10e6aaa27bf02.png"
+  },
+  {
+    "name": "GroupDiagramLayoutClassic",
+    "imageAsset": "images/by-hash/dd87254046e40348.png"
+  },
+  {
+    "name": "GroupNetworkDiagramLayout",
+    "imageAsset": "images/by-hash/e1723442c7a5a838.png"
+  },
+  {
+    "name": "GroupPivotDiagramLayout",
+    "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+  },
+  {
+    "name": "NetworkDiagramLayout",
+    "imageAsset": "images/by-hash/f27f4a14e1a2fd25.png"
+  }
+]

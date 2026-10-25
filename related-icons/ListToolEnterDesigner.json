@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupListToolEnterDesigner",
+    "imageAsset": "images/by-hash/828e97e4441434cb.png"
+  },
+  {
+    "name": "ConflictViewEnter",
+    "imageAsset": "images/by-hash/366c4f1b1cc4afd9.png"
+  },
+  {
+    "name": "EnterPerson",
+    "imageAsset": "images/by-hash/77ab365d2852a887.png"
+  },
+  {
+    "name": "EnterProductKey",
+    "imageAsset": "images/by-hash/639eba94048305d4.png"
+  },
+  {
+    "name": "SpeakOnEnter",
+    "imageAsset": "images/by-hash/06c2eae32c83005b.png"
+  },
+  {
+    "name": "CreateWorkflowDiagramVisualDesigner",
+    "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+  },
+  {
+    "name": "DesignerDrmSelectUser",
+    "imageAsset": "images/by-hash/d183c0780b942621.png"
+  },
+  {
+    "name": "DesignerOpen",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "DesignerPerformanceFeedback",
+    "imageAsset": "images/by-hash/bb5326991ce039df.png"
+  },
+  {
+    "name": "DesignerRibbonGiveFeedback",
+    "imageAsset": "images/by-hash/c9f0013582e4d949.png"
+  },
+  {
+    "name": "GroupDesignerHeaders",
+    "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+  },
+  {
+    "name": "GroupListToolDesignerCreate",
+    "imageAsset": "images/by-hash/60c3e96c65603c01.png"
+  }
+]

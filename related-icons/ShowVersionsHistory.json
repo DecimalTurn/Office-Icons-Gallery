@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FileVersionHistory",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "FileVersionHistoryWord",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "GoToItemInVersions",
+    "imageAsset": "images/by-hash/8b0774845dc2a20a.png"
+  },
+  {
+    "name": "GroupPageVersionHistoryActions",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "GroupPageVersionHistoryManage",
+    "imageAsset": "images/by-hash/7b68147841e28c39.png"
+  },
+  {
+    "name": "MessageHistory",
+    "imageAsset": "images/by-hash/d36cd2a11f0e8024.png"
+  },
+  {
+    "name": "PageVersions",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "PageVersionsHide",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "PageVersionsShow",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "RecoverUnsavedVersions",
+    "imageAsset": "images/by-hash/36c4195ac87c389c.png"
+  },
+  {
+    "name": "ReviewCompareTwoVersions",
+    "imageAsset": "images/by-hash/a3d43843c96022a2.png"
+  },
+  {
+    "name": "SourceControlShowHistory",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  }
+]

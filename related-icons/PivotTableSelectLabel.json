@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PivotTableSelectLabelAndData",
+    "imageAsset": "images/by-hash/8770445ac1c74e7b.png"
+  },
+  {
+    "name": "PivotTableSelectData",
+    "imageAsset": "images/by-hash/65504a08871b714f.png"
+  },
+  {
+    "name": "PivotTableSelectFlyout",
+    "imageAsset": "images/by-hash/1bdc0ebd3832afae.png"
+  },
+  {
+    "name": "ActiveXLabel",
+    "imageAsset": "images/by-hash/facb4b355bd224b5.png"
+  },
+  {
+    "name": "AdpDiagramNewLabel",
+    "imageAsset": "images/by-hash/1819d9833fe56cf4.png"
+  },
+  {
+    "name": "ChartChangeDataLabelShapeGallery",
+    "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+  },
+  {
+    "name": "ChartChangeDataLabelShapesGallery",
+    "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+  },
+  {
+    "name": "ChartDataLabel",
+    "imageAsset": "images/by-hash/9238f4a9d7a48e9e.png"
+  },
+  {
+    "name": "ChartFormatDataLabel",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartFormatTrendlineLabel",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartlibAddRemoveDataLabelCallout",
+    "imageAsset": "images/by-hash/9a51ae1cf080f85e.png"
+  },
+  {
+    "name": "ChartlibAddRemoveDataLabelCalloutLine",
+    "imageAsset": "images/by-hash/eaf05310ae833364.png"
+  }
+]

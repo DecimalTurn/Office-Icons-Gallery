@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupWorkflowTaskSummarySave",
+    "imageAsset": "images/by-hash/246a59d100792609.png"
+  },
+  {
+    "name": "SaveDatabaseObjectTask",
+    "imageAsset": "images/by-hash/45781e547e6af23f.png"
+  },
+  {
+    "name": "SaveDocumentTask",
+    "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+  },
+  {
+    "name": "SavePresentationTask",
+    "imageAsset": "images/by-hash/024b979096487fc1.png"
+  },
+  {
+    "name": "SaveToComputerTask",
+    "imageAsset": "images/by-hash/45781e547e6af23f.png"
+  },
+  {
+    "name": "SaveToOfficeLiveTask",
+    "imageAsset": "images/by-hash/43e68571891a735b.png"
+  },
+  {
+    "name": "SaveToSharePointTask",
+    "imageAsset": "images/by-hash/e538b715a1b0d721.png"
+  },
+  {
+    "name": "SaveWorkbookTask",
+    "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+  },
+  {
+    "name": "CatalogMergeMergeToExistingPublication",
+    "imageAsset": "images/by-hash/00f0aa0dc99ae8a6.png"
+  },
+  {
+    "name": "CatalogMergeMergeToNewPublication",
+    "imageAsset": "images/by-hash/b014d809dc177062.png"
+  },
+  {
+    "name": "GroupPublicationViews",
+    "imageAsset": "images/by-hash/6644438184825ba8.png"
+  },
+  {
+    "name": "MergeToExistingPublication",
+    "imageAsset": "images/by-hash/09c977e77be6d11e.png"
+  }
+]

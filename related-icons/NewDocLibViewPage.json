@@ -1,0 +1,38 @@
+[
+  {
+    "name": "UxContentLibGallery",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "DocInfoActivate",
+    "imageAsset": "images/by-hash/0a3d9472fcfe41f3.png"
+  },
+  {
+    "name": "DocViewHtml",
+    "imageAsset": "images/by-hash/b901bce065cea3fc.png"
+  },
+  {
+    "name": "DocViewNoFrames",
+    "imageAsset": "images/by-hash/8e9020bf9da64ce1.png"
+  },
+  {
+    "name": "DocViewNormal",
+    "imageAsset": "images/by-hash/ceff0212f691c95c.png"
+  },
+  {
+    "name": "DocViewSplit",
+    "imageAsset": "images/by-hash/4922e4070e03f44e.png"
+  },
+  {
+    "name": "SlabDocUpdatesAvailableSaveAndReview",
+    "imageAsset": "images/by-hash/f18099fa4182f9d1.png"
+  },
+  {
+    "name": "SlabDocUpdatesAvailableSaveAndUpdateIcon",
+    "imageAsset": "images/by-hash/513aaa7362e46b49.png"
+  },
+  {
+    "name": "WebSiteMapCompareToDoc",
+    "imageAsset": "images/by-hash/a3d43843c96022a2.png"
+  }
+]

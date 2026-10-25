@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ShapeRoundedRectangularCallout",
+    "imageAsset": "images/by-hash/e16e350e1f12e1d3.png"
+  },
+  {
+    "name": "JotShapeRectangle",
+    "imageAsset": "images/by-hash/d4feea3bf0e813ea.png"
+  },
+  {
+    "name": "ShapeRectangle",
+    "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+  },
+  {
+    "name": "ControlRectangle",
+    "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+  },
+  {
+    "name": "DrawFilledRectangle",
+    "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+  },
+  {
+    "name": "RectangleHotspot",
+    "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+  },
+  {
+    "name": "RectangleTool",
+    "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+  }
+]

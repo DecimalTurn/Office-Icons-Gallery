@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ReviewRejectChangeAndMoveToNext",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "ConflictsAcceptAndMoveToNext",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "ConflictsReject",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "ConflictsRejectMenu",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "ConflictsNext",
+    "imageAsset": "images/by-hash/0ee7ef56b0fdb5a3.png"
+  },
+  {
+    "name": "ReviewAcceptChangeAndMoveToNext",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "RejectAndAdvance",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "RejectApprovalRequest",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "ReviewAcceptOrRejectChangeDialog",
+    "imageAsset": "images/by-hash/dbd44dfa037e65dc.png"
+  },
+  {
+    "name": "ReviewRejectChange",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "ReviewRejectChangeMenu",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "ReviewRejectChangeOrDeleteComment",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  }
+]

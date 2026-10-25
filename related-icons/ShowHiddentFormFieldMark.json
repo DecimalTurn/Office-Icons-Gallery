@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FormFieldClear",
+    "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+  },
+  {
+    "name": "FormFieldProperties",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "FormFieldReset",
+    "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+  },
+  {
+    "name": "TaskSummaryCreateFormField",
+    "imageAsset": "images/by-hash/8166418eccf14f70.png"
+  },
+  {
+    "name": "CitationMark",
+    "imageAsset": "images/by-hash/3d3bcaf0f87623b3.png"
+  },
+  {
+    "name": "FileMarkAsFinal",
+    "imageAsset": "images/by-hash/78dff6663e341044.png"
+  },
+  {
+    "name": "FormattingMarkDropDown",
+    "imageAsset": "images/by-hash/e4d6825178600211.png"
+  },
+  {
+    "name": "IndexMarkEntry",
+    "imageAsset": "images/by-hash/fc40921640983d16.png"
+  },
+  {
+    "name": "JunkEmailMarkAsNotJunk",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  },
+  {
+    "name": "Mark100PercentComplete",
+    "imageAsset": "images/by-hash/8f8754120435881b.png"
+  },
+  {
+    "name": "MarkAllAsRead",
+    "imageAsset": "images/by-hash/985e4902a9708f03.png"
+  },
+  {
+    "name": "MarkAllEntriesRead",
+    "imageAsset": "images/by-hash/42e40667ed43a78e.png"
+  }
+]

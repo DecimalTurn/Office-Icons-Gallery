@@ -1,0 +1,26 @@
+[
+  {
+    "name": "_3DMaterialPlastic",
+    "imageAsset": "images/by-hash/a4e97b65fce60bc5.png"
+  },
+  {
+    "name": "_3DSurfaceMaterialClassic",
+    "imageAsset": "images/by-hash/2f28872e58d8de88.png"
+  },
+  {
+    "name": "_3DSurfaceMaterialGalleryClassic",
+    "imageAsset": "images/by-hash/2f28872e58d8de88.png"
+  },
+  {
+    "name": "_3DSurfaceMatteClassic",
+    "imageAsset": "images/by-hash/98a6151e6fd28abe.png"
+  },
+  {
+    "name": "_3DSurfaceMetalClassic",
+    "imageAsset": "images/by-hash/f1d876fe9033b256.png"
+  },
+  {
+    "name": "_3DSurfaceWireFrameClassic",
+    "imageAsset": "images/by-hash/10048e73d673db65.png"
+  }
+]

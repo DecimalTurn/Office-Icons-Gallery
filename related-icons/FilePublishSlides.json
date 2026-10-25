@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FileMenuPublishHeader",
+    "imageAsset": "images/by-hash/b9b0aea1b63f72df.png"
+  },
+  {
+    "name": "FilePublish",
+    "imageAsset": "images/by-hash/b40fac805db5ef0f.png"
+  },
+  {
+    "name": "FilePublishAsWebPage",
+    "imageAsset": "images/by-hash/19bf97b4b00c26dc.png"
+  },
+  {
+    "name": "FilePublishExcelServices",
+    "imageAsset": "images/by-hash/cd738a271dddfdd2.png"
+  },
+  {
+    "name": "FilePublishToSharePoint",
+    "imageAsset": "images/by-hash/cd738a271dddfdd2.png"
+  },
+  {
+    "name": "DuplicateSelectedSlides",
+    "imageAsset": "images/by-hash/ae6bfecbf2c445a9.png"
+  },
+  {
+    "name": "GroupInsertSlides",
+    "imageAsset": "images/by-hash/6ef37eabed847ffc.png"
+  },
+  {
+    "name": "GroupMasterSlides",
+    "imageAsset": "images/by-hash/c0650bc23021cfc2.png"
+  },
+  {
+    "name": "GroupSlides",
+    "imageAsset": "images/by-hash/c0650bc23021cfc2.png"
+  },
+  {
+    "name": "GroupSlides2",
+    "imageAsset": "images/by-hash/c0650bc23021cfc2.png"
+  },
+  {
+    "name": "OmsGroupCreateSlides",
+    "imageAsset": "images/by-hash/3e092565b0b5cedf.png"
+  },
+  {
+    "name": "SlidesFromOutline",
+    "imageAsset": "images/by-hash/a80750aa72d957b5.png"
+  }
+]

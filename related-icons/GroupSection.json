@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ChoiceSection",
+    "imageAsset": "images/by-hash/517348324e3305cc.png"
+  },
+  {
+    "name": "CopyOrMoveToSection",
+    "imageAsset": "images/by-hash/fd8cc2eeecc48d42.png"
+  },
+  {
+    "name": "HeaderFooterNextSection",
+    "imageAsset": "images/by-hash/aa6852b3a1d745ee.png"
+  },
+  {
+    "name": "HeaderFooterPreviousSection",
+    "imageAsset": "images/by-hash/dea8fdc2f8ab15ef.png"
+  },
+  {
+    "name": "JotCreateHyperlinkToSectionShort",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "JotInsertSectionShort",
+    "imageAsset": "images/by-hash/79c19b6cb9c41248.png"
+  },
+  {
+    "name": "MoveDownSection",
+    "imageAsset": "images/by-hash/79274de9857dec98.png"
+  },
+  {
+    "name": "MoveUpSection",
+    "imageAsset": "images/by-hash/068470b628dc1569.png"
+  },
+  {
+    "name": "NavSectionColorPicker",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "NewPageAtSectionEnd",
+    "imageAsset": "images/by-hash/8d83aebe7d52be74.png"
+  },
+  {
+    "name": "PasswordProtectSection",
+    "imageAsset": "images/by-hash/c3beb967840ee83a.png"
+  },
+  {
+    "name": "PasswordProtectSectionContextual",
+    "imageAsset": "images/by-hash/c3beb967840ee83a.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CopyOrMoveToSection",
+    "imageAsset": "images/by-hash/fd8cc2eeecc48d42.png"
+  },
+  {
+    "name": "AddOrRemoveAttendees",
+    "imageAsset": "images/by-hash/62fd3177490b858d.png"
+  },
+  {
+    "name": "FileCloseOrCloseAll",
+    "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+  },
+  {
+    "name": "FileSaveAsPdfOrXps",
+    "imageAsset": "images/by-hash/57ac0370ed50d4cf.png"
+  },
+  {
+    "name": "FormatPictureOrShapeDialogClassic",
+    "imageAsset": "images/by-hash/da5ff4d2d3c30465.png"
+  },
+  {
+    "name": "FormHeaderOrFooterShowHide",
+    "imageAsset": "images/by-hash/9a9da529e09061b0.png"
+  },
+  {
+    "name": "GroupPivotChartShowOrHide",
+    "imageAsset": "images/by-hash/65fdc3005a4acdbf.png"
+  },
+  {
+    "name": "HeaderOrFooterShow",
+    "imageAsset": "images/by-hash/6a2a6a83cc94a2fe.png"
+  },
+  {
+    "name": "MacroRecordOrStop",
+    "imageAsset": "images/by-hash/c5d9aaad5e527456.png"
+  },
+  {
+    "name": "MasterDocumentExpandOrCollapseSubdocuments",
+    "imageAsset": "images/by-hash/3b64db7773991543.png"
+  },
+  {
+    "name": "MergeOrSplitCells",
+    "imageAsset": "images/by-hash/7c8e679af59d6dab.png"
+  },
+  {
+    "name": "PageBreakInsertOrRemove",
+    "imageAsset": "images/by-hash/1117a9c0eb047b1d.png"
+  }
+]

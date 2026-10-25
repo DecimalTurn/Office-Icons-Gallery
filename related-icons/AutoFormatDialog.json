@@ -1,0 +1,38 @@
+[
+  {
+    "name": "AutoFormat",
+    "imageAsset": "images/by-hash/925884a9fc60d012.png"
+  },
+  {
+    "name": "AutoFormatChange",
+    "imageAsset": "images/by-hash/b62426a37b8cc53f.png"
+  },
+  {
+    "name": "AutoFormatGallery",
+    "imageAsset": "images/by-hash/e1c785943851c579.png"
+  },
+  {
+    "name": "AutoFormatNow",
+    "imageAsset": "images/by-hash/925884a9fc60d012.png"
+  },
+  {
+    "name": "AutoFormatWizard",
+    "imageAsset": "images/by-hash/e1c785943851c579.png"
+  },
+  {
+    "name": "FPTableAutoFormat",
+    "imageAsset": "images/by-hash/0ba6ee111531f8b8.png"
+  },
+  {
+    "name": "GroupAutoFormatAccess",
+    "imageAsset": "images/by-hash/e1c785943851c579.png"
+  },
+  {
+    "name": "TableAutoFormat",
+    "imageAsset": "images/by-hash/0ba6ee111531f8b8.png"
+  },
+  {
+    "name": "TableAutoFormatStyle",
+    "imageAsset": "images/by-hash/0ba6ee111531f8b8.png"
+  }
+]

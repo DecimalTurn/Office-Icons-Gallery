@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SlicerCreate",
+    "imageAsset": "images/by-hash/613c49ee00fd0eaa.png"
+  },
+  {
+    "name": "TimeSlicerCreate",
+    "imageAsset": "images/by-hash/367803d15d20d6f5.png"
+  },
+  {
+    "name": "TimelineCreateNewStyle",
+    "imageAsset": "images/by-hash/e9c71e4c6b174de4.png"
+  },
+  {
+    "name": "GroupSlicerInsert",
+    "imageAsset": "images/by-hash/613c49ee00fd0eaa.png"
+  },
+  {
+    "name": "GroupSlicerOptions",
+    "imageAsset": "images/by-hash/613c49ee00fd0eaa.png"
+  },
+  {
+    "name": "GroupSlicerRowColumnSize",
+    "imageAsset": "images/by-hash/015c7e94922cc0d0.png"
+  },
+  {
+    "name": "GroupSlicerStyles",
+    "imageAsset": "images/by-hash/da7ea7478bb82308.png"
+  },
+  {
+    "name": "GroupTimeSlicerOptions",
+    "imageAsset": "images/by-hash/367803d15d20d6f5.png"
+  },
+  {
+    "name": "GroupTimeSlicerShowOptions",
+    "imageAsset": "images/by-hash/f45b35a2da16362a.png"
+  },
+  {
+    "name": "PivotChartSlicerShare",
+    "imageAsset": "images/by-hash/c39c78cb4f166fc4.png"
+  },
+  {
+    "name": "SlicerClearFilter",
+    "imageAsset": "images/by-hash/44789bde2b072809.png"
+  },
+  {
+    "name": "SlicerClearFilterTouch",
+    "imageAsset": "images/by-hash/44789bde2b072809.png"
+  }
+]

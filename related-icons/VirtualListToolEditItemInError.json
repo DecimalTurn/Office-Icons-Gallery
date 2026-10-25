@@ -1,0 +1,50 @@
+[
+  {
+    "name": "VirtualListToolRetryItemInError",
+    "imageAsset": "images/by-hash/bbf2be1b3baf76fb.png"
+  },
+  {
+    "name": "VirtualListToolRevertItemInError",
+    "imageAsset": "images/by-hash/c2580274c46f1269.png"
+  },
+  {
+    "name": "DataGraphicEditItem",
+    "imageAsset": "images/by-hash/06f118889f6f6c9d.png"
+  },
+  {
+    "name": "EditItem",
+    "imageAsset": "images/by-hash/ffc17504b6a8e2c4.png"
+  },
+  {
+    "name": "GroupVirtualListActions",
+    "imageAsset": "images/by-hash/ad1f748dc2c78dc8.png"
+  },
+  {
+    "name": "ChartErrorBars",
+    "imageAsset": "images/by-hash/da2407b5d0b3f924.png"
+  },
+  {
+    "name": "ChartFormatErrorBars",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "DisplayErrorMessageInfoPath",
+    "imageAsset": "images/by-hash/7af31981dd4e0deb.png"
+  },
+  {
+    "name": "ErrorChecking",
+    "imageAsset": "images/by-hash/9ae9019af5384df3.png"
+  },
+  {
+    "name": "GoToNextErrorInfoPath",
+    "imageAsset": "images/by-hash/0ee7ef56b0fdb5a3.png"
+  },
+  {
+    "name": "GroupConflictErrorResolution",
+    "imageAsset": "images/by-hash/cc7f9b56cf5f0e52.png"
+  },
+  {
+    "name": "LogicShowErrorAction",
+    "imageAsset": "images/by-hash/00c1ba4dd365a3db.png"
+  }
+]

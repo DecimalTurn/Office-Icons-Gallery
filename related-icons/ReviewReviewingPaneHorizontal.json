@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ReviewReviewingPane",
+    "imageAsset": "images/by-hash/9053634ce25b0731.png"
+  },
+  {
+    "name": "ReviewReviewingPaneMenu",
+    "imageAsset": "images/by-hash/9053634ce25b0731.png"
+  },
+  {
+    "name": "ReviewReviewingPanePowerPoint",
+    "imageAsset": "images/by-hash/cd27329c8a373014.png"
+  },
+  {
+    "name": "ReviewReviewingPaneVertical",
+    "imageAsset": "images/by-hash/43535d05bb6a9dc9.png"
+  },
+  {
+    "name": "ReviewingPane",
+    "imageAsset": "images/by-hash/cd27329c8a373014.png"
+  },
+  {
+    "name": "AddHorizontalGuide",
+    "imageAsset": "images/by-hash/f52ccfeb77807033.png"
+  },
+  {
+    "name": "AsianLayoutHorizontalInVertical",
+    "imageAsset": "images/by-hash/ca87cdc980134c13.png"
+  },
+  {
+    "name": "BorderInsideHorizontal",
+    "imageAsset": "images/by-hash/5ec45804bceacd0d.png"
+  },
+  {
+    "name": "CalendarHorizontal",
+    "imageAsset": "images/by-hash/5da8822e83ad3015.png"
+  },
+  {
+    "name": "ChartPrimaryHorizontalAxis",
+    "imageAsset": "images/by-hash/0985b467e5ed6ac6.png"
+  },
+  {
+    "name": "ChartPrimaryHorizontalAxisTitle",
+    "imageAsset": "images/by-hash/5bd5d4c05ff97c34.png"
+  },
+  {
+    "name": "ChartPrimaryHorizontalGridlines",
+    "imageAsset": "images/by-hash/025f1de07804fbee.png"
+  }
+]

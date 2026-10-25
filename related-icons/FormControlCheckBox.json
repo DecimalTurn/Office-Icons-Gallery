@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ActiveXCheckBox",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "ContentControlCheckBox",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "DataTypeCheckBox",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "WebControlCheckBox",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "XDCheckBox",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "FormControlComboBox",
+    "imageAsset": "images/by-hash/1f3cf0d15015b32a.png"
+  },
+  {
+    "name": "FormControlEditBox",
+    "imageAsset": "images/by-hash/85eb24698c2fcdcf.png"
+  },
+  {
+    "name": "FormControlGroupBox",
+    "imageAsset": "images/by-hash/4d62ac0a7451562d.png"
+  },
+  {
+    "name": "FormControlListBox",
+    "imageAsset": "images/by-hash/5afbe6d1834bbe58.png"
+  },
+  {
+    "name": "CheckEntities",
+    "imageAsset": "images/by-hash/3e6bc01c3e5ae9cc.png"
+  },
+  {
+    "name": "CheckInAll",
+    "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+  },
+  {
+    "name": "CheckInEntry",
+    "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+  }
+]

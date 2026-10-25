@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TaskSummaryCreateOutcome",
+    "imageAsset": "images/by-hash/67c24c68c08b69a8.png"
+  },
+  {
+    "name": "GroupWorkflowTaskSummaryEdit",
+    "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+  },
+  {
+    "name": "GroupWorkflowTaskSummaryNew",
+    "imageAsset": "images/by-hash/8166418eccf14f70.png"
+  },
+  {
+    "name": "GroupWorkflowTaskSummarySave",
+    "imageAsset": "images/by-hash/246a59d100792609.png"
+  },
+  {
+    "name": "SummaryTaskInsert",
+    "imageAsset": "images/by-hash/93710ee86e9abb5d.png"
+  },
+  {
+    "name": "TaskSummaryDeleteSelf",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "FormFieldClear",
+    "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+  },
+  {
+    "name": "FormFieldProperties",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "FormFieldReset",
+    "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+  },
+  {
+    "name": "ShowHiddentFormFieldMark",
+    "imageAsset": "images/by-hash/b5dacc7dddc7630d.png"
+  },
+  {
+    "name": "CreateForm",
+    "imageAsset": "images/by-hash/7d68a9f260de59cb.png"
+  },
+  {
+    "name": "CreateFormBlankForm",
+    "imageAsset": "images/by-hash/a7710bf1b8d5adc8.png"
+  }
+]

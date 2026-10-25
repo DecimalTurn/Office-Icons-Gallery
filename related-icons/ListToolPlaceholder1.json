@@ -1,0 +1,50 @@
+[
+  {
+    "name": "BibliographyAddNewPlaceholder",
+    "imageAsset": "images/by-hash/409e0cf2268bebce.png"
+  },
+  {
+    "name": "FormatPlaceholder",
+    "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+  },
+  {
+    "name": "ListToolPlaceholder",
+    "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+  },
+  {
+    "name": "ListToolPlaceholder2",
+    "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+  },
+  {
+    "name": "SlideMasterChartPlaceholderInsert",
+    "imageAsset": "images/by-hash/ed6d8d3ebcb85984.png"
+  },
+  {
+    "name": "SlideMasterClipArtPlaceholderInsert",
+    "imageAsset": "images/by-hash/bd4fb506fe813959.png"
+  },
+  {
+    "name": "SlideMasterContentPlaceholderInsert",
+    "imageAsset": "images/by-hash/9be846b45cd05c28.png"
+  },
+  {
+    "name": "SlideMasterDiagramPlaceholderInsert",
+    "imageAsset": "images/by-hash/9b82dbc1c0a90247.png"
+  },
+  {
+    "name": "SlideMasterInsertPlaceholderMenu",
+    "imageAsset": "images/by-hash/9be846b45cd05c28.png"
+  },
+  {
+    "name": "SlideMasterMediaPlaceholderInsert",
+    "imageAsset": "images/by-hash/1acab12879d39f90.png"
+  },
+  {
+    "name": "SlideMasterPicturePlaceholderInsert",
+    "imageAsset": "images/by-hash/89cb4b5ad71c7ef1.png"
+  },
+  {
+    "name": "SlideMasterTablePlaceholderInsert",
+    "imageAsset": "images/by-hash/28da96d3662ded1d.png"
+  }
+]

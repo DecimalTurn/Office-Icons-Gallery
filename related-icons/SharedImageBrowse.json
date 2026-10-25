@@ -1,0 +1,50 @@
+[
+  {
+    "name": "BrowseBackgroundImage",
+    "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+  },
+  {
+    "name": "SharedImageGallery",
+    "imageAsset": "images/by-hash/413b79a699148fbf.png"
+  },
+  {
+    "name": "BrowseNext",
+    "imageAsset": "images/by-hash/c9c63177fb82c411.png"
+  },
+  {
+    "name": "BrowsePrevious",
+    "imageAsset": "images/by-hash/cac95a2441cd4e80.png"
+  },
+  {
+    "name": "BrowseSelector",
+    "imageAsset": "images/by-hash/a4cafd4afc575d87.png"
+  },
+  {
+    "name": "ControlPropertyPictureButtonBrowseHoverPicture",
+    "imageAsset": "images/by-hash/4feff2afcc852911.png"
+  },
+  {
+    "name": "ControlPropertyPictureButtonBrowsePicture",
+    "imageAsset": "images/by-hash/a3c1694aead52859.png"
+  },
+  {
+    "name": "ThemeBrowseForThemes",
+    "imageAsset": "images/by-hash/dc96ee1575103b12.png"
+  },
+  {
+    "name": "ThemeBrowseForThemesPowerPoint",
+    "imageAsset": "images/by-hash/dc96ee1575103b12.png"
+  },
+  {
+    "name": "JotSendSharedNotebookInvite",
+    "imageAsset": "images/by-hash/eb0e54a34f26ad5c.png"
+  },
+  {
+    "name": "NewSharedFolderWorkspace",
+    "imageAsset": "images/by-hash/eb1fb43210a3d593.png"
+  },
+  {
+    "name": "NewSharedNotebookCreate",
+    "imageAsset": "images/by-hash/772d4456da794027.png"
+  }
+]

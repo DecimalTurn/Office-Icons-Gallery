@@ -1,0 +1,42 @@
+[
+  {
+    "name": "PasteSpecialDialog",
+    "imageAsset": "images/by-hash/bc9919435d4b4ea5.png"
+  },
+  {
+    "name": "OrgChartHorizontalLeftAlt",
+    "imageAsset": "images/by-hash/33c2f421d7380f9f.png"
+  },
+  {
+    "name": "OrgChartHorizontalRightAlt",
+    "imageAsset": "images/by-hash/1199350f2dbc8498.png"
+  },
+  {
+    "name": "ShowTableAltTextDialog",
+    "imageAsset": "images/by-hash/5975685fd8eeb73f.png"
+  },
+  {
+    "name": "ControlSpecialEffectChiseled",
+    "imageAsset": "images/by-hash/764a779139d32dff.png"
+  },
+  {
+    "name": "ControlSpecialEffectEtched",
+    "imageAsset": "images/by-hash/28d0719cb3250861.png"
+  },
+  {
+    "name": "ControlSpecialEffectFlat",
+    "imageAsset": "images/by-hash/6f10a1480271c79e.png"
+  },
+  {
+    "name": "ControlSpecialEffectRaised",
+    "imageAsset": "images/by-hash/fafbd8648e9f9639.png"
+  },
+  {
+    "name": "ControlSpecialEffectShadowed",
+    "imageAsset": "images/by-hash/2e68b4bc8b69b1e6.png"
+  },
+  {
+    "name": "ControlSpecialEffectSunken",
+    "imageAsset": "images/by-hash/d5defaf33bf21b03.png"
+  }
+]

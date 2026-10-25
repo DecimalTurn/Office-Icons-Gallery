@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CurrentWindowDock",
+    "imageAsset": "images/by-hash/113ba97a1ddb5fcc.png"
+  },
+  {
+    "name": "ExternalDataWindow",
+    "imageAsset": "images/by-hash/68574b4538de7a49.png"
+  },
+  {
+    "name": "GroupWindow",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "GroupWindowNarrow",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "GroupWindowSiteClient",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "HideWindowMenu",
+    "imageAsset": "images/by-hash/9557468ea639e69c.png"
+  },
+  {
+    "name": "JotVideoWindow",
+    "imageAsset": "images/by-hash/2d8fbfdfed180c62.png"
+  },
+  {
+    "name": "NewDockedWindow",
+    "imageAsset": "images/by-hash/b3eb2d23fe33d0c0.png"
+  },
+  {
+    "name": "OpenInNewWindowSiteClient",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "OpenItemInNewWindow",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "PanAndZoomWindow",
+    "imageAsset": "images/by-hash/e895f5d168902b39.png"
+  },
+  {
+    "name": "PivotDiagramWindowShow",
+    "imageAsset": "images/by-hash/4daf3d2ef3717404.png"
+  }
+]

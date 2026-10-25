@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Zoom100",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "ZoomCurrent100",
+    "imageAsset": "images/by-hash/9ef2c6b0378983c5.png"
+  },
+  {
+    "name": "ZoomPageWidth",
+    "imageAsset": "images/by-hash/730f1a1d097606df.png"
+  },
+  {
+    "name": "ZoomTwoPages",
+    "imageAsset": "images/by-hash/f32d3a8ba4c266de.png"
+  },
+  {
+    "name": "CalendarViewZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "GroupPrintPreviewZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "GroupTimelineViewZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "GroupViewZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "GroupZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "GroupZoomDocked",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "NetworkDiagramZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "OmsChangeZoom",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  }
+]

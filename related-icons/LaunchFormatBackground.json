@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FormatBackground",
+    "imageAsset": "images/by-hash/f49b012b69437cca.png"
+  },
+  {
+    "name": "SlideBackgroundFormatDialog",
+    "imageAsset": "images/by-hash/f49b012b69437cca.png"
+  },
+  {
+    "name": "ChartLaunchAddElementCallout",
+    "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+  },
+  {
+    "name": "ChartLaunchDataLayoutCallout",
+    "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+  },
+  {
+    "name": "HelpLaunch",
+    "imageAsset": "images/by-hash/072bbff7740733ff.png"
+  },
+  {
+    "name": "ApplyImageBackgroundFill",
+    "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+  },
+  {
+    "name": "ApplyImageBackgroundTile",
+    "imageAsset": "images/by-hash/18e3f90d57530743.png"
+  },
+  {
+    "name": "ApplyImageToBackgroundMenu",
+    "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+  },
+  {
+    "name": "BackgroundImageGallery",
+    "imageAsset": "images/by-hash/413b79a699148fbf.png"
+  },
+  {
+    "name": "BackgroundPageInsert",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "BackgroundRemovalClose",
+    "imageAsset": "images/by-hash/48eab841d02031df.png"
+  },
+  {
+    "name": "BackgroundSound",
+    "imageAsset": "images/by-hash/a861dadff9421bea.png"
+  }
+]

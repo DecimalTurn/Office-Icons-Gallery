@@ -1,0 +1,34 @@
+[
+  {
+    "name": "AdpPrimaryKey",
+    "imageAsset": "images/by-hash/af86b53b295b45ca.png"
+  },
+  {
+    "name": "OutSpaceActivateProduct",
+    "imageAsset": "images/by-hash/0a3d9472fcfe41f3.png"
+  },
+  {
+    "name": "ProductUpdates",
+    "imageAsset": "images/by-hash/c2ddcf2d05fd7d7e.png"
+  },
+  {
+    "name": "UpgradeProduct",
+    "imageAsset": "images/by-hash/7a618ed7bfee6fdd.png"
+  },
+  {
+    "name": "ConflictViewEnter",
+    "imageAsset": "images/by-hash/366c4f1b1cc4afd9.png"
+  },
+  {
+    "name": "EnterPerson",
+    "imageAsset": "images/by-hash/77ab365d2852a887.png"
+  },
+  {
+    "name": "GroupListToolEnterDesigner",
+    "imageAsset": "images/by-hash/828e97e4441434cb.png"
+  },
+  {
+    "name": "SpeakOnEnter",
+    "imageAsset": "images/by-hash/06c2eae32c83005b.png"
+  }
+]

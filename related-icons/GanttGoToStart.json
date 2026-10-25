@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GanttGoToFinish",
+    "imageAsset": "images/by-hash/885b15570afb85d5.png"
+  },
+  {
+    "name": "GanttBarColorPicker",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "GanttBarFormat",
+    "imageAsset": "images/by-hash/3a702ed22fd2622d.png"
+  },
+  {
+    "name": "GanttChartGallery",
+    "imageAsset": "images/by-hash/1048ea84b87d7f16.png"
+  },
+  {
+    "name": "GanttChartViewGallery",
+    "imageAsset": "images/by-hash/45c6003e361b17c7.png"
+  },
+  {
+    "name": "GanttChartWizard",
+    "imageAsset": "images/by-hash/a3c0a9e1985fc47e.png"
+  },
+  {
+    "name": "GanttColumnHide",
+    "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+  },
+  {
+    "name": "GanttColumnInsert",
+    "imageAsset": "images/by-hash/c44ace9a9c2303d5.png"
+  },
+  {
+    "name": "GanttDataExport",
+    "imageAsset": "images/by-hash/d00b060864269378.png"
+  },
+  {
+    "name": "GanttDataImport",
+    "imageAsset": "images/by-hash/25e25390f388f017.png"
+  },
+  {
+    "name": "GanttNext",
+    "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+  },
+  {
+    "name": "GanttOptions",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  }
+]

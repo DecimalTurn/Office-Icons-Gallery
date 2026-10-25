@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FormHeaderOrFooterShowHide",
+    "imageAsset": "images/by-hash/9a9da529e09061b0.png"
+  },
+  {
+    "name": "PageHeaderOrFooterShowHide",
+    "imageAsset": "images/by-hash/f4f593d41cc44297.png"
+  },
+  {
+    "name": "ReviewShowOrHideComment",
+    "imageAsset": "images/by-hash/5bfe37cb7007f91a.png"
+  },
+  {
+    "name": "ReviewShowOrHideMarkup",
+    "imageAsset": "images/by-hash/e78cab15f948c015.png"
+  },
+  {
+    "name": "GroupPivotChartShowHide",
+    "imageAsset": "images/by-hash/294ba2e393d6032b.png"
+  },
+  {
+    "name": "GroupPivotTableShowHide",
+    "imageAsset": "images/by-hash/65fdc3005a4acdbf.png"
+  },
+  {
+    "name": "GroupPivotTableShowHideAccess",
+    "imageAsset": "images/by-hash/294ba2e393d6032b.png"
+  },
+  {
+    "name": "PivotChartLegendShowHide",
+    "imageAsset": "images/by-hash/4213917e8fae73f2.png"
+  },
+  {
+    "name": "PivotFieldListShowHide",
+    "imageAsset": "images/by-hash/65fdc3005a4acdbf.png"
+  },
+  {
+    "name": "PivotFieldListShowHideContextual",
+    "imageAsset": "images/by-hash/65fdc3005a4acdbf.png"
+  },
+  {
+    "name": "PivotHideDetails",
+    "imageAsset": "images/by-hash/82be8d6cec76e173.png"
+  },
+  {
+    "name": "PivotPlusMinusButtonsShowHide",
+    "imageAsset": "images/by-hash/b2b5915c644d84b0.png"
+  }
+]

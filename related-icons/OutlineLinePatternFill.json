@@ -1,0 +1,22 @@
+[
+  {
+    "name": "FillPattern",
+    "imageAsset": "images/by-hash/67e120f3bea7407f.png"
+  },
+  {
+    "name": "ShapeFillEffectPatternClassic",
+    "imageAsset": "images/by-hash/991a432e7d5c6d95.png"
+  },
+  {
+    "name": "LinePatternDialog",
+    "imageAsset": "images/by-hash/38c96b7707786967.png"
+  },
+  {
+    "name": "LinePatternGallery",
+    "imageAsset": "images/by-hash/c440abf3e2037b9b.png"
+  },
+  {
+    "name": "OutlineShowFirstLineOnly",
+    "imageAsset": "images/by-hash/31c3bf7b332dde3c.png"
+  }
+]

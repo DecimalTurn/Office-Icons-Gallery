@@ -1,0 +1,22 @@
+[
+  {
+    "name": "CollatePortraitSeparated",
+    "imageAsset": "images/by-hash/da4241b41eda8fbe.png"
+  },
+  {
+    "name": "CollateLandscapeCollated",
+    "imageAsset": "images/by-hash/729123ede915a6c2.png"
+  },
+  {
+    "name": "CollatePortraitCollated",
+    "imageAsset": "images/by-hash/8697a1b1fa33d057.png"
+  },
+  {
+    "name": "PageOrientationLandscape",
+    "imageAsset": "images/by-hash/9fdf070c5989df95.png"
+  },
+  {
+    "name": "PageOrientationPortraitLandscape",
+    "imageAsset": "images/by-hash/d50a949df0433651.png"
+  }
+]

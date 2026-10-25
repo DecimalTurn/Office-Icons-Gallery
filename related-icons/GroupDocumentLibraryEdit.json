@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CreateDocumentLibrary",
+    "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+  },
+  {
+    "name": "DocumentLibraryProperties",
+    "imageAsset": "images/by-hash/5f9639c5060c2a1f.png"
+  },
+  {
+    "name": "GroupDocumentLibraryFileActions",
+    "imageAsset": "images/by-hash/47cf5c778774c235.png"
+  },
+  {
+    "name": "GroupDocumentLibraryManage",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "GroupDocumentLibraryNew",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "ListCreateDocumentLibrary",
+    "imageAsset": "images/by-hash/a75d409ed1c34cf7.png"
+  },
+  {
+    "name": "NewDocumentLibrary2",
+    "imageAsset": "images/by-hash/a75d409ed1c34cf7.png"
+  },
+  {
+    "name": "NewDocumentLibraryContentMenu",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "PwaDocumentLibrary",
+    "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+  },
+  {
+    "name": "EditDocument",
+    "imageAsset": "images/by-hash/ffc17504b6a8e2c4.png"
+  },
+  {
+    "name": "EditDocumentTemplate",
+    "imageAsset": "images/by-hash/0f11119741d6b6b9.png"
+  },
+  {
+    "name": "AddSelectionToAccentsLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  }
+]

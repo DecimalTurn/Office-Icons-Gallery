@@ -1,0 +1,50 @@
+[
+  {
+    "name": "DeleteThisFolder",
+    "imageAsset": "images/by-hash/b8d6f8c164da340f.png"
+  },
+  {
+    "name": "DeleteWorkspaceMenu",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "ContactCardCallComputer",
+    "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+  },
+  {
+    "name": "GroupContactCardCallComputer",
+    "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+  },
+  {
+    "name": "PackAndGoComputer",
+    "imageAsset": "images/by-hash/5734cc99d3b4d0c8.png"
+  },
+  {
+    "name": "SaveToComputerTask",
+    "imageAsset": "images/by-hash/45781e547e6af23f.png"
+  },
+  {
+    "name": "UseAccountOnAnotherComputer",
+    "imageAsset": "images/by-hash/eec5e4235d18acbc.png"
+  },
+  {
+    "name": "CopyThisFolder",
+    "imageAsset": "images/by-hash/f059de2577113260.png"
+  },
+  {
+    "name": "DesignThisForm",
+    "imageAsset": "images/by-hash/828e97e4441434cb.png"
+  },
+  {
+    "name": "DesignThisInfoPathForm",
+    "imageAsset": "images/by-hash/93b3427526680a34.png"
+  },
+  {
+    "name": "DownloadHeadersInThisFolder",
+    "imageAsset": "images/by-hash/4b98f83b90bb3eef.png"
+  },
+  {
+    "name": "DuplicateThisPage",
+    "imageAsset": "images/by-hash/8f1aff975f8231a1.png"
+  }
+]

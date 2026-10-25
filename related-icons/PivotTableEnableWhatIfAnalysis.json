@@ -1,0 +1,34 @@
+[
+  {
+    "name": "PivotTableWhatIfAnalysisMenu",
+    "imageAsset": "images/by-hash/af3732760a762308.png"
+  },
+  {
+    "name": "WhatIfAnalysisMenu",
+    "imageAsset": "images/by-hash/af3732760a762308.png"
+  },
+  {
+    "name": "PivotTableEnableSelection",
+    "imageAsset": "images/by-hash/ee9fb084ce551484.png"
+  },
+  {
+    "name": "ClickToRunEnableUpdates",
+    "imageAsset": "images/by-hash/15f524a4080c974d.png"
+  },
+  {
+    "name": "EnableAttachments",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  },
+  {
+    "name": "EnableInlineEdit",
+    "imageAsset": "images/by-hash/53f035b400396894.png"
+  },
+  {
+    "name": "GroupChartAnalysis",
+    "imageAsset": "images/by-hash/52c7aae0259ec3d4.png"
+  },
+  {
+    "name": "PwaDataAnalysis",
+    "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+  }
+]

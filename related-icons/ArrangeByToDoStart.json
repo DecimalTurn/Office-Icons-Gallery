@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ArrangeByToDoDue",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "ArrangeByAppointmentStart",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "MenuToDoBar",
+    "imageAsset": "images/by-hash/0a355b21c3ae9c0d.png"
+  },
+  {
+    "name": "PivotTableDoNotRepeatItemLabels",
+    "imageAsset": "images/by-hash/a80fc3e4a09cb789.png"
+  },
+  {
+    "name": "PivotTableSubtotalsDoNotShow",
+    "imageAsset": "images/by-hash/90d4275591f12576.png"
+  },
+  {
+    "name": "ToDoTag",
+    "imageAsset": "images/by-hash/39e899bbaab87f00.png"
+  },
+  {
+    "name": "AnimationStartDropdown",
+    "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+  },
+  {
+    "name": "AudioStartGallery",
+    "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+  },
+  {
+    "name": "AutoLinkingStart",
+    "imageAsset": "images/by-hash/044d2e244d8dd9e6.png"
+  },
+  {
+    "name": "CDAudioStartTime",
+    "imageAsset": "images/by-hash/d83f7fd798761854.png"
+  },
+  {
+    "name": "CDAudioStartTrack",
+    "imageAsset": "images/by-hash/6805ad7549fb04e1.png"
+  },
+  {
+    "name": "EmailMergeStart",
+    "imageAsset": "images/by-hash/529f029eb10ff921.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TextBoxAlignTopCenter",
+    "imageAsset": "images/by-hash/cc67dd504f6ee519.png"
+  },
+  {
+    "name": "TextBoxAlignTopLeft",
+    "imageAsset": "images/by-hash/bf9a248a09906367.png"
+  },
+  {
+    "name": "TableCellAlignTopRight",
+    "imageAsset": "images/by-hash/2f1f90312be0506f.png"
+  },
+  {
+    "name": "TextBoxAlignBottomRight",
+    "imageAsset": "images/by-hash/bab03738ca3ae9dc.png"
+  },
+  {
+    "name": "TextBoxAlignMiddleRight",
+    "imageAsset": "images/by-hash/bdae78d4a94aa8a0.png"
+  },
+  {
+    "name": "CreateFormNavigationTopRight",
+    "imageAsset": "images/by-hash/27cd7f759717eb5d.png"
+  },
+  {
+    "name": "CreateFormNavigationTopRightWeb",
+    "imageAsset": "images/by-hash/27cd7f759717eb5d.png"
+  },
+  {
+    "name": "PageNumberTopRight",
+    "imageAsset": "images/by-hash/29bef3eb94b8fb4f.png"
+  },
+  {
+    "name": "AlignTopExcel",
+    "imageAsset": "images/by-hash/2eb3ead835d5835c.png"
+  },
+  {
+    "name": "ObjectsAlignTop",
+    "imageAsset": "images/by-hash/25cd28379a50db64.png"
+  },
+  {
+    "name": "ObjectsAlignTopOutlook",
+    "imageAsset": "images/by-hash/25cd28379a50db64.png"
+  },
+  {
+    "name": "ObjectsAlignTopSmart",
+    "imageAsset": "images/by-hash/25cd28379a50db64.png"
+  }
+]

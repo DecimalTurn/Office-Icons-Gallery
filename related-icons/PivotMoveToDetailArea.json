@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PivotMoveToColumnArea",
+    "imageAsset": "images/by-hash/7e73fe787205a7e1.png"
+  },
+  {
+    "name": "PivotMoveToFieldArea",
+    "imageAsset": "images/by-hash/27d0accbe8c8885a.png"
+  },
+  {
+    "name": "PivotMoveToFilterArea",
+    "imageAsset": "images/by-hash/a7e7ea389b94a3b7.png"
+  },
+  {
+    "name": "PivotChartDatapointShowDetail",
+    "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+  },
+  {
+    "name": "PivotDiagramMoveLeft",
+    "imageAsset": "images/by-hash/1816c21da026fa8e.png"
+  },
+  {
+    "name": "PivotDiagramMoveRight",
+    "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+  },
+  {
+    "name": "PivotMoveField",
+    "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+  },
+  {
+    "name": "PivotTableMove",
+    "imageAsset": "images/by-hash/8d7e3c67618eddcc.png"
+  },
+  {
+    "name": "ControlPropertyMasterDetail",
+    "imageAsset": "images/by-hash/66a2bd0368cd0e85.png"
+  },
+  {
+    "name": "GroupMasterDetail",
+    "imageAsset": "images/by-hash/66a2bd0368cd0e85.png"
+  },
+  {
+    "name": "MasterDetail",
+    "imageAsset": "images/by-hash/66a2bd0368cd0e85.png"
+  },
+  {
+    "name": "OutlineHideDetail",
+    "imageAsset": "images/by-hash/94309facf94a1836.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupOffset",
+    "imageAsset": "images/by-hash/6681fe487d168071.png"
+  },
+  {
+    "name": "OffsetLeft",
+    "imageAsset": "images/by-hash/6681fe487d168071.png"
+  },
+  {
+    "name": "OffsetRight",
+    "imageAsset": "images/by-hash/4b95fb857b0f2970.png"
+  },
+  {
+    "name": "OffsetTop",
+    "imageAsset": "images/by-hash/25cd28379a50db64.png"
+  },
+  {
+    "name": "ShapesObjectOffset",
+    "imageAsset": "images/by-hash/b3c2b4c12f2f3b87.png"
+  },
+  {
+    "name": "AlignBottomExcel",
+    "imageAsset": "images/by-hash/4b6fbf0f99c0e63a.png"
+  },
+  {
+    "name": "BorderBottom",
+    "imageAsset": "images/by-hash/55ed253243346cfc.png"
+  },
+  {
+    "name": "BorderBottomNoToggle",
+    "imageAsset": "images/by-hash/55ed253243346cfc.png"
+  },
+  {
+    "name": "BorderBottomWord",
+    "imageAsset": "images/by-hash/55ed253243346cfc.png"
+  },
+  {
+    "name": "BorderDoubleBottom",
+    "imageAsset": "images/by-hash/8a94cf62a5f1aaa8.png"
+  },
+  {
+    "name": "BorderThickBottom",
+    "imageAsset": "images/by-hash/e36da35b2c6e2b33.png"
+  },
+  {
+    "name": "BorderTopAndBottom",
+    "imageAsset": "images/by-hash/97d4d6f21b6ad46d.png"
+  }
+]

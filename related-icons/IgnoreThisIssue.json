@@ -1,0 +1,50 @@
+[
+  {
+    "name": "IgnoreThisIssueMenu",
+    "imageAsset": "images/by-hash/d6804bbf7dc8536a.png"
+  },
+  {
+    "name": "IgnoreConversation",
+    "imageAsset": "images/by-hash/6ccc5fc0709da263.png"
+  },
+  {
+    "name": "IgnoreHtmlChanges",
+    "imageAsset": "images/by-hash/f4a32ba6634cff3e.png"
+  },
+  {
+    "name": "NewIssueTrackerTool",
+    "imageAsset": "images/by-hash/ddfc513c215818a1.png"
+  },
+  {
+    "name": "NewO12IssueTrackingTool",
+    "imageAsset": "images/by-hash/ddfc513c215818a1.png"
+  },
+  {
+    "name": "ReportIssueGiveFeedback",
+    "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+  },
+  {
+    "name": "CopyThisFolder",
+    "imageAsset": "images/by-hash/f059de2577113260.png"
+  },
+  {
+    "name": "DeleteThisFolder",
+    "imageAsset": "images/by-hash/b8d6f8c164da340f.png"
+  },
+  {
+    "name": "DeleteWorkspaceFromThisComputer",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "DesignThisForm",
+    "imageAsset": "images/by-hash/828e97e4441434cb.png"
+  },
+  {
+    "name": "DesignThisInfoPathForm",
+    "imageAsset": "images/by-hash/93b3427526680a34.png"
+  },
+  {
+    "name": "DownloadHeadersInThisFolder",
+    "imageAsset": "images/by-hash/4b98f83b90bb3eef.png"
+  }
+]

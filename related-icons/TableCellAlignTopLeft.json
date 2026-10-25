@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TableCellAlignTop",
+    "imageAsset": "images/by-hash/6ae9097ef639d562.png"
+  },
+  {
+    "name": "TableCellAlignTopCenter",
+    "imageAsset": "images/by-hash/cc67dd504f6ee519.png"
+  },
+  {
+    "name": "TableCellAlignTopRight",
+    "imageAsset": "images/by-hash/2f1f90312be0506f.png"
+  },
+  {
+    "name": "TableCellAlignBottomLeft",
+    "imageAsset": "images/by-hash/340a70bc026cbb7d.png"
+  },
+  {
+    "name": "TableCellAlignMiddleLeft",
+    "imageAsset": "images/by-hash/1a7b49e80261c29a.png"
+  },
+  {
+    "name": "TextBoxAlignTopLeft",
+    "imageAsset": "images/by-hash/bf9a248a09906367.png"
+  },
+  {
+    "name": "AddCellLeft",
+    "imageAsset": "images/by-hash/f693e00fc510f4c2.png"
+  },
+  {
+    "name": "CreateFormNavigationTopLeft",
+    "imageAsset": "images/by-hash/f9ba4ec68e6880cc.png"
+  },
+  {
+    "name": "CreateFormNavigationTopLeftWeb",
+    "imageAsset": "images/by-hash/f9ba4ec68e6880cc.png"
+  },
+  {
+    "name": "PageNumberTopLeft",
+    "imageAsset": "images/by-hash/3fbf4319b37200d4.png"
+  },
+  {
+    "name": "TableCellAlignBottom",
+    "imageAsset": "images/by-hash/44d8151332cc922b.png"
+  },
+  {
+    "name": "TableCellAlignBottomCenter",
+    "imageAsset": "images/by-hash/f5b15a72674f074c.png"
+  }
+]

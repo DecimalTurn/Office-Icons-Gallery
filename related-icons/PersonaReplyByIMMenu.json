@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PersonaReplyAllByIMMenu",
+    "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+  },
+  {
+    "name": "PersonaSendIMMenu",
+    "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+  },
+  {
+    "name": "ContactCardAddToIMContacts",
+    "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+  },
+  {
+    "name": "IMAppFormSendByIM",
+    "imageAsset": "images/by-hash/9b7efbc601e04bff.png"
+  },
+  {
+    "name": "IMMenu",
+    "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+  },
+  {
+    "name": "QuickSearchHasIMAddress",
+    "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+  },
+  {
+    "name": "ContactCardReplyAllEmail",
+    "imageAsset": "images/by-hash/7b3a0741c95874c2.png"
+  },
+  {
+    "name": "ContactCardReplyWithInstantMessage",
+    "imageAsset": "images/by-hash/57d1bb90bfbd9267.png"
+  },
+  {
+    "name": "PersonaAddToContactsMenu",
+    "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+  },
+  {
+    "name": "PersonaAddToMessengerMenu",
+    "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+  },
+  {
+    "name": "PersonaCalendarMenu",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "PersonaMenuMySite",
+    "imageAsset": "images/by-hash/0fd8be26c86aab0c.png"
+  }
+]

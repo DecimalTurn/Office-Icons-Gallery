@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JotCreateHyperlinkToFolderShort",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "JotInsertFolderShort",
+    "imageAsset": "images/by-hash/e1b4e879714f5759.png"
+  },
+  {
+    "name": "JotNavUIParentFolder",
+    "imageAsset": "images/by-hash/4c569d92bdc6384c.png"
+  },
+  {
+    "name": "BackgroundRemovalClose",
+    "imageAsset": "images/by-hash/48eab841d02031df.png"
+  },
+  {
+    "name": "CloseAllItems",
+    "imageAsset": "images/by-hash/c20326749b246570.png"
+  },
+  {
+    "name": "CloseAllPages",
+    "imageAsset": "images/by-hash/76ac83fb7e258b44.png"
+  },
+  {
+    "name": "CloseComparison",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "CloseDocument",
+    "imageAsset": "images/by-hash/404990c6a245f899.png"
+  },
+  {
+    "name": "CloseHollow",
+    "imageAsset": "images/by-hash/6414b740b3567dff.png"
+  },
+  {
+    "name": "CloseInkEntryMode",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "CloseOutlookDataFile",
+    "imageAsset": "images/by-hash/3c506956af95ad34.png"
+  },
+  {
+    "name": "CloseWeb",
+    "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+  }
+]

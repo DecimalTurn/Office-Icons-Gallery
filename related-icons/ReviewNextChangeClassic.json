@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ReviewAcceptChangeAndMoveToNext",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "ReviewNextChange",
+    "imageAsset": "images/by-hash/ef6bafdb1b35f180.png"
+  },
+  {
+    "name": "ReviewRejectChangeAndMoveToNext",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "ReviewMarkupNext",
+    "imageAsset": "images/by-hash/0ee7ef56b0fdb5a3.png"
+  },
+  {
+    "name": "ReviewNextComment",
+    "imageAsset": "images/by-hash/dee3f9af7b80e89b.png"
+  },
+  {
+    "name": "ReviewNextCommentPowerPoint",
+    "imageAsset": "images/by-hash/dee3f9af7b80e89b.png"
+  },
+  {
+    "name": "ReviewNextCommentWord",
+    "imageAsset": "images/by-hash/dee3f9af7b80e89b.png"
+  },
+  {
+    "name": "ReviewAcceptChange",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "ReviewAcceptChangeClassic",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "ReviewAcceptChangeMenu",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "ReviewAcceptOrRejectChangeDialog",
+    "imageAsset": "images/by-hash/dbd44dfa037e65dc.png"
+  },
+  {
+    "name": "ReviewPreviousChange",
+    "imageAsset": "images/by-hash/21cc2597f0f2e83b.png"
+  }
+]

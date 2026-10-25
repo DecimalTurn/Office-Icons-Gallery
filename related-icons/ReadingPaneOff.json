@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ReadingPaneBottom",
+    "imageAsset": "images/by-hash/b2b0c61d42ba1a39.png"
+  },
+  {
+    "name": "ReadingPaneRight",
+    "imageAsset": "images/by-hash/143d98311f83ee01.png"
+  },
+  {
+    "name": "ReadingViewResearchPane",
+    "imageAsset": "images/by-hash/00cd4d0b28c70c30.png"
+  },
+  {
+    "name": "_3DEffectsOnOffClassic",
+    "imageAsset": "images/by-hash/80b52f37f2b6692a.png"
+  },
+  {
+    "name": "DataTypeOnOff",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "FileCloseAndLogOff",
+    "imageAsset": "images/by-hash/8b8f6fc1118fc4fc.png"
+  },
+  {
+    "name": "ListToolPreviewOff",
+    "imageAsset": "images/by-hash/d8f9c44014793142.png"
+  },
+  {
+    "name": "MoveOffPageBreaks",
+    "imageAsset": "images/by-hash/34f3f5795e96f5ab.png"
+  },
+  {
+    "name": "PivotTableGrandTotalsOffForRowsAndColumns",
+    "imageAsset": "images/by-hash/90d4275591f12576.png"
+  },
+  {
+    "name": "ShadowOnOrOffClassic",
+    "imageAsset": "images/by-hash/0fcb970eb86252ad.png"
+  },
+  {
+    "name": "DocumentMapReadingView",
+    "imageAsset": "images/by-hash/8c005537b968b2f0.png"
+  },
+  {
+    "name": "InkStopInkingReadingView",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  }
+]

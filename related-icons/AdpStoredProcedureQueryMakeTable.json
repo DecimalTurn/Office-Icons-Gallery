@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AdpStoredProcedureQueryAppend",
+    "imageAsset": "images/by-hash/b80f514177d5e0a8.png"
+  },
+  {
+    "name": "AdpStoredProcedureQueryAppendValues",
+    "imageAsset": "images/by-hash/d677325f0f15f3f1.png"
+  },
+  {
+    "name": "AdpStoredProcedureQueryDelete",
+    "imageAsset": "images/by-hash/89aa1c4dc0e96762.png"
+  },
+  {
+    "name": "AdpStoredProcedureQuerySelect",
+    "imageAsset": "images/by-hash/3ede2d24cf3da107.png"
+  },
+  {
+    "name": "AdpStoredProcedureQueryUpdate",
+    "imageAsset": "images/by-hash/21d398046cbe9f67.png"
+  },
+  {
+    "name": "AdpStoredProcedureEditSql",
+    "imageAsset": "images/by-hash/f00cbc1074580c04.png"
+  },
+  {
+    "name": "CreateStoredProcedure",
+    "imageAsset": "images/by-hash/b68d7be4f06e922b.png"
+  },
+  {
+    "name": "QueryMakeTable",
+    "imageAsset": "images/by-hash/8d588e96f4f6abb6.png"
+  },
+  {
+    "name": "GroupAdpQueryTools",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "GroupAdpQueryType",
+    "imageAsset": "images/by-hash/3ede2d24cf3da107.png"
+  },
+  {
+    "name": "DatabaseMakeMdeFile",
+    "imageAsset": "images/by-hash/c9ab25d1a4d28d90.png"
+  },
+  {
+    "name": "HorizontalSpacingMakeEqual",
+    "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+  }
+]

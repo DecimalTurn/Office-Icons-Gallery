@@ -1,0 +1,50 @@
+[
+  {
+    "name": "EditIcon",
+    "imageAsset": "images/by-hash/d4dd0b28662db68f.png"
+  },
+  {
+    "name": "GroupIconEditPaint",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "GroupIconEditSelect",
+    "imageAsset": "images/by-hash/30fa90eadcee4633.png"
+  },
+  {
+    "name": "IconEditClose",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "CopyInvitationToClipboard",
+    "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+  },
+  {
+    "name": "GroupClipboard",
+    "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+  },
+  {
+    "name": "GroupClipboardInfoPath",
+    "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+  },
+  {
+    "name": "GroupClipboardMeetingsToolO12",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "GroupClipboardSimple",
+    "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+  },
+  {
+    "name": "GroupClipboardWithLink",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "GroupDocumentsClipboard",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "ShowClipboard",
+    "imageAsset": "images/by-hash/2c1e30de80a58648.png"
+  }
+]

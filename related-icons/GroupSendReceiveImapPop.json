@@ -1,0 +1,34 @@
+[
+  {
+    "name": "DefineSendReceiveGroups",
+    "imageAsset": "images/by-hash/cbbdb74f0d3dd99b.png"
+  },
+  {
+    "name": "GroupSendReceive",
+    "imageAsset": "images/by-hash/e8081053f6abd3be.png"
+  },
+  {
+    "name": "SendReceiveAll",
+    "imageAsset": "images/by-hash/e8081053f6abd3be.png"
+  },
+  {
+    "name": "TabSendReceive",
+    "imageAsset": "images/by-hash/e8081053f6abd3be.png"
+  },
+  {
+    "name": "GroupImapFolderOptions",
+    "imageAsset": "images/by-hash/69cb1fd75e73f868.png"
+  },
+  {
+    "name": "ImapFolders",
+    "imageAsset": "images/by-hash/5f9639c5060c2a1f.png"
+  },
+  {
+    "name": "ImapUndelete",
+    "imageAsset": "images/by-hash/f62707bb9fbb3e8a.png"
+  },
+  {
+    "name": "ReceiveMenu",
+    "imageAsset": "images/by-hash/1e4ceab38ac4a7a9.png"
+  }
+]

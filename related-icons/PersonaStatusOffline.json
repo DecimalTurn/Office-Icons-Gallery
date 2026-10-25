@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SyncStatusOffline",
+    "imageAsset": "images/by-hash/2acc7706503e54af.png"
+  },
+  {
+    "name": "PersonaStatusAway",
+    "imageAsset": "images/by-hash/ac0b3c7a6fd0433a.png"
+  },
+  {
+    "name": "PersonaStatusBusy",
+    "imageAsset": "images/by-hash/52e3e2062b9e333e.png"
+  },
+  {
+    "name": "PersonaStatusOnline",
+    "imageAsset": "images/by-hash/51554fb2b30a5af6.png"
+  },
+  {
+    "name": "AccessOfflineLists",
+    "imageAsset": "images/by-hash/f7fc3736c97dae97.png"
+  },
+  {
+    "name": "JotSyncOffline",
+    "imageAsset": "images/by-hash/e7ec23af266404b0.png"
+  },
+  {
+    "name": "OfflineCacheOn",
+    "imageAsset": "images/by-hash/03bee4658242746d.png"
+  },
+  {
+    "name": "SetupClassicOffline",
+    "imageAsset": "images/by-hash/cbbdb74f0d3dd99b.png"
+  },
+  {
+    "name": "SharePointListsWorkOffline",
+    "imageAsset": "images/by-hash/eeed91e2c3dc2847.png"
+  },
+  {
+    "name": "SharePointOfflineGiveFeedback",
+    "imageAsset": "images/by-hash/275d48d742decaef.png"
+  },
+  {
+    "name": "WorkOffline",
+    "imageAsset": "images/by-hash/acd07aef3fcbd50a.png"
+  },
+  {
+    "name": "PersonaAddToContactsMenu",
+    "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+  }
+]

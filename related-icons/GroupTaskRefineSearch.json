@@ -1,0 +1,38 @@
+[
+  {
+    "name": "GroupCalendarRefineSearch",
+    "imageAsset": "images/by-hash/33960362b2c61f33.png"
+  },
+  {
+    "name": "GroupContactRefineSearch",
+    "imageAsset": "images/by-hash/33960362b2c61f33.png"
+  },
+  {
+    "name": "GroupJournalRefineSearch",
+    "imageAsset": "images/by-hash/33960362b2c61f33.png"
+  },
+  {
+    "name": "GroupMailRefineSearch",
+    "imageAsset": "images/by-hash/33960362b2c61f33.png"
+  },
+  {
+    "name": "GroupNoteRefineSearch",
+    "imageAsset": "images/by-hash/33960362b2c61f33.png"
+  },
+  {
+    "name": "QuickSearchTaskDueDateGallery",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "QuickSearchTaskStartDateGallery",
+    "imageAsset": "images/by-hash/c7d6f3917cb26c65.png"
+  },
+  {
+    "name": "QuickSearchTaskStatusGallery",
+    "imageAsset": "images/by-hash/e6be1e2f3d68bbb9.png"
+  },
+  {
+    "name": "SearchUpscopeToAllTaskItems",
+    "imageAsset": "images/by-hash/685d08ad2b856414.png"
+  }
+]

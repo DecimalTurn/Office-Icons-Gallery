@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupContentTypeSummaryEdit",
+    "imageAsset": "images/by-hash/53f035b400396894.png"
+  },
+  {
+    "name": "ContentTypeColumnActionsReadOnly",
+    "imageAsset": "images/by-hash/496a802468ac8523.png"
+  },
+  {
+    "name": "ContentTypeColumnActionsRemove",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "GroupContentTypeActions",
+    "imageAsset": "images/by-hash/fcaa71a805f81e9f.png"
+  },
+  {
+    "name": "GroupContentTypeColumnActions",
+    "imageAsset": "images/by-hash/7fcdf1e7192f5f00.png"
+  },
+  {
+    "name": "GroupListContentTypeActions",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "GroupPageSummaryActions",
+    "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+  },
+  {
+    "name": "GroupSummaryActions",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "GroupWorkflowSummaryActions",
+    "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+  },
+  {
+    "name": "GroupContTypeSummaryManage",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "AddContentType",
+    "imageAsset": "images/by-hash/fcaa71a805f81e9f.png"
+  },
+  {
+    "name": "ColumnContentTypeSetting",
+    "imageAsset": "images/by-hash/133cf0f80266344b.png"
+  }
+]

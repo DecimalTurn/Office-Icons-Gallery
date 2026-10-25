@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupWorkbookViews",
+    "imageAsset": "images/by-hash/4cfc1d2cbf68bdcc.png"
+  },
+  {
+    "name": "ReviewProtectAndShareWorkbook",
+    "imageAsset": "images/by-hash/1b69b0561cb6a535.png"
+  },
+  {
+    "name": "ReviewProtectWorkbook",
+    "imageAsset": "images/by-hash/7286a677f4683105.png"
+  },
+  {
+    "name": "ReviewProtectWorkbookMenu",
+    "imageAsset": "images/by-hash/7286a677f4683105.png"
+  },
+  {
+    "name": "ReviewShareWorkbook",
+    "imageAsset": "images/by-hash/5fdbcdc421f47ff4.png"
+  },
+  {
+    "name": "SaveWorkbookTask",
+    "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+  },
+  {
+    "name": "UpgradeWorkbook",
+    "imageAsset": "images/by-hash/f4222ca6fe0f8c32.png"
+  },
+  {
+    "name": "CalendarImport",
+    "imageAsset": "images/by-hash/5a8bcbbad3b43e7e.png"
+  },
+  {
+    "name": "CalendarToolImport",
+    "imageAsset": "images/by-hash/60c3e96c65603c01.png"
+  },
+  {
+    "name": "DatabaseModelingImport",
+    "imageAsset": "images/by-hash/234c9ee96761b0e4.png"
+  },
+  {
+    "name": "EnterpriseProjectImport",
+    "imageAsset": "images/by-hash/bf2f236ff3ebad5f.png"
+  },
+  {
+    "name": "EnterpriseResourcesImport",
+    "imageAsset": "images/by-hash/001c88135bd2684c.png"
+  }
+]

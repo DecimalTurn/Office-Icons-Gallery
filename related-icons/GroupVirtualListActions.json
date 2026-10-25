@@ -1,0 +1,14 @@
+[
+  {
+    "name": "VirtualListToolEditItemInError",
+    "imageAsset": "images/by-hash/b363318e832a6776.png"
+  },
+  {
+    "name": "VirtualListToolRetryItemInError",
+    "imageAsset": "images/by-hash/bbf2be1b3baf76fb.png"
+  },
+  {
+    "name": "VirtualListToolRevertItemInError",
+    "imageAsset": "images/by-hash/c2580274c46f1269.png"
+  }
+]

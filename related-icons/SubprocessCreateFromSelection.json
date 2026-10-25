@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SubprocessCreateNew",
+    "imageAsset": "images/by-hash/42daa2b48f7770db.png"
+  },
+  {
+    "name": "NameCreateFromSelection",
+    "imageAsset": "images/by-hash/808e5d99a86a0c5f.png"
+  },
+  {
+    "name": "SubprocessLinkToExisting",
+    "imageAsset": "images/by-hash/1289be4332186b1f.png"
+  },
+  {
+    "name": "AddSelectionToAccentsLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "AddSelectionToAdvertisementLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "AddSelectionToBusinessInformationLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "AddSelectionToCalendarsLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "AddSelectionToContentLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "AddSelectionToPagePartsLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "AddSelectionToTextLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "AddSelectionToVertTextLibrary",
+    "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+  },
+  {
+    "name": "AdpDiagramArrangeSelection",
+    "imageAsset": "images/by-hash/917cc34f1d929f62.png"
+  }
+]

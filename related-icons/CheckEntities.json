@@ -1,0 +1,50 @@
+[
+  {
+    "name": "BusinessDataEntities",
+    "imageAsset": "images/by-hash/2ceb318c72f73d59.png"
+  },
+  {
+    "name": "GroupBdcEntitiesManage",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "GroupBdcEntitiesNew",
+    "imageAsset": "images/by-hash/d9a34f26e8a3dcd9.png"
+  },
+  {
+    "name": "GroupBusinessDataCatalogEntitiesEdit",
+    "imageAsset": "images/by-hash/ecaaf3f682dbf587.png"
+  },
+  {
+    "name": "SelectEntities",
+    "imageAsset": "images/by-hash/a6d8a1e9ebe56f6f.png"
+  },
+  {
+    "name": "ActiveXCheckBox",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "CheckInAll",
+    "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+  },
+  {
+    "name": "CheckInEntry",
+    "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+  },
+  {
+    "name": "CheckInFile",
+    "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+  },
+  {
+    "name": "CheckInMenu",
+    "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+  },
+  {
+    "name": "CheckNames",
+    "imageAsset": "images/by-hash/7a6a332bf2402a9a.png"
+  },
+  {
+    "name": "CheckOutEntry",
+    "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+  }
+]

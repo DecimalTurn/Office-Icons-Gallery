@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupResourceUsageViewDetails",
+    "imageAsset": "images/by-hash/f5fd508399661656.png"
+  },
+  {
+    "name": "GroupTaskUsageViewDetails",
+    "imageAsset": "images/by-hash/f5fd508399661656.png"
+  },
+  {
+    "name": "GroupResourceUsageShowHide",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "GroupTaskUsageShowHide",
+    "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+  },
+  {
+    "name": "GroupUsageViewFormat",
+    "imageAsset": "images/by-hash/f5fd508399661656.png"
+  },
+  {
+    "name": "ResourceUsageViewGallery",
+    "imageAsset": "images/by-hash/e64e7f83ae375212.png"
+  },
+  {
+    "name": "TaskUsageViewGallery",
+    "imageAsset": "images/by-hash/ff7fb842b9b869dc.png"
+  },
+  {
+    "name": "CalendarMonthDetailsSplitButton",
+    "imageAsset": "images/by-hash/038f181ce55ea297.png"
+  },
+  {
+    "name": "CreateListDetailsView",
+    "imageAsset": "images/by-hash/98d6d5786db121b5.png"
+  },
+  {
+    "name": "DataViewDetailsView",
+    "imageAsset": "images/by-hash/141eb9b927f43b2a.png"
+  },
+  {
+    "name": "GroupResourceFormViewDetails",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "GroupSparklineDetailsShow",
+    "imageAsset": "images/by-hash/f66f1f20b7d1d18a.png"
+  }
+]

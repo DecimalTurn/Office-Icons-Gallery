@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupInclude",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  },
+  {
+    "name": "GroupIncludeMainTab",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  },
+  {
+    "name": "ChartErrorBars",
+    "imageAsset": "images/by-hash/da2407b5d0b3f924.png"
+  },
+  {
+    "name": "ChartFormatDownBars",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartFormatErrorBars",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartFormatUpBars",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartUpDownBars",
+    "imageAsset": "images/by-hash/15e4f4da852f3edc.png"
+  },
+  {
+    "name": "ConditionalFormattingDataBarsGallery",
+    "imageAsset": "images/by-hash/689b45cacd958d95.png"
+  },
+  {
+    "name": "ShowAutoShapesAndDrawingBars",
+    "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+  },
+  {
+    "name": "AccessNavigationOptions",
+    "imageAsset": "images/by-hash/4e5f4392371728be.png"
+  },
+  {
+    "name": "CreateFormNavigationLeft",
+    "imageAsset": "images/by-hash/70f92f056f44c3ca.png"
+  },
+  {
+    "name": "CreateFormNavigationLeftWeb",
+    "imageAsset": "images/by-hash/70f92f056f44c3ca.png"
+  }
+]

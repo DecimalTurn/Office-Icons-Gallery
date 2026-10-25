@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ShapeLeftBrace",
+    "imageAsset": "images/by-hash/93a2066f450ad771.png"
+  },
+  {
+    "name": "ShapeRightBrace",
+    "imageAsset": "images/by-hash/cb6e82d11a7af347.png"
+  },
+  {
+    "name": "ChartResetToMatchStyle",
+    "imageAsset": "images/by-hash/9940c20fa1f26a2a.png"
+  },
+  {
+    "name": "HtmlMatchTag",
+    "imageAsset": "images/by-hash/584c83b9e3e3d92c.png"
+  },
+  {
+    "name": "MailMergeMatchFields",
+    "imageAsset": "images/by-hash/bcb8a02bb62e5fdd.png"
+  }
+]

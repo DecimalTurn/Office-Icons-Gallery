@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SparklineLowPointColorPicker",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "SparklineLowPointMoreColors",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "SparklineFirstPointColorPicker",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "SparklineFirstPointMoreColors",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "SparklineHighPointColorPicker",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "SparklineHighPointMoreColors",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "SparklineLastPointColorPicker",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "SparklineLastPointMoreColors",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "SparklineNegativePointMoreColors",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "AlignJustifyLow",
+    "imageAsset": "images/by-hash/7cc7551fd5ca81e9.png"
+  },
+  {
+    "name": "ChartFormatHighLowLine",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "JustifyLowVertical",
+    "imageAsset": "images/by-hash/861f95c4f28d3239.png"
+  }
+]

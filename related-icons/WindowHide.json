@@ -1,0 +1,50 @@
+[
+  {
+    "name": "HideWindowMenu",
+    "imageAsset": "images/by-hash/9557468ea639e69c.png"
+  },
+  {
+    "name": "ShapeDataWindowShowHide",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "CurrentWindowDock",
+    "imageAsset": "images/by-hash/113ba97a1ddb5fcc.png"
+  },
+  {
+    "name": "ExternalDataWindow",
+    "imageAsset": "images/by-hash/68574b4538de7a49.png"
+  },
+  {
+    "name": "GroupWindow",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "GroupWindowAccess",
+    "imageAsset": "images/by-hash/03f66ee979843eb1.png"
+  },
+  {
+    "name": "GroupWindowNarrow",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "GroupWindowSiteClient",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "JotVideoWindow",
+    "imageAsset": "images/by-hash/2d8fbfdfed180c62.png"
+  },
+  {
+    "name": "NewDockedWindow",
+    "imageAsset": "images/by-hash/b3eb2d23fe33d0c0.png"
+  },
+  {
+    "name": "OpenInNewWindowSiteClient",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  },
+  {
+    "name": "OpenItemInNewWindow",
+    "imageAsset": "images/by-hash/c95c189a111e0473.png"
+  }
+]

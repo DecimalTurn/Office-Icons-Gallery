@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupJunkEmail",
+    "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+  },
+  {
+    "name": "JunkEmailAddToBlockedSendersList",
+    "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+  },
+  {
+    "name": "JunkEmailOptions",
+    "imageAsset": "images/by-hash/791cc4acbb726258.png"
+  },
+  {
+    "name": "JunkEmailSafeListsMenu",
+    "imageAsset": "images/by-hash/44ac5b462eeb6978.png"
+  },
+  {
+    "name": "ConditionIsNotEmail",
+    "imageAsset": "images/by-hash/96132f9b290fa0d3.png"
+  },
+  {
+    "name": "JunkMenu",
+    "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+  },
+  {
+    "name": "ConditionIsNotBetween",
+    "imageAsset": "images/by-hash/2f5f03dde73b434a.png"
+  },
+  {
+    "name": "ConditionIsNotURL",
+    "imageAsset": "images/by-hash/3bbc606800df6a78.png"
+  },
+  {
+    "name": "GroupAttendeesMeetingNotSent",
+    "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+  },
+  {
+    "name": "PivotTableDoNotRepeatItemLabels",
+    "imageAsset": "images/by-hash/a80fc3e4a09cb789.png"
+  },
+  {
+    "name": "PivotTableSubtotalsDoNotShow",
+    "imageAsset": "images/by-hash/90d4275591f12576.png"
+  },
+  {
+    "name": "QuickSearchNotToCcMe",
+    "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+  }
+]

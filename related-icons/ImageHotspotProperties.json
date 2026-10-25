@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ImageProperties",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "ImagePropertiesInfoPath",
+    "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+  },
+  {
+    "name": "CircleHotspot",
+    "imageAsset": "images/by-hash/68be14455095e1c5.png"
+  },
+  {
+    "name": "GroupHotspot",
+    "imageAsset": "images/by-hash/4feff2afcc852911.png"
+  },
+  {
+    "name": "Hotspot",
+    "imageAsset": "images/by-hash/733e2364678e679c.png"
+  },
+  {
+    "name": "HotspotGallery",
+    "imageAsset": "images/by-hash/4feff2afcc852911.png"
+  },
+  {
+    "name": "PolygonHotspot",
+    "imageAsset": "images/by-hash/ca312aa7a539ac51.png"
+  },
+  {
+    "name": "RectangleHotspot",
+    "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+  },
+  {
+    "name": "ActiveXImage",
+    "imageAsset": "images/by-hash/a3c1694aead52859.png"
+  },
+  {
+    "name": "ApplyImageBackgroundFill",
+    "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+  },
+  {
+    "name": "ApplyImageBackgroundTile",
+    "imageAsset": "images/by-hash/18e3f90d57530743.png"
+  },
+  {
+    "name": "ApplyImageToBackgroundMenu",
+    "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FormatPageNumbers",
+    "imageAsset": "images/by-hash/1505168ee93bad1d.png"
+  },
+  {
+    "name": "JotFormatNumbers",
+    "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+  },
+  {
+    "name": "LineNumbersMenu",
+    "imageAsset": "images/by-hash/5876b2670b6b5d8c.png"
+  },
+  {
+    "name": "PageNumbersInHeaderInsertGallery",
+    "imageAsset": "images/by-hash/fb67f616e4a4e0ae.png"
+  },
+  {
+    "name": "PageNumbersRemove",
+    "imageAsset": "images/by-hash/0c43cbf7e805faac.png"
+  },
+  {
+    "name": "BookmarkInsertPublisher",
+    "imageAsset": "images/by-hash/94545ae26a01263b.png"
+  },
+  {
+    "name": "BordersDiagonalPublisher",
+    "imageAsset": "images/by-hash/cc5877255b2f193f.png"
+  },
+  {
+    "name": "BulletsAndNumberingNumberingDialogPublisher",
+    "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+  },
+  {
+    "name": "ChangeCaseGalleryPublisher",
+    "imageAsset": "images/by-hash/06f09efbf605e6e2.png"
+  },
+  {
+    "name": "DrawingObjectFormatPublisher",
+    "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+  },
+  {
+    "name": "DropCapGalleryPublisher",
+    "imageAsset": "images/by-hash/ffa54dad003b689f.png"
+  },
+  {
+    "name": "FooterInsertPublisher",
+    "imageAsset": "images/by-hash/40c451bf43fef867.png"
+  }
+]

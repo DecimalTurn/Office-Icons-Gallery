@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CalendarMonthDetailsSplitButton",
+    "imageAsset": "images/by-hash/038f181ce55ea297.png"
+  },
+  {
+    "name": "AlignJustifyMedium",
+    "imageAsset": "images/by-hash/ea610af81dd29998.png"
+  },
+  {
+    "name": "ControlMarginsMedium",
+    "imageAsset": "images/by-hash/05f902c226b6b11f.png"
+  },
+  {
+    "name": "ControlPaddingMedium",
+    "imageAsset": "images/by-hash/afb0b3259f5bc4e2.png"
+  },
+  {
+    "name": "DataTypeMediumDate",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "DataTypeMediumTime",
+    "imageAsset": "images/by-hash/34616ac3c1be3f5e.png"
+  },
+  {
+    "name": "JustifyMediumVertical",
+    "imageAsset": "images/by-hash/d85341a3c8f73cdc.png"
+  },
+  {
+    "name": "MediumEraser",
+    "imageAsset": "images/by-hash/836cbf68b4a60074.png"
+  },
+  {
+    "name": "PointEraserMedium",
+    "imageAsset": "images/by-hash/836cbf68b4a60074.png"
+  },
+  {
+    "name": "RuleLinesMediumGrid",
+    "imageAsset": "images/by-hash/2ebc29e94080357d.png"
+  },
+  {
+    "name": "CreateListDetailsView",
+    "imageAsset": "images/by-hash/98d6d5786db121b5.png"
+  },
+  {
+    "name": "DataViewDetailsView",
+    "imageAsset": "images/by-hash/141eb9b927f43b2a.png"
+  }
+]

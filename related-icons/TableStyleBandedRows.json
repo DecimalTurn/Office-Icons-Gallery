@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TableStyleBandedRowsPowerPoint",
+    "imageAsset": "images/by-hash/1ca26394e52f08e7.png"
+  },
+  {
+    "name": "TableStyleBandedRowsWord",
+    "imageAsset": "images/by-hash/1ca26394e52f08e7.png"
+  },
+  {
+    "name": "TableStyleBandedColumns",
+    "imageAsset": "images/by-hash/9aea98d7607c8a78.png"
+  },
+  {
+    "name": "TableStyleBandedColumnsPowerPoint",
+    "imageAsset": "images/by-hash/9aea98d7607c8a78.png"
+  },
+  {
+    "name": "TableStyleBandedColumnsWord",
+    "imageAsset": "images/by-hash/9aea98d7607c8a78.png"
+  },
+  {
+    "name": "CatalogMergeMoreRowsColumns",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "CatalogMergeRowsColumnsGallery",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "DeleteRows",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "DeleteRowsOneNote",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "GroupMacroRows",
+    "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+  },
+  {
+    "name": "GroupShapeSheetRows",
+    "imageAsset": "images/by-hash/987f395d63e7009b.png"
+  },
+  {
+    "name": "GroupTableRows",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  }
+]

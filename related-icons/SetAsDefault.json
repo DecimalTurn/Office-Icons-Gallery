@@ -1,0 +1,50 @@
+[
+  {
+    "name": "QuickStylesSetAsDefault",
+    "imageAsset": "images/by-hash/379998fe54b319b8.png"
+  },
+  {
+    "name": "SetAsDefaultMasterPage",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "BulletListDefault",
+    "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+  },
+  {
+    "name": "ContactCardDefaultPhoneCall",
+    "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+  },
+  {
+    "name": "ContactCardDefaultSendEmail",
+    "imageAsset": "images/by-hash/676a2358a8eb6d14.png"
+  },
+  {
+    "name": "ContactCardDefaultSendInstantMessage",
+    "imageAsset": "images/by-hash/09795bc87c775160.png"
+  },
+  {
+    "name": "ControlPropertyDefaultValue",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "DefaultPivotTable",
+    "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+  },
+  {
+    "name": "DefaultValue",
+    "imageAsset": "images/by-hash/ae0969c1510aef5e.png"
+  },
+  {
+    "name": "DefaultView",
+    "imageAsset": "images/by-hash/94a5f15feffe7346.png"
+  },
+  {
+    "name": "FileNewDefault",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "FormatNumberDefault",
+    "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "BlackAndWhiteAutomatic",
+    "imageAsset": "images/by-hash/778d7cbd5c31bd4f.png"
+  },
+  {
+    "name": "PictureRecolorAutomatic",
+    "imageAsset": "images/by-hash/83ae31440ca80215.png"
+  },
+  {
+    "name": "DiagramResizeClassic",
+    "imageAsset": "images/by-hash/96077b881b235e69.png"
+  },
+  {
+    "name": "DrawingCanvasResize",
+    "imageAsset": "images/by-hash/96077b881b235e69.png"
+  },
+  {
+    "name": "GroupSlabResize",
+    "imageAsset": "images/by-hash/b74103378135a2ce.png"
+  },
+  {
+    "name": "OrganizationChartResize",
+    "imageAsset": "images/by-hash/96077b881b235e69.png"
+  },
+  {
+    "name": "TableResize",
+    "imageAsset": "images/by-hash/7d985b765474b466.png"
+  }
+]

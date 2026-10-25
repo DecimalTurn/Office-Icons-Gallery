@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ChangesDiscardAndRefresh",
+    "imageAsset": "images/by-hash/a9a39c031d036e56.png"
+  },
+  {
+    "name": "ContentTypePushChanges",
+    "imageAsset": "images/by-hash/ae5988bdfc6b6bbe.png"
+  },
+  {
+    "name": "DiscardTableChanges",
+    "imageAsset": "images/by-hash/e50e1b451754030b.png"
+  },
+  {
+    "name": "FileDiscardCachedChanges",
+    "imageAsset": "images/by-hash/e7b96ed34b3b06b2.png"
+  },
+  {
+    "name": "GroupChangesExcel",
+    "imageAsset": "images/by-hash/68f9138863bbef4a.png"
+  },
+  {
+    "name": "GroupChangesTracking",
+    "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+  },
+  {
+    "name": "GroupShowHideChanges",
+    "imageAsset": "images/by-hash/eb3198150517c359.png"
+  },
+  {
+    "name": "IgnoreHtmlChanges",
+    "imageAsset": "images/by-hash/f4a32ba6634cff3e.png"
+  },
+  {
+    "name": "MeetingsToolAppointmentDiscardChanges",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "PivotTableCalculateChanges",
+    "imageAsset": "images/by-hash/a12619fc5b31aabc.png"
+  },
+  {
+    "name": "PivotTableDiscardChanges",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "PivotTablePublishChanges",
+    "imageAsset": "images/by-hash/f8c08eb8ca92796a.png"
+  }
+]

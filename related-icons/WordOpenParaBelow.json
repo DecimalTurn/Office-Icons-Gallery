@@ -1,0 +1,50 @@
+[
+  {
+    "name": "WordCloseParaBelow",
+    "imageAsset": "images/by-hash/44c043bd192a2499.png"
+  },
+  {
+    "name": "WordOpenParaAbove",
+    "imageAsset": "images/by-hash/64cbc56ebe9e8277.png"
+  },
+  {
+    "name": "WordCloseParaAbove",
+    "imageAsset": "images/by-hash/e47941023b3a101b.png"
+  },
+  {
+    "name": "TableRowsInsertBelowWord",
+    "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+  },
+  {
+    "name": "FileSaveAsWordOpenDocumentText",
+    "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+  },
+  {
+    "name": "ConditionalFormattingBelowAverage",
+    "imageAsset": "images/by-hash/3cf99b131af86a6e.png"
+  },
+  {
+    "name": "FrameCreateBelow",
+    "imageAsset": "images/by-hash/2d601bf5ff7bb319.png"
+  },
+  {
+    "name": "InsertRowBelow",
+    "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+  },
+  {
+    "name": "InsertRowBelowAccess",
+    "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+  },
+  {
+    "name": "SmartArtAddShapeBelow",
+    "imageAsset": "images/by-hash/d1ed79282cd7c496.png"
+  },
+  {
+    "name": "TableInsertRowsBelow",
+    "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+  },
+  {
+    "name": "TableRowsInsertBelowExcel",
+    "imageAsset": "images/by-hash/dd60bdd944ee993d.png"
+  }
+]

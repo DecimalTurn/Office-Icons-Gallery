@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TextWrappingNoneClassic",
+    "imageAsset": "images/by-hash/4bd5a9b7f98aece9.png"
+  },
+  {
+    "name": "WrappingStyleGallery",
+    "imageAsset": "images/by-hash/041cff09359041da.png"
+  },
+  {
+    "name": "_3DExtrusionDepthNoneClassic",
+    "imageAsset": "images/by-hash/a145561b043f3641.png"
+  },
+  {
+    "name": "BorderNone",
+    "imageAsset": "images/by-hash/6b65545fb0b8a68f.png"
+  },
+  {
+    "name": "ControlMarginsNone",
+    "imageAsset": "images/by-hash/e475869b818ad819.png"
+  },
+  {
+    "name": "ControlPaddingNone",
+    "imageAsset": "images/by-hash/c55c681170ab84bd.png"
+  },
+  {
+    "name": "DatasheetGridlinesNone",
+    "imageAsset": "images/by-hash/6b65545fb0b8a68f.png"
+  },
+  {
+    "name": "ParagraphSpaceBeforeNone",
+    "imageAsset": "images/by-hash/c4ff6f009f58df45.png"
+  },
+  {
+    "name": "ReadingModePageColorNone",
+    "imageAsset": "images/by-hash/53c21f42593d741d.png"
+  },
+  {
+    "name": "SharingNone",
+    "imageAsset": "images/by-hash/641163a646886389.png"
+  },
+  {
+    "name": "ShowDisplayNoneMark",
+    "imageAsset": "images/by-hash/72410556c6dd47e1.png"
+  },
+  {
+    "name": "LayoutOptionsDialogWrapping",
+    "imageAsset": "images/by-hash/b2d12a6affc2897a.png"
+  }
+]

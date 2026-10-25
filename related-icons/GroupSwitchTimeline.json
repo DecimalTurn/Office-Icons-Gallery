@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ChartSwitchRowColumn",
+    "imageAsset": "images/by-hash/991ad5f8c5b8f80c.png"
+  },
+  {
+    "name": "EventOnSwitchView",
+    "imageAsset": "images/by-hash/7bd89029ab2c7829.png"
+  },
+  {
+    "name": "ListToolSwitchViews",
+    "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+  },
+  {
+    "name": "LogicSwitchToViewAction",
+    "imageAsset": "images/by-hash/a05d059b94ff932c.png"
+  },
+  {
+    "name": "PivotSwitchRowColumn",
+    "imageAsset": "images/by-hash/991ad5f8c5b8f80c.png"
+  },
+  {
+    "name": "PodiumSwitchMonitors",
+    "imageAsset": "images/by-hash/c662a39e0d3911a4.png"
+  },
+  {
+    "name": "SwitchSparklineRowColumn",
+    "imageAsset": "images/by-hash/991ad5f8c5b8f80c.png"
+  },
+  {
+    "name": "SwitchToMouseMode",
+    "imageAsset": "images/by-hash/701b4e94c8f26c53.png"
+  },
+  {
+    "name": "SwitchToTextBasedView",
+    "imageAsset": "images/by-hash/c966d15d29d8a20d.png"
+  },
+  {
+    "name": "SwitchToTouchMode",
+    "imageAsset": "images/by-hash/2ef46670a48394b0.png"
+  },
+  {
+    "name": "SwitchToVisualView",
+    "imageAsset": "images/by-hash/4cac5e3ff4fbfdb8.png"
+  },
+  {
+    "name": "ViewsSwitchToDefaultView",
+    "imageAsset": "images/by-hash/828e97e4441434cb.png"
+  }
+]

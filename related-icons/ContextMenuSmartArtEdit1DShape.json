@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SmartArtAddShape",
+    "imageAsset": "images/by-hash/dd87254046e40348.png"
+  },
+  {
+    "name": "SmartArtAddShapeAbove",
+    "imageAsset": "images/by-hash/383883f48b32080b.png"
+  },
+  {
+    "name": "SmartArtAddShapeAfter",
+    "imageAsset": "images/by-hash/219cd01ec5a88005.png"
+  },
+  {
+    "name": "SmartArtAddShapeBefore",
+    "imageAsset": "images/by-hash/452e6837dcbf2bfc.png"
+  },
+  {
+    "name": "SmartArtAddShapeBelow",
+    "imageAsset": "images/by-hash/d1ed79282cd7c496.png"
+  },
+  {
+    "name": "SmartArtAddShapeMenu",
+    "imageAsset": "images/by-hash/dd87254046e40348.png"
+  },
+  {
+    "name": "SmartArtAddShapeSplitMenu",
+    "imageAsset": "images/by-hash/dd87254046e40348.png"
+  },
+  {
+    "name": "SmartArtLargerShape",
+    "imageAsset": "images/by-hash/2cbd4e11686252de.png"
+  },
+  {
+    "name": "SmartArtResetShape",
+    "imageAsset": "images/by-hash/fc078c3b79374fd2.png"
+  },
+  {
+    "name": "SmartArtSmallerShape",
+    "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+  },
+  {
+    "name": "SmartArtEditIn2D",
+    "imageAsset": "images/by-hash/7516c18e337fbb2a.png"
+  },
+  {
+    "name": "ConvertSmartArtMenu",
+    "imageAsset": "images/by-hash/0e337530ca1d575e.png"
+  }
+]

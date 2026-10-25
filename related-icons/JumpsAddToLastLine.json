@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JumpsAddToFirstLine",
+    "imageAsset": "images/by-hash/4651c7dc603576eb.png"
+  },
+  {
+    "name": "JumpsAddToRoutedLine",
+    "imageAsset": "images/by-hash/916e290ac0321436.png"
+  },
+  {
+    "name": "JumpsAddTo",
+    "imageAsset": "images/by-hash/78e259cccdea5789.png"
+  },
+  {
+    "name": "JumpsAddToHorizontalLines",
+    "imageAsset": "images/by-hash/78e259cccdea5789.png"
+  },
+  {
+    "name": "JumpsAddToNoLines",
+    "imageAsset": "images/by-hash/01cf08c2bfaa9b6e.png"
+  },
+  {
+    "name": "JumpsAddToVerticalLines",
+    "imageAsset": "images/by-hash/f8531db4cc9a99f6.png"
+  },
+  {
+    "name": "ChartlibAddRemoveDataLabelCalloutLine",
+    "imageAsset": "images/by-hash/eaf05310ae833364.png"
+  },
+  {
+    "name": "CatalogMergeGoToLastRecord",
+    "imageAsset": "images/by-hash/885b15570afb85d5.png"
+  },
+  {
+    "name": "EraserLastUsed",
+    "imageAsset": "images/by-hash/d70bcff83c399d86.png"
+  },
+  {
+    "name": "LastModifiedBy",
+    "imageAsset": "images/by-hash/2cb8cfb3c6a0f08f.png"
+  },
+  {
+    "name": "LastPage",
+    "imageAsset": "images/by-hash/e21a59d787d1194e.png"
+  },
+  {
+    "name": "LastTile",
+    "imageAsset": "images/by-hash/716d1cf9fcfccee1.png"
+  }
+]

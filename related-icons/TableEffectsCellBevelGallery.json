@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TextEffectsBevelMore3DOptionsDialog",
+    "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+  },
+  {
+    "name": "_3DBevelOptionsDialog",
+    "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+  },
+  {
+    "name": "_3DBevelPictureTopGallery",
+    "imageAsset": "images/by-hash/1aafdbcfdb81e8bf.png"
+  },
+  {
+    "name": "Bevel",
+    "imageAsset": "images/by-hash/e61f03a5e23891c9.png"
+  },
+  {
+    "name": "BevelShapeGallery",
+    "imageAsset": "images/by-hash/0452866e8584aaa2.png"
+  },
+  {
+    "name": "BevelTextGallery",
+    "imageAsset": "images/by-hash/2fa70a1cc63eed65.png"
+  },
+  {
+    "name": "_3DEffectsGalleryClassic",
+    "imageAsset": "images/by-hash/7e8b56359c980dd8.png"
+  },
+  {
+    "name": "_3DEffectsOnOffClassic",
+    "imageAsset": "images/by-hash/80b52f37f2b6692a.png"
+  },
+  {
+    "name": "ArtisticEffectsDialog",
+    "imageAsset": "images/by-hash/6ba4f4a6160a8d70.png"
+  },
+  {
+    "name": "Group3DEffects",
+    "imageAsset": "images/by-hash/cba7c0795e843fbd.png"
+  },
+  {
+    "name": "GroupEffects",
+    "imageAsset": "images/by-hash/7e8b56359c980dd8.png"
+  },
+  {
+    "name": "GroupPictureEffects",
+    "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+  }
+]

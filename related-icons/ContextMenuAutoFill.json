@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AutoFillMode",
+    "imageAsset": "images/by-hash/8a2fa3f2da641e47.png"
+  },
+  {
+    "name": "TeamPlannerAutoScheduledFillColor",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "ContextHelp",
+    "imageAsset": "images/by-hash/ad7c7e4b18bb841c.png"
+  },
+  {
+    "name": "ContextMenuArrangementGallery",
+    "imageAsset": "images/by-hash/3cb7771c306e0262.png"
+  },
+  {
+    "name": "ContextMenuContactCardOverflowDropdown",
+    "imageAsset": "images/by-hash/b2349f10ed68e03a.png"
+  },
+  {
+    "name": "ContextMenuGroupContactCardPhoneDropdown",
+    "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+  },
+  {
+    "name": "ContextMenuGuide",
+    "imageAsset": "images/by-hash/35e9bdd435048a0d.png"
+  },
+  {
+    "name": "ContextMenusAndPasteGiveFeedback",
+    "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+  },
+  {
+    "name": "ContextStylesGallery",
+    "imageAsset": "images/by-hash/a0ca653d58ecaf86.png"
+  },
+  {
+    "name": "EventOnContextChange",
+    "imageAsset": "images/by-hash/f4fe958aef2cb5d1.png"
+  },
+  {
+    "name": "FileNewContext",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "FolderPropertiesContext",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  }
+]

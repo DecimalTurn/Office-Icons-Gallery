@@ -1,0 +1,26 @@
+[
+  {
+    "name": "MoreColorAndThicknessOptions",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "ShapeFillColorPicker",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "ShapeFillColorPickerClassic",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "ShapeOutlineColorPicker",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "ControlLineThicknessGallery",
+    "imageAsset": "images/by-hash/c223c1781a4305f2.png"
+  },
+  {
+    "name": "LineThickness",
+    "imageAsset": "images/by-hash/8b9ce1d4bb31f477.png"
+  }
+]

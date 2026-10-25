@@ -1,0 +1,50 @@
+[
+  {
+    "name": "EventOnBeforeChange",
+    "imageAsset": "images/by-hash/843e6b743f01410b.png"
+  },
+  {
+    "name": "EventOnContextChange",
+    "imageAsset": "images/by-hash/f4fe958aef2cb5d1.png"
+  },
+  {
+    "name": "CondolatoryEvent",
+    "imageAsset": "images/by-hash/a52b748478280b59.png"
+  },
+  {
+    "name": "CongratulatoryEvent",
+    "imageAsset": "images/by-hash/3c52a8d48547749a.png"
+  },
+  {
+    "name": "EventMonitor",
+    "imageAsset": "images/by-hash/6754ee105a791d52.png"
+  },
+  {
+    "name": "EventOnLoad",
+    "imageAsset": "images/by-hash/69582c3f940b47be.png"
+  },
+  {
+    "name": "EventOnSign",
+    "imageAsset": "images/by-hash/4cc10e925171bebd.png"
+  },
+  {
+    "name": "EventOnSwitchView",
+    "imageAsset": "images/by-hash/7bd89029ab2c7829.png"
+  },
+  {
+    "name": "EventOnValidate",
+    "imageAsset": "images/by-hash/a0d8ba82e36eec4f.png"
+  },
+  {
+    "name": "AfterDelete",
+    "imageAsset": "images/by-hash/e8cb3d2b181b016d.png"
+  },
+  {
+    "name": "AfterDeleteSql",
+    "imageAsset": "images/by-hash/e8cb3d2b181b016d.png"
+  },
+  {
+    "name": "AfterInsert",
+    "imageAsset": "images/by-hash/bf04b878fe675d39.png"
+  }
+]

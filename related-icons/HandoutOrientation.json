@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupPageSetupHandoutMaster",
+    "imageAsset": "images/by-hash/fc276fb850114877.png"
+  },
+  {
+    "name": "GroupPlaceholdersHandoutMaster",
+    "imageAsset": "images/by-hash/2db8e446d7f58899.png"
+  },
+  {
+    "name": "ViewHandoutMasterView",
+    "imageAsset": "images/by-hash/523973e71ecb274e.png"
+  },
+  {
+    "name": "CrossFunctionalFlowchartOrientation",
+    "imageAsset": "images/by-hash/ac432e36ae9932cc.png"
+  },
+  {
+    "name": "MasterNotesPageOrientation",
+    "imageAsset": "images/by-hash/0bf81216e83541fd.png"
+  },
+  {
+    "name": "OrientationMenu",
+    "imageAsset": "images/by-hash/9d821c3052f14295.png"
+  },
+  {
+    "name": "PageOrientation",
+    "imageAsset": "images/by-hash/d50a949df0433651.png"
+  },
+  {
+    "name": "PageOrientationGallery",
+    "imageAsset": "images/by-hash/d50a949df0433651.png"
+  },
+  {
+    "name": "PageOrientationLandscape",
+    "imageAsset": "images/by-hash/9fdf070c5989df95.png"
+  },
+  {
+    "name": "PageOrientationPortrait",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "PageOrientationPortraitLandscape",
+    "imageAsset": "images/by-hash/d50a949df0433651.png"
+  },
+  {
+    "name": "SlideOrientationGallery",
+    "imageAsset": "images/by-hash/d50a949df0433651.png"
+  }
+]

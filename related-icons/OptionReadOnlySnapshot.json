@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ColumnActionsReadOnly",
+    "imageAsset": "images/by-hash/496a802468ac8523.png"
+  },
+  {
+    "name": "ContentTypeColumnActionsReadOnly",
+    "imageAsset": "images/by-hash/496a802468ac8523.png"
+  },
+  {
+    "name": "GroupServerReadOnly",
+    "imageAsset": "images/by-hash/b40fac805db5ef0f.png"
+  },
+  {
+    "name": "ReadOnly",
+    "imageAsset": "images/by-hash/496a802468ac8523.png"
+  },
+  {
+    "name": "ExportSnapshot",
+    "imageAsset": "images/by-hash/8efd28a83c8fc0e4.png"
+  },
+  {
+    "name": "OptionEditableForm",
+    "imageAsset": "images/by-hash/6004045baf563227.png"
+  },
+  {
+    "name": "OptionEditableFormAttachTemplate",
+    "imageAsset": "images/by-hash/e2222cd521ce9a3d.png"
+  },
+  {
+    "name": "PasteOption",
+    "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+  },
+  {
+    "name": "WebControlOptionButton",
+    "imageAsset": "images/by-hash/1d4e488ea50d958c.png"
+  },
+  {
+    "name": "EditReadPage",
+    "imageAsset": "images/by-hash/119eea4b03bc7734.png"
+  },
+  {
+    "name": "FollowUpReadMenu",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "MarkAllAsRead",
+    "imageAsset": "images/by-hash/985e4902a9708f03.png"
+  }
+]

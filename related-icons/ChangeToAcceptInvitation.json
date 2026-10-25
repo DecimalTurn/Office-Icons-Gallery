@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ChangeToTentativeAcceptInvitation",
+    "imageAsset": "images/by-hash/1c6cfefae0b6575f.png"
+  },
+  {
+    "name": "AcceptInvitation",
+    "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+  },
+  {
+    "name": "MenuAcceptInvitation",
+    "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+  },
+  {
+    "name": "TentativeAcceptInvitation",
+    "imageAsset": "images/by-hash/1c6cfefae0b6575f.png"
+  },
+  {
+    "name": "ChangeToDeclineInvitation",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "ReviewAcceptChange",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "ReviewAcceptChangeAndMoveToNext",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "ReviewAcceptChangeClassic",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "ReviewAcceptChangeMenu",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "ReviewAcceptOrRejectChangeDialog",
+    "imageAsset": "images/by-hash/dbd44dfa037e65dc.png"
+  },
+  {
+    "name": "BroadcastSendInvitation",
+    "imageAsset": "images/by-hash/17e648f52c2a4500.png"
+  },
+  {
+    "name": "CancelAllInvitation",
+    "imageAsset": "images/by-hash/3c40bf60f3731fd8.png"
+  }
+]

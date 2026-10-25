@@ -1,0 +1,50 @@
+[
+  {
+    "name": "BordersShadingDialogSpd",
+    "imageAsset": "images/by-hash/441df2dcdc406ed9.png"
+  },
+  {
+    "name": "ConnectorToolSpd",
+    "imageAsset": "images/by-hash/de067880af71db08.png"
+  },
+  {
+    "name": "ContactCardCallWork",
+    "imageAsset": "images/by-hash/381581df7c59e7dc.png"
+  },
+  {
+    "name": "DeleteSpdPage",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "DeleteSPDSite",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "EditSpdPage",
+    "imageAsset": "images/by-hash/90f5920b899619e8.png"
+  },
+  {
+    "name": "EditSpdPageAdvanced",
+    "imageAsset": "images/by-hash/e990b26262ad2738.png"
+  },
+  {
+    "name": "GroupArrangeSpd",
+    "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+  },
+  {
+    "name": "GroupContactCardCallWork",
+    "imageAsset": "images/by-hash/381581df7c59e7dc.png"
+  },
+  {
+    "name": "GroupEditingSpd",
+    "imageAsset": "images/by-hash/e990b26262ad2738.png"
+  },
+  {
+    "name": "GroupViewsSpd",
+    "imageAsset": "images/by-hash/33c8623ce482a3d2.png"
+  },
+  {
+    "name": "InsertBookmarkSpd",
+    "imageAsset": "images/by-hash/94545ae26a01263b.png"
+  }
+]

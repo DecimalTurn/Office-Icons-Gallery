@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupJunkEmail",
+    "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+  },
+  {
+    "name": "JunkEmailAddToBlockedSendersList",
+    "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+  },
+  {
+    "name": "JunkEmailMarkAsNotJunk",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  },
+  {
+    "name": "JunkEmailOptions",
+    "imageAsset": "images/by-hash/791cc4acbb726258.png"
+  },
+  {
+    "name": "SourceSafeQuickCheckIn",
+    "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+  },
+  {
+    "name": "SourceSafeQuickCheckout",
+    "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+  },
+  {
+    "name": "SourceSafeQuickUndoCheckOut",
+    "imageAsset": "images/by-hash/9a092616c2da4f72.png"
+  },
+  {
+    "name": "JunkMenu",
+    "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+  },
+  {
+    "name": "AccessOfflineLists",
+    "imageAsset": "images/by-hash/f7fc3736c97dae97.png"
+  },
+  {
+    "name": "AccessOnlineLists",
+    "imageAsset": "images/by-hash/9cd35fda88c3c0c0.png"
+  },
+  {
+    "name": "AccessRefreshAllLists",
+    "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+  },
+  {
+    "name": "AccessRelinkLists",
+    "imageAsset": "images/by-hash/8d84800ce786e29c.png"
+  }
+]

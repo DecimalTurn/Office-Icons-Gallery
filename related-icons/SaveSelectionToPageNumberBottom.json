@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SaveSelectionToPageNumberGallery",
+    "imageAsset": "images/by-hash/d93ef64e3b58678d.png"
+  },
+  {
+    "name": "SaveSelectionToPageNumberMargin",
+    "imageAsset": "images/by-hash/d93ef64e3b58678d.png"
+  },
+  {
+    "name": "SaveSelectionToPageNumberTop",
+    "imageAsset": "images/by-hash/d93ef64e3b58678d.png"
+  },
+  {
+    "name": "CustomPageNumberBottomGallery",
+    "imageAsset": "images/by-hash/2db8e446d7f58899.png"
+  },
+  {
+    "name": "PageNumberBottomCenter",
+    "imageAsset": "images/by-hash/b04850ad77bb32c6.png"
+  },
+  {
+    "name": "PageNumberBottomLeft",
+    "imageAsset": "images/by-hash/9499e4a273e10634.png"
+  },
+  {
+    "name": "PageNumberBottomRight",
+    "imageAsset": "images/by-hash/caa16ed695e0f7d2.png"
+  },
+  {
+    "name": "QuickStylesSaveSelectionAsNew",
+    "imageAsset": "images/by-hash/e6f7d1945ad3787b.png"
+  },
+  {
+    "name": "SaveSelectionToAutoTextGallery",
+    "imageAsset": "images/by-hash/efe168a0e0dce76c.png"
+  },
+  {
+    "name": "SaveSelectionToCoverPageGallery",
+    "imageAsset": "images/by-hash/6040b3b0e1c12c80.png"
+  },
+  {
+    "name": "SaveSelectionToEquationGallery",
+    "imageAsset": "images/by-hash/1c9db4ad034af9ca.png"
+  },
+  {
+    "name": "SaveSelectionToFooterGallery",
+    "imageAsset": "images/by-hash/3785d50ff283a116.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "QuickStepTemplateCategorizeAndMove",
+    "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+  },
+  {
+    "name": "QuickStepTemplateMoveToFolder",
+    "imageAsset": "images/by-hash/a29be37adf30f0e1.png"
+  },
+  {
+    "name": "QuickStepTemplateForward",
+    "imageAsset": "images/by-hash/d4f0e3112d0c691d.png"
+  },
+  {
+    "name": "QuickStepTemplateNewEmail",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  },
+  {
+    "name": "QuickStepTemplateNewMeeting",
+    "imageAsset": "images/by-hash/feff041c0012ff48.png"
+  },
+  {
+    "name": "CreateQuickStep",
+    "imageAsset": "images/by-hash/da9e5a058d3075b0.png"
+  },
+  {
+    "name": "FlagCustom",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "FlagMessage",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "FlagNextWeek",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "FlagNoDate",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "FlagThisWeek",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "FlagToday",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  }
+]

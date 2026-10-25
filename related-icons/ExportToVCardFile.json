@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ExportFile",
+    "imageAsset": "images/by-hash/e1c1f965cadf4b0b.png"
+  },
+  {
+    "name": "ExportTextFile",
+    "imageAsset": "images/by-hash/fb41960d6c6aaba9.png"
+  },
+  {
+    "name": "ExportXmlFile",
+    "imageAsset": "images/by-hash/0cb67ed54ea88266.png"
+  },
+  {
+    "name": "BusinessCardInsertMenu",
+    "imageAsset": "images/by-hash/497a4f1948c9ced5.png"
+  },
+  {
+    "name": "ContactCardAddToIMContacts",
+    "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+  },
+  {
+    "name": "ContactCardAddToOutlookContacts",
+    "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+  },
+  {
+    "name": "ContactCardCallComputer",
+    "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+  },
+  {
+    "name": "ContactCardCallHome",
+    "imageAsset": "images/by-hash/b6c3160f01575fe9.png"
+  },
+  {
+    "name": "ContactCardCallMobile",
+    "imageAsset": "images/by-hash/808692b540d5562b.png"
+  },
+  {
+    "name": "ContactCardCallNewNumber",
+    "imageAsset": "images/by-hash/af23a5423f4b1e21.png"
+  },
+  {
+    "name": "ContactCardCallOther",
+    "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+  },
+  {
+    "name": "ContactCardCallVoiceMail",
+    "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+  }
+]

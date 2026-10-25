@@ -1,0 +1,50 @@
+[
+  {
+    "name": "BlackAndWhiteBlackWithGrayscaleFill",
+    "imageAsset": "images/by-hash/d651f992d2fe4486.png"
+  },
+  {
+    "name": "BlackAndWhiteGrayscale",
+    "imageAsset": "images/by-hash/1990b834750e1a6d.png"
+  },
+  {
+    "name": "BlackAndWhiteInverseGrayscale",
+    "imageAsset": "images/by-hash/c362a6c1862643fb.png"
+  },
+  {
+    "name": "BlackAndWhite",
+    "imageAsset": "images/by-hash/716a94e98d053cdd.png"
+  },
+  {
+    "name": "BlackAndWhiteAutomatic",
+    "imageAsset": "images/by-hash/778d7cbd5c31bd4f.png"
+  },
+  {
+    "name": "BlackAndWhiteBlack",
+    "imageAsset": "images/by-hash/131d1e24b804a390.png"
+  },
+  {
+    "name": "BlackAndWhiteBlackWithWhiteFill",
+    "imageAsset": "images/by-hash/6e24a2b5aad26386.png"
+  },
+  {
+    "name": "BlackAndWhiteDontShow",
+    "imageAsset": "images/by-hash/bfee4f7602ee7bcf.png"
+  },
+  {
+    "name": "BlackAndWhiteGrayWithWhiteFill",
+    "imageAsset": "images/by-hash/0674be44867ea8e7.png"
+  },
+  {
+    "name": "BlackAndWhiteWhite",
+    "imageAsset": "images/by-hash/ceaea2de8a03683a.png"
+  },
+  {
+    "name": "PictureRecolorBlackAndWhite",
+    "imageAsset": "images/by-hash/06f37aff9ab7979f.png"
+  },
+  {
+    "name": "ViewDisplayInPureBlackAndWhite",
+    "imageAsset": "images/by-hash/4652e8a8bbd5d01d.png"
+  }
+]

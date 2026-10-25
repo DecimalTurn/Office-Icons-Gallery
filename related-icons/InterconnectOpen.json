@@ -1,0 +1,18 @@
+[
+  {
+    "name": "DataInterconnect",
+    "imageAsset": "images/by-hash/64480077e54e1b8b.png"
+  },
+  {
+    "name": "GroupInterconnect",
+    "imageAsset": "images/by-hash/2f49d3d4e7579ae1.png"
+  },
+  {
+    "name": "InterconnectDeleteCard",
+    "imageAsset": "images/by-hash/7c85557f26f6727d.png"
+  },
+  {
+    "name": "InterconnectNextSide",
+    "imageAsset": "images/by-hash/bbbefcb9a421a3e6.png"
+  }
+]

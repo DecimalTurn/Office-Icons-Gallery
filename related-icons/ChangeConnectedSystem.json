@@ -1,0 +1,30 @@
+[
+  {
+    "name": "EditConnectedSystem",
+    "imageAsset": "images/by-hash/c9127e4088b92041.png"
+  },
+  {
+    "name": "GroupConnectedSystemActions",
+    "imageAsset": "images/by-hash/c9127e4088b92041.png"
+  },
+  {
+    "name": "ConnectedToolSyncMenu",
+    "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+  },
+  {
+    "name": "GroupConnectedToolsWorkspace",
+    "imageAsset": "images/by-hash/361923eeca76eb5a.png"
+  },
+  {
+    "name": "GroupSharePointConnectedTool",
+    "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+  },
+  {
+    "name": "NewSharePointConnectedTool",
+    "imageAsset": "images/by-hash/37ac0a48e7c4e52f.png"
+  },
+  {
+    "name": "SyncConnectedTool",
+    "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+  }
+]

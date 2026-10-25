@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CDAudioPlayTrackAutomatically",
+    "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+  },
+  {
+    "name": "MoviePlay",
+    "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+  },
+  {
+    "name": "DataAutomaticallyLink",
+    "imageAsset": "images/by-hash/d600f66db6b9eec3.png"
+  },
+  {
+    "name": "TransitionTimeAutomaticallyAfter",
+    "imageAsset": "images/by-hash/ad750451ddb1bd82.png"
+  },
+  {
+    "name": "GroupMovieOptions",
+    "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+  },
+  {
+    "name": "InsertMovieDialog",
+    "imageAsset": "images/by-hash/b4503a8b2cb0995d.png"
+  },
+  {
+    "name": "MovieFromClipOrganizerInsert",
+    "imageAsset": "images/by-hash/b4503a8b2cb0995d.png"
+  },
+  {
+    "name": "MovieFromFileInsert",
+    "imageAsset": "images/by-hash/17cc4e91fcc92c9b.png"
+  },
+  {
+    "name": "MovieInsert02",
+    "imageAsset": "images/by-hash/17cc4e91fcc92c9b.png"
+  },
+  {
+    "name": "GroupPlay",
+    "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+  },
+  {
+    "name": "MacroPlay",
+    "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+  },
+  {
+    "name": "MediaPlayPreview",
+    "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+  }
+]

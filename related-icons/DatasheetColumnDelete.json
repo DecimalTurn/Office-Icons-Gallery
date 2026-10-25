@@ -1,0 +1,50 @@
+[
+  {
+    "name": "DatasheetColumnLookup",
+    "imageAsset": "images/by-hash/2053cf596680b0b7.png"
+  },
+  {
+    "name": "DatasheetColumnRename",
+    "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+  },
+  {
+    "name": "DeleteColumn",
+    "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+  },
+  {
+    "name": "EquationMatrixDeleteColumn",
+    "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+  },
+  {
+    "name": "RecordsDeleteColumn",
+    "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+  },
+  {
+    "name": "AccessFormDatasheet",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "AccessListCustomDatasheet",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "CreateDatasheetView",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "DatasheetGridlinesBoth",
+    "imageAsset": "images/by-hash/ebfac0c46cdfe306.png"
+  },
+  {
+    "name": "DatasheetGridlinesHorizontal",
+    "imageAsset": "images/by-hash/1b6f3f7a2c4fa2e9.png"
+  },
+  {
+    "name": "DatasheetGridlinesMenu",
+    "imageAsset": "images/by-hash/4b5faa22f8448c69.png"
+  },
+  {
+    "name": "DatasheetGridlinesNone",
+    "imageAsset": "images/by-hash/6b65545fb0b8a68f.png"
+  }
+]

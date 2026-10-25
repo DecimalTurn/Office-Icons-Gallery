@@ -1,0 +1,50 @@
+[
+  {
+    "name": "EquationLimitGallery",
+    "imageAsset": "images/by-hash/ac32a9698d023b3b.png"
+  },
+  {
+    "name": "ArrangeByLocation",
+    "imageAsset": "images/by-hash/4150b8d940bfe058.png"
+  },
+  {
+    "name": "GroupAddLocation",
+    "imageAsset": "images/by-hash/f8148898aea63c99.png"
+  },
+  {
+    "name": "GroupChartLocation",
+    "imageAsset": "images/by-hash/6e5a58100af6c7f2.png"
+  },
+  {
+    "name": "SparklineEditLocationAndData",
+    "imageAsset": "images/by-hash/f66f1f20b7d1d18a.png"
+  },
+  {
+    "name": "BuildingBlocksSaveEquation",
+    "imageAsset": "images/by-hash/1c9db4ad034af9ca.png"
+  },
+  {
+    "name": "EquationAccentGallery",
+    "imageAsset": "images/by-hash/3dfd59ecd0929991.png"
+  },
+  {
+    "name": "EquationDelimiterGallery",
+    "imageAsset": "images/by-hash/21f117bb812cf471.png"
+  },
+  {
+    "name": "EquationEdit",
+    "imageAsset": "images/by-hash/5f27fe84419337f4.png"
+  },
+  {
+    "name": "EquationEditor",
+    "imageAsset": "images/by-hash/ebe6a4ef3f056757.png"
+  },
+  {
+    "name": "EquationFractionGallery",
+    "imageAsset": "images/by-hash/92a3ef3796619e43.png"
+  },
+  {
+    "name": "EquationFunctionGallery",
+    "imageAsset": "images/by-hash/c254693d8f9db571.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JotFindHitResults",
+    "imageAsset": "images/by-hash/9d02c57d77872cbe.png"
+  },
+  {
+    "name": "JotFindPageTitles",
+    "imageAsset": "images/by-hash/9d02c57d77872cbe.png"
+  },
+  {
+    "name": "JotFindSortAscending",
+    "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+  },
+  {
+    "name": "JotFindSortDescending",
+    "imageAsset": "images/by-hash/77440f0b8550bd69.png"
+  },
+  {
+    "name": "JotNavUIFind",
+    "imageAsset": "images/by-hash/8ac1c6e151bfa73f.png"
+  },
+  {
+    "name": "JotNavUIFindNextHit",
+    "imageAsset": "images/by-hash/0f42881fbb368916.png"
+  },
+  {
+    "name": "JotNavUIFindPrevHit",
+    "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+  },
+  {
+    "name": "JotNavUIFindResults",
+    "imageAsset": "images/by-hash/6b28a008f02b0e87.png"
+  },
+  {
+    "name": "JotNavUIFindRTL",
+    "imageAsset": "images/by-hash/795585269d9eb56a.png"
+  },
+  {
+    "name": "AnimationCustomAddExitDialog",
+    "imageAsset": "images/by-hash/9df3ac47e85dd523.png"
+  },
+  {
+    "name": "AnimationCustomExitDialog",
+    "imageAsset": "images/by-hash/9df3ac47e85dd523.png"
+  },
+  {
+    "name": "ChartExitEditText",
+    "imageAsset": "images/by-hash/8187ee8d4735072e.png"
+  }
+]

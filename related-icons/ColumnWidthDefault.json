@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ReadingModeColumnWidthDefault",
+    "imageAsset": "images/by-hash/53c21f42593d741d.png"
+  },
+  {
+    "name": "ColumnWidth",
+    "imageAsset": "images/by-hash/e87fd57a95db67f3.png"
+  },
+  {
+    "name": "ReadingModeColumnWidthMenu",
+    "imageAsset": "images/by-hash/07769cf793dd35fb.png"
+  },
+  {
+    "name": "ReadingModeColumnWidthNarrow",
+    "imageAsset": "images/by-hash/b8b3c72b95a044fd.png"
+  },
+  {
+    "name": "ReadingModeColumnWidthWide",
+    "imageAsset": "images/by-hash/9236380ac5d8eefd.png"
+  },
+  {
+    "name": "SlicerColumnWidth",
+    "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+  },
+  {
+    "name": "TableAutoFitFixedColumnWidth",
+    "imageAsset": "images/by-hash/28bd77edec9f67ac.png"
+  },
+  {
+    "name": "TableColumnWidth",
+    "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+  },
+  {
+    "name": "CellWidth",
+    "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+  },
+  {
+    "name": "ControlPropertyWidthValue",
+    "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+  },
+  {
+    "name": "GridlinesWidthGallery",
+    "imageAsset": "images/by-hash/c223c1781a4305f2.png"
+  },
+  {
+    "name": "InkLineWidth",
+    "imageAsset": "images/by-hash/8b9ce1d4bb31f477.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "BlankPageInsert",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "BlankPageInsertMenu",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "BlankPageInsertVisio",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "BlankRowInsert",
+    "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+  },
+  {
+    "name": "ControlButtonCanBeBlank",
+    "imageAsset": "images/by-hash/0ffdb5c61c29bfb8.png"
+  },
+  {
+    "name": "ControlPropertyCannotBeBlank",
+    "imageAsset": "images/by-hash/0ffdb5c61c29bfb8.png"
+  },
+  {
+    "name": "CreateBlankPage",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "CreateFormBlankForm",
+    "imageAsset": "images/by-hash/a7710bf1b8d5adc8.png"
+  },
+  {
+    "name": "CreateFormBlankFormWeb",
+    "imageAsset": "images/by-hash/ac1ad25aa1bf3d8a.png"
+  },
+  {
+    "name": "CreateReportBlankReport",
+    "imageAsset": "images/by-hash/d613ffa6c31b0db5.png"
+  },
+  {
+    "name": "CreateReportBlankReportWeb",
+    "imageAsset": "images/by-hash/3ee4f566a710eb41.png"
+  },
+  {
+    "name": "FileNewBlankDocument",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  }
+]

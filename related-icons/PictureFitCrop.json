@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PictureClearCrop",
+    "imageAsset": "images/by-hash/e2e149d65bebf3fe.png"
+  },
+  {
+    "name": "PictureCrop",
+    "imageAsset": "images/by-hash/96077b881b235e69.png"
+  },
+  {
+    "name": "PictureCropMenu",
+    "imageAsset": "images/by-hash/96077b881b235e69.png"
+  },
+  {
+    "name": "PictureCropShapeMenu",
+    "imageAsset": "images/by-hash/96077b881b235e69.png"
+  },
+  {
+    "name": "PictureCropTools",
+    "imageAsset": "images/by-hash/96077b881b235e69.png"
+  },
+  {
+    "name": "PictureFillCrop",
+    "imageAsset": "images/by-hash/352b3feeaeff44d2.png"
+  },
+  {
+    "name": "CropTool",
+    "imageAsset": "images/by-hash/96077b881b235e69.png"
+  },
+  {
+    "name": "GroupCrop",
+    "imageAsset": "images/by-hash/96077b881b235e69.png"
+  },
+  {
+    "name": "VideoCrop",
+    "imageAsset": "images/by-hash/ec1121a28ff7f3bc.png"
+  },
+  {
+    "name": "AsianLayoutFitText",
+    "imageAsset": "images/by-hash/f65954aad1f1e694.png"
+  },
+  {
+    "name": "BestFit",
+    "imageAsset": "images/by-hash/317f27be1f20e9a3.png"
+  },
+  {
+    "name": "CalendarViewWeekHeightBestFit",
+    "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+  }
+]

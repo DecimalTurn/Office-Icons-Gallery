@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ChartSecondaryVerticalGridlines",
+    "imageAsset": "images/by-hash/eedec3c2c02676bc.png"
+  },
+  {
+    "name": "ChartSecondaryHorizontalGridlines",
+    "imageAsset": "images/by-hash/025f1de07804fbee.png"
+  },
+  {
+    "name": "ChartSecondaryVerticalAxis",
+    "imageAsset": "images/by-hash/38884725d11cea50.png"
+  },
+  {
+    "name": "ChartSecondaryVerticalAxisTitle",
+    "imageAsset": "images/by-hash/5b7cb2cc84288fee.png"
+  },
+  {
+    "name": "ChartPrimaryVerticalGridlines",
+    "imageAsset": "images/by-hash/a73d5f6ba135d41e.png"
+  },
+  {
+    "name": "DatasheetGridlinesVertical",
+    "imageAsset": "images/by-hash/cee41c2c93925cf8.png"
+  },
+  {
+    "name": "ChartSecondaryHorizontalAxis",
+    "imageAsset": "images/by-hash/0985b467e5ed6ac6.png"
+  },
+  {
+    "name": "ChartSecondaryHorizontalAxisTitle",
+    "imageAsset": "images/by-hash/5728d6bdb0ff9dc7.png"
+  },
+  {
+    "name": "ControlPropertySecondaryFieldBindingMenu",
+    "imageAsset": "images/by-hash/a58e15672293140e.png"
+  },
+  {
+    "name": "ControlPropertySecondaryFieldChangeBinding",
+    "imageAsset": "images/by-hash/523067816339a20d.png"
+  },
+  {
+    "name": "ControlPropertySecondaryFieldPropertiesDialog",
+    "imageAsset": "images/by-hash/828e97e4441434cb.png"
+  },
+  {
+    "name": "ControlPropertySecondaryFieldRemoveBinding",
+    "imageAsset": "images/by-hash/3ca223b92d747847.png"
+  }
+]

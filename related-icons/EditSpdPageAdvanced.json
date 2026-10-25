@@ -1,0 +1,50 @@
+[
+  {
+    "name": "EditPageAdvancedMode",
+    "imageAsset": "images/by-hash/90f5920b899619e8.png"
+  },
+  {
+    "name": "EditSpdPage",
+    "imageAsset": "images/by-hash/90f5920b899619e8.png"
+  },
+  {
+    "name": "AdvancedFileProperties",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "AdvancedFilterDialog",
+    "imageAsset": "images/by-hash/8519d7c5a282f126.png"
+  },
+  {
+    "name": "AdvancedFind",
+    "imageAsset": "images/by-hash/412aae2556681c8e.png"
+  },
+  {
+    "name": "AdvancedMode",
+    "imageAsset": "images/by-hash/e990b26262ad2738.png"
+  },
+  {
+    "name": "AdvancedObjectMenu",
+    "imageAsset": "images/by-hash/f1d930c1fb20b2ea.png"
+  },
+  {
+    "name": "ClientAdvancedObjectsMenu",
+    "imageAsset": "images/by-hash/d2771bddcd274833.png"
+  },
+  {
+    "name": "ControlAdvancedProperties",
+    "imageAsset": "images/by-hash/ce9ae6ade4f8479a.png"
+  },
+  {
+    "name": "CreateAdvancedObjectsMenu",
+    "imageAsset": "images/by-hash/f1d930c1fb20b2ea.png"
+  },
+  {
+    "name": "FilterAdvancedByForm",
+    "imageAsset": "images/by-hash/0472459ab35af6fc.png"
+  },
+  {
+    "name": "FilterAdvancedMenu",
+    "imageAsset": "images/by-hash/8519d7c5a282f126.png"
+  }
+]

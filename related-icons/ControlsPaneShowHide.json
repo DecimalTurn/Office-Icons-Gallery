@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ControlsPane",
+    "imageAsset": "images/by-hash/2906b0aa2177acec.png"
+  },
+  {
+    "name": "FieldsPaneShowHide",
+    "imageAsset": "images/by-hash/1364e5608dd9f1db.png"
+  },
+  {
+    "name": "FontPaneShowHide",
+    "imageAsset": "images/by-hash/b137ee0e9904d18c.png"
+  },
+  {
+    "name": "HtmlPaneShowHide",
+    "imageAsset": "images/by-hash/c186f08d06d4cafe.png"
+  },
+  {
+    "name": "NavigationPaneShowHide",
+    "imageAsset": "images/by-hash/f9899aa5db8e5021.png"
+  },
+  {
+    "name": "ParagraphPaneShowHide",
+    "imageAsset": "images/by-hash/b7c6df7b9755d339.png"
+  },
+  {
+    "name": "ShowHideChartDataPane",
+    "imageAsset": "images/by-hash/a9ed367d36360873.png"
+  },
+  {
+    "name": "ShowHideTableDataPane",
+    "imageAsset": "images/by-hash/a9ed367d36360873.png"
+  },
+  {
+    "name": "ContentControlsGroup",
+    "imageAsset": "images/by-hash/6f1d93970a6e51e2.png"
+  },
+  {
+    "name": "ContentControlsGroupMenu",
+    "imageAsset": "images/by-hash/6f1d93970a6e51e2.png"
+  },
+  {
+    "name": "ContentControlsUngroup",
+    "imageAsset": "images/by-hash/a114f76642ee2f81.png"
+  },
+  {
+    "name": "ControlsGallery",
+    "imageAsset": "images/by-hash/a7c67257e1463a6d.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AccessOfflineLists",
+    "imageAsset": "images/by-hash/f7fc3736c97dae97.png"
+  },
+  {
+    "name": "JotSyncOffline",
+    "imageAsset": "images/by-hash/e7ec23af266404b0.png"
+  },
+  {
+    "name": "OfflineCacheOn",
+    "imageAsset": "images/by-hash/03bee4658242746d.png"
+  },
+  {
+    "name": "PersonaStatusOffline",
+    "imageAsset": "images/by-hash/c109adcafbdb0e8d.png"
+  },
+  {
+    "name": "SharePointListsWorkOffline",
+    "imageAsset": "images/by-hash/eeed91e2c3dc2847.png"
+  },
+  {
+    "name": "SharePointOfflineGiveFeedback",
+    "imageAsset": "images/by-hash/275d48d742decaef.png"
+  },
+  {
+    "name": "SyncStatusOffline",
+    "imageAsset": "images/by-hash/2acc7706503e54af.png"
+  },
+  {
+    "name": "WorkOffline",
+    "imageAsset": "images/by-hash/acd07aef3fcbd50a.png"
+  },
+  {
+    "name": "FilePageSetupCalendar",
+    "imageAsset": "images/by-hash/fc276fb850114877.png"
+  },
+  {
+    "name": "FilePageSetupCalendarFonts",
+    "imageAsset": "images/by-hash/38d76334050dad66.png"
+  },
+  {
+    "name": "FilePageSetupPage",
+    "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+  },
+  {
+    "name": "FilePrintSetup",
+    "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+  }
+]

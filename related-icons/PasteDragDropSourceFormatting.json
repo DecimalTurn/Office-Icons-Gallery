@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PasteDragDropDestinationTheme",
+    "imageAsset": "images/by-hash/94aff1473d9111ab.png"
+  },
+  {
+    "name": "PasteExcelChartSourceFormatting",
+    "imageAsset": "images/by-hash/e148546483e598d2.png"
+  },
+  {
+    "name": "PasteExcelTableSourceFormatting",
+    "imageAsset": "images/by-hash/e148546483e598d2.png"
+  },
+  {
+    "name": "PasteLinkedExcelChartSourceFormatting",
+    "imageAsset": "images/by-hash/472cd15540f4b8ca.png"
+  },
+  {
+    "name": "PasteLinkedExcelTableSourceFormatting",
+    "imageAsset": "images/by-hash/472cd15540f4b8ca.png"
+  },
+  {
+    "name": "PasteSourceFormatting",
+    "imageAsset": "images/by-hash/e148546483e598d2.png"
+  },
+  {
+    "name": "PasteTableWithSourceFormatting",
+    "imageAsset": "images/by-hash/44aa1f29309e4312.png"
+  },
+  {
+    "name": "PasteValuesAndSourceFormatting",
+    "imageAsset": "images/by-hash/a73c06fe29299491.png"
+  },
+  {
+    "name": "FormattingMarkDropDown",
+    "imageAsset": "images/by-hash/e4d6825178600211.png"
+  },
+  {
+    "name": "PasteSourceTheme",
+    "imageAsset": "images/by-hash/e148546483e598d2.png"
+  },
+  {
+    "name": "PasteDestinationFormatting",
+    "imageAsset": "images/by-hash/6007443628c8ca1e.png"
+  },
+  {
+    "name": "PasteFormatting",
+    "imageAsset": "images/by-hash/f681a25e2f898e41.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ViewCustomViews",
+    "imageAsset": "images/by-hash/881a414dd02984aa.png"
+  },
+  {
+    "name": "GroupBusinessDataSourceViews",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "GroupDocumentViews",
+    "imageAsset": "images/by-hash/592601d3eae5f5bc.png"
+  },
+  {
+    "name": "GroupDocumentViewsVisio",
+    "imageAsset": "images/by-hash/592601d3eae5f5bc.png"
+  },
+  {
+    "name": "GroupListViewsActions",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "GroupListViewsEdit",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "GroupListViewsManage",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "GroupListViewsNew",
+    "imageAsset": "images/by-hash/33c8623ce482a3d2.png"
+  },
+  {
+    "name": "GroupMasterViews",
+    "imageAsset": "images/by-hash/592601d3eae5f5bc.png"
+  },
+  {
+    "name": "GroupPageViews",
+    "imageAsset": "images/by-hash/4922e4070e03f44e.png"
+  },
+  {
+    "name": "GroupPresentationViews",
+    "imageAsset": "images/by-hash/592601d3eae5f5bc.png"
+  },
+  {
+    "name": "GroupPublicationViews",
+    "imageAsset": "images/by-hash/6644438184825ba8.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JumpsAddToHorizontalLines",
+    "imageAsset": "images/by-hash/78e259cccdea5789.png"
+  },
+  {
+    "name": "JumpsAddToNoLines",
+    "imageAsset": "images/by-hash/01cf08c2bfaa9b6e.png"
+  },
+  {
+    "name": "JumpsAddTo",
+    "imageAsset": "images/by-hash/78e259cccdea5789.png"
+  },
+  {
+    "name": "JumpsAddToFirstLine",
+    "imageAsset": "images/by-hash/4651c7dc603576eb.png"
+  },
+  {
+    "name": "JumpsAddToLastLine",
+    "imageAsset": "images/by-hash/8d725884012d9cce.png"
+  },
+  {
+    "name": "JumpsAddToRoutedLine",
+    "imageAsset": "images/by-hash/916e290ac0321436.png"
+  },
+  {
+    "name": "AddVerticalGuide",
+    "imageAsset": "images/by-hash/770c3126573549c1.png"
+  },
+  {
+    "name": "ChartFormatDropLines",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartFormatLeaderLines",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartLines",
+    "imageAsset": "images/by-hash/89c41117d6409be5.png"
+  },
+  {
+    "name": "ConnectorCurvedLines",
+    "imageAsset": "images/by-hash/3752d4301ce9294c.png"
+  },
+  {
+    "name": "ConnectorStraightLines",
+    "imageAsset": "images/by-hash/1486805d920ad3d9.png"
+  }
+]

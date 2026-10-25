@@ -1,0 +1,50 @@
+[
+  {
+    "name": "StopRtlDown",
+    "imageAsset": "images/by-hash/5c3d925427fe2363.png"
+  },
+  {
+    "name": "TableDivideDownRTL",
+    "imageAsset": "images/by-hash/cc5877255b2f193f.png"
+  },
+  {
+    "name": "GoRtl",
+    "imageAsset": "images/by-hash/795585269d9eb56a.png"
+  },
+  {
+    "name": "GoRtlFocus",
+    "imageAsset": "images/by-hash/d4eadcf47e48136a.png"
+  },
+  {
+    "name": "GoRtlHover",
+    "imageAsset": "images/by-hash/c8c9a4a8dee4e65b.png"
+  },
+  {
+    "name": "GoLtrDown",
+    "imageAsset": "images/by-hash/ed537679509c0135.png"
+  },
+  {
+    "name": "IndentRTL",
+    "imageAsset": "images/by-hash/56efc8f6433832b6.png"
+  },
+  {
+    "name": "JotConvertToBodyTextRTL",
+    "imageAsset": "images/by-hash/23674351039cc240.png"
+  },
+  {
+    "name": "JotNavUIFindRTL",
+    "imageAsset": "images/by-hash/795585269d9eb56a.png"
+  },
+  {
+    "name": "OutdentRTL",
+    "imageAsset": "images/by-hash/25d016828ed08365.png"
+  },
+  {
+    "name": "ReadingNextPageRtl",
+    "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+  },
+  {
+    "name": "ReadingPrevPageRtl",
+    "imageAsset": "images/by-hash/0f42881fbb368916.png"
+  }
+]

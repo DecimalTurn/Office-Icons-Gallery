@@ -1,0 +1,34 @@
+[
+  {
+    "name": "AudioNoteDelete",
+    "imageAsset": "images/by-hash/3909ecc087b3166e.png"
+  },
+  {
+    "name": "DeleteColumnsOneNote",
+    "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+  },
+  {
+    "name": "DeleteRowsOneNote",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "DeleteTableOneNote",
+    "imageAsset": "images/by-hash/c268ed86a77d2091.png"
+  },
+  {
+    "name": "MeetingsToolAppointmentDeleteNote",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "NoteLinkDelete",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "NoteLinkDeleteGallery",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "NoteLinksDeleteAll",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  }
+]

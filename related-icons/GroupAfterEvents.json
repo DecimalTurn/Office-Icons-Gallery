@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AccessListEvents",
+    "imageAsset": "images/by-hash/626c2aeba4a1fc7f.png"
+  },
+  {
+    "name": "AccessTableEvents",
+    "imageAsset": "images/by-hash/9c35d277a17c29f6.png"
+  },
+  {
+    "name": "GroupBeforeEvents",
+    "imageAsset": "images/by-hash/5f2892e11b522506.png"
+  },
+  {
+    "name": "GroupCodeEventsBasic",
+    "imageAsset": "images/by-hash/69582c3f940b47be.png"
+  },
+  {
+    "name": "GroupCodeEventsControls",
+    "imageAsset": "images/by-hash/828e97e4441434cb.png"
+  },
+  {
+    "name": "GroupEventsDesignSql",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "GroupFieldAndTableEvents",
+    "imageAsset": "images/by-hash/35d9002c8659d82c.png"
+  },
+  {
+    "name": "GroupFieldAndTableEventsDesign",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "PersistentEvents",
+    "imageAsset": "images/by-hash/28bd0f887f0c23de.png"
+  },
+  {
+    "name": "ShowAllEventsMacros",
+    "imageAsset": "images/by-hash/c394781e89fc44fc.png"
+  },
+  {
+    "name": "UMLEvents",
+    "imageAsset": "images/by-hash/b62426a37b8cc53f.png"
+  },
+  {
+    "name": "AfterDelete",
+    "imageAsset": "images/by-hash/e8cb3d2b181b016d.png"
+  }
+]

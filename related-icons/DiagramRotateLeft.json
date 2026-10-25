@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ChessToolRotateLeft",
+    "imageAsset": "images/by-hash/65c1b10f192ddd9b.png"
+  },
+  {
+    "name": "ObjectRotateLeft90",
+    "imageAsset": "images/by-hash/65c1b10f192ddd9b.png"
+  },
+  {
+    "name": "RotateLeft2",
+    "imageAsset": "images/by-hash/65c1b10f192ddd9b.png"
+  },
+  {
+    "name": "RotateLeft45OneNote",
+    "imageAsset": "images/by-hash/6eea7fe7f1fb4277.png"
+  },
+  {
+    "name": "DiagramRotateRight",
+    "imageAsset": "images/by-hash/582d5eff99286d80.png"
+  },
+  {
+    "name": "PivotDiagramAlignLeft",
+    "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+  },
+  {
+    "name": "PivotDiagramLeftToRight",
+    "imageAsset": "images/by-hash/aecaa713bb24966e.png"
+  },
+  {
+    "name": "PivotDiagramMoveLeft",
+    "imageAsset": "images/by-hash/1816c21da026fa8e.png"
+  },
+  {
+    "name": "PivotDiagramRightToLeft",
+    "imageAsset": "images/by-hash/c4bfb06448aa6537.png"
+  },
+  {
+    "name": "ChessToolRotateRight",
+    "imageAsset": "images/by-hash/2be74a485b86b3c5.png"
+  },
+  {
+    "name": "CrossFunctionalFlowchartRotateLaneLabel",
+    "imageAsset": "images/by-hash/96f10ff6e106a8a4.png"
+  },
+  {
+    "name": "Drawing1GalleryRotateObject",
+    "imageAsset": "images/by-hash/2be74a485b86b3c5.png"
+  }
+]

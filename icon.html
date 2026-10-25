@@ -133,14 +133,24 @@
         smallIconImage.alt = iconName;
         copyButton.disabled = false;
         copyIdButton.disabled = false;
-        fetch("./icon-metadata.json")
-          .then((response) => {
+        Promise.all([
+          fetch("./icon-metadata.json").then((response) => {
             if (!response.ok) {
               throw new Error("Could not load icon metadata");
             }
             return response.json();
+          }),
+          fetch(`./related-icons/${encodeURIComponent(iconName)}.json`).then((response) => {
+            if (response.status === 404) {
+              return [];
+            }
+            if (!response.ok) {
+              throw new Error("Could not load related icons");
+            }
+            return response.json();
           })
-          .then((metadata) => {
+        ])
+          .then(([metadata, relatedIcons]) => {
             const icon = metadata.find((entry) => entry.name === iconName);
             iconKeywords.replaceChildren(...(icon?.keywords || []).map((keyword) => {
               const item = document.createElement("li");
@@ -156,9 +166,6 @@
             }
 
             const metadataByName = new Map(metadata.map((entry) => [entry.name, entry]));
-            const relatedIcons = (icon?.relatedIcons || [])
-              .map((name) => metadataByName.get(name))
-              .filter(Boolean);
             if (relatedIcons.length > 0) {
               const relatedItems = relatedIcons.map((relatedIcon) => {
                 const item = document.createElement("li");

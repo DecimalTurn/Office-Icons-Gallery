@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ReviewCompareLastVersion",
+    "imageAsset": "images/by-hash/b8cfe4606c311f5e.png"
+  },
+  {
+    "name": "ReviewCompareMajorVersion",
+    "imageAsset": "images/by-hash/ceac849c65095193.png"
+  },
+  {
+    "name": "GroupReviewCompare",
+    "imageAsset": "images/by-hash/747289478e8b2199.png"
+  },
+  {
+    "name": "ReviewCompareAndMerge",
+    "imageAsset": "images/by-hash/747289478e8b2199.png"
+  },
+  {
+    "name": "ReviewCompareMenu",
+    "imageAsset": "images/by-hash/747289478e8b2199.png"
+  },
+  {
+    "name": "ReviewCompareTwoVersions",
+    "imageAsset": "images/by-hash/a3d43843c96022a2.png"
+  },
+  {
+    "name": "OpenSpecificFile",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "OpenSpecificFileWith",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "SqlSpecificMenu2",
+    "imageAsset": "images/by-hash/be8b396575b83741.png"
+  },
+  {
+    "name": "DeletePagePreviousVersion",
+    "imageAsset": "images/by-hash/1921c3efdc66749a.png"
+  },
+  {
+    "name": "FileVersionHistory",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  },
+  {
+    "name": "FileVersionHistoryWord",
+    "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+  }
+]

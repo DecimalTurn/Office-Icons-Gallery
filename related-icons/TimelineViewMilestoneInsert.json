@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupTimelineMilestone",
+    "imageAsset": "images/by-hash/f906e2c9c1411cd9.png"
+  },
+  {
+    "name": "TimelineMilestoneConfigure",
+    "imageAsset": "images/by-hash/f906e2c9c1411cd9.png"
+  },
+  {
+    "name": "TimelineMilestoneSync",
+    "imageAsset": "images/by-hash/af10a7c4f02b7851.png"
+  },
+  {
+    "name": "MilestoneInsert",
+    "imageAsset": "images/by-hash/902e90fa813c150c.png"
+  },
+  {
+    "name": "AddExistingTasksToTimeline",
+    "imageAsset": "images/by-hash/2128fa0a06829f22.png"
+  },
+  {
+    "name": "GroupSwitchTimeline",
+    "imageAsset": "images/by-hash/72b4b05dbce825cc.png"
+  },
+  {
+    "name": "GroupTimelineCopy",
+    "imageAsset": "images/by-hash/32ebe58844eba5fd.png"
+  },
+  {
+    "name": "GroupTimelineInterval",
+    "imageAsset": "images/by-hash/8363ed52d3ee7f0b.png"
+  },
+  {
+    "name": "GroupTimelineStyles",
+    "imageAsset": "images/by-hash/da7ea7478bb82308.png"
+  },
+  {
+    "name": "GroupTimelineTimeline",
+    "imageAsset": "images/by-hash/ada430fa6be478a9.png"
+  },
+  {
+    "name": "GroupTimelineViewCurrentSelection",
+    "imageAsset": "images/by-hash/ce6214ad3639071a.png"
+  },
+  {
+    "name": "GroupTimelineViewInsert",
+    "imageAsset": "images/by-hash/a7b612b49586b2ee.png"
+  }
+]

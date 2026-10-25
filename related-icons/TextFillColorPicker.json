@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CellFillColorPicker",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "ColorPickerCommentFill",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "FontAlternateFillBackColorPicker",
+    "imageAsset": "images/by-hash/123a710986a11765.png"
+  },
+  {
+    "name": "FontFillBackColorPicker",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "ShapeFillColorPicker",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "ShapeFillColorPickerClassic",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "TableFillColorPicker",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "_3DEffectColorPickerClassic",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "BorderColorPicker",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "BorderColorPickerExcel",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "ColorPickerCalendar",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "ColorPickerTable",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  }
+]

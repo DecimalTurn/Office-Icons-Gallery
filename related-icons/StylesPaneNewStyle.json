@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ApplyStylesPane",
+    "imageAsset": "images/by-hash/f8c95179d0041093.png"
+  },
+  {
+    "name": "ManageStylesTaskPane",
+    "imageAsset": "images/by-hash/e9f425b082fffea3.png"
+  },
+  {
+    "name": "StylesPane",
+    "imageAsset": "images/by-hash/b137ee0e9904d18c.png"
+  },
+  {
+    "name": "StylesModifyStyle",
+    "imageAsset": "images/by-hash/4bcd5bd3d89520db.png"
+  },
+  {
+    "name": "StylesStyleInspector",
+    "imageAsset": "images/by-hash/696f8cf4c9d30272.png"
+  },
+  {
+    "name": "StylesStyleSeparator",
+    "imageAsset": "images/by-hash/53e7d016ba4ae8ea.png"
+  },
+  {
+    "name": "StylesStyleVisibility",
+    "imageAsset": "images/by-hash/d9d9273e665f2cba.png"
+  }
+]

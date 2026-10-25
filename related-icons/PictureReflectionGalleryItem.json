@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PictureReflectionGallery",
+    "imageAsset": "images/by-hash/557805e0b24dcadf.png"
+  },
+  {
+    "name": "ReflectionGallery",
+    "imageAsset": "images/by-hash/2a0aaa33a0ed1678.png"
+  },
+  {
+    "name": "TextReflectionGallery",
+    "imageAsset": "images/by-hash/06b3950f4a177531.png"
+  },
+  {
+    "name": "AttachItem",
+    "imageAsset": "images/by-hash/5551d7c978f81380.png"
+  },
+  {
+    "name": "AttachItemCombo",
+    "imageAsset": "images/by-hash/5551d7c978f81380.png"
+  },
+  {
+    "name": "CalendarNewItemMenu",
+    "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+  },
+  {
+    "name": "ContactsNewItemMenu",
+    "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+  },
+  {
+    "name": "DataGraphicEditItem",
+    "imageAsset": "images/by-hash/06f118889f6f6c9d.png"
+  },
+  {
+    "name": "DataGraphicNewItem",
+    "imageAsset": "images/by-hash/1226ce38a6432660.png"
+  },
+  {
+    "name": "DeleteItem",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "DeleteItemInLaunchbar",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "EditItem",
+    "imageAsset": "images/by-hash/ffc17504b6a8e2c4.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "EnvelopeChineseDialog",
+    "imageAsset": "images/by-hash/566385f8a2e31032.png"
+  },
+  {
+    "name": "EnvelopeSendAllPages",
+    "imageAsset": "images/by-hash/e0cc6d34c73b1b24.png"
+  },
+  {
+    "name": "GroupEnvelopeLabelCreate",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  },
+  {
+    "name": "ShowEnvelope",
+    "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+  },
+  {
+    "name": "ConditionIsNotEmail",
+    "imageAsset": "images/by-hash/96132f9b290fa0d3.png"
+  },
+  {
+    "name": "ContactCardDefaultSendEmail",
+    "imageAsset": "images/by-hash/676a2358a8eb6d14.png"
+  },
+  {
+    "name": "ContactCardReplyAllEmail",
+    "imageAsset": "images/by-hash/7b3a0741c95874c2.png"
+  },
+  {
+    "name": "ContactCardSendEmail",
+    "imageAsset": "images/by-hash/676a2358a8eb6d14.png"
+  },
+  {
+    "name": "CreateEmail",
+    "imageAsset": "images/by-hash/3cc7df20671c351b.png"
+  },
+  {
+    "name": "DataSubmitToEmail",
+    "imageAsset": "images/by-hash/7958bac25e511fe7.png"
+  },
+  {
+    "name": "EmailFormCollectionFolder",
+    "imageAsset": "images/by-hash/a3ae5786d899a4ac.png"
+  },
+  {
+    "name": "EmailFormTagMessage",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  }
+]

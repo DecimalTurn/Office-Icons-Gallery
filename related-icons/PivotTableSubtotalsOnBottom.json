@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PivotTableLayoutSubtotals",
+    "imageAsset": "images/by-hash/1d45910b273cc3d8.png"
+  },
+  {
+    "name": "PivotTableSubtotalsDoNotShow",
+    "imageAsset": "images/by-hash/90d4275591f12576.png"
+  },
+  {
+    "name": "PivotTableSubtotalsOnTop",
+    "imageAsset": "images/by-hash/10117bd7c5d17a59.png"
+  },
+  {
+    "name": "PivotDiagramAlignBottom",
+    "imageAsset": "images/by-hash/41b181deaed7563e.png"
+  },
+  {
+    "name": "PivotDiagramBottomToTop",
+    "imageAsset": "images/by-hash/d1cbb528c2e34a2c.png"
+  },
+  {
+    "name": "PivotDiagramTopToBottom",
+    "imageAsset": "images/by-hash/c208912ec62178ed.png"
+  },
+  {
+    "name": "PivotShowOnlyTheBottomMenu",
+    "imageAsset": "images/by-hash/04f960c083da66e2.png"
+  },
+  {
+    "name": "PivotShowTopAndBottomItemsMenu",
+    "imageAsset": "images/by-hash/10ff82f1292ff12f.png"
+  },
+  {
+    "name": "OutlineSubtotals",
+    "imageAsset": "images/by-hash/74ac43a439baf4ce.png"
+  },
+  {
+    "name": "AlignBottomExcel",
+    "imageAsset": "images/by-hash/4b6fbf0f99c0e63a.png"
+  },
+  {
+    "name": "BorderBottom",
+    "imageAsset": "images/by-hash/55ed253243346cfc.png"
+  },
+  {
+    "name": "BorderBottomNoToggle",
+    "imageAsset": "images/by-hash/55ed253243346cfc.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JotAudioNotesButtonMenu",
+    "imageAsset": "images/by-hash/e48376b597da74a6.png"
+  },
+  {
+    "name": "JotNoteTagPaneButton",
+    "imageAsset": "images/by-hash/e3b544f4be322600.png"
+  },
+  {
+    "name": "JotApplyBulletItem1",
+    "imageAsset": "images/by-hash/3b64db7773991543.png"
+  },
+  {
+    "name": "JotApplyBulletItem2",
+    "imageAsset": "images/by-hash/3b64db7773991543.png"
+  },
+  {
+    "name": "JotApplyBulletItem3",
+    "imageAsset": "images/by-hash/3b64db7773991543.png"
+  },
+  {
+    "name": "JotApplyBulletItem4",
+    "imageAsset": "images/by-hash/3b64db7773991543.png"
+  },
+  {
+    "name": "JotApplyBulletItem5",
+    "imageAsset": "images/by-hash/3b64db7773991543.png"
+  },
+  {
+    "name": "JotCreateOutlookTask",
+    "imageAsset": "images/by-hash/685d08ad2b856414.png"
+  },
+  {
+    "name": "JotOutlookTaskLabel",
+    "imageAsset": "images/by-hash/685d08ad2b856414.png"
+  },
+  {
+    "name": "ActiveXButton",
+    "imageAsset": "images/by-hash/965d899ec226e108.png"
+  },
+  {
+    "name": "ActiveXRadioButton",
+    "imageAsset": "images/by-hash/1d4e488ea50d958c.png"
+  },
+  {
+    "name": "ActiveXSpinButton",
+    "imageAsset": "images/by-hash/ad584763f0010d33.png"
+  }
+]

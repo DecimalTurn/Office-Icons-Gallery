@@ -1,0 +1,50 @@
+[
+  {
+    "name": "RulesManageAndCreate",
+    "imageAsset": "images/by-hash/b980d48b0d21d0d9.png"
+  },
+  {
+    "name": "AddRulesMenu",
+    "imageAsset": "images/by-hash/314b2e53c7d79c39.png"
+  },
+  {
+    "name": "ControlPropertyRulesAction",
+    "imageAsset": "images/by-hash/314b2e53c7d79c39.png"
+  },
+  {
+    "name": "CopyAllNodeRules",
+    "imageAsset": "images/by-hash/b5323b82067ee9cc.png"
+  },
+  {
+    "name": "CopyAllRules",
+    "imageAsset": "images/by-hash/b5323b82067ee9cc.png"
+  },
+  {
+    "name": "GroupRules",
+    "imageAsset": "images/by-hash/314b2e53c7d79c39.png"
+  },
+  {
+    "name": "GroupRulesMore",
+    "imageAsset": "images/by-hash/314b2e53c7d79c39.png"
+  },
+  {
+    "name": "MailMergeRules",
+    "imageAsset": "images/by-hash/5507760939c13815.png"
+  },
+  {
+    "name": "PasteAllNodeRules",
+    "imageAsset": "images/by-hash/1c8a29f738e4c4d6.png"
+  },
+  {
+    "name": "PasteAllRules",
+    "imageAsset": "images/by-hash/1c8a29f738e4c4d6.png"
+  },
+  {
+    "name": "RulesAndAlerts",
+    "imageAsset": "images/by-hash/1c2f5e41a9be79c6.png"
+  },
+  {
+    "name": "RulesButtonNoConditionGallery",
+    "imageAsset": "images/by-hash/18727ad7d7978e12.png"
+  }
+]

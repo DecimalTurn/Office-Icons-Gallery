@@ -1,0 +1,18 @@
+[
+  {
+    "name": "AudioFadeInTime",
+    "imageAsset": "images/by-hash/98ded0db3abf56e4.png"
+  },
+  {
+    "name": "AudioFadeOutTime",
+    "imageAsset": "images/by-hash/d6721e5b45ce0e97.png"
+  },
+  {
+    "name": "VideoFadeInTime",
+    "imageAsset": "images/by-hash/54786ada304dd00a.png"
+  },
+  {
+    "name": "VideoFadeOutTime",
+    "imageAsset": "images/by-hash/f16f798395875249.png"
+  }
+]

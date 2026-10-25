@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ObjectsAlignLeftOutlook",
+    "imageAsset": "images/by-hash/6681fe487d168071.png"
+  },
+  {
+    "name": "ObjectsAlignLeftSmart",
+    "imageAsset": "images/by-hash/6681fe487d168071.png"
+  },
+  {
+    "name": "ObjectsAlignBottom",
+    "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+  },
+  {
+    "name": "ObjectsAlignBottomOutlook",
+    "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+  },
+  {
+    "name": "ObjectsAlignBottomSmart",
+    "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+  },
+  {
+    "name": "ObjectsAlignCenterHorizontal",
+    "imageAsset": "images/by-hash/1d17157034356b58.png"
+  },
+  {
+    "name": "ObjectsAlignCenterHorizontalOutlook",
+    "imageAsset": "images/by-hash/1d17157034356b58.png"
+  },
+  {
+    "name": "ObjectsAlignCenterHorizontalSmart",
+    "imageAsset": "images/by-hash/1d17157034356b58.png"
+  },
+  {
+    "name": "ObjectsAlignCenterInFormHorixontally",
+    "imageAsset": "images/by-hash/5cb3a2d891c59971.png"
+  },
+  {
+    "name": "ObjectsAlignCenterInFormVertically",
+    "imageAsset": "images/by-hash/5eeaa4fc80213811.png"
+  },
+  {
+    "name": "ObjectsAlignDistributeHorizontallyRemove",
+    "imageAsset": "images/by-hash/1c0c58008cee41b3.png"
+  },
+  {
+    "name": "ObjectsAlignDistributeVerticallyRemove",
+    "imageAsset": "images/by-hash/2843e10cff3a10e3.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupOmsSend",
+    "imageAsset": "images/by-hash/7432f97e3bc97d1d.png"
+  },
+  {
+    "name": "OmsSend",
+    "imageAsset": "images/by-hash/7432f97e3bc97d1d.png"
+  },
+  {
+    "name": "OmsAudioFromFile",
+    "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+  },
+  {
+    "name": "OmsImageFromFile",
+    "imageAsset": "images/by-hash/a3c1694aead52859.png"
+  },
+  {
+    "name": "FileMenuSendHeader",
+    "imageAsset": "images/by-hash/17e648f52c2a4500.png"
+  },
+  {
+    "name": "FileSendAsAttachment",
+    "imageAsset": "images/by-hash/5551d7c978f81380.png"
+  },
+  {
+    "name": "FileSendMenu",
+    "imageAsset": "images/by-hash/17e648f52c2a4500.png"
+  },
+  {
+    "name": "FileSendToPowerPoint",
+    "imageAsset": "images/by-hash/5ba3effcbc766f9e.png"
+  },
+  {
+    "name": "GroupOmsInsert",
+    "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+  },
+  {
+    "name": "GroupOmsMessageOptions",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "GroupOmsView",
+    "imageAsset": "images/by-hash/212d13be56c4f382.png"
+  },
+  {
+    "name": "OmsAccountSetup",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  }
+]

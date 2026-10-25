@@ -1,0 +1,42 @@
+[
+  {
+    "name": "GroupReportLayoutWebAccess",
+    "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+  },
+  {
+    "name": "GroupAccessReportLayout",
+    "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+  },
+  {
+    "name": "GroupLayoutAccess",
+    "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+  },
+  {
+    "name": "GroupPageLayoutAccess",
+    "imageAsset": "images/by-hash/fc276fb850114877.png"
+  },
+  {
+    "name": "AccessFormModalDialogWeb",
+    "imageAsset": "images/by-hash/b2bff7bb772c34d4.png"
+  },
+  {
+    "name": "ProjectWebAccessProjectDetails",
+    "imageAsset": "images/by-hash/9c4565b4b1ca68aa.png"
+  },
+  {
+    "name": "WebQueryAccess",
+    "imageAsset": "images/by-hash/4e9a6401895d4655.png"
+  },
+  {
+    "name": "GroupWebPartZoneLayout",
+    "imageAsset": "images/by-hash/9f594486e0e71fcd.png"
+  },
+  {
+    "name": "ViewWebLayoutView",
+    "imageAsset": "images/by-hash/c173b33f521beaba.png"
+  },
+  {
+    "name": "WebPartZoneLayoutMenu",
+    "imageAsset": "images/by-hash/9f594486e0e71fcd.png"
+  }
+]

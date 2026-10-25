@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ShareCalendarFolder",
+    "imageAsset": "images/by-hash/8db446fcf66f5604.png"
+  },
+  {
+    "name": "ShareContactsFolder",
+    "imageAsset": "images/by-hash/d18a1653eb9dba65.png"
+  },
+  {
+    "name": "ShareJournalFolder",
+    "imageAsset": "images/by-hash/e807794a9201c794.png"
+  },
+  {
+    "name": "ShareMailFolder",
+    "imageAsset": "images/by-hash/cebb6d36cf27c851.png"
+  },
+  {
+    "name": "ShareNotesFolder",
+    "imageAsset": "images/by-hash/2975414bd54b0366.png"
+  },
+  {
+    "name": "SharingOpenTaskFolder",
+    "imageAsset": "images/by-hash/685d08ad2b856414.png"
+  },
+  {
+    "name": "SaveToSharePointTask",
+    "imageAsset": "images/by-hash/e538b715a1b0d721.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TaskInspect",
+    "imageAsset": "images/by-hash/a00416991defdc32.png"
+  },
+  {
+    "name": "JotOutlookTaskLabel",
+    "imageAsset": "images/by-hash/685d08ad2b856414.png"
+  },
+  {
+    "name": "FileDocumentInspect",
+    "imageAsset": "images/by-hash/5c22f2766b510564.png"
+  },
+  {
+    "name": "InspectTasksMenu",
+    "imageAsset": "images/by-hash/a00416991defdc32.png"
+  },
+  {
+    "name": "ActiveXLabel",
+    "imageAsset": "images/by-hash/facb4b355bd224b5.png"
+  },
+  {
+    "name": "AdpDiagramNewLabel",
+    "imageAsset": "images/by-hash/1819d9833fe56cf4.png"
+  },
+  {
+    "name": "ChartChangeDataLabelShapeGallery",
+    "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+  },
+  {
+    "name": "ChartChangeDataLabelShapesGallery",
+    "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+  },
+  {
+    "name": "ChartDataLabel",
+    "imageAsset": "images/by-hash/9238f4a9d7a48e9e.png"
+  },
+  {
+    "name": "ChartFormatDataLabel",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartFormatTrendlineLabel",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "ChartlibAddRemoveDataLabelCallout",
+    "imageAsset": "images/by-hash/9a51ae1cf080f85e.png"
+  }
+]

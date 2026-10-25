@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupSiteSummaryManage",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "GroupContentTypeSummaryEdit",
+    "imageAsset": "images/by-hash/53f035b400396894.png"
+  },
+  {
+    "name": "GroupListsSummaryEdit",
+    "imageAsset": "images/by-hash/1447278bbaf5d3c6.png"
+  },
+  {
+    "name": "GroupMeetingsToolAppointmentEditSummary",
+    "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+  },
+  {
+    "name": "GroupPageSummaryEdit",
+    "imageAsset": "images/by-hash/90f5920b899619e8.png"
+  },
+  {
+    "name": "GroupSummaryEdit",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "GroupWorkflowSummaryEdit",
+    "imageAsset": "images/by-hash/149f3b0cae9e185f.png"
+  },
+  {
+    "name": "GroupWorkflowTaskSummaryEdit",
+    "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+  },
+  {
+    "name": "GroupSiteAssetsEdit",
+    "imageAsset": "images/by-hash/90f5920b899619e8.png"
+  },
+  {
+    "name": "GroupSitePermissionsEdit",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "GroupSiteSubsitesEdit",
+    "imageAsset": "images/by-hash/e05fd11001f86d90.png"
+  },
+  {
+    "name": "AutoSummaryResummarize",
+    "imageAsset": "images/by-hash/61c99640ab898dcc.png"
+  }
+]

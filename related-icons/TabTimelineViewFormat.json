@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TabTeamPlannerFormat",
+    "imageAsset": "images/by-hash/e9bcf20071fd7d28.png"
+  },
+  {
+    "name": "TimelineDateFormat",
+    "imageAsset": "images/by-hash/9cb11ab9dbbccc45.png"
+  },
+  {
+    "name": "ControlTabControl",
+    "imageAsset": "images/by-hash/d36bc6f2ef4d3e35.png"
+  },
+  {
+    "name": "GroupIncludeMainTab",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  },
+  {
+    "name": "GroupM1FutureSearchContextualTab",
+    "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+  },
+  {
+    "name": "InsertAlignmentTab",
+    "imageAsset": "images/by-hash/d150b160fa2e1d40.png"
+  },
+  {
+    "name": "SheetTabColorMoreColorsDialog",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "TabHelp",
+    "imageAsset": "images/by-hash/2cb8cfb3c6a0f08f.png"
+  },
+  {
+    "name": "TabInfo",
+    "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+  },
+  {
+    "name": "TabListToolRichText",
+    "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+  },
+  {
+    "name": "TabOrder",
+    "imageAsset": "images/by-hash/665908ffddbebe22.png"
+  },
+  {
+    "name": "TabPrint",
+    "imageAsset": "images/by-hash/9851f75ba5d983b7.png"
+  }
+]

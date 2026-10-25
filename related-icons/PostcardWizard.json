@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JapanesePostcardCreateAddressSide",
+    "imageAsset": "images/by-hash/7bc0d89aa4baf964.png"
+  },
+  {
+    "name": "JapanesePostcardCreateLetterSide",
+    "imageAsset": "images/by-hash/4cd2ac6eeb060b18.png"
+  },
+  {
+    "name": "JapanesePostcardDialog",
+    "imageAsset": "images/by-hash/66e07a44761b804d.png"
+  },
+  {
+    "name": "JapanesePostcardMenu",
+    "imageAsset": "images/by-hash/66e07a44761b804d.png"
+  },
+  {
+    "name": "AccessFormWizard",
+    "imageAsset": "images/by-hash/e66e4f9a48e1e90f.png"
+  },
+  {
+    "name": "AutoFormatWizard",
+    "imageAsset": "images/by-hash/e1c785943851c579.png"
+  },
+  {
+    "name": "BusinessFormWizard",
+    "imageAsset": "images/by-hash/ff2b8b263256718d.png"
+  },
+  {
+    "name": "CreateQueryFromWizard",
+    "imageAsset": "images/by-hash/b674448c3a22d477.png"
+  },
+  {
+    "name": "CreateReportFromWizard",
+    "imageAsset": "images/by-hash/5c00f5fe6e818d5a.png"
+  },
+  {
+    "name": "DatabaseUserLevelSecurityWizard",
+    "imageAsset": "images/by-hash/2b78127422e675d2.png"
+  },
+  {
+    "name": "EmailMergeWizard",
+    "imageAsset": "images/by-hash/eeb096887d505037.png"
+  },
+  {
+    "name": "FunctionWizard",
+    "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+  }
+]

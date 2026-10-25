@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JotApplyBulletItem1",
+    "imageAsset": "images/by-hash/3b64db7773991543.png"
+  },
+  {
+    "name": "JotApplyBulletItem2",
+    "imageAsset": "images/by-hash/3b64db7773991543.png"
+  },
+  {
+    "name": "JotApplyBulletItem3",
+    "imageAsset": "images/by-hash/3b64db7773991543.png"
+  },
+  {
+    "name": "JotApplyBulletItem4",
+    "imageAsset": "images/by-hash/3b64db7773991543.png"
+  },
+  {
+    "name": "JotApplyBulletItem5",
+    "imageAsset": "images/by-hash/3b64db7773991543.png"
+  },
+  {
+    "name": "SmartArtAddBullet",
+    "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+  },
+  {
+    "name": "SmartArtInsertBulletRTL",
+    "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+  },
+  {
+    "name": "ContactCardDefaultPhoneCall",
+    "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+  },
+  {
+    "name": "ContactCardDefaultSendEmail",
+    "imageAsset": "images/by-hash/676a2358a8eb6d14.png"
+  },
+  {
+    "name": "ContactCardDefaultSendInstantMessage",
+    "imageAsset": "images/by-hash/09795bc87c775160.png"
+  },
+  {
+    "name": "ControlPropertyDefaultValue",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "DefaultPivotTable",
+    "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+  }
+]

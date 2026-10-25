@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CreateAccessSqlQuery",
+    "imageAsset": "images/by-hash/b674448c3a22d477.png"
+  },
+  {
+    "name": "GroupCreateSqlQuery",
+    "imageAsset": "images/by-hash/e8ffa00f6655dab8.png"
+  },
+  {
+    "name": "GroupSqlQuerySetup",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "SQLBackendQuery",
+    "imageAsset": "images/by-hash/4e9a6401895d4655.png"
+  },
+  {
+    "name": "TextWrappingThrough",
+    "imageAsset": "images/by-hash/2442e7012f64003e.png"
+  },
+  {
+    "name": "AdpStoredProcedureEditSql",
+    "imageAsset": "images/by-hash/f00cbc1074580c04.png"
+  },
+  {
+    "name": "AdpVerifySqlSyntax",
+    "imageAsset": "images/by-hash/3da4d8e7b632430f.png"
+  },
+  {
+    "name": "AdpViewSqlPane",
+    "imageAsset": "images/by-hash/273c8beb2dd626cd.png"
+  },
+  {
+    "name": "AfterDeleteSql",
+    "imageAsset": "images/by-hash/e8cb3d2b181b016d.png"
+  },
+  {
+    "name": "AfterInsertSql",
+    "imageAsset": "images/by-hash/bf04b878fe675d39.png"
+  },
+  {
+    "name": "AfterUpdateSql",
+    "imageAsset": "images/by-hash/ab0cc1b7f6e7a269.png"
+  },
+  {
+    "name": "DatabaseSqlServer",
+    "imageAsset": "images/by-hash/3f3bce757b8b81a7.png"
+  }
+]

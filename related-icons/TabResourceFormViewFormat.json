@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TabTeamPlannerFormat",
+    "imageAsset": "images/by-hash/e9bcf20071fd7d28.png"
+  },
+  {
+    "name": "GroupResourceGraphFormat",
+    "imageAsset": "images/by-hash/df2710e93a68f49a.png"
+  },
+  {
+    "name": "ResourceGraphBarStylesFormat",
+    "imageAsset": "images/by-hash/df2710e93a68f49a.png"
+  },
+  {
+    "name": "GroupResourceFormViewDetails",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "GroupResourceFormViewType",
+    "imageAsset": "images/by-hash/ddd38791ce7383ff.png"
+  },
+  {
+    "name": "ResourceFormView",
+    "imageAsset": "images/by-hash/ddd38791ce7383ff.png"
+  },
+  {
+    "name": "ResourceNameFormView",
+    "imageAsset": "images/by-hash/3a8ea4e54f596693.png"
+  },
+  {
+    "name": "FormatAsLinkToDisplayForm",
+    "imageAsset": "images/by-hash/865804e56ae0c5fc.png"
+  },
+  {
+    "name": "FormatAsLinkToEditForm",
+    "imageAsset": "images/by-hash/a8d97aa7547b2e9e.png"
+  },
+  {
+    "name": "ControlTabControl",
+    "imageAsset": "images/by-hash/d36bc6f2ef4d3e35.png"
+  },
+  {
+    "name": "GroupIncludeMainTab",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  },
+  {
+    "name": "GroupM1FutureSearchContextualTab",
+    "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+  }
+]

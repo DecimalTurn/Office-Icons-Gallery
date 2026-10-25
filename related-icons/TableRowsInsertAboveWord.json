@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TableInsertRowsAbove",
+    "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+  },
+  {
+    "name": "TableRowsInsertAboveExcel",
+    "imageAsset": "images/by-hash/3e943841f6dd6774.png"
+  },
+  {
+    "name": "WordCloseParaAbove",
+    "imageAsset": "images/by-hash/e47941023b3a101b.png"
+  },
+  {
+    "name": "WordOpenParaAbove",
+    "imageAsset": "images/by-hash/64cbc56ebe9e8277.png"
+  },
+  {
+    "name": "TableDeleteRowsAndColumnsMenuWord",
+    "imageAsset": "images/by-hash/c268ed86a77d2091.png"
+  },
+  {
+    "name": "TableRowsInsertBelowWord",
+    "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+  },
+  {
+    "name": "TableRowsInsertWord",
+    "imageAsset": "images/by-hash/987f395d63e7009b.png"
+  },
+  {
+    "name": "TableStyleBandedRowsWord",
+    "imageAsset": "images/by-hash/1ca26394e52f08e7.png"
+  },
+  {
+    "name": "AboveText",
+    "imageAsset": "images/by-hash/9ddfa5f164b34a9f.png"
+  },
+  {
+    "name": "ConditionalFormattingAboveAverage",
+    "imageAsset": "images/by-hash/c1ac26fe2860b410.png"
+  },
+  {
+    "name": "FrameCreateAbove",
+    "imageAsset": "images/by-hash/d97def2a448b794f.png"
+  },
+  {
+    "name": "InsertRowAbove",
+    "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+  }
+]

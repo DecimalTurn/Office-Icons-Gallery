@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ControlTabControl",
+    "imageAsset": "images/by-hash/d36bc6f2ef4d3e35.png"
+  },
+  {
+    "name": "GroupIncludeMainTab",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  },
+  {
+    "name": "GroupM1FutureSearchContextualTab",
+    "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+  },
+  {
+    "name": "InsertAlignmentTab",
+    "imageAsset": "images/by-hash/d150b160fa2e1d40.png"
+  },
+  {
+    "name": "SheetTabColorMoreColorsDialog",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "TabInfo",
+    "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+  },
+  {
+    "name": "TabListToolRichText",
+    "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+  },
+  {
+    "name": "TabOrder",
+    "imageAsset": "images/by-hash/665908ffddbebe22.png"
+  },
+  {
+    "name": "TabPrint",
+    "imageAsset": "images/by-hash/9851f75ba5d983b7.png"
+  },
+  {
+    "name": "TabRecent",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "TabSendReceive",
+    "imageAsset": "images/by-hash/e8081053f6abd3be.png"
+  },
+  {
+    "name": "TabShare",
+    "imageAsset": "images/by-hash/a37277c6043c5138.png"
+  }
+]

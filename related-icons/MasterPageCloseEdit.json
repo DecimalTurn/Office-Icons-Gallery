@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupMasterClose",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "MasterViewClose",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "IconEditClose",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "EditMaster",
+    "imageAsset": "images/by-hash/e8c7245a019dc899.png"
+  },
+  {
+    "name": "GroupMasterEdit",
+    "imageAsset": "images/by-hash/6ef37eabed847ffc.png"
+  },
+  {
+    "name": "GroupMasterEditTheme",
+    "imageAsset": "images/by-hash/38388a6cca16597f.png"
+  },
+  {
+    "name": "GroupMasterPagesEdit",
+    "imageAsset": "images/by-hash/90f5920b899619e8.png"
+  },
+  {
+    "name": "BackgroundRemovalClose",
+    "imageAsset": "images/by-hash/48eab841d02031df.png"
+  },
+  {
+    "name": "CloseAllItems",
+    "imageAsset": "images/by-hash/c20326749b246570.png"
+  },
+  {
+    "name": "CloseAllPages",
+    "imageAsset": "images/by-hash/76ac83fb7e258b44.png"
+  },
+  {
+    "name": "CloseComparison",
+    "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+  },
+  {
+    "name": "CloseDocument",
+    "imageAsset": "images/by-hash/404990c6a245f899.png"
+  }
+]

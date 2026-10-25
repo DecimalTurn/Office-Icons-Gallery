@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupListsSummaryEdit",
+    "imageAsset": "images/by-hash/1447278bbaf5d3c6.png"
+  },
+  {
+    "name": "GroupContTypeSummaryManage",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "GroupPageSummaryManage",
+    "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+  },
+  {
+    "name": "GroupSiteSummaryManage",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "GroupSummaryManage",
+    "imageAsset": "images/by-hash/52e4b9789001a6b5.png"
+  },
+  {
+    "name": "GroupWorkflowSummaryManage",
+    "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+  },
+  {
+    "name": "AccessOfflineLists",
+    "imageAsset": "images/by-hash/f7fc3736c97dae97.png"
+  },
+  {
+    "name": "AccessOnlineLists",
+    "imageAsset": "images/by-hash/9cd35fda88c3c0c0.png"
+  },
+  {
+    "name": "AccessRefreshAllLists",
+    "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+  },
+  {
+    "name": "AccessRelinkLists",
+    "imageAsset": "images/by-hash/8d84800ce786e29c.png"
+  },
+  {
+    "name": "CreateTableUsingSharePointListsGallery",
+    "imageAsset": "images/by-hash/275d48d742decaef.png"
+  },
+  {
+    "name": "CreateTableUsingSharePointListsMenu",
+    "imageAsset": "images/by-hash/275d48d742decaef.png"
+  }
+]

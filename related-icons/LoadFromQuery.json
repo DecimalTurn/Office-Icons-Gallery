@@ -1,0 +1,50 @@
+[
+  {
+    "name": "EventOnLoad",
+    "imageAsset": "images/by-hash/69582c3f940b47be.png"
+  },
+  {
+    "name": "RulesOnLoad",
+    "imageAsset": "images/by-hash/58811a42344839b3.png"
+  },
+  {
+    "name": "AdpStoredProcedureQueryAppend",
+    "imageAsset": "images/by-hash/b80f514177d5e0a8.png"
+  },
+  {
+    "name": "AdpStoredProcedureQueryAppendValues",
+    "imageAsset": "images/by-hash/d677325f0f15f3f1.png"
+  },
+  {
+    "name": "AdpStoredProcedureQueryDelete",
+    "imageAsset": "images/by-hash/89aa1c4dc0e96762.png"
+  },
+  {
+    "name": "AdpStoredProcedureQueryMakeTable",
+    "imageAsset": "images/by-hash/8d588e96f4f6abb6.png"
+  },
+  {
+    "name": "AdpStoredProcedureQuerySelect",
+    "imageAsset": "images/by-hash/3ede2d24cf3da107.png"
+  },
+  {
+    "name": "AdpStoredProcedureQueryUpdate",
+    "imageAsset": "images/by-hash/21d398046cbe9f67.png"
+  },
+  {
+    "name": "CreateAccessSqlQuery",
+    "imageAsset": "images/by-hash/b674448c3a22d477.png"
+  },
+  {
+    "name": "CreateQueryFromWizard",
+    "imageAsset": "images/by-hash/b674448c3a22d477.png"
+  },
+  {
+    "name": "CreateQueryInDesignView",
+    "imageAsset": "images/by-hash/79cce7297bfffb37.png"
+  },
+  {
+    "name": "DatabaseQueryNew",
+    "imageAsset": "images/by-hash/b674448c3a22d477.png"
+  }
+]

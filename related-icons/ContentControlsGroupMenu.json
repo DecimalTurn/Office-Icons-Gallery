@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ContentControlsGroup",
+    "imageAsset": "images/by-hash/6f1d93970a6e51e2.png"
+  },
+  {
+    "name": "ContentControlsUngroup",
+    "imageAsset": "images/by-hash/a114f76642ee2f81.png"
+  },
+  {
+    "name": "ControlsGallery",
+    "imageAsset": "images/by-hash/a7c67257e1463a6d.png"
+  },
+  {
+    "name": "ControlsGalleryClassic",
+    "imageAsset": "images/by-hash/a7c67257e1463a6d.png"
+  },
+  {
+    "name": "ControlsGalleryInfoPath",
+    "imageAsset": "images/by-hash/a7c67257e1463a6d.png"
+  },
+  {
+    "name": "ControlsNoLayout",
+    "imageAsset": "images/by-hash/07578190fbff26a6.png"
+  },
+  {
+    "name": "ControlsPane",
+    "imageAsset": "images/by-hash/2906b0aa2177acec.png"
+  },
+  {
+    "name": "ControlsPaneShowHide",
+    "imageAsset": "images/by-hash/2906b0aa2177acec.png"
+  },
+  {
+    "name": "GroupCodeEventsControls",
+    "imageAsset": "images/by-hash/828e97e4441434cb.png"
+  },
+  {
+    "name": "GroupControls",
+    "imageAsset": "images/by-hash/a7c67257e1463a6d.png"
+  },
+  {
+    "name": "GroupControlsAccess",
+    "imageAsset": "images/by-hash/241bc836905b322d.png"
+  },
+  {
+    "name": "GroupControlsGallery",
+    "imageAsset": "images/by-hash/a7c67257e1463a6d.png"
+  }
+]

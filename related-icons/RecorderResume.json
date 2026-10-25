@@ -1,0 +1,26 @@
+[
+  {
+    "name": "BroadcastResume",
+    "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+  },
+  {
+    "name": "GroupBroadcastResume",
+    "imageAsset": "images/by-hash/9be846b45cd05c28.png"
+  },
+  {
+    "name": "MacroRecorderPause",
+    "imageAsset": "images/by-hash/007aab5dd65e8409.png"
+  },
+  {
+    "name": "MacroRecorderStop",
+    "imageAsset": "images/by-hash/3814a7700dd50fe4.png"
+  },
+  {
+    "name": "RecorderStopVisio",
+    "imageAsset": "images/by-hash/3814a7700dd50fe4.png"
+  },
+  {
+    "name": "ResumeAllSharedSpaces",
+    "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+  }
+]

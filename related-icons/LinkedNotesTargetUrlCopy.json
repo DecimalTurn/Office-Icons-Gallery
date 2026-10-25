@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OpenTargetURL",
+    "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+  },
+  {
+    "name": "GroupLinkedMeetingNotes",
+    "imageAsset": "images/by-hash/fd7733a5f115e79e.png"
+  },
+  {
+    "name": "GroupLinkedNotes",
+    "imageAsset": "images/by-hash/fd7733a5f115e79e.png"
+  },
+  {
+    "name": "LinkedNotes",
+    "imageAsset": "images/by-hash/fd7733a5f115e79e.png"
+  },
+  {
+    "name": "LinkedNotesOptions",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "LinkedNotesSettings",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "ConditionIsNotURL",
+    "imageAsset": "images/by-hash/3bbc606800df6a78.png"
+  },
+  {
+    "name": "LogicChangeRestURLAction",
+    "imageAsset": "images/by-hash/29d7edd7ebfcda27.png"
+  },
+  {
+    "name": "DiagramChangeToTargetClassic",
+    "imageAsset": "images/by-hash/3947e125ac9caa6c.png"
+  },
+  {
+    "name": "DiagramTargetInsertClassic",
+    "imageAsset": "images/by-hash/3947e125ac9caa6c.png"
+  },
+  {
+    "name": "DsaTargetRule",
+    "imageAsset": "images/by-hash/703c1f868e0e23e5.png"
+  },
+  {
+    "name": "PasteLinkedExcelChartDestinationTheme",
+    "imageAsset": "images/by-hash/30dad84575949f2d.png"
+  }
+]

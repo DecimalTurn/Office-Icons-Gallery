@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CopyToPersonalContacts",
+    "imageAsset": "images/by-hash/3bd570c61f1f381b.png"
+  },
+  {
+    "name": "CopyToPersonalTaskList",
+    "imageAsset": "images/by-hash/772454ae5056eee6.png"
+  },
+  {
+    "name": "ContactCardCopy",
+    "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+  },
+  {
+    "name": "Copy",
+    "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+  },
+  {
+    "name": "CopyAllNodeRules",
+    "imageAsset": "images/by-hash/b5323b82067ee9cc.png"
+  },
+  {
+    "name": "CopyAllRules",
+    "imageAsset": "images/by-hash/b5323b82067ee9cc.png"
+  },
+  {
+    "name": "CopyAndModifyReusableWorkflow",
+    "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+  },
+  {
+    "name": "CopyAsLink",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "CopyAsLinkMenu",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "CopyAttach",
+    "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+  },
+  {
+    "name": "CopyEntryAsLink",
+    "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+  },
+  {
+    "name": "CopyFolder",
+    "imageAsset": "images/by-hash/f059de2577113260.png"
+  }
+]

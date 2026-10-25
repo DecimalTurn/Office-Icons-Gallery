@@ -1,0 +1,42 @@
+[
+  {
+    "name": "GroupWorkflowTextBasedDesignerInsert",
+    "imageAsset": "images/by-hash/888b6d91cc62dd3b.png"
+  },
+  {
+    "name": "GroupWorkflowTextBasedDesignerManage",
+    "imageAsset": "images/by-hash/8166418eccf14f70.png"
+  },
+  {
+    "name": "GroupWorkflowTextBasedDesignerVariables",
+    "imageAsset": "images/by-hash/0f5a38804b681599.png"
+  },
+  {
+    "name": "EditWorkflow",
+    "imageAsset": "images/by-hash/149f3b0cae9e185f.png"
+  },
+  {
+    "name": "EditWorkflowGallery",
+    "imageAsset": "images/by-hash/149f3b0cae9e185f.png"
+  },
+  {
+    "name": "EditWorkflowTask",
+    "imageAsset": "images/by-hash/685d08ad2b856414.png"
+  },
+  {
+    "name": "GroupWorkflowFormsEdit",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "GroupWorkflowSummaryEdit",
+    "imageAsset": "images/by-hash/149f3b0cae9e185f.png"
+  },
+  {
+    "name": "GroupWorkflowTaskSummaryEdit",
+    "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+  },
+  {
+    "name": "SwitchToTextBasedView",
+    "imageAsset": "images/by-hash/c966d15d29d8a20d.png"
+  }
+]

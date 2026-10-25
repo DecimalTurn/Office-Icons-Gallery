@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CodeHyperlinkBack",
+    "imageAsset": "images/by-hash/2d5c13dc835ab204.png"
+  },
+  {
+    "name": "CodeHyperlinkForward",
+    "imageAsset": "images/by-hash/1c154a02c8cf0fb0.png"
+  },
+  {
+    "name": "FollowUpComposeMenu",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "FollowUpMenu",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "FollowUpReadMenu",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "GroupFollowUp",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "AutoSigWebInsertHyperlink",
+    "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+  },
+  {
+    "name": "BuildHyperlink",
+    "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+  },
+  {
+    "name": "DataTypeHyperlink",
+    "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+  },
+  {
+    "name": "EditHyperlink",
+    "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+  },
+  {
+    "name": "GroupHyperlink",
+    "imageAsset": "images/by-hash/88f95b079a36376a.png"
+  },
+  {
+    "name": "HyperlinkControl",
+    "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+  }
+]

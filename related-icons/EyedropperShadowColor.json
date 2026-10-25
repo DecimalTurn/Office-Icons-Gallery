@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Eyedropper3DColor",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "EyedropperFillColor",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "EyedropperFontColor",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "EyedropperLineColor",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "EyedropperLineColorText",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "ObjectShadowColorMoreColorsDialog",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "ShadowColorGallery",
+    "imageAsset": "images/by-hash/d08ebef453ce28f3.png"
+  },
+  {
+    "name": "ShadowColorPickerClassic",
+    "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+  },
+  {
+    "name": "EyedropperFill",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "EyedropperFillText",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "EyedropperGlow",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  },
+  {
+    "name": "EyedropperGlowText",
+    "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+  }
+]

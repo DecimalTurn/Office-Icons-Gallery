@@ -1,0 +1,50 @@
+[
+  {
+    "name": "MenuNavigationPane",
+    "imageAsset": "images/by-hash/8c005537b968b2f0.png"
+  },
+  {
+    "name": "NavigationPaneFind",
+    "imageAsset": "images/by-hash/33960362b2c61f33.png"
+  },
+  {
+    "name": "NavigationPaneShowHide",
+    "imageAsset": "images/by-hash/f9899aa5db8e5021.png"
+  },
+  {
+    "name": "ToggleXmlMappingPane",
+    "imageAsset": "images/by-hash/9e5d37636e482d4e.png"
+  },
+  {
+    "name": "AccessNavigationOptions",
+    "imageAsset": "images/by-hash/4e5f4392371728be.png"
+  },
+  {
+    "name": "ActiveXToggleButton",
+    "imageAsset": "images/by-hash/ec7798c67ae9ecc9.png"
+  },
+  {
+    "name": "BorderBottomNoToggle",
+    "imageAsset": "images/by-hash/55ed253243346cfc.png"
+  },
+  {
+    "name": "BorderLeftNoToggle",
+    "imageAsset": "images/by-hash/aa0534c0ead9c22c.png"
+  },
+  {
+    "name": "BorderRightNoToggle",
+    "imageAsset": "images/by-hash/6cdf266bdd875afb.png"
+  },
+  {
+    "name": "BorderTopNoToggle",
+    "imageAsset": "images/by-hash/ab7e4b394c677a88.png"
+  },
+  {
+    "name": "CharacterCodeToggle",
+    "imageAsset": "images/by-hash/a4513abcd4ee3ea2.png"
+  },
+  {
+    "name": "ControlToggleButton",
+    "imageAsset": "images/by-hash/ec7798c67ae9ecc9.png"
+  }
+]

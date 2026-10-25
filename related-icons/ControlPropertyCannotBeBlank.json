@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ControlButtonCanBeBlank",
+    "imageAsset": "images/by-hash/0ffdb5c61c29bfb8.png"
+  },
+  {
+    "name": "BlankPageInsert",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "BlankPageInsertMenu",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "BlankPageInsertVisio",
+    "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+  },
+  {
+    "name": "BlankRowInsert",
+    "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+  },
+  {
+    "name": "ControlPropertyCustomCodeAction",
+    "imageAsset": "images/by-hash/222ac64c060cf337.png"
+  },
+  {
+    "name": "ControlPropertyDataFormat",
+    "imageAsset": "images/by-hash/e1e3d4dbdbbdd8cc.png"
+  },
+  {
+    "name": "ControlPropertyDefaultValue",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "ControlPropertyDigitalSignatures",
+    "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+  },
+  {
+    "name": "ControlPropertyDisplayTextFieldName",
+    "imageAsset": "images/by-hash/828e97e4441434cb.png"
+  },
+  {
+    "name": "ControlPropertyHeightValue",
+    "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+  },
+  {
+    "name": "ControlPropertyListControlEditChoices",
+    "imageAsset": "images/by-hash/931847df0679422a.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JotCreateOutlookTask",
+    "imageAsset": "images/by-hash/685d08ad2b856414.png"
+  },
+  {
+    "name": "OutlookTaskCreate",
+    "imageAsset": "images/by-hash/685d08ad2b856414.png"
+  },
+  {
+    "name": "TaskSummaryCreateFormField",
+    "imageAsset": "images/by-hash/8166418eccf14f70.png"
+  },
+  {
+    "name": "TaskSummaryCreateOutcome",
+    "imageAsset": "images/by-hash/67c24c68c08b69a8.png"
+  },
+  {
+    "name": "ConditionIsNotBetween",
+    "imageAsset": "images/by-hash/2f5f03dde73b434a.png"
+  },
+  {
+    "name": "ConditionIsNotEmail",
+    "imageAsset": "images/by-hash/96132f9b290fa0d3.png"
+  },
+  {
+    "name": "ConditionIsNotURL",
+    "imageAsset": "images/by-hash/3bbc606800df6a78.png"
+  },
+  {
+    "name": "InsertConditionGallery",
+    "imageAsset": "images/by-hash/477a0104431b57ed.png"
+  },
+  {
+    "name": "InsertLoopCondition",
+    "imageAsset": "images/by-hash/4938d25b06616758.png"
+  },
+  {
+    "name": "RulesButtonNoConditionGallery",
+    "imageAsset": "images/by-hash/18727ad7d7978e12.png"
+  },
+  {
+    "name": "RulesConditionContainsGallery",
+    "imageAsset": "images/by-hash/f9f2f29377aa7a91.png"
+  },
+  {
+    "name": "RulesConditionDoesNotContainGallery",
+    "imageAsset": "images/by-hash/1f6134c1a5edf654.png"
+  }
+]

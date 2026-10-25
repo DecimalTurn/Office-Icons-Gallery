@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AdpOutputOperationsGroupBy",
+    "imageAsset": "images/by-hash/170f9d5531971ed7.png"
+  },
+  {
+    "name": "AdpOutputOperationsSortAscending",
+    "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+  },
+  {
+    "name": "AdpOutputOperationsSortDescending",
+    "imageAsset": "images/by-hash/77440f0b8550bd69.png"
+  },
+  {
+    "name": "AdpOutputOperationsTableRemove",
+    "imageAsset": "images/by-hash/bb692ed17b20b5b6.png"
+  },
+  {
+    "name": "GroupAdpOutputOperations",
+    "imageAsset": "images/by-hash/3ce52e58a86dd5ae.png"
+  },
+  {
+    "name": "AdpDiagramAddRelatedTables",
+    "imageAsset": "images/by-hash/3ce52e58a86dd5ae.png"
+  },
+  {
+    "name": "AdpDiagramAddTable",
+    "imageAsset": "images/by-hash/137ac164f27ccd56.png"
+  },
+  {
+    "name": "EntityViewOperations",
+    "imageAsset": "images/by-hash/828e97e4441434cb.png"
+  },
+  {
+    "name": "LicenseOperations",
+    "imageAsset": "images/by-hash/8a8aee32e89e888e.png"
+  },
+  {
+    "name": "OperationsMenu",
+    "imageAsset": "images/by-hash/1cf805405de331b1.png"
+  },
+  {
+    "name": "AdpConstraints",
+    "imageAsset": "images/by-hash/855fdd3e9ceeec28.png"
+  },
+  {
+    "name": "AdpDiagramArrangeSelection",
+    "imageAsset": "images/by-hash/917cc34f1d929f62.png"
+  }
+]

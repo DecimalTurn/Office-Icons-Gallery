@@ -1,0 +1,30 @@
+[
+  {
+    "name": "StylesStyleVisibility",
+    "imageAsset": "images/by-hash/d9d9273e665f2cba.png"
+  },
+  {
+    "name": "VisibilityInherit",
+    "imageAsset": "images/by-hash/2a07aae085246d6a.png"
+  },
+  {
+    "name": "VisibilityVisible",
+    "imageAsset": "images/by-hash/d7347318b5bd316e.png"
+  },
+  {
+    "name": "GroupRemoveHiddenInformation",
+    "imageAsset": "images/by-hash/5c8255b42864d3e4.png"
+  },
+  {
+    "name": "NewMeetingHiddenWhenWithAllVisible",
+    "imageAsset": "images/by-hash/feff041c0012ff48.png"
+  },
+  {
+    "name": "SelectionPaneHidden",
+    "imageAsset": "images/by-hash/f92fed8efe25017d.png"
+  },
+  {
+    "name": "WebControlHidden",
+    "imageAsset": "images/by-hash/c5cca1c850a09b17.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PositionFitToWindow",
+    "imageAsset": "images/by-hash/ed33f80ba9b9dd29.png"
+  },
+  {
+    "name": "ZoomFitToWindow",
+    "imageAsset": "images/by-hash/ca80fbcdd2417260.png"
+  },
+  {
+    "name": "ZoomFitToWindowVisio",
+    "imageAsset": "images/by-hash/2fef15dde34fdfb9.png"
+  },
+  {
+    "name": "TableAutoFitContents",
+    "imageAsset": "images/by-hash/317f27be1f20e9a3.png"
+  },
+  {
+    "name": "TableAutoFitContentsSpd",
+    "imageAsset": "images/by-hash/317f27be1f20e9a3.png"
+  },
+  {
+    "name": "TableAutoFitFixedColumnWidth",
+    "imageAsset": "images/by-hash/28bd77edec9f67ac.png"
+  },
+  {
+    "name": "TableAutoFitMenu",
+    "imageAsset": "images/by-hash/317f27be1f20e9a3.png"
+  },
+  {
+    "name": "AsianLayoutFitText",
+    "imageAsset": "images/by-hash/f65954aad1f1e694.png"
+  },
+  {
+    "name": "BestFit",
+    "imageAsset": "images/by-hash/317f27be1f20e9a3.png"
+  },
+  {
+    "name": "CalendarViewWeekHeightBestFit",
+    "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+  },
+  {
+    "name": "DiagramFitToContentsClassic",
+    "imageAsset": "images/by-hash/2fef15dde34fdfb9.png"
+  },
+  {
+    "name": "DrawingCanvasFit",
+    "imageAsset": "images/by-hash/2fef15dde34fdfb9.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ProjectManageDeliverables",
+    "imageAsset": "images/by-hash/5e7a586d3f10b6bc.png"
+  },
+  {
+    "name": "DatabaseObjectDependencies",
+    "imageAsset": "images/by-hash/54f7315c0f797438.png"
+  },
+  {
+    "name": "DeliverablesMenu",
+    "imageAsset": "images/by-hash/eeaa976e768cf113.png"
+  },
+  {
+    "name": "AutoFilterProject",
+    "imageAsset": "images/by-hash/c0fbf1688be91555.png"
+  },
+  {
+    "name": "ClearNotesProject",
+    "imageAsset": "images/by-hash/2249b7207f0bb122.png"
+  },
+  {
+    "name": "ColumnHideProject",
+    "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+  },
+  {
+    "name": "DatabaseOpenFromProject",
+    "imageAsset": "images/by-hash/cca87607941481c5.png"
+  },
+  {
+    "name": "EnterpriseProjectImport",
+    "imageAsset": "images/by-hash/bf2f236ff3ebad5f.png"
+  },
+  {
+    "name": "EnterpriseProjectProfiles",
+    "imageAsset": "images/by-hash/2b702d6430221cf3.png"
+  },
+  {
+    "name": "GridlinesProject",
+    "imageAsset": "images/by-hash/ebfac0c46cdfe306.png"
+  },
+  {
+    "name": "GroupCheckoutFromProjectServer",
+    "imageAsset": "images/by-hash/b40fac805db5ef0f.png"
+  },
+  {
+    "name": "GroupCompareProject",
+    "imageAsset": "images/by-hash/426016ab765ea783.png"
+  }
+]

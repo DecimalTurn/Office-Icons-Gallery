@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupOrganizationChartLayoutClassic",
+    "imageAsset": "images/by-hash/ac0a56f0072f5dde.png"
+  },
+  {
+    "name": "GroupOrganizationChartSelect",
+    "imageAsset": "images/by-hash/bbddf95182822389.png"
+  },
+  {
+    "name": "GroupOrganizationChartShapeInsert",
+    "imageAsset": "images/by-hash/d2a1f54717fdfb4e.png"
+  },
+  {
+    "name": "GroupOrganizationChartStyleClassic",
+    "imageAsset": "images/by-hash/0dcccd324a3aeb0f.png"
+  },
+  {
+    "name": "OrganizationChartAutoLayout",
+    "imageAsset": "images/by-hash/ac0a56f0072f5dde.png"
+  },
+  {
+    "name": "OrganizationChartInsert",
+    "imageAsset": "images/by-hash/446092e9be5d851d.png"
+  },
+  {
+    "name": "OrganizationChartInsertAssistant",
+    "imageAsset": "images/by-hash/3f24194cacd9b29a.png"
+  },
+  {
+    "name": "OrganizationChartInsertCoworker",
+    "imageAsset": "images/by-hash/aacc7389925e13d6.png"
+  },
+  {
+    "name": "OrganizationChartInsertSubordinate",
+    "imageAsset": "images/by-hash/d2a1f54717fdfb4e.png"
+  },
+  {
+    "name": "OrganizationChartLayoutBothHanging",
+    "imageAsset": "images/by-hash/47578ee07b7a36f8.png"
+  },
+  {
+    "name": "OrganizationChartLayoutLeftHanging",
+    "imageAsset": "images/by-hash/afd453969bae38d0.png"
+  },
+  {
+    "name": "OrganizationChartLayoutRightHanging",
+    "imageAsset": "images/by-hash/f82e0174fcb69fe3.png"
+  }
+]

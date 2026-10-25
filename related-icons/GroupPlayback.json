@@ -1,0 +1,14 @@
+[
+  {
+    "name": "AudioNotePlayback",
+    "imageAsset": "images/by-hash/4772b90c78d7130c.png"
+  },
+  {
+    "name": "JotANStopPlayback",
+    "imageAsset": "images/by-hash/3814a7700dd50fe4.png"
+  },
+  {
+    "name": "PlaybackTipPlay",
+    "imageAsset": "images/by-hash/2f95c00be27190f4.png"
+  }
+]

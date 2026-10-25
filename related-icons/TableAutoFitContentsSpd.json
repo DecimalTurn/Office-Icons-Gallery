@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TableAutoFitContents",
+    "imageAsset": "images/by-hash/317f27be1f20e9a3.png"
+  },
+  {
+    "name": "DiagramFitToContentsClassic",
+    "imageAsset": "images/by-hash/2fef15dde34fdfb9.png"
+  },
+  {
+    "name": "FitToContents",
+    "imageAsset": "images/by-hash/b04cb80a831af576.png"
+  },
+  {
+    "name": "TableAutoFitFixedColumnWidth",
+    "imageAsset": "images/by-hash/28bd77edec9f67ac.png"
+  },
+  {
+    "name": "TableAutoFitMenu",
+    "imageAsset": "images/by-hash/317f27be1f20e9a3.png"
+  },
+  {
+    "name": "TableAutoFitWindow",
+    "imageAsset": "images/by-hash/d23715e16044b886.png"
+  },
+  {
+    "name": "BordersShadingDialogSpd",
+    "imageAsset": "images/by-hash/441df2dcdc406ed9.png"
+  },
+  {
+    "name": "ConnectorToolSpd",
+    "imageAsset": "images/by-hash/de067880af71db08.png"
+  },
+  {
+    "name": "DeleteSpdPage",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "DeleteSPDSite",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "EditSpdPage",
+    "imageAsset": "images/by-hash/90f5920b899619e8.png"
+  },
+  {
+    "name": "EditSpdPageAdvanced",
+    "imageAsset": "images/by-hash/e990b26262ad2738.png"
+  }
+]

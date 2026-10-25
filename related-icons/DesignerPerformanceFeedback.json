@@ -1,0 +1,50 @@
+[
+  {
+    "name": "DesignerRibbonGiveFeedback",
+    "imageAsset": "images/by-hash/c9f0013582e4d949.png"
+  },
+  {
+    "name": "DatabaseAnalyzePerformance",
+    "imageAsset": "images/by-hash/55bde6db25bf122c.png"
+  },
+  {
+    "name": "AudioAndVideoGiveFeedback",
+    "imageAsset": "images/by-hash/17cc4e91fcc92c9b.png"
+  },
+  {
+    "name": "ContextMenusAndPasteGiveFeedback",
+    "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+  },
+  {
+    "name": "CreateWorkflowDiagramVisualDesigner",
+    "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+  },
+  {
+    "name": "DesignAFormFeedback",
+    "imageAsset": "images/by-hash/e819fcd0c1d9779b.png"
+  },
+  {
+    "name": "DesignerDrmSelectUser",
+    "imageAsset": "images/by-hash/d183c0780b942621.png"
+  },
+  {
+    "name": "DesignerOpen",
+    "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+  },
+  {
+    "name": "EditorRibbonGiveFeedback",
+    "imageAsset": "images/by-hash/c9f0013582e4d949.png"
+  },
+  {
+    "name": "EverythingElseGiveFeedback",
+    "imageAsset": "images/by-hash/860e1805399fa093.png"
+  },
+  {
+    "name": "FormFillingFeedback",
+    "imageAsset": "images/by-hash/049d1f525a07b318.png"
+  },
+  {
+    "name": "GroupDesignerHeaders",
+    "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "AnimationOnClick",
+    "imageAsset": "images/by-hash/7a0ca51b73f4eacc.png"
+  },
+  {
+    "name": "AnimationTriggerAddOnClick",
+    "imageAsset": "images/by-hash/7a0ca51b73f4eacc.png"
+  },
+  {
+    "name": "ClickToRunAboutUpdates",
+    "imageAsset": "images/by-hash/7404d79e63593d89.png"
+  },
+  {
+    "name": "ClickToRunApplyUpdates",
+    "imageAsset": "images/by-hash/c2ddcf2d05fd7d7e.png"
+  },
+  {
+    "name": "ClickToRunEnableUpdates",
+    "imageAsset": "images/by-hash/15f524a4080c974d.png"
+  },
+  {
+    "name": "ClickToRunLearnMore",
+    "imageAsset": "images/by-hash/b1155395fa45b05b.png"
+  },
+  {
+    "name": "ClickToRunMobileOfficeCreationButton",
+    "imageAsset": "images/by-hash/64544a6240853d88.png"
+  },
+  {
+    "name": "ClickToRunUpdateOptions",
+    "imageAsset": "images/by-hash/15ef775dae4a4a08.png"
+  },
+  {
+    "name": "ClickToRunViewUpdates",
+    "imageAsset": "images/by-hash/bfbf930e4ac19247.png"
+  }
+]

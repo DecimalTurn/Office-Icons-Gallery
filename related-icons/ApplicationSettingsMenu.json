@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ApplicationOptionsDialog",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "DsaShowStyleApplicationOverlay",
+    "imageAsset": "images/by-hash/99bd5296af20e5d6.png"
+  },
+  {
+    "name": "GroupApplicationLog",
+    "imageAsset": "images/by-hash/a0d6e56de238e3d2.png"
+  },
+  {
+    "name": "GroupStyleApplication",
+    "imageAsset": "images/by-hash/9d975f6d3c1a5bcf.png"
+  },
+  {
+    "name": "SynchronizeApplicationChanges",
+    "imageAsset": "images/by-hash/6fbe1de1a9ec36da.png"
+  },
+  {
+    "name": "AccountSettings",
+    "imageAsset": "images/by-hash/bdfd5ccd965dab98.png"
+  },
+  {
+    "name": "AssetSettings",
+    "imageAsset": "images/by-hash/1f247df253a9051d.png"
+  },
+  {
+    "name": "AudioVideoSettings",
+    "imageAsset": "images/by-hash/bd06a0fb29933d42.png"
+  },
+  {
+    "name": "AutoArchiveSettings",
+    "imageAsset": "images/by-hash/462518c92afcc2d1.png"
+  },
+  {
+    "name": "ChangeFolderDownloadSettings",
+    "imageAsset": "images/by-hash/5f9639c5060c2a1f.png"
+  },
+  {
+    "name": "ColumnActionsColumnSettings",
+    "imageAsset": "images/by-hash/504905cdfe5d50ef.png"
+  },
+  {
+    "name": "ColumnActionsValidationSettings",
+    "imageAsset": "images/by-hash/3f804db01cf4d0b6.png"
+  }
+]

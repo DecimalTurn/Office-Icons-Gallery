@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ChartTypeParentComboChart",
+    "imageAsset": "images/by-hash/3d10b9bfd87cf020.png"
+  },
+  {
+    "name": "FilesToolNavigateToParentFolder",
+    "imageAsset": "images/by-hash/b9888a2c43c332a0.png"
+  },
+  {
+    "name": "JotNavUIParentFolder",
+    "imageAsset": "images/by-hash/4c569d92bdc6384c.png"
+  },
+  {
+    "name": "ParentPermissions",
+    "imageAsset": "images/by-hash/befec48273b3ab66.png"
+  },
+  {
+    "name": "ContainerDisband",
+    "imageAsset": "images/by-hash/728fc5b5adeae1b1.png"
+  },
+  {
+    "name": "ContainerGallery",
+    "imageAsset": "images/by-hash/7610de93334dbed8.png"
+  },
+  {
+    "name": "ContainerHeadingStyles",
+    "imageAsset": "images/by-hash/e6d1f634c916badf.png"
+  },
+  {
+    "name": "ContainerLock",
+    "imageAsset": "images/by-hash/d32429aef761d851.png"
+  },
+  {
+    "name": "ContainerMargins",
+    "imageAsset": "images/by-hash/2bc037ee19b5f7b9.png"
+  },
+  {
+    "name": "ContainerStyles",
+    "imageAsset": "images/by-hash/7d66254ae7c2926e.png"
+  },
+  {
+    "name": "DataGraphicContainer",
+    "imageAsset": "images/by-hash/5158126858f0a708.png"
+  },
+  {
+    "name": "GroupContainerSize",
+    "imageAsset": "images/by-hash/a5261425578a6472.png"
+  }
+]

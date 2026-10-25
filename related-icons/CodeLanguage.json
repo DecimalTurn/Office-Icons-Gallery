@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GroupLanguage",
+    "imageAsset": "images/by-hash/8fad6dd9afbe7864.png"
+  },
+  {
+    "name": "LanguageCommands",
+    "imageAsset": "images/by-hash/e4b8417a0239db84.png"
+  },
+  {
+    "name": "SetLanguage",
+    "imageAsset": "images/by-hash/8fad6dd9afbe7864.png"
+  },
+  {
+    "name": "CharacterCodeToggle",
+    "imageAsset": "images/by-hash/a4513abcd4ee3ea2.png"
+  },
+  {
+    "name": "CodeEdit",
+    "imageAsset": "images/by-hash/4a71c7c6247bfbab.png"
+  },
+  {
+    "name": "CodeEditor",
+    "imageAsset": "images/by-hash/222ac64c060cf337.png"
+  },
+  {
+    "name": "CodeEditorOptionsMenu",
+    "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+  },
+  {
+    "name": "CodeEditorScript",
+    "imageAsset": "images/by-hash/222ac64c060cf337.png"
+  },
+  {
+    "name": "CodeFindMenu",
+    "imageAsset": "images/by-hash/33960362b2c61f33.png"
+  },
+  {
+    "name": "CodeHyperlinkBack",
+    "imageAsset": "images/by-hash/2d5c13dc835ab204.png"
+  },
+  {
+    "name": "CodeHyperlinkForward",
+    "imageAsset": "images/by-hash/1c154a02c8cf0fb0.png"
+  },
+  {
+    "name": "CodeSelectMenu",
+    "imageAsset": "images/by-hash/e00c5c7bb6f2c7fc.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ColumnActionsValidationSettings",
+    "imageAsset": "images/by-hash/3f804db01cf4d0b6.png"
+  },
+  {
+    "name": "DataValidation",
+    "imageAsset": "images/by-hash/3f804db01cf4d0b6.png"
+  },
+  {
+    "name": "DataValidationCircleInvalid",
+    "imageAsset": "images/by-hash/0b6b8b124e99cafc.png"
+  },
+  {
+    "name": "DataValidationClearValidationCircles",
+    "imageAsset": "images/by-hash/70821c231c972677.png"
+  },
+  {
+    "name": "FieldValidationMenu",
+    "imageAsset": "images/by-hash/acbff5638518b308.png"
+  },
+  {
+    "name": "GroupDiagramValidation",
+    "imageAsset": "images/by-hash/790c754d70cf473b.png"
+  },
+  {
+    "name": "GroupFieldValidation",
+    "imageAsset": "images/by-hash/acbff5638518b308.png"
+  },
+  {
+    "name": "GroupFieldValidationSql",
+    "imageAsset": "images/by-hash/acbff5638518b308.png"
+  },
+  {
+    "name": "NodeDataValidation",
+    "imageAsset": "images/by-hash/91f56a8a930ceea2.png"
+  },
+  {
+    "name": "SiteColumnActionsValidationSettings",
+    "imageAsset": "images/by-hash/3f804db01cf4d0b6.png"
+  },
+  {
+    "name": "TableTestValidationRules",
+    "imageAsset": "images/by-hash/acbff5638518b308.png"
+  },
+  {
+    "name": "TableValidationMenu",
+    "imageAsset": "images/by-hash/acbff5638518b308.png"
+  }
+]

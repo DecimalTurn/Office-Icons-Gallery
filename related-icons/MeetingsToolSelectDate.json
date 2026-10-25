@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CalendarToolSelectDate",
+    "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+  },
+  {
+    "name": "ArrangeByCreatedDate",
+    "imageAsset": "images/by-hash/5398b427a47b2421.png"
+  },
+  {
+    "name": "ArrangeByDate",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  },
+  {
+    "name": "ArrangeByModifiedDate",
+    "imageAsset": "images/by-hash/0cb9d250df66bf12.png"
+  },
+  {
+    "name": "CalculatedDateTime",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  },
+  {
+    "name": "ConditionalFormattingHighlightDateOccuring",
+    "imageAsset": "images/by-hash/dc794190a6d4cf48.png"
+  },
+  {
+    "name": "ContentControlDate",
+    "imageAsset": "images/by-hash/70eb64b8f3d082fd.png"
+  },
+  {
+    "name": "DataTypeDateTime",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  },
+  {
+    "name": "DataTypeLongDate",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "DataTypeMediumDate",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "DataTypeShortDate",
+    "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+  },
+  {
+    "name": "DateAndTimeInsert",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  }
+]

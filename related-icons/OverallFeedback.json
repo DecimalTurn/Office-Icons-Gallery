@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OverallExperienceGiveFeedback",
+    "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+  },
+  {
+    "name": "AudioAndVideoGiveFeedback",
+    "imageAsset": "images/by-hash/17cc4e91fcc92c9b.png"
+  },
+  {
+    "name": "ContextMenusAndPasteGiveFeedback",
+    "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+  },
+  {
+    "name": "DesignAFormFeedback",
+    "imageAsset": "images/by-hash/e819fcd0c1d9779b.png"
+  },
+  {
+    "name": "DesignerPerformanceFeedback",
+    "imageAsset": "images/by-hash/bb5326991ce039df.png"
+  },
+  {
+    "name": "DesignerRibbonGiveFeedback",
+    "imageAsset": "images/by-hash/c9f0013582e4d949.png"
+  },
+  {
+    "name": "EditorRibbonGiveFeedback",
+    "imageAsset": "images/by-hash/c9f0013582e4d949.png"
+  },
+  {
+    "name": "EverythingElseGiveFeedback",
+    "imageAsset": "images/by-hash/860e1805399fa093.png"
+  },
+  {
+    "name": "FormFillingFeedback",
+    "imageAsset": "images/by-hash/049d1f525a07b318.png"
+  },
+  {
+    "name": "OfficeButtonFeedback",
+    "imageAsset": "images/by-hash/272dc26fc36fb2b5.png"
+  },
+  {
+    "name": "PasteFeedback",
+    "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+  },
+  {
+    "name": "ReportIssueGiveFeedback",
+    "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+  }
+]

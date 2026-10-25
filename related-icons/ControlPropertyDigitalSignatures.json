@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FileViewDigitalSignatures",
+    "imageAsset": "images/by-hash/39adf11914200bdf.png"
+  },
+  {
+    "name": "GroupDigitalSignatures",
+    "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+  },
+  {
+    "name": "GroupDigitalSignaturesInfoPath",
+    "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+  },
+  {
+    "name": "FileAddDigitalSignature",
+    "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+  },
+  {
+    "name": "SignaturesLoading",
+    "imageAsset": "images/by-hash/be861681f35bbf2e.png"
+  },
+  {
+    "name": "ControlPropertyCannotBeBlank",
+    "imageAsset": "images/by-hash/0ffdb5c61c29bfb8.png"
+  },
+  {
+    "name": "ControlPropertyCustomCodeAction",
+    "imageAsset": "images/by-hash/222ac64c060cf337.png"
+  },
+  {
+    "name": "ControlPropertyDataFormat",
+    "imageAsset": "images/by-hash/e1e3d4dbdbbdd8cc.png"
+  },
+  {
+    "name": "ControlPropertyDefaultValue",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "ControlPropertyDisplayTextFieldName",
+    "imageAsset": "images/by-hash/828e97e4441434cb.png"
+  },
+  {
+    "name": "ControlPropertyHeightValue",
+    "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+  },
+  {
+    "name": "ControlPropertyListControlEditChoices",
+    "imageAsset": "images/by-hash/931847df0679422a.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ControlSubFormReport",
+    "imageAsset": "images/by-hash/a78d11c5bd2686a1.png"
+  },
+  {
+    "name": "ControlSubView",
+    "imageAsset": "images/by-hash/a78d11c5bd2686a1.png"
+  },
+  {
+    "name": "GroupSubProcess",
+    "imageAsset": "images/by-hash/1289be4332186b1f.png"
+  },
+  {
+    "name": "MacroSubRoutineDesignBlock",
+    "imageAsset": "images/by-hash/6beb37849f9e7a7c.png"
+  },
+  {
+    "name": "NewSubWeb",
+    "imageAsset": "images/by-hash/7522d7f6493f9379.png"
+  },
+  {
+    "name": "ConvertDatabaseFormat",
+    "imageAsset": "images/by-hash/242adac7d08820da.png"
+  },
+  {
+    "name": "ConvertInkMenu",
+    "imageAsset": "images/by-hash/b3fdda08a32ab45e.png"
+  },
+  {
+    "name": "ConvertInkToText",
+    "imageAsset": "images/by-hash/b3fdda08a32ab45e.png"
+  },
+  {
+    "name": "ConvertSmartArtMenu",
+    "imageAsset": "images/by-hash/0e337530ca1d575e.png"
+  },
+  {
+    "name": "ConvertTableToText",
+    "imageAsset": "images/by-hash/56d57c45104d8c48.png"
+  },
+  {
+    "name": "ConvertTextToTable",
+    "imageAsset": "images/by-hash/fe55c1b5eac25a2d.png"
+  },
+  {
+    "name": "ConvertToExcelSpreadsheet",
+    "imageAsset": "images/by-hash/0e6ff69868ef233b.png"
+  }
+]

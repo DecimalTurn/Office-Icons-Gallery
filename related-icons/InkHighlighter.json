@@ -1,0 +1,26 @@
+[
+  {
+    "name": "InkSelectHighlighter",
+    "imageAsset": "images/by-hash/230503be4ca25bcb.png"
+  },
+  {
+    "name": "FavoriteHighlighter1",
+    "imageAsset": "images/by-hash/70d28397af02469e.png"
+  },
+  {
+    "name": "FavoriteHighlighter2",
+    "imageAsset": "images/by-hash/70d28397af02469e.png"
+  },
+  {
+    "name": "FavoriteHighlighter3",
+    "imageAsset": "images/by-hash/70d28397af02469e.png"
+  },
+  {
+    "name": "FavoriteHighlighter4",
+    "imageAsset": "images/by-hash/70d28397af02469e.png"
+  },
+  {
+    "name": "HighlighterMode",
+    "imageAsset": "images/by-hash/230503be4ca25bcb.png"
+  }
+]

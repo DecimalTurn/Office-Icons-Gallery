@@ -1,0 +1,42 @@
+[
+  {
+    "name": "DrawingCanvasScale",
+    "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+  },
+  {
+    "name": "GalPrintScale",
+    "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+  },
+  {
+    "name": "GroupPageLayoutScaleToFit",
+    "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+  },
+  {
+    "name": "OrgChartScale",
+    "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+  },
+  {
+    "name": "PageScaleToFitHeight",
+    "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+  },
+  {
+    "name": "PageScaleToFitOptionsDialog",
+    "imageAsset": "images/by-hash/0749ae8aa9888505.png"
+  },
+  {
+    "name": "PageScaleToFitScale",
+    "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+  },
+  {
+    "name": "PageScaleToFitWidth",
+    "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+  },
+  {
+    "name": "ScaleDrawingCanvas",
+    "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+  },
+  {
+    "name": "TimeScaleMenu",
+    "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+  }
+]

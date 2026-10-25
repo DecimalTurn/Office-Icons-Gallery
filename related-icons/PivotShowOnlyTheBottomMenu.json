@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PivotShowOnlyTheTopMenu",
+    "imageAsset": "images/by-hash/04f960c083da66e2.png"
+  },
+  {
+    "name": "PivotTableGrandTotalsOnForColumnsOnly",
+    "imageAsset": "images/by-hash/8d4ab8e2e9143bc7.png"
+  },
+  {
+    "name": "PivotTableGrandTotalsOnForRowsOnly",
+    "imageAsset": "images/by-hash/1528f54377a7ea34.png"
+  },
+  {
+    "name": "PivotDiagramAlignBottom",
+    "imageAsset": "images/by-hash/41b181deaed7563e.png"
+  },
+  {
+    "name": "PivotDiagramBottomToTop",
+    "imageAsset": "images/by-hash/d1cbb528c2e34a2c.png"
+  },
+  {
+    "name": "PivotDiagramTopToBottom",
+    "imageAsset": "images/by-hash/c208912ec62178ed.png"
+  },
+  {
+    "name": "PivotShowTopAndBottomItemsMenu",
+    "imageAsset": "images/by-hash/10ff82f1292ff12f.png"
+  },
+  {
+    "name": "PivotTableSubtotalsOnBottom",
+    "imageAsset": "images/by-hash/1d45910b273cc3d8.png"
+  },
+  {
+    "name": "AdpDiagramNameOnly",
+    "imageAsset": "images/by-hash/01ce8db5665e111c.png"
+  },
+  {
+    "name": "AppendOnly",
+    "imageAsset": "images/by-hash/3211a6a8922a4f76.png"
+  },
+  {
+    "name": "AppendOnlyControl",
+    "imageAsset": "images/by-hash/2588afd13c4576f6.png"
+  },
+  {
+    "name": "ColumnActionsReadOnly",
+    "imageAsset": "images/by-hash/496a802468ac8523.png"
+  }
+]

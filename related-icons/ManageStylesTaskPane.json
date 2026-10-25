@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ApplyStylesPane",
+    "imageAsset": "images/by-hash/f8c95179d0041093.png"
+  },
+  {
+    "name": "StylesPane",
+    "imageAsset": "images/by-hash/b137ee0e9904d18c.png"
+  },
+  {
+    "name": "StylesPaneNewStyle",
+    "imageAsset": "images/by-hash/e6f7d1945ad3787b.png"
+  },
+  {
+    "name": "StylesManageStyles",
+    "imageAsset": "images/by-hash/149b5d9514516e68.png"
+  },
+  {
+    "name": "ShowConditionalFormattingTaskPane",
+    "imageAsset": "images/by-hash/ebd51f4cc1de7e22.png"
+  },
+  {
+    "name": "GroupManageTask",
+    "imageAsset": "images/by-hash/9960556f722cbf0b.png"
+  },
+  {
+    "name": "GroupTaskListManageTask",
+    "imageAsset": "images/by-hash/f215fc7ef7630348.png"
+  }
+]

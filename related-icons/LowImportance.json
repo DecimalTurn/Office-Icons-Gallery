@@ -1,0 +1,46 @@
+[
+  {
+    "name": "AlignJustifyLow",
+    "imageAsset": "images/by-hash/7cc7551fd5ca81e9.png"
+  },
+  {
+    "name": "ChartFormatHighLowLine",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "JustifyLowVertical",
+    "imageAsset": "images/by-hash/861f95c4f28d3239.png"
+  },
+  {
+    "name": "SparklineLowPointColorPicker",
+    "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+  },
+  {
+    "name": "SparklineLowPointMoreColors",
+    "imageAsset": "images/by-hash/3405b39950688aed.png"
+  },
+  {
+    "name": "ArrangeByImportance",
+    "imageAsset": "images/by-hash/181dccef35a50532.png"
+  },
+  {
+    "name": "HighImportance",
+    "imageAsset": "images/by-hash/181dccef35a50532.png"
+  },
+  {
+    "name": "QuickSearchHighImportance",
+    "imageAsset": "images/by-hash/181dccef35a50532.png"
+  },
+  {
+    "name": "QuickSearchImportanceGallery",
+    "imageAsset": "images/by-hash/527313bf111396f0.png"
+  },
+  {
+    "name": "RmsImportanceCheck",
+    "imageAsset": "images/by-hash/a0898a3cae12e75d.png"
+  },
+  {
+    "name": "RmsImportanceUncheck",
+    "imageAsset": "images/by-hash/dfb04a752dd833fe.png"
+  }
+]

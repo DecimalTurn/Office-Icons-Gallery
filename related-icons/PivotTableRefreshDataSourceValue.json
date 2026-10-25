@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SourceControlRefreshStatus",
+    "imageAsset": "images/by-hash/f4f262301223a9a1.png"
+  },
+  {
+    "name": "PivotChartRefresh",
+    "imageAsset": "images/by-hash/740882e026184acf.png"
+  },
+  {
+    "name": "PivotDiagramRefresh",
+    "imageAsset": "images/by-hash/740882e026184acf.png"
+  },
+  {
+    "name": "PivotDiagramRefreshMenu",
+    "imageAsset": "images/by-hash/740882e026184acf.png"
+  },
+  {
+    "name": "PivotDiagramRefreshOne",
+    "imageAsset": "images/by-hash/740882e026184acf.png"
+  },
+  {
+    "name": "PivotRefresh",
+    "imageAsset": "images/by-hash/740882e026184acf.png"
+  },
+  {
+    "name": "PivotDiagramChangeDataSource",
+    "imageAsset": "images/by-hash/415e56cd91ff4b06.png"
+  },
+  {
+    "name": "PivotTableChangeDataSource",
+    "imageAsset": "images/by-hash/a524b84c61d8dbc3.png"
+  },
+  {
+    "name": "PivotTableEditDataSource",
+    "imageAsset": "images/by-hash/a524b84c61d8dbc3.png"
+  },
+  {
+    "name": "ControlPropertyDefaultValue",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "ControlPropertyHeightValue",
+    "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+  },
+  {
+    "name": "ControlPropertyWidthValue",
+    "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ContainerDisband",
+    "imageAsset": "images/by-hash/728fc5b5adeae1b1.png"
+  },
+  {
+    "name": "ContainerGallery",
+    "imageAsset": "images/by-hash/7610de93334dbed8.png"
+  },
+  {
+    "name": "ContainerHeadingStyles",
+    "imageAsset": "images/by-hash/e6d1f634c916badf.png"
+  },
+  {
+    "name": "ContainerLock",
+    "imageAsset": "images/by-hash/d32429aef761d851.png"
+  },
+  {
+    "name": "ContainerMargins",
+    "imageAsset": "images/by-hash/2bc037ee19b5f7b9.png"
+  },
+  {
+    "name": "ContainerStyles",
+    "imageAsset": "images/by-hash/7d66254ae7c2926e.png"
+  },
+  {
+    "name": "GroupContainerSize",
+    "imageAsset": "images/by-hash/a5261425578a6472.png"
+  },
+  {
+    "name": "GroupContainerStyles",
+    "imageAsset": "images/by-hash/e6d1f634c916badf.png"
+  },
+  {
+    "name": "SelectParentContainer",
+    "imageAsset": "images/by-hash/7afb336897807cf4.png"
+  },
+  {
+    "name": "DataGraphicColorByValue",
+    "imageAsset": "images/by-hash/4a0bb8efe940ce73.png"
+  },
+  {
+    "name": "DataGraphicCreateNew",
+    "imageAsset": "images/by-hash/829eaf42d9759541.png"
+  },
+  {
+    "name": "DataGraphicDataBar",
+    "imageAsset": "images/by-hash/75a1d61e9c752c2d.png"
+  }
+]

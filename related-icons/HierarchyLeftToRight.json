@@ -1,0 +1,50 @@
+[
+  {
+    "name": "HierarchyRightToLeft",
+    "imageAsset": "images/by-hash/2085db29d2b674db.png"
+  },
+  {
+    "name": "AlignLeftToRightMenu",
+    "imageAsset": "images/by-hash/7ae32f26706df8a1.png"
+  },
+  {
+    "name": "FlowchartLeftToRight",
+    "imageAsset": "images/by-hash/18f06e15becd1fa6.png"
+  },
+  {
+    "name": "FlowchartRightToLeft",
+    "imageAsset": "images/by-hash/29e8680ebc3a0c06.png"
+  },
+  {
+    "name": "GoLeftToRight",
+    "imageAsset": "images/by-hash/8ac1c6e151bfa73f.png"
+  },
+  {
+    "name": "LeftToRightDocument",
+    "imageAsset": "images/by-hash/13c09d78e3654db6.png"
+  },
+  {
+    "name": "LeftToRightEmbedding",
+    "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+  },
+  {
+    "name": "PivotDiagramLeftToRight",
+    "imageAsset": "images/by-hash/aecaa713bb24966e.png"
+  },
+  {
+    "name": "PivotDiagramRightToLeft",
+    "imageAsset": "images/by-hash/c4bfb06448aa6537.png"
+  },
+  {
+    "name": "RightToLeftDocument",
+    "imageAsset": "images/by-hash/99add648a3746042.png"
+  },
+  {
+    "name": "RightToLeftEmbedding",
+    "imageAsset": "images/by-hash/1816c21da026fa8e.png"
+  },
+  {
+    "name": "SmartArtRightToLeft",
+    "imageAsset": "images/by-hash/a1fc6083d5622b63.png"
+  }
+]

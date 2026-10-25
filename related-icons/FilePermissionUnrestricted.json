@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FilePermission",
+    "imageAsset": "images/by-hash/d183c0780b942621.png"
+  },
+  {
+    "name": "FilePermissionRestrictMenu",
+    "imageAsset": "images/by-hash/d183c0780b942621.png"
+  },
+  {
+    "name": "FilePermissionView",
+    "imageAsset": "images/by-hash/20d363c173a12eab.png"
+  },
+  {
+    "name": "AddPermissionGroup",
+    "imageAsset": "images/by-hash/c1a316e1de581ba2.png"
+  },
+  {
+    "name": "AddUserToPermissionGroup",
+    "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+  },
+  {
+    "name": "DeletePermissionGroup",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "EditPermissionGroup",
+    "imageAsset": "images/by-hash/3d4778e367c16353.png"
+  },
+  {
+    "name": "GroupPermission",
+    "imageAsset": "images/by-hash/d183c0780b942621.png"
+  },
+  {
+    "name": "GroupPermissionGroupsActions",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "GroupPermissionGroupsEdit",
+    "imageAsset": "images/by-hash/3d4778e367c16353.png"
+  },
+  {
+    "name": "GroupPermissionGroupsManage",
+    "imageAsset": "images/by-hash/52e4b9789001a6b5.png"
+  },
+  {
+    "name": "GroupPermissionGroupsNew",
+    "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+  }
+]

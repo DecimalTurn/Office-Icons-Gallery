@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ReviewDeleteAllMarkupInPresentation",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "ReviewDeleteMarkup",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "ReviewMarkupNext",
+    "imageAsset": "images/by-hash/0ee7ef56b0fdb5a3.png"
+  },
+  {
+    "name": "ReviewMarkupPrevious",
+    "imageAsset": "images/by-hash/730591bb5fb612a1.png"
+  },
+  {
+    "name": "ReviewMarkupTrack",
+    "imageAsset": "images/by-hash/ffc17504b6a8e2c4.png"
+  },
+  {
+    "name": "ReviewShowMarkupMenu",
+    "imageAsset": "images/by-hash/156b137c27e114f8.png"
+  },
+  {
+    "name": "ReviewShowOrHideMarkup",
+    "imageAsset": "images/by-hash/e78cab15f948c015.png"
+  },
+  {
+    "name": "DeleteSlideContextual",
+    "imageAsset": "images/by-hash/ea765333a68ebb60.png"
+  },
+  {
+    "name": "SlideDelete",
+    "imageAsset": "images/by-hash/ea765333a68ebb60.png"
+  },
+  {
+    "name": "ReviewDeleteComment",
+    "imageAsset": "images/by-hash/56da31b9400bf392.png"
+  },
+  {
+    "name": "ReviewDeleteCommentPowerPoint",
+    "imageAsset": "images/by-hash/56da31b9400bf392.png"
+  },
+  {
+    "name": "ReviewDeleteCommentsMenu",
+    "imageAsset": "images/by-hash/56da31b9400bf392.png"
+  }
+]

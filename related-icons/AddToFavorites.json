@@ -1,0 +1,26 @@
+[
+  {
+    "name": "AddFolderToFavorites",
+    "imageAsset": "images/by-hash/665d74369cb8bd63.png"
+  },
+  {
+    "name": "Favorites",
+    "imageAsset": "images/by-hash/665d74369cb8bd63.png"
+  },
+  {
+    "name": "GroupFavorites",
+    "imageAsset": "images/by-hash/665d74369cb8bd63.png"
+  },
+  {
+    "name": "RemoveFolderFromFavorites",
+    "imageAsset": "images/by-hash/665d74369cb8bd63.png"
+  },
+  {
+    "name": "ToggleFolderShowInFavorites",
+    "imageAsset": "images/by-hash/665d74369cb8bd63.png"
+  },
+  {
+    "name": "ToggleShowInFavorites",
+    "imageAsset": "images/by-hash/665d74369cb8bd63.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OutlookTaskCustomDateContextual",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "OutlookTaskLaterContextual",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "OutlookTaskMarkCompleteContextual",
+    "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+  },
+  {
+    "name": "OutlookTaskNextWeekContextual",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "OutlookTaskOpenContextual",
+    "imageAsset": "images/by-hash/ccd7997373e69eaa.png"
+  },
+  {
+    "name": "OutlookTaskThisWeekContextual",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  },
+  {
+    "name": "OutlookTaskTodayContextual",
+    "imageAsset": "images/by-hash/bcf32234185199f5.png"
+  },
+  {
+    "name": "OutlookTaskTomorrowContextual",
+    "imageAsset": "images/by-hash/aab3f29e91f304f1.png"
+  },
+  {
+    "name": "OutlookTaskRemove",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "RemoveOutlookAccount",
+    "imageAsset": "images/by-hash/3c506956af95ad34.png"
+  },
+  {
+    "name": "RemoveTaskPathHighlight",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  },
+  {
+    "name": "TimelineViewRemoveTask",
+    "imageAsset": "images/by-hash/1fd75773272cbd20.png"
+  }
+]

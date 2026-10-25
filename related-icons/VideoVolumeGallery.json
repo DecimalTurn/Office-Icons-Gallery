@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AudioVolumeGallery",
+    "imageAsset": "images/by-hash/32a3d3b525660f2f.png"
+  },
+  {
+    "name": "SlideShowVolume",
+    "imageAsset": "images/by-hash/32a3d3b525660f2f.png"
+  },
+  {
+    "name": "AudioAndVideoGiveFeedback",
+    "imageAsset": "images/by-hash/17cc4e91fcc92c9b.png"
+  },
+  {
+    "name": "AudioVideoSettings",
+    "imageAsset": "images/by-hash/bd06a0fb29933d42.png"
+  },
+  {
+    "name": "ContactCardVideoCall",
+    "imageAsset": "images/by-hash/950b456ae0756ce5.png"
+  },
+  {
+    "name": "ExportToVideo",
+    "imageAsset": "images/by-hash/77cf8098f872139c.png"
+  },
+  {
+    "name": "GroupAudioVideoRecordingOptions",
+    "imageAsset": "images/by-hash/bd06a0fb29933d42.png"
+  },
+  {
+    "name": "GroupVideoBookmark",
+    "imageAsset": "images/by-hash/6c0673dc10bb736d.png"
+  },
+  {
+    "name": "GroupVideoEditing",
+    "imageAsset": "images/by-hash/05377a60f8076477.png"
+  },
+  {
+    "name": "GroupVideoOptions",
+    "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+  },
+  {
+    "name": "GroupVideoSize",
+    "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+  },
+  {
+    "name": "GroupVideoStyles",
+    "imageAsset": "images/by-hash/56309a0aa850f6d2.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ClickToRunAboutUpdates",
+    "imageAsset": "images/by-hash/7404d79e63593d89.png"
+  },
+  {
+    "name": "ClickToRunApplyUpdates",
+    "imageAsset": "images/by-hash/c2ddcf2d05fd7d7e.png"
+  },
+  {
+    "name": "ClickToRunViewUpdates",
+    "imageAsset": "images/by-hash/bfbf930e4ac19247.png"
+  },
+  {
+    "name": "ClickToRunLearnMore",
+    "imageAsset": "images/by-hash/b1155395fa45b05b.png"
+  },
+  {
+    "name": "ClickToRunMobileOfficeCreationButton",
+    "imageAsset": "images/by-hash/64544a6240853d88.png"
+  },
+  {
+    "name": "ClickToRunUpdateOptions",
+    "imageAsset": "images/by-hash/15ef775dae4a4a08.png"
+  },
+  {
+    "name": "EnableAttachments",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  },
+  {
+    "name": "EnableInlineEdit",
+    "imageAsset": "images/by-hash/53f035b400396894.png"
+  },
+  {
+    "name": "PivotTableEnableSelection",
+    "imageAsset": "images/by-hash/ee9fb084ce551484.png"
+  },
+  {
+    "name": "PivotTableEnableWhatIfAnalysis",
+    "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+  },
+  {
+    "name": "ProductUpdates",
+    "imageAsset": "images/by-hash/c2ddcf2d05fd7d7e.png"
+  },
+  {
+    "name": "SlabDocUpdatesAvailableSaveAndReview",
+    "imageAsset": "images/by-hash/f18099fa4182f9d1.png"
+  }
+]

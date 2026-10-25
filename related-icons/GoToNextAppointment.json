@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CatalogMergeGoToNextRecord",
+    "imageAsset": "images/by-hash/0f42881fbb368916.png"
+  },
+  {
+    "name": "GoToNextErrorInfoPath",
+    "imageAsset": "images/by-hash/0ee7ef56b0fdb5a3.png"
+  },
+  {
+    "name": "GoToNextUnreadPage",
+    "imageAsset": "images/by-hash/c93e5785b2dcff6a.png"
+  },
+  {
+    "name": "MailMergeGoToNextRecord",
+    "imageAsset": "images/by-hash/0f42881fbb368916.png"
+  },
+  {
+    "name": "ResultsPaneGoNext",
+    "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+  },
+  {
+    "name": "GoToPreviousAppointment",
+    "imageAsset": "images/by-hash/37f399aa9a0ca61a.png"
+  },
+  {
+    "name": "BrowseNext",
+    "imageAsset": "images/by-hash/c9c63177fb82c411.png"
+  },
+  {
+    "name": "ConflictsAcceptAndMoveToNext",
+    "imageAsset": "images/by-hash/a37d174078437c42.png"
+  },
+  {
+    "name": "ConflictsNext",
+    "imageAsset": "images/by-hash/0ee7ef56b0fdb5a3.png"
+  },
+  {
+    "name": "ConflictsRejectAndMoveToNext",
+    "imageAsset": "images/by-hash/2254ec4460903e16.png"
+  },
+  {
+    "name": "FindNext",
+    "imageAsset": "images/by-hash/ae2421dd27688a51.png"
+  },
+  {
+    "name": "FlagNextWeek",
+    "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+  }
+]

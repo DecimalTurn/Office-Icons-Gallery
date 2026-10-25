@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ControlPropertyRulesAction",
+    "imageAsset": "images/by-hash/314b2e53c7d79c39.png"
+  },
+  {
+    "name": "ControlPropertySubmitAction",
+    "imageAsset": "images/by-hash/718cecc6f117cf61.png"
+  },
+  {
+    "name": "AnimationCustomActionVerbDialog",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "AnimationCustomAddActionVerbDialog",
+    "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+  },
+  {
+    "name": "CreateCustomActionMenu",
+    "imageAsset": "images/by-hash/9eab4f479ca680f9.png"
+  },
+  {
+    "name": "MoveDownCustomAction",
+    "imageAsset": "images/by-hash/79274de9857dec98.png"
+  },
+  {
+    "name": "MoveUpCustomAction",
+    "imageAsset": "images/by-hash/068470b628dc1569.png"
+  },
+  {
+    "name": "NewCustomAction",
+    "imageAsset": "images/by-hash/9eab4f479ca680f9.png"
+  },
+  {
+    "name": "ControlPropertyCannotBeBlank",
+    "imageAsset": "images/by-hash/0ffdb5c61c29bfb8.png"
+  },
+  {
+    "name": "ControlPropertyDataFormat",
+    "imageAsset": "images/by-hash/e1e3d4dbdbbdd8cc.png"
+  },
+  {
+    "name": "ControlPropertyDefaultValue",
+    "imageAsset": "images/by-hash/e8223f1744c79315.png"
+  },
+  {
+    "name": "ControlPropertyDigitalSignatures",
+    "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+  }
+]

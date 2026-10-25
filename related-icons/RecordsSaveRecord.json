@@ -1,0 +1,50 @@
+[
+  {
+    "name": "RecordsDeleteRecord",
+    "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+  },
+  {
+    "name": "RecordsSaveAsOutlookContact",
+    "imageAsset": "images/by-hash/121bf0aa601c26d3.png"
+  },
+  {
+    "name": "First10RecordsPreview",
+    "imageAsset": "images/by-hash/28bd0f887f0c23de.png"
+  },
+  {
+    "name": "GroupRecords",
+    "imageAsset": "images/by-hash/97b7019dd2d01c8e.png"
+  },
+  {
+    "name": "RecordsAddFromOutlook",
+    "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+  },
+  {
+    "name": "RecordsCollapseAllSubdatasheets",
+    "imageAsset": "images/by-hash/ba2b05d62b8ff683.png"
+  },
+  {
+    "name": "RecordsDeleteColumn",
+    "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+  },
+  {
+    "name": "RecordsExpandAllSubdatasheets",
+    "imageAsset": "images/by-hash/b96d28954e6051db.png"
+  },
+  {
+    "name": "RecordsFreezeColumns",
+    "imageAsset": "images/by-hash/0bd7888b062cc33e.png"
+  },
+  {
+    "name": "RecordsInsertSubdatasheet",
+    "imageAsset": "images/by-hash/14bbe6fbcdefad04.png"
+  },
+  {
+    "name": "RecordsMoreRecordsMenu",
+    "imageAsset": "images/by-hash/97b7019dd2d01c8e.png"
+  },
+  {
+    "name": "RecordsRefreshMenu",
+    "imageAsset": "images/by-hash/244cb1e8fbeb8bfc.png"
+  }
+]

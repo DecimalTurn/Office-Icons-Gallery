@@ -1,0 +1,50 @@
+[
+  {
+    "name": "VirtualListToolEditItemInError",
+    "imageAsset": "images/by-hash/b363318e832a6776.png"
+  },
+  {
+    "name": "VirtualListToolRevertItemInError",
+    "imageAsset": "images/by-hash/c2580274c46f1269.png"
+  },
+  {
+    "name": "GroupVirtualListActions",
+    "imageAsset": "images/by-hash/ad1f748dc2c78dc8.png"
+  },
+  {
+    "name": "ChartErrorBars",
+    "imageAsset": "images/by-hash/da2407b5d0b3f924.png"
+  },
+  {
+    "name": "ChartFormatErrorBars",
+    "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+  },
+  {
+    "name": "DisplayErrorMessageInfoPath",
+    "imageAsset": "images/by-hash/7af31981dd4e0deb.png"
+  },
+  {
+    "name": "ErrorChecking",
+    "imageAsset": "images/by-hash/9ae9019af5384df3.png"
+  },
+  {
+    "name": "GoToNextErrorInfoPath",
+    "imageAsset": "images/by-hash/0ee7ef56b0fdb5a3.png"
+  },
+  {
+    "name": "GroupConflictErrorResolution",
+    "imageAsset": "images/by-hash/cc7f9b56cf5f0e52.png"
+  },
+  {
+    "name": "LogicShowErrorAction",
+    "imageAsset": "images/by-hash/00c1ba4dd365a3db.png"
+  },
+  {
+    "name": "MoreSyncErrorInfo",
+    "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+  },
+  {
+    "name": "ResolveBusinessDataEntityInstanceError",
+    "imageAsset": "images/by-hash/a9d09f6383031451.png"
+  }
+]

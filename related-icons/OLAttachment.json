@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OLCopyTrackingStatus",
+    "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+  },
+  {
+    "name": "OLPrintOptions",
+    "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+  },
+  {
+    "name": "AppointmentAttachment",
+    "imageAsset": "images/by-hash/31f2a81ec01323f7.png"
+  },
+  {
+    "name": "ArrangeByAttachment",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  },
+  {
+    "name": "ControlAttachment",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  },
+  {
+    "name": "DataTypeAttachment",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  },
+  {
+    "name": "FileAttachmentInsert",
+    "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+  },
+  {
+    "name": "FileEmailAsPdfEmailAttachment",
+    "imageAsset": "images/by-hash/2866181297205e61.png"
+  },
+  {
+    "name": "FileEmailAsXpsEmailAttachment",
+    "imageAsset": "images/by-hash/4fa26b547fff4abe.png"
+  },
+  {
+    "name": "FileSendAsAttachment",
+    "imageAsset": "images/by-hash/5551d7c978f81380.png"
+  },
+  {
+    "name": "ForwardAsAttachment",
+    "imageAsset": "images/by-hash/5551d7c978f81380.png"
+  },
+  {
+    "name": "GroupAttachmentActions",
+    "imageAsset": "images/by-hash/45781e547e6af23f.png"
+  }
+]

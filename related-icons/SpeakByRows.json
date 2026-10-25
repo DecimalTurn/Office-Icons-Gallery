@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SpeakByColumns",
+    "imageAsset": "images/by-hash/a81168d7e7219672.png"
+  },
+  {
+    "name": "SpeakCells",
+    "imageAsset": "images/by-hash/2f95c00be27190f4.png"
+  },
+  {
+    "name": "SpeakOnEnter",
+    "imageAsset": "images/by-hash/06c2eae32c83005b.png"
+  },
+  {
+    "name": "SpeakStop",
+    "imageAsset": "images/by-hash/ccb172a522515e37.png"
+  },
+  {
+    "name": "CatalogMergeMoreRowsColumns",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "CatalogMergeRowsColumnsGallery",
+    "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+  },
+  {
+    "name": "DeleteRows",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "DeleteRowsOneNote",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "GroupMacroRows",
+    "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+  },
+  {
+    "name": "GroupShapeSheetRows",
+    "imageAsset": "images/by-hash/987f395d63e7009b.png"
+  },
+  {
+    "name": "GroupTableRows",
+    "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+  },
+  {
+    "name": "GroupTableRowsAndColumns",
+    "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "InsertRowBelowAccess",
+    "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+  },
+  {
+    "name": "ConditionalFormattingBelowAverage",
+    "imageAsset": "images/by-hash/3cf99b131af86a6e.png"
+  },
+  {
+    "name": "FrameCreateBelow",
+    "imageAsset": "images/by-hash/2d601bf5ff7bb319.png"
+  },
+  {
+    "name": "SmartArtAddShapeBelow",
+    "imageAsset": "images/by-hash/d1ed79282cd7c496.png"
+  },
+  {
+    "name": "TableInsertRowsBelow",
+    "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+  },
+  {
+    "name": "TableRowsInsertBelowExcel",
+    "imageAsset": "images/by-hash/dd60bdd944ee993d.png"
+  },
+  {
+    "name": "TableRowsInsertBelowWord",
+    "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+  },
+  {
+    "name": "WordCloseParaBelow",
+    "imageAsset": "images/by-hash/44c043bd192a2499.png"
+  },
+  {
+    "name": "WordOpenParaBelow",
+    "imageAsset": "images/by-hash/652e8c1fd14b8f9c.png"
+  },
+  {
+    "name": "BlankRowInsert",
+    "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+  },
+  {
+    "name": "ChartSwitchRowColumn",
+    "imageAsset": "images/by-hash/991ad5f8c5b8f80c.png"
+  },
+  {
+    "name": "ClearRow",
+    "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+  }
+]

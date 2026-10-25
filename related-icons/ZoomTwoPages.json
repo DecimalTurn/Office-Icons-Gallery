@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ZoomFitToWindow",
+    "imageAsset": "images/by-hash/ca80fbcdd2417260.png"
+  },
+  {
+    "name": "ZoomOnePage",
+    "imageAsset": "images/by-hash/592601d3eae5f5bc.png"
+  },
+  {
+    "name": "ZoomPageWidth",
+    "imageAsset": "images/by-hash/730f1a1d097606df.png"
+  },
+  {
+    "name": "PreviewZoomAllPages",
+    "imageAsset": "images/by-hash/0e116039c9bf96df.png"
+  },
+  {
+    "name": "PrintPreviewZoomTwoPages",
+    "imageAsset": "images/by-hash/f32d3a8ba4c266de.png"
+  },
+  {
+    "name": "CatalogPagesInsert",
+    "imageAsset": "images/by-hash/c4291bde75d4f2b1.png"
+  },
+  {
+    "name": "CloseAllPages",
+    "imageAsset": "images/by-hash/76ac83fb7e258b44.png"
+  },
+  {
+    "name": "EnvelopeSendAllPages",
+    "imageAsset": "images/by-hash/e0cc6d34c73b1b24.png"
+  },
+  {
+    "name": "GalPrintPagesTall",
+    "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+  },
+  {
+    "name": "GalPrintPagesWide",
+    "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+  },
+  {
+    "name": "GroupInsertPages",
+    "imageAsset": "images/by-hash/2e3940b44c217189.png"
+  },
+  {
+    "name": "GroupLayoutPagesEdit",
+    "imageAsset": "images/by-hash/90f5920b899619e8.png"
+  }
+]
