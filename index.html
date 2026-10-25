@@ -51,7 +51,11 @@
         </div>
         <div class="mso-placeholder-filter">
           <input id="exclude-labels" type="checkbox" />
-          <label for="exclude-labels">Exclude image labels</label>
+          <label for="exclude-labels">Hide image labels</label>
+        </div>
+        <div class="mso-placeholder-filter">
+          <input id="exclude-duplicate-images" type="checkbox" />
+          <label for="exclude-duplicate-images">Exclude duplicate images</label>
         </div>
       </form>
       <p id="search-result-count" class="search-result-count" role="status" aria-live="polite" hidden></p>
@@ -78,6 +82,7 @@
       const searchClearButton = document.getElementById("mso-search-clear");
       const excludePlaceholdersInput = document.getElementById("exclude-placeholders");
       const excludeLabelsInput = document.getElementById("exclude-labels");
+      const excludeDuplicateImagesInput = document.getElementById("exclude-duplicate-images");
       const iconCount = document.getElementById("icon-count");
       const uniqueIconCount = document.getElementById("unique-icon-count");
       const searchResultCount = document.getElementById("search-result-count");
@@ -85,6 +90,7 @@
       const searchQuery = urlSearchParams.get(searchInput.name)?.trim() || "";
       const requestedPage = Number.parseInt(new URLSearchParams(window.location.search).get("Page") || "", 10);
       let icons = [];
+      let firstIconNameByImageAsset = new Map();
       let currentPage = Number.isInteger(requestedPage) && requestedPage > 0 ? requestedPage - 1 : 0;
 
       searchInput.value = searchQuery;
@@ -93,6 +99,7 @@
       }
       excludePlaceholdersInput.checked = urlSearchParams.get("ExcludePlaceholders") === "1";
       excludeLabelsInput.checked = urlSearchParams.get("ExcludeLabels") === "1";
+      excludeDuplicateImagesInput.checked = urlSearchParams.get("ExcludeDuplicateImages") === "1";
       iconList.classList.toggle("labels-hidden", excludeLabelsInput.checked);
       updateSearchClearButton();
 
@@ -137,6 +144,11 @@
         } else {
           url.searchParams.delete("ExcludeLabels");
         }
+        if (excludeDuplicateImagesInput.checked) {
+          url.searchParams.set("ExcludeDuplicateImages", "1");
+        } else {
+          url.searchParams.delete("ExcludeDuplicateImages");
+        }
         url.searchParams.delete("Page");
 
         window.location.href = url.href;
@@ -147,6 +159,10 @@
       });
 
       excludeLabelsInput.addEventListener("change", () => {
+        searchInput.form.requestSubmit();
+      });
+
+      excludeDuplicateImagesInput.addEventListener("change", () => {
         searchInput.form.requestSubmit();
       });
 
@@ -180,6 +196,7 @@
 
       function matchesFilters(icon, value) {
         return (!excludePlaceholdersInput.checked || icon.imageStatus !== "placeholder") &&
+          (!excludeDuplicateImagesInput.checked || firstIconNameByImageAsset.get(icon.imageAsset) === icon.name) &&
           matchesSearch(icon, value);
       }
 
@@ -296,11 +313,17 @@
           }
 
           const metadata = await response.json();
+          firstIconNameByImageAsset = new Map();
+          metadata.forEach((icon) => {
+            if (!firstIconNameByImageAsset.has(icon.imageAsset)) {
+              firstIconNameByImageAsset.set(icon.imageAsset, icon.name);
+            }
+          });
           icons = metadata.filter((icon) => matchesFilters(icon, searchQuery));
           iconCount.textContent = metadata.length.toLocaleString();
           const uniqueImages = new Set(metadata.map((icon) => icon.imageAsset));
           uniqueIconCount.textContent = uniqueImages.size.toLocaleString();
-          if (searchQuery || excludePlaceholdersInput.checked) {
+          if (searchQuery || excludePlaceholdersInput.checked || excludeDuplicateImagesInput.checked) {
             const resultNoun = icons.length === 1 ? "icon" : "icons";
             searchResultCount.textContent = `${icons.length.toLocaleString()} ${resultNoun} found`;
             searchResultCount.hidden = false;

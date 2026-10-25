@@ -30,7 +30,7 @@ test("hides image labels and packs a page of icons into a dense grid", async ({ 
   await page.goto("/index.html");
 
   const excludePlaceholders = page.getByRole("checkbox", { name: "Exclude placeholder images" });
-  const excludeLabels = page.getByRole("checkbox", { name: "Exclude image labels" });
+  const excludeLabels = page.getByRole("checkbox", { name: "Hide image labels" });
   const placeholderBounds = await excludePlaceholders.boundingBox();
   const labelBounds = await excludeLabels.boundingBox();
 
@@ -85,7 +85,7 @@ test("keeps the dense label-free view across search, filters, and pages", async 
   await expect(page.locator("#search-result-count")).toHaveText("2 icons found");
   await expect(page.locator(".mso-list li")).toHaveCount(2);
   await expect(page.locator(".mso-list li span").first()).toBeHidden();
-  await expect(page.getByRole("checkbox", { name: "Exclude image labels" })).toBeChecked();
+  await expect(page.getByRole("checkbox", { name: "Hide image labels" })).toBeChecked();
 
   await page.getByRole("button", { name: "Clear search" }).click();
 
