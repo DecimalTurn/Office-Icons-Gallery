@@ -19,7 +19,13 @@ const imageGroupByName = new Map([...iconsByImageHash.values()].flatMap((iconIds
   iconIds.map((iconId) => [iconId, iconIds])
 ));
 
-async function mockKeywordReview(page, { confirmDelay = 0, keywordOverrides = {}, synonyms = {} } = {}) {
+async function mockKeywordReview(page, {
+  confirmDelay = 0,
+  keywordOverrides = {},
+  synonyms = {},
+  keywordSynonyms = {},
+  reviewedKeywordOverrides = {}
+} = {}) {
   const confirmed = [];
   const resets = [];
   await page.route("**/api/reference-lists", async (route) => {
@@ -33,8 +39,16 @@ async function mockKeywordReview(page, { confirmDelay = 0, keywordOverrides = {}
     await route.fulfill({ json: {} });
   });
   await page.route("**/api/name-synonyms", async (route) => {
-    await route.fulfill({ json: { synonyms } });
+    await route.fulfill({ json: { synonyms, keywordSynonyms } });
   });
+  if (Object.keys(reviewedKeywordOverrides).length > 0) {
+    await page.route("**/icon-keywords.json", async (route) => {
+      await route.fulfill({ json: {
+        ...require("../icon-keywords.json"),
+        ...reviewedKeywordOverrides
+      } });
+    });
+  }
   if (Object.keys(keywordOverrides).length > 0) {
     await page.route("**/icon-metadata.json", async (route) => {
       await route.fulfill({ json: metadata.map((icon) => ({
@@ -54,7 +68,7 @@ async function mockKeywordReview(page, { confirmDelay = 0, keywordOverrides = {}
         return;
       }
       const iconIds = imageGroupByName.get(body.iconId) || [body.iconId];
-      const keywords = normalizeReviewedKeywordGroup(iconIds, body.keywords, synonyms);
+      const keywords = normalizeReviewedKeywordGroup(iconIds, body.keywords, synonyms, keywordSynonyms);
       confirmed.push({ ...body, iconIds, keywords });
       await route.fulfill({ json: {
         iconId: body.iconId,
@@ -226,6 +240,26 @@ test("locks configured synonyms and names their source word", async ({ page }) =
   await page.getByRole("button", { name: "Confirm review" }).click();
   await expect.poll(() => confirmed.length).toBe(1);
   expect(confirmed[0].keywords).toContain("pail");
+});
+
+test("locks synonyms of reviewed custom keywords separately from name synonyms", async ({ page }) => {
+  const iconId = "_3DBevelOptionsDialog";
+  const imageGroupIds = imageGroupByName.get(iconId);
+  const keywordOverrides = Object.fromEntries(imageGroupIds.map((name) => [name, ["bristle", "paintbrush"]]));
+  const { confirmed } = await mockKeywordReview(page, {
+    keywordOverrides,
+    keywordSynonyms: { paintbrush: ["bristle"] },
+    reviewedKeywordOverrides: { [imageGroupIds[0]]: ["paintbrush"] }
+  });
+
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(iconId)}`);
+
+  const synonymInput = page.locator('.keyword-row input[readonly][title*="paintbrush"]');
+  await expect(synonymInput).toHaveAttribute("readonly", "");
+  await expect(synonymInput).toHaveAttribute("title", /paintbrush/);
+  await page.getByRole("button", { name: "Confirm review" }).click();
+  await expect.poll(() => confirmed.length).toBe(1);
+  expect(confirmed[0].keywords).toContain("bristle");
 });
 
 test("opens the icon selected by the URL parameter", async ({ page }) => {

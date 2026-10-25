@@ -30,6 +30,8 @@
     keywordBaseline: [],
     keywordSuggestions: [],
     nameSynonyms: {},
+    keywordSynonyms: {},
+    reviewedKeywords: {},
     sameImageIdsByName: new Map(),
     reviewRepresentativeById: new Map()
   };
@@ -81,17 +83,31 @@
 
   function synonymSourcesByKeyword() {
     const nameWords = nameKeywords();
+    const reviewedSources = new Set([
+      state.currentIcon?.name,
+      ...(state.sameImageIdsByName.get(state.currentIcon?.name) || [])
+    ].flatMap((iconId) => state.reviewedKeywords[iconId] || [])
+      .map((keyword) => keyword.toLocaleLowerCase("en")));
     const sourcesByKeyword = new Map();
-    for (const [source, synonyms] of Object.entries(state.nameSynonyms)) {
+    const addSynonyms = (source, synonyms) => {
       const normalizedSource = source.toLocaleLowerCase("en");
-      if (!nameWords.has(normalizedSource)) {
-        continue;
-      }
       for (const synonym of synonyms) {
         const normalizedSynonym = synonym.toLocaleLowerCase("en");
         const sources = sourcesByKeyword.get(normalizedSynonym) || [];
         sources.push(normalizedSource);
         sourcesByKeyword.set(normalizedSynonym, sources);
+      }
+    };
+    for (const [source, synonyms] of Object.entries(state.nameSynonyms)) {
+      const normalizedSource = source.toLocaleLowerCase("en");
+      if (!nameWords.has(normalizedSource)) {
+        continue;
+      }
+      addSynonyms(normalizedSource, synonyms);
+    }
+    for (const [source, synonyms] of Object.entries(state.keywordSynonyms)) {
+      if (reviewedSources.has(source.toLocaleLowerCase("en"))) {
+        addSynonyms(source, synonyms);
       }
     }
     return sourcesByKeyword;
@@ -316,6 +332,10 @@
       });
       state.currentIcon.keywords = result.keywords;
       const updatedIconIds = result.iconIds || [state.currentIcon.name];
+      state.reviewedKeywords[updatedIconIds[0]] = result.keywords;
+      for (const iconId of updatedIconIds.slice(1)) {
+        delete state.reviewedKeywords[iconId];
+      }
       for (const iconId of updatedIconIds) {
         const icon = state.icons.find((entry) => entry.name === iconId);
         if (icon) {
@@ -427,12 +447,15 @@
 
   async function initialize() {
     try {
-      const [metadata, reviewStatus, synonymResponse] = await Promise.all([
+      const [metadata, reviewStatus, synonymResponse, reviewedKeywords] = await Promise.all([
         requestJson("./icon-metadata.json"),
         requestJson("./icon-review-status.json"),
-        requestJson("/api/name-synonyms")
+        requestJson("/api/name-synonyms"),
+        requestJson("./icon-keywords.json")
       ]);
       state.nameSynonyms = synonymResponse.synonyms || {};
+      state.keywordSynonyms = synonymResponse.keywordSynonyms || {};
+      state.reviewedKeywords = reviewedKeywords;
       const iconsByImageHash = new Map();
       for (const icon of metadata) {
         if (icon.imageStatus === "placeholder" || !icon.imageSha256) {

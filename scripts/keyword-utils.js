@@ -47,6 +47,62 @@ function nameWordSynonyms(iconNames, synonymsByNameWord = {}) {
   return sourcesBySynonym;
 }
 
+function keywordSynonymsForValues(values, synonymsByKeyword = {}) {
+  const sourceKeywords = new Set(values.map((value) => value.trim().toLocaleLowerCase("en")));
+  const sourcesBySynonym = new Map();
+  for (const [sourceKeyword, synonyms] of Object.entries(synonymsByKeyword)) {
+    const normalizedSource = sourceKeyword.trim().toLocaleLowerCase("en");
+    if (!sourceKeywords.has(normalizedSource) || !Array.isArray(synonyms)) {
+      continue;
+    }
+    for (const synonym of synonyms) {
+      if (typeof synonym !== "string") {
+        continue;
+      }
+      const normalizedSynonym = synonym.trim().toLocaleLowerCase("en");
+      if (!normalizedSynonym) {
+        continue;
+      }
+      const sources = sourcesBySynonym.get(normalizedSynonym) || [];
+      if (!sources.includes(normalizedSource)) {
+        sources.push(normalizedSource);
+        sourcesBySynonym.set(normalizedSynonym, sources);
+      }
+    }
+  }
+  return sourcesBySynonym;
+}
+
+function normalizeKeywordSynonyms(value, availableKeywords) {
+  if (!value || Array.isArray(value) || typeof value !== "object" || Object.keys(value).length > 5000) {
+    throw new Error("Keyword synonyms must be an object with no more than 5,000 keywords");
+  }
+  const normalized = {};
+  for (const [sourceKeyword, synonyms] of Object.entries(value)) {
+    const source = sourceKeyword.trim().toLocaleLowerCase("en");
+    if (!availableKeywords.has(source)) {
+      throw new Error(`Unknown custom keyword: ${sourceKeyword}`);
+    }
+    if (!Array.isArray(synonyms) || synonyms.length > 100) {
+      throw new Error(`Provide no more than 100 synonyms for ${source}`);
+    }
+    const normalizedSynonyms = [...new Set(synonyms.map((synonym) => {
+      if (typeof synonym !== "string") {
+        throw new Error("Each synonym must be text");
+      }
+      const term = synonym.trim().toLocaleLowerCase("en");
+      if (!term || term.length > 80) {
+        throw new Error("Synonyms must contain 1 to 80 characters");
+      }
+      return term;
+    }))].sort();
+    if (normalizedSynonyms.length > 0) {
+      normalized[source] = normalizedSynonyms;
+    }
+  }
+  return Object.fromEntries(Object.entries(normalized).sort(([left], [right]) => left.localeCompare(right, "en")));
+}
+
 function normalizeNameSynonyms(value, availableNameWords) {
   if (!value || Array.isArray(value) || typeof value !== "object" || Object.keys(value).length > 5000) {
     throw new Error("Synonyms must be an object with no more than 5,000 name words");
@@ -98,7 +154,7 @@ function normalizeReviewedKeywords(iconName, values) {
   return [...new Set(removeNameKeywords([iconName], submitted))].sort();
 }
 
-function normalizeReviewedKeywordGroup(iconNames, values, synonymsByNameWord = {}) {
+function normalizeReviewedKeywordGroup(iconNames, values, synonymsByNameWord = {}, synonymsByKeyword = {}) {
   if (!Array.isArray(iconNames) || iconNames.length === 0) {
     throw new Error("Provide at least one icon ID");
   }
@@ -106,7 +162,8 @@ function normalizeReviewedKeywordGroup(iconNames, values, synonymsByNameWord = {
   const nameWords = nameKeywords(iconNames);
   const reviewedKeywords = removeNameKeywords(iconNames, submitted);
   const synonymKeywords = [...nameWordSynonyms(iconNames, synonymsByNameWord).keys()];
-  return [...new Set([...reviewedKeywords, ...synonymKeywords])]
+  const customSynonymKeywords = [...keywordSynonymsForValues(submitted, synonymsByKeyword).keys()];
+  return [...new Set([...reviewedKeywords, ...synonymKeywords, ...customSynonymKeywords])]
     .filter((keyword) => !nameWords.has(keyword))
     .sort();
 }
@@ -139,4 +196,4 @@ function readReviewStatus(filePath) {
   return readJsonFile(filePath);
 }
 
-module.exports = { nameKeywords, nameWordSynonyms, normalizeNameSynonyms, normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, removeNameKeywords, splitIconName, updateMetadataKeywords, updateReviewStatus };
+module.exports = { keywordSynonymsForValues, nameKeywords, nameWordSynonyms, normalizeKeywordSynonyms, normalizeNameSynonyms, normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, removeNameKeywords, splitIconName, updateMetadataKeywords, updateReviewStatus };

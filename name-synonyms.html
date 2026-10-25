@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Name synonyms | Office Icon Gallery</title>
+    <title>Keyword synonyms | Office Icon Gallery</title>
     <link rel="icon" type="image/png" href="./images/PictureInsertFromFile.png" />
     <script src="./theme.js" type="text/javascript"></script>
     <link href="./awesomplete.css" rel="stylesheet" type="text/css" />
@@ -32,19 +32,24 @@
         </nav>
         <div class="review-heading-row synonym-heading-row">
           <div>
-            <h1>Name synonyms</h1>
-            <p>Define search terms for words that appear in icon IDs.</p>
+            <h1>Keyword synonyms</h1>
+            <p>Define alternate search terms for icon-name words and reviewed custom keywords.</p>
           </div>
           <a class="review-button review-button-secondary" href="./keyword-review.html">Keyword review</a>
         </div>
       </header>
 
-      <p id="synonym-status" class="review-status" role="status" aria-live="polite">Loading name words…</p>
+      <p id="synonym-status" class="review-status" role="status" aria-live="polite">Loading synonym sources…</p>
 
       <section class="synonym-source-section" aria-labelledby="source-word-heading">
-        <h2 id="source-word-heading">Choose a name word</h2>
+        <h2 id="source-word-heading">Choose a synonym source</h2>
         <form id="source-word-form" class="synonym-source-form">
-          <label for="source-word-input">Icon-name word</label>
+          <label for="source-kind">Source type</label>
+          <select id="source-kind" class="synonym-source-kind">
+            <option value="name">Icon-name word</option>
+            <option value="keyword">Custom keyword</option>
+          </select>
+          <label id="source-word-label" for="source-word-input">Icon-name word</label>
           <div class="synonym-control-row">
             <input id="source-word-input" type="text" autocomplete="off" spellcheck="false" placeholder="Search name words" required />
             <button class="review-button review-button-approved" type="submit">Open word</button>
@@ -55,7 +60,7 @@
       <section id="selected-source-panel" class="selected-source-section" aria-labelledby="selected-source-heading" hidden>
         <header class="synonym-section-heading">
           <div>
-            <p class="synonym-eyebrow">ICON-NAME WORD</p>
+            <p id="selected-source-kind" class="synonym-eyebrow">ICON-NAME WORD</p>
             <h2 id="selected-source-heading"></h2>
           </div>
         </header>
@@ -67,7 +72,7 @@
           </div>
         </form>
         <p id="empty-synonyms-message" class="empty-synonyms-message" hidden>No synonyms saved for this word.</p>
-        <ul id="selected-synonym-list" class="synonym-chip-list" aria-label="Synonyms for selected name word"></ul>
+        <ul id="selected-synonym-list" class="synonym-chip-list" aria-label="Synonyms for selected source"></ul>
       </section>
 
       <section class="configured-synonyms-section" aria-labelledby="configured-synonyms-heading">
@@ -86,7 +91,7 @@
         <button id="discard-synonym-changes" class="review-button review-button-secondary" type="button" disabled>Discard changes</button>
         <button id="save-synonym-changes" class="review-button review-button-approved" type="button" disabled>Save synonyms</button>
       </div>
-      <p class="synonym-save-note">Saving updates searchable keywords for every icon that uses the selected name word.</p>
+      <p id="synonym-save-note" class="synonym-save-note">Changes update searchable keywords for every matching icon image when you save.</p>
 
       <footer class="review-footer">
         <a href="./keyword-review.html">Back to keyword review</a>

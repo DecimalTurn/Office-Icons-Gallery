@@ -3,7 +3,7 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
-const { nameKeywords, nameWordSynonyms, normalizeNameSynonyms, normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, removeNameKeywords, updateMetadataKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
+const { keywordSynonymsForValues, nameKeywords, nameWordSynonyms, normalizeKeywordSynonyms, normalizeNameSynonyms, normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, removeNameKeywords, updateMetadataKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
 
 test("metadata excludes every icon-name word from keywords", async () => {
   const reviewedKeywords = require("../icon-keywords.json");
@@ -107,6 +107,16 @@ test("metadata excludes every icon-name word from keywords", async () => {
   expect(normalizeReviewedKeywordGroup(imageGroupNames, ["bucket", "paint", "colour"], synonyms)).toEqual([
     "brush", "colour", "pail"
   ]);
+  const customSynonyms = { "blue pigment": ["azure"], visualization: ["diagram"] };
+  expect([...keywordSynonymsForValues(["blue pigment"], customSynonyms)]).toEqual([
+    ["azure", ["blue pigment"]]
+  ]);
+  expect(normalizeReviewedKeywordGroup(imageGroupNames, ["blue pigment"], {}, customSynonyms)).toEqual([
+    "azure", "blue pigment"
+  ]);
+  expect(normalizeKeywordSynonyms({ " BLUE PIGMENT ": [" AZURE ", "azure"] }, new Set(["blue pigment"]))).toEqual({
+    "blue pigment": ["azure"]
+  });
   expect(normalizeNameSynonyms({ " BUCKET ": [" Pail ", "pail"] }, nameKeywords(imageGroupNames))).toEqual({
     bucket: ["pail"]
   });

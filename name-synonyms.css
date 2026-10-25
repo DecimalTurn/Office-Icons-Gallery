@@ -42,7 +42,8 @@
   gap: 8px;
 }
 
-.synonym-control-row input {
+.synonym-control-row input,
+.synonym-source-kind {
   box-sizing: border-box;
   flex: 1 1 auto;
   min-width: 0;
@@ -55,7 +56,16 @@
   font: inherit;
 }
 
-.synonym-control-row input:focus-visible {
+.synonym-source-kind {
+  display: block;
+  width: min(100%, 620px);
+  min-height: 40px;
+  margin-top: 6px;
+  padding: 7px 10px;
+}
+
+.synonym-control-row input:focus-visible,
+.synonym-source-kind:focus-visible {
   border-color: var(--accent-color);
   outline: 2px solid color-mix(in srgb, var(--accent-color) 35%, transparent);
   outline-offset: 1px;

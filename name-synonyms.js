@@ -2,8 +2,11 @@
   const elements = {
     status: document.getElementById("synonym-status"),
     sourceWordForm: document.getElementById("source-word-form"),
+    sourceKind: document.getElementById("source-kind"),
+    sourceWordLabel: document.getElementById("source-word-label"),
     sourceWordInput: document.getElementById("source-word-input"),
     selectedPanel: document.getElementById("selected-source-panel"),
+    selectedKind: document.getElementById("selected-source-kind"),
     selectedHeading: document.getElementById("selected-source-heading"),
     addSynonymForm: document.getElementById("add-synonym-form"),
     synonymInput: document.getElementById("synonym-input"),
@@ -12,16 +15,23 @@
     configuredList: document.getElementById("configured-synonyms-list"),
     emptyDictionaryMessage: document.getElementById("empty-dictionary-message"),
     configuredWordCount: document.getElementById("configured-word-count"),
+    configuredHeading: document.getElementById("configured-synonyms-heading"),
     discardButton: document.getElementById("discard-synonym-changes"),
-    saveButton: document.getElementById("save-synonym-changes")
+    saveButton: document.getElementById("save-synonym-changes"),
+    saveNote: document.getElementById("synonym-save-note")
   };
 
   const state = {
     availableWords: [],
+    availableKeywords: [],
     synonyms: {},
     savedSynonyms: {},
+    keywordSynonyms: {},
+    savedKeywordSynonyms: {},
+    selectedKind: "name",
     selectedSource: "",
-    saving: false
+    saving: false,
+    saveSucceeded: false
   };
 
   function cloneSynonyms(synonyms) {
@@ -36,7 +46,37 @@
   }
 
   function isDirty() {
-    return JSON.stringify(canonicalSynonyms(state.synonyms)) !== JSON.stringify(canonicalSynonyms(state.savedSynonyms));
+    return JSON.stringify(canonicalSynonyms(state.synonyms)) !== JSON.stringify(canonicalSynonyms(state.savedSynonyms)) ||
+      JSON.stringify(canonicalSynonyms(state.keywordSynonyms)) !== JSON.stringify(canonicalSynonyms(state.savedKeywordSynonyms));
+  }
+
+  function activeSynonyms() {
+    return state.selectedKind === "keyword" ? state.keywordSynonyms : state.synonyms;
+  }
+
+  function activeSources() {
+    return state.selectedKind === "keyword" ? state.availableKeywords : state.availableWords;
+  }
+
+  function updateSourceKind() {
+    state.selectedKind = elements.sourceKind.value;
+    state.selectedSource = "";
+    elements.sourceWordInput.value = "";
+    elements.selectedPanel.hidden = true;
+    const keywordMode = state.selectedKind === "keyword";
+    elements.sourceWordLabel.textContent = keywordMode ? "Custom keyword" : "Icon-name word";
+    elements.sourceWordInput.placeholder = keywordMode ? "Search reviewed custom keywords" : "Search name words";
+    elements.configuredHeading.textContent = keywordMode
+      ? "Configured custom-keyword synonyms"
+      : "Configured icon-name synonyms";
+    elements.emptyDictionaryMessage.textContent = keywordMode
+      ? "No custom-keyword synonyms defined."
+      : "No icon-name synonyms defined.";
+    elements.selectedKind.textContent = keywordMode ? "CUSTOM KEYWORD" : "ICON-NAME WORD";
+    if (state.sourceAutocomplete) {
+      state.sourceAutocomplete.list = activeSources();
+    }
+    renderConfiguredSynonyms();
   }
 
   function setStatus(message, kind = "") {
@@ -57,19 +97,29 @@
     const dirty = isDirty();
     elements.saveButton.disabled = !dirty || state.saving;
     elements.discardButton.disabled = !dirty || state.saving;
+    elements.saveNote.textContent = state.saving
+      ? "Updating searchable keywords for every matching icon image…"
+      : dirty
+        ? "Save to update searchable keywords for every matching icon image."
+        : state.saveSucceeded
+          ? "Searchable keywords updated for every matching icon image."
+          : "Changes update searchable keywords for every matching icon image when you save.";
   }
 
   function selectSource(source) {
     state.selectedSource = source;
     elements.sourceWordInput.value = source;
     elements.selectedHeading.textContent = source;
+    elements.emptySynonymsMessage.textContent = state.selectedKind === "keyword"
+      ? "No synonyms saved for this custom keyword."
+      : "No synonyms saved for this icon-name word.";
     elements.selectedPanel.hidden = false;
     renderSelectedSynonyms();
     elements.synonymInput.focus();
   }
 
   function renderSelectedSynonyms() {
-    const terms = state.synonyms[state.selectedSource] || [];
+    const terms = activeSynonyms()[state.selectedSource] || [];
     elements.selectedSynonymList.replaceChildren(...terms.map((term) => {
       const item = document.createElement("li");
       const label = document.createElement("span");
@@ -88,7 +138,7 @@
   }
 
   function renderConfiguredSynonyms() {
-    const entries = Object.entries(canonicalSynonyms(state.synonyms));
+    const entries = Object.entries(canonicalSynonyms(activeSynonyms()));
     elements.configuredWordCount.textContent = `${entries.length} ${entries.length === 1 ? "word" : "words"}`;
     elements.emptyDictionaryMessage.hidden = entries.length > 0;
     elements.configuredList.replaceChildren(...entries.map(([source, terms]) => {
@@ -142,12 +192,13 @@
       setStatus("Enter a synonym from 1 to 80 characters.", "error");
       return;
     }
-    const terms = state.synonyms[state.selectedSource] || [];
+    const synonyms = activeSynonyms();
+    const terms = synonyms[state.selectedSource] || [];
     if (terms.includes(term)) {
       setStatus(`${term} is already a synonym for ${state.selectedSource}.`, "error");
       return;
     }
-    state.synonyms[state.selectedSource] = [...terms, term].sort((left, right) => left.localeCompare(right, "en"));
+    synonyms[state.selectedSource] = [...terms, term].sort((left, right) => left.localeCompare(right, "en"));
     elements.synonymInput.value = "";
     setStatus("Unsaved changes.");
     render();
@@ -157,13 +208,17 @@
   elements.sourceWordForm.addEventListener("submit", (event) => {
     event.preventDefault();
     const source = elements.sourceWordInput.value.trim().toLocaleLowerCase("en");
-    if (!state.availableWords.includes(source)) {
-      setStatus("Choose a word that appears in an icon ID.", "error");
+    if (!activeSources().includes(source)) {
+      setStatus(state.selectedKind === "keyword"
+        ? "Choose a reviewed custom keyword."
+        : "Choose a word that appears in an icon ID.", "error");
       return;
     }
     setStatus("");
     selectSource(source);
   });
+
+  elements.sourceKind.addEventListener("change", updateSourceKind);
 
   elements.addSynonymForm.addEventListener("submit", addSynonym);
   elements.selectedSynonymList.addEventListener("click", (event) => {
@@ -171,12 +226,13 @@
     if (!remove) {
       return;
     }
-    const remaining = (state.synonyms[state.selectedSource] || [])
+    const synonyms = activeSynonyms();
+    const remaining = (synonyms[state.selectedSource] || [])
       .filter((term) => term !== remove.dataset.removeSynonym);
     if (remaining.length) {
-      state.synonyms[state.selectedSource] = remaining;
+      synonyms[state.selectedSource] = remaining;
     } else {
-      delete state.synonyms[state.selectedSource];
+      delete synonyms[state.selectedSource];
     }
     setStatus("Unsaved changes.");
     render();
@@ -192,7 +248,7 @@
     const remove = event.target.closest("[data-remove-source]");
     if (remove) {
       const source = remove.dataset.removeSource;
-      delete state.synonyms[source];
+      delete activeSynonyms()[source];
       if (state.selectedSource === source) {
         renderSelectedSynonyms();
       }
@@ -203,6 +259,7 @@
 
   elements.discardButton.addEventListener("click", () => {
     state.synonyms = cloneSynonyms(state.savedSynonyms);
+    state.keywordSynonyms = cloneSynonyms(state.savedKeywordSynonyms);
     setStatus("Unsaved changes discarded.");
     render();
   });
@@ -212,17 +269,22 @@
       return;
     }
     state.saving = true;
-    elements.saveButton.disabled = true;
-    elements.discardButton.disabled = true;
+    updateDirtyState();
     setStatus("Saving synonyms and updating searchable keywords…");
     try {
       const result = await requestJson("/api/name-synonyms", {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ synonyms: canonicalSynonyms(state.synonyms) })
+        body: JSON.stringify({
+          synonyms: canonicalSynonyms(state.synonyms),
+          keywordSynonyms: canonicalSynonyms(state.keywordSynonyms)
+        })
       });
       state.synonyms = cloneSynonyms(result.synonyms || {});
       state.savedSynonyms = cloneSynonyms(state.synonyms);
+      state.keywordSynonyms = cloneSynonyms(result.keywordSynonyms || {});
+      state.savedKeywordSynonyms = cloneSynonyms(state.keywordSynonyms);
+      state.saveSucceeded = true;
       setStatus("Synonyms saved. Searchable keywords have been updated.", "success");
       render();
     } catch (error) {
@@ -241,15 +303,25 @@
 
   async function initialize() {
     try {
-      const [metadata, result] = await Promise.all([
+      const [metadata, reviewedKeywords, result] = await Promise.all([
         requestJson("./icon-metadata.json"),
+        requestJson("./icon-keywords.json"),
         requestJson("/api/name-synonyms")
       ]);
       state.availableWords = [...new Set(metadata.flatMap((icon) => splitIconName(icon.name)))].sort((left, right) => left.localeCompare(right, "en"));
+      const nameWordSet = new Set(state.availableWords);
+      const nameSynonymTerms = new Set(Object.values(result.synonyms || {}).flat());
+      const reviewedKeywordSet = new Set(Object.values(reviewedKeywords).flat()
+        .map((keyword) => String(keyword).trim().toLocaleLowerCase("en")));
+      state.availableKeywords = [...reviewedKeywordSet]
+        .filter((keyword) => !nameWordSet.has(keyword) && !nameSynonymTerms.has(keyword))
+        .sort((left, right) => left.localeCompare(right, "en"));
       state.synonyms = cloneSynonyms(result.synonyms || {});
       state.savedSynonyms = cloneSynonyms(state.synonyms);
-      new Awesomplete(elements.sourceWordInput, {
-        list: state.availableWords,
+      state.keywordSynonyms = cloneSynonyms(result.keywordSynonyms || {});
+      state.savedKeywordSynonyms = cloneSynonyms(state.keywordSynonyms);
+      state.sourceAutocomplete = new Awesomplete(elements.sourceWordInput, {
+        list: activeSources(),
         minChars: 1,
         maxItems: 12,
         autoFirst: true
@@ -259,6 +331,14 @@
         .get("word")?.trim().toLocaleLowerCase("en");
       if (requestedSource && state.availableWords.includes(requestedSource)) {
         selectSource(requestedSource);
+      } else {
+        const requestedKeyword = new URLSearchParams(window.location.search)
+          .get("keyword")?.trim().toLocaleLowerCase("en");
+        if (requestedKeyword && state.availableKeywords.includes(requestedKeyword)) {
+          elements.sourceKind.value = "keyword";
+          updateSourceKind();
+          selectSource(requestedKeyword);
+        }
       }
       setStatus("");
     } catch (error) {

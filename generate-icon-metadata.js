@@ -1,13 +1,14 @@
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
-const { nameKeywords, nameWordSynonyms, normalizeNameSynonyms, removeNameKeywords, splitIconName } = require("./scripts/keyword-utils");
+const { keywordSynonymsForValues, nameKeywords, nameWordSynonyms, normalizeKeywordSynonyms, normalizeNameSynonyms, removeNameKeywords, splitIconName } = require("./scripts/keyword-utils");
 
 const imagesPath = path.join(__dirname, "images");
 const sharedImagesPath = path.join(imagesPath, "by-hash");
 const outputPath = path.join(__dirname, "icon-metadata.json");
 const iconDetailsPath = path.join(__dirname, "icon-details");
 const nameSynonymsPath = path.join(__dirname, "icon-name-synonyms.json");
+const keywordSynonymsPath = path.join(__dirname, "icon-keyword-synonyms.json");
 const placeholderManifestPath = path.join(__dirname, "assets", "placeholders", "manifest.tsv");
 const imageFiles = fs.readdirSync(imagesPath, { withFileTypes: true })
   .filter((entry) => entry.isFile() && path.extname(entry.name).toLowerCase() === ".png");
@@ -144,6 +145,21 @@ const reviewedKeywords = JSON.parse(fs.readFileSync(
 if (!reviewedKeywords || Array.isArray(reviewedKeywords) || typeof reviewedKeywords !== "object") {
   throw new Error("Reviewed keywords must be a JSON object keyed by icon ID");
 }
+const availableCustomKeywords = new Set(Object.values(reviewedKeywords)
+  .flat()
+  .map((keyword) => keyword.trim().toLocaleLowerCase("en")));
+for (const nameWord of nameKeywords(iconNames)) {
+  availableCustomKeywords.delete(nameWord);
+}
+for (const synonyms of Object.values(nameSynonyms)) {
+  for (const synonym of synonyms) {
+    availableCustomKeywords.delete(synonym);
+  }
+}
+const keywordSynonyms = normalizeKeywordSynonyms(
+  JSON.parse(fs.readFileSync(keywordSynonymsPath, "utf8")),
+  availableCustomKeywords
+);
 
 const keywordOverrides = new Map(Object.entries({
   "BrightnessLess": [
@@ -389,20 +405,18 @@ const metadata = iconNames.map((name) => {
 
 const keywordsByImageHash = new Map();
 for (const icon of metadata) {
-  if (icon.imageStatus === "placeholder") {
-    continue;
-  }
-  const group = keywordsByImageHash.get(icon.imageSha256) || [];
+  const groupKey = icon.imageStatus === "placeholder" ? `placeholder:${icon.name}` : icon.imageSha256;
+  const group = keywordsByImageHash.get(groupKey) || [];
   group.push(icon);
-  keywordsByImageHash.set(icon.imageSha256, group);
+  keywordsByImageHash.set(groupKey, group);
 }
 for (const group of keywordsByImageHash.values()) {
-  if (group.length < 2) {
-    continue;
-  }
+  const groupNames = group.map((icon) => icon.name);
+  const reviewedSources = [...new Set(groupNames.flatMap((name) => reviewedKeywords[name] || []))];
+  const customSynonyms = [...keywordSynonymsForValues(reviewedSources, keywordSynonyms).keys()];
   const sharedKeywords = removeNameKeywords(
-    group.map((icon) => icon.name),
-    [...new Set(group.flatMap((icon) => icon.keywords))]
+    groupNames,
+    [...new Set([...group.flatMap((icon) => icon.keywords), ...customSynonyms])]
   ).sort();
   group[0].keywords = sharedKeywords;
   for (const icon of group.slice(1)) {
