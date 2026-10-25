@@ -253,5 +253,661 @@
   "_3DEffectsOnOffClassic": [
     "cube",
     "square"
+  ],
+  "_3DExtrusionDepth36Classic": [
+    "border",
+    "square"
+  ],
+  "_3DExtrusionDepth72Classic": [
+    "cuboid",
+    "stretch"
+  ],
+  "_3DExtrusionDepth144Classic": [
+    "cuboid",
+    "stretch"
+  ],
+  "_3DExtrusionDepth288Classic": [
+    "cuboid",
+    "stretch"
+  ],
+  "_3DExtrusionDepthGalleryClassic": [
+    "cuboid",
+    "stretch"
+  ],
+  "_3DExtrusionDepthInfinityClassic": [
+    "cuboid",
+    "stretch"
+  ],
+  "_3DExtrusionDepthNoneClassic": [
+    "square"
+  ],
+  "_3DExtrusionParallelClassic": [
+    "diagonal",
+    "line"
+  ],
+  "_3DExtrusionPerspectiveClassic": [
+    "dotted",
+    "line",
+    "triangle"
+  ],
+  "_3DLightGallery": [
+    "square"
+  ],
+  "_3DLightingClassic": [
+    "lamp"
+  ],
+  "_3DLightingGalleryClassic": [
+    "lamp"
+  ],
+  "_3DLightingDimClassic": [
+    "cube"
+  ],
+  "_3DLightingFlatClassic": [
+    "cube"
+  ],
+  "_3DLightingNormalClassic": [
+    "cube"
+  ],
+  "_3DMaterialGallery": [
+    "square"
+  ],
+  "_3DMaterialMetal": [
+    "prism"
+  ],
+  "_3DMaterialMixed": [
+    "prism"
+  ],
+  "_3DMaterialPlastic": [
+    "prism"
+  ],
+  "_3DPerspectiveDecrease": [
+    "arrow",
+    "less",
+    "lower",
+    "reduce"
+  ],
+  "ChartNavDrillDown": [
+    "arrow",
+    "less",
+    "lower",
+    "reduce"
+  ],
+  "GroupListToolTrack": [
+    "arrow",
+    "less",
+    "lower",
+    "reduce"
+  ],
+  "GroupTrack": [
+    "arrow",
+    "less",
+    "lower",
+    "reduce"
+  ],
+  "JotNavUINextPage": [
+    "arrow",
+    "less",
+    "lower",
+    "reduce"
+  ],
+  "LowImportance": [
+    "arrow",
+    "less",
+    "lower",
+    "reduce"
+  ],
+  "MeetingsToolNext": [
+    "arrow",
+    "less",
+    "lower",
+    "reduce"
+  ],
+  "MessageNext": [
+    "arrow",
+    "less",
+    "lower",
+    "reduce"
+  ],
+  "NavDrillDown": [
+    "arrow",
+    "less",
+    "lower",
+    "reduce"
+  ],
+  "Next": [
+    "arrow",
+    "less",
+    "lower",
+    "reduce"
+  ],
+  "NextProblemItem": [
+    "arrow",
+    "less",
+    "lower",
+    "reduce"
+  ],
+  "NextUnread": [
+    "arrow",
+    "less",
+    "lower",
+    "reduce"
+  ],
+  "SelectedItemNavDrillDown": [
+    "arrow",
+    "less",
+    "lower",
+    "reduce"
+  ],
+  "_3DPerspectiveIncrease": [
+    "arrow",
+    "higher",
+    "more",
+    "raise"
+  ],
+  "JotNavUIPrevPage": [
+    "arrow",
+    "higher",
+    "more",
+    "raise"
+  ],
+  "MeetingsToolPrevious": [
+    "arrow",
+    "higher",
+    "more",
+    "raise"
+  ],
+  "MenuPublishOnline": [
+    "arrow",
+    "higher",
+    "more",
+    "raise"
+  ],
+  "MessagePrevious": [
+    "arrow",
+    "higher",
+    "more",
+    "raise"
+  ],
+  "NavDrillUp": [
+    "arrow",
+    "higher",
+    "more",
+    "raise"
+  ],
+  "Previous": [
+    "arrow",
+    "higher",
+    "more",
+    "raise"
+  ],
+  "PreviousProblemItem": [
+    "arrow",
+    "higher",
+    "more",
+    "raise"
+  ],
+  "PreviousUnread": [
+    "arrow",
+    "higher",
+    "more",
+    "raise"
+  ],
+  "SelectedItemNavDrillUp": [
+    "arrow",
+    "higher",
+    "more",
+    "raise"
+  ],
+  "ShareWithTemplateCommunity": [
+    "arrow",
+    "higher",
+    "more",
+    "raise"
+  ],
+  "_3DStyle": [
+    "cube"
+  ],
+  "Group3DEffects": [
+    "cube"
+  ],
+  "_3DSurfaceMaterialClassic": [
+    "add",
+    "cube",
+    "insert",
+    "plus"
+  ],
+  "_3DSurfaceMaterialGalleryClassic": [
+    "add",
+    "cube",
+    "insert",
+    "plus"
+  ],
+  "_3DSurfaceMatteClassic": [
+    "cube"
+  ],
+  "_3DSurfaceMetalClassic": [
+    "cube"
+  ],
+  "_3DSurfacePlasticClassic": [
+    "cube"
+  ],
+  "_3DSurfaceWireFrameClassic": [
+    "cube"
+  ],
+  "_3DTiltDownClassic": [
+    "rotation"
+  ],
+  "_3DTiltLeftClassic": [
+    "rotation"
+  ],
+  "_3DTiltRightClassic": [
+    "rotation"
+  ],
+  "_3DTiltUpClassic": [
+    "rotation"
+  ],
+  "_4": [
+    "four",
+    "number"
+  ],
+  "_5": [
+    "five",
+    "number"
+  ],
+  "_6": [
+    "number",
+    "six"
+  ],
+  "_7": [
+    "number",
+    "seven"
+  ],
+  "_8": [
+    "eight",
+    "number"
+  ],
+  "_9": [
+    "nine",
+    "number"
+  ],
+  "_25PercentComplete": [
+    "progressbar"
+  ],
+  "_50PercentComplete": [
+    "progressbar"
+  ],
+  "_75PercentComplete": [
+    "progressbar"
+  ],
+  "_100PercentComplete": [
+    "progressbar"
+  ],
+  "GroupStatusTask": [
+    "progressbar"
+  ],
+  "Mark100PercentComplete": [
+    "progressbar"
+  ],
+  "PercentCompleteMenu": [
+    "progressbar"
+  ],
+  "A": [
+    "alpha",
+    "letter"
+  ],
+  "About": [
+    "information",
+    "mark",
+    "question"
+  ],
+  "ButtonTaskSelfSupport": [
+    "information",
+    "mark",
+    "question"
+  ],
+  "Help": [
+    "information",
+    "mark",
+    "question"
+  ],
+  "HelpLaunch": [
+    "information",
+    "mark",
+    "question"
+  ],
+  "JotNewMenuHelp": [
+    "information",
+    "mark",
+    "question"
+  ],
+  "JotShareMenuHelp": [
+    "information",
+    "mark",
+    "question"
+  ],
+  "ShapeBasicsHelp": [
+    "information",
+    "mark",
+    "question"
+  ],
+  "ShapeHelp": [
+    "information",
+    "mark",
+    "question"
+  ],
+  "AboveText": [],
+  "ObjectBringInFrontOfText": [],
+  "AcceptAndAdvance": [
+    "checkmark",
+    "document",
+    "text"
+  ],
+  "ConflictsAccept": [
+    "checkmark",
+    "document",
+    "text"
+  ],
+  "ConflictsAcceptAndMoveToNext": [
+    "checkmark",
+    "document",
+    "text"
+  ],
+  "ConflictsAcceptMenu": [
+    "checkmark",
+    "document",
+    "text"
+  ],
+  "ReviewAcceptChange": [
+    "checkmark",
+    "document",
+    "text"
+  ],
+  "ReviewAcceptChangeAndMoveToNext": [
+    "checkmark",
+    "document",
+    "text"
+  ],
+  "ReviewAcceptChangeClassic": [
+    "checkmark",
+    "document",
+    "text"
+  ],
+  "ReviewAcceptChangeMenu": [
+    "checkmark",
+    "document",
+    "text"
+  ],
+  "ReviewRevisionAccept": [
+    "checkmark",
+    "document",
+    "text"
+  ],
+  "ReviewRevisionAcceptMenu": [
+    "checkmark",
+    "document",
+    "text"
+  ],
+  "AcceptInvitation": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "AcceptProposal": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "AcceptTask": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "ApproveApprovalRequest": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "ChangeToAcceptInvitation": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "ContactCardUntagForAlerts": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "GroupInkCreate": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "InkShapeClose": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "KeepBackgroundRemoval": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "MarkTaskComplete": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "MenuAcceptInvitation": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "OutlookTaskMarkComplete": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "OutlookTaskMarkCompleteContextual": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "PersonaMenuUnTagContact": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "QuickSearchAllCompleted": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "QuickSearchCompletedToday": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "QuickSearchCompleteMenu": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "QuickSearchJournalEndDateGallery": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "SharingRequestAllow": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "TagMarkComplete": [
+    "checkmark",
+    "find",
+    "lookup"
+  ],
+  "AccessFormDatasheet": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "AccessListCustomDatasheet": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "CatalogMergeMoreRowsColumns": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "CatalogMergeRowsColumnsGallery": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "ColumnsGroup": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "CreateDatasheetView": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "CreateSharePointList": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "CreateTable": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "CreateTableTemplatesGallery": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "CustomTablesGallery": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "FPTable": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "GroupCreateTables": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "GroupCreateTablesWeb": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "GroupInsertTables": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "InsertTable": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "LayoutTable": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "QuickTablesInsertGallery": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "TableInsert": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "TableInsertDialog": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "TableInsertDialogWord": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "TableInsertGallery": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "TableInsertGalleryAlternate": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "TableInsertGallerySpd": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "TableLayoutInfoPath": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "TableRowsOrColumnsOrCellsInsert": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "ToggleAddTableUI": [
+    "calendar",
+    "grid",
+    "new"
+  ],
+  "AccessFormModalDialog": [],
+  "AccessFormModalDialogWeb": [],
+  "AccessFormPivotTable": [
+    "grid"
+  ],
+  "DefaultPivotTable": [
+    "grid"
+  ],
+  "PivotMoveField": [
+    "grid"
+  ],
+  "PivotTableEnableWhatIfAnalysis": [
+    "grid"
+  ],
+  "PivotTableInsert": [
+    "grid"
+  ],
+  "PivotTableReport": [
+    "grid"
+  ],
+  "PwaDataAnalysis": [
+    "grid"
+  ],
+  "TableSummarizeWithPivot": [
+    "grid"
+  ],
+  "ViewsPivotTableView": [
+    "grid"
+  ],
+  "AccessFormWizard": [
+    "magic",
+    "spark"
   ]
 }

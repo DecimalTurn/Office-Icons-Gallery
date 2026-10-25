@@ -1,12 +1,13 @@
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
-const { removeNameKeywords, splitIconName } = require("./scripts/keyword-utils");
+const { nameKeywords, nameWordSynonyms, normalizeNameSynonyms, removeNameKeywords, splitIconName } = require("./scripts/keyword-utils");
 
 const imagesPath = path.join(__dirname, "images");
 const sharedImagesPath = path.join(imagesPath, "by-hash");
 const outputPath = path.join(__dirname, "icon-metadata.json");
 const iconDetailsPath = path.join(__dirname, "icon-details");
+const nameSynonymsPath = path.join(__dirname, "icon-name-synonyms.json");
 const placeholderManifestPath = path.join(__dirname, "assets", "placeholders", "manifest.tsv");
 const imageFiles = fs.readdirSync(imagesPath, { withFileTypes: true })
   .filter((entry) => entry.isFile() && path.extname(entry.name).toLowerCase() === ".png");
@@ -47,6 +48,10 @@ for (const row of placeholderRows) {
 
 iconNames.sort((left, right) =>
   left.localeCompare(right, "en", { numeric: true, sensitivity: "base" }) || left.localeCompare(right)
+);
+const nameSynonyms = normalizeNameSynonyms(
+  JSON.parse(fs.readFileSync(nameSynonymsPath, "utf8")),
+  nameKeywords(iconNames)
 );
 
 const imageHashByName = new Map();
@@ -353,6 +358,7 @@ const metadata = iconNames.map((name) => {
   const sameImageIds = placeholder
     ? []
     : (namesByImageHash.get(imageHash) || []).filter((otherName) => otherName !== name);
+  const synonymKeywords = [...nameWordSynonyms([name, ...sameImageIds], nameSynonyms).keys()];
   if (relatedIcons.length > 0 || sameImageIds.length > 0) {
     iconDetailsByName.set(name, { relatedIcons, sameImageIds });
   }
@@ -364,6 +370,7 @@ const metadata = iconNames.map((name) => {
   ];
   const keywords = new Set(removeNameKeywords([name], [
     ...(Object.hasOwn(reviewedKeywords, name) ? reviewedKeywords[name] : generatedKeywords)
+      .concat(synonymKeywords)
       .map((keyword) => keyword.trim().toLocaleLowerCase("en"))
   ]));
 

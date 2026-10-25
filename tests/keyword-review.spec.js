@@ -19,7 +19,7 @@ const imageGroupByName = new Map([...iconsByImageHash.values()].flatMap((iconIds
   iconIds.map((iconId) => [iconId, iconIds])
 ));
 
-async function mockKeywordReview(page, { confirmDelay = 0, keywordOverrides = {} } = {}) {
+async function mockKeywordReview(page, { confirmDelay = 0, keywordOverrides = {}, synonyms = {} } = {}) {
   const confirmed = [];
   const resets = [];
   await page.route("**/api/reference-lists", async (route) => {
@@ -31,6 +31,9 @@ async function mockKeywordReview(page, { confirmDelay = 0, keywordOverrides = {}
   });
   await page.route("**/icon-review-status.json", async (route) => {
     await route.fulfill({ json: {} });
+  });
+  await page.route("**/api/name-synonyms", async (route) => {
+    await route.fulfill({ json: { synonyms } });
   });
   if (Object.keys(keywordOverrides).length > 0) {
     await page.route("**/icon-metadata.json", async (route) => {
@@ -51,7 +54,7 @@ async function mockKeywordReview(page, { confirmDelay = 0, keywordOverrides = {}
         return;
       }
       const iconIds = imageGroupByName.get(body.iconId) || [body.iconId];
-      const keywords = normalizeReviewedKeywordGroup(iconIds, body.keywords);
+      const keywords = normalizeReviewedKeywordGroup(iconIds, body.keywords, synonyms);
       confirmed.push({ ...body, iconIds, keywords });
       await route.fulfill({ json: {
         iconId: body.iconId,
@@ -179,6 +182,38 @@ test("lists same-image name words and marks matching keywords red", async ({ pag
     background.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);
   expect(channels).not.toBeNull();
   expect(Number(channels[1])).toBeGreaterThan(Number(channels[2]));
+});
+
+test("locks configured synonyms and names their source word", async ({ page }) => {
+  const iconId = "_3DEffectColorPickerClassic";
+  const imageGroupIds = imageGroupByName.get(iconId);
+  const keywordOverrides = Object.fromEntries(imageGroupIds.map((name) => [name, ["pail", "colour"]]));
+  const { confirmed } = await mockKeywordReview(page, {
+    keywordOverrides,
+    synonyms: { bucket: ["pail"] }
+  });
+
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(iconId)}`);
+
+  const pailInput = await page.locator(".keyword-row input").evaluateAll((inputs) => {
+    const input = inputs.find((entry) => entry.value === "pail");
+    const lock = input.parentElement.querySelector(".keyword-lock-indicator");
+    return {
+      readOnly: input.readOnly,
+      inputTitle: input.title,
+      lockTitle: lock.title,
+      lockText: lock.textContent
+    };
+  });
+  expect(pailInput.readOnly).toBe(true);
+  expect(pailInput.inputTitle).toContain("bucket");
+  expect(pailInput.lockTitle).toContain("bucket");
+  expect(pailInput.lockText).toBe("\uD83D\uDD12");
+  await expect(page.getByRole("button", { name: "Remove keyword pail" })).toHaveCount(0);
+
+  await page.getByRole("button", { name: "Confirm review" }).click();
+  await expect.poll(() => confirmed.length).toBe(1);
+  expect(confirmed[0].keywords).toContain("pail");
 });
 
 test("opens the icon selected by the URL parameter", async ({ page }) => {

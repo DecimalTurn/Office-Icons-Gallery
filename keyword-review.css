@@ -17,10 +17,18 @@
 }
 
 .review-back,
-.review-footer a {
+.review-footer a,
+.review-page-nav a {
   color: var(--accent-color);
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
+}
+
+.review-page-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  font-size: 0.88rem;
 }
 
 .review-heading-row,
@@ -394,6 +402,16 @@
 .keyword-row input.keyword-from-name {
   border-color: color-mix(in srgb, var(--danger-color) 55%, var(--border-color));
   background: color-mix(in srgb, var(--danger-color) 16%, var(--control-background));
+}
+
+.keyword-lock-indicator {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  color: var(--muted-foreground);
+  font-size: 0.95rem;
+  cursor: help;
 }
 
 .keyword-row .awesomplete {

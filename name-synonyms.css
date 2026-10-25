@@ -1,0 +1,219 @@
+.synonym-heading-row {
+  align-items: center;
+}
+
+.synonym-heading-row p {
+  margin-bottom: 0;
+}
+
+.synonym-heading-row > a {
+  flex: 0 0 auto;
+  text-decoration: none;
+}
+
+.synonym-source-section,
+.selected-source-section,
+.configured-synonyms-section {
+  padding: 22px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.synonym-source-section h2,
+.synonym-section-heading h2 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.synonym-source-form {
+  max-width: 620px;
+  margin-top: 12px;
+}
+
+.synonym-source-form label,
+.synonym-add-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--muted-foreground);
+  font-size: 0.82rem;
+}
+
+.synonym-control-row {
+  display: flex;
+  gap: 8px;
+}
+
+.synonym-control-row input {
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 40px;
+  padding: 7px 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--control-background);
+  color: var(--page-foreground);
+  font: inherit;
+}
+
+.synonym-control-row input:focus-visible {
+  border-color: var(--accent-color);
+  outline: 2px solid color-mix(in srgb, var(--accent-color) 35%, transparent);
+  outline-offset: 1px;
+}
+
+.synonym-section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.synonym-eyebrow {
+  margin: 0 0 3px;
+  color: var(--muted-foreground);
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.synonym-count {
+  color: var(--muted-foreground);
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
+.synonym-add-form {
+  max-width: 620px;
+  margin-top: 16px;
+}
+
+.empty-synonyms-message {
+  margin: 14px 0 0;
+  color: var(--muted-foreground);
+  font-size: 0.9rem;
+}
+
+.synonym-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.synonym-chip-list:empty {
+  display: none;
+}
+
+.synonym-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 32px;
+  padding: 2px 4px 2px 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--surface-background);
+  color: var(--page-foreground);
+  font-size: 0.84rem;
+}
+
+.synonym-chip button {
+  display: grid;
+  place-items: center;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  color: var(--danger-color);
+  font: inherit;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+
+.synonym-chip button:hover {
+  background: var(--control-background);
+}
+
+.configured-synonyms-list {
+  display: grid;
+  gap: 0;
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.configured-synonyms-row {
+  display: grid;
+  grid-template-columns: minmax(120px, 1fr) minmax(0, 3fr) auto;
+  align-items: center;
+  gap: 12px;
+  min-height: 42px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.configured-synonyms-row > button:first-child {
+  justify-self: start;
+  padding: 4px 0;
+  border: 0;
+  background: transparent;
+  color: var(--accent-color);
+  font: inherit;
+  font-weight: 650;
+  text-align: left;
+  cursor: pointer;
+}
+
+.configured-synonym-terms {
+  color: var(--muted-foreground);
+  font-size: 0.85rem;
+  overflow-wrap: anywhere;
+}
+
+.configured-synonyms-row .review-icon-button {
+  width: 32px;
+  height: 32px;
+  flex-basis: 32px;
+  font-size: 1rem;
+}
+
+.synonym-save-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding-top: 18px;
+}
+
+.synonym-save-note {
+  margin: 8px 0 0;
+  color: var(--muted-foreground);
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .synonym-heading-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .synonym-control-row {
+    align-items: stretch;
+  }
+
+  .synonym-control-row .review-button {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .configured-synonyms-row {
+    grid-template-columns: minmax(80px, 1fr) minmax(0, 2fr) 36px;
+    gap: 8px;
+  }
+
+  .synonym-save-note {
+    text-align: left;
+  }
+}

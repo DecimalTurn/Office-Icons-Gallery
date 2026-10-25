@@ -3,7 +3,7 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
-const { nameKeywords, normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, removeNameKeywords, updateMetadataKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
+const { nameKeywords, nameWordSynonyms, normalizeNameSynonyms, normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, removeNameKeywords, updateMetadataKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
 
 test("metadata excludes every icon-name word from keywords", async () => {
   const reviewedKeywords = require("../icon-keywords.json");
@@ -76,6 +76,17 @@ test("metadata excludes every icon-name word from keywords", async () => {
   ]);
   expect(nameKeywords(["_3DBevelOptionsDialog"])).toEqual(new Set(["3", "d", "bevel", "options", "dialog"]));
   expect(normalizeReviewedKeywordGroup(["_3DBevelOptionsDialog"], ["3", "d", "bevel"])).toEqual([]);
+  const imageGroupNames = ["_3DEffectColorPickerClassic", "IconBucketTool", "GroupIconEditPaint"];
+  const synonyms = { bucket: ["pail"], paint: ["brush"] };
+  expect([...nameWordSynonyms(imageGroupNames, synonyms)]).toEqual([
+    ["pail", ["bucket"]], ["brush", ["paint"]]
+  ]);
+  expect(normalizeReviewedKeywordGroup(imageGroupNames, ["bucket", "paint", "colour"], synonyms)).toEqual([
+    "brush", "colour", "pail"
+  ]);
+  expect(normalizeNameSynonyms({ " BUCKET ": [" Pail ", "pail"] }, nameKeywords(imageGroupNames))).toEqual({
+    bucket: ["pail"]
+  });
   expect(normalizeReviewedKeywordGroup(["_3DBevelOptionsDialog", "ChartFormatSelection"], [" Blue Pigment "])).toEqual([
     "blue pigment"
   ]);

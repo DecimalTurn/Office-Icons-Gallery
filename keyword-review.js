@@ -29,6 +29,7 @@
     activeResult: -1,
     keywordBaseline: [],
     keywordSuggestions: [],
+    nameSynonyms: {},
     sameImageIdsByName: new Map(),
     reviewRepresentativeById: new Map()
   };
@@ -78,6 +79,24 @@
       .flatMap(splitIconName));
   }
 
+  function synonymSourcesByKeyword() {
+    const nameWords = nameKeywords();
+    const sourcesByKeyword = new Map();
+    for (const [source, synonyms] of Object.entries(state.nameSynonyms)) {
+      const normalizedSource = source.toLocaleLowerCase("en");
+      if (!nameWords.has(normalizedSource)) {
+        continue;
+      }
+      for (const synonym of synonyms) {
+        const normalizedSynonym = synonym.toLocaleLowerCase("en");
+        const sources = sourcesByKeyword.get(normalizedSynonym) || [];
+        sources.push(normalizedSource);
+        sourcesByKeyword.set(normalizedSynonym, sources);
+      }
+    }
+    return sourcesByKeyword;
+  }
+
   function renderNameWordTags() {
     const words = [...nameKeywords()].sort((left, right) => left.localeCompare(right, "en"));
     elements.nameWordTags.replaceChildren(...words.map((word) => {
@@ -106,10 +125,11 @@
     elements.markNotReviewed.hidden = !reviewed;
   }
 
-  function createKeywordRow(keyword, index, nameDerived) {
+  function createKeywordRow(keyword, index, nameDerived, synonymSources = []) {
     const row = document.createElement("div");
     const input = document.createElement("input");
-    const remove = document.createElement("button");
+    const lockedSynonym = synonymSources.length > 0;
+    const remove = document.createElement(lockedSynonym ? "span" : "button");
 
     row.className = "keyword-row";
     input.type = "text";
@@ -117,18 +137,29 @@
     input.autocomplete = "off";
     input.spellcheck = false;
     input.value = keyword;
+    input.readOnly = lockedSynonym;
     input.classList.toggle("keyword-from-name", nameDerived);
     input.setAttribute("aria-label", `Keyword ${index + 1}`);
-    input.title = nameDerived ? "Icon ID word; excluded when saved" : "Edit keyword";
-    remove.type = "button";
-    remove.className = "review-icon-button keyword-remove-button";
-    remove.dataset.removeKeyword = "true";
-    remove.setAttribute("aria-label", `Remove keyword ${keyword || index + 1}`);
-    remove.title = "Remove keyword";
-    remove.innerHTML = "&#128465;";
+    input.title = lockedSynonym
+      ? `Locked synonym for: ${synonymSources.join(", ")}`
+      : nameDerived ? "Icon ID word; excluded when saved" : "Edit keyword";
+    if (lockedSynonym) {
+      remove.className = "keyword-lock-indicator";
+      remove.setAttribute("role", "img");
+      remove.setAttribute("aria-label", `Locked synonym for ${synonymSources.join(", ")}`);
+      remove.title = `Synonym for: ${synonymSources.join(", ")}`;
+      remove.textContent = "\uD83D\uDD12";
+    } else {
+      remove.type = "button";
+      remove.className = "review-icon-button keyword-remove-button";
+      remove.dataset.removeKeyword = "true";
+      remove.setAttribute("aria-label", `Remove keyword ${keyword || index + 1}`);
+      remove.title = "Remove keyword";
+      remove.innerHTML = "&#128465;";
+    }
     row.append(input, remove);
     let autocomplete = null;
-    if (!nameDerived) {
+    if (!nameDerived && !lockedSynonym) {
       input.classList.add("awesomplete");
       autocomplete = new Awesomplete(input, {
         list: state.keywordSuggestions,
@@ -153,11 +184,12 @@
 
   function renderKeywords(keywords) {
     const fromName = nameKeywords();
+    const synonymSources = synonymSourcesByKeyword();
     const normalized = [...new Set((keywords || [])
       .map((keyword) => String(keyword).trim().toLocaleLowerCase("en"))
       .filter(Boolean))];
     elements.keywordEditor.replaceChildren(...normalized.map((keyword, index) =>
-      createKeywordRow(keyword, index, fromName.has(keyword))
+      createKeywordRow(keyword, index, fromName.has(keyword), synonymSources.get(keyword) || [])
     ));
     state.keywordBaseline = readKeywords();
   }
@@ -395,10 +427,12 @@
 
   async function initialize() {
     try {
-      const [metadata, reviewStatus] = await Promise.all([
+      const [metadata, reviewStatus, synonymResponse] = await Promise.all([
         requestJson("./icon-metadata.json"),
-        requestJson("./icon-review-status.json")
+        requestJson("./icon-review-status.json"),
+        requestJson("/api/name-synonyms")
       ]);
+      state.nameSynonyms = synonymResponse.synonyms || {};
       const iconsByImageHash = new Map();
       for (const icon of metadata) {
         if (icon.imageStatus === "placeholder" || !icon.imageSha256) {

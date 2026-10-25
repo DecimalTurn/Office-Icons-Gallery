@@ -1,16 +1,19 @@
 const http = require("node:http");
 const fs = require("node:fs");
 const path = require("node:path");
-const { normalizeReviewedKeywordGroup, readJsonFile, readReviewStatus, updateMetadataKeywords, updateReviewStatus } = require("./keyword-utils");
+const { spawnSync } = require("node:child_process");
+const { nameKeywords, normalizeNameSynonyms, normalizeReviewedKeywordGroup, readJsonFile, readReviewStatus, updateMetadataKeywords, updateReviewStatus } = require("./keyword-utils");
 
 const root = path.resolve(__dirname, "..");
 const port = Number(process.env.PORT || process.argv[2] || 8000);
 const metadataPath = path.join(root, "icon-metadata.json");
 const keywordsPath = path.join(root, "icon-keywords.json");
 const reviewStatusPath = path.join(root, "icon-review-status.json");
+const nameSynonymsPath = path.join(root, "icon-name-synonyms.json");
 const referenceListsPath = path.join(root, ".reference-icon-lists.json");
-const metadata = JSON.parse(fs.readFileSync(metadataPath, "utf8"));
+let metadata = JSON.parse(fs.readFileSync(metadataPath, "utf8"));
 const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
+const availableNameWords = nameKeywords(metadata.map((icon) => icon.name));
 const contentTypes = {
   ".css": "text/css; charset=utf-8",
   ".html": "text/html; charset=utf-8",
@@ -94,6 +97,53 @@ function validateReferenceLists(value) {
 async function handleApi(request, response, requestUrl) {
   const { pathname } = requestUrl;
 
+  if (pathname === "/api/name-synonyms" && request.method === "GET") {
+    try {
+      sendJson(response, 200, { synonyms: readJsonFile(nameSynonymsPath) });
+    } catch {
+      sendJson(response, 500, { error: "Could not read name synonyms" });
+    }
+    return true;
+  }
+
+  if (pathname === "/api/name-synonyms" && request.method === "PUT") {
+    let body;
+    try {
+      body = await readJsonBody(request, 512_000);
+    } catch (error) {
+      sendJson(response, 400, { error: error.message === "Request body is too large" ? error.message : "Request must contain valid JSON" });
+      return true;
+    }
+    try {
+      const synonyms = normalizeNameSynonyms(body.synonyms, availableNameWords);
+      const previousSynonyms = fs.readFileSync(nameSynonymsPath, "utf8");
+      writeJsonFile(nameSynonymsPath, synonyms);
+      const generation = spawnSync(process.execPath, [path.join(root, "generate-icon-metadata.js")], {
+        cwd: root,
+        encoding: "utf8",
+        maxBuffer: 10_000_000
+      });
+      if (generation.error || generation.status !== 0) {
+        fs.writeFileSync(nameSynonymsPath, previousSynonyms, "utf8");
+        spawnSync(process.execPath, [path.join(root, "generate-icon-metadata.js")], {
+          cwd: root,
+          encoding: "utf8",
+          maxBuffer: 10_000_000
+        });
+        throw new Error(generation.stderr?.trim() || generation.error?.message || "Could not regenerate icon keywords");
+      }
+      metadata = readJsonFile(metadataPath);
+      metadataByName.clear();
+      for (const icon of metadata) {
+        metadataByName.set(icon.name, icon);
+      }
+      sendJson(response, 200, { synonyms, metadataUpdated: true });
+    } catch (error) {
+      sendJson(response, 400, { error: error.message || "Could not save name synonyms" });
+    }
+    return true;
+  }
+
   if (pathname === "/api/reference-lists" && request.method === "GET") {
     try {
       sendJson(response, 200, { lists: readReferenceLists() });
@@ -142,7 +192,7 @@ async function handleApi(request, response, requestUrl) {
       const iconIds = icon.imageStatus === "placeholder" || !icon.imageSha256
         ? [iconId]
         : currentMetadata.filter((entry) => entry.imageStatus !== "placeholder" && entry.imageSha256 === icon.imageSha256).map((entry) => entry.name);
-      const keywords = normalizeReviewedKeywordGroup(iconIds, body.keywords);
+      const keywords = normalizeReviewedKeywordGroup(iconIds, body.keywords, readJsonFile(nameSynonymsPath));
       const nextKeywords = { ...readJsonFile(keywordsPath) };
       for (const groupIconId of iconIds) {
         nextKeywords[groupIconId] = keywords;

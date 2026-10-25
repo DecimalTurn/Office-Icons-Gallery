@@ -117,43 +117,63 @@
   {
     "name": "_3DExtrusionDepth36Classic",
     "imageAsset": "images/by-hash/3924c4190fdea26e.png",
-    "keywords": [],
+    "keywords": [
+      "border",
+      "square"
+    ],
     "imageSha256": "3924C4190FDEA26EF9FEC52ED785F95DA959DD7B76DB29A925640E54C5A9FCCE"
   },
   {
     "name": "_3DExtrusionDepth72Classic",
     "imageAsset": "images/by-hash/4d10c76417a09c60.png",
-    "keywords": [],
+    "keywords": [
+      "cuboid",
+      "stretch"
+    ],
     "imageSha256": "4D10C76417A09C60D53E0969D5739A6FE40F52533B1291379EB337B9100891AA"
   },
   {
     "name": "_3DExtrusionDepth144Classic",
     "imageAsset": "images/by-hash/7cbd887660907a6d.png",
-    "keywords": [],
+    "keywords": [
+      "cuboid",
+      "stretch"
+    ],
     "imageSha256": "7CBD887660907A6D87BF3BBDF8AD103C848A2B0AAC4E44D7C70AB473CD50FBEE"
   },
   {
     "name": "_3DExtrusionDepth288Classic",
     "imageAsset": "images/by-hash/d883faae27af688d.png",
-    "keywords": [],
+    "keywords": [
+      "cuboid",
+      "stretch"
+    ],
     "imageSha256": "D883FAAE27AF688DD9FF4049CE5300C5F4D2BB34487BB4DD1146781712A5DF52"
   },
   {
     "name": "_3DExtrusionDepthGalleryClassic",
     "imageAsset": "images/by-hash/42196e9efc604373.png",
-    "keywords": [],
+    "keywords": [
+      "cuboid",
+      "stretch"
+    ],
     "imageSha256": "42196E9EFC604373B4AEC85FDA0E40D6D702C2B55FD0ABBF82F32EABB4D92EC3"
   },
   {
     "name": "_3DExtrusionDepthInfinityClassic",
     "imageAsset": "images/by-hash/42196e9efc604373.png",
-    "keywords": [],
+    "keywords": [
+      "cuboid",
+      "stretch"
+    ],
     "imageSha256": "42196E9EFC604373B4AEC85FDA0E40D6D702C2B55FD0ABBF82F32EABB4D92EC3"
   },
   {
     "name": "_3DExtrusionDepthNoneClassic",
     "imageAsset": "images/by-hash/a145561b043f3641.png",
-    "keywords": [],
+    "keywords": [
+      "square"
+    ],
     "imageSha256": "A145561B043F36412A8323EDDE7259BACBF95EB4A43BCA914D28A05474839B52"
   },
   {
@@ -168,84 +188,110 @@
   {
     "name": "_3DExtrusionParallelClassic",
     "imageAsset": "images/by-hash/1ff1b3590e26e512.png",
-    "keywords": [],
+    "keywords": [
+      "diagonal",
+      "line"
+    ],
     "imageSha256": "1FF1B3590E26E512D18DFDA689B284B521CB1A90FE2F34D841C1364336A5F244"
   },
   {
     "name": "_3DExtrusionPerspectiveClassic",
     "imageAsset": "images/by-hash/8c4a167e565463f4.png",
-    "keywords": [],
+    "keywords": [
+      "dotted",
+      "line",
+      "triangle"
+    ],
     "imageSha256": "8C4A167E565463F4FF8DECDBB8203D111F9E56BBB9B50EFDA7E6742250317A70"
   },
   {
     "name": "_3DLightGallery",
     "imageAsset": "images/by-hash/ca59052966d9fafc.png",
-    "keywords": [],
+    "keywords": [
+      "square"
+    ],
     "imageSha256": "CA59052966D9FAFCD92525ABF6A351E744C72BBCF9CB3A8246C8FC44C3C8AB70"
   },
   {
     "name": "_3DLightingClassic",
     "imageAsset": "images/by-hash/a0c0f4caffae01f3.png",
-    "keywords": [],
+    "keywords": [
+      "lamp"
+    ],
     "imageSha256": "A0C0F4CAFFAE01F32709A8656C9806C2DC682CE15C2E7D93BC42F47590613854"
   },
   {
     "name": "_3DLightingDimClassic",
     "imageAsset": "images/by-hash/2815e70dbe7d7642.png",
-    "keywords": [],
+    "keywords": [
+      "cube"
+    ],
     "imageSha256": "2815E70DBE7D7642B02A31948A67B367A74D31340C3364D348937A46EDC9E391"
   },
   {
     "name": "_3DLightingFlatClassic",
     "imageAsset": "images/by-hash/1943882723dd9b94.png",
-    "keywords": [],
+    "keywords": [
+      "cube"
+    ],
     "imageSha256": "1943882723DD9B949CD734AA6C9AA3DCC629EBF73A6AEA73092096B9CDC923B9"
   },
   {
     "name": "_3DLightingGalleryClassic",
     "imageAsset": "images/by-hash/a0c0f4caffae01f3.png",
-    "keywords": [],
+    "keywords": [
+      "lamp"
+    ],
     "imageSha256": "A0C0F4CAFFAE01F32709A8656C9806C2DC682CE15C2E7D93BC42F47590613854"
   },
   {
     "name": "_3DLightingNormalClassic",
     "imageAsset": "images/by-hash/ef2a3c9a108e2e7d.png",
-    "keywords": [],
+    "keywords": [
+      "cube"
+    ],
     "imageSha256": "EF2A3C9A108E2E7D6F7A658D7326F63722F3A8AF70BDA1D6D10F3C0547716D42"
   },
   {
     "name": "_3DMaterialGallery",
     "imageAsset": "images/by-hash/e34eb54c888e40a0.png",
-    "keywords": [],
+    "keywords": [
+      "square"
+    ],
     "imageSha256": "E34EB54C888E40A018F71D06A46169C1E9846A8D378680BD4F322249AF7EB097"
   },
   {
     "name": "_3DMaterialMetal",
     "imageAsset": "images/by-hash/a68a2cae81684f42.png",
-    "keywords": [],
+    "keywords": [
+      "prism"
+    ],
     "imageSha256": "A68A2CAE81684F42D2D3085E151BEECFAE570B49F6D520EB554297C8DF8BA27B"
   },
   {
     "name": "_3DMaterialMixed",
     "imageAsset": "images/by-hash/6a125824c21803dd.png",
-    "keywords": [],
+    "keywords": [
+      "prism"
+    ],
     "imageSha256": "6A125824C21803DD8C810478A896A98E5DC39ABF0E16C4B703B810179E0CF4F6"
   },
   {
     "name": "_3DMaterialPlastic",
     "imageAsset": "images/by-hash/a4e97b65fce60bc5.png",
-    "keywords": [],
+    "keywords": [
+      "prism"
+    ],
     "imageSha256": "A4E97B65FCE60BC58D07461E70AC39CE655642638887315E6671D5994FE9506C"
   },
   {
     "name": "_3DPerspectiveDecrease",
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
-      "graph",
+      "arrow",
       "less",
       "lower",
-      "reduce",
-      "visualization"
+      "reduce"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -253,6 +299,7 @@
     "name": "_3DPerspectiveIncrease",
     "imageAsset": "images/by-hash/9c3ea6230877361d.png",
     "keywords": [
+      "arrow",
       "higher",
       "more",
       "raise"
@@ -281,139 +328,200 @@
   {
     "name": "_3DStyle",
     "imageAsset": "images/by-hash/cba7c0795e843fbd.png",
-    "keywords": [],
+    "keywords": [
+      "cube"
+    ],
     "imageSha256": "CBA7C0795E843FBDDFA3CD8FDC11E2B2F59EC8400DC42C136B469FB39BE1726E"
   },
   {
     "name": "_3DSurfaceMaterialClassic",
     "imageAsset": "images/by-hash/2f28872e58d8de88.png",
-    "keywords": [],
+    "keywords": [
+      "add",
+      "cube",
+      "insert",
+      "plus"
+    ],
     "imageSha256": "2F28872E58D8DE88AA14C2A37F8A0ABE8C53083E5F7AF25494B7911A3DE85B0B"
   },
   {
     "name": "_3DSurfaceMaterialGalleryClassic",
     "imageAsset": "images/by-hash/2f28872e58d8de88.png",
-    "keywords": [],
+    "keywords": [
+      "add",
+      "cube",
+      "insert",
+      "plus"
+    ],
     "imageSha256": "2F28872E58D8DE88AA14C2A37F8A0ABE8C53083E5F7AF25494B7911A3DE85B0B"
   },
   {
     "name": "_3DSurfaceMatteClassic",
     "imageAsset": "images/by-hash/98a6151e6fd28abe.png",
-    "keywords": [],
+    "keywords": [
+      "cube"
+    ],
     "imageSha256": "98A6151E6FD28ABE73884E2A95BA57D5D33BD20D168C1DDFDD5F105507835522"
   },
   {
     "name": "_3DSurfaceMetalClassic",
     "imageAsset": "images/by-hash/f1d876fe9033b256.png",
-    "keywords": [],
+    "keywords": [
+      "cube"
+    ],
     "imageSha256": "F1D876FE9033B2568477ABFD828391B735AEAD28A40D7C401FA77BAA59DF0D4C"
   },
   {
     "name": "_3DSurfacePlasticClassic",
     "imageAsset": "images/by-hash/de23e5fb0db9143d.png",
-    "keywords": [],
+    "keywords": [
+      "cube"
+    ],
     "imageSha256": "DE23E5FB0DB9143D95DD0039ED24EFA725D40FC6738A8C1A8081B5A0203CA0F7"
   },
   {
     "name": "_3DSurfaceWireFrameClassic",
     "imageAsset": "images/by-hash/10048e73d673db65.png",
-    "keywords": [],
+    "keywords": [
+      "cube"
+    ],
     "imageSha256": "10048E73D673DB65D871232764C6D9AD2653FD9239CA9D231DB52EEA77868FC0"
   },
   {
     "name": "_3DTiltDownClassic",
     "imageAsset": "images/by-hash/3feb97f7e19ab7cd.png",
-    "keywords": [],
+    "keywords": [
+      "rotation"
+    ],
     "imageSha256": "3FEB97F7E19AB7CD6A9731C22FF96CFADECDCF95DB416CBDDAE24179C8953241"
   },
   {
     "name": "_3DTiltLeftClassic",
     "imageAsset": "images/by-hash/2d5efc2c9652df88.png",
-    "keywords": [],
+    "keywords": [
+      "rotation"
+    ],
     "imageSha256": "2D5EFC2C9652DF88EFF6D36E589AB1FB19D94EFA490829D4B65E47758BF5E338"
   },
   {
     "name": "_3DTiltRightClassic",
     "imageAsset": "images/by-hash/645c9614d20791ed.png",
-    "keywords": [],
+    "keywords": [
+      "rotation"
+    ],
     "imageSha256": "645C9614D20791ED1E9E069406D5B4BE4DAE6F568A5B57B693AB08F024FBB642"
   },
   {
     "name": "_3DTiltUpClassic",
     "imageAsset": "images/by-hash/7a46f6d38b719d2e.png",
-    "keywords": [],
+    "keywords": [
+      "rotation"
+    ],
     "imageSha256": "7A46F6D38B719D2EEB53E91FC45F128C68175AB886405478773FBCA648749CBB"
   },
   {
     "name": "_4",
     "imageAsset": "images/by-hash/3f2314473779fa17.png",
-    "keywords": [],
+    "keywords": [
+      "four",
+      "number"
+    ],
     "imageSha256": "3F2314473779FA17870C63B9ED7EE3E34632AED5EF0A97BD4C692BC205698640"
   },
   {
     "name": "_5",
     "imageAsset": "images/by-hash/17934306988440af.png",
-    "keywords": [],
+    "keywords": [
+      "five",
+      "number"
+    ],
     "imageSha256": "17934306988440AFF48DF6DC402848853C30D345704D82EF224051C9FB2ACB30"
   },
   {
     "name": "_6",
     "imageAsset": "images/by-hash/23087ca130bc5430.png",
-    "keywords": [],
+    "keywords": [
+      "number",
+      "six"
+    ],
     "imageSha256": "23087CA130BC54306EB04F6420F1F107D2D9377A7E0C75FD8547C864F768F622"
   },
   {
     "name": "_7",
     "imageAsset": "images/by-hash/4e6f924cb509f37d.png",
-    "keywords": [],
+    "keywords": [
+      "number",
+      "seven"
+    ],
     "imageSha256": "4E6F924CB509F37D0B4D808E7187D275D31BFA3B958269CD342CAEDDC87897F0"
   },
   {
     "name": "_8",
     "imageAsset": "images/by-hash/e6ab2167362b7b0e.png",
-    "keywords": [],
+    "keywords": [
+      "eight",
+      "number"
+    ],
     "imageSha256": "E6AB2167362B7B0EAC2CF160CB79B954CF223806BACB2932926A132099D087A4"
   },
   {
     "name": "_9",
     "imageAsset": "images/by-hash/7e4b4a988ea1ffaf.png",
-    "keywords": [],
+    "keywords": [
+      "nine",
+      "number"
+    ],
     "imageSha256": "7E4B4A988EA1FFAFA5D5DC9355CD73FC4404ACEDC10A9AD53BA8741A8837707E"
   },
   {
     "name": "_25PercentComplete",
     "imageAsset": "images/by-hash/1e2dc1a06011d8ce.png",
-    "keywords": [],
+    "keywords": [
+      "progressbar"
+    ],
     "imageSha256": "1E2DC1A06011D8CEF065FC22DDA2DB7C70CAB1566CD466BB377D64668C934073"
   },
   {
     "name": "_50PercentComplete",
     "imageAsset": "images/by-hash/350125dd384138ec.png",
-    "keywords": [],
+    "keywords": [
+      "progressbar"
+    ],
     "imageSha256": "350125DD384138ECE31E1E393792105F7C0BFBA82728BB1B0904D1181678ADAC"
   },
   {
     "name": "_75PercentComplete",
     "imageAsset": "images/by-hash/389488a2b2f23e55.png",
-    "keywords": [],
+    "keywords": [
+      "progressbar"
+    ],
     "imageSha256": "389488A2B2F23E555D4C76DC684A333C1FEE7A116AB19715800A96A6FDD5E738"
   },
   {
     "name": "_100PercentComplete",
     "imageAsset": "images/by-hash/8f8754120435881b.png",
-    "keywords": [],
+    "keywords": [
+      "progressbar"
+    ],
     "imageSha256": "8F8754120435881B503558276C72717AB66991F7EFAF8A2A09F6EF178BF4AF79"
   },
   {
     "name": "A",
     "imageAsset": "images/by-hash/c106d0b8dfb8e3c3.png",
-    "keywords": [],
+    "keywords": [
+      "alpha",
+      "letter"
+    ],
     "imageSha256": "C106D0B8DFB8E3C3D20B4CF3F90A1507D7EC1ED856615B0E62E1242EC8C54F41"
   },
   {
     "name": "About",
     "imageAsset": "images/by-hash/072bbff7740733ff.png",
-    "keywords": [],
+    "keywords": [
+      "information",
+      "mark",
+      "question"
+    ],
     "imageSha256": "072BBFF7740733FF6F78760259B7DB30CCB7ECA859CDBA888257F7C00FC8D362"
   },
   {
@@ -425,13 +533,18 @@
   {
     "name": "AcceptAndAdvance",
     "imageAsset": "images/by-hash/a37d174078437c42.png",
-    "keywords": [],
+    "keywords": [
+      "checkmark",
+      "document",
+      "text"
+    ],
     "imageSha256": "A37D174078437C42A46654A5DE7A47E4454445F1776ADDAECA2C771905211D6C"
   },
   {
     "name": "AcceptInvitation",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -441,6 +554,7 @@
     "name": "AcceptProposal",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -450,6 +564,7 @@
     "name": "AcceptTask",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -459,6 +574,7 @@
     "name": "AccessFormDatasheet",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -480,8 +596,6 @@
     "name": "AccessFormPivotTable",
     "imageAsset": "images/by-hash/fb228fb522333bc7.png",
     "keywords": [
-      "add",
-      "create",
       "grid"
     ],
     "imageSha256": "FB228FB522333BC77C5A4D9F3BCE20B084C832FF0A3650477686CDB031DBA63E"
@@ -489,7 +603,10 @@
   {
     "name": "AccessFormWizard",
     "imageAsset": "images/by-hash/e66e4f9a48e1e90f.png",
-    "keywords": [],
+    "keywords": [
+      "magic",
+      "spark"
+    ],
     "imageSha256": "E66E4F9A48E1E90FBD6196B57EE1DDB70D0F8604FD02625EBBBA6561F269469A"
   },
   {
@@ -536,6 +653,7 @@
     "name": "AccessListCustomDatasheet",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -3036,6 +3154,7 @@
     "name": "ApproveApprovalRequest",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -5853,7 +5972,11 @@
   {
     "name": "ButtonTaskSelfSupport",
     "imageAsset": "images/by-hash/072bbff7740733ff.png",
-    "keywords": [],
+    "keywords": [
+      "information",
+      "mark",
+      "question"
+    ],
     "imageSha256": "072BBFF7740733FF6F78760259B7DB30CCB7ECA859CDBA888257F7C00FC8D362"
   },
   {
@@ -6653,6 +6776,7 @@
     "name": "CatalogMergeMoreRowsColumns",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -6702,6 +6826,7 @@
     "name": "CatalogMergeRowsColumnsGallery",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -7139,6 +7264,7 @@
     "name": "ChangeToAcceptInvitation",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -8377,11 +8503,10 @@
     "name": "ChartNavDrillDown",
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
-      "graph",
+      "arrow",
       "less",
       "lower",
-      "reduce",
-      "visualization"
+      "reduce"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -10350,6 +10475,7 @@
     "name": "ColumnsGroup",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -10956,19 +11082,31 @@
   {
     "name": "ConflictsAccept",
     "imageAsset": "images/by-hash/a37d174078437c42.png",
-    "keywords": [],
+    "keywords": [
+      "checkmark",
+      "document",
+      "text"
+    ],
     "imageSha256": "A37D174078437C42A46654A5DE7A47E4454445F1776ADDAECA2C771905211D6C"
   },
   {
     "name": "ConflictsAcceptAndMoveToNext",
     "imageAsset": "images/by-hash/a37d174078437c42.png",
-    "keywords": [],
+    "keywords": [
+      "checkmark",
+      "document",
+      "text"
+    ],
     "imageSha256": "A37D174078437C42A46654A5DE7A47E4454445F1776ADDAECA2C771905211D6C"
   },
   {
     "name": "ConflictsAcceptMenu",
     "imageAsset": "images/by-hash/a37d174078437c42.png",
-    "keywords": [],
+    "keywords": [
+      "checkmark",
+      "document",
+      "text"
+    ],
     "imageSha256": "A37D174078437C42A46654A5DE7A47E4454445F1776ADDAECA2C771905211D6C"
   },
   {
@@ -11428,6 +11566,7 @@
     "name": "ContactCardUntagForAlerts",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -14182,6 +14321,7 @@
     "name": "CreateDatasheetView",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -14567,6 +14707,7 @@
     "name": "CreateSharePointList",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -14642,6 +14783,7 @@
     "name": "CreateTable",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -14661,6 +14803,7 @@
     "name": "CreateTableTemplatesGallery",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -15294,6 +15437,7 @@
     "name": "CustomTablesGallery",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -16858,8 +17002,6 @@
     "name": "DefaultPivotTable",
     "imageAsset": "images/by-hash/fb228fb522333bc7.png",
     "keywords": [
-      "add",
-      "create",
       "grid"
     ],
     "imageSha256": "FB228FB522333BC77C5A4D9F3BCE20B084C832FF0A3650477686CDB031DBA63E"
@@ -24661,6 +24803,7 @@
     "name": "FPTable",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -25994,7 +26137,9 @@
   {
     "name": "Group3DEffects",
     "imageAsset": "images/by-hash/cba7c0795e843fbd.png",
-    "keywords": [],
+    "keywords": [
+      "cube"
+    ],
     "imageSha256": "CBA7C0795E843FBDDFA3CD8FDC11E2B2F59EC8400DC42C136B469FB39BE1726E"
   },
   {
@@ -28520,6 +28665,7 @@
     "name": "GroupCreateTables",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -28539,6 +28685,7 @@
     "name": "GroupCreateTablesWeb",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -30450,6 +30597,7 @@
     "name": "GroupInkCreate",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -30691,6 +30839,7 @@
     "name": "GroupInsertTables",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -31260,11 +31409,10 @@
     "name": "GroupListToolTrack",
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
-      "graph",
+      "arrow",
       "less",
       "lower",
-      "reduce",
-      "visualization"
+      "reduce"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -36363,7 +36511,9 @@
   {
     "name": "GroupStatusTask",
     "imageAsset": "images/by-hash/8f8754120435881b.png",
-    "keywords": [],
+    "keywords": [
+      "progressbar"
+    ],
     "imageSha256": "8F8754120435881B503558276C72717AB66991F7EFAF8A2A09F6EF178BF4AF79"
   },
   {
@@ -37650,11 +37800,10 @@
     "name": "GroupTrack",
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
-      "graph",
+      "arrow",
       "less",
       "lower",
-      "reduce",
-      "visualization"
+      "reduce"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -39135,7 +39284,11 @@
   {
     "name": "Help",
     "imageAsset": "images/by-hash/072bbff7740733ff.png",
-    "keywords": [],
+    "keywords": [
+      "information",
+      "mark",
+      "question"
+    ],
     "imageSha256": "072BBFF7740733FF6F78760259B7DB30CCB7ECA859CDBA888257F7C00FC8D362"
   },
   {
@@ -39203,7 +39356,11 @@
   {
     "name": "HelpLaunch",
     "imageAsset": "images/by-hash/072bbff7740733ff.png",
-    "keywords": [],
+    "keywords": [
+      "information",
+      "mark",
+      "question"
+    ],
     "imageSha256": "072BBFF7740733FF6F78760259B7DB30CCB7ECA859CDBA888257F7C00FC8D362"
   },
   {
@@ -40734,6 +40891,7 @@
     "name": "InkShapeClose",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -41769,6 +41927,7 @@
     "name": "InsertTable",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -42639,11 +42798,10 @@
     "name": "JotNavUINextPage",
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
-      "graph",
+      "arrow",
       "less",
       "lower",
-      "reduce",
-      "visualization"
+      "reduce"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -42660,6 +42818,7 @@
     "name": "JotNavUIPrevPage",
     "imageAsset": "images/by-hash/9c3ea6230877361d.png",
     "keywords": [
+      "arrow",
       "higher",
       "more",
       "raise"
@@ -42669,7 +42828,11 @@
   {
     "name": "JotNewMenuHelp",
     "imageAsset": "images/by-hash/072bbff7740733ff.png",
-    "keywords": [],
+    "keywords": [
+      "information",
+      "mark",
+      "question"
+    ],
     "imageSha256": "072BBFF7740733FF6F78760259B7DB30CCB7ECA859CDBA888257F7C00FC8D362"
   },
   {
@@ -44211,7 +44374,11 @@
   {
     "name": "JotShareMenuHelp",
     "imageAsset": "images/by-hash/072bbff7740733ff.png",
-    "keywords": [],
+    "keywords": [
+      "information",
+      "mark",
+      "question"
+    ],
     "imageSha256": "072BBFF7740733FF6F78760259B7DB30CCB7ECA859CDBA888257F7C00FC8D362"
   },
   {
@@ -44557,6 +44724,7 @@
     "name": "KeepBackgroundRemoval",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -44925,6 +45093,7 @@
     "name": "LayoutTable",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -46218,11 +46387,10 @@
     "name": "LowImportance",
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
-      "graph",
+      "arrow",
       "less",
       "lower",
-      "reduce",
-      "visualization"
+      "reduce"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -47387,7 +47555,9 @@
   {
     "name": "Mark100PercentComplete",
     "imageAsset": "images/by-hash/8f8754120435881b.png",
-    "keywords": [],
+    "keywords": [
+      "progressbar"
+    ],
     "imageSha256": "8F8754120435881B503558276C72717AB66991F7EFAF8A2A09F6EF178BF4AF79"
   },
   {
@@ -47531,6 +47701,7 @@
     "name": "MarkTaskComplete",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -48165,11 +48336,10 @@
     "name": "MeetingsToolNext",
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
-      "graph",
+      "arrow",
       "less",
       "lower",
-      "reduce",
-      "visualization"
+      "reduce"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -48177,6 +48347,7 @@
     "name": "MeetingsToolPrevious",
     "imageAsset": "images/by-hash/9c3ea6230877361d.png",
     "keywords": [
+      "arrow",
       "higher",
       "more",
       "raise"
@@ -48281,6 +48452,7 @@
     "name": "MenuAcceptInvitation",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -48550,6 +48722,7 @@
     "name": "MenuPublishOnline",
     "imageAsset": "images/by-hash/9c3ea6230877361d.png",
     "keywords": [
+      "arrow",
       "higher",
       "more",
       "raise"
@@ -48795,11 +48968,10 @@
     "name": "MessageNext",
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
-      "graph",
+      "arrow",
       "less",
       "lower",
-      "reduce",
-      "visualization"
+      "reduce"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -48823,6 +48995,7 @@
     "name": "MessagePrevious",
     "imageAsset": "images/by-hash/9c3ea6230877361d.png",
     "keywords": [
+      "arrow",
       "higher",
       "more",
       "raise"
@@ -49941,11 +50114,10 @@
     "name": "NavDrillDown",
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
-      "graph",
+      "arrow",
       "less",
       "lower",
-      "reduce",
-      "visualization"
+      "reduce"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -49953,6 +50125,7 @@
     "name": "NavDrillUp",
     "imageAsset": "images/by-hash/9c3ea6230877361d.png",
     "keywords": [
+      "arrow",
       "higher",
       "more",
       "raise"
@@ -52312,11 +52485,10 @@
     "name": "Next",
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
-      "graph",
+      "arrow",
       "less",
       "lower",
-      "reduce",
-      "visualization"
+      "reduce"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -52361,11 +52533,10 @@
     "name": "NextProblemItem",
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
-      "graph",
+      "arrow",
       "less",
       "lower",
-      "reduce",
-      "visualization"
+      "reduce"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -52388,11 +52559,10 @@
     "name": "NextUnread",
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
-      "graph",
+      "arrow",
       "less",
       "lower",
-      "reduce",
-      "visualization"
+      "reduce"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -56017,6 +56187,7 @@
     "name": "OutlookTaskMarkComplete",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -56026,6 +56197,7 @@
     "name": "OutlookTaskMarkCompleteContextual",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -58208,7 +58380,9 @@
   {
     "name": "PercentCompleteMenu",
     "imageAsset": "images/by-hash/8f8754120435881b.png",
-    "keywords": [],
+    "keywords": [
+      "progressbar"
+    ],
     "imageSha256": "8F8754120435881B503558276C72717AB66991F7EFAF8A2A09F6EF178BF4AF79"
   },
   {
@@ -58370,6 +58544,7 @@
     "name": "PersonaMenuUnTagContact",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -60448,8 +60623,6 @@
     "name": "PivotMoveField",
     "imageAsset": "images/by-hash/fb228fb522333bc7.png",
     "keywords": [
-      "add",
-      "create",
       "grid"
     ],
     "imageSha256": "FB228FB522333BC77C5A4D9F3BCE20B084C832FF0A3650477686CDB031DBA63E"
@@ -60693,8 +60866,6 @@
     "name": "PivotTableEnableWhatIfAnalysis",
     "imageAsset": "images/by-hash/fb228fb522333bc7.png",
     "keywords": [
-      "add",
-      "create",
       "grid"
     ],
     "imageSha256": "FB228FB522333BC77C5A4D9F3BCE20B084C832FF0A3650477686CDB031DBA63E"
@@ -60834,8 +61005,6 @@
     "name": "PivotTableInsert",
     "imageAsset": "images/by-hash/fb228fb522333bc7.png",
     "keywords": [
-      "add",
-      "create",
       "grid"
     ],
     "imageSha256": "FB228FB522333BC77C5A4D9F3BCE20B084C832FF0A3650477686CDB031DBA63E"
@@ -61063,8 +61232,6 @@
     "name": "PivotTableReport",
     "imageAsset": "images/by-hash/fb228fb522333bc7.png",
     "keywords": [
-      "add",
-      "create",
       "grid"
     ],
     "imageSha256": "FB228FB522333BC77C5A4D9F3BCE20B084C832FF0A3650477686CDB031DBA63E"
@@ -61980,6 +62147,7 @@
     "name": "Previous",
     "imageAsset": "images/by-hash/9c3ea6230877361d.png",
     "keywords": [
+      "arrow",
       "higher",
       "more",
       "raise"
@@ -62022,6 +62190,7 @@
     "name": "PreviousProblemItem",
     "imageAsset": "images/by-hash/9c3ea6230877361d.png",
     "keywords": [
+      "arrow",
       "higher",
       "more",
       "raise"
@@ -62041,6 +62210,7 @@
     "name": "PreviousUnread",
     "imageAsset": "images/by-hash/9c3ea6230877361d.png",
     "keywords": [
+      "arrow",
       "higher",
       "more",
       "raise"
@@ -62844,8 +63014,6 @@
     "name": "PwaDataAnalysis",
     "imageAsset": "images/by-hash/fb228fb522333bc7.png",
     "keywords": [
-      "add",
-      "create",
       "grid"
     ],
     "imageSha256": "FB228FB522333BC77C5A4D9F3BCE20B084C832FF0A3650477686CDB031DBA63E"
@@ -63172,6 +63340,7 @@
     "name": "QuickSearchAllCompleted",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -63275,6 +63444,7 @@
     "name": "QuickSearchCompletedToday",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -63284,6 +63454,7 @@
     "name": "QuickSearchCompleteMenu",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -63538,6 +63709,7 @@
     "name": "QuickSearchJournalEndDateGallery",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -64038,6 +64210,7 @@
     "name": "QuickTablesInsertGallery",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -66585,25 +66758,41 @@
   {
     "name": "ReviewAcceptChange",
     "imageAsset": "images/by-hash/a37d174078437c42.png",
-    "keywords": [],
+    "keywords": [
+      "checkmark",
+      "document",
+      "text"
+    ],
     "imageSha256": "A37D174078437C42A46654A5DE7A47E4454445F1776ADDAECA2C771905211D6C"
   },
   {
     "name": "ReviewAcceptChangeAndMoveToNext",
     "imageAsset": "images/by-hash/a37d174078437c42.png",
-    "keywords": [],
+    "keywords": [
+      "checkmark",
+      "document",
+      "text"
+    ],
     "imageSha256": "A37D174078437C42A46654A5DE7A47E4454445F1776ADDAECA2C771905211D6C"
   },
   {
     "name": "ReviewAcceptChangeClassic",
     "imageAsset": "images/by-hash/a37d174078437c42.png",
-    "keywords": [],
+    "keywords": [
+      "checkmark",
+      "document",
+      "text"
+    ],
     "imageSha256": "A37D174078437C42A46654A5DE7A47E4454445F1776ADDAECA2C771905211D6C"
   },
   {
     "name": "ReviewAcceptChangeMenu",
     "imageAsset": "images/by-hash/a37d174078437c42.png",
-    "keywords": [],
+    "keywords": [
+      "checkmark",
+      "document",
+      "text"
+    ],
     "imageSha256": "A37D174078437C42A46654A5DE7A47E4454445F1776ADDAECA2C771905211D6C"
   },
   {
@@ -67082,13 +67271,21 @@
   {
     "name": "ReviewRevisionAccept",
     "imageAsset": "images/by-hash/a37d174078437c42.png",
-    "keywords": [],
+    "keywords": [
+      "checkmark",
+      "document",
+      "text"
+    ],
     "imageSha256": "A37D174078437C42A46654A5DE7A47E4454445F1776ADDAECA2C771905211D6C"
   },
   {
     "name": "ReviewRevisionAcceptMenu",
     "imageAsset": "images/by-hash/a37d174078437c42.png",
-    "keywords": [],
+    "keywords": [
+      "checkmark",
+      "document",
+      "text"
+    ],
     "imageSha256": "A37D174078437C42A46654A5DE7A47E4454445F1776ADDAECA2C771905211D6C"
   },
   {
@@ -69974,11 +70171,10 @@
     "name": "SelectedItemNavDrillDown",
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
-      "graph",
+      "arrow",
       "less",
       "lower",
-      "reduce",
-      "visualization"
+      "reduce"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -69986,6 +70182,7 @@
     "name": "SelectedItemNavDrillUp",
     "imageAsset": "images/by-hash/9c3ea6230877361d.png",
     "keywords": [
+      "arrow",
       "higher",
       "more",
       "raise"
@@ -71113,7 +71310,11 @@
   {
     "name": "ShapeBasicsHelp",
     "imageAsset": "images/by-hash/072bbff7740733ff.png",
-    "keywords": [],
+    "keywords": [
+      "information",
+      "mark",
+      "question"
+    ],
     "imageSha256": "072BBFF7740733FF6F78760259B7DB30CCB7ECA859CDBA888257F7C00FC8D362"
   },
   {
@@ -71379,7 +71580,11 @@
   {
     "name": "ShapeHelp",
     "imageAsset": "images/by-hash/072bbff7740733ff.png",
-    "keywords": [],
+    "keywords": [
+      "information",
+      "mark",
+      "question"
+    ],
     "imageSha256": "072BBFF7740733FF6F78760259B7DB30CCB7ECA859CDBA888257F7C00FC8D362"
   },
   {
@@ -72196,6 +72401,7 @@
     "name": "ShareWithTemplateCommunity",
     "imageAsset": "images/by-hash/9c3ea6230877361d.png",
     "keywords": [
+      "arrow",
       "higher",
       "more",
       "raise"
@@ -72522,6 +72728,7 @@
     "name": "SharingRequestAllow",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -78272,6 +78479,7 @@
     "name": "TableInsert",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -78311,6 +78519,7 @@
     "name": "TableInsertDialog",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -78320,6 +78529,7 @@
     "name": "TableInsertDialogWord",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -78349,6 +78559,7 @@
     "name": "TableInsertGallery",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -78358,6 +78569,7 @@
     "name": "TableInsertGalleryAlternate",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -78367,6 +78579,7 @@
     "name": "TableInsertGallerySpd",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -78416,6 +78629,7 @@
     "name": "TableLayoutInfoPath",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -78851,6 +79065,7 @@
     "name": "TableRowsOrColumnsOrCellsInsert",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -79288,8 +79503,6 @@
     "name": "TableSummarizeWithPivot",
     "imageAsset": "images/by-hash/fb228fb522333bc7.png",
     "keywords": [
-      "add",
-      "create",
       "grid"
     ],
     "imageSha256": "FB228FB522333BC77C5A4D9F3BCE20B084C832FF0A3650477686CDB031DBA63E"
@@ -80320,6 +80533,7 @@
     "name": "TagMarkComplete",
     "imageAsset": "images/by-hash/66c019a2aa5479c9.png",
     "keywords": [
+      "checkmark",
       "find",
       "lookup"
     ],
@@ -83305,6 +83519,7 @@
     "name": "ToggleAddTableUI",
     "imageAsset": "images/by-hash/46bf1331d15b804f.png",
     "keywords": [
+      "calendar",
       "grid",
       "new"
     ],
@@ -85749,8 +85964,6 @@
     "name": "ViewsPivotTableView",
     "imageAsset": "images/by-hash/fb228fb522333bc7.png",
     "keywords": [
-      "add",
-      "create",
       "grid"
     ],
     "imageSha256": "FB228FB522333BC77C5A4D9F3BCE20B084C832FF0A3650477686CDB031DBA63E"
