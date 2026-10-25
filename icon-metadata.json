@@ -69,15 +69,17 @@
   {
     "name": "_3DDirectionGalleryClassic",
     "imageAsset": "images/by-hash/402edaf5c50287a6.png",
-    "keywords": [],
+    "keywords": [
+      "arrow",
+      "cross"
+    ],
     "imageSha256": "402EDAF5C50287A66A0264DD2E7C8111AC0BAFA05E93B827E114CDD2800CF37C"
   },
   {
     "name": "_3DEffectColorPickerClassic",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -98,15 +100,18 @@
     "name": "_3DEffectsGalleryClassic",
     "imageAsset": "images/by-hash/7e8b56359c980dd8.png",
     "keywords": [
-      "graph",
-      "visualization"
+      "3d",
+      "cuboid"
     ],
     "imageSha256": "7E8B56359C980DD8A16570F17616F912DD4AE858E1A55A9BCD07416C7E72D6AB"
   },
   {
     "name": "_3DEffectsOnOffClassic",
     "imageAsset": "images/by-hash/80b52f37f2b6692a.png",
-    "keywords": [],
+    "keywords": [
+      "cube",
+      "square"
+    ],
     "imageSha256": "80B52F37F2B6692AA213CC0C933253CCF5DDFA382CE1049093137CE53743EE6E"
   },
   {
@@ -154,7 +159,10 @@
   {
     "name": "_3DExtrusionDirectionClassic",
     "imageAsset": "images/by-hash/402edaf5c50287a6.png",
-    "keywords": [],
+    "keywords": [
+      "arrow",
+      "cross"
+    ],
     "imageSha256": "402EDAF5C50287A66A0264DD2E7C8111AC0BAFA05E93B827E114CDD2800CF37C"
   },
   {
@@ -255,8 +263,8 @@
     "name": "_3DRotationGallery",
     "imageAsset": "images/by-hash/7e8b56359c980dd8.png",
     "keywords": [
-      "graph",
-      "visualization"
+      "3d",
+      "cuboid"
     ],
     "imageSha256": "7E8B56359C980DD8A16570F17616F912DD4AE858E1A55A9BCD07416C7E72D6AB"
   },
@@ -6839,8 +6847,7 @@
     "name": "CellFillColorPicker",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -7253,8 +7260,8 @@
     "name": "Chart3DView",
     "imageAsset": "images/by-hash/7e8b56359c980dd8.png",
     "keywords": [
-      "graph",
-      "visualization"
+      "3d",
+      "cuboid"
     ],
     "imageSha256": "7E8B56359C980DD8A16570F17616F912DD4AE858E1A55A9BCD07416C7E72D6AB"
   },
@@ -10192,8 +10199,7 @@
     "name": "ColorPickerCommentFill",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -10201,8 +10207,7 @@
     "name": "ColorPickerTable",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -22351,8 +22356,7 @@
     "name": "FillBackColorSplitDropdown",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -22360,8 +22364,7 @@
     "name": "FillColorGallery",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -22369,8 +22372,7 @@
     "name": "FillDialog",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -22462,8 +22464,7 @@
     "name": "FillStyle",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -23548,8 +23549,7 @@
     "name": "FontFillBackColorPicker",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -25102,8 +25102,7 @@
     "name": "GanttBarColorPicker",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -29381,8 +29380,8 @@
     "name": "GroupEffects",
     "imageAsset": "images/by-hash/7e8b56359c980dd8.png",
     "keywords": [
-      "graph",
-      "visualization"
+      "3d",
+      "cuboid"
     ],
     "imageSha256": "7E8B56359C980DD8A16570F17616F912DD4AE858E1A55A9BCD07416C7E72D6AB"
   },
@@ -30299,8 +30298,7 @@
     "name": "GroupIconEditPaint",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -39802,8 +39800,7 @@
     "name": "IconBucketTool",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -70984,8 +70981,7 @@
     "name": "ShadingColorPicker",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -71010,8 +71006,7 @@
     "name": "ShadingPicker",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -71033,8 +71028,7 @@
     "name": "ShadowColorPickerClassic",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -71309,8 +71303,7 @@
     "name": "ShapeFillColorPicker",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -71318,8 +71311,7 @@
     "name": "ShapeFillColorPickerClassic",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -77596,8 +77588,7 @@
     "name": "TableBackgroundGallery",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -78207,8 +78198,7 @@
     "name": "TableFillColorPicker",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -80914,8 +80904,7 @@
     "name": "TeamPlannerActualFillColor",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -80944,8 +80933,7 @@
     "name": "TeamPlannerAutoScheduledFillColor",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -80986,8 +80974,7 @@
     "name": "TeamPlannerExternalFillColor",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -81016,8 +81003,7 @@
     "name": "TeamPlannerLateFillColor",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -81046,8 +81032,7 @@
     "name": "TeamPlannerManuallyScheduledFillColor",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -81109,8 +81094,7 @@
     "name": "TeamPlannerTaskFillColorGallery",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },
@@ -83926,8 +83910,7 @@
     "name": "UnderlineColorPicker",
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
-      "colour",
-      "grid"
+      "colour"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
   },

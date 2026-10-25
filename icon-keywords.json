@@ -147,5 +147,111 @@
     "photo",
     "scene",
     "sky"
+  ],
+  "_3DDirectionGalleryClassic": [
+    "arrow",
+    "cross"
+  ],
+  "_3DExtrusionDirectionClassic": [
+    "arrow",
+    "cross"
+  ],
+  "_3DEffectColorPickerClassic": [
+    "colour"
+  ],
+  "CellFillColorPicker": [
+    "colour"
+  ],
+  "ColorPickerCommentFill": [
+    "colour"
+  ],
+  "ColorPickerTable": [
+    "colour"
+  ],
+  "FillBackColorSplitDropdown": [
+    "colour"
+  ],
+  "FillColorGallery": [
+    "colour"
+  ],
+  "FillDialog": [
+    "colour"
+  ],
+  "FillStyle": [
+    "colour"
+  ],
+  "FontFillBackColorPicker": [
+    "colour"
+  ],
+  "GanttBarColorPicker": [
+    "colour"
+  ],
+  "GroupIconEditPaint": [
+    "colour"
+  ],
+  "IconBucketTool": [
+    "colour"
+  ],
+  "ShadingColorPicker": [
+    "colour"
+  ],
+  "ShadingPicker": [
+    "colour"
+  ],
+  "ShadowColorPickerClassic": [
+    "colour"
+  ],
+  "ShapeFillColorPicker": [
+    "colour"
+  ],
+  "ShapeFillColorPickerClassic": [
+    "colour"
+  ],
+  "TableBackgroundGallery": [
+    "colour"
+  ],
+  "TableFillColorPicker": [
+    "colour"
+  ],
+  "TeamPlannerActualFillColor": [
+    "colour"
+  ],
+  "TeamPlannerAutoScheduledFillColor": [
+    "colour"
+  ],
+  "TeamPlannerExternalFillColor": [
+    "colour"
+  ],
+  "TeamPlannerLateFillColor": [
+    "colour"
+  ],
+  "TeamPlannerManuallyScheduledFillColor": [
+    "colour"
+  ],
+  "TeamPlannerTaskFillColorGallery": [
+    "colour"
+  ],
+  "UnderlineColorPicker": [
+    "colour"
+  ],
+  "_3DEffectsGalleryClassic": [
+    "3d",
+    "cuboid"
+  ],
+  "_3DRotationGallery": [
+    "3d",
+    "cuboid"
+  ],
+  "Chart3DView": [
+    "3d",
+    "cuboid"
+  ],
+  "GroupEffects": [
+    "3d",
+    "cuboid"
+  ],
+  "_3DEffectsOnOffClassic": [
+    "cube",
+    "square"
   ]
 }
