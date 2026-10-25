@@ -255,6 +255,11 @@
         autoFirst: true
       });
       render();
+      const requestedSource = new URLSearchParams(window.location.search)
+        .get("word")?.trim().toLocaleLowerCase("en");
+      if (requestedSource && state.availableWords.includes(requestedSource)) {
+        selectSource(requestedSource);
+      }
       setStatus("");
     } catch (error) {
       setStatus(error.message, "error");

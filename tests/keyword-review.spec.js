@@ -184,6 +184,18 @@ test("lists same-image name words and marks matching keywords red", async ({ pag
   expect(Number(channels[1])).toBeGreaterThan(Number(channels[2]));
 });
 
+test("opens synonym manager with the clicked icon-name word selected", async ({ page }) => {
+  await mockKeywordReview(page);
+  const iconId = "_3DEffectColorPickerClassic";
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(iconId)}`);
+
+  await page.getByRole("link", { name: "color", exact: true }).click();
+
+  await expect(page).toHaveURL(/name-synonyms\.html\?word=color$/);
+  await expect(page.getByRole("heading", { name: "color", level: 2 })).toBeVisible();
+  await expect(page.getByLabel("Icon-name word")).toHaveValue("color");
+});
+
 test("locks configured synonyms and names their source word", async ({ page }) => {
   const iconId = "_3DEffectColorPickerClassic";
   const imageGroupIds = imageGroupByName.get(iconId);

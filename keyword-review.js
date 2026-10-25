@@ -100,9 +100,9 @@
   function renderNameWordTags() {
     const words = [...nameKeywords()].sort((left, right) => left.localeCompare(right, "en"));
     elements.nameWordTags.replaceChildren(...words.map((word) => {
-      const tag = document.createElement("span");
+      const tag = document.createElement("a");
       tag.className = "name-word-tag";
-      tag.setAttribute("role", "listitem");
+      tag.href = `./name-synonyms.html?word=${encodeURIComponent(word)}`;
       tag.textContent = word;
       return tag;
     }));
