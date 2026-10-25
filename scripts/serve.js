@@ -52,9 +52,6 @@ function availableCustomKeywords(reviewedKeywords, nameSynonyms) {
   const keywords = new Set(Object.values(reviewedKeywords)
     .flat()
     .map((keyword) => keyword.trim().toLocaleLowerCase("en")));
-  for (const nameWord of availableNameWords) {
-    keywords.delete(nameWord);
-  }
   for (const synonyms of Object.values(nameSynonyms)) {
     for (const synonym of synonyms) {
       keywords.delete(synonym);

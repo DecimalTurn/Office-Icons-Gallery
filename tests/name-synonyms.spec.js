@@ -35,12 +35,14 @@ test("adds and saves a synonym for an icon-name word", async ({ page }) => {
   await expect(page.getByRole("button", { name: "Save synonyms" })).toBeEnabled();
   await page.getByRole("button", { name: "Save synonyms" }).click();
 
+  await expect(page.getByRole("button", { name: "Saving…" })).toBeDisabled();
   await expect(saveNote).toHaveText("Updating searchable keywords for every matching icon image…");
   completeSave();
-  await expect(saveNote).toHaveText("Searchable keywords updated for every matching icon image.");
+  await expect(saveNote).toHaveText("Save complete. Searchable keywords are updated for every matching icon image.");
+  await expect(page.getByRole("button", { name: "Saved" })).toBeDisabled();
   await expect(page.locator("#synonym-status")).toContainText("Searchable keywords have been updated");
   expect(savedSynonyms).toEqual({ bucket: ["pail"] });
-  await expect(page.getByRole("button", { name: "Save synonyms" })).toBeDisabled();
+  await expect(page.getByRole("button", { name: "Saved" })).toBeDisabled();
 });
 
 test("discards unsaved synonym edits", async ({ page }) => {
@@ -101,9 +103,11 @@ test("saving a synonym updates metadata for every ID with that real image", asyn
   test.setTimeout(120_000);
   const synonymPath = path.join(__dirname, "..", "icon-name-synonyms.json");
   const keywordSynonymPath = path.join(__dirname, "..", "icon-keyword-synonyms.json");
+  const keywordsPath = path.join(__dirname, "..", "icon-keywords.json");
   const metadataPath = path.join(__dirname, "..", "icon-metadata.json");
   const originalSynonyms = fs.readFileSync(synonymPath, "utf8");
   const originalKeywordSynonyms = fs.readFileSync(keywordSynonymPath, "utf8");
+  const originalKeywords = fs.readFileSync(keywordsPath, "utf8");
   const originalMetadata = fs.readFileSync(metadataPath, "utf8");
   const nameTarget = metadata.find((icon) => icon.name === "_3DEffectColorPickerClassic");
   const keywordTarget = metadata.find((icon) => icon.name === "_3DBevelOptionsDialog");
@@ -114,10 +118,16 @@ test("saving a synonym updates metadata for every ID with that real image", asyn
   const expectedKeywordIds = imageGroupIds(keywordTarget);
 
   try {
+    const reviewedKeywords = JSON.parse(originalKeywords);
+    reviewedKeywords[expectedKeywordIds[0]] = [...new Set([
+      ...(reviewedKeywords[expectedKeywordIds[0]] || []),
+      "appearance"
+    ])];
+    fs.writeFileSync(keywordsPath, `${JSON.stringify(reviewedKeywords, null, 2)}\n`, "utf8");
     const response = await request.put("/api/name-synonyms", {
       data: {
         synonyms: { bucket: ["pail"] },
-        keywordSynonyms: { paintbrush: ["bristle"] },
+        keywordSynonyms: { paintbrush: ["bristle"], appearance: ["facade-term"] },
         timeout: 100_000
       }
     });
@@ -127,6 +137,7 @@ test("saving a synonym updates metadata for every ID with that real image", asyn
     const keywordRepresentative = updatedMetadata.find((icon) => icon.name === expectedKeywordIds[0]);
     expect(nameRepresentative.keywords).toContain("pail");
     expect(keywordRepresentative.keywords).toContain("bristle");
+    expect(keywordRepresentative.keywords).toContain("facade-term");
     expect(updatedMetadata.filter((icon) => icon.keywords?.includes("pail")).map((icon) => icon.name))
       .toEqual([expectedNameIds[0]]);
     expect(updatedMetadata.filter((icon) => icon.keywords?.includes("bristle")).map((icon) => icon.name))
@@ -137,6 +148,7 @@ test("saving a synonym updates metadata for every ID with that real image", asyn
   } finally {
     fs.writeFileSync(synonymPath, originalSynonyms, "utf8");
     fs.writeFileSync(keywordSynonymPath, originalKeywordSynonyms, "utf8");
+    fs.writeFileSync(keywordsPath, originalKeywords, "utf8");
     const { spawnSync } = require("node:child_process");
     const generation = spawnSync(process.execPath, [path.join(__dirname, "..", "generate-icon-metadata.js")], {
       cwd: path.join(__dirname, ".."),

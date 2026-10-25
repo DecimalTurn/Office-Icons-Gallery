@@ -400,11 +400,52 @@
   gap: 8px;
 }
 
+.keyword-field {
+  position: relative;
+  min-width: 0;
+}
+
 .keyword-row input {
   width: 100%;
   min-width: 0;
   min-height: 36px;
-  padding: 6px 9px;
+  padding: 6px 40px 6px 9px;
+}
+
+.keyword-field .awesomplete {
+  display: block;
+  width: 100%;
+  min-width: 0;
+}
+
+.keyword-synonym-link {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  right: 5px;
+  display: grid;
+  width: 27px;
+  height: 27px;
+  place-items: center;
+  transform: translateY(-50%);
+  border-radius: 3px;
+  color: var(--accent-color);
+  font-size: 1rem;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.keyword-synonym-link[hidden] {
+  display: none;
+}
+
+.keyword-synonym-link:hover {
+  background: var(--control-background);
+}
+
+.keyword-synonym-link:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 1px;
 }
 
 .keyword-row input[readonly] {

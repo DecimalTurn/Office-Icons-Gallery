@@ -81,13 +81,26 @@
       .flatMap(splitIconName));
   }
 
-  function synonymSourcesByKeyword() {
-    const nameWords = nameKeywords();
+  function reviewedCustomKeywordSources() {
     const reviewedSources = new Set([
       state.currentIcon?.name,
       ...(state.sameImageIdsByName.get(state.currentIcon?.name) || [])
     ].flatMap((iconId) => state.reviewedKeywords[iconId] || [])
       .map((keyword) => keyword.toLocaleLowerCase("en")));
+    const nameSynonymTerms = new Set(Object.values(state.nameSynonyms).flat()
+      .map((keyword) => keyword.toLocaleLowerCase("en")));
+    for (const nameWord of nameKeywords()) {
+      reviewedSources.delete(nameWord);
+    }
+    for (const synonym of nameSynonymTerms) {
+      reviewedSources.delete(synonym);
+    }
+    return reviewedSources;
+  }
+
+  function synonymSourcesByKeyword() {
+    const nameWords = nameKeywords();
+    const reviewedSources = reviewedCustomKeywordSources();
     const sourcesByKeyword = new Map();
     const addSynonyms = (source, synonyms) => {
       const normalizedSource = source.toLocaleLowerCase("en");
@@ -143,11 +156,13 @@
 
   function createKeywordRow(keyword, index, nameDerived, synonymSources = []) {
     const row = document.createElement("div");
+    const field = document.createElement("div");
     const input = document.createElement("input");
     const lockedSynonym = synonymSources.length > 0;
     const remove = document.createElement(lockedSynonym ? "span" : "button");
 
     row.className = "keyword-row";
+    field.className = "keyword-field";
     input.type = "text";
     input.maxLength = 80;
     input.autocomplete = "off";
@@ -159,6 +174,26 @@
     input.title = lockedSynonym
       ? `Locked synonym for: ${synonymSources.join(", ")}`
       : nameDerived ? "Icon ID word; excluded when saved" : "Edit keyword";
+    field.append(input);
+    let synonymLink = null;
+    if (!nameDerived && !lockedSynonym) {
+      synonymLink = document.createElement("a");
+      synonymLink.className = "keyword-synonym-link";
+      synonymLink.textContent = "↗";
+      synonymLink.hidden = true;
+      field.append(synonymLink);
+      const updateSynonymLink = () => {
+        const source = input.value.trim().toLocaleLowerCase("en");
+        synonymLink.hidden = !reviewedCustomKeywordSources().has(source);
+        if (!synonymLink.hidden) {
+          synonymLink.href = `./name-synonyms.html?keyword=${encodeURIComponent(source)}`;
+          synonymLink.setAttribute("aria-label", `Manage synonyms for keyword ${source}`);
+          synonymLink.title = `Manage synonyms for ${source}`;
+        }
+      };
+      updateSynonymLink();
+      input.addEventListener("input", updateSynonymLink);
+    }
     if (lockedSynonym) {
       remove.className = "keyword-lock-indicator";
       remove.setAttribute("role", "img");
@@ -173,7 +208,7 @@
       remove.title = "Remove keyword";
       remove.innerHTML = "&#128465;";
     }
-    row.append(input, remove);
+    row.append(field, remove);
     let autocomplete = null;
     if (!nameDerived && !lockedSynonym) {
       input.classList.add("awesomplete");
@@ -186,10 +221,18 @@
     }
     input.addEventListener("keydown", (event) => {
       if (event.key === "Tab") {
-        event.preventDefault();
+        if (event.shiftKey) {
+          return;
+        }
         if (autocomplete?.opened && autocomplete.selected) {
           autocomplete.select();
         }
+        if (synonymLink && !synonymLink.hidden) {
+          event.preventDefault();
+          synonymLink.focus();
+          return;
+        }
+        event.preventDefault();
         const keywordInputs = [...elements.keywordEditor.querySelectorAll(".keyword-row input")];
         const nextInput = keywordInputs[keywordInputs.indexOf(input) + 1];
         (nextInput || elements.addKeyword).focus();

@@ -148,9 +148,6 @@ if (!reviewedKeywords || Array.isArray(reviewedKeywords) || typeof reviewedKeywo
 const availableCustomKeywords = new Set(Object.values(reviewedKeywords)
   .flat()
   .map((keyword) => keyword.trim().toLocaleLowerCase("en")));
-for (const nameWord of nameKeywords(iconNames)) {
-  availableCustomKeywords.delete(nameWord);
-}
 for (const synonyms of Object.values(nameSynonyms)) {
   for (const synonym of synonyms) {
     availableCustomKeywords.delete(synonym);

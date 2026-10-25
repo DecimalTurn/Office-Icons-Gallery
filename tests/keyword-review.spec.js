@@ -24,7 +24,8 @@ async function mockKeywordReview(page, {
   keywordOverrides = {},
   synonyms = {},
   keywordSynonyms = {},
-  reviewedKeywordOverrides = {}
+  reviewedKeywordOverrides = {},
+  metadataExtra = []
 } = {}) {
   const confirmed = [];
   const resets = [];
@@ -49,12 +50,12 @@ async function mockKeywordReview(page, {
       } });
     });
   }
-  if (Object.keys(keywordOverrides).length > 0) {
+  if (Object.keys(keywordOverrides).length > 0 || metadataExtra.length > 0) {
     await page.route("**/icon-metadata.json", async (route) => {
-      await route.fulfill({ json: metadata.map((icon) => ({
+      await route.fulfill({ json: [...metadata.map((icon) => ({
         ...icon,
         ...(Object.hasOwn(keywordOverrides, icon.name) ? { keywords: keywordOverrides[icon.name] } : {})
-      })) });
+      })), ...metadataExtra] });
     });
   }
   await page.route("**/api/keyword-review/**", async (route) => {
@@ -223,7 +224,7 @@ test("locks configured synonyms and names their source word", async ({ page }) =
 
   const pailInput = await page.locator(".keyword-row input").evaluateAll((inputs) => {
     const input = inputs.find((entry) => entry.value === "pail");
-    const lock = input.parentElement.querySelector(".keyword-lock-indicator");
+    const lock = input.closest(".keyword-row").querySelector(".keyword-lock-indicator");
     return {
       readOnly: input.readOnly,
       inputTitle: input.title,
@@ -284,8 +285,10 @@ test("migrates the legacy icon URL parameter", async ({ page }) => {
 });
 
 test("Tab accepts a suggestion and focuses the next keyword field", async ({ page }) => {
-  await mockKeywordReview(page);
   const iconId = "_3DBevelOptionsDialog";
+  const imageGroupIds = imageGroupByName.get(iconId);
+  const reviewedKeywordOverrides = Object.fromEntries(imageGroupIds.map((name) => [name, []]));
+  await mockKeywordReview(page, { reviewedKeywordOverrides });
   await page.goto("/keyword-review.html");
   await page.getByLabel("Search icon ID").fill(iconId);
   await page.getByRole("option", { name: iconId }).click();
@@ -304,6 +307,31 @@ test("Tab accepts a suggestion and focuses the next keyword field", async ({ pag
 
   await expect(autocompleteInput).toHaveValue("paintbrush");
   await expect(nextKeywordInput).toBeFocused();
+});
+
+test("opens synonym manager with a reviewed custom keyword selected", async ({ page }) => {
+  const iconId = "_3DBevelOptionsDialog";
+  const imageGroupIds = imageGroupByName.get(iconId);
+  const keywordOverrides = Object.fromEntries(imageGroupIds.map((name) => [name, ["appearance"]]));
+  const reviewedKeywordOverrides = Object.fromEntries(imageGroupIds.map((name) => [name, ["appearance"]]));
+  await mockKeywordReview(page, {
+    keywordOverrides,
+    reviewedKeywordOverrides,
+    metadataExtra: [{ name: "AppearanceIcon", imageStatus: "placeholder" }]
+  });
+
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(iconId)}`);
+
+  const synonymLink = page.getByRole("link", { name: "Manage synonyms for keyword appearance" });
+  await expect(synonymLink).toHaveAttribute("href", "./name-synonyms.html?keyword=appearance");
+  await synonymLink.focus();
+  await expect(synonymLink).toBeFocused();
+  await synonymLink.press("Enter");
+
+  await expect(page).toHaveURL(/name-synonyms\.html\?keyword=appearance$/);
+  await expect(page.getByRole("heading", { name: "appearance", level: 2 })).toBeVisible();
+  await expect(page.getByLabel("Source type")).toHaveValue("keyword");
+  await expect(page.getByLabel("Custom keyword")).toHaveValue("appearance");
 });
 
 test("searching an identical-image ID opens its review representative", async ({ page }) => {

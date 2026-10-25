@@ -96,13 +96,18 @@
   function updateDirtyState() {
     const dirty = isDirty();
     elements.saveButton.disabled = !dirty || state.saving;
+    elements.saveButton.textContent = state.saving
+      ? "Saving…"
+      : !dirty && state.saveSucceeded
+        ? "Saved"
+        : "Save synonyms";
     elements.discardButton.disabled = !dirty || state.saving;
     elements.saveNote.textContent = state.saving
       ? "Updating searchable keywords for every matching icon image…"
       : dirty
         ? "Save to update searchable keywords for every matching icon image."
         : state.saveSucceeded
-          ? "Searchable keywords updated for every matching icon image."
+          ? "Save complete. Searchable keywords are updated for every matching icon image."
           : "Changes update searchable keywords for every matching icon image when you save.";
   }
 
@@ -309,12 +314,11 @@
         requestJson("/api/name-synonyms")
       ]);
       state.availableWords = [...new Set(metadata.flatMap((icon) => splitIconName(icon.name)))].sort((left, right) => left.localeCompare(right, "en"));
-      const nameWordSet = new Set(state.availableWords);
       const nameSynonymTerms = new Set(Object.values(result.synonyms || {}).flat());
       const reviewedKeywordSet = new Set(Object.values(reviewedKeywords).flat()
         .map((keyword) => String(keyword).trim().toLocaleLowerCase("en")));
       state.availableKeywords = [...reviewedKeywordSet]
-        .filter((keyword) => !nameWordSet.has(keyword) && !nameSynonymTerms.has(keyword))
+        .filter((keyword) => !nameSynonymTerms.has(keyword))
         .sort((left, right) => left.localeCompare(right, "en"));
       state.synonyms = cloneSynonyms(result.synonyms || {});
       state.savedSynonyms = cloneSynonyms(state.synonyms);
