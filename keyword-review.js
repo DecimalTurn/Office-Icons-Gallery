@@ -173,6 +173,10 @@
 
     state.currentIcon = icon;
     state.position = position;
+    const url = new URL(window.location.href);
+    url.searchParams.set("icon_id", icon.name);
+    url.searchParams.delete("icon");
+    window.history.replaceState(window.history.state, "", url);
     window.dispatchEvent(new CustomEvent("keyword-review-icon-selected", {
       detail: { iconId: icon.name }
     }));
@@ -383,7 +387,11 @@
         .sort((left, right) => left.localeCompare(right, "en"));
       state.reviewStatus = reviewStatus;
       updateReviewCount();
-      const initialIcon = state.icons.find((icon) => state.reviewStatus[icon.name] !== true) || state.icons[0];
+      const requestedIconId = new URLSearchParams(window.location.search).get("icon_id")
+        || new URLSearchParams(window.location.search).get("icon");
+      const initialIcon = state.icons.find((icon) => icon.name === requestedIconId || icon.sameImageIds?.includes(requestedIconId))
+        || state.icons.find((icon) => state.reviewStatus[icon.name] !== true)
+        || state.icons[0];
       if (!initialIcon) {
         throw new Error("No reviewable images are available in metadata");
       }

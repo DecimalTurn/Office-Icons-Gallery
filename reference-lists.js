@@ -91,7 +91,7 @@
       image.alt = icon.name;
       image.loading = "lazy";
       link.className = "reference-icon-id";
-      link.href = `./icon.html?name=${encodeURIComponent(icon.name)}`;
+      link.href = `./icon.html?icon_id=${encodeURIComponent(icon.name)}`;
       link.textContent = icon.name;
       keywords.className = "reference-icon-keywords";
       keywords.setAttribute("aria-label", `Keywords for ${icon.name}`);

@@ -1,7 +1,7 @@
 const { test, expect } = require("@playwright/test");
 
 test("links to the GitHub repository from the icon detail page", async ({ page }) => {
-  await page.goto("/icon.html?name=ZoomTwoPages");
+  await page.goto("/icon.html?icon_id=ZoomTwoPages");
 
   const githubLink = page.getByRole("link", { name: "View Office Icons Gallery on GitHub" });
   await expect(githubLink).toHaveAttribute("href", "https://github.com/DecimalTurn/Office-Icons-Gallery");
@@ -9,7 +9,7 @@ test("links to the GitHub repository from the icon detail page", async ({ page }
 });
 
 test("shows searchable keywords between the icon name and previews", async ({ page }) => {
-  await page.goto("/icon.html?name=ZoomTwoPages");
+  await page.goto("/icon.html?icon_id=ZoomTwoPages");
 
   const keywords = page.locator("#icon-keywords");
   await expect(keywords).toContainText("zoom");
@@ -27,7 +27,7 @@ test("shows searchable keywords between the icon name and previews", async ({ pa
 
 test("copies the icon ID from the title-row button", async ({ page }) => {
   await page.context().grantPermissions(["clipboard-read", "clipboard-write"]);
-  await page.goto("/icon.html?name=ZoomTwoPages");
+  await page.goto("/icon.html?icon_id=ZoomTwoPages");
 
   const copyIdButton = page.getByRole("button", { name: "Copy icon ID" });
   await expect(copyIdButton).toBeVisible();

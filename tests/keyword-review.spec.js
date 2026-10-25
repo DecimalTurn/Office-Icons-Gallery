@@ -74,16 +74,19 @@ test("highlights only long name keywords and confirms the changes", async ({ pag
   const { confirmed, resets } = await mockKeywordReview(page, { keywordOverrides });
   await page.goto("/keyword-review.html");
   await expect(page.locator("#selected-icon-name")).toHaveText("_0");
+  await expect.poll(() => new URL(page.url()).searchParams.get("icon_id")).toBe("_0");
   await expect(page.locator("#review-count")).toContainText(`/ ${reviewableIcons.length.toLocaleString()} reviewed`);
   const lowerNavigation = page.getByRole("group", { name: "Icon navigation" });
   await expect(lowerNavigation.getByRole("button", { name: "Previous icon" })).toBeDisabled();
   await lowerNavigation.getByRole("button", { name: "Next icon" }).click();
   await expect(page.locator("#icon-position")).toHaveText(`2 of ${reviewableIcons.length.toLocaleString()}`);
   await expect(page.locator("#selected-icon-name")).toHaveText(reviewableIcons[1].name);
+  await expect.poll(() => new URL(page.url()).searchParams.get("icon_id")).toBe(reviewableIcons[1].name);
   expect(reviewableIcons[0].imageSha256).not.toBe(reviewableIcons[1].imageSha256);
   await expect(page.locator("#previous-icon")).toBeEnabled();
   await lowerNavigation.getByRole("button", { name: "Previous icon" }).click();
   await expect(page.locator("#icon-position")).toHaveText(`1 of ${reviewableIcons.length.toLocaleString()}`);
+  await expect.poll(() => new URL(page.url()).searchParams.get("icon_id")).toBe("_0");
   await expect(page.locator("#previous-icon")).toBeDisabled();
 
   await page.getByLabel("Search icon ID").fill(iconId);
@@ -150,6 +153,27 @@ test("highlights only long name keywords and confirms the changes", async ({ pag
   expect(savedKeywordValues).toContain("beveled");
   expect(savedKeywordValues).not.toContain("bevel");
   expect(savedKeywordValues).not.toContain("options");
+});
+
+test("opens the icon selected by the URL parameter", async ({ page }) => {
+  await mockKeywordReview(page);
+  const icon = reviewableIcons[1];
+
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(icon.name)}`);
+
+  await expect(page.locator("#selected-icon-name")).toHaveText(icon.name);
+  await expect.poll(() => new URL(page.url()).searchParams.get("icon_id")).toBe(icon.name);
+});
+
+test("migrates the legacy icon URL parameter", async ({ page }) => {
+  await mockKeywordReview(page);
+  const icon = reviewableIcons[1];
+
+  await page.goto(`/keyword-review.html?icon=${encodeURIComponent(icon.name)}`);
+
+  await expect(page.locator("#selected-icon-name")).toHaveText(icon.name);
+  await expect.poll(() => new URL(page.url()).searchParams.get("icon_id")).toBe(icon.name);
+  expect(new URL(page.url()).searchParams.has("icon")).toBe(false);
 });
 
 test("Tab accepts a suggestion and focuses the next keyword field", async ({ page }) => {

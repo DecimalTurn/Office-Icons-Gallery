@@ -7,7 +7,7 @@ test("submits a search query and filters the gallery after reload", async ({ pag
   await search.fill("sun");
   await search.press("Enter");
 
-  await expect(page).toHaveURL(/index\.html\?SearchMso=sun$/);
+  await expect(page).toHaveURL(/index\.html\?search_mso=sun$/);
   await expect(page.locator("#mso-search")).toHaveValue("sun");
   const counts = await page.evaluate(async () => {
     const metadata = await (await fetch("./icon-metadata.json")).json();
@@ -40,7 +40,7 @@ test("limits suggestions to 30 and submits from the See all results row", async 
 
   await seeAllButton.click();
 
-  await expect(page).toHaveURL(/index\.html\?SearchMso=icon$/);
+  await expect(page).toHaveURL(/index\.html\?search_mso=icon$/);
   const resultCountStatus = page.locator("#search-result-count");
   await expect(resultCountStatus).toHaveText(/^[\d,]+ icons found$/);
   const resultCount = await resultCountStatus.evaluate((element) => {
@@ -65,7 +65,7 @@ test("explains why the number of unique icons is lower than the idMso count", as
 
 test("clears an active search and returns to the unfiltered gallery", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
-  await page.goto("/index.html?SearchMso=sun");
+  await page.goto("/index.html?search_mso=sun");
 
   const search = page.locator("#mso-search");
   const clearButton = page.getByRole("button", { name: "Clear search" });
@@ -115,7 +115,7 @@ test("excludes placeholder images and preserves the filter after reload", async 
 
   await excludePlaceholders.check();
 
-  await expect(page).toHaveURL(/ExcludePlaceholders=1$/);
+  await expect(page).toHaveURL(/exclude_placeholders=1$/);
   await expect(excludePlaceholders).toBeChecked();
   await expect(page.locator("#search-result-count")).toHaveText(expectedResults.count);
   await expect(page.locator(".mso-list li span:not(.icon-catalog-position)")).toHaveText(expectedResults.firstPageNames);
@@ -177,17 +177,17 @@ test("search suggestions match the input and remain usable when resized", async 
   }
 
   await suggestion.click();
-  await expect(page).toHaveURL(/icon\.html\?name=ZoomTwoPages$/);
+  await expect(page).toHaveURL(/icon\.html\?icon_id=ZoomTwoPages$/);
   await expect(page.getByRole("heading", { name: "ZoomTwoPages" })).toBeVisible();
 });
 
 test("shows Office fallback status on detail pages, not in search results", async ({ page }) => {
-  await page.goto("/index.html?SearchMso=AccountingFormatExcel");
+  await page.goto("/index.html?search_mso=AccountingFormatExcel");
   await expect(page.locator(".icon-placeholder-badge")).toHaveCount(0);
 
-  await page.goto("/icon.html?name=AccountingFormatExcel");
+  await page.goto("/icon.html?icon_id=AccountingFormatExcel");
   await expect(page.locator("#icon-image-status")).toHaveText(/shared Office fallback/);
 
-  await page.goto("/icon.html?name=BrightnessMore");
+  await page.goto("/icon.html?icon_id=BrightnessMore");
   await expect(page.locator("#icon-image-status")).toBeHidden();
 });

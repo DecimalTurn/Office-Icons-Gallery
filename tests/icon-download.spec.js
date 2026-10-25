@@ -3,7 +3,7 @@ const path = require("path");
 const { test, expect } = require("@playwright/test");
 
 test("downloads the displayed icon as PNG, ICO, and JPEG", async ({ page }) => {
-  await page.goto("/icon.html?name=FileSave");
+  await page.goto("/icon.html?icon_id=FileSave");
 
   const downloadButton = page.locator("#download-button");
   await expect(downloadButton).toBeEnabled();

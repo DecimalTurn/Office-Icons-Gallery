@@ -83,7 +83,15 @@
     </main>
     <footer class="page-notice">All images remain the property of Microsoft. This independent reference is provided to help developers build ribbon interfaces for Office applications and is not affiliated with or endorsed by Microsoft.</footer>
     <script>
-      const iconName = new URLSearchParams(window.location.search).get("name");
+      const urlSearchParams = new URLSearchParams(window.location.search);
+      const iconName = urlSearchParams.get("icon_id") || urlSearchParams.get("name");
+      if (urlSearchParams.has("name")) {
+        urlSearchParams.delete("name");
+        urlSearchParams.set("icon_id", iconName);
+        const url = new URL(window.location.href);
+        url.search = urlSearchParams.toString();
+        window.history.replaceState(window.history.state, "", url);
+      }
       const nameHeading = document.getElementById("icon-name");
       const iconKeywords = document.getElementById("icon-keywords");
       const iconImage = document.getElementById("icon-image");
@@ -159,7 +167,7 @@
                 const label = document.createElement("span");
 
                 link.className = "related-icon-link";
-                link.href = `./icon.html?name=${encodeURIComponent(relatedIcon.name)}`;
+                link.href = `./icon.html?icon_id=${encodeURIComponent(relatedIcon.name)}`;
                 image.src = `./${relatedIcon.imageAsset}`;
                 image.alt = "";
                 label.textContent = relatedIcon.name;
@@ -184,7 +192,7 @@
                 const copyAlternativeButton = document.createElement("button");
 
                 link.className = "same-image-link";
-                link.href = `./icon.html?name=${encodeURIComponent(name)}`;
+                link.href = `./icon.html?icon_id=${encodeURIComponent(name)}`;
                 image.loading = "lazy";
                 image.src = `./${metadataByName.get(name).imageAsset}`;
                 image.alt = "";

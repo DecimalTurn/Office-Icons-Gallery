@@ -14,9 +14,11 @@ Install dependencies with `pnpm install`, then start the local server with `pnpm
 
 Run the search and responsive layout test with `pnpm test:search`. Install the Playwright browser once with `pnpm exec playwright install chromium` if it is not already available.
 
+Gallery URL state uses the `search_mso`, `exclude_placeholders`, and `page` query parameters. Icon detail pages and keyword review use `icon_id`. Older gallery, detail-page, and review parameter spellings are accepted and replaced with the current names.
+
 ## Local keyword review
 
-Start the gallery with `pnpm dev` and open http://127.0.0.1:8000/keyword-review.html. Review navigation includes one representative per distinct real image; searching an identical-image ID opens that representative. Each image has an editable keyword list with autocomplete suggestions. Name tokens shorter than four characters are omitted from keywords; longer name-derived keywords remain editable and visually marked. Confirming a review saves the shared keywords for every ID using that real image to `icon-keywords.json` and updates `icon-metadata.json`. Placeholder IDs are not grouped because their shared fallback image does not identify the underlying icon. Review status is stored per representative ID in `icon-review-status.json`.
+Start the gallery with `pnpm dev` and open http://127.0.0.1:8000/keyword-review.html. The selected icon is shareable through the `icon_id` URL parameter. Review navigation includes one representative per distinct real image; searching an identical-image ID opens that representative. Each image has an editable keyword list with autocomplete suggestions. Name tokens shorter than four characters are omitted from keywords; longer name-derived keywords remain editable and visually marked. Confirming a review saves the shared keywords for every ID using that real image to `icon-keywords.json` and updates `icon-metadata.json`. Placeholder IDs are not grouped because their shared fallback image does not identify the underlying icon. Review status is stored per representative ID in `icon-review-status.json`.
 
 The bottom of the keyword review page contains locally saved icon reference lists. Each member shows its keywords. Create named lists, add the selected icon or any icon ID, and remove entries with the X control. New icons append to the end of the selected list. The gallery's Icon reference lists link jumps directly to this section.
 
