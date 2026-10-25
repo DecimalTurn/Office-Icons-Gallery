@@ -32,15 +32,11 @@
         </span>
       </span>
     </p>
-    <nav class="gallery-workflow-links" aria-label="Icon tools">
-      <a href="./keyword-review.html#reference-lists">Icon reference lists</a>
-      <a href="./keyword-review.html">Keyword review</a>
-    </nav>
     <div class="mso-filter">
       <form>
         <label for="mso-search">Search</label>
         <div class="mso-search-control">
-          <input id="mso-search" name="SearchMso" type="text" maxlength="255" value="" placeholder="Search IDs or keywords" class="awesomplete" data-list=".mso-list" data-minchars="2" data-maxitems="30"/>
+          <input id="mso-search" name="search_mso" type="text" maxlength="255" value="" placeholder="Search IDs, descriptions, or keywords" class="awesomplete" data-list=".mso-list" data-minchars="2" data-maxitems="30"/>
           <button id="mso-search-clear" class="mso-search-clear" type="button" aria-label="Clear search" hidden></button>
         </div>
         <div class="mso-placeholder-filter">
@@ -80,10 +76,29 @@
       const iconCount = document.getElementById("icon-count");
       const uniqueIconCount = document.getElementById("unique-icon-count");
       const searchResultCount = document.getElementById("search-result-count");
-      const catalogPositionByName = new Map();
       const urlSearchParams = new URLSearchParams(window.location.search);
+      const legacyQueryParams = [
+        ["SearchMso", "search_mso"],
+        ["Page", "page"],
+        ["ExcludePlaceholders", "exclude_placeholders"]
+      ];
+      let migratedQueryParams = false;
+      legacyQueryParams.forEach(([legacyName, queryName]) => {
+        if (urlSearchParams.has(legacyName)) {
+          if (!urlSearchParams.has(queryName)) {
+            urlSearchParams.set(queryName, urlSearchParams.get(legacyName));
+          }
+          urlSearchParams.delete(legacyName);
+          migratedQueryParams = true;
+        }
+      });
+      if (migratedQueryParams) {
+        const url = new URL(window.location.href);
+        url.search = urlSearchParams.toString();
+        window.history.replaceState(window.history.state, "", url);
+      }
       const searchQuery = urlSearchParams.get(searchInput.name)?.trim() || "";
-      const requestedPage = Number.parseInt(new URLSearchParams(window.location.search).get("Page") || "", 10);
+      const requestedPage = Number.parseInt(urlSearchParams.get("page") || "", 10);
       let icons = [];
       let currentPage = Number.isInteger(requestedPage) && requestedPage > 0 ? requestedPage - 1 : 0;
 
@@ -91,7 +106,7 @@
       if (!searchQuery) {
         searchInput.focus();
       }
-      excludePlaceholdersInput.checked = urlSearchParams.get("ExcludePlaceholders") === "1";
+      excludePlaceholdersInput.checked = urlSearchParams.get("exclude_placeholders") === "1";
       updateSearchClearButton();
 
       function updateSearchClearButton() {
@@ -126,11 +141,11 @@
           url.searchParams.delete(searchInput.name);
         }
         if (excludePlaceholdersInput.checked) {
-          url.searchParams.set("ExcludePlaceholders", "1");
+          url.searchParams.set("exclude_placeholders", "1");
         } else {
-          url.searchParams.delete("ExcludePlaceholders");
+          url.searchParams.delete("exclude_placeholders");
         }
-        url.searchParams.delete("Page");
+        url.searchParams.delete("page");
 
         window.location.href = url.href;
       });
@@ -155,6 +170,7 @@
       function matchesSearch(icon, value) {
         const searchableWords = splitSearchWords([
           icon.name,
+          icon.description,
           ...(icon.keywords || [])
         ].join(" "));
         const queryWords = splitSearchWords(value);
@@ -176,7 +192,6 @@
         const end = Math.min(start + pageSize, icons.length);
         const pageIcons = icons.slice(start, end).map((icon) => {
           const item = document.createElement("li");
-          const position = document.createElement("span");
           const image = document.createElement("img");
           const link = document.createElement("a");
           const label = document.createElement("span");
@@ -185,14 +200,11 @@
           image.title = icon.name;
           image.alt = icon.name;
           image.src = `./${icon.imageAsset}`;
-          position.className = "icon-catalog-position";
-          position.textContent = `#${catalogPositionByName.get(icon.name).toLocaleString()}`;
-          position.title = "Position in the full alphabetical catalog";
           link.className = "icon-link";
           link.href = iconPageUrl(icon.name);
           link.appendChild(image);
           label.textContent = icon.name;
-          item.append(position, link, label);
+          item.append(link, label);
           return item;
         });
         iconList.replaceChildren(...pageIcons);
@@ -216,9 +228,9 @@
         const url = new URL(window.location.href);
 
         if (currentPage === 0) {
-          url.searchParams.delete("Page");
+          url.searchParams.delete("page");
         } else {
-          url.searchParams.set("Page", String(currentPage + 1));
+          url.searchParams.set("page", String(currentPage + 1));
         }
 
         window.history[replace ? "replaceState" : "pushState"]({}, "", url.href);
@@ -226,7 +238,7 @@
 
       function restorePageFromUrl() {
         const pageCount = Math.ceil(icons.length / pageSize);
-        const page = Number.parseInt(new URLSearchParams(window.location.search).get("Page") || "", 10);
+        const page = Number.parseInt(new URLSearchParams(window.location.search).get("page") || "", 10);
 
         currentPage = Number.isInteger(page) && page > 0
           ? Math.min(page - 1, Math.max(pageCount - 1, 0))
@@ -287,7 +299,6 @@
           }
 
           const metadata = await response.json();
-          metadata.forEach((icon, index) => catalogPositionByName.set(icon.name, index + 1));
           icons = metadata.filter((icon) => matchesFilters(icon, searchQuery));
           iconCount.textContent = metadata.length.toLocaleString();
           const uniqueImages = new Set(metadata.map((icon) => icon.imageAsset));
