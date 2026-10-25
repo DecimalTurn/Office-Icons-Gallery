@@ -4,9 +4,8 @@
     "zero"
   ],
   "_0PercentComplete": [
-    "complete",
-    "percent",
-    "progressbar"
+    "progressbar",
+    "zero"
   ],
   "_1": [
     "number",
@@ -22,94 +21,131 @@
   ],
   "_3DBevelOptionsDialog": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "_3DRotationOptionsDialog": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "ChartFormatSelection": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "DrawingObjectFormatPublisher": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "DrawingProperties": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "FormatComment": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "FormatDiagram": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "FormatHorizRule": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "FormatObject2": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "FormatOrgChart": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "FormatPlaceholder": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "GroupChartCurrentSelection": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "GroupShape": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "ImagePropertiesInfoPath": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "ObjectFormatDialog": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "PictureDisplay": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "PictureFormatDialog": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "TableFormatPublisher": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "TextBoxFormat": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "TextBoxFormatPublisher": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "TextEffects3DRotationOptionsDialog": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "TextEffectsBevelMore3DOptionsDialog": [
     "bucket",
+    "paint",
     "paintbrush"
   ],
   "WordArtFormat": [
     "bucket",
+    "paint",
     "paintbrush"
+  ],
+  "_3DBevelPictureTopGallery": [
+    "cloud",
+    "image",
+    "photo",
+    "scene",
+    "sky"
+  ],
+  "PictureEffectsPresetGallery": [
+    "cloud",
+    "image",
+    "photo",
+    "scene",
+    "sky"
   ]
 }
