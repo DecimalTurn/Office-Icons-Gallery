@@ -36,42 +36,63 @@
     "image",
     "photo",
     "scene",
-    "sky"
+    "sky",
+    "three"
   ],
   "_3DDirectionGalleryClassic": [
     "arrow",
-    "cross"
+    "cross",
+    "four",
+    "three"
   ],
   "_3DEffectColorPickerClassic": [
-    "colour"
+    "colour",
+    "three"
   ],
   "_3DEffectsGalleryClassic": [
     "3d",
-    "cuboid"
+    "cuboid",
+    "graph",
+    "polyhedron",
+    "three",
+    "visualisation",
+    "visualization"
   ],
   "_3DEffectsOnOffClassic": [
     "cube",
-    "square"
+    "dimension",
+    "polyhedron",
+    "square",
+    "three"
   ],
   "_3DExtrusionDepth36Classic": [
     "border",
-    "square"
+    "square",
+    "three"
   ],
   "_3DExtrusionDepth72Classic": [
     "cuboid",
-    "stretch"
+    "polyhedron",
+    "stretch",
+    "three"
   ],
   "_3DExtrusionDepth144Classic": [
     "cuboid",
-    "stretch"
+    "polyhedron",
+    "stretch",
+    "three"
   ],
   "_3DExtrusionDepth288Classic": [
     "cuboid",
-    "stretch"
+    "polyhedron",
+    "stretch",
+    "three"
   ],
   "_3DExtrusionDepthGalleryClassic": [
     "cuboid",
-    "stretch"
+    "polyhedron",
+    "stretch",
+    "three"
   ],
   "_3DExtrusionDepthNoneClassic": [
     "square"
@@ -92,58 +113,84 @@
     "lamp"
   ],
   "_3DLightingDimClassic": [
-    "cube"
+    "cube",
+    "polyhedron",
+    "three"
   ],
   "_3DLightingFlatClassic": [
-    "cube"
+    "cube",
+    "polyhedron",
+    "three"
   ],
   "_3DLightingNormalClassic": [
-    "cube"
+    "cube",
+    "polyhedron",
+    "three"
   ],
   "_3DMaterialGallery": [
     "square"
   ],
   "_3DMaterialMetal": [
-    "prism"
+    "polyhedron",
+    "prism",
+    "three"
   ],
   "_3DMaterialMixed": [
-    "prism"
+    "polyhedron",
+    "prism",
+    "three"
   ],
   "_3DMaterialPlastic": [
-    "prism"
+    "polyhedron",
+    "prism",
+    "three"
   ],
   "_3DPerspectiveDecrease": [
     "arrow",
     "less",
     "lower",
-    "reduce"
+    "reduce",
+    "three"
   ],
   "_3DPerspectiveIncrease": [
     "arrow",
     "higher",
     "more",
-    "raise"
+    "raise",
+    "three"
   ],
   "_3DStyle": [
-    "cube"
+    "cube",
+    "polyhedron",
+    "three"
   ],
   "_3DSurfaceMaterialClassic": [
     "add",
     "cube",
     "insert",
-    "plus"
+    "plus",
+    "polyhedron",
+    "three"
   ],
   "_3DSurfaceMatteClassic": [
-    "cube"
+    "cube",
+    "polyhedron",
+    "three"
   ],
   "_3DSurfaceMetalClassic": [
-    "cube"
+    "cube",
+    "polyhedron",
+    "three"
   ],
   "_3DSurfacePlasticClassic": [
-    "cube"
+    "cube",
+    "polyhedron",
+    "three"
   ],
   "_3DSurfaceWireFrameClassic": [
-    "cube"
+    "cube",
+    "polyhedron",
+    "three"
   ],
   "_3DTiltDownClassic": [
     "rotation"

@@ -66,7 +66,6 @@
     "imageAsset": "images/by-hash/1aafdbcfdb81e8bf.png",
     "keywords": [
       "cloud",
-      "graphic",
       "image",
       "photo",
       "scene",
@@ -81,6 +80,7 @@
     "keywords": [
       "arrow",
       "cross",
+      "four",
       "three"
     ],
     "imageSha256": "402EDAF5C50287A66A0264DD2E7C8111AC0BAFA05E93B827E114CDD2800CF37C"
@@ -90,7 +90,6 @@
     "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png",
     "keywords": [
       "colour",
-      "grid",
       "three"
     ],
     "imageSha256": "5DF5021F6D8BF2A8C398D4B3F86D3D006378F63E733FB623F0B97C782D80253F"
@@ -116,7 +115,9 @@
       "3d",
       "cuboid",
       "graph",
+      "polyhedron",
       "three",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "7E8B56359C980DD8A16570F17616F912DD4AE858E1A55A9BCD07416C7E72D6AB"
@@ -126,6 +127,8 @@
     "imageAsset": "images/by-hash/80b52f37f2b6692a.png",
     "keywords": [
       "cube",
+      "dimension",
+      "polyhedron",
       "square",
       "three"
     ],
@@ -146,6 +149,7 @@
     "imageAsset": "images/by-hash/4d10c76417a09c60.png",
     "keywords": [
       "cuboid",
+      "polyhedron",
       "stretch",
       "three"
     ],
@@ -156,6 +160,7 @@
     "imageAsset": "images/by-hash/7cbd887660907a6d.png",
     "keywords": [
       "cuboid",
+      "polyhedron",
       "stretch",
       "three"
     ],
@@ -166,6 +171,7 @@
     "imageAsset": "images/by-hash/d883faae27af688d.png",
     "keywords": [
       "cuboid",
+      "polyhedron",
       "stretch",
       "three"
     ],
@@ -176,6 +182,7 @@
     "imageAsset": "images/by-hash/42196e9efc604373.png",
     "keywords": [
       "cuboid",
+      "polyhedron",
       "stretch",
       "three"
     ],
@@ -244,6 +251,7 @@
     "imageAsset": "images/by-hash/2815e70dbe7d7642.png",
     "keywords": [
       "cube",
+      "polyhedron",
       "three"
     ],
     "imageSha256": "2815E70DBE7D7642B02A31948A67B367A74D31340C3364D348937A46EDC9E391"
@@ -253,6 +261,7 @@
     "imageAsset": "images/by-hash/1943882723dd9b94.png",
     "keywords": [
       "cube",
+      "polyhedron",
       "three"
     ],
     "imageSha256": "1943882723DD9B949CD734AA6C9AA3DCC629EBF73A6AEA73092096B9CDC923B9"
@@ -267,6 +276,7 @@
     "imageAsset": "images/by-hash/ef2a3c9a108e2e7d.png",
     "keywords": [
       "cube",
+      "polyhedron",
       "three"
     ],
     "imageSha256": "EF2A3C9A108E2E7D6F7A658D7326F63722F3A8AF70BDA1D6D10F3C0547716D42"
@@ -284,6 +294,7 @@
     "name": "_3DMaterialMetal",
     "imageAsset": "images/by-hash/a68a2cae81684f42.png",
     "keywords": [
+      "polyhedron",
       "prism",
       "three"
     ],
@@ -293,6 +304,7 @@
     "name": "_3DMaterialMixed",
     "imageAsset": "images/by-hash/6a125824c21803dd.png",
     "keywords": [
+      "polyhedron",
       "prism",
       "three"
     ],
@@ -302,6 +314,7 @@
     "name": "_3DMaterialPlastic",
     "imageAsset": "images/by-hash/a4e97b65fce60bc5.png",
     "keywords": [
+      "polyhedron",
       "prism",
       "three"
     ],
@@ -312,12 +325,10 @@
     "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png",
     "keywords": [
       "arrow",
-      "graph",
       "less",
       "lower",
       "reduce",
-      "three",
-      "visualization"
+      "three"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
   },
@@ -348,6 +359,7 @@
     "imageAsset": "images/by-hash/cba7c0795e843fbd.png",
     "keywords": [
       "cube",
+      "polyhedron",
       "three"
     ],
     "imageSha256": "CBA7C0795E843FBDDFA3CD8FDC11E2B2F59EC8400DC42C136B469FB39BE1726E"
@@ -360,6 +372,7 @@
       "cube",
       "insert",
       "plus",
+      "polyhedron",
       "three"
     ],
     "imageSha256": "2F28872E58D8DE88AA14C2A37F8A0ABE8C53083E5F7AF25494B7911A3DE85B0B"
@@ -374,6 +387,7 @@
     "imageAsset": "images/by-hash/98a6151e6fd28abe.png",
     "keywords": [
       "cube",
+      "polyhedron",
       "three"
     ],
     "imageSha256": "98A6151E6FD28ABE73884E2A95BA57D5D33BD20D168C1DDFDD5F105507835522"
@@ -383,6 +397,7 @@
     "imageAsset": "images/by-hash/f1d876fe9033b256.png",
     "keywords": [
       "cube",
+      "polyhedron",
       "three"
     ],
     "imageSha256": "F1D876FE9033B2568477ABFD828391B735AEAD28A40D7C401FA77BAA59DF0D4C"
@@ -392,6 +407,7 @@
     "imageAsset": "images/by-hash/de23e5fb0db9143d.png",
     "keywords": [
       "cube",
+      "polyhedron",
       "three"
     ],
     "imageSha256": "DE23E5FB0DB9143D95DD0039ED24EFA725D40FC6738A8C1A8081B5A0203CA0F7"
@@ -401,6 +417,7 @@
     "imageAsset": "images/by-hash/10048e73d673db65.png",
     "keywords": [
       "cube",
+      "polyhedron",
       "three"
     ],
     "imageSha256": "10048E73D673DB65D871232764C6D9AD2653FD9239CA9D231DB52EEA77868FC0"
