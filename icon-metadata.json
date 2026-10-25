@@ -50,15 +50,13 @@
     "keywords": [
       "appearance",
       "bucket",
-      "graph",
-      "graphic",
-      "grid",
       "paint",
       "paintbrush",
       "photo",
       "style",
       "three",
       "two",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "DC6ED26BD6AD35504048CAA01778E3EEA41618F9AA8D5EC80A769EA1C2B6574A"
@@ -3871,7 +3869,9 @@
     "imageAsset": "images/by-hash/f3efe98ab9433ece.png",
     "keywords": [
       "graph",
+      "greek",
       "grid",
+      "sigma",
       "visualization"
     ],
     "imageSha256": "F3EFE98AB9433ECE25147FFA072501A1D81D0BBB71D3403BCEA4F50E9392529E"

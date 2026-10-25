@@ -444,7 +444,7 @@
   "AutoSigInsertPictureFromFile": false,
   "AutoSigWebInsertHyperlink": false,
   "AutoSizePage": false,
-  "AutoSum": false,
+  "AutoSum": true,
   "AutoSumAverage": false,
   "AutoSumCount": false,
   "AutoSummarize": false,

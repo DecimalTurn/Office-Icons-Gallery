@@ -31,5 +31,9 @@
   ],
   "color": [
     "colour"
+  ],
+  "picture": [
+    "image",
+    "photo"
   ]
 }

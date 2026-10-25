@@ -20,9 +20,16 @@
     "three"
   ],
   "_3DBevelOptionsDialog": [
+    "appearance",
     "bucket",
     "paint",
-    "paintbrush"
+    "paintbrush",
+    "photo",
+    "style",
+    "three",
+    "two",
+    "visualisation",
+    "visualization"
   ],
   "_3DBevelPictureTopGallery": [
     "cloud",
@@ -216,5 +223,9 @@
   "AccessFormWizard": [
     "magic",
     "spark"
+  ],
+  "AutoSum": [
+    "greek",
+    "sigma"
   ]
 }
