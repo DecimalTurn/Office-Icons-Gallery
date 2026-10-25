@@ -11,6 +11,8 @@
     reviewState: document.getElementById("review-state"),
     imageHash: document.getElementById("image-hash"),
     sameImageIds: document.getElementById("same-image-ids"),
+    nameWordReference: document.getElementById("name-word-reference"),
+    nameWordTags: document.getElementById("name-word-tags"),
     keywordEditor: document.getElementById("keyword-editor"),
     addKeyword: document.getElementById("add-keyword"),
     markReviewed: document.getElementById("mark-reviewed"),
@@ -74,6 +76,18 @@
     }
     return new Set([state.currentIcon.name, ...(state.sameImageIdsByName.get(state.currentIcon.name) || [])]
       .flatMap(splitIconName));
+  }
+
+  function renderNameWordTags() {
+    const words = [...nameKeywords()].sort((left, right) => left.localeCompare(right, "en"));
+    elements.nameWordTags.replaceChildren(...words.map((word) => {
+      const tag = document.createElement("span");
+      tag.className = "name-word-tag";
+      tag.setAttribute("role", "listitem");
+      tag.textContent = word;
+      return tag;
+    }));
+    elements.nameWordReference.hidden = words.length === 0;
   }
 
   function readKeywords() {
@@ -198,6 +212,7 @@
     elements.sameImageIds.textContent = sameImageIds.length
       ? `Identical image IDs: ${sameImageIds.join(", ")}`
       : "Unique image file";
+    renderNameWordTags();
     renderKeywords(icon.keywords);
     updateReviewState(state.reviewStatus[icon.name] === true);
     setStatus(icon.imageStatus === "placeholder"

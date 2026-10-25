@@ -329,6 +329,36 @@
   color: var(--page-foreground);
 }
 
+.name-word-reference {
+  margin: 14px 0 18px;
+}
+
+.name-word-reference h2 {
+  margin: 0 0 7px;
+  color: var(--muted-foreground);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.name-word-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.name-word-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 27px;
+  padding: 3px 8px;
+  border: 1px solid color-mix(in srgb, var(--danger-color) 42%, var(--border-color));
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--danger-color) 16%, var(--surface-background));
+  color: var(--page-foreground);
+  font-size: 0.78rem;
+  line-height: 1.2;
+}
+
 #image-hash {
   overflow-wrap: anywhere;
   font-family: Consolas, "Courier New", monospace;
@@ -362,7 +392,8 @@
 }
 
 .keyword-row input.keyword-from-name {
-  background: var(--required-keyword-background);
+  border-color: color-mix(in srgb, var(--danger-color) 55%, var(--border-color));
+  background: color-mix(in srgb, var(--danger-color) 16%, var(--control-background));
 }
 
 .keyword-row .awesomplete {

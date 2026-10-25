@@ -150,6 +150,37 @@ test("omits icon-name words and confirms only useful keywords", async ({ page })
   expect(savedKeywordValues).toContain("paintbrush");
 });
 
+test("lists same-image name words and marks matching keywords red", async ({ page }) => {
+  const iconId = "_3DEffectColorPickerClassic";
+  const imageGroupIds = imageGroupByName.get(iconId);
+  const keywordOverrides = Object.fromEntries(imageGroupIds.map((name) => [name, ["bucket", "paint", "colour"]]));
+  await mockKeywordReview(page, { keywordOverrides });
+  await page.setViewportSize({ width: 360, height: 800 });
+
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(iconId)}`);
+
+  const tags = await page.locator("#name-word-tags .name-word-tag").allTextContents();
+  expect(tags).toContain("bucket");
+  expect(tags).toContain("paint");
+  const tagRows = await page.locator("#name-word-tags .name-word-tag").evaluateAll((items) =>
+    new Set(items.map((item) => Math.round(item.getBoundingClientRect().top))).size
+  );
+  expect(tagRows).toBeGreaterThan(1);
+  const bucketStyle = await page.locator(".keyword-row input").evaluateAll((inputs) => {
+    const input = inputs.find((entry) => entry.value === "bucket");
+    return {
+      className: input.className,
+      background: getComputedStyle(input).backgroundColor
+    };
+  });
+  expect(bucketStyle.className).toMatch(/keyword-from-name/);
+  const background = bucketStyle.background;
+  const channels = background.match(/color\(srgb\s+([\d.]+)\s+([\d.]+)\s+([\d.]+)/) ||
+    background.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);
+  expect(channels).not.toBeNull();
+  expect(Number(channels[1])).toBeGreaterThan(Number(channels[2]));
+});
+
 test("opens the icon selected by the URL parameter", async ({ page }) => {
   await mockKeywordReview(page);
   const icon = reviewableIcons[1];
