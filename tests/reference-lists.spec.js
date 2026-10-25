@@ -19,6 +19,9 @@ test("creates saved lists and appends selected icons and IDs in the review page"
   const metadataResponse = await page.request.get("/icon-metadata.json");
   const metadata = await metadataResponse.json();
   const idIcon = metadata.find((icon) => icon.name === "ChartFormatSelection");
+  const idIconKeywords = idIcon.keywords?.length
+    ? idIcon.keywords
+    : metadata.find((icon) => icon.imageSha256 === idIcon.imageSha256 && icon.keywords?.length).keywords;
   const selectedIcon = "_3DBevelOptionsDialog";
   const selectedIconData = metadata.find((icon) => icon.name === selectedIcon);
 
@@ -68,7 +71,7 @@ test("creates saved lists and appends selected icons and IDs in the review page"
   await expect(listItems.nth(0).getByRole("link")).toHaveText(selectedIcon);
   await expect(listItems.nth(0).locator(".reference-icon-keyword")).toHaveText(selectedIconData.keywords);
   await expect(listItems.nth(1).getByRole("link")).toHaveText(idIcon.name);
-  await expect(listItems.nth(1).locator(".reference-icon-keyword")).toHaveText(idIcon.keywords);
+  await expect(listItems.nth(1).locator(".reference-icon-keyword")).toHaveText(idIconKeywords);
 
   await page.getByRole("button", { name: `Remove ${idIcon.name} from list` }).click();
   await expect(page.getByRole("link", { name: idIcon.name, exact: true })).toHaveCount(0);

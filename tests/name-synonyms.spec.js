@@ -67,8 +67,11 @@ test("saving a synonym updates metadata for every ID with that real image", asyn
     });
     expect(response.ok()).toBe(true);
     const updatedMetadata = await request.get("/icon-metadata.json").then((result) => result.json());
-    const pailIds = updatedMetadata.filter((icon) => icon.keywords.includes("pail")).map((icon) => icon.name);
-    expect(pailIds).toEqual(expectedIds);
+    const pailIds = updatedMetadata.filter((icon) => icon.keywords?.includes("pail")).map((icon) => icon.name);
+    expect(pailIds).toEqual([expectedIds[0]]);
+    for (const aliasId of expectedIds.slice(1)) {
+      expect(Object.hasOwn(updatedMetadata.find((icon) => icon.name === aliasId), "keywords")).toBe(false);
+    }
   } finally {
     fs.writeFileSync(synonymPath, originalSynonyms, "utf8");
     const { spawnSync } = require("node:child_process");

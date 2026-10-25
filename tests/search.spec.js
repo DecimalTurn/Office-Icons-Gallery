@@ -26,6 +26,22 @@ test("submits a search query and filters the gallery after reload", async ({ pag
   await expect(page.locator(".page-status").first()).toContainText("1-2 of 2 icons");
 });
 
+test("shared keywords return only the representative image ID", async ({ page }) => {
+  await page.goto("/index.html?search_mso=bucket");
+
+  await expect(page.locator("#search-result-count")).toHaveText("2 icons found");
+  await expect(page.locator(".mso-list li span:not(.icon-catalog-position)")).toHaveText([
+    "_3DBevelOptionsDialog",
+    "IconBucketTool"
+  ]);
+
+  await page.goto("/index.html?search_mso=ChartFormatSelection");
+  await expect(page.locator("#search-result-count")).toHaveText("1 icon found");
+  await expect(page.locator(".mso-list li span:not(.icon-catalog-position)")).toHaveText([
+    "ChartFormatSelection"
+  ]);
+});
+
 test("limits suggestions to 30 and submits from the See all results row", async ({ page }) => {
   await page.goto("/index.html");
 

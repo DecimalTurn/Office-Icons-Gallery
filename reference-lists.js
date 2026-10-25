@@ -21,6 +21,7 @@
   const state = {
     icons: [],
     iconsById: new Map(),
+    keywordsByImageHash: new Map(),
     lists: [],
     activeListId: "",
     currentIconId: "",
@@ -95,7 +96,10 @@
       link.textContent = icon.name;
       keywords.className = "reference-icon-keywords";
       keywords.setAttribute("aria-label", `Keywords for ${icon.name}`);
-      for (const keyword of icon.keywords || []) {
+      const iconKeywords = icon.keywords?.length
+        ? icon.keywords
+        : state.keywordsByImageHash.get(icon.imageSha256) || [];
+      for (const keyword of iconKeywords) {
         const keywordItem = document.createElement("li");
         keywordItem.className = "reference-icon-keyword";
         keywordItem.textContent = keyword;
@@ -220,14 +224,23 @@
     if (!Array.isArray(keywords)) {
       return;
     }
+    const representativeId = iconIds[0];
     let updatedActiveList = false;
     for (const iconId of iconIds) {
       const icon = typeof iconId === "string" ? state.iconsById.get(iconId.toLocaleLowerCase("en")) : null;
       if (!icon) {
         continue;
       }
-      icon.keywords = keywords;
+      if (iconId === representativeId) {
+        icon.keywords = keywords;
+      } else {
+        delete icon.keywords;
+      }
       updatedActiveList ||= activeList()?.iconIds.includes(icon.name) || false;
+    }
+    const representative = state.iconsById.get(representativeId?.toLocaleLowerCase("en"));
+    if (representative?.imageSha256) {
+      state.keywordsByImageHash.set(representative.imageSha256, keywords);
     }
     const list = activeList();
     if (list && updatedActiveList) {
@@ -280,6 +293,9 @@
       ]);
       state.icons = metadata;
       state.iconsById = new Map(metadata.map((icon) => [icon.name.toLocaleLowerCase("en"), icon]));
+      state.keywordsByImageHash = new Map(metadata
+        .filter((icon) => icon.imageStatus !== "placeholder" && icon.keywords?.length)
+        .map((icon) => [icon.imageSha256, icon.keywords]));
       state.lists = result.lists;
       try {
         const rememberedListId = window.localStorage.getItem(activeListStorageKey);

@@ -52,6 +52,13 @@ test("lists IDs that use the same image on the icon detail page", async ({ page 
   await expect(page).toHaveURL(/icon\.html\?icon_id=FontColorCycle$/);
 });
 
+test("shows representative keywords when opening an image alias", async ({ page }) => {
+  await page.goto("/icon.html?icon_id=ChartFormatSelection");
+
+  await expect(page.locator("#icon-keywords")).toContainText("bucket");
+  await expect(page.locator("#icon-keywords")).toContainText("paint");
+});
+
 test("does not list placeholder IDs as alternative image names", async ({ page }) => {
   await page.goto("/icon.html?icon_id=AccountingFormatExcel");
 

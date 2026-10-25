@@ -15,7 +15,7 @@ test("metadata excludes every icon-name word from keywords", async () => {
     if (Object.hasOwn(icon, "description")) {
       metadataViolations.push(`${icon.name} has a description`);
     }
-    const keywords = new Set(icon.keywords);
+    const keywords = new Set(icon.keywords || []);
     for (const word of nameKeywords([icon.name])) {
       if (keywords.has(word)) {
         metadataViolations.push(`${icon.name} includes name word ${word}`);
@@ -31,7 +31,7 @@ test("metadata excludes every icon-name word from keywords", async () => {
   }
   for (const group of keywordGroups.values()) {
     const imageNameWords = nameKeywords(group.map((icon) => icon.name));
-    for (const keyword of group[0].keywords) {
+    for (const keyword of group[0].keywords || []) {
       if (imageNameWords.has(keyword)) {
         metadataViolations.push(`${keyword} is a name word in image group ${group[0].name}`);
       }
@@ -44,9 +44,12 @@ test("metadata excludes every icon-name word from keywords", async () => {
       ...metadata.filter((other) => other.imageStatus !== "placeholder" &&
         other.imageSha256 === icon?.imageSha256 && other.name !== name).map((other) => other.name)
     ];
+    const keywordSource = icon?.imageStatus === "placeholder"
+      ? icon
+      : metadata.find((entry) => entry.imageSha256 === icon?.imageSha256 && entry.keywords?.length);
     const expectedKeywords = removeNameKeywords(relatedNames, keywords);
-    if (!expectedKeywords.every((keyword) => icon?.keywords.includes(keyword))) {
-      metadataViolations.push(`reviewed keywords for ${name} are missing from metadata`);
+    if (!expectedKeywords.every((keyword) => (keywordSource?.keywords || []).includes(keyword))) {
+      metadataViolations.push(`reviewed keywords for ${name} are missing from its image representative`);
     }
   }
   const imageGroups = new Map();
@@ -55,19 +58,39 @@ test("metadata excludes every icon-name word from keywords", async () => {
     group.push(icon);
     imageGroups.set(icon.imageSha256, group);
   }
+  const representativeByImageHash = new Map([...imageGroups.values()]
+    .map((group) => [group[0].imageSha256, group[0]]));
   for (const group of imageGroups.values()) {
     if (group.length > 1) {
       for (const icon of group.slice(1)) {
-        if (JSON.stringify(icon.keywords) !== JSON.stringify(group[0].keywords)) {
-          metadataViolations.push(`${icon.name} does not share keywords with ${group[0].name}`);
+        if (Object.hasOwn(icon, "keywords")) {
+          metadataViolations.push(`${icon.name} duplicates keywords from ${group[0].name}`);
+        }
+        if (Object.hasOwn(reviewedKeywords, icon.name)) {
+          metadataViolations.push(`${icon.name} duplicates reviewed keywords from ${group[0].name}`);
         }
       }
+    }
+  }
+  for (const [name, keywords] of Object.entries(reviewedKeywords)) {
+    const icon = metadataByName.get(name);
+    const keywordSource = icon?.imageStatus === "placeholder"
+      ? icon
+      : representativeByImageHash.get(icon?.imageSha256);
+    const relatedNames = icon?.imageStatus === "placeholder" ? [name] : [
+      name,
+      ...metadata.filter((other) => other.imageStatus !== "placeholder" &&
+        other.imageSha256 === icon?.imageSha256 && other.name !== name).map((other) => other.name)
+    ];
+    const expectedKeywords = removeNameKeywords(relatedNames, keywords);
+    if (!expectedKeywords.every((keyword) => (keywordSource?.keywords || []).includes(keyword))) {
+      metadataViolations.push(`reviewed keywords for ${name} are missing from its image representative`);
     }
   }
   expect(metadataViolations).toEqual([]);
   const largestImageGroup = [...imageGroups.values()]
     .filter((group) => group.length > 1)
-    .sort((left, right) => right[0].keywords.length - left[0].keywords.length)[0];
+    .sort((left, right) => (right[0].keywords || []).length - (left[0].keywords || []).length)[0];
   expect(largestImageGroup[0].keywords.length).toBeGreaterThan(0);
   expect(normalizeReviewedKeywordGroup(largestImageGroup.map((icon) => icon.name), largestImageGroup[0].keywords))
     .toEqual(largestImageGroup[0].keywords);

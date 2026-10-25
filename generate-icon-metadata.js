@@ -404,8 +404,9 @@ for (const group of keywordsByImageHash.values()) {
     group.map((icon) => icon.name),
     [...new Set(group.flatMap((icon) => icon.keywords))]
   ).sort();
-  for (const icon of group) {
-    icon.keywords = sharedKeywords;
+  group[0].keywords = sharedKeywords;
+  for (const icon of group.slice(1)) {
+    delete icon.keywords;
   }
 }
 

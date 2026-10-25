@@ -194,8 +194,9 @@ async function handleApi(request, response, requestUrl) {
         : currentMetadata.filter((entry) => entry.imageStatus !== "placeholder" && entry.imageSha256 === icon.imageSha256).map((entry) => entry.name);
       const keywords = normalizeReviewedKeywordGroup(iconIds, body.keywords, readJsonFile(nameSynonymsPath));
       const nextKeywords = { ...readJsonFile(keywordsPath) };
-      for (const groupIconId of iconIds) {
-        nextKeywords[groupIconId] = keywords;
+      nextKeywords[iconIds[0]] = keywords;
+      for (const groupIconId of iconIds.slice(1)) {
+        delete nextKeywords[groupIconId];
       }
       const nextReviewStatus = updateReviewStatus(readReviewStatus(reviewStatusPath), iconId, true);
       const nextMetadata = updateMetadataKeywords(currentMetadata, iconIds, keywords);

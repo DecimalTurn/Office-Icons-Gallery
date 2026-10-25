@@ -152,7 +152,10 @@
         ])
           .then(([metadata, iconDetails]) => {
             const icon = metadata.find((entry) => entry.name === iconName);
-            iconKeywords.replaceChildren(...(icon?.keywords || []).map((keyword) => {
+            const keywordSource = icon?.imageStatus === "placeholder"
+              ? icon
+              : metadata.find((entry) => entry.imageSha256 === icon?.imageSha256 && entry.keywords?.length);
+            iconKeywords.replaceChildren(...(keywordSource?.keywords || icon?.keywords || []).map((keyword) => {
               const item = document.createElement("li");
               item.textContent = keyword;
               return item;

@@ -117,7 +117,18 @@ function updateReviewStatus(reviewStatus, iconId, reviewed) {
 
 function updateMetadataKeywords(metadata, iconIds, keywords) {
   const iconIdSet = new Set(iconIds);
-  return metadata.map((entry) => iconIdSet.has(entry.name) ? { ...entry, keywords } : entry);
+  const representativeId = iconIds[0];
+  return metadata.map((entry) => {
+    if (!iconIdSet.has(entry.name)) {
+      return entry;
+    }
+    if (entry.name === representativeId) {
+      return { ...entry, keywords };
+    }
+    const alias = { ...entry };
+    delete alias.keywords;
+    return alias;
+  });
 }
 
 function readJsonFile(filePath) {
