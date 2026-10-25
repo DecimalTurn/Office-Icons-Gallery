@@ -73,8 +73,7 @@
       return new Set();
     }
     return new Set([state.currentIcon.name, ...(state.sameImageIdsByName.get(state.currentIcon.name) || [])]
-      .flatMap(splitIconName)
-      .filter((word) => word.length >= 4));
+      .flatMap(splitIconName));
   }
 
   function readKeywords() {
@@ -106,7 +105,7 @@
     input.value = keyword;
     input.classList.toggle("keyword-from-name", nameDerived);
     input.setAttribute("aria-label", `Keyword ${index + 1}`);
-    input.title = nameDerived ? "Keyword from an icon ID; editable" : "Edit keyword";
+    input.title = nameDerived ? "Icon ID word; excluded when saved" : "Edit keyword";
     remove.type = "button";
     remove.className = "review-icon-button keyword-remove-button";
     remove.dataset.removeKeyword = "true";

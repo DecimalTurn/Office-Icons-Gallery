@@ -1,5 +1,5 @@
 const { test, expect } = require("@playwright/test");
-const { normalizeReviewedKeywordGroup, requiredNameKeywords } = require("../scripts/keyword-utils");
+const { nameKeywords, normalizeReviewedKeywordGroup } = require("../scripts/keyword-utils");
 const metadata = require("../icon-metadata.json");
 const seenReviewImageHashes = new Set();
 const reviewableIcons = metadata.filter((icon) => {
@@ -67,11 +67,10 @@ async function mockKeywordReview(page, { confirmDelay = 0, keywordOverrides = {}
   return { confirmed, resets };
 }
 
-test("highlights only long name keywords and confirms the changes", async ({ page }) => {
+test("omits icon-name words and confirms only useful keywords", async ({ page }) => {
   const iconId = "_3DBevelOptionsDialog";
   const imageGroupIds = imageGroupByName.get(iconId);
-  const keywordOverrides = Object.fromEntries(imageGroupIds.map((iconName) => [iconName, ["3", "d", "bevel", "options", "dialog"]]));
-  const { confirmed, resets } = await mockKeywordReview(page, { keywordOverrides });
+  const { confirmed, resets } = await mockKeywordReview(page);
   await page.goto("/keyword-review.html");
   await expect(page.locator("#selected-icon-name")).toHaveText("_0");
   await expect.poll(() => new URL(page.url()).searchParams.get("icon_id")).toBe("_0");
@@ -102,24 +101,21 @@ test("highlights only long name keywords and confirms the changes", async ({ pag
     expect(row.readOnly).toBe(false);
     expect(row.removeDisabled).toBe(false);
   }
-  for (const word of requiredNameKeywords(iconId)) {
-    expect(renderedRows.find((row) => row.value === word)?.fromNameClass).toBe(true);
-  }
-  expect(renderedRows.filter((row) => row.fromNameClass).map((row) => row.value))
-    .not.toEqual(expect.arrayContaining(["3", "d"]));
-  const bevelIndex = renderedRows.findIndex((entry) => entry.value === "bevel");
-  expect(bevelIndex).toBeGreaterThanOrEqual(0);
-  await keywordRows.nth(bevelIndex).locator("input").fill("beveled");
-  await page.getByRole("button", { name: "Remove keyword options" }).click();
+  const iconNameWords = nameKeywords(imageGroupIds);
+  expect(renderedRows.map((row) => row.value).filter((word) => iconNameWords.has(word))).toEqual([]);
+  const paintIndex = renderedRows.findIndex((entry) => entry.value === "paint");
+  expect(paintIndex).toBeGreaterThanOrEqual(0);
+  await keywordRows.nth(paintIndex).locator("input").fill("painted");
+  await page.getByRole("button", { name: "Remove keyword bucket" }).click();
   const addKeywordButton = page.getByRole("button", { name: "Add keyword" });
   await addKeywordButton.click();
   const temporaryInput = page.locator(".keyword-row input").last();
-  await temporaryInput.fill("beve");
+  await temporaryInput.fill("paintb");
   const keywordSuggestions = page.locator(".keyword-editor .keyword-row .awesomplete > ul:not([hidden])");
   await expect(keywordSuggestions).toBeVisible();
-  await expect(keywordSuggestions).toContainText("bevel");
+  await expect(keywordSuggestions).toContainText("paintbrush");
   await temporaryInput.press("Tab");
-  await expect(temporaryInput).toHaveValue("bevel");
+  await expect(temporaryInput).toHaveValue("paintbrush");
   await expect(addKeywordButton).toBeFocused();
   await temporaryInput.fill("temporary term");
   await temporaryInput.press("Tab");
@@ -137,22 +133,21 @@ test("highlights only long name keywords and confirms the changes", async ({ pag
   expect(confirmed[0].iconIds).toEqual(imageGroupIds);
   expect(confirmed[0].keywords).toContain("blue pigment");
   expect(confirmed[0].keywords).not.toContain("temporary term");
-  expect(confirmed[0].keywords).toContain("beveled");
-  expect(confirmed[0].keywords).not.toContain("bevel");
-  expect(confirmed[0].keywords).not.toContain("options");
+  expect(confirmed[0].keywords).toContain("painted");
+  expect(confirmed[0].keywords).toContain("paintbrush");
+  for (const word of iconNameWords) {
+    expect(confirmed[0].keywords).not.toContain(word);
+  }
   await expect(page.locator(".reference-icon-item .reference-icon-keyword").filter({ hasText: "blue pigment" })).toHaveCount(2);
-  expect(confirmed[0].keywords).not.toContain("3");
-  expect(confirmed[0].keywords).not.toContain("d");
-  expect(confirmed[0].keywords).toContain("dialog");
+  expect(confirmed[0].keywords).not.toContain("temporary term");
 
   await page.getByRole("button", { name: "Mark not reviewed" }).click();
   await expect(page.locator("#review-state")).toHaveText("Not reviewed");
   expect(resets).toEqual([{ iconId, reviewed: false }]);
   const savedKeywordValues = await page.locator(".keyword-row input").evaluateAll((inputs) => inputs.map((input) => input.value));
   expect(savedKeywordValues).toContain("blue pigment");
-  expect(savedKeywordValues).toContain("beveled");
-  expect(savedKeywordValues).not.toContain("bevel");
-  expect(savedKeywordValues).not.toContain("options");
+  expect(savedKeywordValues).toContain("painted");
+  expect(savedKeywordValues).toContain("paintbrush");
 });
 
 test("opens the icon selected by the URL parameter", async ({ page }) => {
@@ -190,12 +185,12 @@ test("Tab accepts a suggestion and focuses the next keyword field", async ({ pag
   const keywordInputCount = await keywordInputs.count();
   const autocompleteInput = keywordInputs.nth(keywordInputCount - 2);
   const nextKeywordInput = keywordInputs.nth(keywordInputCount - 1);
-  await autocompleteInput.fill("beve");
-  await expect(page.locator(".keyword-editor .keyword-row .awesomplete > ul:not([hidden])")).toContainText("bevel");
+  await autocompleteInput.fill("paintb");
+  await expect(page.locator(".keyword-editor .keyword-row .awesomplete > ul:not([hidden])")).toContainText("paintbrush");
 
   await autocompleteInput.press("Tab");
 
-  await expect(autocompleteInput).toHaveValue("bevel");
+  await expect(autocompleteInput).toHaveValue("paintbrush");
   await expect(nextKeywordInput).toBeFocused();
 });
 
@@ -234,13 +229,15 @@ test("confirming review does not shift the workspace while saving", async ({ pag
   await page.goto("/keyword-review.html");
   await expect(page.locator("#selected-icon-name")).toHaveText("_0");
   const workspace = page.locator(".review-workspace");
+  const confirmButton = page.getByRole("button", { name: "Confirm review" });
+  await confirmButton.scrollIntoViewIfNeeded();
   const initialTop = await workspace.evaluate((element) => element.getBoundingClientRect().top);
 
-  await page.getByRole("button", { name: "Confirm review" }).click();
-  await expect(page.getByRole("button", { name: "Confirm review" })).toBeDisabled();
+  await confirmButton.click();
+  await expect(confirmButton).toBeDisabled();
   await expect(page.locator("#review-status")).toBeEmpty();
   await expect.poll(() => workspace.evaluate((element) => element.getBoundingClientRect().top)).toBe(initialTop);
-  await expect(page.getByRole("button", { name: "Confirm review" })).toBeEnabled();
+  await expect(confirmButton).toBeEnabled();
 });
 
 test("rejects an empty keyword row until it is filled or removed", async ({ page }) => {

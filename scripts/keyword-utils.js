@@ -10,21 +10,14 @@ function splitIconName(name = "") {
     .filter(Boolean);
 }
 
-function requiredNameKeywords(name) {
-  return [...new Set(splitIconName(name)
-    .map((word) => word.toLocaleLowerCase("en"))
-    .filter((word) => word.length >= 4))];
-}
-
-function shortNameKeywords(iconNames) {
+function nameKeywords(iconNames) {
   return new Set(iconNames
     .flatMap(splitIconName)
-    .map((word) => word.toLocaleLowerCase("en"))
-    .filter((word) => word.length < 4));
+    .map((word) => word.toLocaleLowerCase("en")));
 }
 
-function removeShortNameKeywords(iconNames, keywords) {
-  const excludedKeywords = shortNameKeywords(iconNames);
+function removeNameKeywords(iconNames, keywords) {
+  const excludedKeywords = nameKeywords(iconNames);
   return keywords.filter((keyword) => !excludedKeywords.has(keyword.toLocaleLowerCase("en")));
 }
 
@@ -46,7 +39,7 @@ function normalizeKeywordValues(values, maximumKeywords) {
 
 function normalizeReviewedKeywords(iconName, values) {
   const submitted = normalizeKeywordValues(values, 100);
-  return [...new Set(removeShortNameKeywords([iconName], submitted))].sort();
+  return [...new Set(removeNameKeywords([iconName], submitted))].sort();
 }
 
 function normalizeReviewedKeywordGroup(iconNames, values) {
@@ -54,7 +47,7 @@ function normalizeReviewedKeywordGroup(iconNames, values) {
     throw new Error("Provide at least one icon ID");
   }
   const submitted = normalizeKeywordValues(values, 200);
-  return [...new Set(removeShortNameKeywords(iconNames, submitted))].sort();
+  return [...new Set(removeNameKeywords(iconNames, submitted))].sort();
 }
 
 function updateReviewStatus(reviewStatus, iconId, reviewed) {
@@ -74,4 +67,4 @@ function readReviewStatus(filePath) {
   return readJsonFile(filePath);
 }
 
-module.exports = { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, removeShortNameKeywords, requiredNameKeywords, shortNameKeywords, splitIconName, updateMetadataKeywords, updateReviewStatus };
+module.exports = { nameKeywords, normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, removeNameKeywords, splitIconName, updateMetadataKeywords, updateReviewStatus };

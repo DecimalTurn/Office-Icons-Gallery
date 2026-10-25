@@ -3,9 +3,9 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
-const { normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, removeShortNameKeywords, requiredNameKeywords, shortNameKeywords, updateMetadataKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
+const { nameKeywords, normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, removeNameKeywords, updateMetadataKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
 
-test("metadata contains only keywords and excludes short icon-name words", async () => {
+test("metadata excludes every icon-name word from keywords", async () => {
   const reviewedKeywords = require("../icon-keywords.json");
   const metadata = require("../icon-metadata.json");
   const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
@@ -16,18 +16,9 @@ test("metadata contains only keywords and excludes short icon-name words", async
       metadataViolations.push(`${icon.name} has a description`);
     }
     const keywords = new Set(icon.keywords);
-    const nameWords = requiredNameKeywords(icon.name);
-    if (!Object.hasOwn(reviewedKeywords, icon.name)) {
-      for (const word of nameWords) {
-        if (!keywords.has(word)) {
-          metadataViolations.push(`${icon.name} is missing generated name word ${word}`);
-        }
-      }
-    }
-    if (!Object.hasOwn(reviewedKeywords, icon.name) && nameWords.length > 1) {
-      const fullNamePhrase = nameWords.join(" ");
-      if (keywords.has(fullNamePhrase)) {
-        metadataViolations.push(`${icon.name} includes its full name as one keyword`);
+    for (const word of nameKeywords([icon.name])) {
+      if (keywords.has(word)) {
+        metadataViolations.push(`${icon.name} includes name word ${word}`);
       }
     }
   }
@@ -39,10 +30,10 @@ test("metadata contains only keywords and excludes short icon-name words", async
     keywordGroups.set(groupId, group);
   }
   for (const group of keywordGroups.values()) {
-    const shortNameWords = shortNameKeywords(group.map((icon) => icon.name));
+    const imageNameWords = nameKeywords(group.map((icon) => icon.name));
     for (const keyword of group[0].keywords) {
-      if (shortNameWords.has(keyword)) {
-        metadataViolations.push(`${keyword} is a short name word in image group ${group[0].name}`);
+      if (imageNameWords.has(keyword)) {
+        metadataViolations.push(`${keyword} is a name word in image group ${group[0].name}`);
       }
     }
   }
@@ -53,7 +44,7 @@ test("metadata contains only keywords and excludes short icon-name words", async
       ...metadata.filter((other) => other.imageStatus !== "placeholder" &&
         other.imageSha256 === icon?.imageSha256 && other.name !== name).map((other) => other.name)
     ];
-    const expectedKeywords = removeShortNameKeywords(relatedNames, keywords);
+    const expectedKeywords = removeNameKeywords(relatedNames, keywords);
     if (!expectedKeywords.every((keyword) => icon?.keywords.includes(keyword))) {
       metadataViolations.push(`reviewed keywords for ${name} are missing from metadata`);
     }
@@ -77,14 +68,14 @@ test("metadata contains only keywords and excludes short icon-name words", async
   const largestImageGroup = [...imageGroups.values()]
     .filter((group) => group.length > 1)
     .sort((left, right) => right[0].keywords.length - left[0].keywords.length)[0];
-  expect(largestImageGroup[0].keywords.length).toBeGreaterThan(100);
+  expect(largestImageGroup[0].keywords.length).toBeGreaterThan(0);
   expect(normalizeReviewedKeywordGroup(largestImageGroup.map((icon) => icon.name), largestImageGroup[0].keywords))
     .toEqual(largestImageGroup[0].keywords);
   expect(normalizeReviewedKeywords("_3DBevelOptionsDialog", [" Blue Pigment ", "BEVEL"])).toEqual([
-    "bevel", "blue pigment"
+    "blue pigment"
   ]);
-  expect(requiredNameKeywords("_3DBevelOptionsDialog")).toEqual(["bevel", "options", "dialog"]);
-  expect(normalizeReviewedKeywordGroup(["_3DBevelOptionsDialog"], ["3", "d", "bevel"])).toEqual(["bevel"]);
+  expect(nameKeywords(["_3DBevelOptionsDialog"])).toEqual(new Set(["3", "d", "bevel", "options", "dialog"]));
+  expect(normalizeReviewedKeywordGroup(["_3DBevelOptionsDialog"], ["3", "d", "bevel"])).toEqual([]);
   expect(normalizeReviewedKeywordGroup(["_3DBevelOptionsDialog", "ChartFormatSelection"], [" Blue Pigment "])).toEqual([
     "blue pigment"
   ]);

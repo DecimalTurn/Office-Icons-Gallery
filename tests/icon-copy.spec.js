@@ -12,9 +12,11 @@ test("shows searchable keywords between the icon name and previews", async ({ pa
   await page.goto("/icon.html?icon_id=ZoomTwoPages");
 
   const keywords = page.locator("#icon-keywords");
-  await expect(keywords).toContainText("zoom");
-  await expect(keywords).toContainText("two");
-  await expect(keywords).toContainText("pages");
+  await expect(keywords).toContainText("magnify");
+  await expect(keywords).toContainText("scale");
+  await expect(keywords).not.toContainText("zoom");
+  await expect(keywords).not.toContainText("two");
+  await expect(keywords).not.toContainText("pages");
 
   const isBeforePreviews = await page.evaluate(() => {
     const keywordsNode = document.querySelector("#icon-keywords");

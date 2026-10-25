@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
-const { removeShortNameKeywords, splitIconName } = require("./scripts/keyword-utils");
+const { removeNameKeywords, splitIconName } = require("./scripts/keyword-utils");
 
 const imagesPath = path.join(__dirname, "images");
 const sharedImagesPath = path.join(imagesPath, "by-hash");
@@ -362,7 +362,7 @@ const metadata = iconNames.map((name) => {
     ...(placeholder ? ["placeholder", "office fallback"] : []),
     ...keywordOverride
   ];
-  const keywords = new Set(removeShortNameKeywords([name], [
+  const keywords = new Set(removeNameKeywords([name], [
     ...(Object.hasOwn(reviewedKeywords, name) ? reviewedKeywords[name] : generatedKeywords)
       .map((keyword) => keyword.trim().toLocaleLowerCase("en"))
   ]));
@@ -393,7 +393,7 @@ for (const group of keywordsByImageHash.values()) {
   if (group.length < 2) {
     continue;
   }
-  const sharedKeywords = removeShortNameKeywords(
+  const sharedKeywords = removeNameKeywords(
     group.map((icon) => icon.name),
     [...new Set(group.flatMap((icon) => icon.keywords))]
   ).sort();
