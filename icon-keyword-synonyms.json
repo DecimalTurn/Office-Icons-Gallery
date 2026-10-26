@@ -1,10 +1,16 @@
 {
+  "color": [
+    "colour"
+  ],
   "correct": [
     "exact",
     "valid"
   ],
   "document": [
     "file"
+  ],
+  "email": [
+    "mail"
   ],
   "people": [
     "person"

@@ -799,27 +799,41 @@
     "name": "AccessRelinkLists",
     "imageAsset": "images/by-hash/8d84800ce786e29c.png",
     "keywords": [
-      "colunn"
+      "colunn",
+      "hyperlink",
+      "link"
     ],
     "imageSha256": "8D84800CE786E29CB96600C35B4CCA5CBDAFE9116DCB090079F6542F9191E059"
   },
   {
     "name": "AccessReportMore",
     "imageAsset": "images/by-hash/998df71efd1709ec.png",
-    "keywords": [],
+    "keywords": [
+      "chart",
+      "spark",
+      "wand"
+    ],
     "imageSha256": "998DF71EFD1709ECD422386F2EB6C8559AFFD24F65C2F5DE2E88EA6777548ACE"
   },
   {
     "name": "AccessRequests",
     "imageAsset": "images/by-hash/cc6db0f7fa3c2de3.png",
-    "keywords": [],
+    "keywords": [
+      "document",
+      "email",
+      "file",
+      "mail",
+      "people",
+      "person"
+    ],
     "imageSha256": "CC6DB0F7FA3C2DE3EA354C5EE8F6EF44EAF4FD9D5BC7A3781E8C5A58C42C3E40"
   },
   {
     "name": "AccessTableAssets",
     "imageAsset": "images/by-hash/2961e97c4c7f08b5.png",
     "keywords": [
-      "grid"
+      "checkmark",
+      "clipboard"
     ],
     "imageSha256": "2961E97C4C7F08B5429B034F0D6BFEC9EAB1A60E69E965C1054060BC16EBF0FC"
   },
@@ -827,7 +841,7 @@
     "name": "AccessTableContacts",
     "imageAsset": "images/by-hash/86497283f682fdc3.png",
     "keywords": [
-      "grid"
+      "person"
     ],
     "imageSha256": "86497283F682FDC330F695250475304FA57B5966EAD0E92E44940AAA2C692108"
   },
@@ -835,7 +849,8 @@
     "name": "AccessTableEvents",
     "imageAsset": "images/by-hash/9c35d277a17c29f6.png",
     "keywords": [
-      "grid"
+      "calendar",
+      "date"
     ],
     "imageSha256": "9C35D277A17C29F63AA2B81137251AA29B53C5B21DF6BB9A50A485A3BB132074"
   },
@@ -853,6 +868,10 @@
     "name": "AccessThemesGallery",
     "imageAsset": "images/by-hash/38388a6cca16597f.png",
     "keywords": [
+      "alpha",
+      "color",
+      "colour",
+      "letter",
       "presentation",
       "slideshow"
     ],

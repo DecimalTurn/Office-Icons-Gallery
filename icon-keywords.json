@@ -345,6 +345,38 @@
     "reload"
   ],
   "AccessRelinkLists": [
-    "colunn"
+    "colunn",
+    "hyperlink",
+    "link"
+  ],
+  "AccessReportMore": [
+    "chart",
+    "spark",
+    "wand"
+  ],
+  "AccessRequests": [
+    "document",
+    "email",
+    "file",
+    "people",
+    "person"
+  ],
+  "AccessTableAssets": [
+    "checkmark",
+    "clipboard"
+  ],
+  "AccessTableContacts": [
+    "person"
+  ],
+  "AccessTableEvents": [
+    "calendar",
+    "date"
+  ],
+  "AccessThemesGallery": [
+    "alpha",
+    "color",
+    "letter",
+    "presentation",
+    "slideshow"
   ]
 }
