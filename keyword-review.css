@@ -267,6 +267,7 @@
 
 .review-state {
   flex: 0 0 auto;
+  width: 132px;
   padding: 5px 9px;
   border: 1px solid #b88932;
   border-radius: 4px;
@@ -276,6 +277,46 @@
   font-weight: 700;
   line-height: 1.2;
   white-space: nowrap;
+  cursor: default;
+  text-align: center;
+}
+
+.review-state-label,
+.review-state-action {
+  grid-area: 1 / 1;
+}
+
+.review-state:not(:disabled) {
+  display: grid;
+}
+
+.review-state:disabled {
+  opacity: 1;
+}
+
+.review-state:not(:disabled) {
+  cursor: pointer;
+}
+
+.review-state:not(:disabled):hover {
+  filter: brightness(0.96);
+}
+
+.review-state:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.review-state-action {
+  display: none;
+}
+
+.review-state:not(:disabled):is(:hover, :focus-visible) .review-state-label {
+  visibility: hidden;
+}
+
+.review-state:not(:disabled):is(:hover, :focus-visible) .review-state-action {
+  display: inline;
 }
 
 .review-state[data-state="reviewed"] {

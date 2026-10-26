@@ -693,7 +693,9 @@
     "keywords": [
       "directory",
       "email",
+      "files",
       "find",
+      "launch",
       "lookup",
       "message"
     ],
@@ -703,6 +705,7 @@
     "name": "AccessListCustom",
     "imageAsset": "images/by-hash/275d48d742decaef.png",
     "keywords": [
+      "column",
       "grid"
     ],
     "imageSha256": "275D48D742DECAEF97F7BBB6D8245DED8C63A7DED448B8B29C70EE975425A88F"
@@ -715,14 +718,18 @@
   {
     "name": "AccessListEvents",
     "imageAsset": "images/by-hash/626c2aeba4a1fc7f.png",
-    "keywords": [],
+    "keywords": [
+      "calendar"
+    ],
     "imageSha256": "626C2AEBA4A1FC7FDFC34FB8073514FA033CB7D6418EB1F9A8B8665852CC30FB"
   },
   {
     "name": "AccessListIssues",
     "imageAsset": "images/by-hash/fc60f7aa3b69d5a6.png",
     "keywords": [
-      "grid"
+      "clipboard",
+      "grid",
+      "information"
     ],
     "imageSha256": "FC60F7AA3B69D5A68CBE3CA22DF53CC168C48D6395CE8B3F9A4A6F701FF9D1CF"
   },
@@ -730,6 +737,8 @@
     "name": "AccessListTasks",
     "imageAsset": "images/by-hash/eb984634b74705b7.png",
     "keywords": [
+      "checkmark",
+      "clipboard",
       "grid"
     ],
     "imageSha256": "EB984634B74705B77D13D005054D74687FB9F0B3C97CA3550AD461C96609304D"
@@ -743,25 +752,39 @@
   {
     "name": "AccessNavigationOptions",
     "imageAsset": "images/by-hash/4e5f4392371728be.png",
-    "keywords": [],
+    "keywords": [
+      "document",
+      "file"
+    ],
     "imageSha256": "4E5F4392371728BE387BAB5F00E2D7E3C13C78FA9BDFB4D30FFBDF5170A82C85"
   },
   {
     "name": "AccessOfflineLists",
     "imageAsset": "images/by-hash/f7fc3736c97dae97.png",
-    "keywords": [],
+    "keywords": [
+      "cancel",
+      "cross",
+      "delete",
+      "people",
+      "person"
+    ],
     "imageSha256": "F7FC3736C97DAE97C99CEDF772751A47F2217C11FAF311D8DF27A02957073D32"
   },
   {
     "name": "AccessOnlineLists",
     "imageAsset": "images/by-hash/9cd35fda88c3c0c0.png",
-    "keywords": [],
+    "keywords": [
+      "people",
+      "person"
+    ],
     "imageSha256": "9CD35FDA88C3C0C09AA17300841B16F5A3CB9132AB8E674196136DC9876C8A1E"
   },
   {
     "name": "AccessRecycleBin",
     "imageAsset": "images/by-hash/f3f0c682f16cd986.png",
-    "keywords": [],
+    "keywords": [
+      "delete"
+    ],
     "imageSha256": "F3F0C682F16CD9861D2600254710268ECFE9D9F7785EE52506986BB92A095666"
   },
   {
@@ -775,7 +798,9 @@
   {
     "name": "AccessRelinkLists",
     "imageAsset": "images/by-hash/8d84800ce786e29c.png",
-    "keywords": [],
+    "keywords": [
+      "colunn"
+    ],
     "imageSha256": "8D84800CE786E29CB96600C35B4CCA5CBDAFE9116DCB090079F6542F9191E059"
   },
   {

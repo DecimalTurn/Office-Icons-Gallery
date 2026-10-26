@@ -308,5 +308,43 @@
     "find",
     "lookup",
     "message"
+  ],
+  "AccessListCustom": [
+    "column",
+    "grid"
+  ],
+  "AccessListEvents": [
+    "calendar"
+  ],
+  "AccessListIssues": [
+    "clipboard",
+    "information"
+  ],
+  "AccessListTasks": [
+    "checkmark",
+    "clipboard"
+  ],
+  "AccessMergeCells": [],
+  "AccessNavigationOptions": [
+    "document",
+    "file"
+  ],
+  "AccessOfflineLists": [
+    "cancel",
+    "cross",
+    "delete",
+    "people"
+  ],
+  "AccessOnlineLists": [
+    "people"
+  ],
+  "AccessRecycleBin": [
+    "delete"
+  ],
+  "AccessRefreshAllLists": [
+    "reload"
+  ],
+  "AccessRelinkLists": [
+    "colunn"
   ]
 }

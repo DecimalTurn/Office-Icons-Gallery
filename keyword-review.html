@@ -80,7 +80,10 @@
           <div class="review-panel-heading">
             <h2>Keywords</h2>
             <div class="review-heading-meta">
-              <span id="review-state" class="review-state" aria-live="polite">Not reviewed</span>
+              <button id="review-state" class="review-state" type="button" aria-live="polite" disabled>
+                <span class="review-state-label">Not reviewed</span>
+                <span class="review-state-action" aria-hidden="true">Make unreviewed</span>
+              </button>
             </div>
           </div>
           <div id="keyword-editor" class="keyword-editor" aria-label="Editable keywords"></div>
@@ -89,7 +92,6 @@
           </div>
           <div class="keyword-review-actions">
             <button id="mark-reviewed" class="review-button review-button-approved" type="button">Confirm review</button>
-            <button id="mark-not-reviewed" class="review-button review-button-secondary" type="button" hidden>Mark not reviewed</button>
           </div>
           <div class="review-footer-navigation" role="group" aria-label="Icon navigation">
             <button id="previous-icon-bottom" class="review-icon-button" type="button" aria-label="Previous icon" title="Previous icon">&#8592;</button>

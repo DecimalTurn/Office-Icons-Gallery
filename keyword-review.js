@@ -9,6 +9,7 @@
     iconName: document.getElementById("selected-icon-name"),
     iconImage: document.getElementById("selected-icon-image"),
     reviewState: document.getElementById("review-state"),
+    reviewStateLabel: document.querySelector(".review-state-label"),
     imageHash: document.getElementById("image-hash"),
     sameImageIds: document.getElementById("same-image-ids"),
     nameWordReference: document.getElementById("name-word-reference"),
@@ -16,7 +17,6 @@
     keywordEditor: document.getElementById("keyword-editor"),
     addKeyword: document.getElementById("add-keyword"),
     markReviewed: document.getElementById("mark-reviewed"),
-    markNotReviewed: document.getElementById("mark-not-reviewed"),
     reviewCount: document.getElementById("review-count")
   };
 
@@ -149,9 +149,11 @@
   }
 
   function updateReviewState(reviewed) {
-    elements.reviewState.textContent = reviewed ? "Reviewed" : "Not reviewed";
+    elements.reviewStateLabel.textContent = reviewed ? "Reviewed" : "Not reviewed";
     elements.reviewState.dataset.state = reviewed ? "reviewed" : "not-reviewed";
-    elements.markNotReviewed.hidden = !reviewed;
+    elements.reviewState.disabled = !reviewed;
+    elements.reviewState.setAttribute("aria-label", reviewed ? "Mark as not reviewed" : "Not reviewed");
+    elements.reviewState.title = reviewed ? "Click to mark as not reviewed" : "Not reviewed";
   }
 
   function createKeywordRow(keyword, index, nameDerived, synonymSources = []) {
@@ -413,7 +415,7 @@
     if (!state.currentIcon) {
       return;
     }
-    elements.markNotReviewed.disabled = true;
+    elements.reviewState.disabled = true;
     setStatus("Resetting review status…");
     try {
       await requestJson("/api/keyword-review/status", {
@@ -427,8 +429,11 @@
       setStatus(`Review status reset for ${state.currentIcon.name}. Keywords were kept.`, "success");
     } catch (error) {
       setStatus(error.message, "error");
+      elements.reviewState.disabled = false;
     } finally {
-      elements.markNotReviewed.disabled = false;
+      if (state.reviewStatus[state.currentIcon.name] === true) {
+        elements.reviewState.disabled = false;
+      }
     }
   }
 
@@ -486,7 +491,7 @@
     input.focus();
   });
   elements.markReviewed.addEventListener("click", confirmReview);
-  elements.markNotReviewed.addEventListener("click", markNotReviewed);
+  elements.reviewState.addEventListener("click", markNotReviewed);
 
   async function initialize() {
     try {

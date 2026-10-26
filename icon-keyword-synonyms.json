@@ -6,6 +6,9 @@
   "document": [
     "file"
   ],
+  "people": [
+    "person"
+  ],
   "rotation": [
     "rotate",
     "spin"

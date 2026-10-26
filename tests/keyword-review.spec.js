@@ -143,7 +143,11 @@ test("omits icon-name words and confirms only useful keywords", async ({ page })
   await page.getByRole("button", { name: "Remove keyword temporary term" }).click();
   await page.getByRole("button", { name: "Confirm review" }).click();
 
-  await expect(page.locator("#review-state")).toHaveText("Reviewed");
+  await expect(page.locator("#review-state .review-state-label")).toHaveText("Reviewed");
+  await page.locator("#review-state").hover();
+  await expect(page.locator("#review-state .review-state-action")).toBeVisible();
+  await page.mouse.move(0, 0);
+  await expect(page.locator("#review-state .review-state-label")).toBeVisible();
   await expect(page.locator("#review-status")).toBeEmpty();
   await expect(page.getByRole("button", { name: "Confirm review" })).toHaveClass(/review-button-saved/);
   expect(confirmed).toHaveLength(1);
@@ -159,8 +163,10 @@ test("omits icon-name words and confirms only useful keywords", async ({ page })
   await expect(page.locator(".reference-icon-item .reference-icon-keyword").filter({ hasText: "blue pigment" })).toHaveCount(2);
   expect(confirmed[0].keywords).not.toContain("temporary term");
 
-  await page.getByRole("button", { name: "Mark not reviewed" }).click();
-  await expect(page.locator("#review-state")).toHaveText("Not reviewed");
+  await page.getByRole("button", { name: "Mark as not reviewed" }).click();
+  await expect(page.locator("#review-state .review-state-label")).toHaveText("Not reviewed");
+  await expect(page.locator("#review-state")).toBeDisabled();
+  await expect(page.getByRole("button", { name: "Mark not reviewed" })).toHaveCount(0);
   expect(resets).toEqual([{ iconId, reviewed: false }]);
   const savedKeywordValues = await page.locator(".keyword-row input").evaluateAll((inputs) => inputs.map((input) => input.value));
   expect(savedKeywordValues).toContain("blue pigment");
