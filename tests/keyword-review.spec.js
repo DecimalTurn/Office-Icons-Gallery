@@ -23,6 +23,7 @@ async function mockKeywordReview(page, {
   confirmDelay = 0,
   keywordOverrides = {},
   synonyms = {},
+  reviewStatus = {},
   reviewedKeywordOverrides = {},
   metadataExtra = []
 } = {}) {
@@ -36,7 +37,7 @@ async function mockKeywordReview(page, {
     }] } });
   });
   await page.route("**/icon-review-status.json", async (route) => {
-    await route.fulfill({ json: {} });
+    await route.fulfill({ json: reviewStatus });
   });
   await page.route("**/api/synonyms", async (route) => {
     await route.fulfill({ json: { synonyms } });
@@ -197,6 +198,38 @@ test("advances to the next icon after confirming review when enabled", async ({ 
   await expect(page.locator("#selected-icon-name")).toHaveText(reviewableIcons[1].name);
   await expect(page.locator("#icon-position")).toHaveText(`2 of ${reviewableIcons.length.toLocaleString()}`);
   await expect(page.locator(".keyword-row input").first()).toBeFocused();
+});
+
+test("jumps forward to the next unreviewed icon, skipping reviewed icons", async ({ page }) => {
+  const reviewStatus = Object.fromEntries(reviewableIcons.slice(0, 2).map((icon) => [icon.name, true]));
+  await mockKeywordReview(page, { reviewStatus });
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(reviewableIcons[0].name)}`);
+
+  await page.getByRole("button", { name: "Next unreviewed icon" }).first().click();
+
+  await expect(page.locator("#selected-icon-name")).toHaveText(reviewableIcons[2].name);
+  await expect(page.locator("#icon-position")).toHaveText(`3 of ${reviewableIcons.length.toLocaleString()}`);
+});
+
+test("wraps to the first unreviewed icon when starting at the end", async ({ page }) => {
+  const reviewStatus = Object.fromEntries(reviewableIcons.slice(1).map((icon) => [icon.name, true]));
+  const lastIcon = reviewableIcons[reviewableIcons.length - 1];
+  await mockKeywordReview(page, { reviewStatus });
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(lastIcon.name)}`);
+
+  await page.getByRole("button", { name: "Next unreviewed icon" }).first().click();
+
+  await expect(page.locator("#selected-icon-name")).toHaveText(reviewableIcons[0].name);
+  await expect(page.locator("#icon-position")).toHaveText(`1 of ${reviewableIcons.length.toLocaleString()}`);
+});
+
+test("disables next-unreviewed navigation when no other unreviewed icon exists", async ({ page }) => {
+  const reviewStatus = Object.fromEntries(reviewableIcons.map((icon) => [icon.name, true]));
+  await mockKeywordReview(page, { reviewStatus });
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(reviewableIcons[0].name)}`);
+
+  await expect(page.getByRole("button", { name: "Next unreviewed icon" }).first()).toBeDisabled();
+  await expect(page.getByRole("button", { name: "Next unreviewed icon" }).last()).toBeDisabled();
 });
 
 test("lists same-image name words and marks matching keywords red", async ({ page }) => {

@@ -4,6 +4,7 @@
     results: document.getElementById("icon-results"),
     previous: [document.getElementById("previous-icon"), document.getElementById("previous-icon-bottom")],
     next: [document.getElementById("next-icon"), document.getElementById("next-icon-bottom")],
+    nextUnreviewed: [document.getElementById("next-unreviewed-icon"), document.getElementById("next-unreviewed-icon-bottom")],
     position: document.getElementById("icon-position"),
     status: document.getElementById("review-status"),
     iconName: document.getElementById("selected-icon-name"),
@@ -136,6 +137,15 @@
   function updateReviewCount() {
     const reviewedCount = state.icons.filter((icon) => state.reviewStatus[icon.name] === true).length;
     elements.reviewCount.textContent = `${reviewedCount.toLocaleString()} / ${state.icons.length.toLocaleString()} reviewed`;
+    updateNextUnreviewedState();
+  }
+
+  function updateNextUnreviewedState() {
+    const hasNextUnreviewed = state.icons.some((icon, index) => index !== state.position &&
+      state.reviewStatus[icon.name] !== true);
+    elements.nextUnreviewed.forEach((button) => {
+      button.disabled = !hasNextUnreviewed;
+    });
   }
 
   function updateReviewState(reviewed) {
@@ -297,6 +307,7 @@
     elements.next.forEach((button) => {
       button.disabled = position >= state.icons.length - 1;
     });
+    updateNextUnreviewedState();
     elements.search.value = icon.name;
     closeResults();
     elements.imageHash.textContent = icon.imageSha256 ? `SHA-256 ${icon.imageSha256}` : "";
@@ -470,8 +481,19 @@
       selectIcon(state.icons[state.position + 1], state.position + 1);
     }
   }
+  function navigateNextUnreviewed() {
+    for (let offset = 1; offset < state.icons.length; offset += 1) {
+      const position = (state.position + offset) % state.icons.length;
+      if (state.reviewStatus[state.icons[position].name] !== true) {
+        selectIcon(state.icons[position], position);
+        return;
+      }
+    }
+    setStatus("No other unreviewed icons are available.");
+  }
   elements.previous.forEach((button) => button.addEventListener("click", navigatePrevious));
   elements.next.forEach((button) => button.addEventListener("click", navigateNext));
+  elements.nextUnreviewed.forEach((button) => button.addEventListener("click", navigateNextUnreviewed));
   elements.keywordEditor.addEventListener("click", (event) => {
     const removeButton = event.target.closest("[data-remove-keyword]");
     if (removeButton && !removeButton.disabled) {
