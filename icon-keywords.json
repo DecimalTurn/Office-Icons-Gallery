@@ -373,7 +373,6 @@
     "date"
   ],
   "AccessThemesGallery": [
-    "alpha",
     "color",
     "letter",
     "presentation",
@@ -439,7 +438,6 @@
     "screen"
   ],
   "ActiveXLabel": [
-    "alpha",
     "appearance",
     "letter",
     "style"
@@ -451,7 +449,6 @@
   "ActiveXScrollBar": [],
   "ActiveXSpinButton": [],
   "ActiveXTextBox": [
-    "alpha",
     "alphabet",
     "letter",
     "textbox"
