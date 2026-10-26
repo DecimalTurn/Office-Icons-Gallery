@@ -102,6 +102,7 @@
         ? "Saved"
         : "Save synonyms";
     elements.discardButton.disabled = !dirty || state.saving;
+    elements.saveNote.dataset.kind = !state.saving && !dirty && state.saveSucceeded ? "success" : "";
     elements.saveNote.textContent = state.saving
       ? "Updating searchable keywords for every matching icon image…"
       : dirty

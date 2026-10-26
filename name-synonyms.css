@@ -203,6 +203,11 @@
   text-align: right;
 }
 
+.synonym-save-note[data-kind="success"] {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
 @media (max-width: 600px) {
   .synonym-heading-row {
     align-items: flex-start;

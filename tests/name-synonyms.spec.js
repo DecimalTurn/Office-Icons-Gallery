@@ -33,6 +33,7 @@ test("adds and saves a synonym for an icon-name word", async ({ page }) => {
   const saveNote = page.locator("#synonym-save-note");
   await expect(saveNote).toHaveText("Save to update searchable keywords for every matching icon image.");
   await expect(page.getByRole("button", { name: "Save synonyms" })).toBeEnabled();
+  const initialSaveNoteColor = await saveNote.evaluate((note) => getComputedStyle(note).color);
   await page.getByRole("button", { name: "Save synonyms" }).click();
 
   await expect(page.getByRole("button", { name: "Saving…" })).toBeDisabled();
@@ -40,6 +41,9 @@ test("adds and saves a synonym for an icon-name word", async ({ page }) => {
   completeSave();
   await expect(saveNote).toHaveText("Save complete. Searchable keywords are updated for every matching icon image.");
   await expect(page.getByRole("button", { name: "Saved" })).toBeDisabled();
+  await expect(saveNote).toHaveAttribute("data-kind", "success");
+  const successSaveNoteColor = await saveNote.evaluate((note) => getComputedStyle(note).color);
+  expect(successSaveNoteColor).not.toBe(initialSaveNoteColor);
   await expect(page.locator("#synonym-status")).toContainText("Searchable keywords have been updated");
   expect(savedSynonyms).toEqual({ bucket: ["pail"] });
   await expect(page.getByRole("button", { name: "Saved" })).toBeDisabled();
