@@ -881,8 +881,8 @@
     "name": "AccountingFormat",
     "imageAsset": "images/by-hash/85a6a3a5829b5bdb.png",
     "keywords": [
-      "appearance",
-      "style"
+      "dollar",
+      "money"
     ],
     "imageSha256": "85A6A3A5829B5BDB5FED4DCE60F40C5E30E7A546CF66D4919176671C71C42967"
   },
@@ -932,15 +932,19 @@
     "name": "AccountMenu",
     "imageAsset": "images/by-hash/2b702d6430221cf3.png",
     "keywords": [
-      "share",
-      "submit"
+      "frame",
+      "person",
+      "square"
     ],
     "imageSha256": "2B702D6430221CF3A75CAD284347A069D20B12AB861691B18940E1CE87147A5B"
   },
   {
     "name": "AccountSettings",
     "imageAsset": "images/by-hash/bdfd5ccd965dab98.png",
-    "keywords": [],
+    "keywords": [
+      "gear",
+      "person"
+    ],
     "imageSha256": "BDFD5CCD965DAB98878488064A78A1F06CA0615FAD2B8029519A030B62233D42"
   },
   {
@@ -957,6 +961,7 @@
     "imageAsset": "images/by-hash/47eb610a42f1cbcb.png",
     "keywords": [
       "clear",
+      "cross",
       "grid",
       "remove"
     ],
@@ -967,7 +972,8 @@
     "imageAsset": "images/by-hash/49c987450369a19a.png",
     "keywords": [
       "add",
-      "create"
+      "create",
+      "star"
     ],
     "imageSha256": "49C987450369A19A04021B696243D73DE6063CA6D7CE13031F6EB5D21ED6B16B"
   },
@@ -976,6 +982,7 @@
     "imageAsset": "images/by-hash/987f395d63e7009b.png",
     "keywords": [
       "add",
+      "arrow",
       "create",
       "grid"
     ],
@@ -984,17 +991,18 @@
   {
     "name": "ActiveXButton",
     "imageAsset": "images/by-hash/965d899ec226e108.png",
-    "keywords": [],
+    "keywords": [
+      "rectangle"
+    ],
     "imageSha256": "965D899EC226E108CB56F411A5E384C71296D5B3435AC7F5AF2E1CD0E4970067"
   },
   {
     "name": "ActiveXCheckBox",
     "imageAsset": "images/by-hash/991e90eaa188d1d3.png",
     "keywords": [
-      "appointment",
-      "date",
-      "graph",
-      "schedule",
+      "checkmark",
+      "square",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "991E90EAA188D1D30973B26CA5309A17C7D22BAE5CA2658286846783D9BBDCDD"

@@ -378,5 +378,48 @@
     "letter",
     "presentation",
     "slideshow"
+  ],
+  "AccountingFormat": [
+    "dollar",
+    "money"
+  ],
+  "AccountMenu": [
+    "frame",
+    "person",
+    "square"
+  ],
+  "AccountSettings": [
+    "gear",
+    "person"
+  ],
+  "AcetateModeOriginalMarkup": [
+    "file",
+    "page"
+  ],
+  "ActionDelete": [
+    "clear",
+    "cross",
+    "grid",
+    "remove"
+  ],
+  "ActionInsert": [
+    "add",
+    "create",
+    "star"
+  ],
+  "ActionInsertAccess": [
+    "add",
+    "arrow",
+    "create",
+    "grid"
+  ],
+  "ActiveXButton": [
+    "rectangle"
+  ],
+  "ActiveXCheckBox": [
+    "checkmark",
+    "square",
+    "visualisation",
+    "visualization"
   ]
 }
