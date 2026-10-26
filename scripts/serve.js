@@ -2,15 +2,14 @@ const http = require("node:http");
 const fs = require("node:fs");
 const path = require("node:path");
 const { spawnSync } = require("node:child_process");
-const { nameKeywords, normalizeKeywordSynonyms, normalizeNameSynonyms, normalizeReviewedKeywordGroup, readJsonFile, readReviewStatus, updateMetadataKeywords, updateReviewStatus } = require("./keyword-utils");
+const { nameKeywords, normalizeReviewedKeywordGroup, normalizeSynonyms, readJsonFile, readReviewStatus, updateMetadataKeywords, updateReviewStatus } = require("./keyword-utils");
 
 const root = path.resolve(__dirname, "..");
 const port = Number(process.env.PORT || process.argv[2] || 8000);
 const metadataPath = path.join(root, "icon-metadata.json");
 const keywordsPath = path.join(root, "icon-keywords.json");
 const reviewStatusPath = path.join(root, "icon-review-status.json");
-const nameSynonymsPath = path.join(root, "icon-name-synonyms.json");
-const keywordSynonymsPath = path.join(root, "icon-keyword-synonyms.json");
+const synonymsPath = path.join(root, "icon-synonyms.json");
 const referenceListsPath = path.join(root, ".reference-icon-lists.json");
 let metadata = JSON.parse(fs.readFileSync(metadataPath, "utf8"));
 const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
@@ -48,16 +47,11 @@ function writeJsonFile(filePath, value) {
   fs.renameSync(temporaryPath, filePath);
 }
 
-function availableCustomKeywords(reviewedKeywords, nameSynonyms) {
+function availableSynonymSources(reviewedKeywords) {
   const keywords = new Set(Object.values(reviewedKeywords)
     .flat()
     .map((keyword) => keyword.trim().toLocaleLowerCase("en")));
-  for (const synonyms of Object.values(nameSynonyms)) {
-    for (const synonym of synonyms) {
-      keywords.delete(synonym);
-    }
-  }
-  return keywords;
+  return new Set([...availableNameWords, ...keywords]);
 }
 
 function readReferenceLists() {
@@ -110,19 +104,16 @@ function validateReferenceLists(value) {
 async function handleApi(request, response, requestUrl) {
   const { pathname } = requestUrl;
 
-  if (pathname === "/api/name-synonyms" && request.method === "GET") {
+  if (pathname === "/api/synonyms" && request.method === "GET") {
     try {
-      sendJson(response, 200, {
-        synonyms: readJsonFile(nameSynonymsPath),
-        keywordSynonyms: readJsonFile(keywordSynonymsPath)
-      });
+      sendJson(response, 200, { synonyms: readJsonFile(synonymsPath) });
     } catch {
-      sendJson(response, 500, { error: "Could not read name synonyms" });
+      sendJson(response, 500, { error: "Could not read synonyms" });
     }
     return true;
   }
 
-  if (pathname === "/api/name-synonyms" && request.method === "PUT") {
+  if (pathname === "/api/synonyms" && request.method === "PUT") {
     let body;
     try {
       body = await readJsonBody(request, 512_000);
@@ -131,24 +122,17 @@ async function handleApi(request, response, requestUrl) {
       return true;
     }
     try {
-      const previousNameSynonyms = fs.readFileSync(nameSynonymsPath, "utf8");
-      const previousKeywordSynonyms = fs.readFileSync(keywordSynonymsPath, "utf8");
-      const synonyms = normalizeNameSynonyms(body.synonyms, availableNameWords);
+      const previousSynonyms = fs.readFileSync(synonymsPath, "utf8");
       const reviewedKeywords = readJsonFile(keywordsPath);
-      const keywordSynonyms = normalizeKeywordSynonyms(
-        body.keywordSynonyms === undefined ? JSON.parse(previousKeywordSynonyms) : body.keywordSynonyms,
-        availableCustomKeywords(reviewedKeywords, synonyms)
-      );
-      writeJsonFile(nameSynonymsPath, synonyms);
-      writeJsonFile(keywordSynonymsPath, keywordSynonyms);
+      const synonyms = normalizeSynonyms(body.synonyms, availableSynonymSources(reviewedKeywords));
+      writeJsonFile(synonymsPath, synonyms);
       const generation = spawnSync(process.execPath, [path.join(root, "generate-icon-metadata.js")], {
         cwd: root,
         encoding: "utf8",
         maxBuffer: 10_000_000
       });
       if (generation.error || generation.status !== 0) {
-        fs.writeFileSync(nameSynonymsPath, previousNameSynonyms, "utf8");
-        fs.writeFileSync(keywordSynonymsPath, previousKeywordSynonyms, "utf8");
+        fs.writeFileSync(synonymsPath, previousSynonyms, "utf8");
         spawnSync(process.execPath, [path.join(root, "generate-icon-metadata.js")], {
           cwd: root,
           encoding: "utf8",
@@ -161,7 +145,7 @@ async function handleApi(request, response, requestUrl) {
       for (const icon of metadata) {
         metadataByName.set(icon.name, icon);
       }
-      sendJson(response, 200, { synonyms, keywordSynonyms, metadataUpdated: true });
+      sendJson(response, 200, { synonyms, metadataUpdated: true });
     } catch (error) {
       sendJson(response, 400, { error: error.message || "Could not save name synonyms" });
     }
@@ -219,8 +203,7 @@ async function handleApi(request, response, requestUrl) {
       const keywords = normalizeReviewedKeywordGroup(
         iconIds,
         body.keywords,
-        readJsonFile(nameSynonymsPath),
-        readJsonFile(keywordSynonymsPath)
+        readJsonFile(synonymsPath)
       );
       const nextKeywords = { ...readJsonFile(keywordsPath) };
       nextKeywords[iconIds[0]] = keywords;

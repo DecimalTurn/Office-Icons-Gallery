@@ -56,6 +56,8 @@
       "paint",
       "paintbrush",
       "photo",
+      "rotate",
+      "spin",
       "style",
       "three",
       "two",
@@ -121,6 +123,8 @@
       "cuboid",
       "graph",
       "polyhedron",
+      "rotate",
+      "spin",
       "three",
       "visualisation",
       "visualization"
@@ -335,6 +339,7 @@
       "lower",
       "reduce",
       "three",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "C54B2DFB29CA27FB88446032C38CDF28B393AE137DB82A36F5A1C31E42DADD1F"
@@ -956,7 +961,8 @@
     "imageAsset": "images/by-hash/60176fe59b81b860.png",
     "keywords": [
       "file",
-      "page"
+      "page",
+      "person"
     ],
     "imageSha256": "60176FE59B81B860041D6D6967D1C96E3B42DE39A729139D063C1B5B2F80320C"
   },
@@ -1041,6 +1047,7 @@
       "document",
       "email",
       "graphic",
+      "mail",
       "photo",
       "scene",
       "screen",
@@ -1441,7 +1448,8 @@
     "imageAsset": "images/by-hash/787c5004e1a222c9.png",
     "keywords": [
       "audio",
-      "music"
+      "music",
+      "speaker"
     ],
     "imageSha256": "787C5004E1A222C933536FC6519B168AE9BF62311693D56029CF8FAEB5A3E62F"
   },
@@ -1465,8 +1473,10 @@
     "imageAsset": "images/by-hash/c5a6d83ecd4a30d5.png",
     "keywords": [
       "create",
+      "door",
       "insert",
-      "new"
+      "new",
+      "plus"
     ],
     "imageSha256": "C5A6D83ECD4A30D525D79FC0123FAE17B71E24782EF4A5DE30CBC7289D72EA7A"
   },
@@ -1483,8 +1493,10 @@
     "imageAsset": "images/by-hash/47ba77713e15ca41.png",
     "keywords": [
       "create",
+      "image",
       "insert",
       "new",
+      "photo",
       "picture",
       "scene"
     ],
@@ -1532,6 +1544,7 @@
       "create",
       "graph",
       "new",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "8187EE8D4735072EACCB527CDF65240EFADE56AEB09CA500FD105F95EB64420F"
@@ -2008,6 +2021,7 @@
       "photo",
       "style",
       "three",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "EFD326C5BE4D5B2062CD478DCA1AFD1CDEA4B9EF293A0B599834CFF39D08775F"
@@ -3812,7 +3826,10 @@
   {
     "name": "AutoCorrect",
     "imageAsset": "images/by-hash/48616490d40990ae.png",
-    "keywords": [],
+    "keywords": [
+      "exact",
+      "valid"
+    ],
     "imageSha256": "48616490D40990AEA355D2ED53F28801703C32C5AB326A8ED7849322CA4DBB13"
   },
   {
@@ -3855,6 +3872,7 @@
       "grid",
       "message",
       "schedule",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "224128B8D52E14AAA79E7C029AE6F6858966AFD3CD02E22F2945B29BE90EF8FE"
@@ -4004,6 +4022,7 @@
       "greek",
       "grid",
       "sigma",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "F3EFE98AB9433ECE25147FFA072501A1D81D0BBB71D3403BCEA4F50E9392529E"
@@ -4129,6 +4148,7 @@
     "keywords": [
       "graph",
       "two",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "1816C21DA026FA8EB99DC404C627EB87A2FA24B30F6B1FB6A9A27CAE4D0293CD"
@@ -4248,6 +4268,7 @@
       "appearance",
       "graph",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "D2DE08E369F7A81F398D8E32BEF9F9B44019D2FA1D24FA94A015F2D3CF6CA9D1"
@@ -4257,6 +4278,7 @@
     "imageAsset": "images/by-hash/6db82b29c3b23da6.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "6DB82B29C3B23DA6039FBA150BA481231EF48BCA2CD71D85956FD4AFB9E75E4C"
@@ -4501,6 +4523,7 @@
       "grid",
       "reload",
       "update",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "740882E026184ACFEB7C1F90154DF46426E74067B6B08A9F9CBA7844A2A605A5"
@@ -4747,6 +4770,7 @@
       "image",
       "photo",
       "schedule",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "3405B39950688AED23B8067FDE8704EC1E3DBE7D7069FB243343838F64AD065B"
@@ -6720,6 +6744,7 @@
       "create",
       "graph",
       "three",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "9B23D663320C8F76957DE876F39C02F681D4CC3591875D9A2617DAAD0C3393BD"
@@ -6734,6 +6759,7 @@
       "new",
       "plot",
       "three",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "84694D8DBDD6C24E38040591032C92775ED14BA526270C4A3861DEBDD8A27D41"
@@ -6744,6 +6770,7 @@
     "keywords": [
       "graph",
       "three",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "566E641058B823F19BE18B83681557268D7BCB8537ADA7D1BFCE41C03A1B4C98"
@@ -6756,6 +6783,7 @@
       "create",
       "graph",
       "three",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "14598C34F3B0B6C1BE4095947D1AE3C6E8F13F6695AE71AE57049A115D2D86BF"
@@ -6775,6 +6803,7 @@
       "new",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -6789,6 +6818,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "6C7DDCAE66407D6B7911252F3395D1B09CCCEE3CD351FA3E81BC8C1FC5CABCE3"
@@ -6798,6 +6828,7 @@
     "imageAsset": "images/by-hash/86297c085f4559e1.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "86297C085F4559E133F4391074D535F92430419C15FF0C74C0B07F11EE96A43F"
@@ -6812,6 +6843,7 @@
     "imageAsset": "images/by-hash/dd0376fb28331e0a.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "DD0376FB28331E0A43D68BCE6661C702B936530363D430AD784FF023B69D01B3"
@@ -6834,6 +6866,7 @@
       "image",
       "movie",
       "photo",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "274BF7FC8394A3129F147902C5D8ACC671D33C53A4018DDF9F788FD57BE95DBB"
@@ -6858,6 +6891,7 @@
     "imageAsset": "images/by-hash/9238f4a9d7a48e9e.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "9238F4A9D7A48E9E4A8636EA8108D95624D6E4D92F008A7E24E2C681E45382C7"
@@ -6872,6 +6906,7 @@
       "new",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -6886,6 +6921,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -6903,6 +6939,7 @@
       "new",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -6916,6 +6953,7 @@
     "keywords": [
       "graph",
       "grid",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "A9ED367D363608730620FD32CB7AB807DEDDDA2CFA5D4CD17B2E427E3AC04DA9"
@@ -6926,6 +6964,7 @@
     "keywords": [
       "graph",
       "grid",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "BA4F7D9421F454F2598D344EF8CE42C358C0E5EF4AC8951E870E6441B71FA543"
@@ -6938,6 +6977,7 @@
       "grid",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -6954,6 +6994,7 @@
       "office fallback",
       "placeholder",
       "remove",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -6970,6 +7011,7 @@
       "office fallback",
       "placeholder",
       "remove",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -6982,6 +7024,7 @@
     "imageAsset": "images/by-hash/109f31e55e8dba3d.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "109F31E55E8DBA3DD076932F13E3CA09DBAAB70D319AF19A6AA905B1393C8FEB"
@@ -6993,6 +7036,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7005,6 +7049,7 @@
     "imageAsset": "images/by-hash/9f0f29b5f7330e4f.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "9F0F29B5F7330E4FAA32AE55FF79EAC09E59A793C72BB9A4F7C001A6DCA12BE1"
@@ -7016,6 +7061,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7028,6 +7074,7 @@
     "imageAsset": "images/by-hash/9f319a84bb13126a.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "9F319A84BB13126AD2ADCD3FD846EC5B072E0433C943BD9F6C9DD6F5026A6F93"
@@ -7039,6 +7086,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7051,6 +7099,7 @@
     "imageAsset": "images/by-hash/48a32676dd8b617d.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "48A32676DD8B617DF80DA34A9336D07A670362B9AEBF2194664B640736917BFF"
@@ -7067,6 +7116,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7079,6 +7129,7 @@
     "imageAsset": "images/by-hash/da2407b5d0b3f924.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "DA2407B5D0B3F924637A263DFC0C110FB6612B43E5E427020EB7255A167D8C22"
@@ -7090,6 +7141,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7109,6 +7161,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7121,6 +7174,7 @@
     "imageAsset": "images/by-hash/6abcb06783e92a89.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "6ABCB06783E92A89E3FF665A2E2682CE3637BD3FCCD44BF1AFEDADE38919A150"
@@ -7132,6 +7186,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7147,6 +7202,7 @@
       "graph",
       "grid",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "169E2FD0DEF5A1E25D4F257FB7C6ED5C2C12AE2593DB2BC28827358E01923D4D"
@@ -7160,6 +7216,7 @@
       "office fallback",
       "placeholder",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7201,6 +7258,7 @@
       "office fallback",
       "placeholder",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7222,6 +7280,7 @@
       "office fallback",
       "placeholder",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7243,6 +7302,7 @@
       "office fallback",
       "placeholder",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7264,6 +7324,7 @@
       "office fallback",
       "placeholder",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7335,6 +7396,7 @@
       "office fallback",
       "placeholder",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7351,6 +7413,7 @@
       "office fallback",
       "placeholder",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7392,6 +7455,7 @@
       "office fallback",
       "placeholder",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7419,6 +7483,7 @@
     "imageAsset": "images/by-hash/a12cb6a18c59ba44.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "A12CB6A18C59BA44CE08A4FE7E99374D18C8653BE1E6E1B9C2789E578693C990"
@@ -7440,6 +7505,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "888CE84FB518147B765F636679CEF63A618E6E05D988E7EE37550AA8823CF600"
@@ -7459,6 +7525,7 @@
     "imageAsset": "images/by-hash/b2594ebd088ea69d.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "B2594EBD088EA69D78EFAAD77064599FE9D8C2C000F4AF253D6037449062CEF8"
@@ -7468,6 +7535,7 @@
     "imageAsset": "images/by-hash/78bde400f8e17145.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "78BDE400F8E17145577A73BA3921E51A819CA054DDC7A48CCDFFACB619760F3B"
@@ -7479,6 +7547,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7521,6 +7590,7 @@
     "imageAsset": "images/by-hash/89c41117d6409be5.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "89C41117D6409BE59CCED70A12EFAB1930028311BA1068379EB5CCC42B4989A0"
@@ -7535,6 +7605,7 @@
       "new",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7552,6 +7623,7 @@
       "new",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7564,6 +7636,7 @@
     "imageAsset": "images/by-hash/a06c2047723e311d.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "A06C2047723E311D1776AFD7ED71A5E45FC39519DA0F59B386C9A9A2CD0EC159"
@@ -7574,6 +7647,7 @@
     "keywords": [
       "graph",
       "reverse",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "720E34890E473F48D3DD89B416856B6BB58995441F4EA81AA4FD57D4C84DD0C9"
@@ -7585,6 +7659,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7599,6 +7674,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7616,6 +7692,7 @@
     "imageAsset": "images/by-hash/6e5a58100af6c7f2.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "6E5A58100AF6C7F2BEEE41A916B3ADA30592925557F2C382DF5A6505350F93BC"
@@ -7625,6 +7702,7 @@
     "imageAsset": "images/by-hash/a1a63cb1c4be0aa9.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "A1A63CB1C4BE0AA92A4009FA5623D77337C815D840DD2728DFD45D6A9F0E940C"
@@ -7636,6 +7714,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7648,6 +7727,7 @@
     "imageAsset": "images/by-hash/0985b467e5ed6ac6.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "0985B467E5ED6AC6BE1ADE92CEBB8605BEF7EB5311A377CD3B0151EFC452C874"
@@ -7659,6 +7739,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7671,6 +7752,7 @@
     "imageAsset": "images/by-hash/5bd5d4c05ff97c34.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "5BD5D4C05FF97C34EBC3E303AC47F2710394C99273181AB78D47AF3F5E756E4D"
@@ -7682,6 +7764,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7694,6 +7777,7 @@
     "imageAsset": "images/by-hash/025f1de07804fbee.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "025F1DE07804FBEE46D548060C7ED015F2F1E3D9FE6DB307233067C1ABCCC870"
@@ -7705,6 +7789,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7717,6 +7802,7 @@
     "imageAsset": "images/by-hash/38884725d11cea50.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "38884725D11CEA502D2B1418A883800727F5311BC6B858C6DBDE1B56538634F3"
@@ -7728,6 +7814,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7740,6 +7827,7 @@
     "imageAsset": "images/by-hash/ad28662262a66c19.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "AD28662262A66C198EFA81FDF8B24A67D8282C994C5ABBFB84FBCA48BBCDBB56"
@@ -7751,6 +7839,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7763,6 +7852,7 @@
     "imageAsset": "images/by-hash/a73d5f6ba135d41e.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "A73D5F6BA135D41EB1A3870D8A6770F79DB54AEE94AFB711E79F9DD83B1A52D4"
@@ -7774,6 +7864,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7788,6 +7879,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7800,6 +7892,7 @@
     "imageAsset": "images/by-hash/f4766ceac8bb35c5.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "F4766CEAC8BB35C53FB228101D75D9C9223226A3879DA608AD6AFFBA591FF483"
@@ -7809,6 +7902,7 @@
     "imageAsset": "images/by-hash/9075df3a86a03793.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "9075DF3A86A037936A10135598898222DC39BFBC4C2B84E4B1741B05FA4441D6"
@@ -7820,6 +7914,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "897AB240B65023398CCEA2629D30DFE7553F0C4B05EFD2FCA8B043C9BA70EC13"
@@ -7831,6 +7926,7 @@
       "graph",
       "reload",
       "update",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "992C3187DE5DC3947E6C49EB5A9770655F794F4A1B2BD93A7A5BEF7065FC548F"
@@ -7840,6 +7936,7 @@
     "imageAsset": "images/by-hash/9940c20fa1f26a2a.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "9940C20FA1F26A2AEDE5A4C02F8101F47897778DD5FB93372500DFB576AFBFAB"
@@ -7849,6 +7946,9 @@
     "imageAsset": "images/by-hash/b2d12a6affc2897a.png",
     "keywords": [
       "graph",
+      "rotate",
+      "spin",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "B2D12A6AFFC2897ACDF39F0C4EED58E9148B10C7B8AC30B8BA53D59E9E1CF79B"
@@ -7859,6 +7959,7 @@
     "keywords": [
       "graph",
       "store",
+      "visualisation",
       "visualization",
       "write"
     ],
@@ -7876,6 +7977,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7888,6 +7990,7 @@
     "imageAsset": "images/by-hash/5728d6bdb0ff9dc7.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "5728D6BDB0FF9DC7605873408D3FFDA3E14262821A074B77B3AF62F3A184F5BC"
@@ -7899,6 +8002,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7918,6 +8022,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7937,6 +8042,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7949,6 +8055,7 @@
     "imageAsset": "images/by-hash/5b7cb2cc84288fee.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "5B7CB2CC84288FEE875BAD27580CD1B889FB0E78BB23A1ECC30350699943AAB0"
@@ -7960,6 +8067,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -7972,6 +8080,7 @@
     "imageAsset": "images/by-hash/eedec3c2c02676bc.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "EEDEC3C2C02676BCD603F2EAE32A3B9AE68E250D5BAC5467BA100E3FE145DEBF"
@@ -7983,6 +8092,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -8008,6 +8118,7 @@
       "create",
       "graph",
       "grid",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "1E52FA86F5C7FB87AE57D3B704607BA06E47939D90DCFB98CBB8035E99275C72"
@@ -8022,6 +8133,7 @@
     "imageAsset": "images/by-hash/e25f6c250b708ee2.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "E25F6C250B708EE2C5F56B6CC55722E5613BB03B8F749F7D7F7C3CF0E0E94B4F"
@@ -8033,6 +8145,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -8055,6 +8168,7 @@
     "imageAsset": "images/by-hash/991ad5f8c5b8f80c.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "991AD5F8C5B8F80C03A22B2B82D7AA47EFB90BD6B46E4CCB6E482DA4A0240AF2"
@@ -8064,6 +8178,7 @@
     "imageAsset": "images/by-hash/9c63384e868b6128.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "9C63384E868B6128D38115B6B927ACBA0CE029B90B94AC1AB09451ABE8C33DA3"
@@ -8075,6 +8190,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -8087,6 +8203,7 @@
     "imageAsset": "images/by-hash/52c7aae0259ec3d4.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "52C7AAE0259EC3D4672A2AE182719FEF41C9F63D7D17192D071E501E843C5A37"
@@ -8101,6 +8218,7 @@
       "new",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -8115,6 +8233,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -8134,6 +8253,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "85EEF39428AEE436CAD449A1BAA5E8D04E502EE50D90E0D91D6451F32D5D96C2"
@@ -8150,6 +8270,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "7342742BE31820D162FED61FB637BA444AF057C5CE95BA535E5141D02247861C"
@@ -8166,6 +8287,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "FA549734F1496B6FD4D3F054B60E18ABB29BBC391666E5E2174C7E2D4626432F"
@@ -8182,6 +8304,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "3D10B9BFD87CF020521353DCCC3D03A70CD276BFB67D5F9107FFCAD9F99882AE"
@@ -8193,6 +8316,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "816B9ED1484FC31CD42C5585BD748357228B587479F97E5B4E116DC7C6616BDA"
@@ -8204,6 +8328,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "71D7A317728C9F375841EA17E412F2B0016938ADB22DBA1141497DEC11DAA7BE"
@@ -8215,6 +8340,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "21F6C9F3EFC71B138933A2621382C5D69BFCFE60D857DEB009D91BE984344E33"
@@ -8241,6 +8367,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "0FCDA986E50C3A8178897A33B155665D5525F01D47633162543ACD74712AAE33"
@@ -8257,6 +8384,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "5D8516D8DC611049D824A28D8395386E5C145DE742152F6F4B53F0868633DBE4"
@@ -8268,6 +8396,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "ECA9B30CEB17B3DF42BBE3E08BDACF7C15C00FCC49C30E139D39683C1BAF3046"
@@ -8277,6 +8406,7 @@
     "imageAsset": "images/by-hash/15e4f4da852f3edc.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "15E4F4DA852F3EDC295DE92E2C675B06E21DF5783A0F7E653F4550813687CEF2"
@@ -8288,6 +8418,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -8300,6 +8431,7 @@
     "imageAsset": "images/by-hash/f933a8abc8736eba.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "F933A8ABC8736EBAF6D641D12068B687375861E107EE12E324C6FB737EB54A50"
@@ -8311,6 +8443,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -8413,6 +8546,7 @@
     "imageAsset": "images/by-hash/65c1b10f192ddd9b.png",
     "keywords": [
       "rotation",
+      "spin",
       "turn",
       "two"
     ],
@@ -8423,6 +8557,7 @@
     "imageAsset": "images/by-hash/2be74a485b86b3c5.png",
     "keywords": [
       "rotation",
+      "spin",
       "turn",
       "two"
     ],
@@ -9488,6 +9623,7 @@
     "imageAsset": "images/by-hash/4213917e8fae73f2.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4213917E8FAE73F274625B80CBB07A8518FD81F512B288B20F0B1C5861D5A842"
@@ -10628,6 +10764,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10642,6 +10779,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10656,6 +10794,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10670,6 +10809,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10684,6 +10824,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10698,6 +10839,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10712,6 +10854,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10726,6 +10869,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10740,6 +10884,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10755,6 +10900,7 @@
       "grid",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10769,6 +10915,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10783,6 +10930,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10797,6 +10945,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10811,6 +10960,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10825,6 +10975,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10839,6 +10990,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10853,6 +11005,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10867,6 +11020,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10881,6 +11035,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10895,6 +11050,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10909,6 +11065,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10923,6 +11080,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10937,6 +11095,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10951,6 +11110,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10965,6 +11125,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10979,6 +11140,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -10993,6 +11155,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -11007,6 +11170,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -12875,6 +13039,7 @@
     "keywords": [
       "add",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "501AA8AC35FFF42B72A028E8F1BA86B544B649A6980191E11293E63F2FEAB7D9"
@@ -13241,6 +13406,7 @@
       "graphic",
       "image",
       "photo",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "96077B881B235E691C35047EC885A5CC5F545B2795DC9F0AD166520A9ABCE55F"
@@ -13336,6 +13502,7 @@
     "imageAsset": "images/by-hash/96f10ff6e106a8a4.png",
     "keywords": [
       "rotation",
+      "spin",
       "turn"
     ],
     "imageSha256": "96F10FF6E106A8A4D5A52EFEAB0A5FB3E9831E44F5416B4F21C6F4D790B5681F"
@@ -13829,6 +13996,7 @@
       "document",
       "duplicate",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "0CE45D47470A6C4747B8B34614F84EDFBEE7AF1719C764BFD0D71F1885E32963"
@@ -14416,6 +14584,7 @@
     "imageAsset": "images/by-hash/f45b35a2da16362a.png",
     "keywords": [
       "chart",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "F45B35A2DA16362AD47C23B016B3DFF053BF0151B76EE97C95F69A393DCA5750"
@@ -15570,6 +15739,7 @@
     "imageAsset": "images/by-hash/ac0a56f0072f5dde.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "AC0A56F0072F5DDE12AAC709D31B398A44C11662927ADB936157CF1AC7E3D323"
@@ -15659,6 +15829,7 @@
       "graph",
       "magnify",
       "scale",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "2FEF15DDE34FDFB975D6083ECBC3629378FDA0FB20678BE80C2282FD77537EB1"
@@ -15707,6 +15878,7 @@
     "imageAsset": "images/by-hash/15ce65f4ce94ed7f.png",
     "keywords": [
       "rotation",
+      "spin",
       "turn"
     ],
     "imageSha256": "15CE65F4CE94ED7FED949EE56A3DC65249609D8E3B21DF054BBEEC507E667498"
@@ -15716,6 +15888,7 @@
     "imageAsset": "images/by-hash/582d5eff99286d80.png",
     "keywords": [
       "rotation",
+      "spin",
       "turn"
     ],
     "imageSha256": "582D5EFF99286D80A8C1B68D0AEB3E50768ADCB85F27C1383AE153D7E1F60BFB"
@@ -15727,6 +15900,7 @@
       "graph",
       "printer",
       "printing",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "C1C0B028C82E21FC72A46C2775CEB01F3C7820BE20017E67FB35D01E8541F0CC"
@@ -15753,6 +15927,7 @@
     "imageAsset": "images/by-hash/e98474201ab6b92a.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "E98474201AB6B92AE0470307789DE880A0DCD3DD4F1F443242C7A2868D00EC09"
@@ -17571,6 +17746,7 @@
     "keywords": [
       "graph",
       "grid",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "8CC416C631C3BA16600F72EC78ECDD41FA37E284DBDC1501D6BA3E9E0BEF0288"
@@ -18037,6 +18213,7 @@
     "keywords": [
       "graph",
       "grid",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "294BA2E393D6032B553949A21401680A480A4F4C6F882A24E017AC67E090C0B9"
@@ -20846,6 +21023,7 @@
     "keywords": [
       "grid",
       "two",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "6CF9526C431D604A0803F3DF2FBA4F50A1851C1161AED9BB4B31FAFB50DB4531"
@@ -21242,6 +21420,7 @@
     "imageAsset": "images/by-hash/1048ea84b87d7f16.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "1048EA84B87D7F16204564BBA406E2BDADA90A952024BD448A927D54BEF4D34C"
@@ -21251,6 +21430,7 @@
     "imageAsset": "images/by-hash/45c6003e361b17c7.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "45C6003E361B17C7CEB31CF827F7E8DE3F1027D5B7554240DC4955EECC6758D9"
@@ -21260,6 +21440,7 @@
     "imageAsset": "images/by-hash/a3c0a9e1985fc47e.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "A3C0A9E1985FC47EF83E123E98CF0E09B1F8BECF75B85B6A8DD0E8D33EA0430A"
@@ -21279,6 +21460,7 @@
     "imageAsset": "images/by-hash/d00b060864269378.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "D00B0608642693782F0B5ED5A71804807B473D82EE37DD671EFEFF74BD89B1EF"
@@ -21288,6 +21470,7 @@
     "imageAsset": "images/by-hash/25e25390f388f017.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "25E25390F388F01754524F15B316EEA8CC5E3AB3D74B521B08824568BD8190F6"
@@ -21848,6 +22031,7 @@
       "chart",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -24407,6 +24591,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -25966,6 +26151,7 @@
     "imageAsset": "images/by-hash/bbddf95182822389.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "BBDDF951828223899C17B109AAAB49516E197EFFCB0030C2B5C9BD46380AA424"
@@ -25977,6 +26163,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "D2A1F54717FDFB4E6F3E2F44F00697F87D8033EF0A7B41B3C930A1B5B3DA1D7E"
@@ -25986,6 +26173,7 @@
     "imageAsset": "images/by-hash/0dcccd324a3aeb0f.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "0DCCCD324A3AEB0F38B6500A9AC69DBBCAFE2798E8C9294D05CB90C1AA65E0C9"
@@ -25995,6 +26183,7 @@
     "imageAsset": "images/by-hash/605f848185171a7d.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "605F848185171A7D02CFD3314CED55DFCDB69C3A2F91DB7D1809A113C15B3C0B"
@@ -26004,6 +26193,7 @@
     "imageAsset": "images/by-hash/fe3465ad6d5ba97d.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "FE3465AD6D5BA97DCA2AD084CC69636DE44DAC8ECCE97012C58152D7584FC748"
@@ -26023,6 +26213,7 @@
       "graphic",
       "image",
       "photo",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "09AFE70E742584FEE7DAB6DFB1DEA252984EECD4586FE88270E6DCA0E62DC17E"
@@ -26034,6 +26225,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -26049,6 +26241,7 @@
       "higher",
       "more",
       "raise",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4BE828DD2621D9D09632D256538A203CF66D3F5059CCE0EEBAD966F109292E81"
@@ -26059,6 +26252,7 @@
     "keywords": [
       "duplicate",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "1C1DEC4FA0AB5F36C0AEDA6FB9BE85FACADDC863E422AE3D4FE81520156899B9"
@@ -26459,6 +26653,7 @@
     "keywords": [
       "graph",
       "grid",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "94983053A06013116C84E23140265A705719F8B4204A5340BABC2A823FE80CF0"
@@ -26474,6 +26669,7 @@
     "keywords": [
       "graph",
       "grid",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "B7251F21E7B5BBAE9584A77884F76CF30CF08634BC18BF73BCBADB3AFF92A81D"
@@ -26489,6 +26685,7 @@
     "keywords": [
       "graph",
       "grid",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "530FA87F2639955A2AF4C6D9050B9A398A18512B6516F39A2E03C9BF4C66CBDA"
@@ -26510,6 +26707,7 @@
       "add",
       "graph",
       "grid",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "613C49EE00FD0EAAC2C6847265DF2EACEC1E8AC355040470C130AC149A48EA6E"
@@ -26530,6 +26728,7 @@
     "keywords": [
       "graph",
       "grid",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "69FC7EBEE958F99FD13F349B56F18178FA919992A6A3B587CDCB0A787E294606"
@@ -26545,6 +26744,7 @@
     "keywords": [
       "graph",
       "grid",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "65FDC3005A4ACDBFB7CA193E05E500656DC51E81199F5487EFC92E8E1795B0CB"
@@ -27356,6 +27556,7 @@
       "appearance",
       "chart",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "DF2710E93A68F49A02502611601EEF7E70EE4DB271C00AADBA3C67182C7C4366"
@@ -31029,6 +31230,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "446092E9BE5D851DF87EB9F6FE253B66DFEF9AE8C9F4C246B9B9D5C15B40925C"
@@ -31552,6 +31754,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -32591,6 +32794,7 @@
       "chart",
       "create",
       "one",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "D9C2384D082B125F80B9A78F95CE24DFF53A8B708DE9870CF136E413D6BD2896"
@@ -32603,6 +32807,7 @@
       "chart",
       "create",
       "two",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "2612866BD281E9841BF5132D95DEF29CBFAF313774243E2A5477AC69FC263093"
@@ -32615,6 +32820,7 @@
       "chart",
       "create",
       "three",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "AC6B481649A6F663126C8137F6071DD73DB9851B6BDB88D5C99C1C419D827124"
@@ -37078,6 +37284,7 @@
     "imageAsset": "images/by-hash/db781b34c325d9e7.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "DB781B34C325D9E7E85667BCD00851E03DAE087F0A54FB73BF4055FF455B9253"
@@ -37951,6 +38158,7 @@
     "keywords": [
       "graph",
       "grid",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "6A401BB5AEF3D7B695FB25F46FAAAA21FA4757AE7E112CE12BF7D5BB1DEA7457"
@@ -39957,6 +40165,7 @@
     "imageAsset": "images/by-hash/2fc9d06a341864fe.png",
     "keywords": [
       "rotation",
+      "spin",
       "turn"
     ],
     "imageSha256": "2FC9D06A341864FE04B7957B04ACC70AE862E82AB032D8FF07CC3DB1C1723A4D"
@@ -39981,7 +40190,9 @@
     "imageAsset": "images/by-hash/4d8aa46fa77482d2.png",
     "keywords": [
       "office fallback",
-      "placeholder"
+      "placeholder",
+      "rotate",
+      "spin"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
     "imageStatus": "placeholder",
@@ -40965,6 +41176,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "3F24194CACD9B29A636D65CA7D7373DA4D313DA4E184ED4D87858BF02A0C687E"
@@ -40976,6 +41188,7 @@
       "add",
       "create",
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "AACC7389925E13D6EC6146120D852D778E7571124636F09B56A8476E864DC26E"
@@ -40990,6 +41203,7 @@
     "imageAsset": "images/by-hash/47578ee07b7a36f8.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "47578EE07B7A36F8A5EE46E7A57C9400DADF965224AC96735FB1D1D66D81F51F"
@@ -40999,6 +41213,7 @@
     "imageAsset": "images/by-hash/afd453969bae38d0.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "AFD453969BAE38D00CF80D9E8CE621C6E430731342E48462AF71732A38087211"
@@ -41008,6 +41223,7 @@
     "imageAsset": "images/by-hash/f82e0174fcb69fe3.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "F82E0174FCB69FE36C3C69310AC5232ACF6952BA043F9AED6B5356F70209EC16"
@@ -41027,6 +41243,7 @@
     "imageAsset": "images/by-hash/2a2805998373523b.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "2A2805998373523B3A39B8BCCB26807D466E3D684BF7A0AF85A411069FBA4B6B"
@@ -41036,6 +41253,7 @@
     "imageAsset": "images/by-hash/ab0e89f2635919b6.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "AB0E89F2635919B6E63F41206C4D5430B4186DC7C7BC671B84D646959FF0B6FD"
@@ -41045,6 +41263,7 @@
     "imageAsset": "images/by-hash/fecbb09d41d02c94.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "FECBB09D41D02C9422B36ED65F5F22C3F10D84B7C98625855F885256B743C803"
@@ -41089,6 +41308,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -41103,6 +41323,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -41155,6 +41376,7 @@
     "imageAsset": "images/by-hash/8c1381a1e54b00d2.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "8C1381A1E54B00D28B09CD146991C8CF94365A6F9759B4FA5D5EEB1E5B61C24D"
@@ -41164,6 +41386,7 @@
     "imageAsset": "images/by-hash/33c2f421d7380f9f.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "33C2F421D7380F9F2526B96FAE56F45EAB4076641C7ACCAA17AA81C72A76EBC2"
@@ -41173,6 +41396,7 @@
     "imageAsset": "images/by-hash/dd34513b2e2f14f8.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "DD34513B2E2F14F84357ABDBD410A0A95734BA1423D8B90E1E14F645C05572A1"
@@ -41182,6 +41406,7 @@
     "imageAsset": "images/by-hash/1199350f2dbc8498.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "1199350F2DBC84982D79DFE89472432BAD7983FA1DCBCA644DF0ADDC106E30DE"
@@ -41191,6 +41416,7 @@
     "imageAsset": "images/by-hash/c676f47284d6eea6.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "C676F47284D6EEA6E29731F8C44F56CA6ACA61AB1CA4470E2C4F4AE4A6F406BA"
@@ -41205,6 +41431,7 @@
       "office fallback",
       "placeholder",
       "raise",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -41222,6 +41449,7 @@
       "office fallback",
       "placeholder",
       "raise",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -41234,6 +41462,7 @@
     "imageAsset": "images/by-hash/c06343c84f9380b8.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "C06343C84F9380B814EBBD40FE075E99BAE6A1A2E6067EC8247416497FA2F3C3"
@@ -41253,6 +41482,7 @@
       "office fallback",
       "photo",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -41270,6 +41500,7 @@
       "image",
       "photo",
       "remove",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "42025FE41B6B60F127C03B3A14C501ACEBD1D1AB683E6BF0C44D88D7C38026BE"
@@ -41282,6 +41513,7 @@
       "graphic",
       "image",
       "photo",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "564C35CD0395321A83533C2ED1DE0D3F8B74DDFD28FB0925A396F08DD8F6D041"
@@ -41301,6 +41533,7 @@
       "graphic",
       "image",
       "photo",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "8D7630979745BD92C47E0BBC3C34D02C1BEAB11551FC44E327574B50E7F83A32"
@@ -41317,6 +41550,7 @@
       "office fallback",
       "photo",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -41329,6 +41563,7 @@
     "imageAsset": "images/by-hash/35d9eb88f2b8e305.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "35D9EB88F2B8E3052F6560996015C393D2050F578842DB5CC6578E771831538A"
@@ -41340,6 +41575,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -41354,6 +41590,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -41373,6 +41610,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -41387,6 +41625,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -41416,6 +41655,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -41430,6 +41670,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -41442,6 +41683,7 @@
     "imageAsset": "images/by-hash/1bf5a4441a21fada.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "1BF5A4441A21FADA8121919C99C1A19E486EBCC810E44D62BF5C192574C62C71"
@@ -41451,6 +41693,7 @@
     "imageAsset": "images/by-hash/5720380099199ed9.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "5720380099199ED9B7A0000092B961DDC047001F59CA561CA62AC4914A79DB51"
@@ -41470,6 +41713,7 @@
     "imageAsset": "images/by-hash/df57c517412f1e4d.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "DF57C517412F1E4DA7B9B10E3AD6655ABB079F08719D26382CA0ADED7D6C0C41"
@@ -41499,6 +41743,7 @@
     "imageAsset": "images/by-hash/d7797fe9ebddeb1b.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "D7797FE9EBDDEB1BB59672883AF5F178249E4EF09969A90BE25339AAF1D6882E"
@@ -41508,6 +41753,7 @@
     "imageAsset": "images/by-hash/212ef426faccbc0c.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "212EF426FACCBC0CF701701E398A0846EE1BC4C20D42CD3F8BE3B19C17A40D34"
@@ -41517,6 +41763,7 @@
     "imageAsset": "images/by-hash/1397174e228219e1.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "1397174E228219E1CE206C3DF6F0C12208FE47CE6BB5639BDB309CE54874A358"
@@ -41531,6 +41778,7 @@
     "imageAsset": "images/by-hash/104b22e719bd3a24.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "104B22E719BD3A24C0DEE48B4334DB9C2C5BEF5E4E34700B3BF496F05F0C4042"
@@ -41540,6 +41788,7 @@
     "imageAsset": "images/by-hash/41c6ff0289355500.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "41C6FF0289355500FF559FB9A4431CA340FF74A2258B61D1719BB931F0B86634"
@@ -41549,6 +41798,7 @@
     "imageAsset": "images/by-hash/71b8adc8585106cc.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "71B8ADC8585106CC461C955C7C7281348FB02D3E0EB8626C4717FD6892DFB0BC"
@@ -41558,6 +41808,7 @@
     "imageAsset": "images/by-hash/89bc421a00b4ef2c.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "89BC421A00B4EF2C89657337AF0CF594A9EB488CCDB800BFE457E6D267F970F5"
@@ -43051,6 +43302,7 @@
     "keywords": [
       "graph",
       "insert",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "94AFF1473D9111AB1E65C3E646D838CEFE28104D3A8AC63FE5D5CCD54935D360"
@@ -43075,6 +43327,7 @@
       "graph",
       "grid",
       "insert",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "E148546483E598D2EA2C77604546CDC4A9FFC7FB525BBCEF6059280FD3E74EFA"
@@ -43189,6 +43442,7 @@
     "keywords": [
       "graph",
       "insert",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "30DAD84575949F2D17C17AA3CF9D22BDFB725E395FC63AA4AF03CB13A8762418"
@@ -43200,6 +43454,7 @@
       "graph",
       "grid",
       "insert",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "472CD15540F4B8CA7A187AB83911B4222647DB5A35E869A6D7317E29BC10B20B"
@@ -43577,6 +43832,7 @@
     "imageAsset": "images/by-hash/4d8aa46fa77482d2.png",
     "keywords": [
       "office fallback",
+      "person",
       "placeholder"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -43587,7 +43843,9 @@
   {
     "name": "PeoplePane",
     "imageAsset": "images/by-hash/a9d954fcf1eaf93f.png",
-    "keywords": [],
+    "keywords": [
+      "person"
+    ],
     "imageSha256": "A9D954FCF1EAF93F02267D3439C4632B6341D595636652009CC04C579EEF3446"
   },
   {
@@ -44583,7 +44841,9 @@
     "keywords": [
       "graphic",
       "image",
-      "photo"
+      "photo",
+      "rotate",
+      "spin"
     ],
     "imageSha256": "EB2338F7BD18768FD1CCECE0167E72ECD89A5E136A66F82B5ACC308A4D0DB21D"
   },
@@ -44717,6 +44977,7 @@
     "imageAsset": "images/by-hash/6fd2138471f1bdd8.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "6FD2138471F1BDD867C42FB287D7498AF9AD6F6F05459AD40EEE348EAC268C71"
@@ -44731,6 +44992,7 @@
     "imageAsset": "images/by-hash/343b4155affdf05f.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "343B4155AFFDF05FCB04B490CF43AAF306E80653877AEF23BD318BD89FD98E82"
@@ -44747,6 +45009,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -44774,6 +45037,7 @@
     "imageAsset": "images/by-hash/d820e218eb99cab0.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "D820E218EB99CAB0E81EF776675064A9CBC7D4955485939E66064B5233FF800C"
@@ -44783,6 +45047,7 @@
     "imageAsset": "images/by-hash/048033166ab010e2.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "048033166AB010E22B96B70CB10C16E02C283471B016FD70F0A1AB439E313FA8"
@@ -44793,6 +45058,7 @@
     "keywords": [
       "graph",
       "grid",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4EA78DF29C034D144CEA0A247E27A60A219FBBA47BD812F1F9D4C2E7F18CA28E"
@@ -44819,6 +45085,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -44843,6 +45110,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -44857,6 +45125,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -44871,6 +45140,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -44883,6 +45153,7 @@
     "imageAsset": "images/by-hash/c39c78cb4f166fc4.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "C39C78CB4F166FC466C34B5A283A6816AB0147E98F232FEDC6E676507598432E"
@@ -44894,6 +45165,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -44906,6 +45178,7 @@
     "imageAsset": "images/by-hash/e1235ec7162a8924.png",
     "keywords": [
       "graph",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "E1235EC7162A89244F0ED2785576F60D4AA6473B1E0F1C9DDFB43C8EBD7F6A3C"
@@ -50454,6 +50727,7 @@
     "imageAsset": "images/by-hash/6eea7fe7f1fb4277.png",
     "keywords": [
       "rotation",
+      "spin",
       "turn"
     ],
     "imageSha256": "6EEA7FE7F1FB4277146757E0A5D579B44241A31116EA44571D189462012B2BCD"
@@ -50478,6 +50752,7 @@
     "imageAsset": "images/by-hash/89fdee97fc723eb5.png",
     "keywords": [
       "rotation",
+      "spin",
       "turn"
     ],
     "imageSha256": "89FDEE97FC723EB5A02EC1103D6E44103CCD00CD967CD85F7D9B3F706CC3DCDA"
@@ -50485,7 +50760,10 @@
   {
     "name": "RotationTool",
     "imageAsset": "images/by-hash/71ada65545a9763d.png",
-    "keywords": [],
+    "keywords": [
+      "rotate",
+      "spin"
+    ],
     "imageSha256": "71ADA65545A9763DADAEC35D7BF79A9CB0B4E5272777C0FBFFAC79821B8E39E3"
   },
   {
@@ -54686,6 +54964,7 @@
     "imageAsset": "images/by-hash/4d8aa46fa77482d2.png",
     "keywords": [
       "office fallback",
+      "person",
       "placeholder"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -55175,6 +55454,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -55572,6 +55852,7 @@
       "graph",
       "presentation",
       "slideshow",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "ED6D8D3EBCB859849E6BF8DA31D077113D31AECC0B2620DBFDAFCC44F2A61810"
@@ -57576,6 +57857,7 @@
     "keywords": [
       "graph",
       "grid",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "93047CD38C9B7826F9B1561C7CDBC556DB0C274E14739338EF43DDABD38038F0"
@@ -57788,6 +58070,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -57804,6 +58087,7 @@
       "office fallback",
       "placeholder",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -57818,6 +58102,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -57896,6 +58181,7 @@
       "office fallback",
       "placeholder",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -59324,6 +59610,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -59338,6 +59625,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -59354,6 +59642,7 @@
       "office fallback",
       "placeholder",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -59368,6 +59657,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -59496,6 +59786,7 @@
       "office fallback",
       "placeholder",
       "style",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -59582,6 +59873,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -59620,6 +59912,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -59685,6 +59978,7 @@
       "graph",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -59724,6 +60018,7 @@
       "chart",
       "office fallback",
       "placeholder",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -61343,6 +61638,8 @@
     "name": "TextEffects3DRotationGallery",
     "imageAsset": "images/by-hash/0052c83d0e5c3339.png",
     "keywords": [
+      "rotate",
+      "spin",
       "three"
     ],
     "imageSha256": "0052C83D0E5C333998BF6595BBB7A381ED5DB849F0EACAD8E26ACAA2899C460C"
@@ -61585,6 +61882,7 @@
     "imageAsset": "images/by-hash/f9e13ad3c3810220.png",
     "keywords": [
       "rotation",
+      "spin",
       "turn"
     ],
     "imageSha256": "F9E13AD3C38102202BF95F41F980DB8EBD67F3F5522A17528799903746BB3CBE"
@@ -61594,6 +61892,7 @@
     "imageAsset": "images/by-hash/5b61d118a83548a2.png",
     "keywords": [
       "rotation",
+      "spin",
       "turn"
     ],
     "imageSha256": "5B61D118A83548A214F563CBCD3AA1C7FF8BB29E28DA8EE4ED931E7531842490"
@@ -61747,6 +62046,7 @@
       "office fallback",
       "placeholder",
       "rotation",
+      "spin",
       "turn"
     ],
     "imageSha256": "4D8AA46FA77482D2591BE0C30CE54DC9CC44E514386CFB15320B46975C832930",
@@ -61759,6 +62059,7 @@
     "imageAsset": "images/by-hash/7f9ea6ab4f4ba46c.png",
     "keywords": [
       "rotation",
+      "spin",
       "turn"
     ],
     "imageSha256": "7F9EA6AB4F4BA46CD6AF7808BB7EED49DA3B9D2CF4E35CE3FC79D097DE3F50D6"

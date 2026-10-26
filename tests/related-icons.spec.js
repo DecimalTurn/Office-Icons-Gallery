@@ -3,7 +3,7 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
-const { keywordSynonymsForValues, nameKeywords, nameWordSynonyms, normalizeKeywordSynonyms, normalizeNameSynonyms, normalizeReviewedKeywordGroup, normalizeReviewedKeywords, readJsonFile, readReviewStatus, removeNameKeywords, updateMetadataKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
+const { nameKeywords, normalizeReviewedKeywordGroup, normalizeReviewedKeywords, normalizeSynonyms, readJsonFile, readReviewStatus, removeNameKeywords, synonymsForValues, updateMetadataKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
 
 test("metadata excludes every icon-name word from keywords", async () => {
   const reviewedKeywords = require("../icon-keywords.json");
@@ -100,26 +100,29 @@ test("metadata excludes every icon-name word from keywords", async () => {
   expect(nameKeywords(["_3DBevelOptionsDialog"])).toEqual(new Set(["3", "d", "bevel", "options", "dialog"]));
   expect(normalizeReviewedKeywordGroup(["_3DBevelOptionsDialog"], ["3", "d", "bevel"])).toEqual([]);
   const imageGroupNames = ["_3DEffectColorPickerClassic", "IconBucketTool", "GroupIconEditPaint"];
-  const synonyms = { bucket: ["pail"], paint: ["brush"] };
-  expect([...nameWordSynonyms(imageGroupNames, synonyms)]).toEqual([
-    ["pail", ["bucket"]], ["brush", ["paint"]]
+  const synonyms = { bucket: ["pail"], color: ["colour"], paint: ["brush"], "blue pigment": ["azure"], visualization: ["diagram"] };
+  expect([...synonymsForValues([...nameKeywords(imageGroupNames)], synonyms)]).toEqual([
+    ["pail", ["bucket"]], ["colour", ["color"]], ["brush", ["paint"]]
   ]);
   expect(normalizeReviewedKeywordGroup(imageGroupNames, ["bucket", "paint", "colour"], synonyms)).toEqual([
     "brush", "colour", "pail"
   ]);
-  const customSynonyms = { "blue pigment": ["azure"], visualization: ["diagram"] };
-  expect([...keywordSynonymsForValues(["blue pigment"], customSynonyms)]).toEqual([
+  expect(normalizeReviewedKeywordGroup(["FormatColor"], [], synonyms)).toEqual(["colour"]);
+  expect(normalizeReviewedKeywordGroup(["FormatStyle"], ["color"], synonyms)).toEqual(["color", "colour"]);
+  expect([...synonymsForValues(["blue pigment"], synonyms)]).toEqual([
     ["azure", ["blue pigment"]]
   ]);
-  expect(normalizeReviewedKeywordGroup(imageGroupNames, ["blue pigment"], {}, customSynonyms)).toEqual([
-    "azure", "blue pigment"
+  expect(normalizeReviewedKeywordGroup(imageGroupNames, ["blue pigment"], synonyms)).toEqual([
+    "azure", "blue pigment", "brush", "colour", "pail"
   ]);
-  expect(normalizeKeywordSynonyms({ " BLUE PIGMENT ": [" AZURE ", "azure"] }, new Set(["blue pigment"]))).toEqual({
+  expect(normalizeSynonyms({ " BLUE PIGMENT ": [" AZURE ", "azure"] }, new Set(["blue pigment"]))).toEqual({
     "blue pigment": ["azure"]
   });
-  expect(normalizeNameSynonyms({ " BUCKET ": [" Pail ", "pail"] }, nameKeywords(imageGroupNames))).toEqual({
+  expect(normalizeSynonyms({ " BUCKET ": [" Pail ", "pail"] }, nameKeywords(imageGroupNames))).toEqual({
     bucket: ["pail"]
   });
+  expect(() => normalizeSynonyms({ bucket: ["pail"], pail: ["bucket"] }, new Set(["bucket", "pail"])))
+    .toThrow("A synonym cannot also be a synonym source: bucket, pail");
   expect(normalizeReviewedKeywordGroup(["_3DBevelOptionsDialog", "ChartFormatSelection"], [" Blue Pigment "])).toEqual([
     "blue pigment"
   ]);

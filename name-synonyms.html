@@ -33,7 +33,7 @@
         <div class="review-heading-row synonym-heading-row">
           <div>
             <h1>Keyword synonyms</h1>
-            <p>Define alternate search terms for icon-name words and reviewed custom keywords.</p>
+            <p>Define alternate search terms for words found in icon IDs or keywords.</p>
           </div>
           <a class="review-button review-button-secondary" href="./keyword-review.html">Keyword review</a>
         </div>
@@ -44,14 +44,9 @@
       <section class="synonym-source-section" aria-labelledby="source-word-heading">
         <h2 id="source-word-heading">Choose a synonym source</h2>
         <form id="source-word-form" class="synonym-source-form">
-          <label for="source-kind">Source type</label>
-          <select id="source-kind" class="synonym-source-kind">
-            <option value="name">Icon-name word</option>
-            <option value="keyword">Custom keyword</option>
-          </select>
-          <label id="source-word-label" for="source-word-input">Icon-name word</label>
+          <label id="source-word-label" for="source-word-input">Source word or keyword</label>
           <div class="synonym-control-row">
-            <input id="source-word-input" type="text" autocomplete="off" spellcheck="false" placeholder="Search name words" required />
+            <input id="source-word-input" type="text" autocomplete="off" spellcheck="false" placeholder="Search icon-ID words and reviewed keywords" required />
             <button class="review-button review-button-approved" type="submit">Open word</button>
           </div>
         </form>
@@ -60,7 +55,7 @@
       <section id="selected-source-panel" class="selected-source-section" aria-labelledby="selected-source-heading" hidden>
         <header class="synonym-section-heading">
           <div>
-            <p id="selected-source-kind" class="synonym-eyebrow">ICON-NAME WORD</p>
+            <p id="selected-source-kind" class="synonym-eyebrow">SOURCE WORD OR KEYWORD</p>
             <h2 id="selected-source-heading"></h2>
           </div>
         </header>
@@ -83,7 +78,7 @@
           </div>
           <span id="configured-word-count" class="synonym-count">0 words</span>
         </header>
-        <p id="empty-dictionary-message" class="empty-synonyms-message">No name synonyms defined.</p>
+        <p id="empty-dictionary-message" class="empty-synonyms-message">No synonyms defined.</p>
         <ul id="configured-synonyms-list" class="configured-synonyms-list"></ul>
       </section>
 

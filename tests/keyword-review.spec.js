@@ -23,7 +23,6 @@ async function mockKeywordReview(page, {
   confirmDelay = 0,
   keywordOverrides = {},
   synonyms = {},
-  keywordSynonyms = {},
   reviewedKeywordOverrides = {},
   metadataExtra = []
 } = {}) {
@@ -39,8 +38,8 @@ async function mockKeywordReview(page, {
   await page.route("**/icon-review-status.json", async (route) => {
     await route.fulfill({ json: {} });
   });
-  await page.route("**/api/name-synonyms", async (route) => {
-    await route.fulfill({ json: { synonyms, keywordSynonyms } });
+  await page.route("**/api/synonyms", async (route) => {
+    await route.fulfill({ json: { synonyms } });
   });
   if (Object.keys(reviewedKeywordOverrides).length > 0) {
     await page.route("**/icon-keywords.json", async (route) => {
@@ -69,7 +68,7 @@ async function mockKeywordReview(page, {
         return;
       }
       const iconIds = imageGroupByName.get(body.iconId) || [body.iconId];
-      const keywords = normalizeReviewedKeywordGroup(iconIds, body.keywords, synonyms, keywordSynonyms);
+      const keywords = normalizeReviewedKeywordGroup(iconIds, body.keywords, synonyms);
       confirmed.push({ ...body, iconIds, keywords });
       await route.fulfill({ json: {
         iconId: body.iconId,
@@ -238,9 +237,9 @@ test("opens synonym manager with the clicked icon-name word selected", async ({ 
 
   await page.getByRole("link", { name: "color", exact: true }).click();
 
-  await expect(page).toHaveURL(/name-synonyms\.html\?word=color$/);
+  await expect(page).toHaveURL(/name-synonyms\.html\?source=color$/);
   await expect(page.getByRole("heading", { name: "color", level: 2 })).toBeVisible();
-  await expect(page.getByLabel("Icon-name word")).toHaveValue("color");
+  await expect(page.getByLabel("Source word or keyword")).toHaveValue("color");
 });
 
 test("locks configured synonyms and names their source word", async ({ page }) => {
@@ -275,13 +274,13 @@ test("locks configured synonyms and names their source word", async ({ page }) =
   expect(confirmed[0].keywords).toContain("pail");
 });
 
-test("locks synonyms of reviewed custom keywords separately from name synonyms", async ({ page }) => {
+test("locks synonyms from the shared dictionary for reviewed keywords", async ({ page }) => {
   const iconId = "_3DBevelOptionsDialog";
   const imageGroupIds = imageGroupByName.get(iconId);
   const keywordOverrides = Object.fromEntries(imageGroupIds.map((name) => [name, ["bristle", "paintbrush"]]));
   const { confirmed } = await mockKeywordReview(page, {
     keywordOverrides,
-    keywordSynonyms: { paintbrush: ["bristle"] },
+    synonyms: { paintbrush: ["bristle"] },
     reviewedKeywordOverrides: { [imageGroupIds[0]]: ["paintbrush"] }
   });
 
@@ -372,15 +371,14 @@ test("opens synonym manager with a reviewed custom keyword selected", async ({ p
   await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(iconId)}`);
 
   const synonymLink = page.getByRole("link", { name: "Manage synonyms for keyword appearance" });
-  await expect(synonymLink).toHaveAttribute("href", "./name-synonyms.html?keyword=appearance");
+  await expect(synonymLink).toHaveAttribute("href", "./name-synonyms.html?source=appearance");
   await synonymLink.focus();
   await expect(synonymLink).toBeFocused();
   await synonymLink.press("Enter");
 
-  await expect(page).toHaveURL(/name-synonyms\.html\?keyword=appearance$/);
+  await expect(page).toHaveURL(/name-synonyms\.html\?source=appearance$/);
   await expect(page.getByRole("heading", { name: "appearance", level: 2 })).toBeVisible();
-  await expect(page.getByLabel("Source type")).toHaveValue("keyword");
-  await expect(page.getByLabel("Custom keyword")).toHaveValue("appearance");
+  await expect(page.getByLabel("Source word or keyword")).toHaveValue("appearance");
 });
 
 test("searching an identical-image ID opens its review representative", async ({ page }) => {

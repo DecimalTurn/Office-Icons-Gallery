@@ -12,7 +12,7 @@ test("adds and saves a synonym for an icon-name word", async ({ page }) => {
   await page.route("**/icon-metadata.json", async (route) => {
     await route.fulfill({ json: metadata });
   });
-  await page.route("**/api/name-synonyms", async (route) => {
+  await page.route("**/api/synonyms", async (route) => {
     if (route.request().method() === "GET") {
       await route.fulfill({ json: { synonyms: savedSynonyms } });
       return;
@@ -24,7 +24,7 @@ test("adds and saves a synonym for an icon-name word", async ({ page }) => {
   });
 
   await page.goto("/name-synonyms.html");
-  await page.getByLabel("Icon-name word").fill("bucket");
+  await page.getByLabel("Source word or keyword").fill("bucket");
   await page.getByRole("button", { name: "Open word" }).click();
   await expect(page.getByRole("heading", { name: "bucket", level: 2 })).toBeVisible();
   await page.getByLabel("Synonym to add").fill("pail");
@@ -54,7 +54,7 @@ test("discards unsaved synonym edits", async ({ page }) => {
   await page.route("**/icon-metadata.json", async (route) => {
     await route.fulfill({ json: metadata });
   });
-  await page.route("**/api/name-synonyms", async (route) => {
+  await page.route("**/api/synonyms", async (route) => {
     await route.fulfill({ json: { synonyms: savedSynonyms } });
   });
 
@@ -68,30 +68,41 @@ test("discards unsaved synonym edits", async ({ page }) => {
   await expect(page.getByRole("button", { name: "Discard changes" })).toBeDisabled();
 });
 
-test("adds a synonym for a reviewed custom keyword", async ({ page }) => {
-  let savedNameSynonyms = {};
-  let savedKeywordSynonyms = {};
-  await page.route("**/api/name-synonyms", async (route) => {
+test("rejects adding a synonym that is already a source", async ({ page }) => {
+  await page.route("**/api/synonyms", async (route) => {
+    await route.fulfill({ json: { synonyms: { bucket: ["pail"] } } });
+  });
+  await page.route("**/icon-metadata.json", async (route) => {
+    await route.fulfill({ json: metadata });
+  });
+
+  await page.goto("/name-synonyms.html?source=color");
+  await page.getByLabel("Source word or keyword").fill("color");
+  await page.getByRole("button", { name: "Open word" }).click();
+  await page.getByLabel("Synonym to add").fill("bucket");
+  await page.getByRole("button", { name: "Add synonym" }).click();
+
+  await expect(page.locator("#synonym-status")).toContainText("A synonym cannot also be a synonym source.");
+  await expect(page.getByRole("button", { name: "Save synonyms" })).toBeDisabled();
+});
+
+test("adds a synonym for a reviewed keyword in the shared dictionary", async ({ page }) => {
+  let savedSynonyms = {};
+  await page.route("**/api/synonyms", async (route) => {
     if (route.request().method() === "GET") {
-      await route.fulfill({ json: {
-        synonyms: savedNameSynonyms,
-        keywordSynonyms: savedKeywordSynonyms
-      } });
+      await route.fulfill({ json: { synonyms: savedSynonyms } });
       return;
     }
     const body = route.request().postDataJSON();
-    savedNameSynonyms = body.synonyms;
-    savedKeywordSynonyms = body.keywordSynonyms;
+    savedSynonyms = body.synonyms;
     await route.fulfill({ json: {
-      synonyms: savedNameSynonyms,
-      keywordSynonyms: savedKeywordSynonyms,
+      synonyms: savedSynonyms,
       metadataUpdated: true
     } });
   });
 
-  await page.goto("/name-synonyms.html");
-  await page.getByLabel("Source type").selectOption("keyword");
-  await page.getByLabel("Custom keyword").fill("paintbrush");
+  await page.goto("/name-synonyms.html?source=paintbrush");
+  await page.getByLabel("Source word or keyword").fill("paintbrush");
   await page.getByRole("button", { name: "Open word" }).click();
   await expect(page.getByRole("heading", { name: "paintbrush", level: 2 })).toBeVisible();
   await page.getByLabel("Synonym to add").fill("bristle");
@@ -99,18 +110,15 @@ test("adds a synonym for a reviewed custom keyword", async ({ page }) => {
   await expect(page.getByRole("list", { name: "Synonyms for selected source" })).toContainText("bristle");
   await page.getByRole("button", { name: "Save synonyms" }).click();
 
-  expect(savedNameSynonyms).toEqual({});
-  expect(savedKeywordSynonyms).toEqual({ paintbrush: ["bristle"] });
+  expect(savedSynonyms).toEqual({ paintbrush: ["bristle"] });
 });
 
-test("saving a synonym updates metadata for every ID with that real image", async ({ request }) => {
+test("one synonym dictionary updates name words and reviewed keywords", async ({ request }) => {
   test.setTimeout(120_000);
-  const synonymPath = path.join(__dirname, "..", "icon-name-synonyms.json");
-  const keywordSynonymPath = path.join(__dirname, "..", "icon-keyword-synonyms.json");
+  const synonymPath = path.join(__dirname, "..", "icon-synonyms.json");
   const keywordsPath = path.join(__dirname, "..", "icon-keywords.json");
   const metadataPath = path.join(__dirname, "..", "icon-metadata.json");
   const originalSynonyms = fs.readFileSync(synonymPath, "utf8");
-  const originalKeywordSynonyms = fs.readFileSync(keywordSynonymPath, "utf8");
   const originalKeywords = fs.readFileSync(keywordsPath, "utf8");
   const originalMetadata = fs.readFileSync(metadataPath, "utf8");
   const nameTarget = metadata.find((icon) => icon.name === "_3DEffectColorPickerClassic");
@@ -128,10 +136,9 @@ test("saving a synonym updates metadata for every ID with that real image", asyn
       "appearance"
     ])];
     fs.writeFileSync(keywordsPath, `${JSON.stringify(reviewedKeywords, null, 2)}\n`, "utf8");
-    const response = await request.put("/api/name-synonyms", {
+    const response = await request.put("/api/synonyms", {
       data: {
-        synonyms: { bucket: ["pail"] },
-        keywordSynonyms: { paintbrush: ["bristle"], appearance: ["facade-term"] },
+        synonyms: { color: ["colour"], appearance: ["facade-term"] },
         timeout: 100_000
       }
     });
@@ -139,19 +146,16 @@ test("saving a synonym updates metadata for every ID with that real image", asyn
     const updatedMetadata = await request.get("/icon-metadata.json").then((result) => result.json());
     const nameRepresentative = updatedMetadata.find((icon) => icon.name === expectedNameIds[0]);
     const keywordRepresentative = updatedMetadata.find((icon) => icon.name === expectedKeywordIds[0]);
-    expect(nameRepresentative.keywords).toContain("pail");
-    expect(keywordRepresentative.keywords).toContain("bristle");
+    expect(nameRepresentative.keywords).toContain("colour");
     expect(keywordRepresentative.keywords).toContain("facade-term");
-    expect(updatedMetadata.filter((icon) => icon.keywords?.includes("pail")).map((icon) => icon.name))
-      .toEqual([expectedNameIds[0]]);
-    expect(updatedMetadata.filter((icon) => icon.keywords?.includes("bristle")).map((icon) => icon.name))
-      .toEqual([expectedKeywordIds[0]]);
+    expect(nameRepresentative.keywords).toContain("colour");
+    expect(updatedMetadata.filter((icon) => icon.keywords?.includes("facade-term")).map((icon) => icon.name))
+      .toContain(expectedKeywordIds[0]);
     for (const aliasId of [...expectedNameIds.slice(1), ...expectedKeywordIds.slice(1)]) {
       expect(Object.hasOwn(updatedMetadata.find((icon) => icon.name === aliasId), "keywords")).toBe(false);
     }
   } finally {
     fs.writeFileSync(synonymPath, originalSynonyms, "utf8");
-    fs.writeFileSync(keywordSynonymPath, originalKeywordSynonyms, "utf8");
     fs.writeFileSync(keywordsPath, originalKeywords, "utf8");
     const { spawnSync } = require("node:child_process");
     const generation = spawnSync(process.execPath, [path.join(__dirname, "..", "generate-icon-metadata.js")], {

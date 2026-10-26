@@ -30,8 +30,7 @@
     activeResult: -1,
     keywordBaseline: [],
     keywordSuggestions: [],
-    nameSynonyms: {},
-    keywordSynonyms: {},
+    synonyms: {},
     reviewedKeywords: {},
     sameImageIdsByName: new Map(),
     reviewRepresentativeById: new Map()
@@ -88,13 +87,8 @@
       ...(state.sameImageIdsByName.get(state.currentIcon?.name) || [])
     ].flatMap((iconId) => state.reviewedKeywords[iconId] || [])
       .map((keyword) => keyword.toLocaleLowerCase("en")));
-    const nameSynonymTerms = new Set(Object.values(state.nameSynonyms).flat()
-      .map((keyword) => keyword.toLocaleLowerCase("en")));
     for (const nameWord of nameKeywords()) {
       reviewedSources.delete(nameWord);
-    }
-    for (const synonym of nameSynonymTerms) {
-      reviewedSources.delete(synonym);
     }
     return reviewedSources;
   }
@@ -112,15 +106,10 @@
         sourcesByKeyword.set(normalizedSynonym, sources);
       }
     };
-    for (const [source, synonyms] of Object.entries(state.nameSynonyms)) {
+    const eligibleSources = new Set([...nameWords, ...reviewedSources]);
+    for (const [source, synonyms] of Object.entries(state.synonyms)) {
       const normalizedSource = source.toLocaleLowerCase("en");
-      if (!nameWords.has(normalizedSource)) {
-        continue;
-      }
-      addSynonyms(normalizedSource, synonyms);
-    }
-    for (const [source, synonyms] of Object.entries(state.keywordSynonyms)) {
-      if (reviewedSources.has(source.toLocaleLowerCase("en"))) {
+      if (eligibleSources.has(normalizedSource)) {
         addSynonyms(source, synonyms);
       }
     }
@@ -132,7 +121,7 @@
     elements.nameWordTags.replaceChildren(...words.map((word) => {
       const tag = document.createElement("a");
       tag.className = "name-word-tag";
-      tag.href = `./name-synonyms.html?word=${encodeURIComponent(word)}`;
+      tag.href = `./name-synonyms.html?source=${encodeURIComponent(word)}`;
       tag.textContent = word;
       return tag;
     }));
@@ -189,7 +178,7 @@
         const source = input.value.trim().toLocaleLowerCase("en");
         synonymLink.hidden = !reviewedCustomKeywordSources().has(source);
         if (!synonymLink.hidden) {
-          synonymLink.href = `./name-synonyms.html?keyword=${encodeURIComponent(source)}`;
+          synonymLink.href = `./name-synonyms.html?source=${encodeURIComponent(source)}`;
           synonymLink.setAttribute("aria-label", `Manage synonyms for keyword ${source}`);
           synonymLink.title = `Manage synonyms for ${source}`;
         }
@@ -512,11 +501,10 @@
       const [metadata, reviewStatus, synonymResponse, reviewedKeywords] = await Promise.all([
         requestJson("./icon-metadata.json"),
         requestJson("./icon-review-status.json"),
-        requestJson("/api/name-synonyms"),
+        requestJson("/api/synonyms"),
         requestJson("./icon-keywords.json")
       ]);
-      state.nameSynonyms = synonymResponse.synonyms || {};
-      state.keywordSynonyms = synonymResponse.keywordSynonyms || {};
+      state.synonyms = synonymResponse.synonyms || {};
       state.reviewedKeywords = reviewedKeywords;
       const iconsByImageHash = new Map();
       for (const icon of metadata) {

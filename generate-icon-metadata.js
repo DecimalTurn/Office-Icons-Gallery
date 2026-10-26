@@ -1,14 +1,14 @@
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
-const { keywordSynonymsForValues, nameKeywords, nameWordSynonyms, normalizeKeywordSynonyms, normalizeNameSynonyms, removeNameKeywords, splitIconName } = require("./scripts/keyword-utils");
+const { nameKeywords, normalizeSynonyms, removeNameKeywords, splitIconName, synonymsForValues } = require("./scripts/keyword-utils");
 
 const imagesPath = path.join(__dirname, "images");
 const sharedImagesPath = path.join(imagesPath, "by-hash");
 const outputPath = path.join(__dirname, "icon-metadata.json");
 const iconDetailsPath = path.join(__dirname, "icon-details");
-const nameSynonymsPath = path.join(__dirname, "icon-name-synonyms.json");
-const keywordSynonymsPath = path.join(__dirname, "icon-keyword-synonyms.json");
+const synonymsPath = path.join(__dirname, "icon-synonyms.json");
+const keywordsPath = path.join(__dirname, "icon-keywords.json");
 const placeholderManifestPath = path.join(__dirname, "assets", "placeholders", "manifest.tsv");
 const imageFiles = fs.readdirSync(imagesPath, { withFileTypes: true })
   .filter((entry) => entry.isFile() && path.extname(entry.name).toLowerCase() === ".png");
@@ -50,9 +50,28 @@ for (const row of placeholderRows) {
 iconNames.sort((left, right) =>
   left.localeCompare(right, "en", { numeric: true, sensitivity: "base" }) || left.localeCompare(right)
 );
-const nameSynonyms = normalizeNameSynonyms(
-  JSON.parse(fs.readFileSync(nameSynonymsPath, "utf8")),
-  nameKeywords(iconNames)
+const reviewedKeywords = JSON.parse(fs.readFileSync(keywordsPath, "utf8"));
+if (!reviewedKeywords || Array.isArray(reviewedKeywords) || typeof reviewedKeywords !== "object") {
+  throw new Error("Reviewed keywords must be a JSON object keyed by icon ID");
+}
+const iconNameSet = new Set(iconNames);
+const invalidReviewedKeywords = Object.entries(reviewedKeywords)
+  .filter(([name, keywords]) => !/^[A-Za-z0-9_]+$/.test(name) || !Array.isArray(keywords) ||
+    keywords.some((keyword) => typeof keyword !== "string" || !keyword.trim()));
+if (invalidReviewedKeywords.length > 0) {
+  throw new Error("Invalid reviewed keywords: " + invalidReviewedKeywords.map(([name]) => name).join(", "));
+}
+const unknownKeywordIcons = Object.keys(reviewedKeywords).filter((name) => !iconNameSet.has(name));
+if (unknownKeywordIcons.length > 0) {
+  throw new Error("Reviewed keywords reference unknown icons: " + unknownKeywordIcons.join(", "));
+}
+const availableSynonymSources = new Set([
+  ...nameKeywords(iconNames),
+  ...Object.values(reviewedKeywords).flat().map((keyword) => keyword.trim().toLocaleLowerCase("en"))
+]);
+const synonyms = normalizeSynonyms(
+  JSON.parse(fs.readFileSync(synonymsPath, "utf8")),
+  availableSynonymSources
 );
 
 const imageHashByName = new Map();
@@ -137,26 +156,6 @@ const relatedKeywords = new Map(Object.entries({
   video: ["movie", "film", "clip"],
   zoom: ["magnify", "scale"]
 }));
-
-const reviewedKeywords = JSON.parse(fs.readFileSync(
-  path.join(__dirname, "icon-keywords.json"),
-  "utf8"
-));
-if (!reviewedKeywords || Array.isArray(reviewedKeywords) || typeof reviewedKeywords !== "object") {
-  throw new Error("Reviewed keywords must be a JSON object keyed by icon ID");
-}
-const availableCustomKeywords = new Set(Object.values(reviewedKeywords)
-  .flat()
-  .map((keyword) => keyword.trim().toLocaleLowerCase("en")));
-for (const synonyms of Object.values(nameSynonyms)) {
-  for (const synonym of synonyms) {
-    availableCustomKeywords.delete(synonym);
-  }
-}
-const keywordSynonyms = normalizeKeywordSynonyms(
-  JSON.parse(fs.readFileSync(keywordSynonymsPath, "utf8")),
-  availableCustomKeywords
-);
 
 const keywordOverrides = new Map(Object.entries({
   "BrightnessLess": [
@@ -266,18 +265,6 @@ const missingKeywordOverrides = [...keywordOverrides.keys()].filter((name) => !i
 if (missingKeywordOverrides.length > 0) {
   throw new Error("Keyword overrides reference unknown icons: " + missingKeywordOverrides.join(", "));
 }
-const invalidReviewedKeywords = Object.entries(reviewedKeywords)
-  .filter(([name, keywords]) => !/^[A-Za-z0-9_]+$/.test(name) || !Array.isArray(keywords) ||
-    keywords.some((keyword) => typeof keyword !== "string" || !keyword.trim()));
-if (invalidReviewedKeywords.length > 0) {
-  throw new Error("Invalid reviewed keywords: " + invalidReviewedKeywords.map(([name]) => name).join(", "));
-}
-
-const iconNameSet = new Set(iconNames);
-const unknownKeywordIcons = Object.keys(reviewedKeywords).filter((name) => !iconNameSet.has(name));
-if (unknownKeywordIcons.length > 0) {
-  throw new Error("Reviewed keywords reference unknown icons: " + unknownKeywordIcons.join(", "));
-}
 for (const [name, relatedNames] of relatedIconOverrides) {
   const invalidRelatedNames = relatedNames.filter((relatedName) =>
     !iconNameSet.has(relatedName) || relatedName === name || placeholderIconNames.has(relatedName)
@@ -371,7 +358,6 @@ const metadata = iconNames.map((name) => {
   const sameImageIds = placeholder
     ? []
     : (namesByImageHash.get(imageHash) || []).filter((otherName) => otherName !== name);
-  const synonymKeywords = [...nameWordSynonyms([name, ...sameImageIds], nameSynonyms).keys()];
   if (relatedIcons.length > 0 || sameImageIds.length > 0) {
     iconDetailsByName.set(name, { relatedIcons, sameImageIds });
   }
@@ -383,7 +369,6 @@ const metadata = iconNames.map((name) => {
   ];
   const keywords = new Set(removeNameKeywords([name], [
     ...(Object.hasOwn(reviewedKeywords, name) ? reviewedKeywords[name] : generatedKeywords)
-      .concat(synonymKeywords)
       .map((keyword) => keyword.trim().toLocaleLowerCase("en"))
   ]));
 
@@ -409,11 +394,14 @@ for (const icon of metadata) {
 }
 for (const group of keywordsByImageHash.values()) {
   const groupNames = group.map((icon) => icon.name);
-  const reviewedSources = [...new Set(groupNames.flatMap((name) => reviewedKeywords[name] || []))];
-  const customSynonyms = [...keywordSynonymsForValues(reviewedSources, keywordSynonyms).keys()];
+  const sourceValues = [
+    ...groupNames.flatMap((name) => splitIconName(name)),
+    ...group.flatMap((icon) => icon.keywords)
+  ];
+  const expandedSynonyms = [...synonymsForValues(sourceValues, synonyms).keys()];
   const sharedKeywords = removeNameKeywords(
     groupNames,
-    [...new Set([...group.flatMap((icon) => icon.keywords), ...customSynonyms])]
+    [...new Set([...group.flatMap((icon) => icon.keywords), ...expandedSynonyms])]
   ).sort();
   group[0].keywords = sharedKeywords;
   for (const icon of group.slice(1)) {
