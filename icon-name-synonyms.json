@@ -32,8 +32,14 @@
   "color": [
     "colour"
   ],
+  "folder": [
+    "directory"
+  ],
   "picture": [
     "image",
     "photo"
+  ],
+  "sound": [
+    "audio"
   ]
 }

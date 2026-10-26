@@ -141,9 +141,11 @@ test("omits icon-name words and confirms only useful keywords", async ({ page })
   await page.getByRole("button", { name: "Add keyword" }).click();
   await page.locator(".keyword-row input").last().fill(" Blue Pigment ");
   await page.getByRole("button", { name: "Remove keyword temporary term" }).click();
+  await page.getByLabel("Go to next icon after confirming review").uncheck();
   await page.getByRole("button", { name: "Confirm review" }).click();
 
   await expect(page.locator("#review-state .review-state-label")).toHaveText("Reviewed");
+  await expect(page.locator("#selected-icon-name")).toHaveText(iconId);
   await page.locator("#review-state").hover();
   await expect(page.locator("#review-state .review-state-action")).toBeVisible();
   await page.mouse.move(0, 0);
@@ -172,6 +174,30 @@ test("omits icon-name words and confirms only useful keywords", async ({ page })
   expect(savedKeywordValues).toContain("blue pigment");
   expect(savedKeywordValues).toContain("painted");
   expect(savedKeywordValues).toContain("paintbrush");
+});
+
+test("advances to the next icon after confirming review when enabled", async ({ page }) => {
+  const { confirmed } = await mockKeywordReview(page);
+  await page.goto("/keyword-review.html");
+
+  await expect(page.locator("#selected-icon-name")).toHaveText(reviewableIcons[0].name);
+  await expect(page.getByLabel("Go to next icon after confirming review")).toBeChecked();
+  const previousBounds = await page.getByRole("button", { name: "Previous icon" }).last().boundingBox();
+  const nextBounds = await page.getByRole("button", { name: "Next icon" }).last().boundingBox();
+  const autoAdvanceBounds = await page.getByLabel("Go to next icon after confirming review").boundingBox();
+  expect(previousBounds).not.toBeNull();
+  expect(nextBounds).not.toBeNull();
+  expect(autoAdvanceBounds).not.toBeNull();
+  expect(Math.abs(previousBounds.y - nextBounds.y)).toBeLessThan(1);
+  expect(nextBounds.x).toBeGreaterThan(previousBounds.x);
+  expect(autoAdvanceBounds.y).toBeGreaterThan(previousBounds.y);
+  await page.getByRole("button", { name: "Confirm review" }).click();
+
+  await expect.poll(() => confirmed.length).toBe(1);
+  expect(confirmed[0].iconId).toBe(reviewableIcons[0].name);
+  await expect(page.locator("#selected-icon-name")).toHaveText(reviewableIcons[1].name);
+  await expect(page.locator("#icon-position")).toHaveText(`2 of ${reviewableIcons.length.toLocaleString()}`);
+  await expect(page.locator(".keyword-row input").first()).toBeFocused();
 });
 
 test("lists same-image name words and marks matching keywords red", async ({ page }) => {
@@ -313,6 +339,23 @@ test("Tab accepts a suggestion and focuses the next keyword field", async ({ pag
 
   await expect(autocompleteInput).toHaveValue("paintbrush");
   await expect(nextKeywordInput).toBeFocused();
+});
+
+test("Backspace removes an empty keyword row and focuses the previous keyword", async ({ page }) => {
+  const iconId = "_3DBevelOptionsDialog";
+  const imageGroupIds = imageGroupByName.get(iconId);
+  const keywordOverrides = Object.fromEntries(imageGroupIds.map((name) => [name, ["paint", "bucket"]]));
+  await mockKeywordReview(page, { keywordOverrides });
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(iconId)}`);
+
+  const keywordInputs = page.locator(".keyword-row input");
+  await expect(keywordInputs).toHaveCount(2);
+  await keywordInputs.nth(1).fill("");
+  await keywordInputs.nth(1).press("Backspace");
+
+  await expect(keywordInputs).toHaveCount(1);
+  await expect(keywordInputs.first()).toHaveValue("paint");
+  await expect(keywordInputs.first()).toBeFocused();
 });
 
 test("opens synonym manager with a reviewed custom keyword selected", async ({ page }) => {

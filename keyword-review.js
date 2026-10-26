@@ -17,6 +17,7 @@
     keywordEditor: document.getElementById("keyword-editor"),
     addKeyword: document.getElementById("add-keyword"),
     markReviewed: document.getElementById("mark-reviewed"),
+    autoAdvanceReview: document.getElementById("auto-advance-review"),
     reviewCount: document.getElementById("review-count")
   };
 
@@ -222,6 +223,15 @@
       });
     }
     input.addEventListener("keydown", (event) => {
+      if (event.key === "Backspace" && !input.value.trim()) {
+        event.preventDefault();
+        const keywordInputs = [...elements.keywordEditor.querySelectorAll(".keyword-row input")];
+        const inputIndex = keywordInputs.indexOf(input);
+        const focusTarget = keywordInputs[inputIndex - 1] || keywordInputs[inputIndex + 1] || elements.addKeyword;
+        row.remove();
+        focusTarget.focus();
+        return;
+      }
       if (event.key === "Tab") {
         if (event.shiftKey) {
           return;
@@ -407,6 +417,10 @@
       elements.markReviewed.disabled = false;
       if (reviewSaved) {
         flashReviewButton();
+        if (elements.autoAdvanceReview.checked) {
+          navigateNext();
+          elements.keywordEditor.querySelector(".keyword-row input")?.focus();
+        }
       }
     }
   }

@@ -421,5 +421,176 @@
     "square",
     "visualisation",
     "visualization"
+  ],
+  "ActiveXComboBox": [
+    "scroll"
+  ],
+  "ActiveXFrame": [
+    "xyz"
+  ],
+  "ActiveXImage": [
+    "add",
+    "create",
+    "desktop",
+    "document",
+    "graphic",
+    "photo",
+    "scene",
+    "screen"
+  ],
+  "ActiveXLabel": [
+    "alpha",
+    "appearance",
+    "letter",
+    "style"
+  ],
+  "ActiveXListBox": [
+    "scroll"
+  ],
+  "ActiveXRadioButton": [],
+  "ActiveXScrollBar": [],
+  "ActiveXSpinButton": [],
+  "ActiveXTextBox": [
+    "textbox"
+  ],
+  "ActiveXToggleButton": [
+    "rectangle"
+  ],
+  "ActualSize": [
+    "alignment",
+    "document",
+    "file",
+    "position"
+  ],
+  "AddAccount": [
+    "insert",
+    "new"
+  ],
+  "AddAssignmentStage": [
+    "create",
+    "insert",
+    "new",
+    "people",
+    "person"
+  ],
+  "AddCalendarFromInternet": [
+    "globe",
+    "world"
+  ],
+  "AddCalendarMenu": [
+    "appointment",
+    "create",
+    "date",
+    "insert",
+    "new",
+    "plus",
+    "schedule"
+  ],
+  "AddCellLeft": [
+    "arrow",
+    "create",
+    "insert",
+    "new"
+  ],
+  "AddCellRight": [
+    "arrow",
+    "create",
+    "insert",
+    "new"
+  ],
+  "AddChartElementMenu": [
+    "create",
+    "graph",
+    "insert",
+    "new",
+    "plus",
+    "visualisation",
+    "visualization"
+  ],
+  "AddContentType": [
+    "appointment",
+    "calendar",
+    "create",
+    "insert"
+  ],
+  "AddDepartment": [
+    "person"
+  ],
+  "AddExistingTasksToTimeline": [
+    "create",
+    "graph",
+    "insert",
+    "new",
+    "pllus"
+  ],
+  "AddFolderToFavorites": [
+    "directory",
+    "files",
+    "star"
+  ],
+  "AddGroup": [
+    "create",
+    "insert",
+    "new",
+    "people",
+    "person"
+  ],
+  "AddHorizontalGuide": [
+    "create",
+    "insert",
+    "line",
+    "new",
+    "split"
+  ],
+  "AddInCommandsMenu": [
+    "gear",
+    "setting"
+  ],
+  "AddInManager": [
+    "gear"
+  ],
+  "AddInsMenu": [
+    "cube",
+    "data",
+    "insert",
+    "new"
+  ],
+  "AddNewColumnMenu": [
+    "create",
+    "insert"
+  ],
+  "AddNewRssFeed": [
+    "create",
+    "plus"
+  ],
+  "AddOrRemoveAttendees": [
+    "create",
+    "insert",
+    "new",
+    "person"
+  ],
+  "AddPeoplesCalendar": [
+    "person"
+  ],
+  "AddReminder": [
+    "audio",
+    "music"
+  ],
+  "AddRoom": [
+    "create",
+    "door",
+    "insert",
+    "new",
+    "plus"
+  ],
+  "AddRulesMenu": [
+    "lightning"
+  ],
+  "AddSelectionToAccentsLibrary": [
+    "create",
+    "insert",
+    "new",
+    "picture",
+    "scene"
   ]
 }

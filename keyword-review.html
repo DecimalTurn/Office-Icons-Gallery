@@ -94,8 +94,14 @@
             <button id="mark-reviewed" class="review-button review-button-approved" type="button">Confirm review</button>
           </div>
           <div class="review-footer-navigation" role="group" aria-label="Icon navigation">
-            <button id="previous-icon-bottom" class="review-icon-button" type="button" aria-label="Previous icon" title="Previous icon">&#8592;</button>
-            <button id="next-icon-bottom" class="review-icon-button" type="button" aria-label="Next icon" title="Next icon">&#8594;</button>
+            <div class="review-footer-navigation-buttons">
+              <button id="previous-icon-bottom" class="review-icon-button" type="button" aria-label="Previous icon" title="Previous icon">&#8592;</button>
+              <button id="next-icon-bottom" class="review-icon-button" type="button" aria-label="Next icon" title="Next icon">&#8594;</button>
+            </div>
+            <label class="review-auto-advance">
+              <input id="auto-advance-review" type="checkbox" checked />
+              Go to next icon after confirming review
+            </label>
           </div>
         </div>
       </section>

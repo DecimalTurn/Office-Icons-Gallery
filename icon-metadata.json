@@ -881,8 +881,10 @@
     "name": "AccountingFormat",
     "imageAsset": "images/by-hash/85a6a3a5829b5bdb.png",
     "keywords": [
+      "appearance",
       "dollar",
-      "money"
+      "money",
+      "style"
     ],
     "imageSha256": "85A6A3A5829B5BDB5FED4DCE60F40C5E30E7A546CF66D4919176671C71C42967"
   },
@@ -934,7 +936,9 @@
     "keywords": [
       "frame",
       "person",
-      "square"
+      "share",
+      "square",
+      "submit"
     ],
     "imageSha256": "2B702D6430221CF3A75CAD284347A069D20B12AB861691B18940E1CE87147A5B"
   },
@@ -1000,7 +1004,11 @@
     "name": "ActiveXCheckBox",
     "imageAsset": "images/by-hash/991e90eaa188d1d3.png",
     "keywords": [
+      "appointment",
       "checkmark",
+      "date",
+      "graph",
+      "schedule",
       "square",
       "visualisation",
       "visualization"
@@ -1010,13 +1018,17 @@
   {
     "name": "ActiveXComboBox",
     "imageAsset": "images/by-hash/1f3cf0d15015b32a.png",
-    "keywords": [],
+    "keywords": [
+      "scroll"
+    ],
     "imageSha256": "1F3CF0D15015B32AD034449E3DAEDDB2701B39C09D3F6F97144D1A31F80EA6C2"
   },
   {
     "name": "ActiveXFrame",
     "imageAsset": "images/by-hash/4d62ac0a7451562d.png",
-    "keywords": [],
+    "keywords": [
+      "xyz"
+    ],
     "imageSha256": "4D62AC0A7451562DC365FD24FBAC7A9E05C1C865396B71892071F1CA25B363B9"
   },
   {
@@ -1025,10 +1037,13 @@
     "keywords": [
       "add",
       "create",
+      "desktop",
       "document",
       "email",
       "graphic",
       "photo",
+      "scene",
+      "screen",
       "signature"
     ],
     "imageSha256": "A3C1694AEAD52859A16E47A08DD0AD6A35C4C6DB042302F525253F98B1CC18D1"
@@ -1037,7 +1052,9 @@
     "name": "ActiveXLabel",
     "imageAsset": "images/by-hash/facb4b355bd224b5.png",
     "keywords": [
+      "alpha",
       "appearance",
+      "letter",
       "style"
     ],
     "imageSha256": "FACB4B355BD224B550B6553D92550D0B73A093962ED8CB80C3B2829BDD85BC34"
@@ -1045,7 +1062,9 @@
   {
     "name": "ActiveXListBox",
     "imageAsset": "images/by-hash/5afbe6d1834bbe58.png",
-    "keywords": [],
+    "keywords": [
+      "scroll"
+    ],
     "imageSha256": "5AFBE6D1834BBE581D8A318993FE7EFD27F064E2983A2E2216D1B9EE9FD5611A"
   },
   {
@@ -1069,13 +1088,17 @@
   {
     "name": "ActiveXTextBox",
     "imageAsset": "images/by-hash/132afc8193cf8935.png",
-    "keywords": [],
+    "keywords": [
+      "textbox"
+    ],
     "imageSha256": "132AFC8193CF89358A5A8AF5280BC039EBD3798A01E68414292E6953A584E382"
   },
   {
     "name": "ActiveXToggleButton",
     "imageAsset": "images/by-hash/ec7798c67ae9ecc9.png",
-    "keywords": [],
+    "keywords": [
+      "rectangle"
+    ],
     "imageSha256": "EC7798C67AE9ECC94D98999CE548CF3C2F2B66F275642F0A156E02D43BA0E7A7"
   },
   {
@@ -1083,6 +1106,8 @@
     "imageAsset": "images/by-hash/fe00ad022d5e66dd.png",
     "keywords": [
       "alignment",
+      "document",
+      "file",
       "position"
     ],
     "imageSha256": "FE00AD022D5E66DD7F7BC7513ABE988542D19F829859B8411AAAF751C67876DE"
@@ -1107,7 +1132,9 @@
     "keywords": [
       "create",
       "insert",
-      "new"
+      "new",
+      "people",
+      "person"
     ],
     "imageSha256": "4C50252DE9E4F7F7B5550BD1785696C9C1BAEB3FD0E079E8F4AC475DC3D7A07F"
   },
@@ -1130,12 +1157,8 @@
     "name": "AddCalendarFromInternet",
     "imageAsset": "images/by-hash/acd07aef3fcbd50a.png",
     "keywords": [
-      "appointment",
-      "create",
-      "date",
-      "insert",
-      "new",
-      "schedule"
+      "globe",
+      "world"
     ],
     "imageSha256": "ACD07AEF3FCBD50AB1D0E10C8362C1EF60CF477B1D8BA762525DBC41D07F31A4"
   },
@@ -1148,6 +1171,7 @@
       "date",
       "insert",
       "new",
+      "plus",
       "schedule"
     ],
     "imageSha256": "DED081C270C2489114AAD597ECF1B5E9970A0DE95E9845A520EEDE5D4DB60AD2"
@@ -1156,6 +1180,7 @@
     "name": "AddCellLeft",
     "imageAsset": "images/by-hash/f693e00fc510f4c2.png",
     "keywords": [
+      "arrow",
       "create",
       "insert",
       "new"
@@ -1166,6 +1191,7 @@
     "name": "AddCellRight",
     "imageAsset": "images/by-hash/4364d9ec4c315f9e.png",
     "keywords": [
+      "arrow",
       "create",
       "insert",
       "new"
@@ -1180,6 +1206,8 @@
       "graph",
       "insert",
       "new",
+      "plus",
+      "visualisation",
       "visualization"
     ],
     "imageSha256": "1296182AEF35DB2B76EB3BBD27700A9AD53F2375174ADD16717C0E18C8C7E984"
@@ -1188,6 +1216,8 @@
     "name": "AddContentType",
     "imageAsset": "images/by-hash/fcaa71a805f81e9f.png",
     "keywords": [
+      "appointment",
+      "calendar",
       "create",
       "insert"
     ],
@@ -1199,10 +1229,9 @@
     "keywords": [
       "appointment",
       "conference",
-      "create",
       "find",
-      "insert",
-      "lookup"
+      "lookup",
+      "person"
     ],
     "imageSha256": "1B9E5011B970043949E6531946ECF060E1471BD122EB09C5B265F2565BE942FF"
   },
@@ -1226,8 +1255,10 @@
     "imageAsset": "images/by-hash/2128fa0a06829f22.png",
     "keywords": [
       "create",
+      "graph",
       "insert",
-      "new"
+      "new",
+      "pllus"
     ],
     "imageSha256": "2128FA0A06829F22BE5F295B3550F5CACC3467EE66488C71C4F87DA05399C553"
   },
@@ -1235,13 +1266,11 @@
     "name": "AddFolderToFavorites",
     "imageAsset": "images/by-hash/665d74369cb8bd63.png",
     "keywords": [
-      "create",
       "directory",
       "document",
       "files",
-      "insert",
       "launch",
-      "new"
+      "star"
     ],
     "imageSha256": "665D74369CB8BD637387588B1A3BD7283BC1F1D44B2F7DB2C346A8BE73A229DF"
   },
@@ -1251,7 +1280,9 @@
     "keywords": [
       "create",
       "insert",
-      "new"
+      "new",
+      "people",
+      "person"
     ],
     "imageSha256": "C1A316E1DE581BA285336F1D5015C252EEEC8E6877A68C8C076EC1F650348BED"
   },
@@ -1261,7 +1292,9 @@
     "keywords": [
       "create",
       "insert",
-      "new"
+      "line",
+      "new",
+      "split"
     ],
     "imageSha256": "F52CCFEB7780703354D16B02E55540177C699B1DD22308793439B84D625607A7"
   },
@@ -1270,8 +1303,10 @@
     "imageAsset": "images/by-hash/ee94c895a540e52b.png",
     "keywords": [
       "create",
+      "gear",
       "insert",
-      "new"
+      "new",
+      "setting"
     ],
     "imageSha256": "EE94C895A540E52B73487160E25A3AA4CC76518F3915623C6CAFC6022C5A9DD4"
   },
@@ -1281,6 +1316,7 @@
     "keywords": [
       "create",
       "file",
+      "gear",
       "insert",
       "motion",
       "movement",
@@ -1309,6 +1345,8 @@
     "imageAsset": "images/by-hash/a2163034651143da.png",
     "keywords": [
       "create",
+      "cube",
+      "data",
       "insert",
       "new"
     ],
@@ -1328,7 +1366,7 @@
     "imageAsset": "images/by-hash/62675dac43797838.png",
     "keywords": [
       "create",
-      "insert"
+      "plus"
     ],
     "imageSha256": "62675DAC437978389B6540932E845D7095ACE83D791B370189CEE736F3246AAB"
   },
@@ -1372,7 +1410,8 @@
     "keywords": [
       "create",
       "insert",
-      "new"
+      "new",
+      "person"
     ],
     "imageSha256": "62FD3177490B858D4CB0594AD852E9ED75CEFFD84446EF25A2DCA4A70235636B"
   },
@@ -1383,12 +1422,11 @@
       "appointment",
       "conference",
       "create",
-      "date",
       "insert",
       "launch",
       "lookup",
       "new",
-      "schedule",
+      "person",
       "show"
     ],
     "imageSha256": "3ECDFC82CB4924DBF5E937C637005E612AF14EA4CED4EBBBA5099CE116D3667B"
@@ -1403,10 +1441,7 @@
     "imageAsset": "images/by-hash/787c5004e1a222c9.png",
     "keywords": [
       "audio",
-      "create",
-      "insert",
-      "music",
-      "speaker"
+      "music"
     ],
     "imageSha256": "787C5004E1A222C933536FC6519B168AE9BF62311693D56029CF8FAEB5A3E62F"
   },
@@ -1439,9 +1474,7 @@
     "name": "AddRulesMenu",
     "imageAsset": "images/by-hash/314b2e53c7d79c39.png",
     "keywords": [
-      "create",
-      "insert",
-      "new"
+      "lightning"
     ],
     "imageSha256": "314B2E53C7D79C392B347AA54FBBD881C8EFD407E1621A46C1E3038F5B80A3A4"
   },
@@ -1451,7 +1484,9 @@
     "keywords": [
       "create",
       "insert",
-      "new"
+      "new",
+      "picture",
+      "scene"
     ],
     "imageSha256": "47BA77713E15CA4181EC12CE4BA7530DA4B1CA800244549B74E0D39EED66F48F"
   },
