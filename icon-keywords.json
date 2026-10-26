@@ -253,7 +253,7 @@
     "progressbar"
   ],
   "A": [
-    "alpha",
+    "alphabet",
     "letter"
   ],
   "About": [
@@ -451,6 +451,9 @@
   "ActiveXScrollBar": [],
   "ActiveXSpinButton": [],
   "ActiveXTextBox": [
+    "alpha",
+    "alphabet",
+    "letter",
     "textbox"
   ],
   "ActiveXToggleButton": [
@@ -587,9 +590,13 @@
     "lightning"
   ],
   "AddSelectionToAccentsLibrary": [
+    "alphabet",
     "create",
+    "image",
     "insert",
+    "letter",
     "new",
+    "photo",
     "picture",
     "scene"
   ]

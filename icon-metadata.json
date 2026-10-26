@@ -568,7 +568,7 @@
     "name": "A",
     "imageAsset": "images/by-hash/c106d0b8dfb8e3c3.png",
     "keywords": [
-      "alpha",
+      "alphabet",
       "letter"
     ],
     "imageSha256": "C106D0B8DFB8E3C3D20B4CF3F90A1507D7EC1ED856615B0E62E1242EC8C54F41"
@@ -874,6 +874,7 @@
     "imageAsset": "images/by-hash/38388a6cca16597f.png",
     "keywords": [
       "alpha",
+      "alphabet",
       "color",
       "colour",
       "letter",
@@ -1060,6 +1061,7 @@
     "imageAsset": "images/by-hash/facb4b355bd224b5.png",
     "keywords": [
       "alpha",
+      "alphabet",
       "appearance",
       "letter",
       "style"
@@ -1096,6 +1098,9 @@
     "name": "ActiveXTextBox",
     "imageAsset": "images/by-hash/132afc8193cf8935.png",
     "keywords": [
+      "alpha",
+      "alphabet",
+      "letter",
       "textbox"
     ],
     "imageSha256": "132AFC8193CF89358A5A8AF5280BC039EBD3798A01E68414292E6953A584E382"
@@ -1492,9 +1497,11 @@
     "name": "AddSelectionToAccentsLibrary",
     "imageAsset": "images/by-hash/47ba77713e15ca41.png",
     "keywords": [
+      "alphabet",
       "create",
       "image",
       "insert",
+      "letter",
       "new",
       "photo",
       "picture",
@@ -32502,7 +32509,9 @@
   {
     "name": "JapanesePostcardCreateLetterSide",
     "imageAsset": "images/by-hash/4cd2ac6eeb060b18.png",
-    "keywords": [],
+    "keywords": [
+      "alphabet"
+    ],
     "imageSha256": "4CD2AC6EEB060B18C131472F8C5390CAC50A85D89293213D9F096FE156EF974C"
   },
   {
@@ -61142,6 +61151,7 @@
     "imageAsset": "images/by-hash/93ebb9dda214f74e.png",
     "keywords": [
       "alignment",
+      "alphabet",
       "position"
     ],
     "imageSha256": "93EBB9DDA214F74E9112F50BEB895525F491CDA6421B6AFCC48077193D038B74"
