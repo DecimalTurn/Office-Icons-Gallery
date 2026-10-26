@@ -200,6 +200,17 @@ test("advances to the next icon after confirming review when enabled", async ({ 
   await expect(page.locator(".keyword-row input").first()).toBeFocused();
 });
 
+test("focuses Add keyword after auto-advance to an icon with no keywords", async ({ page }) => {
+  await mockKeywordReview(page, { keywordOverrides: { [reviewableIcons[1].name]: [] } });
+  await page.goto("/keyword-review.html");
+
+  await page.getByRole("button", { name: "Confirm review" }).click();
+
+  await expect(page.locator("#selected-icon-name")).toHaveText(reviewableIcons[1].name);
+  await expect(page.locator(".keyword-row input")).toHaveCount(0);
+  await expect(page.getByRole("button", { name: "Add keyword" })).toBeFocused();
+});
+
 test("jumps forward to the next unreviewed icon, skipping reviewed icons", async ({ page }) => {
   const reviewStatus = Object.fromEntries(reviewableIcons.slice(0, 2).map((icon) => [icon.name, true]));
   await mockKeywordReview(page, { reviewStatus });

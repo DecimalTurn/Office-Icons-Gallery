@@ -419,7 +419,7 @@
         flashReviewButton();
         if (elements.autoAdvanceReview.checked) {
           navigateNext();
-          elements.keywordEditor.querySelector(".keyword-row input")?.focus();
+          (elements.keywordEditor.querySelector(".keyword-row input") || elements.addKeyword).focus();
         }
       }
     }
