@@ -1033,6 +1033,8 @@
     "name": "ActiveXFrame",
     "imageAsset": "images/by-hash/4d62ac0a7451562d.png",
     "keywords": [
+      "alphabet",
+      "letter",
       "xyz"
     ],
     "imageSha256": "4D62AC0A7451562DC365FD24FBAC7A9E05C1C865396B71892071F1CA25B363B9"
@@ -1545,9 +1547,13 @@
     "name": "AddTextToTextEffect",
     "imageAsset": "images/by-hash/8187ee8d4735072e.png",
     "keywords": [
+      "alphabet",
       "create",
+      "frame",
       "graph",
+      "letter",
       "new",
+      "shape",
       "visualisation",
       "visualization"
     ],
@@ -1564,7 +1570,9 @@
     "keywords": [
       "create",
       "insert",
-      "new"
+      "new",
+      "plus",
+      "star"
     ],
     "imageSha256": "0823A381E0B8637E12D59B9BBFA5FBCE4CA8396587616BE1E4FACF32784EEF1B"
   },
@@ -1616,9 +1624,12 @@
     "name": "AddToMySite",
     "imageAsset": "images/by-hash/70b6b8bf57bb7ab2.png",
     "keywords": [
+      "article",
       "create",
       "insert",
-      "new"
+      "new",
+      "plus",
+      "text"
     ],
     "imageSha256": "70B6B8BF57BB7AB2891C982DB5DCC6A76E7576CBF2B0ABEBDBA9D5058C95E8B1"
   },
@@ -1626,9 +1637,14 @@
     "name": "AddToolGallery",
     "imageAsset": "images/by-hash/361923eeca76eb5a.png",
     "keywords": [
+      "calendar",
       "create",
+      "directory",
+      "folder",
       "insert",
-      "new"
+      "message",
+      "new",
+      "plus"
     ],
     "imageSha256": "361923EECA76EB5AF64A64CB5D59CCD5E7998D84CF8A9029604B301C6B7505F3"
   },
@@ -1668,7 +1684,9 @@
     "name": "AddUserToPermissionGroup",
     "imageAsset": "images/by-hash/57b6806ca0598d1d.png",
     "keywords": [
-      "create"
+      "create",
+      "person",
+      "plus"
     ],
     "imageSha256": "57B6806CA0598D1D21133E7166404DCBD06F15776E637DC5B760B1BA6B32C207"
   },
@@ -1678,7 +1696,9 @@
     "keywords": [
       "create",
       "insert",
-      "new"
+      "line",
+      "new",
+      "split"
     ],
     "imageSha256": "770C3126573549C1FD86BA2BB557906537467339A37B3E56EFA3AF60038774D6"
   },
@@ -1706,7 +1726,10 @@
     "keywords": [
       "create",
       "insert",
-      "new"
+      "new",
+      "plus",
+      "schema",
+      "uml"
     ],
     "imageSha256": "46504686E3DD6015A297EFBCA2DF66C8D87D2683DDB2B90B53F5813419534B0B"
   },
@@ -1718,7 +1741,13 @@
   {
     "name": "AdpConstraints",
     "imageAsset": "images/by-hash/855fdd3e9ceeec28.png",
-    "keywords": [],
+    "keywords": [
+      "document",
+      "file",
+      "link",
+      "text",
+      "uml"
+    ],
     "imageSha256": "855FDD3E9CEEEC28368F1133C795AA15D36A17FA2E3CD6F658ED611EDD25C5A8"
   },
   {
@@ -1727,7 +1756,9 @@
     "keywords": [
       "create",
       "insert",
-      "new"
+      "new",
+      "schema",
+      "uml"
     ],
     "imageSha256": "3CE52E58A86DD5AEE87EB1DDA0AEC797C2B92833C16EB6DE51060E85020454FC"
   },
@@ -1735,23 +1766,31 @@
     "name": "AdpDiagramAddTable",
     "imageAsset": "images/by-hash/137ac164f27ccd56.png",
     "keywords": [
+      "calendar",
       "create",
       "grid",
       "insert",
-      "new"
+      "new",
+      "plus"
     ],
     "imageSha256": "137AC164F27CCD56509D0C8366FECE47AC5B8F49045CC8D845413D0BCB46BA5F"
   },
   {
     "name": "AdpDiagramArrangeSelection",
     "imageAsset": "images/by-hash/917cc34f1d929f62.png",
-    "keywords": [],
+    "keywords": [
+      "schema",
+      "uml"
+    ],
     "imageSha256": "917CC34F1D929F6210C79FB27D8275D14ED62AA93DB3019052F121FC973E098E"
   },
   {
     "name": "AdpDiagramArrangeTables",
     "imageAsset": "images/by-hash/fdd10e6aaa27bf02.png",
-    "keywords": [],
+    "keywords": [
+      "schema",
+      "uml"
+    ],
     "imageSha256": "FDD10E6AAA27BF02DCF5C9309AB557ACAECEEFEF26DD2611FD803E42520E472F"
   },
   {
@@ -1775,7 +1814,10 @@
   {
     "name": "AdpDiagramCustomView",
     "imageAsset": "images/by-hash/70cbb19a4d56615d.png",
-    "keywords": [],
+    "keywords": [
+      "column",
+      "grid"
+    ],
     "imageSha256": "70CBB19A4D56615D56D03A4627E6D2DC6554B8323F88481F51403080A05E5748"
   },
   {
@@ -1783,6 +1825,7 @@
     "imageAsset": "images/by-hash/be3101efbcf48928.png",
     "keywords": [
       "clear",
+      "cross",
       "grid",
       "remove"
     ],
@@ -1800,14 +1843,19 @@
     "name": "AdpDiagramIndexesKeys",
     "imageAsset": "images/by-hash/ad1f748dc2c78dc8.png",
     "keywords": [
-      "grid"
+      "grid",
+      "key",
+      "lightning",
+      "text"
     ],
     "imageSha256": "AD1F748DC2C78DC801ADBE8DE8529614643021A29CF98F7E8DCE3DB6686707D5"
   },
   {
     "name": "AdpDiagramKeys",
     "imageAsset": "images/by-hash/7a45abbe682e6d03.png",
-    "keywords": [],
+    "keywords": [
+      "key"
+    ],
     "imageSha256": "7A45ABBE682E6D03AEDA24466D8A442B1DD06998B5ACF88AF9284A796DF68868"
   },
   {
@@ -1820,7 +1868,9 @@
     "name": "AdpDiagramNewLabel",
     "imageAsset": "images/by-hash/1819d9833fe56cf4.png",
     "keywords": [
+      "alphabet",
       "appearance",
+      "letter",
       "style"
     ],
     "imageSha256": "1819D9833FE56CF4B2BD180A0474D8D4C61D757A67C81F549335DF128BB9EA88"
@@ -1836,14 +1886,18 @@
   {
     "name": "AdpDiagramRecalculatePageBreaks",
     "imageAsset": "images/by-hash/481fdb9f01101d71.png",
-    "keywords": [],
+    "keywords": [
+      "refresh"
+    ],
     "imageSha256": "481FDB9F01101D713AC05A9E98FFBCBC39517EC4C561B6DC1288A768AD2A1295"
   },
   {
     "name": "AdpDiagramRelationships",
     "imageAsset": "images/by-hash/64480077e54e1b8b.png",
     "keywords": [
-      "grid"
+      "grid",
+      "schema",
+      "uml"
     ],
     "imageSha256": "64480077E54E1B8BAEEA24AD194D09E5DEE22D444FA912D4478676FB2B23FCDB"
   },
@@ -1859,6 +1913,7 @@
     "keywords": [
       "grid",
       "lookup",
+      "magnifier",
       "search"
     ],
     "imageSha256": "1D820C650E733D4684A166A8A057FCB902AC7791E49ACCD760E3DBDF982C8297"
@@ -1867,24 +1922,28 @@
     "name": "AdpDiagramViewPageBreaks",
     "imageAsset": "images/by-hash/0e116039c9bf96df.png",
     "keywords": [
-      "magnify",
-      "scale"
+      "scale",
+      "window"
     ],
     "imageSha256": "0E116039C9BF96DF16636EFF4C5A6E1BC55D1A64FE41CA13AA653C92C1E851C0"
   },
   {
     "name": "AdpManageIndexes",
     "imageAsset": "images/by-hash/d42667e6d651fa2f.png",
-    "keywords": [],
+    "keywords": [
+      "email",
+      "lightning",
+      "mail",
+      "message"
+    ],
     "imageSha256": "D42667E6D651FA2FB6146332E5371EEFACA0E2CDCC75E67EACCB0C4DC3413C72"
   },
   {
     "name": "AdpNewTable",
     "imageAsset": "images/by-hash/faa99bee2a7f02ec.png",
     "keywords": [
-      "email",
       "grid",
-      "message"
+      "plus"
     ],
     "imageSha256": "FAA99BEE2A7F02ECE953B71778040BB4DAAE88DDBFCD5579DE361F7B1D47B5E0"
   },
@@ -1894,7 +1953,8 @@
     "keywords": [
       "create",
       "insert",
-      "new"
+      "new",
+      "plus"
     ],
     "imageSha256": "9CD8F25ED0B383C0FF8CB50F165ED00A072F1F92FF1E1521683774DC0005C559"
   },
@@ -1908,6 +1968,8 @@
     "name": "AdpOutputOperationsSortAscending",
     "imageAsset": "images/by-hash/458fd8e1130b5e6a.png",
     "keywords": [
+      "alphabet",
+      "letter",
       "lookup",
       "search"
     ],
@@ -1917,6 +1979,8 @@
     "name": "AdpOutputOperationsSortDescending",
     "imageAsset": "images/by-hash/77440f0b8550bd69.png",
     "keywords": [
+      "alphabet",
+      "letter",
       "lookup",
       "search"
     ],
@@ -1925,9 +1989,7 @@
   {
     "name": "AdpOutputOperationsTableRemove",
     "imageAsset": "images/by-hash/bb692ed17b20b5b6.png",
-    "keywords": [
-      "grid"
-    ],
+    "keywords": [],
     "imageSha256": "BB692ED17B20B5B6969C8EAEF336DE80FCBB2BFD290A4A1C7EBAC64C1DE3636F"
   },
   {
@@ -1942,19 +2004,30 @@
   {
     "name": "AdpStoredProcedureEditSql",
     "imageAsset": "images/by-hash/f00cbc1074580c04.png",
-    "keywords": [],
+    "keywords": [
+      "pencil",
+      "triangle"
+    ],
     "imageSha256": "F00CBC1074580C0402ED277AAEAC57410B4ECAFCBC5425B10A3A1CF43293C708"
   },
   {
     "name": "AdpStoredProcedureQueryAppend",
     "imageAsset": "images/by-hash/b80f514177d5e0a8.png",
-    "keywords": [],
+    "keywords": [
+      "exclamation",
+      "mark",
+      "plus"
+    ],
     "imageSha256": "B80F514177D5E0A8C75E0C9E70AFFBED3C11C8F608320A04B8DB2D144C5EFC99"
   },
   {
     "name": "AdpStoredProcedureQueryAppendValues",
     "imageAsset": "images/by-hash/d677325f0f15f3f1.png",
-    "keywords": [],
+    "keywords": [
+      "exclamation",
+      "mark",
+      "plus"
+    ],
     "imageSha256": "D677325F0F15F3F195176BA9352B8DA82E89DE0855C433322D1D9283DBE99B24"
   },
   {
@@ -1962,6 +2035,9 @@
     "imageAsset": "images/by-hash/89aa1c4dc0e96762.png",
     "keywords": [
       "clear",
+      "cross",
+      "exclamation",
+      "mark",
       "remove"
     ],
     "imageSha256": "89AA1C4DC0E967620013E66F244073374B528C611390E1F5C9F9080207810DA4"
@@ -1970,38 +2046,53 @@
     "name": "AdpStoredProcedureQueryMakeTable",
     "imageAsset": "images/by-hash/8d588e96f4f6abb6.png",
     "keywords": [
-      "grid"
+      "exclamation",
+      "grid",
+      "mark"
     ],
     "imageSha256": "8D588E96F4F6ABB69018FAEB9ECE0F7A5E2248E047A3F76A43C29BF5248D8068"
   },
   {
     "name": "AdpStoredProcedureQuerySelect",
     "imageAsset": "images/by-hash/3ede2d24cf3da107.png",
-    "keywords": [],
+    "keywords": [
+      "calendar"
+    ],
     "imageSha256": "3EDE2D24CF3DA107DCACAC49984F6721E556A4D779B09088D46521E0584108FE"
   },
   {
     "name": "AdpStoredProcedureQueryUpdate",
     "imageAsset": "images/by-hash/21d398046cbe9f67.png",
-    "keywords": [],
+    "keywords": [
+      "exclamation",
+      "mark",
+      "pencil"
+    ],
     "imageSha256": "21D398046CBE9F671C3EC00D5EBA3618405BBF165460DE24150A219ACE504B36"
   },
   {
     "name": "AdpVerifySqlSyntax",
     "imageAsset": "images/by-hash/3da4d8e7b632430f.png",
-    "keywords": [],
+    "keywords": [
+      "checkmark"
+    ],
     "imageSha256": "3DA4D8E7B632430F34D8A80A51BE760ED8CE476E01B9F8BBCC430FE2395C2072"
   },
   {
     "name": "AdpViewDiagramPane",
     "imageAsset": "images/by-hash/873226769e8cd95e.png",
-    "keywords": [],
+    "keywords": [
+      "schema",
+      "uml"
+    ],
     "imageSha256": "873226769E8CD95E5334E237D8A6DD7067834567A44F73468BF91B3045074262"
   },
   {
     "name": "AdpViewGridPane",
     "imageAsset": "images/by-hash/1d7ab9f4656f3b00.png",
-    "keywords": [],
+    "keywords": [
+      "calendar"
+    ],
     "imageSha256": "1D7AB9F4656F3B006494EE42BB27E9C1495DCCC30993FFCED4EDB8E7D3984E13"
   },
   {
@@ -2014,33 +2105,33 @@
     "name": "AdvancedFileProperties",
     "imageAsset": "images/by-hash/efd326c5be4d5b20.png",
     "keywords": [
-      "appearance",
       "directory",
       "document",
       "find",
-      "graph",
-      "graphic",
-      "grid",
+      "list",
       "lookup",
       "photo",
-      "style",
       "three",
-      "visualisation",
-      "visualization"
+      "visualisation"
     ],
     "imageSha256": "EFD326C5BE4D5B2062CD478DCA1AFD1CDEA4B9EF293A0B599834CFF39D08775F"
   },
   {
     "name": "AdvancedFilterDialog",
     "imageAsset": "images/by-hash/8519d7c5a282f126.png",
-    "keywords": [],
+    "keywords": [
+      "funnel",
+      "gear"
+    ],
     "imageSha256": "8519D7C5A282F12695AEFED32BD1376ABC55DFDADC6E3C58FCDC1C4223DDFDBA"
   },
   {
     "name": "AdvancedFind",
     "imageAsset": "images/by-hash/412aae2556681c8e.png",
     "keywords": [
+      "gear",
       "lookup",
+      "magnifier",
       "search"
     ],
     "imageSha256": "412AAE2556681C8E2E128F8203B1F2BDD008C2879813FAAD9EC8BDB5F1DFE71E"
@@ -2048,25 +2139,40 @@
   {
     "name": "AdvancedMode",
     "imageAsset": "images/by-hash/e990b26262ad2738.png",
-    "keywords": [],
+    "keywords": [
+      "document",
+      "exclamation",
+      "file",
+      "mark",
+      "pencil"
+    ],
     "imageSha256": "E990B26262AD27382AE4D95482A127A4455BD71B5B345CCF28BB80022EA75B36"
   },
   {
     "name": "AdvancedObjectMenu",
     "imageAsset": "images/by-hash/f1d930c1fb20b2ea.png",
-    "keywords": [],
+    "keywords": [
+      "paper"
+    ],
     "imageSha256": "F1D930C1FB20B2EA1828828C70591748FA8FE85B0877C8B0E14249574D49D429"
   },
   {
     "name": "AdvertisementGallery",
     "imageAsset": "images/by-hash/a4e1913b578d29d6.png",
-    "keywords": [],
+    "keywords": [
+      "card",
+      "star"
+    ],
     "imageSha256": "A4E1913B578D29D6CDBA004F4A9BDD3DD9D605AFA3BA2421B6819E2D1EAFD232"
   },
   {
     "name": "AdvertisePublishAs",
     "imageAsset": "images/by-hash/9ffc68917f511636.png",
-    "keywords": [],
+    "keywords": [
+      "document",
+      "file",
+      "information"
+    ],
     "imageSha256": "9FFC68917F511636EA934C1E13063F87AFBDD20482B3BC7BEE288458815A1BC3"
   },
   {
@@ -2074,6 +2180,8 @@
     "imageAsset": "images/by-hash/e8cb3d2b181b016d.png",
     "keywords": [
       "clear",
+      "cross",
+      "paper",
       "remove"
     ],
     "imageSha256": "E8CB3D2B181B016DBEF2A418590162DFC22B0A5383004FD5A51BD11051FFF2CA"
@@ -2087,8 +2195,9 @@
     "name": "AfterInsert",
     "imageAsset": "images/by-hash/bf04b878fe675d39.png",
     "keywords": [
-      "add",
-      "create"
+      "arrow",
+      "paper",
+      "right"
     ],
     "imageSha256": "BF04B878FE675D39FC87CA87D37F11BC52620A19EBEE99F5B305554218513DB8"
   },
@@ -2100,7 +2209,10 @@
   {
     "name": "AfterUpdate",
     "imageAsset": "images/by-hash/ab0cc1b7f6e7a269.png",
-    "keywords": [],
+    "keywords": [
+      "paper",
+      "refresh"
+    ],
     "imageSha256": "AB0CC1B7F6E7A2692D9510C02E8C6D27B9A5D9FF3BF2AA0DA00F8C7A125830FC"
   },
   {
@@ -2118,7 +2230,8 @@
     "imageAsset": "images/by-hash/4b6fbf0f99c0e63a.png",
     "keywords": [
       "alignment",
-      "position"
+      "position",
+      "text"
     ],
     "imageSha256": "4B6FBF0F99C0E63ADE44530B087CEB9933DACE9C377B424DDC7353003586F48C"
   },
@@ -2136,7 +2249,6 @@
     "name": "AlignDialog",
     "imageAsset": "images/by-hash/6681fe487d168071.png",
     "keywords": [
-      "graphic",
       "image",
       "photo",
       "position"
@@ -2181,7 +2293,8 @@
     "imageAsset": "images/by-hash/d185b01fc1e08c23.png",
     "keywords": [
       "alignment",
-      "position"
+      "position",
+      "text"
     ],
     "imageSha256": "D185B01FC1E08C2398A8AB060F58FA5185385ACFC6A636C17577981C8D9DE168"
   },
@@ -2190,7 +2303,8 @@
     "imageAsset": "images/by-hash/0c7035d218299b2c.png",
     "keywords": [
       "alignment",
-      "position"
+      "position",
+      "text"
     ],
     "imageSha256": "0C7035D218299B2C9B5368F8E29525D07D4334744823CAB041D4451EA17B886B"
   },
@@ -2199,7 +2313,8 @@
     "imageAsset": "images/by-hash/7cc7551fd5ca81e9.png",
     "keywords": [
       "alignment",
-      "position"
+      "position",
+      "text"
     ],
     "imageSha256": "7CC7551FD5CA81E9AA887C67AC18548B34C40B7BF3FD1CCF1572863DC5F32343"
   },
@@ -2208,7 +2323,8 @@
     "imageAsset": "images/by-hash/ea610af81dd29998.png",
     "keywords": [
       "alignment",
-      "position"
+      "position",
+      "text"
     ],
     "imageSha256": "EA610AF81DD299982DC30018FADC97D45AAB894D7C793B4CBD2288BBF7063375"
   },
@@ -2222,7 +2338,8 @@
     "imageAsset": "images/by-hash/14c5405747729e75.png",
     "keywords": [
       "alignment",
-      "position"
+      "position",
+      "text"
     ],
     "imageSha256": "14C5405747729E75AE579B51B1912938FBDE26FA14818B34B0FC09F57BD8549D"
   },
@@ -2244,6 +2361,7 @@
     "imageAsset": "images/by-hash/7ae32f26706df8a1.png",
     "keywords": [
       "alignment",
+      "paragraph",
       "position"
     ],
     "imageSha256": "7AE32F26706DF8A1B2E73DDE4EA83E34B92288EBB70CE010B2D170E52BBADA38"
@@ -2258,7 +2376,8 @@
     "imageAsset": "images/by-hash/4c68a2f53a2a66ab.png",
     "keywords": [
       "alignment",
-      "position"
+      "position",
+      "text"
     ],
     "imageSha256": "4C68A2F53A2A66ABA265C74B502F93B917A7189C20BE47FB2577DB720AE73E7C"
   },
@@ -2281,7 +2400,8 @@
     "imageAsset": "images/by-hash/2eb3ead835d5835c.png",
     "keywords": [
       "alignment",
-      "position"
+      "position",
+      "text"
     ],
     "imageSha256": "2EB3EAD835D5835C85C7F271A3FD713AFE0DC923C6B549E30483F909A7D428D4"
   },
@@ -2289,13 +2409,8 @@
     "name": "AllCategories",
     "imageAsset": "images/by-hash/79c4e995fd60f68e.png",
     "keywords": [
-      "add",
       "colour",
-      "create",
-      "date",
-      "find",
-      "lookup",
-      "schedule"
+      "square"
     ],
     "imageSha256": "79C4E995FD60F68E29EAB757AC17401F71AEDD5F3EAC15F2B9C03B5891D2D14F"
   },
@@ -2304,6 +2419,7 @@
     "imageAsset": "images/by-hash/7d0b88f74fa22558.png",
     "keywords": [
       "find",
+      "inbox",
       "lookup"
     ],
     "imageSha256": "7D0B88F74FA22558534823BE277992E78B5D01CCB203CB6C78FA9B9C72CD5A09"
@@ -2420,9 +2536,9 @@
     "name": "AlternativeText",
     "imageAsset": "images/by-hash/a352d6311f611768.png",
     "keywords": [
-      "graphic",
       "image",
-      "photo"
+      "photo",
+      "scene"
     ],
     "imageSha256": "A352D6311F61176827F12AE5818741D2797CF043CFE123195A807069FBB6D9CE"
   },
@@ -2430,6 +2546,10 @@
     "name": "AlwaysMoveConversation",
     "imageAsset": "images/by-hash/e566674bba46631e.png",
     "keywords": [
+      "arrow",
+      "directory",
+      "down",
+      "folder",
       "store",
       "write"
     ],
@@ -2459,7 +2579,9 @@
       "insert",
       "motion",
       "movement",
-      "new"
+      "new",
+      "plus",
+      "star"
     ],
     "imageSha256": "BA70D0080115F1F951A5901382EC19E19846A814B497370F02217D06534EB217"
   },
@@ -2467,11 +2589,6 @@
     "name": "AnimationAudio",
     "imageAsset": "images/by-hash/44870adc1e9112a7.png",
     "keywords": [
-      "add",
-      "create",
-      "document",
-      "motion",
-      "movement",
       "music",
       "speaker"
     ],
@@ -2504,7 +2621,8 @@
       "insert",
       "motion",
       "movement",
-      "new"
+      "new",
+      "star"
     ],
     "imageSha256": "A56B4CE19F37B7192AE2A12BF202FBBB46082B74FA14333208A55C318BE8613D"
   },
@@ -2516,7 +2634,8 @@
       "insert",
       "motion",
       "movement",
-      "new"
+      "new",
+      "star"
     ],
     "imageSha256": "55961B81C0A1349247F721E9EF5D1A7905A84ECC66F54E1FE544A59E4655D7DD"
   },
@@ -2524,11 +2643,9 @@
     "name": "AnimationCustomAddExitDialog",
     "imageAsset": "images/by-hash/9df3ac47e85dd523.png",
     "keywords": [
-      "create",
-      "insert",
       "motion",
       "movement",
-      "new"
+      "star"
     ],
     "imageSha256": "9DF3AC47E85DD523EF66C822724ACADB88208E6DA471923E7141D971A1C7666E"
   },
@@ -2536,11 +2653,9 @@
     "name": "AnimationCustomAddPathDialog",
     "imageAsset": "images/by-hash/a441fd4264cf5af3.png",
     "keywords": [
-      "create",
-      "insert",
       "motion",
       "movement",
-      "new"
+      "star"
     ],
     "imageSha256": "A441FD4264CF5AF347BBB7A3C380BC9B6192C134E4E60D1FAE6A1E191A187A77"
   },
@@ -2568,8 +2683,10 @@
     "name": "AnimationDelay",
     "imageAsset": "images/by-hash/90b49634db30206e.png",
     "keywords": [
+      "clock",
       "motion",
-      "movement"
+      "movement",
+      "timer"
     ],
     "imageSha256": "90B49634DB30206E67AF89566B7FC3ED4D0043DE9AE13D56D59085220169331D"
   },
@@ -2577,12 +2694,7 @@
     "name": "AnimationDuration",
     "imageAsset": "images/by-hash/34616ac3c1be3f5e.png",
     "keywords": [
-      "add",
-      "create",
-      "motion",
-      "movement",
-      "reload",
-      "update"
+      "clocj"
     ],
     "imageSha256": "34616AC3C1BE3F5EEDA8ACB91D40D9554FB12108B93BA7FF3F5573BBA0F02067"
   },
@@ -2591,7 +2703,9 @@
     "imageAsset": "images/by-hash/2b7fbf19ec31bde1.png",
     "keywords": [
       "motion",
-      "movement"
+      "movement",
+      "paintbrush",
+      "star"
     ],
     "imageSha256": "2B7FBF19EC31BDE1DC532CD20DB11EBCC7DAFF60D27373890EFB7C500A433114"
   },
@@ -2599,8 +2713,6 @@
     "name": "AnimationMoveEarlier",
     "imageAsset": "images/by-hash/6cb246f6a08ee6e1.png",
     "keywords": [
-      "motion",
-      "movement",
       "two"
     ],
     "imageSha256": "6CB246F6A08EE6E168DA2CE58DA05584A6CBB39CCCA6D92E4326DB1BE7686FA2"
@@ -2609,8 +2721,6 @@
     "name": "AnimationMoveLater",
     "imageAsset": "images/by-hash/1c1be2f181d35649.png",
     "keywords": [
-      "motion",
-      "movement",
       "two"
     ],
     "imageSha256": "1C1BE2F181D356490FE167392CB9579C792A746645B07A914DDAF7181E1C775C"
@@ -2619,11 +2729,7 @@
     "name": "AnimationOnClick",
     "imageAsset": "images/by-hash/7a0ca51b73f4eacc.png",
     "keywords": [
-      "create",
-      "insert",
-      "motion",
-      "movement",
-      "new"
+      "mouse"
     ],
     "imageSha256": "7A0CA51B73F4EACC5F19A6C6210C4CAA05F9C3A41F5783D16BF305205C2F7781"
   },
@@ -2632,7 +2738,9 @@
     "imageAsset": "images/by-hash/93616b9821323299.png",
     "keywords": [
       "motion",
-      "movement"
+      "movement",
+      "paintbrush",
+      "star"
     ],
     "imageSha256": "93616B9821323299FA4ABD3289C4DC12AA351A588FAD28321738067691870844"
   },
@@ -2641,7 +2749,9 @@
     "imageAsset": "images/by-hash/2e9baf31e95d228f.png",
     "keywords": [
       "motion",
-      "movement"
+      "movement",
+      "play",
+      "star"
     ],
     "imageSha256": "2E9BAF31E95D228F4CA3EFED9874379E74CE364B9EDC3893DD83E379E65DCB58"
   },
@@ -2655,11 +2765,7 @@
     "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png",
     "keywords": [
       "clip",
-      "film",
-      "lookup",
-      "motion",
-      "movement",
-      "search"
+      "film"
     ],
     "imageSha256": "1504E1CD67AE5A5D35CE9E9B5D7BAB5CF05DC9D29534559B0FACE63C1E82EA3B"
   },
@@ -2683,8 +2789,10 @@
     "name": "AnimationTransitionSpeedGallery",
     "imageAsset": "images/by-hash/34762937cec92fc4.png",
     "keywords": [
+      "arrow",
       "motion",
-      "movement"
+      "movement",
+      "right"
     ],
     "imageSha256": "34762937CEC92FC47A2F620DA02E5C472FD16F992FD875BF9958E0336794CF25"
   },
@@ -2693,7 +2801,8 @@
     "imageAsset": "images/by-hash/e319589d9e3cfb91.png",
     "keywords": [
       "motion",
-      "movement"
+      "movement",
+      "star"
     ],
     "imageSha256": "E319589D9E3CFB914F895AC929EF4B84F75872B30666F43F021D1DDC0DE29CCE"
   },
@@ -2701,13 +2810,7 @@
     "name": "AnimationTriggerAddMenu",
     "imageAsset": "images/by-hash/b62426a37b8cc53f.png",
     "keywords": [
-      "appearance",
-      "create",
-      "insert",
-      "motion",
-      "movement",
-      "new",
-      "style"
+      "lightning"
     ],
     "imageSha256": "B62426A37B8CC53F50B2FBEB6FA64F96CAD6D4F643EBE44DA69F013994EBFF68"
   },
@@ -2720,30 +2823,38 @@
     "name": "AnimationTriggerAddOnMediaBookmark",
     "imageAsset": "images/by-hash/aa12c08ca0884264.png",
     "keywords": [
-      "create",
-      "insert",
-      "motion",
-      "movement",
-      "new"
+      "ruler",
+      "timeline"
     ],
     "imageSha256": "AA12C08CA08842644BE65DE9897F99DF99F9B29E257021162C1A10245A30B5C0"
   },
   {
     "name": "AnonymousAccess",
     "imageAsset": "images/by-hash/990f2d5fbae7e94f.png",
-    "keywords": [],
+    "keywords": [
+      "mark",
+      "person",
+      "question"
+    ],
     "imageSha256": "990F2D5FBAE7E94FE6B0CFDBCA95087126AAB8160D670D77CC00E2B9A474D931"
   },
   {
     "name": "AppendOnly",
     "imageAsset": "images/by-hash/3211a6a8922a4f76.png",
-    "keywords": [],
+    "keywords": [
+      "pencil",
+      "text"
+    ],
     "imageSha256": "3211A6A8922A4F769125E510494F955F1307F7860351E6B358F2DEAAB8D4270C"
   },
   {
     "name": "AppendOnlyControl",
     "imageAsset": "images/by-hash/2588afd13c4576f6.png",
-    "keywords": [],
+    "keywords": [
+      "document",
+      "file",
+      "pencil"
+    ],
     "imageSha256": "2588AFD13C4576F61FE7BCD3C12525C8D98E571DA031F92A3D0C68681759561D"
   },
   {
@@ -2851,12 +2962,9 @@
     "name": "ApplyCoAuthoringLock",
     "imageAsset": "images/by-hash/3d1e582454ba564c.png",
     "keywords": [
-      "create",
-      "insert",
+      "forbidden",
       "mail",
-      "message",
-      "new",
-      "protect"
+      "person"
     ],
     "imageSha256": "3D1E582454BA564C815680ACDE2CA2237FD9517A6B5BFDF5A45C81FCF8126409"
   },

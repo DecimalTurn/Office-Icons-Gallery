@@ -45,6 +45,12 @@
   "folder": [
     "directory"
   ],
+  "forbidden": [
+    "cancel"
+  ],
+  "keys": [
+    "key"
+  ],
   "letter": [
     "alphabet"
   ],

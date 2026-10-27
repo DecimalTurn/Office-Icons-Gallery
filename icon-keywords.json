@@ -425,6 +425,8 @@
     "scroll"
   ],
   "ActiveXFrame": [
+    "alphabet",
+    "letter",
     "xyz"
   ],
   "ActiveXImage": [
@@ -596,5 +598,498 @@
     "photo",
     "picture",
     "scene"
+  ],
+  "AddTextToTextEffect": [
+    "alphabet",
+    "frame",
+    "letter",
+    "shape",
+    "visualisation",
+    "visualization"
+  ],
+  "AddToFavorites": [
+    "create",
+    "insert",
+    "new",
+    "plus",
+    "star"
+  ],
+  "AddToMySite": [
+    "article",
+    "create",
+    "insert",
+    "new",
+    "plus",
+    "text"
+  ],
+  "AddToolGallery": [
+    "calendar",
+    "create",
+    "directory",
+    "folder",
+    "insert",
+    "message",
+    "new",
+    "plus"
+  ],
+  "AddUserToPermissionGroup": [
+    "create",
+    "person",
+    "plus"
+  ],
+  "AddVerticalGuide": [
+    "create",
+    "insert",
+    "line",
+    "new",
+    "split"
+  ],
+  "AddWebPartConnection": [
+    "create",
+    "insert",
+    "new",
+    "plus",
+    "schema",
+    "uml"
+  ],
+  "AdpConstraints": [
+    "document",
+    "file",
+    "link",
+    "text",
+    "uml"
+  ],
+  "AdpDiagramAddRelatedTables": [
+    "create",
+    "insert",
+    "new",
+    "schema",
+    "uml"
+  ],
+  "AdpDiagramAddTable": [
+    "calendar",
+    "create",
+    "grid",
+    "insert",
+    "new",
+    "plus"
+  ],
+  "AdpDiagramArrangeSelection": [
+    "schema",
+    "uml"
+  ],
+  "AdpDiagramArrangeTables": [
+    "schema",
+    "uml"
+  ],
+  "AdpDiagramAutosizeSelectedTables": [],
+  "AdpDiagramColumnNames": [],
+  "AdpDiagramColumnProperties": [],
+  "AdpDiagramCustomView": [
+    "column",
+    "grid"
+  ],
+  "AdpDiagramDeleteTable": [
+    "clear",
+    "cross",
+    "grid",
+    "remove"
+  ],
+  "AdpDiagramHideTable": [
+    "grid"
+  ],
+  "AdpDiagramIndexesKeys": [
+    "grid",
+    "lightning",
+    "text"
+  ],
+  "AdpDiagramKeys": [
+    "key"
+  ],
+  "AdpDiagramNameOnly": [],
+  "AdpDiagramNewLabel": [
+    "alphabet",
+    "appearance",
+    "letter",
+    "style"
+  ],
+  "AdpDiagramNewTable": [
+    "grid"
+  ],
+  "AdpDiagramRecalculatePageBreaks": [
+    "refresh"
+  ],
+  "AdpDiagramRelationships": [
+    "grid",
+    "schema",
+    "uml"
+  ],
+  "AdpDiagramShowRelationshipLabels": [],
+  "AdpDiagramTableModesMenu": [
+    "grid",
+    "lookup",
+    "magnifier",
+    "search"
+  ],
+  "AdpDiagramViewPageBreaks": [
+    "scale",
+    "window"
+  ],
+  "AdpManageIndexes": [
+    "email",
+    "lightning",
+    "mail",
+    "message"
+  ],
+  "AdpNewTable": [
+    "grid",
+    "plus"
+  ],
+  "AdpOutputOperationsAddToOutput": [
+    "create",
+    "insert",
+    "new",
+    "plus"
+  ],
+  "AdpOutputOperationsGroupBy": [],
+  "AdpOutputOperationsSortAscending": [
+    "alphabet",
+    "letter",
+    "lookup",
+    "search"
+  ],
+  "AdpOutputOperationsSortDescending": [
+    "alphabet",
+    "letter",
+    "lookup",
+    "search"
+  ],
+  "AdpOutputOperationsTableRemove": [],
+  "AdpPrimaryKey": [
+    "add",
+    "create"
+  ],
+  "AdpStoredProcedureEditSql": [
+    "pencil",
+    "triangle"
+  ],
+  "AdpStoredProcedureQueryAppend": [
+    "exclamation",
+    "mark",
+    "plus"
+  ],
+  "AdpStoredProcedureQueryAppendValues": [
+    "exclamation",
+    "mark",
+    "plus"
+  ],
+  "AdpStoredProcedureQueryDelete": [
+    "clear",
+    "cross",
+    "exclamation",
+    "mark",
+    "remove"
+  ],
+  "AdpStoredProcedureQueryMakeTable": [
+    "exclamation",
+    "grid",
+    "mark"
+  ],
+  "AdpStoredProcedureQuerySelect": [
+    "calendar"
+  ],
+  "AdpStoredProcedureQueryUpdate": [
+    "exclamation",
+    "mark",
+    "pencil"
+  ],
+  "AdpVerifySqlSyntax": [
+    "checkmark"
+  ],
+  "AdpViewDiagramPane": [
+    "schema",
+    "uml"
+  ],
+  "AdpViewGridPane": [
+    "calendar"
+  ],
+  "AdpViewSqlPane": [],
+  "AdvancedFileProperties": [
+    "directory",
+    "document",
+    "find",
+    "list",
+    "lookup",
+    "photo",
+    "three",
+    "visualisation"
+  ],
+  "AdvancedFilterDialog": [
+    "funnel",
+    "gear"
+  ],
+  "AdvancedFind": [
+    "gear",
+    "lookup",
+    "magnifier",
+    "search"
+  ],
+  "AdvancedMode": [
+    "document",
+    "exclamation",
+    "file",
+    "mark",
+    "pencil"
+  ],
+  "AdvancedObjectMenu": [
+    "paper"
+  ],
+  "AdvertisementGallery": [
+    "card",
+    "star"
+  ],
+  "AdvertisePublishAs": [
+    "document",
+    "file",
+    "information"
+  ],
+  "AfterDelete": [
+    "clear",
+    "cross",
+    "paper",
+    "remove"
+  ],
+  "AfterInsert": [
+    "arrow",
+    "paper",
+    "right"
+  ],
+  "AfterUpdate": [
+    "paper",
+    "refresh"
+  ],
+  "AlignBottomExcel": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AlignCenter": [
+    "centered",
+    "middle",
+    "position"
+  ],
+  "AlignDialog": [
+    "image",
+    "photo",
+    "position"
+  ],
+  "AlignDistributeHorizontally": [
+    "alignment",
+    "position"
+  ],
+  "AlignDistributeVertically": [
+    "alignment",
+    "position"
+  ],
+  "AlignJustify": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AlignJustifyHigh": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AlignJustifyLow": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AlignJustifyMedium": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AlignJustifyThai": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AlignLeft": [
+    "position"
+  ],
+  "AlignLeftToRightMenu": [
+    "alignment",
+    "paragraph",
+    "position"
+  ],
+  "AlignMiddleExcel": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AlignRight": [
+    "alignment",
+    "position"
+  ],
+  "AlignTopExcel": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AllCategories": [
+    "colour",
+    "square"
+  ],
+  "AllModuleNameItems": [
+    "find",
+    "inbox",
+    "lookup"
+  ],
+  "AlternativeText": [
+    "image",
+    "photo",
+    "scene"
+  ],
+  "AlwaysMoveConversation": [
+    "arrow",
+    "directory",
+    "down",
+    "folder",
+    "store",
+    "write"
+  ],
+  "AlwaysMoveToFolder": [
+    "directory",
+    "email",
+    "files",
+    "message"
+  ],
+  "AnimationAddGallery": [
+    "create",
+    "insert",
+    "motion",
+    "movement",
+    "new",
+    "plus",
+    "star"
+  ],
+  "AnimationAudio": [
+    "music",
+    "speaker"
+  ],
+  "AnimationCustom": [
+    "motion",
+    "movement"
+  ],
+  "AnimationCustomAddEmphasisDialog": [
+    "create",
+    "insert",
+    "motion",
+    "movement",
+    "new",
+    "star"
+  ],
+  "AnimationCustomAddEntranceDialog": [
+    "create",
+    "insert",
+    "motion",
+    "movement",
+    "new",
+    "star"
+  ],
+  "AnimationCustomAddExitDialog": [
+    "motion",
+    "movement",
+    "star"
+  ],
+  "AnimationCustomAddPathDialog": [
+    "motion",
+    "movement",
+    "star"
+  ],
+  "AnimationDelay": [
+    "clock",
+    "motion",
+    "movement",
+    "timer"
+  ],
+  "AnimationDuration": [
+    "clocj"
+  ],
+  "AnimationGallery": [
+    "motion",
+    "movement",
+    "paintbrush",
+    "star"
+  ],
+  "AnimationMoveEarlier": [
+    "two"
+  ],
+  "AnimationMoveLater": [
+    "two"
+  ],
+  "AnimationOnClick": [
+    "mouse"
+  ],
+  "AnimationPainter": [
+    "motion",
+    "movement",
+    "paintbrush",
+    "star"
+  ],
+  "AnimationPreview": [
+    "motion",
+    "movement",
+    "play",
+    "star"
+  ],
+  "AnimationStartDropdown": [
+    "clip",
+    "film"
+  ],
+  "AnimationTransitionGallery": [
+    "motion",
+    "movement",
+    "presentation",
+    "slideshow"
+  ],
+  "AnimationTransitionSpeedGallery": [
+    "arrow",
+    "motion",
+    "movement",
+    "right"
+  ],
+  "AnimationTransitionVariantGallery": [
+    "motion",
+    "movement",
+    "star"
+  ],
+  "AnimationTriggerAddMenu": [
+    "lightning"
+  ],
+  "AnimationTriggerAddOnMediaBookmark": [
+    "ruler",
+    "timeline"
+  ],
+  "AnonymousAccess": [
+    "mark",
+    "person",
+    "question"
+  ],
+  "AppendOnly": [
+    "pencil",
+    "text"
+  ],
+  "AppendOnlyControl": [
+    "document",
+    "file",
+    "pencil"
+  ],
+  "ApplyCoAuthoringLock": [
+    "forbidden",
+    "mail",
+    "person"
   ]
 }
