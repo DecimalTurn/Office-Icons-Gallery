@@ -1553,7 +1553,139 @@
   ],
   "AutoSigWebInsertHyperlink": [
     "add",
+    "address",
     "url",
+    "web address",
     "website"
+  ],
+  "AutoSizePage": [
+    "arrow",
+    "document",
+    "down",
+    "expand",
+    "file",
+    "right"
+  ],
+  "AutoSummarize": [
+    "correction",
+    "document",
+    "file",
+    "lightning"
+  ],
+  "AutoSummaryViewByHighlight": [],
+  "AutoTextGallery": [
+    "lightning",
+    "progressbar"
+  ],
+  "AutoThumbnail": [
+    "image",
+    "photo",
+    "picture",
+    "resize",
+    "scene",
+    "size"
+  ],
+  "B": [
+    "alphabet",
+    "letter"
+  ],
+  "BackAttach": [
+    "two"
+  ],
+  "BackgroundImageGallery": [
+    "graphic",
+    "photo",
+    "picture"
+  ],
+  "BackgroundPageInsert": [
+    "add",
+    "graphic",
+    "image",
+    "photo"
+  ],
+  "BackgroundRemovalClose": [
+    "directory",
+    "files",
+    "garbage can"
+  ],
+  "BackgroundsGallery": [
+    "appearance",
+    "bucket",
+    "colour",
+    "paint",
+    "style"
+  ],
+  "BackgroundSound": [
+    "audio",
+    "document",
+    "file",
+    "music",
+    "speaker"
+  ],
+  "Backspace": [
+    "cross",
+    "directory"
+  ],
+  "BackupSite": [
+    "disk",
+    "document",
+    "floppy"
+  ],
+  "BarcodeInsert": [],
+  "BarFormat": [
+    "appearance",
+    "bucket",
+    "color",
+    "colour",
+    "paint",
+    "style"
+  ],
+  "BarStylesFormat": [
+    "appearance",
+    "bucket",
+    "color",
+    "colour",
+    "graph",
+    "paint",
+    "style",
+    "visualisation",
+    "visualization"
+  ],
+  "Baseline": [
+    "color",
+    "colour",
+    "graph",
+    "visualisation",
+    "visualization"
+  ],
+  "BaselineClear": [
+    "cross",
+    "delete"
+  ],
+  "BaselineSave": [],
+  "BeforeChange": [
+    "checkmark",
+    "paper",
+    "script"
+  ],
+  "BeforeDelete": [
+    "caution",
+    "paper",
+    "script",
+    "warning"
+  ],
+  "BehindText": [
+    "position"
+  ],
+  "BestFit": [
+    "grid"
+  ],
+  "Bevel": [
+    "image",
+    "photo",
+    "picture"
+  ],
+  "ApplyCommaFormat": [
+    "appearance"
   ]
 }

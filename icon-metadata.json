@@ -4350,19 +4350,22 @@
   {
     "name": "AutoSizePage",
     "imageAsset": "images/by-hash/d5f97e097676efdc.png",
-    "keywords": [],
+    "keywords": [
+      "arrow",
+      "document",
+      "down",
+      "expand",
+      "file",
+      "right"
+    ],
     "imageSha256": "D5F97E097676EFDCFC04ABCE9950C4861F5414C5B590F58D1A13A926AB147380"
   },
   {
     "name": "AutoSum",
     "imageAsset": "images/by-hash/f3efe98ab9433ece.png",
     "keywords": [
-      "graph",
       "greek",
-      "grid",
-      "sigma",
-      "visualisation",
-      "visualization"
+      "sigma"
     ],
     "imageSha256": "F3EFE98AB9433ECE25147FFA072501A1D81D0BBB71D3403BCEA4F50E9392529E"
   },
@@ -4393,7 +4396,12 @@
   {
     "name": "AutoSummarize",
     "imageAsset": "images/by-hash/61c99640ab898dcc.png",
-    "keywords": [],
+    "keywords": [
+      "correction",
+      "document",
+      "file",
+      "lightning"
+    ],
     "imageSha256": "61C99640AB898DCC835982FD26783AE48FF49C6E753547D1EA0328FF56B5BFD7"
   },
   {
@@ -4464,31 +4472,38 @@
     "name": "AutoTextGallery",
     "imageAsset": "images/by-hash/efe168a0e0dce76c.png",
     "keywords": [
-      "store",
-      "write"
+      "lightning",
+      "progressbar"
     ],
     "imageSha256": "EFE168A0E0DCE76C6B98B3BC8BF0ABBD9D8F50FAA52AB5654AC4CDB8F3A43FB0"
   },
   {
     "name": "AutoThumbnail",
     "imageAsset": "images/by-hash/26f1f614c3fefe17.png",
-    "keywords": [],
+    "keywords": [
+      "image",
+      "photo",
+      "picture",
+      "resize",
+      "scene",
+      "size"
+    ],
     "imageSha256": "26F1F614C3FEFE175FEC39A6F6563D9F4EC6974BD6D49E9FE5DEC9DBE7066C19"
   },
   {
     "name": "B",
     "imageAsset": "images/by-hash/bec8366267a56fc1.png",
-    "keywords": [],
+    "keywords": [
+      "alphabet",
+      "letter"
+    ],
     "imageSha256": "BEC8366267A56FC16F88E6F17865BECEE17B2A80558F3EB47083975CE061B0BF"
   },
   {
     "name": "BackAttach",
     "imageAsset": "images/by-hash/1816c21da026fa8e.png",
     "keywords": [
-      "graph",
-      "two",
-      "visualisation",
-      "visualization"
+      "two"
     ],
     "imageSha256": "1816C21DA026FA8EB99DC404C627EB87A2FA24B30F6B1FB6A9A27CAE4D0293CD"
   },
@@ -4518,7 +4533,8 @@
     "imageAsset": "images/by-hash/48eab841d02031df.png",
     "keywords": [
       "directory",
-      "files"
+      "files",
+      "garbage can"
     ],
     "imageSha256": "48EAB841D02031DF04E5D3527487320E1BD63F040798C853E2F5E89AC73963DF"
   },
@@ -4527,9 +4543,9 @@
     "imageAsset": "images/by-hash/f49b012b69437cca.png",
     "keywords": [
       "appearance",
+      "bucket",
       "colour",
-      "presentation",
-      "slideshow",
+      "paint",
       "style"
     ],
     "imageSha256": "F49B012B69437CCA649B249CF375C843917D3BFE5672555B4C308A3725AB01F5"
@@ -4539,6 +4555,8 @@
     "imageAsset": "images/by-hash/a861dadff9421bea.png",
     "keywords": [
       "audio",
+      "document",
+      "file",
       "music",
       "speaker"
     ],
@@ -4548,15 +4566,8 @@
     "name": "Backspace",
     "imageAsset": "images/by-hash/ac21021d34040f2e.png",
     "keywords": [
-      "date",
-      "directory",
-      "email",
-      "files",
-      "hyperlink",
-      "message",
-      "schedule",
-      "url",
-      "web address"
+      "cross",
+      "directory"
     ],
     "imageSha256": "AC21021D34040F2E58026EF5D5F910A4AD6D7D9649E70A903BEA78E3ABD1BEE4"
   },
@@ -4564,7 +4575,9 @@
     "name": "BackupSite",
     "imageAsset": "images/by-hash/ffaec45de999bcea.png",
     "keywords": [
-      "document"
+      "disk",
+      "document",
+      "floppy"
     ],
     "imageSha256": "FFAEC45DE999BCEA3456DE83B36885C17792B322DD0E92458E0C84085CFD5F12"
   },
@@ -4583,12 +4596,7 @@
   {
     "name": "BarcodeInsert",
     "imageAsset": "images/by-hash/d727f15b2bd8568c.png",
-    "keywords": [
-      "add",
-      "create",
-      "email",
-      "message"
-    ],
+    "keywords": [],
     "imageSha256": "D727F15B2BD8568C38A64402B135DB7F368A21DFB243F8D4D11DA18C197226E9"
   },
   {
@@ -4596,6 +4604,10 @@
     "imageAsset": "images/by-hash/3a702ed22fd2622d.png",
     "keywords": [
       "appearance",
+      "bucket",
+      "color",
+      "colour",
+      "paint",
       "style"
     ],
     "imageSha256": "3A702ED22FD2622D20576682E2D988C81818D5D96ABD98FADD6D8B42F87C7F78"
@@ -4605,7 +4617,11 @@
     "imageAsset": "images/by-hash/d2de08e369f7a81f.png",
     "keywords": [
       "appearance",
+      "bucket",
+      "color",
+      "colour",
       "graph",
+      "paint",
       "style",
       "visualisation",
       "visualization"
@@ -4616,6 +4632,8 @@
     "name": "Baseline",
     "imageAsset": "images/by-hash/6db82b29c3b23da6.png",
     "keywords": [
+      "color",
+      "colour",
       "graph",
       "visualisation",
       "visualization"
@@ -4625,30 +4643,36 @@
   {
     "name": "BaselineClear",
     "imageAsset": "images/by-hash/351c77e57014f044.png",
-    "keywords": [],
+    "keywords": [
+      "cross",
+      "delete"
+    ],
     "imageSha256": "351C77E57014F04405FAAB933BAE12054F7CEABC82BA0418290ADE21FDE7FF26"
   },
   {
     "name": "BaselineSave",
     "imageAsset": "images/by-hash/87a2cff9be52b574.png",
-    "keywords": [
-      "store",
-      "write"
-    ],
+    "keywords": [],
     "imageSha256": "87A2CFF9BE52B574BB59D9E12AC7C9137DD5DA260F347AAE44D7C7B6CCFD580C"
   },
   {
     "name": "BeforeChange",
     "imageAsset": "images/by-hash/5f2892e11b522506.png",
-    "keywords": [],
+    "keywords": [
+      "checkmark",
+      "paper",
+      "script"
+    ],
     "imageSha256": "5F2892E11B52250691E8D30989CAF0AE660636B4ECB797101877F76B0BF52F0B"
   },
   {
     "name": "BeforeDelete",
     "imageAsset": "images/by-hash/81886a0aa4187a49.png",
     "keywords": [
-      "clear",
-      "remove"
+      "caution",
+      "paper",
+      "script",
+      "warning"
     ],
     "imageSha256": "81886A0AA4187A49B2C7B638B193935B35D4D69791E1DADE22E14A9B66E04845"
   },
@@ -4668,8 +4692,7 @@
     "name": "BehindText",
     "imageAsset": "images/by-hash/f71e402e14614dca.png",
     "keywords": [
-      "share",
-      "submit"
+      "position"
     ],
     "imageSha256": "F71E402E14614DCA8C1684371EF0E4799DBF7E3EF81A0859D18AC88D1A538314"
   },
@@ -4684,7 +4707,11 @@
   {
     "name": "Bevel",
     "imageAsset": "images/by-hash/e61f03a5e23891c9.png",
-    "keywords": [],
+    "keywords": [
+      "image",
+      "photo",
+      "picture"
+    ],
     "imageSha256": "E61F03A5E23891C9D78A6E94D106DA1E4A0EA95201C9A485C725C307F84FD592"
   },
   {
