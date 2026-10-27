@@ -1922,6 +1922,7 @@
     "name": "AdpDiagramViewPageBreaks",
     "imageAsset": "images/by-hash/0e116039c9bf96df.png",
     "keywords": [
+      "magnify",
       "scale",
       "window"
     ],
@@ -1942,7 +1943,9 @@
     "name": "AdpNewTable",
     "imageAsset": "images/by-hash/faa99bee2a7f02ec.png",
     "keywords": [
+      "email",
       "grid",
+      "message",
       "plus"
     ],
     "imageSha256": "FAA99BEE2A7F02ECE953B71778040BB4DAAE88DDBFCD5579DE361F7B1D47B5E0"
@@ -2105,14 +2108,20 @@
     "name": "AdvancedFileProperties",
     "imageAsset": "images/by-hash/efd326c5be4d5b20.png",
     "keywords": [
+      "appearance",
       "directory",
       "document",
       "find",
+      "graph",
+      "graphic",
+      "grid",
       "list",
       "lookup",
       "photo",
+      "style",
       "three",
-      "visualisation"
+      "visualisation",
+      "visualization"
     ],
     "imageSha256": "EFD326C5BE4D5B2062CD478DCA1AFD1CDEA4B9EF293A0B599834CFF39D08775F"
   },
@@ -2195,7 +2204,9 @@
     "name": "AfterInsert",
     "imageAsset": "images/by-hash/bf04b878fe675d39.png",
     "keywords": [
+      "add",
       "arrow",
+      "create",
       "paper",
       "right"
     ],
@@ -2249,6 +2260,7 @@
     "name": "AlignDialog",
     "imageAsset": "images/by-hash/6681fe487d168071.png",
     "keywords": [
+      "graphic",
       "image",
       "photo",
       "position"
@@ -2409,7 +2421,13 @@
     "name": "AllCategories",
     "imageAsset": "images/by-hash/79c4e995fd60f68e.png",
     "keywords": [
+      "add",
       "colour",
+      "create",
+      "date",
+      "find",
+      "lookup",
+      "schedule",
       "square"
     ],
     "imageSha256": "79C4E995FD60F68E29EAB757AC17401F71AEDD5F3EAC15F2B9C03B5891D2D14F"
@@ -2536,6 +2554,7 @@
     "name": "AlternativeText",
     "imageAsset": "images/by-hash/a352d6311f611768.png",
     "keywords": [
+      "graphic",
       "image",
       "photo",
       "scene"
@@ -2589,6 +2608,11 @@
     "name": "AnimationAudio",
     "imageAsset": "images/by-hash/44870adc1e9112a7.png",
     "keywords": [
+      "add",
+      "create",
+      "document",
+      "motion",
+      "movement",
       "music",
       "speaker"
     ],
@@ -2694,7 +2718,11 @@
     "name": "AnimationDuration",
     "imageAsset": "images/by-hash/34616ac3c1be3f5e.png",
     "keywords": [
-      "clocj"
+      "add",
+      "clocj",
+      "create",
+      "reload",
+      "update"
     ],
     "imageSha256": "34616AC3C1BE3F5EEDA8ACB91D40D9554FB12108B93BA7FF3F5573BBA0F02067"
   },
@@ -2729,7 +2757,12 @@
     "name": "AnimationOnClick",
     "imageAsset": "images/by-hash/7a0ca51b73f4eacc.png",
     "keywords": [
-      "mouse"
+      "create",
+      "insert",
+      "motion",
+      "mouse",
+      "movement",
+      "new"
     ],
     "imageSha256": "7A0CA51B73F4EACC5F19A6C6210C4CAA05F9C3A41F5783D16BF305205C2F7781"
   },
@@ -2765,7 +2798,9 @@
     "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png",
     "keywords": [
       "clip",
-      "film"
+      "film",
+      "lookup",
+      "search"
     ],
     "imageSha256": "1504E1CD67AE5A5D35CE9E9B5D7BAB5CF05DC9D29534559B0FACE63C1E82EA3B"
   },
@@ -2810,7 +2845,9 @@
     "name": "AnimationTriggerAddMenu",
     "imageAsset": "images/by-hash/b62426a37b8cc53f.png",
     "keywords": [
-      "lightning"
+      "appearance",
+      "lightning",
+      "style"
     ],
     "imageSha256": "B62426A37B8CC53F50B2FBEB6FA64F96CAD6D4F643EBE44DA69F013994EBFF68"
   },
@@ -2962,8 +2999,13 @@
     "name": "ApplyCoAuthoringLock",
     "imageAsset": "images/by-hash/3d1e582454ba564c.png",
     "keywords": [
+      "cancel",
+      "create",
       "forbidden",
+      "insert",
       "mail",
+      "message",
+      "new",
       "person"
     ],
     "imageSha256": "3D1E582454BA564C815680ACDE2CA2237FD9517A6B5BFDF5A45C81FCF8126409"
@@ -2979,14 +3021,7 @@
   {
     "name": "ApplyCssStyles",
     "imageAsset": "images/by-hash/a85f46fb6686a11a.png",
-    "keywords": [
-      "alphabet",
-      "arrow",
-      "document",
-      "file",
-      "letter",
-      "right"
-    ],
+    "keywords": [],
     "imageSha256": "A85F46FB6686A11A3948DC9164B6DB591A9DF743F1DED9FD936857002DBC0B5A"
   },
   {
@@ -2997,16 +3032,23 @@
   {
     "name": "ApplyFilter",
     "imageAsset": "images/by-hash/721678c0a7e5e825.png",
-    "keywords": [],
+    "keywords": [
+      "arrow",
+      "funnel",
+      "right"
+    ],
     "imageSha256": "721678C0A7E5E8255BBB8B5DAAA22D441A002ED4030F1491F877B2728634EC34"
   },
   {
     "name": "ApplyImageBackgroundFill",
     "imageAsset": "images/by-hash/d73a401d2d9240c1.png",
     "keywords": [
+      "bucket",
       "graphic",
+      "paint",
       "photo",
-      "picture"
+      "picture",
+      "scene"
     ],
     "imageSha256": "D73A401D2D9240C19DD321FC404FE12F7888DFD56B3792736D5110BC88EA012E"
   },
@@ -3050,14 +3092,20 @@
     "name": "ApplyPercentageFormat",
     "imageAsset": "images/by-hash/07a8f718edb1e043.png",
     "keywords": [
-      "appearance"
+      "appearance",
+      "symbol"
     ],
     "imageSha256": "07A8F718EDB1E0435444B7E452D1A71A1C283282F22306B5689901CB980F5D59"
   },
   {
     "name": "ApplyStylesPane",
     "imageAsset": "images/by-hash/f8c95179d0041093.png",
-    "keywords": [],
+    "keywords": [
+      "alphabet",
+      "arrow",
+      "letter",
+      "right"
+    ],
     "imageSha256": "F8C95179D004109313274AF198C4067094823147AA5CE4DC179FFA6BAF019F3D"
   },
   {
@@ -3075,7 +3123,9 @@
   {
     "name": "AppointmentAttachment",
     "imageAsset": "images/by-hash/31f2a81ec01323f7.png",
-    "keywords": [],
+    "keywords": [
+      "paperclip"
+    ],
     "imageSha256": "31F2A81EC01323F746D0DD23601E4FAE69C0E8B3CAEFF5A003C1484C2412CDB8"
   },
   {
@@ -3093,7 +3143,11 @@
   {
     "name": "AppointmentBusy",
     "imageAsset": "images/by-hash/b193f25c70fbcb28.png",
-    "keywords": [],
+    "keywords": [
+      "color",
+      "colour",
+      "square"
+    ],
     "imageSha256": "B193F25C70FBCB28D15A0ADEF396F49EF72F0C7DF822C68CC6B7A2E0F6DFB1A0"
   },
   {
@@ -3101,6 +3155,7 @@
     "imageAsset": "images/by-hash/ceaea2de8a03683a.png",
     "keywords": [
       "colour",
+      "square",
       "zero"
     ],
     "imageSha256": "CEAEA2DE8A03683AC156C67874096DE7DA00F4952E81595739D760899AD6D14D"
@@ -3110,7 +3165,8 @@
     "imageAsset": "images/by-hash/2b3431a2b84ec2ca.png",
     "keywords": [
       "colour",
-      "one"
+      "one",
+      "square"
     ],
     "imageSha256": "2B3431A2B84EC2CAB070D30361AF868EEABDF447D9FFE4EAD62997F8D6F04B5B"
   },
@@ -3119,6 +3175,7 @@
     "imageAsset": "images/by-hash/6421d2cf71829658.png",
     "keywords": [
       "colour",
+      "square",
       "two"
     ],
     "imageSha256": "6421D2CF71829658981EFC9C2997CF4C156732B09DA0149D512DB5A9D75892B8"
@@ -3128,6 +3185,7 @@
     "imageAsset": "images/by-hash/b8881f4158ecc05e.png",
     "keywords": [
       "colour",
+      "square",
       "three"
     ],
     "imageSha256": "B8881F4158ECC05E6F6F2F5A662E824B30AD0A1A5FC8CA64C2F8241057EFD7E0"
@@ -3137,7 +3195,8 @@
     "imageAsset": "images/by-hash/33c7a9a156b7629d.png",
     "keywords": [
       "colour",
-      "four"
+      "four",
+      "square"
     ],
     "imageSha256": "33C7A9A156B7629DA5F39A5A03C0E50BDE4BBA0EB48AF7F918167ED37FA9358B"
   },
@@ -3146,7 +3205,8 @@
     "imageAsset": "images/by-hash/f79ac4605af91945.png",
     "keywords": [
       "colour",
-      "five"
+      "five",
+      "square"
     ],
     "imageSha256": "F79AC4605AF9194568C4AD198EA7444B11F3742D16339C8FE18824AF2B3D3E9A"
   },
@@ -3155,7 +3215,8 @@
     "imageAsset": "images/by-hash/31f7e1bd0dc685e1.png",
     "keywords": [
       "colour",
-      "six"
+      "six",
+      "square"
     ],
     "imageSha256": "31F7E1BD0DC685E16FD0501566B31500B5765BAF19B429C463618FA3498881BC"
   },
@@ -3164,7 +3225,8 @@
     "imageAsset": "images/by-hash/588d477300fd2a77.png",
     "keywords": [
       "colour",
-      "seven"
+      "seven",
+      "square"
     ],
     "imageSha256": "588D477300FD2A772CDF1F3AE1ECD3E9F008AB63B1BCD2C7E0AFC205F86A2591"
   },
@@ -3173,7 +3235,8 @@
     "imageAsset": "images/by-hash/72258e18044dcd9e.png",
     "keywords": [
       "colour",
-      "eight"
+      "eight",
+      "square"
     ],
     "imageSha256": "72258E18044DCD9E24B905FA7523B473CCD5952BBB59548EA3846924C8F7F962"
   },
@@ -3182,7 +3245,8 @@
     "imageAsset": "images/by-hash/2d2ffcf05b58e812.png",
     "keywords": [
       "colour",
-      "nine"
+      "nine",
+      "square"
     ],
     "imageSha256": "2D2FFCF05B58E812196CFB25C2EDB138180E9BF4D3DBD06D052F3E5AA29E2641"
   },
@@ -3190,7 +3254,8 @@
     "name": "AppointmentColor10",
     "imageAsset": "images/by-hash/b1bcf491357b7600.png",
     "keywords": [
-      "colour"
+      "colour",
+      "square"
     ],
     "imageSha256": "B1BCF491357B76008EC0F817A11D3FB1C16415AB1E521BD0AEED00D61604E251"
   },
@@ -3202,13 +3267,22 @@
   {
     "name": "AppointmentOutOfOffice",
     "imageAsset": "images/by-hash/aef5b9da5f6cce26.png",
-    "keywords": [],
+    "keywords": [
+      "color",
+      "colour",
+      "pattern"
+    ],
     "imageSha256": "AEF5B9DA5F6CCE261A59936004DACE81424E5A74AE6A114A61FBB994827AE144"
   },
   {
     "name": "AppointmentWorkingElsewhere",
     "imageAsset": "images/by-hash/18c7454a55e4093b.png",
-    "keywords": [],
+    "keywords": [
+      "color",
+      "colour",
+      "pattern",
+      "square"
+    ],
     "imageSha256": "18C7454A55E4093BFDBEAD2122D62453D2A7B3CE931070206A44D5B4647CEACF"
   },
   {
@@ -3220,14 +3294,18 @@
     "name": "AppShare",
     "imageAsset": "images/by-hash/0dd8d48f11eac3c8.png",
     "keywords": [
-      "presentation"
+      "presentation",
+      "world"
     ],
     "imageSha256": "0DD8D48F11EAC3C802532815DF8B3F035D66FA2D04F455B88AF7702132800236"
   },
   {
     "name": "Archive",
     "imageAsset": "images/by-hash/462518c92afcc2d1.png",
-    "keywords": [],
+    "keywords": [
+      "email",
+      "mail"
+    ],
     "imageSha256": "462518C92AFCC2D1AC0E7BEB12AB4842D73C03AA666A9EA45FFF5A37C8C5BC75"
   },
   {
@@ -3238,13 +3316,20 @@
   {
     "name": "ArcTool",
     "imageAsset": "images/by-hash/9657322c0cd8342f.png",
-    "keywords": [],
+    "keywords": [
+      "curve"
+    ],
     "imageSha256": "9657322C0CD8342F33DD26546B19E98EAD77B4F4DC853F5ACEECDFC675196487"
   },
   {
     "name": "AreaSelect",
     "imageAsset": "images/by-hash/30fa90eadcee4633.png",
-    "keywords": [],
+    "keywords": [
+      "dotted",
+      "line",
+      "plus",
+      "square"
+    ],
     "imageSha256": "30FA90EADCEE463335B84732668C6386991664308D7254D7F20BBF38066D7655"
   },
   {
@@ -3259,7 +3344,10 @@
   {
     "name": "ArrangeByAccount",
     "imageAsset": "images/by-hash/91fc7c663af590c0.png",
-    "keywords": [],
+    "keywords": [
+      "person",
+      "square"
+    ],
     "imageSha256": "91FC7C663AF590C0F8A24100425C5F31FC4D28A3AF424A6BE95674F6AD0B0E36"
   },
   {
@@ -3269,6 +3357,7 @@
       "add",
       "conference",
       "create",
+      "event",
       "find",
       "launch",
       "lookup"
@@ -3279,7 +3368,10 @@
     "name": "ArrangeByAssignment",
     "imageAsset": "images/by-hash/906061656933d759.png",
     "keywords": [
+      "directory",
+      "folder",
       "launch",
+      "person",
       "show"
     ],
     "imageSha256": "906061656933D7595C61CEE0B1F202B09A9AFAA5E2FD1987A0DC5B6193BECB5B"
@@ -3292,7 +3384,8 @@
       "document",
       "find",
       "lookup",
-      "new"
+      "new",
+      "paperclip"
     ],
     "imageSha256": "9E33AE12E3811D10FC8C279223C5C23FF45A11F878908EBE6574950769A77356"
   },
@@ -3300,6 +3393,8 @@
     "name": "ArrangeByAvailability",
     "imageAsset": "images/by-hash/8ea103e009e28958.png",
     "keywords": [
+      "arrow",
+      "down",
       "page"
     ],
     "imageSha256": "8EA103E009E2895836A9FEE7EA71B3D2CB2D29C2689E6C4B5011B79F07D5A390"
@@ -3312,19 +3407,27 @@
   {
     "name": "ArrangeByCompany",
     "imageAsset": "images/by-hash/e570a232863e2815.png",
-    "keywords": [],
+    "keywords": [
+      "building"
+    ],
     "imageSha256": "E570A232863E2815CC7F86258603114822FEA8C1A2C3FBEDF3DDB9B785B9C204"
   },
   {
     "name": "ArrangeByConversation",
     "imageAsset": "images/by-hash/d2e4c0b505521746.png",
-    "keywords": [],
+    "keywords": [
+      "email",
+      "mail"
+    ],
     "imageSha256": "D2E4C0B505521746C88705EC092081763FADA6997A0ECDBEA67B1D743546D4CF"
   },
   {
     "name": "ArrangeByCreatedDate",
     "imageAsset": "images/by-hash/5398b427a47b2421.png",
-    "keywords": [],
+    "keywords": [
+      "calendar",
+      "note"
+    ],
     "imageSha256": "5398B427A47B242183F35D3C95AD1C94E018DB73B97EBEF68C3B29FE97B5950B"
   },
   {
@@ -3332,6 +3435,9 @@
     "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png",
     "keywords": [
       "add",
+      "appointment",
+      "calendar",
+      "clock",
       "create"
     ],
     "imageSha256": "BF89EA2041D2F5E3D520786E6A9223C04AC10B31E1B45CD8560FDE272935FB3D"
@@ -3356,8 +3462,11 @@
     "name": "ArrangeByFrom",
     "imageAsset": "images/by-hash/811083d9043cac85.png",
     "keywords": [
+      "email",
       "find",
-      "lookup"
+      "lookup",
+      "mail",
+      "person"
     ],
     "imageSha256": "811083D9043CAC85C72D84B89175E6A0F6CA3B428F87866E2E498DDA50A75487"
   },
@@ -3365,15 +3474,19 @@
     "name": "ArrangeByImportance",
     "imageAsset": "images/by-hash/181dccef35a50532.png",
     "keywords": [
+      "exclamation",
       "find",
-      "lookup"
+      "lookup",
+      "mark"
     ],
     "imageSha256": "181DCCEF35A5053243630BA870597393CA086723F813400A408B58EF5224E5AE"
   },
   {
     "name": "ArrangeByLocation",
     "imageAsset": "images/by-hash/4150b8d940bfe058.png",
-    "keywords": [],
+    "keywords": [
+      "pin"
+    ],
     "imageSha256": "4150B8D940BFE0588FFA22DBD1B0B37D7E7159F016F119B976385573358A905A"
   },
   {
@@ -3384,13 +3497,20 @@
   {
     "name": "ArrangeByModifiedDate",
     "imageAsset": "images/by-hash/0cb9d250df66bf12.png",
-    "keywords": [],
+    "keywords": [
+      "clipboard",
+      "pencil"
+    ],
     "imageSha256": "0CB9D250DF66BF1228CAFAA22449E14857C7A7117211465BDB9F8196D730F17F"
   },
   {
     "name": "ArrangeByOrganizer",
     "imageAsset": "images/by-hash/80f6db3e4a3b9ddb.png",
-    "keywords": [],
+    "keywords": [
+      "appointment",
+      "calendar",
+      "person"
+    ],
     "imageSha256": "80F6DB3E4A3B9DDB9ACFE9D3B0CF8F01ED37550BE2C4941A6A50FF257B2EA981"
   },
   {
@@ -3398,6 +3518,7 @@
     "imageAsset": "images/by-hash/5064aeaf0a3850c9.png",
     "keywords": [
       "date",
+      "refresh",
       "schedule"
     ],
     "imageSha256": "5064AEAF0A3850C93C1A15D74E1ECAF6176A22AD6626EBB72A9C5AFC20D21686"
@@ -3405,16 +3526,23 @@
   {
     "name": "ArrangeBySize",
     "imageAsset": "images/by-hash/88a4dd67d71f2ab9.png",
-    "keywords": [],
+    "keywords": [
+      "disk",
+      "floppy",
+      "mesure"
+    ],
     "imageSha256": "88A4DD67D71F2AB9C032FD2947BBA196C1889D9CCFFD90F0A1B98772BBBDB99A"
   },
   {
     "name": "ArrangeByStore",
     "imageAsset": "images/by-hash/eb9bf265cbaf32e3.png",
     "keywords": [
+      "archive",
       "document",
+      "email",
       "find",
-      "lookup"
+      "lookup",
+      "mail"
     ],
     "imageSha256": "EB9BF265CBAF32E3347776AD0C88558A1A12A392970989AB974103E19EB93923"
   },
@@ -3422,6 +3550,8 @@
     "name": "ArrangeBySubject",
     "imageAsset": "images/by-hash/b07422b3062d9bf9.png",
     "keywords": [
+      "document",
+      "file",
       "find",
       "lookup"
     ],
@@ -3430,7 +3560,11 @@
   {
     "name": "ArrangeByTo",
     "imageAsset": "images/by-hash/9eab070f477c2da3.png",
-    "keywords": [],
+    "keywords": [
+      "email",
+      "mail",
+      "person"
+    ],
     "imageSha256": "9EAB070F477C2DA337083A89CE4D288D4AE0C23115EBD83D0EF2B1DAF8906B56"
   },
   {
@@ -3440,6 +3574,7 @@
       "duplicate",
       "find",
       "lookup",
+      "red",
       "share",
       "submit"
     ],
@@ -3513,7 +3648,9 @@
   {
     "name": "ArrangeThumbnails",
     "imageAsset": "images/by-hash/e78a3bf236feb7d8.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "E78A3BF236FEB7D847C2E14EB0B6118CF37E3537B70E3B5E5D5DADB0593F0A58"
   },
   {
@@ -3553,13 +3690,19 @@
   {
     "name": "Arrow",
     "imageAsset": "images/by-hash/7954a6ad4fe60647.png",
-    "keywords": [],
+    "keywords": [
+      "down",
+      "right"
+    ],
     "imageSha256": "7954A6AD4FE606476E0BCFF2EF1876F2DA524B9589DC8F9DB1345B5CE6A2452D"
   },
   {
     "name": "ArrowsMore",
     "imageAsset": "images/by-hash/027562b49e54f056.png",
-    "keywords": [],
+    "keywords": [
+      "left",
+      "right"
+    ],
     "imageSha256": "027562B49E54F0563514DFA3CF1D990E4616A7EB1CD353862C43FCAB2E8DD520"
   },
   {
@@ -3571,12 +3714,15 @@
     "name": "ArtisticEffectsDialog",
     "imageAsset": "images/by-hash/6ba4f4a6160a8d70.png",
     "keywords": [
+      "bucket",
       "clip",
       "colour",
       "film",
       "graphic",
       "image",
       "movie",
+      "paint",
+      "paintbrush",
       "photo"
     ],
     "imageSha256": "6BA4F4A6160A8D70AC1AF8D0FF3648851C4FAEC569CE8C08922CD00FEFC0CF6D"
@@ -3584,7 +3730,14 @@
   {
     "name": "AsianLayoutCharacterScaling",
     "imageAsset": "images/by-hash/8cbf09e565cd0616.png",
-    "keywords": [],
+    "keywords": [
+      "alphabet",
+      "arrow",
+      "left",
+      "letter",
+      "right",
+      "stretch"
+    ],
     "imageSha256": "8CBF09E565CD0616726E8DF5FA2C0755871E8E4692A785DD87F4419DB08521FD"
   },
   {
@@ -3596,7 +3749,10 @@
   {
     "name": "AsianLayoutCombineCharacters",
     "imageAsset": "images/by-hash/d56bd0b2926cda71.png",
-    "keywords": [],
+    "keywords": [
+      "alphabet",
+      "letter"
+    ],
     "imageSha256": "D56BD0B2926CDA71A3292C343D506451ED687786A0C225792584985C6FA77C72"
   },
   {
@@ -3608,7 +3764,10 @@
   {
     "name": "AsianLayoutHorizontalInVertical",
     "imageAsset": "images/by-hash/ca87cdc980134c13.png",
-    "keywords": [],
+    "keywords": [
+      "alphabet",
+      "letter"
+    ],
     "imageSha256": "CA87CDC980134C13FCBD9DB01C3CF79A882616A0F6EA7590F44BBFD5850BB8A0"
   },
   {
@@ -3619,19 +3778,26 @@
   {
     "name": "AsianLayoutPhoneticGuide",
     "imageAsset": "images/by-hash/28566b19d88d1297.png",
-    "keywords": [],
+    "keywords": [
+      "alphabet",
+      "letter"
+    ],
     "imageSha256": "28566B19D88D12974C375212970BF86CCA648FE4286F1D2C7CD1692088A68E55"
   },
   {
     "name": "AsianNewspaperJustify",
     "imageAsset": "images/by-hash/f6b5d9f00575876d.png",
-    "keywords": [],
+    "keywords": [
+      "text"
+    ],
     "imageSha256": "F6B5D9F00575876D0969A3B7451DEACB74FCA806221D09D8D69DDE5E508EDEC7"
   },
   {
     "name": "AsianTypography",
     "imageAsset": "images/by-hash/1029eabfc92b3e1d.png",
-    "keywords": [],
+    "keywords": [
+      "character"
+    ],
     "imageSha256": "1029EABFC92B3E1D74F1ACCD7E3B601EB43C48F7AE8F4FEE2BB78F7A235CBC92"
   },
   {
@@ -3660,7 +3826,11 @@
   {
     "name": "AssetSettings",
     "imageAsset": "images/by-hash/1f247df253a9051d.png",
-    "keywords": [],
+    "keywords": [
+      "document",
+      "file",
+      "gear"
+    ],
     "imageSha256": "1F247DF253A9051D30771EBDF294866ECCFBAF2CFBF924B72F0B4B9CBC772782"
   },
   {
@@ -3693,8 +3863,10 @@
     "name": "AssignTask",
     "imageAsset": "images/by-hash/9960556f722cbf0b.png",
     "keywords": [
+      "clipboard",
       "directory",
       "files",
+      "person",
       "two"
     ],
     "imageSha256": "9960556F722CBF0B1243CB003C7C89F0B8629CF5391FAA59A58D9D0B1DDEB734"
@@ -3728,6 +3900,7 @@
     "keywords": [
       "document",
       "message",
+      "paperclip",
       "submit"
     ],
     "imageSha256": "5551D7C978F81380F0EF3669FC86B71691800600D5FECDA66E47AB6FB242197D"
@@ -3747,7 +3920,8 @@
     "imageAsset": "images/by-hash/25ceca008a74a306.png",
     "keywords": [
       "appointment",
-      "conference"
+      "conference",
+      "onenote"
     ],
     "imageSha256": "25CECA008A74A3063E74A2F82855543CC8B16E9E20318297109B1E2B1B34AB7E"
   },
@@ -3777,6 +3951,8 @@
       "movie",
       "music",
       "new",
+      "plus",
+      "ruler",
       "sound",
       "speaker"
     ],
@@ -3787,9 +3963,11 @@
     "imageAsset": "images/by-hash/268c751644bda49a.png",
     "keywords": [
       "clip",
+      "cross",
       "film",
       "movie",
       "music",
+      "ruler",
       "sound",
       "speaker"
     ],
@@ -3799,6 +3977,7 @@
     "name": "AudioFadeInTime",
     "imageAsset": "images/by-hash/98ded0db3abf56e4.png",
     "keywords": [
+      "chart",
       "music",
       "sound",
       "speaker"
@@ -3809,6 +3988,7 @@
     "name": "AudioFadeOutTime",
     "imageAsset": "images/by-hash/d6721e5b45ce0e97.png",
     "keywords": [
+      "chart",
       "music",
       "sound",
       "speaker"
@@ -3825,6 +4005,7 @@
     "imageAsset": "images/by-hash/3909ecc087b3166e.png",
     "keywords": [
       "clear",
+      "cross",
       "music",
       "remove",
       "sound",
@@ -3838,7 +4019,8 @@
     "keywords": [
       "music",
       "sound",
-      "speaker"
+      "speaker",
+      "text"
     ],
     "imageSha256": "4772B90C78D7130CC83F5E67D7BE00938147CA10108D5E439DAE77DA46CCCC65"
   },
@@ -3863,6 +4045,7 @@
     "keywords": [
       "clip",
       "film",
+      "lightning",
       "music",
       "speaker"
     ],
@@ -3874,6 +4057,7 @@
     "keywords": [
       "clip",
       "film",
+      "gear",
       "movie",
       "music",
       "sound",
@@ -3886,6 +4070,7 @@
     "imageAsset": "images/by-hash/9de2f9e4dcce8de7.png",
     "keywords": [
       "music",
+      "ruler",
       "sound",
       "speaker"
     ],
@@ -3900,6 +4085,7 @@
     "name": "AudioVolumeGallery",
     "imageAsset": "images/by-hash/32a3d3b525660f2f.png",
     "keywords": [
+      "chart",
       "clip",
       "film",
       "movie",
@@ -3914,7 +4100,12 @@
   {
     "name": "AuthorHighlightingHide",
     "imageAsset": "images/by-hash/72aaced8f4ad5a47.png",
-    "keywords": [],
+    "keywords": [
+      "document",
+      "file",
+      "people",
+      "person"
+    ],
     "imageSha256": "72AACED8F4AD5A47B1A7D119F1798474B892A0E6972A828E71FA1FBC9ED30F0E"
   },
   {
@@ -3933,13 +4124,17 @@
   {
     "name": "AutocompleteControl",
     "imageAsset": "images/by-hash/fe42530471172c44.png",
-    "keywords": [],
+    "keywords": [
+      "combobox"
+    ],
     "imageSha256": "FE42530471172C44C8D733E600C36943AB638960918EEACA8B1F76581BEAFBB8"
   },
   {
     "name": "AutoConnect",
     "imageAsset": "images/by-hash/17105cf663d7c445.png",
-    "keywords": [],
+    "keywords": [
+      "expand"
+    ],
     "imageSha256": "17105CF663D7C445DD259E51E6F29646581FAB94E8B2F8A1A341D393D879FFD4"
   },
   {
@@ -3947,6 +4142,7 @@
     "imageAsset": "images/by-hash/48616490d40990ae.png",
     "keywords": [
       "exact",
+      "lightning",
       "valid"
     ],
     "imageSha256": "48616490D40990AEA355D2ED53F28801703C32C5AB326A8ED7849322CA4DBB13"
@@ -3977,7 +4173,10 @@
   {
     "name": "AutoFillMode",
     "imageAsset": "images/by-hash/8a2fa3f2da641e47.png",
-    "keywords": [],
+    "keywords": [
+      "arrow",
+      "calendar"
+    ],
     "imageSha256": "8A2FA3F2DA641E478D5EDC5BAA134467AAB17AB827177C2A23FC048D5150D12D"
   },
   {
@@ -3987,6 +4186,7 @@
       "appointment",
       "date",
       "email",
+      "funnel",
       "graph",
       "grid",
       "message",
@@ -3999,7 +4199,10 @@
   {
     "name": "AutoFilterProject",
     "imageAsset": "images/by-hash/c0fbf1688be91555.png",
-    "keywords": [],
+    "keywords": [
+      "funnel",
+      "lightning"
+    ],
     "imageSha256": "C0FBF1688BE9155579E463062B189B609D063289A1B99EEEE95FBEC7B9C42CA0"
   },
   {
@@ -4007,6 +4210,9 @@
     "imageAsset": "images/by-hash/925884a9fc60d012.png",
     "keywords": [
       "appearance",
+      "document",
+      "file",
+      "lightning",
       "style"
     ],
     "imageSha256": "925884A9FC60D012DE392B670615DC9C12CE696A09C16857DBF6779ECA7A8B3B"
@@ -4021,7 +4227,9 @@
     "imageAsset": "images/by-hash/0ba6ee111531f8b8.png",
     "keywords": [
       "appearance",
-      "grid"
+      "calendar",
+      "grid",
+      "lightning"
     ],
     "imageSha256": "0BA6EE111531F8B8B27B7057CB0F25528C76B999064943C70B9CCA789B52E416"
   },
@@ -4030,6 +4238,7 @@
     "imageAsset": "images/by-hash/e1c785943851c579.png",
     "keywords": [
       "appearance",
+      "lightning",
       "style"
     ],
     "imageSha256": "E1C785943851C57904F5D448B57BBEB14B579A1FE0A45AF2BCBBB981F8BDC22B"
@@ -4047,13 +4256,18 @@
   {
     "name": "AutoLinkingStart",
     "imageAsset": "images/by-hash/044d2e244d8dd9e6.png",
-    "keywords": [],
+    "keywords": [
+      "hyperlink",
+      "play"
+    ],
     "imageSha256": "044D2E244D8DD9E6FAAD5142079CEC50AACA5C9773A672143BF6E3020226BF20"
   },
   {
     "name": "AutoLinkingStop",
     "imageAsset": "images/by-hash/71dee70b48fca71d.png",
-    "keywords": [],
+    "keywords": [
+      "hyperlink"
+    ],
     "imageSha256": "71DEE70B48FCA71D1E212D022DA2AF4E8334480E2A1F4F7F506A3BF85B4E4A64"
   },
   {
@@ -4071,7 +4285,10 @@
   {
     "name": "AutomaticResize",
     "imageAsset": "images/by-hash/a5261425578a6472.png",
-    "keywords": [],
+    "keywords": [
+      "arrow",
+      "expand"
+    ],
     "imageSha256": "A5261425578A6472228F7E10A87AD0F5B622B40432ADB60463955BDA1449CE30"
   },
   {
@@ -4083,7 +4300,10 @@
   {
     "name": "AutoScheduleSelectedTask",
     "imageAsset": "images/by-hash/aa022e861f00f076.png",
-    "keywords": [],
+    "keywords": [
+      "arrow",
+      "right"
+    ],
     "imageSha256": "AA022E861F00F076F0E12A4B586DBFCE07DC8ED9BB9ABF7EF7FE401EC6348A39"
   },
   {
@@ -5230,7 +5450,8 @@
       "file",
       "launch",
       "schedule",
-      "show"
+      "show",
+      "web address"
     ],
     "imageSha256": "46B714642A1FC3E25DBE2B7B671226194C33199180B5185E5860286DF3DB0570"
   },
@@ -10123,7 +10344,9 @@
   {
     "name": "ConditionIsNotURL",
     "imageAsset": "images/by-hash/3bbc606800df6a78.png",
-    "keywords": [],
+    "keywords": [
+      "web address"
+    ],
     "imageSha256": "3BBC606800DF6A78321FEEBD60ABBDE14CA3C3C68C02FC984BDC954D0031B211"
   },
   {
@@ -35148,7 +35371,9 @@
   {
     "name": "LogicChangeRestURLAction",
     "imageAsset": "images/by-hash/29d7edd7ebfcda27.png",
-    "keywords": [],
+    "keywords": [
+      "web address"
+    ],
     "imageSha256": "29D7EDD7EBFCDA2735D4CCC432813BC4F1ADD3EA3132152BC01526432CE5DCD2"
   },
   {

@@ -222,6 +222,14 @@
       });
     }
     input.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+        event.preventDefault();
+        const keywordInputs = [...elements.keywordEditor.querySelectorAll(".keyword-row input")];
+        const inputIndex = keywordInputs.indexOf(input);
+        const direction = event.key === "ArrowDown" ? 1 : -1;
+        keywordInputs[inputIndex + direction]?.focus();
+        return;
+      }
       if (event.key === "Backspace" && !input.value.trim()) {
         event.preventDefault();
         const keywordInputs = [...elements.keywordEditor.querySelectorAll(".keyword-row input")];
@@ -469,6 +477,39 @@
   document.addEventListener("click", (event) => {
     if (!elements.results.contains(event.target) && event.target !== elements.search) {
       closeResults();
+    }
+  });
+  document.addEventListener("keydown", (event) => {
+    if (!event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
+      return;
+    }
+    if (event.key === "Enter") {
+      event.preventDefault();
+      elements.markReviewed.click();
+      return;
+    }
+    if (event.key === "ArrowLeft") {
+      event.preventDefault();
+      navigatePrevious();
+      return;
+    }
+    if (event.key === "ArrowRight") {
+      event.preventDefault();
+      navigateNext();
+      return;
+    }
+    if (event.key === "Delete" && event.target instanceof Element) {
+      const input = event.target.closest(".keyword-row input");
+      const row = input?.closest(".keyword-row");
+      if (!input || input.readOnly || !row?.querySelector("[data-remove-keyword]")) {
+        return;
+      }
+      event.preventDefault();
+      const keywordInputs = [...elements.keywordEditor.querySelectorAll(".keyword-row input")];
+      const inputIndex = keywordInputs.indexOf(input);
+      const focusTarget = keywordInputs[inputIndex + 1] || keywordInputs[inputIndex - 1] || elements.addKeyword;
+      row.remove();
+      focusTarget.focus();
     }
   });
   function navigatePrevious() {

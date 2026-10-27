@@ -1092,15 +1092,468 @@
     "mail",
     "person"
   ],
-  "ApplyCommaFormat": [
-    "appearance"
+  "ApplyFilter": [
+    "arrow",
+    "funnel",
+    "right"
   ],
-  "ApplyCssStyles": [
+  "ApplyImageBackgroundFill": [
+    "bucket",
+    "graphic",
+    "paint",
+    "photo",
+    "picture",
+    "scene"
+  ],
+  "ApplyImageBackgroundTile": [
+    "graphic",
+    "photo",
+    "picture"
+  ],
+  "ApplyMasterPage1": [
+    "file",
+    "one"
+  ],
+  "ApplyPercentageFormat": [
+    "symbol"
+  ],
+  "ApplyStylesPane": [
     "alphabet",
     "arrow",
-    "document",
-    "file",
     "letter",
     "right"
+  ],
+  "AppointmentAttachment": [
+    "paperclip"
+  ],
+  "AppointmentBusy": [
+    "color",
+    "colour",
+    "square"
+  ],
+  "AppointmentColor0": [
+    "colour",
+    "square",
+    "zero"
+  ],
+  "AppointmentColor1": [
+    "colour",
+    "one",
+    "square"
+  ],
+  "AppointmentColor2": [
+    "colour",
+    "square",
+    "two"
+  ],
+  "AppointmentColor3": [
+    "colour",
+    "square",
+    "three"
+  ],
+  "AppointmentColor4": [
+    "colour",
+    "four",
+    "square"
+  ],
+  "AppointmentColor5": [
+    "colour",
+    "five",
+    "square"
+  ],
+  "AppointmentColor6": [
+    "colour",
+    "six",
+    "square"
+  ],
+  "AppointmentColor7": [
+    "colour",
+    "seven",
+    "square"
+  ],
+  "AppointmentColor8": [
+    "colour",
+    "eight",
+    "square"
+  ],
+  "AppointmentColor9": [
+    "colour",
+    "nine",
+    "square"
+  ],
+  "AppointmentColor10": [
+    "colour",
+    "square"
+  ],
+  "AppointmentOutOfOffice": [
+    "color",
+    "colour",
+    "pattern"
+  ],
+  "AppointmentWorkingElsewhere": [
+    "color",
+    "colour",
+    "pattern",
+    "square"
+  ],
+  "AppShare": [
+    "presentation",
+    "world"
+  ],
+  "Archive": [
+    "email",
+    "mail"
+  ],
+  "ArcTool": [
+    "curve"
+  ],
+  "AreaSelect": [
+    "dotted",
+    "line",
+    "plus",
+    "square"
+  ],
+  "ARMPreviewButton": [
+    "update"
+  ],
+  "ArrangeByAccount": [
+    "person",
+    "square"
+  ],
+  "ArrangeByAppointmentStart": [
+    "add",
+    "conference",
+    "event"
+  ],
+  "ArrangeByAssignment": [
+    "directory",
+    "folder",
+    "person"
+  ],
+  "ArrangeByAttachment": [
+    "paperclip"
+  ],
+  "ArrangeByAvailability": [
+    "arrow",
+    "down",
+    "page"
+  ],
+  "ArrangeByCompany": [
+    "building"
+  ],
+  "ArrangeByConversation": [
+    "email",
+    "mail"
+  ],
+  "ArrangeByCreatedDate": [
+    "calendar",
+    "note"
+  ],
+  "ArrangeByDate": [
+    "appointment",
+    "calendar",
+    "clock"
+  ],
+  "ArrangeByFolder": [
+    "directory",
+    "lookup",
+    "two"
+  ],
+  "ArrangeByFrom": [
+    "email",
+    "mail",
+    "person"
+  ],
+  "ArrangeByImportance": [
+    "exclamation",
+    "find",
+    "mark"
+  ],
+  "ArrangeByLocation": [
+    "pin"
+  ],
+  "ArrangeByModifiedDate": [
+    "clipboard",
+    "pencil"
+  ],
+  "ArrangeByOrganizer": [
+    "appointment",
+    "calendar",
+    "person"
+  ],
+  "ArrangeByRecurrence": [
+    "refresh"
+  ],
+  "ArrangeBySize": [
+    "disk",
+    "floppy",
+    "mesure"
+  ],
+  "ArrangeByStore": [
+    "archive",
+    "email",
+    "mail"
+  ],
+  "ArrangeBySubject": [
+    "document",
+    "file",
+    "find",
+    "lookup"
+  ],
+  "ArrangeByTo": [
+    "email",
+    "mail",
+    "person"
+  ],
+  "ArrangeByToDoDue": [
+    "red"
+  ],
+  "ArrangeByType": [
+    "appointment",
+    "date",
+    "email",
+    "message",
+    "schedule"
+  ],
+  "ArrangementGallery": [
+    "grid"
+  ],
+  "ArrangeThumbnails": [
+    "grid"
+  ],
+  "Arrow": [
+    "down",
+    "right"
+  ],
+  "ArrowsMore": [
+    "left",
+    "right"
+  ],
+  "ArtisticEffectsDialog": [
+    "bucket",
+    "colour",
+    "image",
+    "paint",
+    "paintbrush",
+    "photo"
+  ],
+  "AsianLayoutCharacterScaling": [
+    "alphabet",
+    "arrow",
+    "left",
+    "letter",
+    "right",
+    "stretch"
+  ],
+  "AsianLayoutCharactersEnclose": [],
+  "AsianLayoutCombineCharacters": [
+    "alphabet",
+    "letter"
+  ],
+  "AsianLayoutFitText": [],
+  "AsianLayoutHorizontalInVertical": [
+    "alphabet",
+    "letter"
+  ],
+  "AsianLayoutPhoneticGuide": [
+    "alphabet",
+    "letter"
+  ],
+  "AsianNewspaperJustify": [
+    "text"
+  ],
+  "AsianTypography": [
+    "character"
+  ],
+  "AsianTypographyGrid": [],
+  "AssetSettings": [
+    "document",
+    "file",
+    "gear"
+  ],
+  "AssignmentNotes": [],
+  "AssignTask": [
+    "clipboard",
+    "directory",
+    "person",
+    "two"
+  ],
+  "AssociateExistingWorkflow": [],
+  "AttachItem": [
+    "document",
+    "message",
+    "paperclip",
+    "submit"
+  ],
+  "AttachNotesToMeeting": [
+    "appointment",
+    "conference",
+    "onenote"
+  ],
+  "AudioAndVideoGiveFeedback": [
+    "add",
+    "clip",
+    "film",
+    "music",
+    "sound",
+    "speaker"
+  ],
+  "AudioBookmarkAdd": [
+    "clip",
+    "create",
+    "film",
+    "insert",
+    "movie",
+    "music",
+    "new",
+    "plus",
+    "ruler",
+    "sound",
+    "speaker"
+  ],
+  "AudioBookmarkRemove": [
+    "clip",
+    "cross",
+    "film",
+    "movie",
+    "music",
+    "ruler",
+    "sound",
+    "speaker"
+  ],
+  "AudioFadeInTime": [
+    "chart",
+    "music",
+    "sound",
+    "speaker"
+  ],
+  "AudioFadeOutTime": [
+    "chart",
+    "music",
+    "sound",
+    "speaker"
+  ],
+  "AudioNoteDelete": [
+    "clear",
+    "cross",
+    "music",
+    "remove",
+    "sound",
+    "speaker"
+  ],
+  "AudioNotePlayback": [
+    "music",
+    "sound",
+    "speaker",
+    "text"
+  ],
+  "AudioRecordingInsert": [
+    "add",
+    "clip",
+    "create",
+    "film",
+    "movie",
+    "music",
+    "sound",
+    "speaker"
+  ],
+  "AudioStartGallery": [
+    "clip",
+    "film",
+    "lightning",
+    "music",
+    "speaker"
+  ],
+  "AudioStyles": [
+    "gear",
+    "music",
+    "sound",
+    "speaker"
+  ],
+  "AudioToolsTrim": [
+    "music",
+    "ruler",
+    "sound",
+    "speaker"
+  ],
+  "AudioVolumeGallery": [
+    "chart",
+    "clip",
+    "music",
+    "presentation",
+    "slideshow",
+    "sound",
+    "speaker"
+  ],
+  "AuthorHighlightingHide": [
+    "document",
+    "file",
+    "people",
+    "person"
+  ],
+  "AutoAlignAndSpace": [
+    "alignment"
+  ],
+  "AutocompleteControl": [
+    "combobox"
+  ],
+  "AutoConnect": [
+    "expand"
+  ],
+  "AutoCorrect": [
+    "exact",
+    "lightning",
+    "valid"
+  ],
+  "AutoDial": [],
+  "AutoFillMode": [
+    "arrow",
+    "calendar"
+  ],
+  "AutoFilterClassic": [
+    "funnel"
+  ],
+  "AutoFilterProject": [
+    "funnel",
+    "lightning"
+  ],
+  "AutoFormat": [
+    "appearance",
+    "document",
+    "file",
+    "lightning",
+    "style"
+  ],
+  "AutoFormatDialog": [
+    "appearance",
+    "calendar",
+    "grid",
+    "lightning"
+  ],
+  "AutoFormatGallery": [
+    "appearance",
+    "lightning",
+    "style"
+  ],
+  "AutoLinkingStart": [
+    "hyperlink",
+    "play"
+  ],
+  "AutoLinkingStop": [
+    "hyperlink"
+  ],
+  "AutomaticResize": [
+    "arrow",
+    "expand"
+  ],
+  "AutoPreview": [],
+  "AutoScheduleSelectedTask": [
+    "arrow",
+    "right"
+  ],
+  "AutoSigWebInsertHyperlink": [
+    "add",
+    "url",
+    "website"
   ]
 }

@@ -401,6 +401,64 @@ test("Backspace removes an empty keyword row and focuses the previous keyword", 
   await expect(keywordInputs.first()).toBeFocused();
 });
 
+test("Alt+Enter confirms the current review", async ({ page }) => {
+  const iconId = "_3DBevelOptionsDialog";
+  const imageGroupIds = imageGroupByName.get(iconId);
+  const keywordOverrides = Object.fromEntries(imageGroupIds.map((name) => [name, ["paint"]]));
+  const { confirmed } = await mockKeywordReview(page, { keywordOverrides });
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(iconId)}`);
+  await page.getByLabel("Go to next icon after confirming review").uncheck();
+  await page.locator(".keyword-row input").first().focus();
+
+  await page.keyboard.press("Alt+Enter");
+
+  await expect.poll(() => confirmed.length).toBe(1);
+  await expect(page.locator("#review-state .review-state-label")).toHaveText("Reviewed");
+});
+
+test("Alt+Delete removes the focused keyword and focuses the next keyword", async ({ page }) => {
+  const iconId = "_3DBevelOptionsDialog";
+  const imageGroupIds = imageGroupByName.get(iconId);
+  const keywordOverrides = Object.fromEntries(imageGroupIds.map((name) => [name, ["paint", "bucket", "color"]]));
+  await mockKeywordReview(page, { keywordOverrides });
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(iconId)}`);
+  const keywordInputs = page.locator(".keyword-row input");
+  await keywordInputs.nth(1).focus();
+
+  await page.keyboard.press("Alt+Delete");
+
+  await expect(keywordInputs).toHaveCount(2);
+  await expect(keywordInputs.nth(0)).toHaveValue("paint");
+  await expect(keywordInputs.nth(1)).toHaveValue("color");
+  await expect(keywordInputs.nth(1)).toBeFocused();
+});
+
+test("Alt+Left and Alt+Right navigate between icons", async ({ page }) => {
+  await mockKeywordReview(page);
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(reviewableIcons[1].name)}`);
+  await expect(page.locator("#selected-icon-name")).toHaveText(reviewableIcons[1].name);
+
+  await page.keyboard.press("Alt+ArrowLeft");
+  await expect(page.locator("#selected-icon-name")).toHaveText(reviewableIcons[0].name);
+  await page.keyboard.press("Alt+ArrowRight");
+  await expect(page.locator("#selected-icon-name")).toHaveText(reviewableIcons[1].name);
+});
+
+test("ArrowUp and ArrowDown move between keyword inputs", async ({ page }) => {
+  const iconId = "_3DBevelOptionsDialog";
+  const imageGroupIds = imageGroupByName.get(iconId);
+  const keywordOverrides = Object.fromEntries(imageGroupIds.map((name) => [name, ["paint", "bucket", "color"]]));
+  await mockKeywordReview(page, { keywordOverrides });
+  await page.goto(`/keyword-review.html?icon_id=${encodeURIComponent(iconId)}`);
+  const keywordInputs = page.locator(".keyword-row input");
+  await keywordInputs.nth(1).focus();
+
+  await page.keyboard.press("ArrowDown");
+  await expect(keywordInputs.nth(2)).toBeFocused();
+  await page.keyboard.press("ArrowUp");
+  await expect(keywordInputs.nth(1)).toBeFocused();
+});
+
 test("opens synonym manager with a reviewed custom keyword selected", async ({ page }) => {
   const iconId = "_3DBevelOptionsDialog";
   const imageGroupIds = imageGroupByName.get(iconId);
