@@ -2,7 +2,7 @@ const http = require("node:http");
 const fs = require("node:fs");
 const path = require("node:path");
 const { spawnSync } = require("node:child_process");
-const { nameKeywords, normalizeReviewedKeywordGroup, normalizeSynonyms, readJsonFile, readReviewStatus, updateMetadataKeywords, updateReviewStatus } = require("./keyword-utils");
+const { addSynonymsToMetadata, nameKeywords, normalizeReviewedKeywordGroup, normalizeSynonyms, readJsonFile, readReviewStatus, updateMetadataKeywords, updateReviewStatus } = require("./keyword-utils");
 
 const root = path.resolve(__dirname, "..");
 const port = Number(process.env.PORT || process.argv[2] || 8000);
@@ -148,6 +148,69 @@ async function handleApi(request, response, requestUrl) {
       sendJson(response, 200, { synonyms, metadataUpdated: true });
     } catch (error) {
       sendJson(response, 400, { error: error.message || "Could not save name synonyms" });
+    }
+    return true;
+  }
+
+  if (pathname === "/api/synonyms/quick" && request.method === "PUT") {
+    let body;
+    try {
+      body = await readJsonBody(request, 16_384);
+    } catch (error) {
+      sendJson(response, 400, { error: error.message === "Request body is too large" ? error.message : "Request must contain valid JSON" });
+      return true;
+    }
+    try {
+      if (typeof body.source !== "string" || !Array.isArray(body.synonyms)) {
+        throw new Error("Choose a source and provide its synonym list");
+      }
+      const source = body.source.trim().toLocaleLowerCase("en");
+      const previousSynonymsText = fs.readFileSync(synonymsPath, "utf8");
+      const previousSynonyms = JSON.parse(previousSynonymsText);
+      const reviewedKeywords = readJsonFile(keywordsPath);
+      const synonyms = normalizeSynonyms({
+        ...previousSynonyms,
+        [source]: body.synonyms
+      }, availableSynonymSources(reviewedKeywords));
+      const previousTerms = previousSynonyms[source] || [];
+      const nextTerms = synonyms[source] || [];
+      if (previousTerms.some((term) => !nextTerms.includes(term))) {
+        throw new Error("Quick save only supports adding synonyms. Use Save synonyms to remove existing terms.");
+      }
+      if (!nextTerms.some((term) => !previousTerms.includes(term))) {
+        throw new Error("Quick save requires a new synonym for the selected source.");
+      }
+
+      const previousMetadataText = fs.readFileSync(metadataPath, "utf8");
+      const currentMetadata = JSON.parse(previousMetadataText);
+      const update = addSynonymsToMetadata(currentMetadata, source, nextTerms);
+      if (update.matchedGroupCount === 0) {
+        throw new Error(`No icon metadata uses the source ${source}`);
+      }
+      try {
+        if (update.updatedGroupCount > 0) {
+          writeJsonFile(metadataPath, update.metadata);
+        }
+        writeJsonFile(synonymsPath, synonyms);
+      } catch (error) {
+        if (update.updatedGroupCount > 0) {
+          fs.writeFileSync(metadataPath, previousMetadataText, "utf8");
+        }
+        throw error;
+      }
+
+      metadata = update.metadata;
+      metadataByName.clear();
+      for (const icon of metadata) {
+        metadataByName.set(icon.name, icon);
+      }
+      sendJson(response, 200, {
+        synonyms,
+        metadataUpdated: true,
+        updatedIconGroups: update.updatedGroupCount
+      });
+    } catch (error) {
+      sendJson(response, 400, { error: error.message || "Could not quick-save synonyms" });
     }
     return true;
   }

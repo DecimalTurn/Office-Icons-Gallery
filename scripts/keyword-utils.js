@@ -137,6 +137,53 @@ function updateMetadataKeywords(metadata, iconIds, keywords) {
   });
 }
 
+function addSynonymsToMetadata(metadata, source, synonyms) {
+  const groups = new Map();
+  for (const icon of metadata) {
+    const groupKey = icon.imageStatus === "placeholder" || !icon.imageSha256
+      ? `icon:${icon.name}`
+      : `hash:${icon.imageSha256}`;
+    const group = groups.get(groupKey) || [];
+    group.push(icon);
+    groups.set(groupKey, group);
+  }
+
+  const keywordUpdates = new Map();
+  let matchedGroupCount = 0;
+  for (const group of groups.values()) {
+    const representative = group[0];
+    const groupNames = group.map((icon) => icon.name);
+    const sourceValues = [
+      ...groupNames.flatMap(splitIconName),
+      ...(representative.keywords || [])
+    ].map((value) => value.trim().toLocaleLowerCase("en"));
+    if (!sourceValues.includes(source)) {
+      continue;
+    }
+    matchedGroupCount += 1;
+
+    const nameWords = nameKeywords(groupNames);
+    const nextKeywords = new Set(representative.keywords || []);
+    for (const synonym of synonyms) {
+      if (!nameWords.has(synonym)) {
+        nextKeywords.add(synonym);
+      }
+    }
+    const normalizedKeywords = [...nextKeywords].sort((left, right) => left.localeCompare(right, "en"));
+    if (JSON.stringify(normalizedKeywords) !== JSON.stringify(representative.keywords || [])) {
+      keywordUpdates.set(representative.name, normalizedKeywords);
+    }
+  }
+
+  return {
+    metadata: metadata.map((icon) => keywordUpdates.has(icon.name)
+      ? { ...icon, keywords: keywordUpdates.get(icon.name) }
+      : icon),
+    matchedGroupCount,
+    updatedGroupCount: keywordUpdates.size
+  };
+}
+
 function readJsonFile(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
 }
@@ -145,4 +192,4 @@ function readReviewStatus(filePath) {
   return readJsonFile(filePath);
 }
 
-module.exports = { nameKeywords, normalizeReviewedKeywordGroup, normalizeReviewedKeywords, normalizeSynonyms, readJsonFile, readReviewStatus, removeNameKeywords, splitIconName, synonymsForValues, updateMetadataKeywords, updateReviewStatus };
+module.exports = { addSynonymsToMetadata, nameKeywords, normalizeReviewedKeywordGroup, normalizeReviewedKeywords, normalizeSynonyms, readJsonFile, readReviewStatus, removeNameKeywords, splitIconName, synonymsForValues, updateMetadataKeywords, updateReviewStatus };

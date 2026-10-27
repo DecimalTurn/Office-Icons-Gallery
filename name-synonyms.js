@@ -16,6 +16,7 @@
     configuredWordCount: document.getElementById("configured-word-count"),
     configuredHeading: document.getElementById("configured-synonyms-heading"),
     discardButton: document.getElementById("discard-synonym-changes"),
+    quickSaveButton: document.getElementById("quick-save-synonyms"),
     saveButton: document.getElementById("save-synonym-changes"),
     saveNote: document.getElementById("synonym-save-note")
   };
@@ -26,7 +27,9 @@
     savedSynonyms: {},
     selectedSource: "",
     saving: false,
-    saveSucceeded: false
+    savingMode: "",
+    saveSucceeded: false,
+    lastSaveMode: ""
   };
 
   function cloneSynonyms(synonyms) {
@@ -42,6 +45,26 @@
 
   function isDirty() {
     return JSON.stringify(canonicalSynonyms(state.synonyms)) !== JSON.stringify(canonicalSynonyms(state.savedSynonyms));
+  }
+
+  function quickSaveRequest() {
+    if (!state.selectedSource || state.saving) {
+      return null;
+    }
+    const current = canonicalSynonyms(state.synonyms);
+    const saved = canonicalSynonyms(state.savedSynonyms);
+    const changedSources = [...new Set([...Object.keys(current), ...Object.keys(saved)])]
+      .filter((source) => JSON.stringify(current[source] || []) !== JSON.stringify(saved[source] || []));
+    if (changedSources.length !== 1 || changedSources[0] !== state.selectedSource) {
+      return null;
+    }
+    const previousTerms = saved[state.selectedSource] || [];
+    const nextTerms = current[state.selectedSource] || [];
+    if (previousTerms.some((term) => !nextTerms.includes(term)) ||
+      !nextTerms.some((term) => !previousTerms.includes(term))) {
+      return null;
+    }
+    return { source: state.selectedSource, synonyms: nextTerms };
   }
 
   function setStatus(message, kind = "") {
@@ -60,6 +83,7 @@
 
   function updateDirtyState() {
     const dirty = isDirty();
+    const quickRequest = quickSaveRequest();
     elements.saveButton.disabled = !dirty || state.saving;
     elements.saveButton.textContent = state.saving
       ? "Saving…"
@@ -67,14 +91,24 @@
         ? "Saved"
         : "Save synonyms";
     elements.discardButton.disabled = !dirty || state.saving;
+    elements.quickSaveButton.disabled = !quickRequest || state.saving;
+    elements.quickSaveButton.textContent = state.saving && state.savingMode === "quick"
+      ? "Quick saving…"
+      : "Quick save source";
     elements.saveNote.dataset.kind = !state.saving && !dirty && state.saveSucceeded ? "success" : "";
     elements.saveNote.textContent = state.saving
-      ? "Updating searchable keywords for every matching icon image…"
+      ? state.savingMode === "quick"
+        ? `Updating searchable keywords for ${state.selectedSource}…`
+        : "Updating searchable keywords for every matching icon image…"
+      : quickRequest
+        ? `Quick save updates icons using ${quickRequest.source} only. Save synonyms rebuilds searchable keywords for every matching icon image.`
       : dirty
-        ? "Save to update searchable keywords for every matching icon image."
+        ? "Save synonyms rebuilds searchable keywords for every matching icon image. Quick save is available for additions to one selected source."
         : state.saveSucceeded
-          ? "Save complete. Searchable keywords are updated for every matching icon image."
-          : "Changes update searchable keywords for every matching icon image when you save.";
+          ? state.lastSaveMode === "quick"
+            ? `Quick save updated searchable keywords for ${state.selectedSource}.`
+            : "Save complete. Searchable keywords are updated for every matching icon image."
+          : "Quick save applies new synonyms for the selected source. Save synonyms rebuilds searchable keywords for every matching icon image.";
   }
 
   function selectSource(source) {
@@ -232,31 +266,44 @@
     render();
   });
 
-  elements.saveButton.addEventListener("click", async () => {
-    if (!isDirty() || state.saving) {
+  async function saveSynonyms(mode) {
+    const quickRequest = mode === "quick" ? quickSaveRequest() : null;
+    if (state.saving || (mode === "quick" ? !quickRequest : !isDirty())) {
       return;
     }
     state.saving = true;
+    state.savingMode = mode;
     updateDirtyState();
-    setStatus("Saving synonyms and updating searchable keywords…");
+    setStatus(mode === "quick"
+      ? `Quick-saving synonyms for ${quickRequest.source}…`
+      : "Saving synonyms and updating searchable keywords…");
     try {
-      const result = await requestJson("/api/synonyms", {
+      const result = await requestJson(mode === "quick" ? "/api/synonyms/quick" : "/api/synonyms", {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ synonyms: canonicalSynonyms(state.synonyms) })
+        body: JSON.stringify(mode === "quick"
+          ? quickRequest
+          : { synonyms: canonicalSynonyms(state.synonyms) })
       });
       state.synonyms = cloneSynonyms(result.synonyms || {});
       state.savedSynonyms = cloneSynonyms(state.synonyms);
       state.saveSucceeded = true;
-      setStatus("Synonyms saved. Searchable keywords have been updated.", "success");
+      state.lastSaveMode = mode;
+      setStatus(mode === "quick"
+        ? `Synonyms saved. Searchable keywords updated for ${result.updatedIconGroups} matching icon groups.`
+        : "Synonyms saved. Searchable keywords have been updated.", "success");
       render();
     } catch (error) {
       setStatus(error.message, "error");
     } finally {
       state.saving = false;
+      state.savingMode = "";
       updateDirtyState();
     }
-  });
+  }
+
+  elements.saveButton.addEventListener("click", () => saveSynonyms("full"));
+  elements.quickSaveButton.addEventListener("click", () => saveSynonyms("quick"));
 
   window.addEventListener("beforeunload", (event) => {
     if (isDirty()) {

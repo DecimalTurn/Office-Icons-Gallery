@@ -31,7 +31,7 @@ test("adds and saves a synonym for an icon-name word", async ({ page }) => {
   await page.getByRole("button", { name: "Add synonym" }).click();
   await expect(page.getByRole("list", { name: "Synonyms for selected source" })).toContainText("pail");
   const saveNote = page.locator("#synonym-save-note");
-  await expect(saveNote).toHaveText("Save to update searchable keywords for every matching icon image.");
+  await expect(saveNote).toHaveText("Quick save updates icons using bucket only. Save synonyms rebuilds searchable keywords for every matching icon image.");
   await expect(page.getByRole("button", { name: "Save synonyms" })).toBeEnabled();
   const initialSaveNoteColor = await saveNote.evaluate((note) => getComputedStyle(note).color);
   await page.getByRole("button", { name: "Save synonyms" }).click();
@@ -49,6 +49,42 @@ test("adds and saves a synonym for an icon-name word", async ({ page }) => {
   await expect(page.getByRole("button", { name: "Saved" })).toBeDisabled();
 });
 
+test("quick-saves an additive edit for only the selected source", async ({ page }) => {
+  let savedSynonyms = {};
+  let quickSaveBody;
+  let fullSaveRequests = 0;
+  await page.route("**/api/synonyms/quick", async (route) => {
+    quickSaveBody = route.request().postDataJSON();
+    savedSynonyms = { ...savedSynonyms, [quickSaveBody.source]: quickSaveBody.synonyms };
+    await route.fulfill({ json: { synonyms: savedSynonyms, metadataUpdated: true, updatedIconGroups: 3 } });
+  });
+  await page.route("**/api/synonyms", async (route) => {
+    if (route.request().method() === "GET") {
+      await route.fulfill({ json: { synonyms: savedSynonyms } });
+      return;
+    }
+    fullSaveRequests += 1;
+    await route.fulfill({ json: { synonyms: route.request().postDataJSON().synonyms, metadataUpdated: true } });
+  });
+  await page.route("**/icon-metadata.json", async (route) => {
+    await route.fulfill({ json: metadata });
+  });
+
+  await page.goto("/name-synonyms.html?source=bucket");
+  await page.getByLabel("Synonym to add").fill("pail");
+  await page.getByRole("button", { name: "Add synonym" }).click();
+  const quickSaveButton = page.getByRole("button", { name: "Quick save source" });
+  await expect(quickSaveButton).toBeEnabled();
+  await quickSaveButton.click();
+
+  await expect(page.locator("#synonym-status")).toContainText("3 matching icon groups");
+  await expect(quickSaveButton).toBeDisabled();
+  await expect(page.getByRole("button", { name: "Saved" })).toBeDisabled();
+  expect(quickSaveBody).toEqual({ source: "bucket", synonyms: ["pail"] });
+  expect(savedSynonyms).toEqual({ bucket: ["pail"] });
+  expect(fullSaveRequests).toBe(0);
+});
+
 test("discards unsaved synonym edits", async ({ page }) => {
   const savedSynonyms = { bucket: ["pail"] };
   await page.route("**/icon-metadata.json", async (route) => {
@@ -61,6 +97,7 @@ test("discards unsaved synonym edits", async ({ page }) => {
   await page.goto("/name-synonyms.html");
   await page.getByRole("button", { name: "bucket", exact: true }).click();
   await page.getByRole("button", { name: "Remove synonym pail for bucket" }).click();
+  await expect(page.getByRole("button", { name: "Quick save source" })).toBeDisabled();
   await expect(page.getByRole("button", { name: "Discard changes" })).toBeEnabled();
   await page.getByRole("button", { name: "Discard changes" }).click();
 
@@ -165,6 +202,50 @@ test("one synonym dictionary updates name words and reviewed keywords", async ({
     if (generation.status !== 0) {
       throw new Error(generation.stderr || "Could not restore metadata after synonym API test");
     }
+    fs.writeFileSync(metadataPath, originalMetadata, "utf8");
+  }
+});
+
+test("quick synonym API updates matching keywords without rebuilding unrelated metadata", async ({ request }) => {
+  const synonymPath = path.join(__dirname, "..", "icon-synonyms.json");
+  const metadataPath = path.join(__dirname, "..", "icon-metadata.json");
+  const originalSynonyms = fs.readFileSync(synonymPath, "utf8");
+  const originalMetadata = fs.readFileSync(metadataPath, "utf8");
+  const originalEntries = JSON.parse(originalMetadata);
+  const targetName = "_3DEffectColorPickerClassic";
+  const unrelatedName = "_3DBevelOptionsDialog";
+  const target = originalEntries.find((icon) => icon.name === targetName);
+  const unrelated = originalEntries.find((icon) => icon.name === unrelatedName);
+  const groupIds = originalEntries
+    .filter((icon) => icon.imageStatus !== "placeholder" && icon.imageSha256 === target.imageSha256)
+    .map((icon) => icon.name);
+  const sentinel = "quick-save-preserve-me";
+
+  try {
+    const metadataWithSentinel = originalEntries.map((icon) => icon.name === unrelatedName
+      ? { ...icon, quickSaveSentinel: sentinel }
+      : icon);
+    fs.writeFileSync(metadataPath, `${JSON.stringify(metadataWithSentinel, null, 2)}\n`, "utf8");
+    const existingSynonyms = JSON.parse(originalSynonyms);
+    const response = await request.put("/api/synonyms/quick", {
+      data: {
+        source: "color",
+        synonyms: [...(existingSynonyms.color || []), "quick-save-test"]
+      }
+    });
+    expect(response.ok()).toBe(true);
+    const result = await response.json();
+    expect(result.updatedIconGroups).toBeGreaterThan(0);
+    expect(result.synonyms.color).toContain("quick-save-test");
+
+    const updatedMetadata = await request.get("/icon-metadata.json").then((metadataResponse) => metadataResponse.json());
+    expect(updatedMetadata.find((icon) => icon.name === targetName).keywords).toContain("quick-save-test");
+    expect(updatedMetadata.find((icon) => icon.name === unrelatedName).quickSaveSentinel).toBe(sentinel);
+    for (const aliasName of groupIds.slice(1)) {
+      expect(Object.hasOwn(updatedMetadata.find((icon) => icon.name === aliasName), "keywords")).toBe(false);
+    }
+  } finally {
+    fs.writeFileSync(synonymPath, originalSynonyms, "utf8");
     fs.writeFileSync(metadataPath, originalMetadata, "utf8");
   }
 });
