@@ -2979,7 +2979,14 @@
   {
     "name": "ApplyCssStyles",
     "imageAsset": "images/by-hash/a85f46fb6686a11a.png",
-    "keywords": [],
+    "keywords": [
+      "alphabet",
+      "arrow",
+      "document",
+      "file",
+      "letter",
+      "right"
+    ],
     "imageSha256": "A85F46FB6686A11A3948DC9164B6DB591A9DF743F1DED9FD936857002DBC0B5A"
   },
   {

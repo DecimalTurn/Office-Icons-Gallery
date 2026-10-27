@@ -1091,5 +1091,16 @@
     "forbidden",
     "mail",
     "person"
+  ],
+  "ApplyCommaFormat": [
+    "appearance"
+  ],
+  "ApplyCssStyles": [
+    "alphabet",
+    "arrow",
+    "document",
+    "file",
+    "letter",
+    "right"
   ]
 }
