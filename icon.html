@@ -29,7 +29,6 @@
           <img src="./images/Copy.png" alt="" aria-hidden="true" />
         </button>
       </div>
-      <ul id="icon-keywords" class="icon-keywords" aria-label="Icon keywords"></ul>
       <p id="icon-image-status" class="icon-image-status" hidden></p>
       <div class="icon-detail-previews">
         <figure class="icon-detail-preview">
@@ -60,6 +59,7 @@
       </div>
       <p id="copy-status" role="status" aria-live="polite"></p>
       <p id="icon-error" role="alert" hidden></p>
+      <ul id="icon-keywords" class="icon-keywords" aria-label="Icon keywords"></ul>
       <section id="related-icons-section" class="related-icons-section" aria-labelledby="related-icons-heading" hidden>
         <h2 id="related-icons-heading">Related icons</h2>
         <div class="related-icons-carousel">
@@ -72,6 +72,32 @@
           </button>
         </div>
       </section>
+      <dialog id="keyword-suggestion-dialog" class="keyword-suggestion-dialog" aria-labelledby="keyword-suggestion-heading">
+        <form id="keyword-suggestion-form">
+          <div class="keyword-suggestion-heading">
+            <h2 id="keyword-suggestion-heading">Suggest a keyword change</h2>
+            <button type="button" class="keyword-suggestion-close" aria-label="Close suggestion form" data-close-suggestion>&times;</button>
+          </div>
+          <fieldset class="keyword-suggestion-options">
+            <legend>What would you like to suggest?</legend>
+            <label><input type="radio" name="suggestion-type" value="addition" checked /> Suggest an addition</label>
+            <label><input type="radio" name="suggestion-type" value="removal" /> Suggest a removal</label>
+          </fieldset>
+          <div id="suggestion-add-field" class="keyword-suggestion-field">
+            <label for="suggestion-keyword-input">Keyword to add</label>
+            <input id="suggestion-keyword-input" type="text" maxlength="80" autocomplete="off" required />
+          </div>
+          <div id="suggestion-remove-field" class="keyword-suggestion-field" hidden>
+            <label for="suggestion-keyword-select">Keyword to remove</label>
+            <select id="suggestion-keyword-select" required disabled></select>
+          </div>
+          <p class="keyword-suggestion-note">This opens a GitHub issue draft. Review the details, add any comments, and submit it on GitHub.</p>
+          <div class="keyword-suggestion-actions">
+            <button class="review-button review-button-secondary" type="button" data-close-suggestion>Cancel</button>
+            <button class="review-button review-button-approved" type="submit">Continue to GitHub</button>
+          </div>
+        </form>
+      </dialog>
       <section id="same-image-section" class="same-image-section" aria-labelledby="same-image-heading" hidden>
         <h2 id="same-image-heading">Other IDs using the same image</h2>
         <ul id="same-image-list" class="same-image-list"></ul>
@@ -109,7 +135,74 @@
       const relatedIconsNext = document.getElementById("related-icons-next");
       const sameImageSection = document.getElementById("same-image-section");
       const sameImageList = document.getElementById("same-image-list");
+      const suggestionDialog = document.getElementById("keyword-suggestion-dialog");
+      const suggestionForm = document.getElementById("keyword-suggestion-form");
+      const suggestionTypeInputs = [...suggestionForm.querySelectorAll('[name="suggestion-type"]')];
+      const suggestionAddField = document.getElementById("suggestion-add-field");
+      const suggestionRemoveField = document.getElementById("suggestion-remove-field");
+      const suggestionKeywordInput = document.getElementById("suggestion-keyword-input");
+      const suggestionKeywordSelect = document.getElementById("suggestion-keyword-select");
       const validIconName = iconName && /^[A-Za-z0-9_]+$/.test(iconName);
+      let currentKeywords = [];
+
+      function updateSuggestionFields() {
+        const isRemoval = suggestionTypeInputs.find((input) => input.checked)?.value === "removal";
+        suggestionAddField.hidden = isRemoval;
+        suggestionKeywordInput.disabled = isRemoval;
+        suggestionRemoveField.hidden = !isRemoval;
+        suggestionKeywordSelect.disabled = !isRemoval || suggestionKeywordSelect.options.length === 0;
+      }
+
+      function openSuggestionDialog() {
+        const removalOption = suggestionTypeInputs.find((input) => input.value === "removal");
+        removalOption.disabled = currentKeywords.length === 0;
+        suggestionKeywordSelect.replaceChildren(...currentKeywords.map((keyword) => {
+          const option = document.createElement("option");
+          option.value = keyword;
+          option.textContent = keyword;
+          return option;
+        }));
+        suggestionTypeInputs[0].checked = true;
+        suggestionKeywordInput.value = "";
+        updateSuggestionFields();
+        suggestionDialog.showModal();
+        suggestionKeywordInput.focus();
+      }
+
+      document.querySelectorAll("[data-close-suggestion]").forEach((button) => {
+        button.addEventListener("click", () => suggestionDialog.close());
+      });
+      suggestionTypeInputs.forEach((input) => input.addEventListener("change", updateSuggestionFields));
+      suggestionForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const type = suggestionTypeInputs.find((input) => input.checked)?.value;
+        const keyword = (type === "addition" ? suggestionKeywordInput.value : suggestionKeywordSelect.value)
+          .trim().toLocaleLowerCase("en");
+        if (!keyword) {
+          return;
+        }
+        const isAddition = type === "addition";
+        const action = isAddition ? "Suggest an addition" : "Suggest a removal";
+        const title = `Keyword suggestion: ${isAddition ? "add" : "remove"} ${keyword} for ${iconName}`;
+        const body = [
+          "## Suggestion",
+          `- Type: ${action}`,
+          `- Keyword: \`${keyword}\``,
+          "",
+          "## Icon",
+          `- Icon ID: \`${iconName}\``,
+          `- Icon page: ${window.location.href}`,
+          `- Current keywords: ${currentKeywords.length ? currentKeywords.map((value) => `\`${value}\``).join(", ") : "None"}`,
+          "",
+          "## Additional context",
+          "<!-- Add any details that would help review this suggestion. -->"
+        ].join("\n");
+        const issueUrl = new URL("https://github.com/DecimalTurn/Office-Icons-Gallery/issues/new");
+        issueUrl.searchParams.set("title", title);
+        issueUrl.searchParams.set("body", body);
+        window.open(issueUrl.toString(), "_blank", "noopener,noreferrer");
+        suggestionDialog.close();
+      });
 
       function updateRelatedIconControls() {
         const maxScrollLeft = relatedIconsList.scrollWidth - relatedIconsList.clientWidth;
@@ -155,15 +248,27 @@
             const keywordSource = icon?.imageStatus === "placeholder"
               ? icon
               : metadata.find((entry) => entry.imageSha256 === icon?.imageSha256 && entry.keywords?.length);
-            iconKeywords.replaceChildren(...(keywordSource?.keywords || icon?.keywords || []).map((keyword) => {
+            currentKeywords = keywordSource?.keywords || icon?.keywords || [];
+            const keywordItems = currentKeywords.map((keyword) => {
               const item = document.createElement("li");
               item.textContent = keyword;
               return item;
-            }));
+            });
+            const suggestionItem = document.createElement("li");
+            const suggestionLink = document.createElement("a");
+            suggestionItem.className = "icon-keyword-suggestion";
+            suggestionLink.href = "#keyword-suggestion-dialog";
+            suggestionLink.textContent = "Suggest a keyword change";
+            suggestionLink.addEventListener("click", (event) => {
+              event.preventDefault();
+              openSuggestionDialog();
+            });
+            suggestionItem.append(suggestionLink);
+            iconKeywords.replaceChildren(...keywordItems, suggestionItem);
+            const iconSource = icon?.imageAsset
+              ? `./${icon.imageAsset}`
+              : `./images/${encodeURIComponent(iconName)}.png`;
             if (icon?.imageStatus === "placeholder") {
-          const iconSource = icon?.imageAsset
-            ? `./${icon.imageAsset}`
-            : `./images/${encodeURIComponent(iconName)}.png`;
               imageStatus.textContent = `Placeholder image: ${icon.placeholderLabel}. This is a shared Office fallback, not a unique icon image.`;
               imageStatus.hidden = false;
             }

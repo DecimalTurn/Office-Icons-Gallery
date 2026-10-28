@@ -613,6 +613,131 @@ li span {
   padding: 3px 7px;
 }
 
+.icon-keywords .icon-keyword-suggestion {
+  flex: 0 0 100%;
+  border-color: transparent;
+  background: transparent;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.icon-keyword-suggestion a {
+  color: var(--accent-color);
+  text-underline-offset: 2px;
+}
+
+.keyword-suggestion-dialog {
+  box-sizing: border-box;
+  width: min(520px, calc(100vw - 32px));
+  max-height: calc(100vh - 32px);
+  padding: 0;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--surface-background);
+  color: var(--page-foreground);
+}
+
+.keyword-suggestion-dialog::backdrop {
+  background: rgb(16 22 18 / 58%);
+}
+
+.keyword-suggestion-dialog form {
+  display: grid;
+  gap: 18px;
+  padding: 22px;
+}
+
+.keyword-suggestion-heading,
+.keyword-suggestion-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.keyword-suggestion-heading h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.icon-detail .keyword-suggestion-close {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--control-background);
+  color: var(--page-foreground);
+  font: inherit;
+  font-size: 1.25rem;
+}
+
+.keyword-suggestion-options {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.keyword-suggestion-options legend,
+.keyword-suggestion-field label {
+  margin-bottom: 8px;
+  color: var(--muted-foreground);
+  font-size: 0.85rem;
+}
+
+.keyword-suggestion-options label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.keyword-suggestion-field[hidden] {
+  display: none;
+}
+
+.keyword-suggestion-field label {
+  display: block;
+}
+
+.keyword-suggestion-field input,
+.keyword-suggestion-field select {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 40px;
+  padding: 7px 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--control-background);
+  color: var(--page-foreground);
+  font: inherit;
+}
+
+.keyword-suggestion-note {
+  margin: 0;
+  color: var(--muted-foreground);
+  font-size: 0.85rem;
+}
+
+.keyword-suggestion-actions {
+  justify-content: flex-end;
+}
+
+@media (max-width: 480px) {
+  .keyword-suggestion-dialog form {
+    gap: 14px;
+    padding: 16px;
+  }
+
+  .keyword-suggestion-actions {
+    align-items: stretch;
+    flex-direction: column-reverse;
+  }
+}
+
 .icon-image-status {
   max-width: 100%;
   margin: 0;
