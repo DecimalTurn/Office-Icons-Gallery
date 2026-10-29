@@ -3021,7 +3021,14 @@
   {
     "name": "ApplyCssStyles",
     "imageAsset": "images/by-hash/a85f46fb6686a11a.png",
-    "keywords": [],
+    "keywords": [
+      "alphabet",
+      "arrow",
+      "document",
+      "file",
+      "letter",
+      "right"
+    ],
     "imageSha256": "A85F46FB6686A11A3948DC9164B6DB591A9DF743F1DED9FD936857002DBC0B5A"
   },
   {
@@ -4717,21 +4724,30 @@
   {
     "name": "BevelShapeGallery",
     "imageAsset": "images/by-hash/0452866e8584aaa2.png",
-    "keywords": [],
+    "keywords": [
+      "square"
+    ],
     "imageSha256": "0452866E8584AAA2A39AFA21CEB9AC3E13B9603ACDD7FE456F38F0422BA1D4A9"
   },
   {
     "name": "BevelTextGallery",
     "imageAsset": "images/by-hash/2fa70a1cc63eed65.png",
-    "keywords": [],
+    "keywords": [
+      "a",
+      "alphabet",
+      "letter"
+    ],
     "imageSha256": "2FA70A1CC63EED655BF54AADEB5FA22E6D22217C6D8A0B1DC6D603FD73FF6BE5"
   },
   {
     "name": "BibliographyAddNewPlaceholder",
     "imageAsset": "images/by-hash/409e0cf2268bebce.png",
     "keywords": [
-      "create",
-      "insert"
+      "document",
+      "file",
+      "mark",
+      "minus",
+      "question"
     ],
     "imageSha256": "409E0CF2268BEBCE455F31CB00474BA86764AFB6E1ACD78F26548786E3CA97C2"
   },
@@ -4739,8 +4755,10 @@
     "name": "BibliographyAddNewSource",
     "imageAsset": "images/by-hash/07772fa5f13c3b98.png",
     "keywords": [
+      "book",
       "create",
-      "insert"
+      "insert",
+      "plus"
     ],
     "imageSha256": "07772FA5F13C3B9813FBE7AC6720D0626C178F432399F2FF825F4D8319988BFA"
   },
@@ -4748,8 +4766,9 @@
     "name": "BibliographyGallery",
     "imageAsset": "images/by-hash/8800fcc688219b3f.png",
     "keywords": [
-      "add",
-      "create"
+      "arrow",
+      "book",
+      "right"
     ],
     "imageSha256": "8800FCC688219B3FA20429BF7EFA2A43764DE5650B04398AECBB65885993582A"
   },
@@ -4767,19 +4786,28 @@
   {
     "name": "BibliographyStyle",
     "imageAsset": "images/by-hash/d314012d2dc422dd.png",
-    "keywords": [],
+    "keywords": [
+      "book",
+      "paintbrush"
+    ],
     "imageSha256": "D314012D2DC422DD8B1BC50DC321BBCF9ECCEEAFBBAEFD972A3BEF4A91D4997A"
   },
   {
     "name": "BizBarPublishToSharePoint",
     "imageAsset": "images/by-hash/6ee76565b405e6e3.png",
-    "keywords": [],
+    "keywords": [
+      "directory",
+      "folder"
+    ],
     "imageSha256": "6EE76565B405E6E3D9526FBBB7763DB73E2CC8EA2A802313519962539B04B9B2"
   },
   {
     "name": "BlackAndWhite",
     "imageAsset": "images/by-hash/716a94e98d053cdd.png",
-    "keywords": [],
+    "keywords": [
+      "color",
+      "colour"
+    ],
     "imageSha256": "716A94E98D053CDD084BCE3C791BF340119348A8FBDCDAB78B794A5DCEEE49DC"
   },
   {
@@ -4799,21 +4827,25 @@
   {
     "name": "BlackAndWhiteBlackWithGrayscaleFill",
     "imageAsset": "images/by-hash/d651f992d2fe4486.png",
-    "keywords": [],
+    "keywords": [
+      "strip"
+    ],
     "imageSha256": "D651F992D2FE448640BDDAADF9112E2C38B325AD084A4D6A380F660C3A4F1C41"
   },
   {
     "name": "BlackAndWhiteBlackWithWhiteFill",
     "imageAsset": "images/by-hash/6e24a2b5aad26386.png",
-    "keywords": [],
+    "keywords": [
+      "square"
+    ],
     "imageSha256": "6E24A2B5AAD26386B96C707499324B83B3BFB3741D8F72ABEBE33FDAF51F4A80"
   },
   {
     "name": "BlackAndWhiteDontShow",
     "imageAsset": "images/by-hash/bfee4f7602ee7bcf.png",
     "keywords": [
-      "find",
-      "lookup"
+      "diagonal",
+      "square"
     ],
     "imageSha256": "BFEE4F7602EE7BCFA1B7EB8E174D82FD9EB384E7A839705189AFFDC5A7DF2273"
   },
@@ -4826,7 +4858,9 @@
   {
     "name": "BlackAndWhiteGrayWithWhiteFill",
     "imageAsset": "images/by-hash/0674be44867ea8e7.png",
-    "keywords": [],
+    "keywords": [
+      "square"
+    ],
     "imageSha256": "0674BE44867EA8E7A958C8CE9EC57ACB7BD286FBBE1FD212ACEC653BF59B857C"
   },
   {
@@ -4885,12 +4919,10 @@
     "name": "BlogCategoriesRefresh",
     "imageAsset": "images/by-hash/740882e026184acf.png",
     "keywords": [
-      "graph",
-      "grid",
+      "document",
+      "file",
       "reload",
-      "update",
-      "visualisation",
-      "visualization"
+      "update"
     ],
     "imageSha256": "740882E026184ACFEB7C1F90154DF46426E74067B6B08A9F9CBA7844A2A605A5"
   },
@@ -4903,10 +4935,7 @@
     "name": "BlogHomePage",
     "imageAsset": "images/by-hash/cc7405a103b44a17.png",
     "keywords": [
-      "find",
-      "launch",
-      "lookup",
-      "show"
+      "house"
     ],
     "imageSha256": "CC7405A103B44A171BAA06C881D42DE6EEBC27A2E5E556796E812AF177341713"
   },
@@ -4936,7 +4965,12 @@
   {
     "name": "BlogPublish",
     "imageAsset": "images/by-hash/2cc34b9c900b5e8b.png",
-    "keywords": [],
+    "keywords": [
+      "arrow",
+      "document",
+      "file",
+      "lookup"
+    ],
     "imageSha256": "2CC34B9C900B5E8BE3F6F8A1CAA0CEC0766F5B4E19E95A1D02E8EBAABD5D83D3"
   },
   {

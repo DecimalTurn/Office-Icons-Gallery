@@ -1687,5 +1687,100 @@
   ],
   "ApplyCommaFormat": [
     "appearance"
+  ],
+  "ApplyCssStyles": [
+    "alphabet",
+    "arrow",
+    "document",
+    "file",
+    "letter",
+    "right"
+  ],
+  "BevelShapeGallery": [
+    "square"
+  ],
+  "BevelTextGallery": [
+    "a",
+    "alphabet",
+    "letter"
+  ],
+  "BibliographyAddNewPlaceholder": [
+    "document",
+    "file",
+    "mark",
+    "minus",
+    "question"
+  ],
+  "BibliographyAddNewSource": [
+    "book",
+    "create",
+    "insert",
+    "plus"
+  ],
+  "BibliographyGallery": [
+    "arrow",
+    "book",
+    "right"
+  ],
+  "BibliographyManageSources": [],
+  "BibliographyStyle": [
+    "book",
+    "paintbrush"
+  ],
+  "BizBarPublishToSharePoint": [
+    "directory",
+    "folder"
+  ],
+  "BlackAndWhite": [
+    "color",
+    "colour"
+  ],
+  "BlackAndWhiteAutomatic": [
+    "colour"
+  ],
+  "BlackAndWhiteBlack": [],
+  "BlackAndWhiteBlackWithGrayscaleFill": [
+    "strip"
+  ],
+  "BlackAndWhiteBlackWithWhiteFill": [
+    "square"
+  ],
+  "BlackAndWhiteDontShow": [
+    "diagonal",
+    "square"
+  ],
+  "BlackAndWhiteGrayscale": [],
+  "BlackAndWhiteGrayWithWhiteFill": [
+    "square"
+  ],
+  "BlackAndWhiteInverseGrayscale": [],
+  "BlackAndWhiteLightGrayscale": [],
+  "BlankRowInsert": [
+    "add",
+    "create",
+    "grid"
+  ],
+  "BlogCategoriesRefresh": [
+    "document",
+    "file",
+    "reload",
+    "update"
+  ],
+  "BlogHomePage": [
+    "house"
+  ],
+  "BlogOpenExisting": [
+    "directory",
+    "document",
+    "launch",
+    "lookup",
+    "search",
+    "show"
+  ],
+  "BlogPublish": [
+    "arrow",
+    "document",
+    "file",
+    "lookup"
   ]
 }
