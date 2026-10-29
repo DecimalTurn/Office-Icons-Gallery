@@ -26,7 +26,7 @@ It also creates one `images/by-hash/` asset per unique PNG and stores each icon'
 
 ## Acknowledgements
 
-This project began as a fork of [OfficeIconGallery](https://github.com/kriede/OfficeIconGallery) by [kriede](https://github.com/kriede). The original project and its contributions remain attributable to their original author.
+This project began as a fork of [OfficeIconGallery](https://github.com/kriede/OfficeIconGallery) by [kriede](https://github.com/kriede). The original project and its contributions remain attributable to their original author. Regarding the list of icons, it was expanded using the reference provided in [christianarielli/ImageMso](https://github.com/christianarielli/ImageMso.).
 
 ## License
 
