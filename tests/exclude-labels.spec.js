@@ -50,7 +50,7 @@ test("hides image labels and packs a page of icons into a dense grid", async ({ 
 
   await excludeLabels.check();
 
-  await expect(page).toHaveURL(/\/index\.html\?ExcludeLabels=1$/);
+  await expect(page).toHaveURL(/\/index\.html\?exclude_labels=1$/);
   await expect(excludeLabels).toBeChecked();
   await expect(page.locator("#search-result-count")).toBeHidden();
   await expect(page.locator(".mso-list")).toHaveClass(/labels-hidden/);
@@ -80,7 +80,7 @@ test("hides image labels and packs a page of icons into a dense grid", async ({ 
 
 test("keeps the dense label-free view across search, filters, and pages", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
-  await page.goto("/index.html?SearchMso=sun&ExcludeLabels=1");
+  await page.goto("/index.html?SearchMso=sun&exclude_labels=1");
 
   await expect(page.locator("#search-result-count")).toHaveText("2 icons found");
   await expect(page.locator(".mso-list li")).toHaveCount(2);
@@ -89,7 +89,7 @@ test("keeps the dense label-free view across search, filters, and pages", async 
 
   await page.getByRole("button", { name: "Clear search" }).click();
 
-  await expect(page).toHaveURL(/\/index\.html\?ExcludeLabels=1$/);
+  await expect(page).toHaveURL(/\/index\.html\?exclude_labels=1$/);
   await expect(page.locator("#search-result-count")).toBeHidden();
   await expect(page.locator(".mso-list")).toHaveClass(/labels-hidden/);
   await expect(page.locator(".mso-list li span").first()).toBeHidden();
@@ -97,16 +97,16 @@ test("keeps the dense label-free view across search, filters, and pages", async 
   await page.getByRole("checkbox", { name: "Exclude placeholder images" }).check();
 
   await expect(page).toHaveURL(/exclude_placeholders=1/);
-  await expect(page).toHaveURL(/ExcludeLabels=1/);
-  await expect(page).not.toHaveURL(/SearchMso|Page=/);
+  await expect(page).toHaveURL(/exclude_labels=1/);
+  await expect(page).not.toHaveURL(/SearchMso|Page=|ExcludeLabels|ExcludeDuplicateImages/);
   await expect(page.locator(".mso-list li span").first()).toBeHidden();
   await expect(page.locator("#search-result-count")).toBeVisible();
 
-  await page.goto("/index.html?ExcludeLabels=1");
+  await page.goto("/index.html?exclude_labels=1");
   await expect(page.locator(".mso-list li")).toHaveCount(500);
   await page.getByRole("button", { name: "Next" }).first().click();
 
-  await expect(page).toHaveURL(/\/index\.html\?ExcludeLabels=1&page=2$/);
+  await expect(page).toHaveURL(/\/index\.html\?exclude_labels=1&page=2$/);
   await expect(page.locator(".page-status").first()).toContainText("Page 2 of");
   await expect(page.locator(".mso-list li span").first()).toBeHidden();
 

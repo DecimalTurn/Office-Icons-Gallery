@@ -90,7 +90,9 @@
       const legacyQueryParams = [
         ["SearchMso", "search_mso"],
         ["Page", "page"],
-        ["ExcludePlaceholders", "exclude_placeholders"]
+        ["ExcludePlaceholders", "exclude_placeholders"],
+        ["ExcludeLabels", "exclude_labels"],
+        ["ExcludeDuplicateImages", "exclude_duplicate_images"]
       ];
       let migratedQueryParams = false;
       legacyQueryParams.forEach(([legacyName, queryName]) => {
@@ -118,8 +120,8 @@
         searchInput.focus();
       }
       excludePlaceholdersInput.checked = urlSearchParams.get("exclude_placeholders") === "1";
-      excludeLabelsInput.checked = urlSearchParams.get("ExcludeLabels") === "1";
-      excludeDuplicateImagesInput.checked = urlSearchParams.get("ExcludeDuplicateImages") === "1";
+      excludeLabelsInput.checked = urlSearchParams.get("exclude_labels") === "1";
+      excludeDuplicateImagesInput.checked = urlSearchParams.get("exclude_duplicate_images") === "1";
       iconList.classList.toggle("labels-hidden", excludeLabelsInput.checked);
       updateSearchClearButton();
 
@@ -161,14 +163,14 @@
         }
         url.searchParams.delete("page");
         if (excludeLabelsInput.checked) {
-          url.searchParams.set("ExcludeLabels", "1");
+          url.searchParams.set("exclude_labels", "1");
         } else {
-          url.searchParams.delete("ExcludeLabels");
+          url.searchParams.delete("exclude_labels");
         }
         if (excludeDuplicateImagesInput.checked) {
-          url.searchParams.set("ExcludeDuplicateImages", "1");
+          url.searchParams.set("exclude_duplicate_images", "1");
         } else {
-          url.searchParams.delete("ExcludeDuplicateImages");
+          url.searchParams.delete("exclude_duplicate_images");
         }
 
         window.location.href = url.href;

@@ -23,10 +23,17 @@ test("pagination state is shareable through the URL", async ({ page }) => {
 });
 
 test("migrates legacy gallery query parameters to snake_case", async ({ page }) => {
-  await page.goto("/index.html?Page=2&ExcludePlaceholders=1");
+  await page.goto("/index.html?Page=2&ExcludePlaceholders=1&ExcludeLabels=1&ExcludeDuplicateImages=1");
 
-  await expect(page).toHaveURL(/page=2&exclude_placeholders=1$/);
+  await expect.poll(() => Object.fromEntries(new URL(page.url()).searchParams)).toEqual({
+    page: "2",
+    exclude_placeholders: "1",
+    exclude_labels: "1",
+    exclude_duplicate_images: "1"
+  });
   await expect(page.getByRole("checkbox", { name: "Exclude placeholder images" })).toBeChecked();
+  await expect(page.getByRole("checkbox", { name: "Hide image labels" })).toBeChecked();
+  await expect(page.getByRole("checkbox", { name: "Exclude duplicate images" })).toBeChecked();
   await expect(page.locator(".page-status").first()).toContainText("Page 2 of");
 });
 
