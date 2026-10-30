@@ -1,0 +1,28 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ObjectEditShapeMenu",
+      "imageAsset": "images/by-hash/bc418a9f0b960640.png"
+    },
+    {
+      "name": "ObjectEditDialog",
+      "imageAsset": "images/by-hash/a861dadff9421bea.png"
+    },
+    {
+      "name": "ObjectEditPoints",
+      "imageAsset": "images/by-hash/bc418a9f0b960640.png"
+    },
+    {
+      "name": "ObjectEditText",
+      "imageAsset": "images/by-hash/8187ee8d4735072e.png"
+    },
+    {
+      "name": "ShapeSheetEditFormula",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    }
+  ],
+  "sameImageIds": [
+    "ObjectEditPoints",
+    "ObjectEditShapeMenu"
+  ]
+}

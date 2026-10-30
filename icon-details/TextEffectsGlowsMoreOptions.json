@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GlowsMoreOptions",
+      "imageAsset": "images/by-hash/db1f59cac197d5de.png"
+    },
+    {
+      "name": "_3DEffectsGalleryClassic",
+      "imageAsset": "images/by-hash/7e8b56359c980dd8.png"
+    },
+    {
+      "name": "_3DEffectsOnOffClassic",
+      "imageAsset": "images/by-hash/80b52f37f2b6692a.png"
+    },
+    {
+      "name": "ArtisticEffectsDialog",
+      "imageAsset": "images/by-hash/6ba4f4a6160a8d70.png"
+    },
+    {
+      "name": "Group3DEffects",
+      "imageAsset": "images/by-hash/cba7c0795e843fbd.png"
+    },
+    {
+      "name": "GroupEffects",
+      "imageAsset": "images/by-hash/7e8b56359c980dd8.png"
+    },
+    {
+      "name": "GroupPictureEffects",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "GroupPictureToolsClassicEffects",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "GroupShadowEffects",
+      "imageAsset": "images/by-hash/08d6d653088a4eac.png"
+    },
+    {
+      "name": "GroupTextEffects",
+      "imageAsset": "images/by-hash/072804a1dbcf71ca.png"
+    },
+    {
+      "name": "PictureArtisticEffectsGallery",
+      "imageAsset": "images/by-hash/86f7d2aaef32aa66.png"
+    },
+    {
+      "name": "PictureArtisticEffectsReset",
+      "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+    }
+  ],
+  "sameImageIds": [
+    "GlowsMoreOptions",
+    "ObjectEffectGlowGallery"
+  ]
+}

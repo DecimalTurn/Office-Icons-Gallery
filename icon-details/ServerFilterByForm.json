@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ServerFilterApply",
+      "imageAsset": "images/by-hash/721678c0a7e5e825.png"
+    },
+    {
+      "name": "FilterAdvancedByForm",
+      "imageAsset": "images/by-hash/0472459ab35af6fc.png"
+    },
+    {
+      "name": "ConnectToServer",
+      "imageAsset": "images/by-hash/f6aa2080fed8d170.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckClientObjects",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckDatabase",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckObject",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckOpenTable",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckRun",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckWebObjects",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseSqlServer",
+      "imageAsset": "images/by-hash/3f3bce757b8b81a7.png"
+    },
+    {
+      "name": "DataFromOfficeServer",
+      "imageAsset": "images/by-hash/aa99ad79862a8798.png"
+    },
+    {
+      "name": "DataSourceCatalogServerScript",
+      "imageAsset": "images/by-hash/12112a45fa5c84b7.png"
+    }
+  ],
+  "sameImageIds": [
+    "FilterAdvancedByForm"
+  ]
+}

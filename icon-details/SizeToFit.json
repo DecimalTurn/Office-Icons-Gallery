@@ -1,0 +1,61 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SizeToFitAccess",
+      "imageAsset": "images/by-hash/1a818d7a07dd3cd5.png"
+    },
+    {
+      "name": "AsianLayoutFitText",
+      "imageAsset": "images/by-hash/f65954aad1f1e694.png"
+    },
+    {
+      "name": "BestFit",
+      "imageAsset": "images/by-hash/317f27be1f20e9a3.png"
+    },
+    {
+      "name": "CalendarViewWeekHeightBestFit",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "DiagramFitToContentsClassic",
+      "imageAsset": "images/by-hash/2fef15dde34fdfb9.png"
+    },
+    {
+      "name": "DrawingCanvasFit",
+      "imageAsset": "images/by-hash/2fef15dde34fdfb9.png"
+    },
+    {
+      "name": "FitToContents",
+      "imageAsset": "images/by-hash/b04cb80a831af576.png"
+    },
+    {
+      "name": "GroupPageLayoutScaleToFit",
+      "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+    },
+    {
+      "name": "OrgChartFitToPage",
+      "imageAsset": "images/by-hash/2fef15dde34fdfb9.png"
+    },
+    {
+      "name": "PageFitToDrawing",
+      "imageAsset": "images/by-hash/a5261425578a6472.png"
+    },
+    {
+      "name": "PageScaleToFitHeight",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "PageScaleToFitOptionsDialog",
+      "imageAsset": "images/by-hash/0749ae8aa9888505.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupControlPositionLayout",
+    "GroupControlSize",
+    "GroupMarginsAndPaddingControlLayout",
+    "GroupPositionLayout",
+    "GroupSizeAndPosition",
+    "GroupSizingAndOrdering",
+    "SizeToFitAccess"
+  ]
+}

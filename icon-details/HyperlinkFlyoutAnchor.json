@@ -1,0 +1,78 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FlyoutAnchorJotRecord",
+      "imageAsset": "images/by-hash/b9f7997a6d333fcc.png"
+    },
+    {
+      "name": "FlyoutAnchorOpenMenu",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "FlyoutAnchorTableInsertMenu",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "JustifyVerticalFlyoutAnchor",
+      "imageAsset": "images/by-hash/c1d643ca366c9fb4.png"
+    },
+    {
+      "name": "ProofingToolsFlyoutAnchor",
+      "imageAsset": "images/by-hash/00cd4d0b28c70c30.png"
+    },
+    {
+      "name": "PivotTableSelectFlyout",
+      "imageAsset": "images/by-hash/1bdc0ebd3832afae.png"
+    },
+    {
+      "name": "AutoSigWebInsertHyperlink",
+      "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+    },
+    {
+      "name": "BuildHyperlink",
+      "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+    },
+    {
+      "name": "CodeHyperlinkBack",
+      "imageAsset": "images/by-hash/2d5c13dc835ab204.png"
+    },
+    {
+      "name": "CodeHyperlinkForward",
+      "imageAsset": "images/by-hash/1c154a02c8cf0fb0.png"
+    },
+    {
+      "name": "DataTypeHyperlink",
+      "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+    },
+    {
+      "name": "EditHyperlink",
+      "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+    }
+  ],
+  "sameImageIds": [
+    "AutoSigWebInsertHyperlink",
+    "BuildHyperlink",
+    "DataTypeHyperlink",
+    "DetectURLs",
+    "EditHyperlink",
+    "GanttTaskLink",
+    "GetLinks",
+    "GroupBlogInsertLinks",
+    "GroupInsertLinks",
+    "GroupLink",
+    "GroupLinking",
+    "GroupWebPageNavigation",
+    "HyperlinkControl",
+    "HyperlinkCreateHere",
+    "HyperlinkEdit",
+    "HyperlinkInsert",
+    "HyperlinkInsertPowerPoint",
+    "HyperlinkProperties",
+    "InsertLink",
+    "LinkTasksMenu",
+    "NewExternalNavigationLink",
+    "TasksLink",
+    "TextBoxLinkCreate",
+    "VisioHyperlinkInsert"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CustomizeMySite",
+      "imageAsset": "images/by-hash/93781d39d8f61aa1.png"
+    },
+    {
+      "name": "CustomizeSearchFolder",
+      "imageAsset": "images/by-hash/5eca02018885dfc7.png"
+    },
+    {
+      "name": "CustomizeXSLTMenu",
+      "imageAsset": "images/by-hash/daf258dce7e70476.png"
+    },
+    {
+      "name": "GroupCustomizeThemeOptions",
+      "imageAsset": "images/by-hash/f49b012b69437cca.png"
+    },
+    {
+      "name": "GroupInfoPathInkPens",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "GroupInkPens",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "GroupPens",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "GroupPensOneNote",
+      "imageAsset": "images/by-hash/af7fb8212f59b1d1.png"
+    },
+    {
+      "name": "GroupPensWrite",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "NumberingCustomize",
+      "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+    },
+    {
+      "name": "OmsCustomizeLayout",
+      "imageAsset": "images/by-hash/6b84ae529df0daa2.png"
+    },
+    {
+      "name": "PensGallery",
+      "imageAsset": "images/by-hash/af7fb8212f59b1d1.png"
+    }
+  ],
+  "sameImageIds": []
+}

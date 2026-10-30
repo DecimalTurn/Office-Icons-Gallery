@@ -1,0 +1,41 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ShapeRectangle",
+      "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+    },
+    {
+      "name": "ShapeRoundedRectangle",
+      "imageAsset": "images/by-hash/7d1190827187ab7c.png"
+    },
+    {
+      "name": "JotShapeDiamond",
+      "imageAsset": "images/by-hash/05a8d329c0c74612.png"
+    },
+    {
+      "name": "JotShapeEllipse",
+      "imageAsset": "images/by-hash/0d0be72abd020311.png"
+    },
+    {
+      "name": "JotShapeParallelogram",
+      "imageAsset": "images/by-hash/32b7c69a5b375b50.png"
+    },
+    {
+      "name": "ControlRectangle",
+      "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+    },
+    {
+      "name": "DrawFilledRectangle",
+      "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+    },
+    {
+      "name": "RectangleHotspot",
+      "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+    },
+    {
+      "name": "RectangleTool",
+      "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+    }
+  ],
+  "sameImageIds": []
+}

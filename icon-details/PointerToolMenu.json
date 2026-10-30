@@ -1,0 +1,40 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PenAsPointerMode",
+      "imageAsset": "images/by-hash/a56fc6b986b4bbde.png"
+    },
+    {
+      "name": "Pointer",
+      "imageAsset": "images/by-hash/e00c5c7bb6f2c7fc.png"
+    },
+    {
+      "name": "PointerModeOptions",
+      "imageAsset": "images/by-hash/d791773c4f89ae91.png"
+    },
+    {
+      "name": "PointerTool",
+      "imageAsset": "images/by-hash/e00c5c7bb6f2c7fc.png"
+    },
+    {
+      "name": "PointerToolSpd",
+      "imageAsset": "images/by-hash/e00c5c7bb6f2c7fc.png"
+    }
+  ],
+  "sameImageIds": [
+    "CodeSelectMenu",
+    "GroupInkSelect",
+    "GroupSelection",
+    "GroupTable",
+    "ObjectsSelect",
+    "Pointer",
+    "PointerTool",
+    "PointerToolSpd",
+    "SelectMenu",
+    "SelectMenuAccess",
+    "SelectObjects",
+    "SelectRecord",
+    "TableSelectMenu",
+    "TableSelectMenuPowerPoint"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BrightnessAndContrastEdit",
+      "imageAsset": "images/by-hash/e90138bc74e971f1.png"
+    },
+    {
+      "name": "ContrastLess",
+      "imageAsset": "images/by-hash/695d569b515be322.png"
+    },
+    {
+      "name": "ContrastMore",
+      "imageAsset": "images/by-hash/ee3583da576b2ab4.png"
+    },
+    {
+      "name": "Drawing1GalleryContrast",
+      "imageAsset": "images/by-hash/73b12724fec13c12.png"
+    },
+    {
+      "name": "PictureBrightnessAndContrastGallery",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "PictureContrastGallery",
+      "imageAsset": "images/by-hash/73b12724fec13c12.png"
+    },
+    {
+      "name": "ViewDisplayInHighContrast",
+      "imageAsset": "images/by-hash/66b927535f38865f.png"
+    },
+    {
+      "name": "AudioAndVideoGiveFeedback",
+      "imageAsset": "images/by-hash/17cc4e91fcc92c9b.png"
+    },
+    {
+      "name": "AudioVideoSettings",
+      "imageAsset": "images/by-hash/bd06a0fb29933d42.png"
+    },
+    {
+      "name": "ContactCardVideoCall",
+      "imageAsset": "images/by-hash/950b456ae0756ce5.png"
+    },
+    {
+      "name": "ExportToVideo",
+      "imageAsset": "images/by-hash/77cf8098f872139c.png"
+    },
+    {
+      "name": "GroupAudioVideoRecordingOptions",
+      "imageAsset": "images/by-hash/bd06a0fb29933d42.png"
+    }
+  ],
+  "sameImageIds": [
+    "Drawing1GalleryContrast",
+    "PictureContrastGallery"
+  ]
+}

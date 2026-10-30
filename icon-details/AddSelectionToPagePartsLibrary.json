@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddSelectionToAccentsLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToAdvertisementLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToBusinessInformationLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToCalendarsLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToContentLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToTextLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToVertTextLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "CustomQuickPartsGallery",
+      "imageAsset": "images/by-hash/e8587442c1dbbff4.png"
+    },
+    {
+      "name": "GroupDiagramParts",
+      "imageAsset": "images/by-hash/7610de93334dbed8.png"
+    },
+    {
+      "name": "GroupWebParts",
+      "imageAsset": "images/by-hash/ccf129d889722797.png"
+    },
+    {
+      "name": "InsertBuildingBlocksCommonPartsGallery",
+      "imageAsset": "images/by-hash/e8587442c1dbbff4.png"
+    },
+    {
+      "name": "MorePagePartsInsert",
+      "imageAsset": "images/by-hash/e8587442c1dbbff4.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddSelectionToAccentsLibrary",
+    "AddSelectionToAdvertisementLibrary",
+    "AddSelectionToBusinessInformationLibrary",
+    "AddSelectionToCalendarsLibrary",
+    "AddSelectionToContentLibrary",
+    "AddSelectionToTextLibrary",
+    "AddSelectionToVertTextLibrary",
+    "AddToContentStore"
+  ]
+}

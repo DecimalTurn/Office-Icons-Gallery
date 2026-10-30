@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CreateWebServiceConnection",
+      "imageAsset": "images/by-hash/699b40367d81b599.png"
+    },
+    {
+      "name": "DataFromRESTWebService",
+      "imageAsset": "images/by-hash/12112a45fa5c84b7.png"
+    },
+    {
+      "name": "DataFromSOAPWebService",
+      "imageAsset": "images/by-hash/6c47b422fb9cec32.png"
+    },
+    {
+      "name": "DataSubmitToWebService",
+      "imageAsset": "images/by-hash/17f56f580b441277.png"
+    },
+    {
+      "name": "IconServiceDefault",
+      "imageAsset": "images/by-hash/acd07aef3fcbd50a.png"
+    }
+  ],
+  "sameImageIds": []
+}

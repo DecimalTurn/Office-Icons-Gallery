@@ -1,0 +1,19 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EverythingElseGiveFeedback",
+      "imageAsset": "images/by-hash/860e1805399fa093.png"
+    },
+    {
+      "name": "InsertBranch",
+      "imageAsset": "images/by-hash/0e363d8ff7edb8a7.png"
+    },
+    {
+      "name": "OrganizationChartSelectBranch",
+      "imageAsset": "images/by-hash/fecbb09d41d02c94.png"
+    }
+  ],
+  "sameImageIds": [
+    "InsertBranch"
+  ]
+}

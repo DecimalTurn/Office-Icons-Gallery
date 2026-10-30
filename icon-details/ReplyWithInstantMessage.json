@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ContactCardReplyWithInstantMessage",
+      "imageAsset": "images/by-hash/57d1bb90bfbd9267.png"
+    },
+    {
+      "name": "ReplyAllWithInstantMessage",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "ContactCardDefaultSendInstantMessage",
+      "imageAsset": "images/by-hash/09795bc87c775160.png"
+    },
+    {
+      "name": "ContactCardInstantMessageAddToOutlookContacts",
+      "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+    },
+    {
+      "name": "ContactCardSendInstantMessage",
+      "imageAsset": "images/by-hash/09795bc87c775160.png"
+    },
+    {
+      "name": "ReplyToAllAttendeesWithMessage",
+      "imageAsset": "images/by-hash/7b3a0741c95874c2.png"
+    },
+    {
+      "name": "ReplyToAttendeesWithMessage",
+      "imageAsset": "images/by-hash/40fe8321a3ca61b1.png"
+    },
+    {
+      "name": "InstantSearch",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "ContactCardReplyAllEmail",
+      "imageAsset": "images/by-hash/7b3a0741c95874c2.png"
+    },
+    {
+      "name": "PersonaReplyAllByIMMenu",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "PersonaReplyByIMMenu",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "PostReply",
+      "imageAsset": "images/by-hash/284058bf50d3d773.png"
+    }
+  ],
+  "sameImageIds": [
+    "ContactCardAddToIMContacts",
+    "IMMenu",
+    "PersonaAddToMessengerMenu",
+    "PersonaReplyAllByIMMenu",
+    "PersonaReplyByIMMenu",
+    "PersonaSendIMMenu",
+    "QuickSearchHasIMAddress",
+    "ReplyAllWithInstantMessage"
+  ]
+}

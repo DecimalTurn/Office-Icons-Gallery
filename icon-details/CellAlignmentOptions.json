@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TableCellAlignmentGallery",
+      "imageAsset": "images/by-hash/47fa033b124548f6.png"
+    },
+    {
+      "name": "EquationVerticalAlignmentBottom",
+      "imageAsset": "images/by-hash/9e4865767b39d50c.png"
+    },
+    {
+      "name": "EquationVerticalAlignmentCenter",
+      "imageAsset": "images/by-hash/62510396ad5969d1.png"
+    },
+    {
+      "name": "EquationVerticalAlignmentTop",
+      "imageAsset": "images/by-hash/2e90b564353180a5.png"
+    },
+    {
+      "name": "GroupAlignment",
+      "imageAsset": "images/by-hash/47fa033b124548f6.png"
+    },
+    {
+      "name": "GroupAlignmentExcel",
+      "imageAsset": "images/by-hash/19cf1467127373c6.png"
+    },
+    {
+      "name": "GroupControlAlignment",
+      "imageAsset": "images/by-hash/6681fe487d168071.png"
+    },
+    {
+      "name": "GroupControlAlignmentLayout",
+      "imageAsset": "images/by-hash/6681fe487d168071.png"
+    },
+    {
+      "name": "GroupTableAlignment",
+      "imageAsset": "images/by-hash/47fa033b124548f6.png"
+    },
+    {
+      "name": "InsertAlignmentTab",
+      "imageAsset": "images/by-hash/d150b160fa2e1d40.png"
+    },
+    {
+      "name": "ParagraphAlignmentMenu",
+      "imageAsset": "images/by-hash/9a721c9b12989d11.png"
+    },
+    {
+      "name": "PivotDiagramAlignment",
+      "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+    }
+  ],
+  "sameImageIds": []
+}

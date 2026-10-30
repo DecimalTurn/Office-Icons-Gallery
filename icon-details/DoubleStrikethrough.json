@@ -1,0 +1,37 @@
+{
+  "relatedIcons": [
+    {
+      "name": "Strikethrough",
+      "imageAsset": "images/by-hash/ca28ab5ecfaee165.png"
+    },
+    {
+      "name": "BorderDoubleBottom",
+      "imageAsset": "images/by-hash/8a94cf62a5f1aaa8.png"
+    },
+    {
+      "name": "BorderTopAndDoubleBottom",
+      "imageAsset": "images/by-hash/028185ee930a8dd8.png"
+    },
+    {
+      "name": "DoubleArrow",
+      "imageAsset": "images/by-hash/d8a12eb0d19ccd67.png"
+    },
+    {
+      "name": "DoubleBottomBorder",
+      "imageAsset": "images/by-hash/8a94cf62a5f1aaa8.png"
+    },
+    {
+      "name": "JotInsertElbowLineDoubleArrow",
+      "imageAsset": "images/by-hash/e264e22e5d00fb31.png"
+    },
+    {
+      "name": "SpacingDouble",
+      "imageAsset": "images/by-hash/b5bbc0c143a72672.png"
+    },
+    {
+      "name": "UnderlineDouble",
+      "imageAsset": "images/by-hash/016e865f8c904a81.png"
+    }
+  ],
+  "sameImageIds": []
+}

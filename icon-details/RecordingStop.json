@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AudioRecordingInsert",
+      "imageAsset": "images/by-hash/948196d5243d4a4c.png"
+    },
+    {
+      "name": "GroupAudioVideoRecordingOptions",
+      "imageAsset": "images/by-hash/bd06a0fb29933d42.png"
+    },
+    {
+      "name": "JotANStartRecording",
+      "imageAsset": "images/by-hash/e48376b597da74a6.png"
+    },
+    {
+      "name": "JotAudioStartRecording",
+      "imageAsset": "images/by-hash/b9f7997a6d333fcc.png"
+    },
+    {
+      "name": "RecordingPause",
+      "imageAsset": "images/by-hash/3a86896459d04314.png"
+    },
+    {
+      "name": "RecordingPlay",
+      "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+    },
+    {
+      "name": "VideoRecordingInsert",
+      "imageAsset": "images/by-hash/d3b90fe930168345.png"
+    },
+    {
+      "name": "AutoLinkingStop",
+      "imageAsset": "images/by-hash/71dee70b48fca71d.png"
+    },
+    {
+      "name": "CDAudioStopTime",
+      "imageAsset": "images/by-hash/c38f44103fadbac2.png"
+    },
+    {
+      "name": "CDAudioStopTrack",
+      "imageAsset": "images/by-hash/1717741d790f74d2.png"
+    },
+    {
+      "name": "InkStopInkingReadingView",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "JotANStopPlayback",
+      "imageAsset": "images/by-hash/3814a7700dd50fe4.png"
+    }
+  ],
+  "sameImageIds": [
+    "JotANStopPlayback",
+    "MacroRecorderStop",
+    "RecorderStopVisio"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotCollapseField",
+      "imageAsset": "images/by-hash/94309facf94a1836.png"
+    },
+    {
+      "name": "PivotTableFieldListCollapseAll",
+      "imageAsset": "images/by-hash/94309facf94a1836.png"
+    },
+    {
+      "name": "GroupPivotChartActiveFieldAccess",
+      "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+    },
+    {
+      "name": "GroupPivotTableActiveFieldAccess",
+      "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+    },
+    {
+      "name": "PivotDiagramCollapse",
+      "imageAsset": "images/by-hash/ab0d85b1f2391b36.png"
+    },
+    {
+      "name": "GroupPivotChartActiveField",
+      "imageAsset": "images/by-hash/b7251f21e7b5bbae.png"
+    },
+    {
+      "name": "GroupPivotTableActiveField",
+      "imageAsset": "images/by-hash/b7251f21e7b5bbae.png"
+    },
+    {
+      "name": "PivotChartShowFieldButtons",
+      "imageAsset": "images/by-hash/343b4155affdf05f.png"
+    },
+    {
+      "name": "PivotChartShowFieldButtonsMenu",
+      "imageAsset": "images/by-hash/343b4155affdf05f.png"
+    },
+    {
+      "name": "PivotExpandField",
+      "imageAsset": "images/by-hash/84e120f2b40de41e.png"
+    },
+    {
+      "name": "PivotFieldList",
+      "imageAsset": "images/by-hash/294ba2e393d6032b.png"
+    },
+    {
+      "name": "PivotFieldListShowHide",
+      "imageAsset": "images/by-hash/65fdc3005a4acdbf.png"
+    }
+  ],
+  "sameImageIds": [
+    "CollapseAllActionBlocks",
+    "CollapseAllBlocks",
+    "OutlineHideDetail",
+    "PivotCollapseField",
+    "PivotTableFieldListCollapseAll"
+  ]
+}

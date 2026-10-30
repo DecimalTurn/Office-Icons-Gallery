@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CalendarMonthDetailsSplitButton",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "GroupDayWeekMonthArrangement",
+      "imageAsset": "images/by-hash/f80a7aaa0a54faa5.png"
+    },
+    {
+      "name": "MeetingsToolViewByMonth",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "MeetingsToolWorkMonth",
+      "imageAsset": "images/by-hash/7f9c1c843fc62c9c.png"
+    },
+    {
+      "name": "ViewByMonth",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "AddSelectionToBusinessInformationLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "BusinessCardInsertMenu",
+      "imageAsset": "images/by-hash/497a4f1948c9ced5.png"
+    },
+    {
+      "name": "BusinessDataEntities",
+      "imageAsset": "images/by-hash/2ceb318c72f73d59.png"
+    },
+    {
+      "name": "BusinessDataPrimaryField",
+      "imageAsset": "images/by-hash/057759d52550730d.png"
+    },
+    {
+      "name": "BusinessDataSyncWithLocalCache",
+      "imageAsset": "images/by-hash/e32569309eaf06fa.png"
+    },
+    {
+      "name": "BusinessFormWizard",
+      "imageAsset": "images/by-hash/ff2b8b263256718d.png"
+    },
+    {
+      "name": "BusinessInfoGallery",
+      "imageAsset": "images/by-hash/b879f550bf981aae.png"
+    }
+  ],
+  "sameImageIds": [
+    "MeetingsToolWorkMonth"
+  ]
+}

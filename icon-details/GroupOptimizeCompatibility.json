@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OptimizeHtml",
+      "imageAsset": "images/by-hash/02f7a71ee91b2db6.png"
+    },
+    {
+      "name": "CompatibilityReports",
+      "imageAsset": "images/by-hash/ccffa2d1204f844d.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckClientObjects",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckDatabase",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckObject",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckOpenTable",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckRun",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckWebObjects",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "FileCompatibilityChecker",
+      "imageAsset": "images/by-hash/168925a6db937c0e.png"
+    },
+    {
+      "name": "FileCompatibilityCheckerPowerPoint",
+      "imageAsset": "images/by-hash/05715540b1645725.png"
+    },
+    {
+      "name": "FileCompatibilityCheckerWord",
+      "imageAsset": "images/by-hash/cf6b73a16cf53f89.png"
+    },
+    {
+      "name": "FunctionsCompatibility",
+      "imageAsset": "images/by-hash/e1db9c3e230dcd47.png"
+    }
+  ],
+  "sameImageIds": []
+}

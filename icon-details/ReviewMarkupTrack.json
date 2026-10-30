@@ -1,0 +1,60 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReviewTrackChanges",
+      "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+    },
+    {
+      "name": "ReviewTrackChangesMenu",
+      "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+    },
+    {
+      "name": "ReviewDeleteAllMarkupInPresentation",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "ReviewDeleteAllMarkupOnSlide",
+      "imageAsset": "images/by-hash/7b7295af1530cd0c.png"
+    },
+    {
+      "name": "ReviewDeleteMarkup",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ReviewMarkupNext",
+      "imageAsset": "images/by-hash/0ee7ef56b0fdb5a3.png"
+    },
+    {
+      "name": "ReviewMarkupPrevious",
+      "imageAsset": "images/by-hash/730591bb5fb612a1.png"
+    },
+    {
+      "name": "ReviewShowMarkupMenu",
+      "imageAsset": "images/by-hash/156b137c27e114f8.png"
+    },
+    {
+      "name": "ReviewShowOrHideMarkup",
+      "imageAsset": "images/by-hash/e78cab15f948c015.png"
+    },
+    {
+      "name": "CDAudioPlayTrackAutomatically",
+      "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+    },
+    {
+      "name": "CDAudioStartTrack",
+      "imageAsset": "images/by-hash/6805ad7549fb04e1.png"
+    },
+    {
+      "name": "CDAudioStopTrack",
+      "imageAsset": "images/by-hash/1717741d790f74d2.png"
+    }
+  ],
+  "sameImageIds": [
+    "EditDocument",
+    "EditItem",
+    "GroupMarkup",
+    "LeaveReader",
+    "MailMergeFieldFormatMenu",
+    "ReviseContents"
+  ]
+}

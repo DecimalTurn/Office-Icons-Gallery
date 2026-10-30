@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "RuleLinesLargeGrid",
+      "imageAsset": "images/by-hash/1ee61d970a13f929.png"
+    },
+    {
+      "name": "RuleLinesMediumGrid",
+      "imageAsset": "images/by-hash/2ebc29e94080357d.png"
+    },
+    {
+      "name": "RuleLinesVeryLargeGrid",
+      "imageAsset": "images/by-hash/96551b977bf6b04c.png"
+    },
+    {
+      "name": "RuleLinesCollege",
+      "imageAsset": "images/by-hash/73157f1a96e9c084.png"
+    },
+    {
+      "name": "RuleLinesMenu",
+      "imageAsset": "images/by-hash/6337931619ac9bc3.png"
+    },
+    {
+      "name": "RuleLinesNarrow",
+      "imageAsset": "images/by-hash/e67fbec2f727f415.png"
+    },
+    {
+      "name": "RuleLinesStandard",
+      "imageAsset": "images/by-hash/6337931619ac9bc3.png"
+    },
+    {
+      "name": "RuleLinesToggle",
+      "imageAsset": "images/by-hash/73157f1a96e9c084.png"
+    },
+    {
+      "name": "RuleLinesWide",
+      "imageAsset": "images/by-hash/f5a9ab3c13d4c1c5.png"
+    },
+    {
+      "name": "CompressMediaSmall",
+      "imageAsset": "images/by-hash/625887af43cf713e.png"
+    },
+    {
+      "name": "GroupBasicTextSmall",
+      "imageAsset": "images/by-hash/1a614d7d7f1a5953.png"
+    },
+    {
+      "name": "GroupInsertSmall",
+      "imageAsset": "images/by-hash/e0e443496fa9a016.png"
+    }
+  ],
+  "sameImageIds": []
+}

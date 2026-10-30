@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FileNewBlogPost",
+      "imageAsset": "images/by-hash/e62c2e84dff07088.png"
+    },
+    {
+      "name": "NewPostInThisFolder",
+      "imageAsset": "images/by-hash/8699c46265e08468.png"
+    },
+    {
+      "name": "NewPostInThisFolder3",
+      "imageAsset": "images/by-hash/8699c46265e08468.png"
+    },
+    {
+      "name": "PostReply",
+      "imageAsset": "images/by-hash/284058bf50d3d773.png"
+    },
+    {
+      "name": "PostReplyToFolder",
+      "imageAsset": "images/by-hash/284058bf50d3d773.png"
+    }
+  ],
+  "sameImageIds": [
+    "ExchangeFolder",
+    "NewPostInThisFolder",
+    "NewPostInThisFolder3"
+  ]
+}

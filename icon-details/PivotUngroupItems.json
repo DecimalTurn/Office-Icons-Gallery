@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotGroupItems",
+      "imageAsset": "images/by-hash/03d34847bfe6b133.png"
+    },
+    {
+      "name": "PivotShowTopAndBottomItemsMenu",
+      "imageAsset": "images/by-hash/10ff82f1292ff12f.png"
+    },
+    {
+      "name": "ContentControlsUngroup",
+      "imageAsset": "images/by-hash/a114f76642ee2f81.png"
+    },
+    {
+      "name": "ObjectsUngroup",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    },
+    {
+      "name": "ObjectsUngroupMultiple",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    },
+    {
+      "name": "ObjectsUngroupOutlook",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    },
+    {
+      "name": "OutlineUngroup",
+      "imageAsset": "images/by-hash/c031917157434ff3.png"
+    },
+    {
+      "name": "OutlineUngroupMenu",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    },
+    {
+      "name": "SparklinesUngroupSelected",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    },
+    {
+      "name": "AllModuleNameItems",
+      "imageAsset": "images/by-hash/7d0b88f74fa22558.png"
+    },
+    {
+      "name": "CloseAllItems",
+      "imageAsset": "images/by-hash/c20326749b246570.png"
+    },
+    {
+      "name": "ConditionalFormattingBottomNItems",
+      "imageAsset": "images/by-hash/05e3d54018359e6f.png"
+    }
+  ],
+  "sameImageIds": [
+    "OutlineUngroup"
+  ]
+}

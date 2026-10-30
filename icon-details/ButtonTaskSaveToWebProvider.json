@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "WebControlOptionButton",
+      "imageAsset": "images/by-hash/1d4e488ea50d958c.png"
+    },
+    {
+      "name": "ButtonTaskOfficeDiagnostic",
+      "imageAsset": "images/by-hash/d9becb9d23873f78.png"
+    },
+    {
+      "name": "ButtonTaskOfficeUpgrade",
+      "imageAsset": "images/by-hash/f1bd719a956bcd7f.png"
+    },
+    {
+      "name": "ButtonTaskSelfSupport",
+      "imageAsset": "images/by-hash/072bbff7740733ff.png"
+    },
+    {
+      "name": "FileSaveAsWebPage",
+      "imageAsset": "images/by-hash/382620ae1d543150.png"
+    },
+    {
+      "name": "GroupSaveWebPart",
+      "imageAsset": "images/by-hash/06b6f2220172ed5a.png"
+    },
+    {
+      "name": "SaveAsWebPageHtm",
+      "imageAsset": "images/by-hash/382620ae1d543150.png"
+    },
+    {
+      "name": "SaveWebPartToDisk",
+      "imageAsset": "images/by-hash/feb6c68744003105.png"
+    },
+    {
+      "name": "SaveWebPartToSiteCatalog",
+      "imageAsset": "images/by-hash/06b6f2220172ed5a.png"
+    },
+    {
+      "name": "GroupWorkflowTaskSummarySave",
+      "imageAsset": "images/by-hash/246a59d100792609.png"
+    },
+    {
+      "name": "SaveDatabaseObjectTask",
+      "imageAsset": "images/by-hash/45781e547e6af23f.png"
+    },
+    {
+      "name": "SaveDocumentTask",
+      "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+    }
+  ],
+  "sameImageIds": []
+}

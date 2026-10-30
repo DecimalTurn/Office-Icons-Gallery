@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ShareJournalFolder",
+      "imageAsset": "images/by-hash/e807794a9201c794.png"
+    },
+    {
+      "name": "GotoJournal",
+      "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+    },
+    {
+      "name": "GroupJournalArrangement",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "GroupJournalNew",
+      "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+    },
+    {
+      "name": "GroupJournalOptions",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "GroupJournalRefineSearch",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "JournalNewItemMenu",
+      "imageAsset": "images/by-hash/6b69fda49c2f26a0.png"
+    },
+    {
+      "name": "MenuJournalMoreActions",
+      "imageAsset": "images/by-hash/aa76cc8c166ebc5f.png"
+    },
+    {
+      "name": "NewJournalEntry",
+      "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+    },
+    {
+      "name": "NewJournalEntryCompact",
+      "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+    },
+    {
+      "name": "NewJournalEntryForContact",
+      "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+    },
+    {
+      "name": "OpenSharedJournal",
+      "imageAsset": "images/by-hash/ac6a1b6fe9d5b485.png"
+    }
+  ],
+  "sameImageIds": []
+}

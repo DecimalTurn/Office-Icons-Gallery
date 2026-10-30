@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AlwaysSortFoldersAtoZ",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "FilesToolShowHideFolders",
+      "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+    },
+    {
+      "name": "ImapFolders",
+      "imageAsset": "images/by-hash/5f9639c5060c2a1f.png"
+    },
+    {
+      "name": "SortFoldersAtoZ",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "ApplyCoAuthoringLock",
+      "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+    },
+    {
+      "name": "ApplyCommaFormat",
+      "imageAsset": "images/by-hash/34cb51453b945174.png"
+    },
+    {
+      "name": "ApplyCssStyles",
+      "imageAsset": "images/by-hash/a85f46fb6686a11a.png"
+    },
+    {
+      "name": "ApplyCurrencyFormat",
+      "imageAsset": "images/by-hash/85a6a3a5829b5bdb.png"
+    },
+    {
+      "name": "ApplyFilter",
+      "imageAsset": "images/by-hash/721678c0a7e5e825.png"
+    },
+    {
+      "name": "ApplyImageBackgroundFill",
+      "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+    },
+    {
+      "name": "ApplyImageBackgroundTile",
+      "imageAsset": "images/by-hash/18e3f90d57530743.png"
+    },
+    {
+      "name": "ApplyImageToBackgroundMenu",
+      "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+    }
+  ],
+  "sameImageIds": []
+}

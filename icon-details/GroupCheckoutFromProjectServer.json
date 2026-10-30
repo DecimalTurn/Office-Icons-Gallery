@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ResourcesAddFromProjectServer",
+      "imageAsset": "images/by-hash/dde6df49338d2433.png"
+    },
+    {
+      "name": "SourceSafeQuickCheckout",
+      "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+    },
+    {
+      "name": "VersionsAndCheckout",
+      "imageAsset": "images/by-hash/900cf1bee3c78291.png"
+    },
+    {
+      "name": "ConnectToServer",
+      "imageAsset": "images/by-hash/f6aa2080fed8d170.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckClientObjects",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckDatabase",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckObject",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckOpenTable",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckRun",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckWebObjects",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseSqlServer",
+      "imageAsset": "images/by-hash/3f3bce757b8b81a7.png"
+    },
+    {
+      "name": "DataFromOfficeServer",
+      "imageAsset": "images/by-hash/aa99ad79862a8798.png"
+    }
+  ],
+  "sameImageIds": [
+    "FilePublish",
+    "GroupServerReadOnly"
+  ]
+}

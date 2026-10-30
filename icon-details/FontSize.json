@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FontSizeDecrease",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "FontSizeDecrease1Point",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "FontSizeDecreaseWord",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "FontSizeIncrease",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "FontSizeIncrease1Point",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "FontSizeIncreaseWord",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "ReadingViewFontSizeDecrease",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "ReadingViewFontSizeIncrease",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "SmartArtDecreaseFontSize",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "SmartArtIncreaseFontSize",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "EyedropperFontColor",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    },
+    {
+      "name": "FontAlternateFillBackColorPicker",
+      "imageAsset": "images/by-hash/123a710986a11765.png"
+    }
+  ],
+  "sameImageIds": []
+}

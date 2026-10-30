@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SecurityLevelDomainInternet",
+      "imageAsset": "images/by-hash/621b755704223df8.png"
+    },
+    {
+      "name": "SecurityLevelDomainIntranet",
+      "imageAsset": "images/by-hash/621b755704223df8.png"
+    },
+    {
+      "name": "SecurityLevelDomainLocal",
+      "imageAsset": "images/by-hash/621b755704223df8.png"
+    },
+    {
+      "name": "SecurityLevelDomainTrusted",
+      "imageAsset": "images/by-hash/621b755704223df8.png"
+    },
+    {
+      "name": "SecurityLevelDomainUntrusted",
+      "imageAsset": "images/by-hash/00a8170d77bd95c7.png"
+    },
+    {
+      "name": "SecurityLevelSuperSandboxed",
+      "imageAsset": "images/by-hash/00a8170d77bd95c7.png"
+    },
+    {
+      "name": "SecurityLevelTrusted",
+      "imageAsset": "images/by-hash/11123938e0dd568e.png"
+    },
+    {
+      "name": "DatabaseModelingUserDefinedTypes",
+      "imageAsset": "images/by-hash/9b76dc94999ad56b.png"
+    },
+    {
+      "name": "DatabaseSetLogonSecurity",
+      "imageAsset": "images/by-hash/b5aba859bea7c7f4.png"
+    },
+    {
+      "name": "DatabaseUserAndGroupAccounts",
+      "imageAsset": "images/by-hash/f0d8576b9ed9c30f.png"
+    },
+    {
+      "name": "AddUserToPermissionGroup",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "DesignerDrmSelectUser",
+      "imageAsset": "images/by-hash/d183c0780b942621.png"
+    }
+  ],
+  "sameImageIds": []
+}

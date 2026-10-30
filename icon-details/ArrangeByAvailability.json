@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ViewRemainingAvailabilityShow",
+      "imageAsset": "images/by-hash/7080afbf7b14538e.png"
+    },
+    {
+      "name": "ViewUnitAvailabilityShow",
+      "imageAsset": "images/by-hash/cd232eb2dfc33f91.png"
+    },
+    {
+      "name": "ViewWorkAvailabilityShow",
+      "imageAsset": "images/by-hash/c0793e663bdd1e65.png"
+    }
+  ],
+  "sameImageIds": [
+    "DownloadContents",
+    "DownloadContentsMenu",
+    "FilesToolDownloadFile",
+    "FilesToolDownloadMenu",
+    "MarkForDownload",
+    "MarkForDownloadSplitButton",
+    "RequestDocument"
+  ]
+}

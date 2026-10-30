@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BordersAndTitlesGallery",
+      "imageAsset": "images/by-hash/441df2dcdc406ed9.png"
+    },
+    {
+      "name": "ChartAxisTitles",
+      "imageAsset": "images/by-hash/dd0376fb28331e0a.png"
+    },
+    {
+      "name": "ChartAxisTitlesGallery",
+      "imageAsset": "images/by-hash/dd0376fb28331e0a.png"
+    },
+    {
+      "name": "JotFindPageTitles",
+      "imageAsset": "images/by-hash/9d02c57d77872cbe.png"
+    },
+    {
+      "name": "JotHideTitlesInPageTabs",
+      "imageAsset": "images/by-hash/21626849cefe9706.png"
+    },
+    {
+      "name": "JotShowTitlesInPageTabs",
+      "imageAsset": "images/by-hash/0f923cd11a8ff574.png"
+    }
+  ],
+  "sameImageIds": []
+}

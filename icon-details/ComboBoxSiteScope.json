@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ActiveXComboBox",
+      "imageAsset": "images/by-hash/1f3cf0d15015b32a.png"
+    },
+    {
+      "name": "ComboBox",
+      "imageAsset": "images/by-hash/175d02890063f1b7.png"
+    },
+    {
+      "name": "ContentControlComboBox",
+      "imageAsset": "images/by-hash/1f3cf0d15015b32a.png"
+    },
+    {
+      "name": "FormControlComboBox",
+      "imageAsset": "images/by-hash/1f3cf0d15015b32a.png"
+    },
+    {
+      "name": "FolderScopeGallery",
+      "imageAsset": "images/by-hash/38616776607f2e73.png"
+    },
+    {
+      "name": "GroupSearchScope",
+      "imageAsset": "images/by-hash/068f45b4d996d95b.png"
+    },
+    {
+      "name": "AttachItemCombo",
+      "imageAsset": "images/by-hash/5551d7c978f81380.png"
+    },
+    {
+      "name": "ChartTypeComboInsertDialog",
+      "imageAsset": "images/by-hash/3d10b9bfd87cf020.png"
+    },
+    {
+      "name": "ChartTypeComboInsertGallery",
+      "imageAsset": "images/by-hash/816b9ed1484fc31c.png"
+    },
+    {
+      "name": "ChartTypeParentComboChart",
+      "imageAsset": "images/by-hash/3d10b9bfd87cf020.png"
+    },
+    {
+      "name": "FindContactCombo",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "PrintPreviewSeparationsCombo",
+      "imageAsset": "images/by-hash/51f884df639d7c92.png"
+    }
+  ],
+  "sameImageIds": []
+}

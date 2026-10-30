@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TraceBack",
+      "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+    },
+    {
+      "name": "TraceDependentCells",
+      "imageAsset": "images/by-hash/1b0d8ffc3727a2e3.png"
+    },
+    {
+      "name": "TraceDependentRemoveArrows",
+      "imageAsset": "images/by-hash/791c472a58c1ac60.png"
+    },
+    {
+      "name": "TraceDependents",
+      "imageAsset": "images/by-hash/1b0d8ffc3727a2e3.png"
+    },
+    {
+      "name": "TraceForward",
+      "imageAsset": "images/by-hash/0f42881fbb368916.png"
+    },
+    {
+      "name": "TracePrecedentCells",
+      "imageAsset": "images/by-hash/7d68825778d1591a.png"
+    },
+    {
+      "name": "TracePrecedents",
+      "imageAsset": "images/by-hash/7d68825778d1591a.png"
+    },
+    {
+      "name": "TracePrecedentsRemoveArrows",
+      "imageAsset": "images/by-hash/7cd7c72a3e2c9202.png"
+    },
+    {
+      "name": "TraceRemoveAllArrows",
+      "imageAsset": "images/by-hash/25b05961ab3adc91.png"
+    },
+    {
+      "name": "ChartErrorBars",
+      "imageAsset": "images/by-hash/da2407b5d0b3f924.png"
+    },
+    {
+      "name": "ChartFormatErrorBars",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "DisplayErrorMessageInfoPath",
+      "imageAsset": "images/by-hash/7af31981dd4e0deb.png"
+    }
+  ],
+  "sameImageIds": [
+    "LogicIncomplete",
+    "MacroSecurity",
+    "PwaRisks",
+    "Risks",
+    "TaskWarningsShow"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ContactCardCallComputer",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "ContactCardCallHome",
+      "imageAsset": "images/by-hash/b6c3160f01575fe9.png"
+    },
+    {
+      "name": "ContactCardCallMobile",
+      "imageAsset": "images/by-hash/808692b540d5562b.png"
+    },
+    {
+      "name": "ContactCardCallNewNumber",
+      "imageAsset": "images/by-hash/af23a5423f4b1e21.png"
+    },
+    {
+      "name": "ContactCardCallVoiceMail",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "ContactCardCallWork",
+      "imageAsset": "images/by-hash/381581df7c59e7dc.png"
+    },
+    {
+      "name": "ContactCardDefaultPhoneCall",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "ContactCardVideoCall",
+      "imageAsset": "images/by-hash/950b456ae0756ce5.png"
+    },
+    {
+      "name": "GroupContactCardCallComputer",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "GroupContactCardCallHome",
+      "imageAsset": "images/by-hash/b6c3160f01575fe9.png"
+    },
+    {
+      "name": "GroupContactCardCallMobile",
+      "imageAsset": "images/by-hash/808692b540d5562b.png"
+    },
+    {
+      "name": "GroupContactCardCallNewNumber",
+      "imageAsset": "images/by-hash/af23a5423f4b1e21.png"
+    }
+  ],
+  "sameImageIds": [
+    "AutoDial",
+    "Call",
+    "ContactCardCallComputer",
+    "ContactCardCallVoiceMail",
+    "ContactCardDefaultPhoneCall",
+    "ContextMenuGroupContactCardPhoneDropdown",
+    "DialGallery",
+    "DialMenu",
+    "DialupConnectionMenu",
+    "GroupContactCardCallComputer",
+    "GroupContactCardCallOtherNumber",
+    "NewCall",
+    "QuickSearchPhoneMenu"
+  ]
+}

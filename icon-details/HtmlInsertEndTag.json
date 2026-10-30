@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "HtmlInsertStartTag",
+      "imageAsset": "images/by-hash/ae69fdd69c9c671e.png"
+    },
+    {
+      "name": "HtmlMatchTag",
+      "imageAsset": "images/by-hash/584c83b9e3e3d92c.png"
+    },
+    {
+      "name": "HtmlSelectTag",
+      "imageAsset": "images/by-hash/399520136998861b.png"
+    },
+    {
+      "name": "InsertImageHtmlTag",
+      "imageAsset": "images/by-hash/7c09e8bd015cd422.png"
+    },
+    {
+      "name": "InsertParagraphHtmlTag",
+      "imageAsset": "images/by-hash/e4d6825178600211.png"
+    },
+    {
+      "name": "BroadcastEnd",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "DatabaseAccessBackEnd",
+      "imageAsset": "images/by-hash/ca403b06d9ee1e16.png"
+    },
+    {
+      "name": "EndOfDocument",
+      "imageAsset": "images/by-hash/acbaff0e063e5bd2.png"
+    },
+    {
+      "name": "EndOfLine",
+      "imageAsset": "images/by-hash/a6dbc93d3898c6d5.png"
+    },
+    {
+      "name": "NewPageAtSectionEnd",
+      "imageAsset": "images/by-hash/8d83aebe7d52be74.png"
+    },
+    {
+      "name": "QuickSearchJournalEndDateGallery",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "ReviewEndReviewPowerPoint",
+      "imageAsset": "images/by-hash/cc7f9b56cf5f0e52.png"
+    }
+  ],
+  "sameImageIds": []
+}

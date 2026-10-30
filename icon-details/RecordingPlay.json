@@ -1,0 +1,67 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AudioRecordingInsert",
+      "imageAsset": "images/by-hash/948196d5243d4a4c.png"
+    },
+    {
+      "name": "GroupAudioVideoRecordingOptions",
+      "imageAsset": "images/by-hash/bd06a0fb29933d42.png"
+    },
+    {
+      "name": "JotANStartRecording",
+      "imageAsset": "images/by-hash/e48376b597da74a6.png"
+    },
+    {
+      "name": "JotAudioStartRecording",
+      "imageAsset": "images/by-hash/b9f7997a6d333fcc.png"
+    },
+    {
+      "name": "RecordingPause",
+      "imageAsset": "images/by-hash/3a86896459d04314.png"
+    },
+    {
+      "name": "RecordingStop",
+      "imageAsset": "images/by-hash/3814a7700dd50fe4.png"
+    },
+    {
+      "name": "VideoRecordingInsert",
+      "imageAsset": "images/by-hash/d3b90fe930168345.png"
+    },
+    {
+      "name": "CDAudioPlayTrackAutomatically",
+      "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+    },
+    {
+      "name": "GroupPlay",
+      "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+    },
+    {
+      "name": "MacroPlay",
+      "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+    },
+    {
+      "name": "MediaPlayPreview",
+      "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+    },
+    {
+      "name": "MoviePlay",
+      "imageAsset": "images/by-hash/1504e1cd67ae5a5d.png"
+    }
+  ],
+  "sameImageIds": [
+    "AnimationStartDropdown",
+    "GroupMediaPreview",
+    "GroupPlay",
+    "GroupPlayback",
+    "MacroPlay",
+    "MediaPlayPreview",
+    "MoviePlay",
+    "PlayFromPage",
+    "PlayVideo",
+    "ResultsPaneStartAccessibility",
+    "ResultsPaneStartCompatibility",
+    "ResultsPaneStartFindAndReplace",
+    "ResumeAllSharedSpaces"
+  ]
+}

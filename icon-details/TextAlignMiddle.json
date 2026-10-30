@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AlignMiddleExcel",
+      "imageAsset": "images/by-hash/4c68a2f53a2a66ab.png"
+    },
+    {
+      "name": "MiddleVerticalAlign",
+      "imageAsset": "images/by-hash/4c68a2f53a2a66ab.png"
+    },
+    {
+      "name": "ObjectsAlignMiddleVertical",
+      "imageAsset": "images/by-hash/51561e72403de4fc.png"
+    },
+    {
+      "name": "ObjectsAlignMiddleVerticalOutlook",
+      "imageAsset": "images/by-hash/51561e72403de4fc.png"
+    },
+    {
+      "name": "ObjectsAlignMiddleVerticalSmart",
+      "imageAsset": "images/by-hash/51561e72403de4fc.png"
+    },
+    {
+      "name": "PivotDiagramAlignMiddle",
+      "imageAsset": "images/by-hash/aecaa713bb24966e.png"
+    },
+    {
+      "name": "TableCellAlignMiddleCenter",
+      "imageAsset": "images/by-hash/47fa033b124548f6.png"
+    },
+    {
+      "name": "TableCellAlignMiddleLeft",
+      "imageAsset": "images/by-hash/1a7b49e80261c29a.png"
+    },
+    {
+      "name": "TableCellAlignMiddleRight",
+      "imageAsset": "images/by-hash/bdae78d4a94aa8a0.png"
+    },
+    {
+      "name": "TextBoxAlignMiddleCenter",
+      "imageAsset": "images/by-hash/47fa033b124548f6.png"
+    },
+    {
+      "name": "TextBoxAlignMiddleLeft",
+      "imageAsset": "images/by-hash/1a7b49e80261c29a.png"
+    },
+    {
+      "name": "TextBoxAlignMiddleRight",
+      "imageAsset": "images/by-hash/bdae78d4a94aa8a0.png"
+    }
+  ],
+  "sameImageIds": [
+    "EquationVerticalAlignmentCenter"
+  ]
+}

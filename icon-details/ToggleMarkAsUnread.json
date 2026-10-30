@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MarkAllEntriesUnread",
+      "imageAsset": "images/by-hash/94b6de755cf78f80.png"
+    },
+    {
+      "name": "MarkAsUnread",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    },
+    {
+      "name": "MarkAsUnreadMenu",
+      "imageAsset": "images/by-hash/94b6de755cf78f80.png"
+    },
+    {
+      "name": "MarkPageAsUnread",
+      "imageAsset": "images/by-hash/0069c45de3e4be5b.png"
+    },
+    {
+      "name": "MarkSelectedEntriesUnread",
+      "imageAsset": "images/by-hash/94b6de755cf78f80.png"
+    },
+    {
+      "name": "MarkSelectedEntriesUnreadInMenu",
+      "imageAsset": "images/by-hash/94b6de755cf78f80.png"
+    },
+    {
+      "name": "MarkToolUnreadInMenu",
+      "imageAsset": "images/by-hash/94b6de755cf78f80.png"
+    },
+    {
+      "name": "MarkWorkspaceUnreadInMenu",
+      "imageAsset": "images/by-hash/94b6de755cf78f80.png"
+    },
+    {
+      "name": "ToggleMarkAsRead",
+      "imageAsset": "images/by-hash/eb0e54a34f26ad5c.png"
+    },
+    {
+      "name": "FindUnread",
+      "imageAsset": "images/by-hash/363bd56f6540b85e.png"
+    },
+    {
+      "name": "GoToNextUnreadPage",
+      "imageAsset": "images/by-hash/c93e5785b2dcff6a.png"
+    },
+    {
+      "name": "GroupUnread",
+      "imageAsset": "images/by-hash/79fbd5751cc8a8cb.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupAttachmentMessage",
+    "ShowMessage",
+    "ShowMessagePage",
+    "ShowSharePage"
+  ]
+}

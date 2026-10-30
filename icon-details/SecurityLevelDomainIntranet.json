@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SecurityLevelDomainInternet",
+      "imageAsset": "images/by-hash/621b755704223df8.png"
+    },
+    {
+      "name": "SecurityLevelDomainLocal",
+      "imageAsset": "images/by-hash/621b755704223df8.png"
+    },
+    {
+      "name": "SecurityLevelDomainTrusted",
+      "imageAsset": "images/by-hash/621b755704223df8.png"
+    },
+    {
+      "name": "SecurityLevelDomainUntrusted",
+      "imageAsset": "images/by-hash/00a8170d77bd95c7.png"
+    },
+    {
+      "name": "DatabaseUserLevelSecurityWizard",
+      "imageAsset": "images/by-hash/2b78127422e675d2.png"
+    },
+    {
+      "name": "SecurityLevelSuperSandboxed",
+      "imageAsset": "images/by-hash/00a8170d77bd95c7.png"
+    },
+    {
+      "name": "SecurityLevelTrusted",
+      "imageAsset": "images/by-hash/11123938e0dd568e.png"
+    },
+    {
+      "name": "DatabaseSetLogonSecurity",
+      "imageAsset": "images/by-hash/b5aba859bea7c7f4.png"
+    },
+    {
+      "name": "MacroSecurity",
+      "imageAsset": "images/by-hash/333fa763449f29e8.png"
+    },
+    {
+      "name": "GroupLevel",
+      "imageAsset": "images/by-hash/0057f5c5abbbed1b.png"
+    },
+    {
+      "name": "LevelNow",
+      "imageAsset": "images/by-hash/b2148c39a7088689.png"
+    },
+    {
+      "name": "LevelResource",
+      "imageAsset": "images/by-hash/88780f036575576c.png"
+    }
+  ],
+  "sameImageIds": [
+    "SecurityLevelDomainInternet",
+    "SecurityLevelDomainLocal",
+    "SecurityLevelDomainTrusted"
+  ]
+}

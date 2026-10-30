@@ -1,0 +1,61 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FlagNextWeek",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "OutlookTaskThisWeek",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "OutlookTaskThisWeekContextual",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "FlagCustom",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "FlagMessage",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "FlagNoDate",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "FlagToday",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "FlagTomorrow",
+      "imageAsset": "images/by-hash/aab3f29e91f304f1.png"
+    },
+    {
+      "name": "QuickStepTemplateFlagAndMove",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "SendCopyFlag",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "CalendarViewWeekHeightBestFit",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "GroupDayWeekMonthArrangement",
+      "imageAsset": "images/by-hash/f80a7aaa0a54faa5.png"
+    }
+  ],
+  "sameImageIds": [
+    "FlagNextWeek",
+    "OutlookTaskLater",
+    "OutlookTaskLaterContextual",
+    "OutlookTaskNextWeek",
+    "OutlookTaskNextWeekContextual",
+    "OutlookTaskThisWeek",
+    "OutlookTaskThisWeekContextual"
+  ]
+}

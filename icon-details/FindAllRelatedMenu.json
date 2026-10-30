@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FindRelatedMenu",
+      "imageAsset": "images/by-hash/f93dc3e7893789f2.png"
+    },
+    {
+      "name": "AdpDiagramAddRelatedTables",
+      "imageAsset": "images/by-hash/3ce52e58a86dd5ae.png"
+    },
+    {
+      "name": "CreateRelatedItems",
+      "imageAsset": "images/by-hash/7b76b454e441cffd.png"
+    },
+    {
+      "name": "DatabaseModelingShowRelatedTables",
+      "imageAsset": "images/by-hash/d64d8723b69c63c3.png"
+    },
+    {
+      "name": "GroupRelatedItems",
+      "imageAsset": "images/by-hash/7b76b454e441cffd.png"
+    },
+    {
+      "name": "RelatedItems",
+      "imageAsset": "images/by-hash/fdba436cc1402b3a.png"
+    },
+    {
+      "name": "RelatedItemViewGallery",
+      "imageAsset": "images/by-hash/64480077e54e1b8b.png"
+    },
+    {
+      "name": "RelatedTasksLayoutNow",
+      "imageAsset": "images/by-hash/ca4a3e13618c0d37.png"
+    },
+    {
+      "name": "AdvancedFind",
+      "imageAsset": "images/by-hash/412aae2556681c8e.png"
+    },
+    {
+      "name": "CatalogMergeFindRecipient",
+      "imageAsset": "images/by-hash/e58b441f04678b11.png"
+    },
+    {
+      "name": "CodeFindMenu",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "FileFind",
+      "imageAsset": "images/by-hash/e2c82753eeca5c76.png"
+    }
+  ],
+  "sameImageIds": [
+    "FindRelatedMenu"
+  ]
+}

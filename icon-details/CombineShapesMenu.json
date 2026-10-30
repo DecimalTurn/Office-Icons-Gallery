@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CombineShapesGallery",
+      "imageAsset": "images/by-hash/5f9fba2194e87a87.png"
+    },
+    {
+      "name": "ShapesCombine",
+      "imageAsset": "images/by-hash/5f9fba2194e87a87.png"
+    },
+    {
+      "name": "ShapesObjectCombine",
+      "imageAsset": "images/by-hash/5f9fba2194e87a87.png"
+    },
+    {
+      "name": "AsianLayoutCombineCharacters",
+      "imageAsset": "images/by-hash/d56bd0b2926cda71.png"
+    },
+    {
+      "name": "CombineCharacters",
+      "imageAsset": "images/by-hash/864d154c334988f7.png"
+    },
+    {
+      "name": "CompareAndCombine",
+      "imageAsset": "images/by-hash/747289478e8b2199.png"
+    },
+    {
+      "name": "ReviewCombineRevisions",
+      "imageAsset": "images/by-hash/945d05d3589e739b.png"
+    },
+    {
+      "name": "ChartChangeDataLabelShapesGallery",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "ConnectShapes",
+      "imageAsset": "images/by-hash/ae3d2a33d753543f.png"
+    },
+    {
+      "name": "DataLinkDataToShapes",
+      "imageAsset": "images/by-hash/68574b4538de7a49.png"
+    },
+    {
+      "name": "FacilitiesLabelShapes",
+      "imageAsset": "images/by-hash/b641fa2969faccdd.png"
+    },
+    {
+      "name": "GalleryAllShapesAndCanvas",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    }
+  ],
+  "sameImageIds": [
+    "CombineShapesGallery",
+    "ShapesCombine",
+    "ShapesObjectCombine"
+  ]
+}

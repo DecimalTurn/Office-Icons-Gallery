@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CitationInsert",
+      "imageAsset": "images/by-hash/4e139b3b3521145a.png"
+    },
+    {
+      "name": "EditCitation",
+      "imageAsset": "images/by-hash/7238c58ba0963226.png"
+    },
+    {
+      "name": "EditCitationButton",
+      "imageAsset": "images/by-hash/7238c58ba0963226.png"
+    },
+    {
+      "name": "RemoveCitation",
+      "imageAsset": "images/by-hash/6004b5a1300c6adc.png"
+    },
+    {
+      "name": "FileMarkAsFinal",
+      "imageAsset": "images/by-hash/78dff6663e341044.png"
+    },
+    {
+      "name": "FormattingMarkDropDown",
+      "imageAsset": "images/by-hash/e4d6825178600211.png"
+    },
+    {
+      "name": "IndexMarkEntry",
+      "imageAsset": "images/by-hash/fc40921640983d16.png"
+    },
+    {
+      "name": "JunkEmailMarkAsNotJunk",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    },
+    {
+      "name": "Mark100PercentComplete",
+      "imageAsset": "images/by-hash/8f8754120435881b.png"
+    },
+    {
+      "name": "MarkAllAsRead",
+      "imageAsset": "images/by-hash/985e4902a9708f03.png"
+    },
+    {
+      "name": "MarkAllEntriesRead",
+      "imageAsset": "images/by-hash/42e40667ed43a78e.png"
+    },
+    {
+      "name": "MarkAllEntriesUnread",
+      "imageAsset": "images/by-hash/94b6de755cf78f80.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupTableOfAuthorities"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AssociateExistingWorkflow",
+      "imageAsset": "images/by-hash/4ed7bc16cc89d2b3.png"
+    },
+    {
+      "name": "TemplateAssociateToContentType",
+      "imageAsset": "images/by-hash/91d2ea50d749567d.png"
+    },
+    {
+      "name": "TemplateAssociateToList",
+      "imageAsset": "images/by-hash/704125960724f25e.png"
+    },
+    {
+      "name": "AdvertisePublishAs",
+      "imageAsset": "images/by-hash/9ffc68917f511636.png"
+    },
+    {
+      "name": "BizBarPublishToSharePoint",
+      "imageAsset": "images/by-hash/6ee76565b405e6e3.png"
+    },
+    {
+      "name": "BlogPublish",
+      "imageAsset": "images/by-hash/2cc34b9c900b5e8b.png"
+    },
+    {
+      "name": "BlogPublishDraft",
+      "imageAsset": "images/by-hash/5058172c4e435e9c.png"
+    },
+    {
+      "name": "BlogPublishMenu",
+      "imageAsset": "images/by-hash/2cc34b9c900b5e8b.png"
+    },
+    {
+      "name": "DIPPublish",
+      "imageAsset": "images/by-hash/6610e1f301334f9d.png"
+    },
+    {
+      "name": "EmailPublish",
+      "imageAsset": "images/by-hash/f3a12590c07f7367.png"
+    },
+    {
+      "name": "EntityPublish",
+      "imageAsset": "images/by-hash/65a2b41926a480ad.png"
+    },
+    {
+      "name": "FileMenuPublishHeader",
+      "imageAsset": "images/by-hash/b9b0aea1b63f72df.png"
+    }
+  ],
+  "sameImageIds": []
+}

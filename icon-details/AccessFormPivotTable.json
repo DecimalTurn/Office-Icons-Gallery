@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AccessFormDatasheet",
+      "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+    },
+    {
+      "name": "AccessFormModalDialog",
+      "imageAsset": "images/by-hash/b2bff7bb772c34d4.png"
+    },
+    {
+      "name": "AccessFormModalDialogWeb",
+      "imageAsset": "images/by-hash/b2bff7bb772c34d4.png"
+    },
+    {
+      "name": "AccessFormWizard",
+      "imageAsset": "images/by-hash/e66e4f9a48e1e90f.png"
+    },
+    {
+      "name": "GroupPivotChartActiveFieldAccess",
+      "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+    },
+    {
+      "name": "GroupPivotChartDataAccess",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "GroupPivotTableActiveFieldAccess",
+      "imageAsset": "images/by-hash/8cc416c631c3ba16.png"
+    },
+    {
+      "name": "GroupPivotTableDataAccess",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "GroupPivotTableShowHideAccess",
+      "imageAsset": "images/by-hash/294ba2e393d6032b.png"
+    },
+    {
+      "name": "GroupPivotTableToolsAccess",
+      "imageAsset": "images/by-hash/f3efe98ab9433ece.png"
+    },
+    {
+      "name": "PivotCollapseFieldAccess",
+      "imageAsset": "images/by-hash/94309facf94a1836.png"
+    },
+    {
+      "name": "CreateFormPivotChart",
+      "imageAsset": "images/by-hash/501aa8ac35fff42b.png"
+    }
+  ],
+  "sameImageIds": [
+    "DefaultPivotTable",
+    "PivotMoveField",
+    "PivotTableEnableWhatIfAnalysis",
+    "PivotTableInsert",
+    "PivotTableReport",
+    "PwaDataAnalysis",
+    "TableSummarizeWithPivot",
+    "ViewsPivotTableView"
+  ]
+}

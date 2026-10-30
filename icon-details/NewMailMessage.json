@@ -1,0 +1,42 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NewMailMessage2",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    },
+    {
+      "name": "NewMailMessageCompact",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    },
+    {
+      "name": "NewMailMessageNumbered",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    }
+  ],
+  "sameImageIds": [
+    "EnvelopesAndLabels",
+    "EnvelopesAndLabelsDialog",
+    "FileNewEmail",
+    "GroupEnvelopeLabelCreate",
+    "GroupSendOptions",
+    "InviteViaOutlook",
+    "JunkEmailMarkAsNotJunk",
+    "MailMergeStartEnvelopes",
+    "MarkAsUnread",
+    "NewItem",
+    "NewMailMessage2",
+    "NewMailMessageCompact",
+    "NewMailMessageNumbered",
+    "NewMessageToAttendees",
+    "NewMessageToContact",
+    "NewSecondaryItem",
+    "PersonaSendMailMenu",
+    "QuickSearchHasEmailAddress",
+    "QuickStepTemplateNewEmail",
+    "SendCalendar",
+    "SendCalendarViaEmail",
+    "SharingOpenMailFolder",
+    "ShowEnvelope",
+    "TimelineViewCopyForEmail"
+  ]
+}

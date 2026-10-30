@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ListToolStartLiveMeeting",
+      "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+    },
+    {
+      "name": "MRUSlabOpenOfficeLiveWorkspaces",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "SaveToOfficeLiveTask",
+      "imageAsset": "images/by-hash/43e68571891a735b.png"
+    }
+  ],
+  "sameImageIds": []
+}

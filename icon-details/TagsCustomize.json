@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CustomizeMySite",
+      "imageAsset": "images/by-hash/93781d39d8f61aa1.png"
+    },
+    {
+      "name": "CustomizeSearchFolder",
+      "imageAsset": "images/by-hash/5eca02018885dfc7.png"
+    },
+    {
+      "name": "CustomizeXSLTMenu",
+      "imageAsset": "images/by-hash/daf258dce7e70476.png"
+    },
+    {
+      "name": "GroupCustomizeThemeOptions",
+      "imageAsset": "images/by-hash/f49b012b69437cca.png"
+    },
+    {
+      "name": "NumberingCustomize",
+      "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+    },
+    {
+      "name": "OmsCustomizeLayout",
+      "imageAsset": "images/by-hash/6b84ae529df0daa2.png"
+    },
+    {
+      "name": "ArchivePolicyTagsGallery",
+      "imageAsset": "images/by-hash/462518c92afcc2d1.png"
+    },
+    {
+      "name": "GroupCalendarTags",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "GroupTaskListTags",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "PolicyTagsMenu",
+      "imageAsset": "images/by-hash/462518c92afcc2d1.png"
+    },
+    {
+      "name": "RetentionPolicyTagsGallery",
+      "imageAsset": "images/by-hash/1ac9dc11f0bfcb77.png"
+    },
+    {
+      "name": "TagsClearAll",
+      "imageAsset": "images/by-hash/3b64db7773991543.png"
+    }
+  ],
+  "sameImageIds": []
+}

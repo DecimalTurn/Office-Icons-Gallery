@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FileSendAsAttachment",
+      "imageAsset": "images/by-hash/5551d7c978f81380.png"
+    },
+    {
+      "name": "SendAsAttachmentToMailRecipient",
+      "imageAsset": "images/by-hash/5551d7c978f81380.png"
+    },
+    {
+      "name": "SendAsPdfAttachment",
+      "imageAsset": "images/by-hash/2866181297205e61.png"
+    },
+    {
+      "name": "SendAsXpsAttachment",
+      "imageAsset": "images/by-hash/4fa26b547fff4abe.png"
+    },
+    {
+      "name": "SendNotesToBlog",
+      "imageAsset": "images/by-hash/e62c2e84dff07088.png"
+    },
+    {
+      "name": "SendNotesToWord",
+      "imageAsset": "images/by-hash/588d98e23e0c5590.png"
+    },
+    {
+      "name": "SendNotesViaEmail",
+      "imageAsset": "images/by-hash/eb0e54a34f26ad5c.png"
+    },
+    {
+      "name": "AppointmentAttachment",
+      "imageAsset": "images/by-hash/31f2a81ec01323f7.png"
+    },
+    {
+      "name": "ArrangeByAttachment",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "ControlAttachment",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "DataTypeAttachment",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "FileAttachmentInsert",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    }
+  ],
+  "sameImageIds": [
+    "AttachItem",
+    "AttachItemCombo",
+    "FileSendAsAttachment",
+    "ForwardAsAttachment",
+    "GroupMail",
+    "GroupOutlook",
+    "GroupShareEmail",
+    "SendAsAttachmentToMailRecipient"
+  ]
+}

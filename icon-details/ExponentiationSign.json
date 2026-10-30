@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ColonSign",
+      "imageAsset": "images/by-hash/b268ade2a0ded546.png"
+    },
+    {
+      "name": "CommaSign",
+      "imageAsset": "images/by-hash/07c9ca0a5d503f31.png"
+    },
+    {
+      "name": "DigitallySignMessage",
+      "imageAsset": "images/by-hash/d73d28146aefa9a6.png"
+    },
+    {
+      "name": "DivisionSign",
+      "imageAsset": "images/by-hash/5cb361fcde6b6f94.png"
+    },
+    {
+      "name": "DollarSign",
+      "imageAsset": "images/by-hash/387a66fbb5395c14.png"
+    },
+    {
+      "name": "EqualSign",
+      "imageAsset": "images/by-hash/0cf0d3bc56807fda.png"
+    },
+    {
+      "name": "EventOnSign",
+      "imageAsset": "images/by-hash/4cc10e925171bebd.png"
+    },
+    {
+      "name": "FilePackageAndSign",
+      "imageAsset": "images/by-hash/3b7c443875b274c4.png"
+    },
+    {
+      "name": "MinusSign",
+      "imageAsset": "images/by-hash/4322a66518edf000.png"
+    },
+    {
+      "name": "MultiplicationSign",
+      "imageAsset": "images/by-hash/4b524acd52887c0f.png"
+    },
+    {
+      "name": "PercentSign",
+      "imageAsset": "images/by-hash/bb03e88fefc3ffab.png"
+    },
+    {
+      "name": "PlusSign",
+      "imageAsset": "images/by-hash/deb1ea7733ff6095.png"
+    }
+  ],
+  "sameImageIds": []
+}

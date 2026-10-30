@@ -1,0 +1,70 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SheetRowsInsertTouch",
+      "imageAsset": "images/by-hash/987f395d63e7009b.png"
+    },
+    {
+      "name": "SheetColumnsDeleteTouch",
+      "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+    },
+    {
+      "name": "SheetRowsDelete",
+      "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+    },
+    {
+      "name": "RowsHideTouch",
+      "imageAsset": "images/by-hash/e3c236b7e64d01c0.png"
+    },
+    {
+      "name": "RowsUnhideTouch",
+      "imageAsset": "images/by-hash/949ae45970e0cfdd.png"
+    },
+    {
+      "name": "SheetColumnsInsertTouch",
+      "imageAsset": "images/by-hash/242212fb7cde5c20.png"
+    },
+    {
+      "name": "SlicerDeleteTouch",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "TimeSlicerDeleteTouch",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "GroupShapeSheetRows",
+      "imageAsset": "images/by-hash/987f395d63e7009b.png"
+    },
+    {
+      "name": "SheetRowsInsert",
+      "imageAsset": "images/by-hash/987f395d63e7009b.png"
+    },
+    {
+      "name": "DeleteRows",
+      "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+    },
+    {
+      "name": "DeleteRowsOneNote",
+      "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+    }
+  ],
+  "sameImageIds": [
+    "ActionDelete",
+    "DeleteRows",
+    "DeleteRowsOneNote",
+    "EquationMatrixDeleteRow",
+    "GroupQuerySetup",
+    "GroupSqlQuerySetup",
+    "GroupTableRows",
+    "RowDelete",
+    "ShapeSheetDeleteRow",
+    "SheetRowsDelete",
+    "TableDeleteFields",
+    "TableDeleteRows",
+    "TableDeleteRowsInfoPath",
+    "TableRowsDelete",
+    "TableRowsDeleteExcel",
+    "TableRowsOrColumnsOrCellsDelete"
+  ]
+}

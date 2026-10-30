@@ -1,0 +1,78 @@
+{
+  "relatedIcons": [
+    {
+      "name": "Drawing1ColorPickerLineStyles",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "Drawing1ColorPickerLineStyles2",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "ControlLineColorPicker",
+      "imageAsset": "images/by-hash/526d6565d950b7d9.png"
+    },
+    {
+      "name": "InkLineColorPicker",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "SparkLineNegativePointColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "GroupWordArtStyles",
+      "imageAsset": "images/by-hash/65848a8b0733843a.png"
+    },
+    {
+      "name": "GroupWordArtStylesClassic",
+      "imageAsset": "images/by-hash/9d6a3115aaf897e4.png"
+    },
+    {
+      "name": "WordArtStylesGalleryClassic",
+      "imageAsset": "images/by-hash/f55563ebf971e5b5.png"
+    },
+    {
+      "name": "LineStylesDialog",
+      "imageAsset": "images/by-hash/566fd2e127e8f690.png"
+    },
+    {
+      "name": "GroupSmartArtQuickStyles",
+      "imageAsset": "images/by-hash/0dcccd324a3aeb0f.png"
+    },
+    {
+      "name": "SmartArtStylesGallery",
+      "imageAsset": "images/by-hash/e98474201ab6b92a.png"
+    },
+    {
+      "name": "GroupWordArtText",
+      "imageAsset": "images/by-hash/0031b1023ccb91e0.png"
+    }
+  ],
+  "sameImageIds": [
+    "BorderColorPicker",
+    "BorderColorPickerExcel",
+    "Drawing1ColorPickerLineStyles",
+    "Drawing1ColorPickerLineStyles2",
+    "GroupSparklineStyle",
+    "GuideColorGallery",
+    "OutlineColorPicker",
+    "PictureBorderColorPickerClassic",
+    "ShapeOutlineColorPicker",
+    "SparklineColorPicker",
+    "SparklineFirstPointColorPicker",
+    "SparklineHighPointColorPicker",
+    "SparklineLastPointColorPicker",
+    "SparklineLowPointColorPicker",
+    "SparklineMarkerColorPicker",
+    "SparkLineNegativePointColorPicker",
+    "TableBorderPenColorPicker",
+    "TeamPlannerActualBorderColor",
+    "TeamPlannerAutoScheduledBorder",
+    "TeamPlannerExternalBorder",
+    "TeamPlannerLateBorder",
+    "TeamPlannerManualBorder",
+    "TeamPlannerTaskBorderColorGallery",
+    "VideoBorderGallery"
+  ]
+}

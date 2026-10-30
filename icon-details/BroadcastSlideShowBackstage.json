@@ -1,0 +1,60 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BroadcastSlideShow",
+      "imageAsset": "images/by-hash/0dd8d48f11eac3c8.png"
+    },
+    {
+      "name": "BroadcastSlideShowGeneric",
+      "imageAsset": "images/by-hash/0dd8d48f11eac3c8.png"
+    },
+    {
+      "name": "BroadcastSlideShowLync",
+      "imageAsset": "images/by-hash/31c6522bf648acdb.png"
+    },
+    {
+      "name": "BroadcastSlideShowOfficeHosted",
+      "imageAsset": "images/by-hash/0dd8d48f11eac3c8.png"
+    },
+    {
+      "name": "FileOpenUsingBackstage",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "NotebookSaveAsBackstage",
+      "imageAsset": "images/by-hash/35e7fadd445e79ab.png"
+    },
+    {
+      "name": "BroadcastEdit",
+      "imageAsset": "images/by-hash/06d68d8d5fedd861.png"
+    },
+    {
+      "name": "BroadcastEnd",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "BroadcastFromBeginning",
+      "imageAsset": "images/by-hash/1622c4b78b9481be.png"
+    },
+    {
+      "name": "BroadcastFromCurrent",
+      "imageAsset": "images/by-hash/1ce01d1424245dc7.png"
+    },
+    {
+      "name": "BroadcastNotes",
+      "imageAsset": "images/by-hash/25ceca008a74a306.png"
+    },
+    {
+      "name": "BroadcastNotesSplitButton",
+      "imageAsset": "images/by-hash/25ceca008a74a306.png"
+    }
+  ],
+  "sameImageIds": [
+    "AppShare",
+    "BroadcastSlideShow",
+    "BroadcastSlideShowGeneric",
+    "BroadcastSlideShowOfficeHosted",
+    "GroupBroadcastBroadcast",
+    "SlideshowBroadcastMenu"
+  ]
+}

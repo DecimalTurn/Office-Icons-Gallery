@@ -1,0 +1,38 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupSpelling",
+      "imageAsset": "images/by-hash/a4a83187d27d2b74.png"
+    },
+    {
+      "name": "Spelling",
+      "imageAsset": "images/by-hash/a4a83187d27d2b74.png"
+    },
+    {
+      "name": "SpellingAccess",
+      "imageAsset": "images/by-hash/a4a83187d27d2b74.png"
+    },
+    {
+      "name": "SpellingAndGrammar",
+      "imageAsset": "images/by-hash/a4a83187d27d2b74.png"
+    },
+    {
+      "name": "SpellingMenu",
+      "imageAsset": "images/by-hash/a4a83187d27d2b74.png"
+    }
+  ],
+  "sameImageIds": [
+    "DataFormDeleteRecord",
+    "GroupListToolItem",
+    "ListToolInkEntryMode",
+    "ListToolPlaceholder",
+    "ListToolPlaceholder1",
+    "ListToolPlaceholder2",
+    "ListToolSendMailItem",
+    "ListToolSendMessage",
+    "ListToolStartLiveMeeting",
+    "ListToolSwitchViews",
+    "RecordsDeleteRecord",
+    "TabListToolRichText"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EditPageNormalMode",
+      "imageAsset": "images/by-hash/90f5920b899619e8.png"
+    },
+    {
+      "name": "CloseInkEntryMode",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "InkDrawingMode",
+      "imageAsset": "images/by-hash/0b0b3cbcdaefce73.png"
+    },
+    {
+      "name": "InkEntryMode",
+      "imageAsset": "images/by-hash/70c81a5311820d0c.png"
+    },
+    {
+      "name": "InkEraseMode",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    },
+    {
+      "name": "InkToTextMode",
+      "imageAsset": "images/by-hash/b3fdda08a32ab45e.png"
+    },
+    {
+      "name": "ListToolInkEntryMode",
+      "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+    },
+    {
+      "name": "_3DLightingNormalClassic",
+      "imageAsset": "images/by-hash/ef2a3c9a108e2e7d.png"
+    },
+    {
+      "name": "DocViewNormal",
+      "imageAsset": "images/by-hash/ceff0212f691c95c.png"
+    },
+    {
+      "name": "EquationNormalText",
+      "imageAsset": "images/by-hash/109a68e96d56ed5f.png"
+    },
+    {
+      "name": "NormalViewOneNote",
+      "imageAsset": "images/by-hash/c99ee027e81cfb1f.png"
+    },
+    {
+      "name": "TextNormalCase",
+      "imageAsset": "images/by-hash/06f09efbf605e6e2.png"
+    }
+  ],
+  "sameImageIds": [
+    "BroadcastEnd",
+    "CancelEditing",
+    "CloseComparison",
+    "CloseInkEntryMode",
+    "ConflictViewClose",
+    "GroupBackgroundRemovalClose",
+    "GroupClearSearch",
+    "GroupColorModeClose",
+    "GroupConflictsClose",
+    "GroupHeaderFooterClose",
+    "GroupInkClose",
+    "GroupMasterClose",
+    "GroupMergeViewClose",
+    "GroupOutliningClose",
+    "GroupPreviewInfoPath",
+    "GroupPrintPreviewClosePreview",
+    "GroupPrintPreviewPreview",
+    "HeaderFooterClose",
+    "IconEditClose",
+    "InkStopInkingReadingView",
+    "InkToolsClose",
+    "MasterPageCloseEdit",
+    "MasterViewClose",
+    "MeetingsToolAppointmentDiscardChanges",
+    "MergeViewClose",
+    "OutlineViewClose",
+    "PreviewClose",
+    "PrintPreviewClose",
+    "QuickSearchCancel",
+    "ShapeSheetClose",
+    "StencilClose",
+    "XDPPClose"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddInManager",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "CommunicationsManager",
+      "imageAsset": "images/by-hash/c9127e4088b92041.png"
+    },
+    {
+      "name": "DatabaseLinedTableManager",
+      "imageAsset": "images/by-hash/c96b1ecf18078b5c.png"
+    },
+    {
+      "name": "DatabaseSwitchboardManager",
+      "imageAsset": "images/by-hash/cb66f7ea351b8b1d.png"
+    },
+    {
+      "name": "DataMacroManager",
+      "imageAsset": "images/by-hash/08116315c572a271.png"
+    },
+    {
+      "name": "GraphicsManagerShowHide",
+      "imageAsset": "images/by-hash/42076ad6f67fb0c2.png"
+    },
+    {
+      "name": "NameManager",
+      "imageAsset": "images/by-hash/e0bbcbd5b8f66989.png"
+    },
+    {
+      "name": "RulesManager",
+      "imageAsset": "images/by-hash/b980d48b0d21d0d9.png"
+    },
+    {
+      "name": "Connections",
+      "imageAsset": "images/by-hash/1ac8159b65bc960f.png"
+    },
+    {
+      "name": "DataConnectionsGetMore",
+      "imageAsset": "images/by-hash/9ec10291a785eb4a.png"
+    },
+    {
+      "name": "DataConnectionsSubmitMore",
+      "imageAsset": "images/by-hash/4aed5d61b782f5bd.png"
+    },
+    {
+      "name": "GetExternalDataExistingConnections",
+      "imageAsset": "images/by-hash/5b478506b12c635c.png"
+    }
+  ],
+  "sameImageIds": []
+}

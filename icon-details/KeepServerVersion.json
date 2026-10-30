@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "KeepMyVersion",
+      "imageAsset": "images/by-hash/fc6206f285c71e32.png"
+    },
+    {
+      "name": "KeepBackgroundRemoval",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "WindowKeepOnTop",
+      "imageAsset": "images/by-hash/2d5b27e7fabb2746.png"
+    },
+    {
+      "name": "DeletePagePreviousVersion",
+      "imageAsset": "images/by-hash/1921c3efdc66749a.png"
+    },
+    {
+      "name": "FileVersionHistory",
+      "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+    },
+    {
+      "name": "FileVersionHistoryWord",
+      "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+    },
+    {
+      "name": "GroupPageVersionHistoryActions",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "GroupPageVersionHistoryManage",
+      "imageAsset": "images/by-hash/7b68147841e28c39.png"
+    },
+    {
+      "name": "PageVersionDelete",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "PageVersionSplitButton",
+      "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+    },
+    {
+      "name": "PublishMajorVersion",
+      "imageAsset": "images/by-hash/963230462172d3a1.png"
+    },
+    {
+      "name": "RestorePagePreviousVersion",
+      "imageAsset": "images/by-hash/7b68147841e28c39.png"
+    }
+  ],
+  "sameImageIds": [
+    "FileDiscardCachedChanges"
+  ]
+}

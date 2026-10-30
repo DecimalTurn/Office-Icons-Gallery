@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BusinessDataEntities",
+      "imageAsset": "images/by-hash/2ceb318c72f73d59.png"
+    },
+    {
+      "name": "CheckEntities",
+      "imageAsset": "images/by-hash/3e6bc01c3e5ae9cc.png"
+    },
+    {
+      "name": "GroupBdcEntitiesManage",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "GroupBdcEntitiesNew",
+      "imageAsset": "images/by-hash/d9a34f26e8a3dcd9.png"
+    },
+    {
+      "name": "GroupBusinessDataCatalogEntitiesEdit",
+      "imageAsset": "images/by-hash/ecaaf3f682dbf587.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PartTemplateGallery",
+      "imageAsset": "images/by-hash/e8587442c1dbbff4.png"
+    },
+    {
+      "name": "CreateWorkflowTemplate",
+      "imageAsset": "images/by-hash/c15d0363b97b34e1.png"
+    },
+    {
+      "name": "DataTypeTemplateCreate",
+      "imageAsset": "images/by-hash/4419cffd0c73a08d.png"
+    },
+    {
+      "name": "ListCreateListFromTemplate",
+      "imageAsset": "images/by-hash/275d48d742decaef.png"
+    },
+    {
+      "name": "AddWebPartConnection",
+      "imageAsset": "images/by-hash/46504686e3dd6015.png"
+    },
+    {
+      "name": "GalInsertWebPart",
+      "imageAsset": "images/by-hash/ccf129d889722797.png"
+    },
+    {
+      "name": "GroupSaveWebPart",
+      "imageAsset": "images/by-hash/06b6f2220172ed5a.png"
+    },
+    {
+      "name": "GroupWebPartConnections",
+      "imageAsset": "images/by-hash/46504686e3dd6015.png"
+    },
+    {
+      "name": "GroupWebPartProperties",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupWebPartSize",
+      "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+    },
+    {
+      "name": "GroupWebPartZoneLayout",
+      "imageAsset": "images/by-hash/9f594486e0e71fcd.png"
+    },
+    {
+      "name": "GroupWebPartZoneProperties",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    }
+  ],
+  "sameImageIds": []
+}

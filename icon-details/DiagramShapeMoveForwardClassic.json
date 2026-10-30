@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DiagramShapeMoveBackwardClassic",
+      "imageAsset": "images/by-hash/b36e6bdfe546ed4b.png"
+    },
+    {
+      "name": "TaskMoveForwardCustom",
+      "imageAsset": "images/by-hash/b5cbbd84a151589c.png"
+    },
+    {
+      "name": "TaskMoveForwardFourWeeks",
+      "imageAsset": "images/by-hash/ba391f5bd14bab4b.png"
+    },
+    {
+      "name": "TaskMoveForwardOneDay",
+      "imageAsset": "images/by-hash/a372ea0002b4bafc.png"
+    },
+    {
+      "name": "TaskMoveForwardOneWeek",
+      "imageAsset": "images/by-hash/73084bafacd607ba.png"
+    },
+    {
+      "name": "PivotDiagramMoveLeft",
+      "imageAsset": "images/by-hash/1816c21da026fa8e.png"
+    },
+    {
+      "name": "PivotDiagramMoveRight",
+      "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+    },
+    {
+      "name": "DiagramShapeInsertClassic",
+      "imageAsset": "images/by-hash/dd87254046e40348.png"
+    },
+    {
+      "name": "PivotDiagramApplyShape",
+      "imageAsset": "images/by-hash/267a79f8d7d3956e.png"
+    },
+    {
+      "name": "CodeHyperlinkForward",
+      "imageAsset": "images/by-hash/1c154a02c8cf0fb0.png"
+    },
+    {
+      "name": "FastForwardLong",
+      "imageAsset": "images/by-hash/cd4b86c772ddb63f.png"
+    },
+    {
+      "name": "FastForwardShort",
+      "imageAsset": "images/by-hash/0f42881fbb368916.png"
+    }
+  ],
+  "sameImageIds": []
+}

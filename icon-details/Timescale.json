@@ -1,0 +1,16 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TimescaleGallery",
+      "imageAsset": "images/by-hash/40c28fb983e3a8a6.png"
+    },
+    {
+      "name": "ZoomTimescale",
+      "imageAsset": "images/by-hash/212d13be56c4f382.png"
+    }
+  ],
+  "sameImageIds": [
+    "CalendarHorizontal",
+    "CalendarViewGallery"
+  ]
+}

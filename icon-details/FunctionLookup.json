@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DatasheetColumnLookup",
+      "imageAsset": "images/by-hash/2053cf596680b0b7.png"
+    },
+    {
+      "name": "DataTypeLookup",
+      "imageAsset": "images/by-hash/00cd4d0b28c70c30.png"
+    },
+    {
+      "name": "FunctionsLookupReferenceInsertGallery",
+      "imageAsset": "images/by-hash/45f84a2af3e6d14b.png"
+    },
+    {
+      "name": "LookupFromInitiationData",
+      "imageAsset": "images/by-hash/5d6abecc79cf9509.png"
+    },
+    {
+      "name": "EquationFunctionGallery",
+      "imageAsset": "images/by-hash/c254693d8f9db571.png"
+    },
+    {
+      "name": "FunctionInsertVisio",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "FunctionWizard",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "GoToFunction",
+      "imageAsset": "images/by-hash/5711c9a8e1680174.png"
+    },
+    {
+      "name": "GroupFunctionLibrary",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    }
+  ],
+  "sameImageIds": [
+    "DataTypeCalculatedColumn",
+    "EditExpression",
+    "EditFormula",
+    "Formula",
+    "FunctionInsertVisio",
+    "FunctionWizard",
+    "GroupFunctionLibrary",
+    "GroupShapeSheetEditing",
+    "GroupShapeSheetView",
+    "ShapeSheetEditFormula",
+    "ShapeSheetShowFormulas",
+    "TableFormulaDialog",
+    "XDStaticText"
+  ]
+}

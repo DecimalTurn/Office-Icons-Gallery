@@ -1,0 +1,33 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotMoveToColumnArea",
+      "imageAsset": "images/by-hash/7e73fe787205a7e1.png"
+    },
+    {
+      "name": "PivotSwitchRowColumn",
+      "imageAsset": "images/by-hash/991ad5f8c5b8f80c.png"
+    },
+    {
+      "name": "CreateFormPivotChart",
+      "imageAsset": "images/by-hash/501aa8ac35fff42b.png"
+    },
+    {
+      "name": "GroupWorkflowTextBasedDesignerInsert",
+      "imageAsset": "images/by-hash/888b6d91cc62dd3b.png"
+    },
+    {
+      "name": "GroupWorkflowTextBasedDesignerManage",
+      "imageAsset": "images/by-hash/8166418eccf14f70.png"
+    },
+    {
+      "name": "GroupWorkflowTextBasedDesignerVariables",
+      "imageAsset": "images/by-hash/0f5a38804b681599.png"
+    },
+    {
+      "name": "SwitchToTextBasedView",
+      "imageAsset": "images/by-hash/c966d15d29d8a20d.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupResourceGraphFormat",
+      "imageAsset": "images/by-hash/df2710e93a68f49a.png"
+    },
+    {
+      "name": "BarStylesFormat",
+      "imageAsset": "images/by-hash/d2de08e369f7a81f.png"
+    },
+    {
+      "name": "CalendarViewFormatBarStyles",
+      "imageAsset": "images/by-hash/a38ac147ba61d6a4.png"
+    },
+    {
+      "name": "FormatBarStylesMenu",
+      "imageAsset": "images/by-hash/3a702ed22fd2622d.png"
+    },
+    {
+      "name": "GroupResourceGraphData",
+      "imageAsset": "images/by-hash/f45b35a2da16362a.png"
+    },
+    {
+      "name": "GroupResourceGraphNavigate",
+      "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+    },
+    {
+      "name": "GroupGanttChartBarStyles",
+      "imageAsset": "images/by-hash/6db82b29c3b23da6.png"
+    },
+    {
+      "name": "BarFormat",
+      "imageAsset": "images/by-hash/3a702ed22fd2622d.png"
+    },
+    {
+      "name": "FormatBar",
+      "imageAsset": "images/by-hash/3a702ed22fd2622d.png"
+    },
+    {
+      "name": "GanttBarFormat",
+      "imageAsset": "images/by-hash/3a702ed22fd2622d.png"
+    },
+    {
+      "name": "NetworkDiagramBoxStylesFormat",
+      "imageAsset": "images/by-hash/af4b79b468cd3aa4.png"
+    },
+    {
+      "name": "JotInsertGraphStyle1",
+      "imageAsset": "images/by-hash/d9c2384d082b125f.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupResourceGraphFormat"
+  ]
+}

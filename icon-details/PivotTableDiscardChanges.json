@@ -1,0 +1,125 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChangesDiscardAndRefresh",
+      "imageAsset": "images/by-hash/a9a39c031d036e56.png"
+    },
+    {
+      "name": "DiscardTableChanges",
+      "imageAsset": "images/by-hash/e50e1b451754030b.png"
+    },
+    {
+      "name": "FileDiscardCachedChanges",
+      "imageAsset": "images/by-hash/e7b96ed34b3b06b2.png"
+    },
+    {
+      "name": "MeetingsToolAppointmentDiscardChanges",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "SharePointListsDiscardAllChanges",
+      "imageAsset": "images/by-hash/e50e1b451754030b.png"
+    },
+    {
+      "name": "SharePointListsDiscardAllChangesAndRefresh",
+      "imageAsset": "images/by-hash/a9a39c031d036e56.png"
+    },
+    {
+      "name": "SharePointListsDiscardChangesMenu",
+      "imageAsset": "images/by-hash/e50e1b451754030b.png"
+    },
+    {
+      "name": "PivotTableCalculateChanges",
+      "imageAsset": "images/by-hash/a12619fc5b31aabc.png"
+    },
+    {
+      "name": "PivotTablePublishChanges",
+      "imageAsset": "images/by-hash/f8c08eb8ca92796a.png"
+    },
+    {
+      "name": "DiscardCheckOut",
+      "imageAsset": "images/by-hash/e50e1b451754030b.png"
+    },
+    {
+      "name": "DiscardCheckOutMenu",
+      "imageAsset": "images/by-hash/e50e1b451754030b.png"
+    },
+    {
+      "name": "FileCheckOutDiscard",
+      "imageAsset": "images/by-hash/e50e1b451754030b.png"
+    }
+  ],
+  "sameImageIds": [
+    "Backspace",
+    "ChangeToDeclineInvitation",
+    "ClearGrid",
+    "ClearIconColors",
+    "ClearRow",
+    "ColumnActionsRemove",
+    "ContactDelete",
+    "ContentTypeColumnActionsRemove",
+    "DataSourceCatalogRemove",
+    "DeclineInvitation",
+    "DeclineTask",
+    "Delete",
+    "DeleteAppointmentGallery",
+    "DeleteContentType",
+    "DeleteDistributionGroup",
+    "DeleteFailedEntityInstanceCreateOperation",
+    "DeleteItem",
+    "DeleteItemInLaunchbar",
+    "DeleteNavigationLink",
+    "DeletePermissionGroup",
+    "DeleteSite",
+    "DeleteSpdPage",
+    "DeleteSPDSite",
+    "DeleteWeb",
+    "DeleteWorkspaceFromThisComputer",
+    "DeleteWorkspaceMenu",
+    "FolderDelete",
+    "FormsToolDelete",
+    "GanttTaskDelete",
+    "GroupActions",
+    "GroupCalendarTool",
+    "GroupDelete",
+    "GroupMailDelete",
+    "GroupMeetings",
+    "GroupMembersEdit",
+    "GroupPicturesTool",
+    "GroupSketchpad",
+    "GroupSummaryEdit",
+    "GuideDelete",
+    "JotPermanentlyDelete",
+    "ListDeleteList",
+    "ListDeleteSelected",
+    "MailDelete",
+    "MeetingsToolAppointmentDelete",
+    "MeetingsToolAppointmentDeleteAgendaItem",
+    "MeetingsToolAppointmentDeleteNote",
+    "MeetingsToolAppointmentDeleteSummary",
+    "MenuDeclineInvitation",
+    "NotebookDelete",
+    "NoteLinkDelete",
+    "NoteLinkDeleteGallery",
+    "NoteLinksDeleteAll",
+    "OutlookTaskRemove",
+    "OutlookTaskRemoveContextual",
+    "PageVersionDelete",
+    "PivotClearAll",
+    "RejectApprovalRequest",
+    "RelationshipsClearLayout",
+    "RemoveAttach",
+    "RemoveTaskPathHighlight",
+    "RemoveUserFromGroup",
+    "ReviewDeleteAllMarkupInPresentation",
+    "SharingRequestDeny",
+    "SiteColumnActionsRemove",
+    "SlicerDelete",
+    "SlicerDeleteTouch",
+    "TaskSummaryDeleteSelf",
+    "TimeSlicerDelete",
+    "TimeSlicerDeleteTouch",
+    "ToolDelete",
+    "WorkflowSummaryDeleteWorkflow"
+  ]
+}

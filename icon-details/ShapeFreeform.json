@@ -1,0 +1,16 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ShapeConvertToFreeform",
+      "imageAsset": "images/by-hash/ac1a24e52a290463.png"
+    },
+    {
+      "name": "FreeformTool",
+      "imageAsset": "images/by-hash/3752d4301ce9294c.png"
+    }
+  ],
+  "sameImageIds": [
+    "DrawFilledPolygon",
+    "ShapeConvertToFreeform"
+  ]
+}

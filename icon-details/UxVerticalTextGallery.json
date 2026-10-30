@@ -1,0 +1,16 @@
+{
+  "relatedIcons": [
+    {
+      "name": "UxContentLibGallery",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "UxTextGallery",
+      "imageAsset": "images/by-hash/8187ee8d4735072e.png"
+    }
+  ],
+  "sameImageIds": [
+    "TextBoxInsertVertical",
+    "TextBoxInsertVerticalWord"
+  ]
+}

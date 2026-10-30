@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CodeEditorScript",
+      "imageAsset": "images/by-hash/222ac64c060cf337.png"
+    },
+    {
+      "name": "DataSourceCatalogServerScript",
+      "imageAsset": "images/by-hash/12112a45fa5c84b7.png"
+    },
+    {
+      "name": "NewJavaScriptPage",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "ScriptDebugger",
+      "imageAsset": "images/by-hash/7128e73884e0f2f8.png"
+    },
+    {
+      "name": "ShowScriptBlockMark",
+      "imageAsset": "images/by-hash/f1d930c1fb20b2ea.png"
+    },
+    {
+      "name": "BuildingBlocksSaveEquation",
+      "imageAsset": "images/by-hash/1c9db4ad034af9ca.png"
+    },
+    {
+      "name": "EquationAccentGallery",
+      "imageAsset": "images/by-hash/3dfd59ecd0929991.png"
+    },
+    {
+      "name": "EquationChangeLimitLocation",
+      "imageAsset": "images/by-hash/ea294abf0b3df929.png"
+    },
+    {
+      "name": "EquationDelimiterGallery",
+      "imageAsset": "images/by-hash/21f117bb812cf471.png"
+    },
+    {
+      "name": "EquationEdit",
+      "imageAsset": "images/by-hash/5f27fe84419337f4.png"
+    },
+    {
+      "name": "EquationEditor",
+      "imageAsset": "images/by-hash/ebe6a4ef3f056757.png"
+    },
+    {
+      "name": "EquationFractionGallery",
+      "imageAsset": "images/by-hash/92a3ef3796619e43.png"
+    }
+  ],
+  "sameImageIds": [
+    "EquationOptionsGallery",
+    "EquationProfessional"
+  ]
+}

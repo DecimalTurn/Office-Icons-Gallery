@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartNavDrillDown",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "DrillInto",
+      "imageAsset": "images/by-hash/2bb6116b6cf27b51.png"
+    },
+    {
+      "name": "NavDrillDown",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "NavDrillUp",
+      "imageAsset": "images/by-hash/9c3ea6230877361d.png"
+    },
+    {
+      "name": "SelectedItemNavDrillDown",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "SelectedItemNavDrillUp",
+      "imageAsset": "images/by-hash/9c3ea6230877361d.png"
+    },
+    {
+      "name": "AppointmentOutOfOffice",
+      "imageAsset": "images/by-hash/aef5b9da5f6cce26.png"
+    },
+    {
+      "name": "AudioFadeOutTime",
+      "imageAsset": "images/by-hash/d6721e5b45ce0e97.png"
+    },
+    {
+      "name": "CheckOutEntry",
+      "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+    },
+    {
+      "name": "CheckOutFile",
+      "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+    },
+    {
+      "name": "DiscardCheckOut",
+      "imageAsset": "images/by-hash/e50e1b451754030b.png"
+    },
+    {
+      "name": "DiscardCheckOutMenu",
+      "imageAsset": "images/by-hash/e50e1b451754030b.png"
+    }
+  ],
+  "sameImageIds": []
+}

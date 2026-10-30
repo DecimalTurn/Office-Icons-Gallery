@@ -1,0 +1,43 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AnimationCustomAddExitDialog",
+      "imageAsset": "images/by-hash/9df3ac47e85dd523.png"
+    },
+    {
+      "name": "AnimationCustomExitDialog",
+      "imageAsset": "images/by-hash/9df3ac47e85dd523.png"
+    },
+    {
+      "name": "ExitHollow",
+      "imageAsset": "images/by-hash/13f298e432e05ef0.png"
+    },
+    {
+      "name": "FileExit",
+      "imageAsset": "images/by-hash/8b8f6fc1118fc4fc.png"
+    },
+    {
+      "name": "JotExitFind",
+      "imageAsset": "images/by-hash/cabe4c9851b37f45.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddTextToTextEffect",
+    "ChartEditText",
+    "CustomTextBoxGallery",
+    "DrawTextBox",
+    "EditLabel",
+    "GroupObjects",
+    "GroupTextBoxText",
+    "ObjectAddText",
+    "ObjectEditText",
+    "TextBoxDrawMenu",
+    "TextBoxInsert",
+    "TextBoxInsertExcel",
+    "TextBoxInsertGallery",
+    "TextBoxInsertHorizontal",
+    "TextBoxInsertMenu",
+    "TextBoxInsertWord",
+    "UxTextGallery"
+  ]
+}

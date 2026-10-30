@@ -66,6 +66,6 @@ test("search suggestions remain aligned and selectable when resized", async ({ p
   const suggestion = page.locator(".awesomplete > ul > li").filter({ hasText: "ZoomTwoPages" }).first();
   await expect(suggestion).toBeVisible();
   await suggestion.click();
-  await expect(page).toHaveURL(/icon\.html\?name=ZoomTwoPages$/);
+  await expect(page).toHaveURL(/icon\.html\?icon_id=ZoomTwoPages$/);
   await expect(page.getByRole("heading", { name: "ZoomTwoPages" })).toBeVisible();
 });

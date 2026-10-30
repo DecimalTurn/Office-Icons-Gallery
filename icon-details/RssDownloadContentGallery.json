@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "RssDownloadContent",
+      "imageAsset": "images/by-hash/448cafaddde8578c.png"
+    },
+    {
+      "name": "RssDownload",
+      "imageAsset": "images/by-hash/448cafaddde8578c.png"
+    },
+    {
+      "name": "AddNewRssFeed",
+      "imageAsset": "images/by-hash/62675dac43797838.png"
+    },
+    {
+      "name": "GroupRss",
+      "imageAsset": "images/by-hash/448cafaddde8578c.png"
+    },
+    {
+      "name": "RssShareThisFeed",
+      "imageAsset": "images/by-hash/d4084b06f401b640.png"
+    },
+    {
+      "name": "RssViewArticle",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingOpenRssFeed",
+      "imageAsset": "images/by-hash/d4084b06f401b640.png"
+    },
+    {
+      "name": "ChangeFolderDownloadSettings",
+      "imageAsset": "images/by-hash/5f9639c5060c2a1f.png"
+    },
+    {
+      "name": "DownloadAddressBook",
+      "imageAsset": "images/by-hash/f5ee821d90999a62.png"
+    },
+    {
+      "name": "DownloadContents",
+      "imageAsset": "images/by-hash/8ea103e009e28958.png"
+    },
+    {
+      "name": "DownloadContentsMenu",
+      "imageAsset": "images/by-hash/8ea103e009e28958.png"
+    },
+    {
+      "name": "DownloadHeaders",
+      "imageAsset": "images/by-hash/4b98f83b90bb3eef.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupRss",
+    "RssDownload",
+    "RssDownloadContent"
+  ]
+}

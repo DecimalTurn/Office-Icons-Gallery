@@ -1,0 +1,49 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AppointmentColor0",
+      "imageAsset": "images/by-hash/ceaea2de8a03683a.png"
+    },
+    {
+      "name": "AppointmentColor1",
+      "imageAsset": "images/by-hash/2b3431a2b84ec2ca.png"
+    },
+    {
+      "name": "AppointmentColor2",
+      "imageAsset": "images/by-hash/6421d2cf71829658.png"
+    },
+    {
+      "name": "AppointmentColor4",
+      "imageAsset": "images/by-hash/33c7a9a156b7629d.png"
+    },
+    {
+      "name": "AppointmentColor5",
+      "imageAsset": "images/by-hash/f79ac4605af91945.png"
+    },
+    {
+      "name": "AppointmentColor6",
+      "imageAsset": "images/by-hash/31f7e1bd0dc685e1.png"
+    },
+    {
+      "name": "AppointmentColor7",
+      "imageAsset": "images/by-hash/588d477300fd2a77.png"
+    },
+    {
+      "name": "AppointmentColor8",
+      "imageAsset": "images/by-hash/72258e18044dcd9e.png"
+    },
+    {
+      "name": "AppointmentColor9",
+      "imageAsset": "images/by-hash/2d2ffcf05b58e812.png"
+    },
+    {
+      "name": "AppointmentColor10",
+      "imageAsset": "images/by-hash/b1bcf491357b7600.png"
+    },
+    {
+      "name": "AppointmentColorDialog",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    }
+  ],
+  "sameImageIds": []
+}

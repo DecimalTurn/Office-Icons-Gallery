@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotTableLayoutSubtotals",
+      "imageAsset": "images/by-hash/1d45910b273cc3d8.png"
+    },
+    {
+      "name": "PivotTableSubtotalsDoNotShow",
+      "imageAsset": "images/by-hash/90d4275591f12576.png"
+    },
+    {
+      "name": "PivotTableSubtotalsOnBottom",
+      "imageAsset": "images/by-hash/1d45910b273cc3d8.png"
+    },
+    {
+      "name": "PivotTableSubtotalsOnTop",
+      "imageAsset": "images/by-hash/10117bd7c5d17a59.png"
+    }
+  ],
+  "sameImageIds": []
+}

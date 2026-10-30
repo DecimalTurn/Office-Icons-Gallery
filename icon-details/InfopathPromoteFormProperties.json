@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "InfopathFormActionsMenu",
+      "imageAsset": "images/by-hash/9c1800795abd321b.png"
+    },
+    {
+      "name": "ListInfopathForm",
+      "imageAsset": "images/by-hash/049d1f525a07b318.png"
+    },
+    {
+      "name": "OpenInfopathForm",
+      "imageAsset": "images/by-hash/049d1f525a07b318.png"
+    },
+    {
+      "name": "FormFieldProperties",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "FormProperties",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "FormPropertiesInfoPath",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "PropertiesForm",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "InfopathExportForms",
+      "imageAsset": "images/by-hash/72a11390b0e6f49f.png"
+    },
+    {
+      "name": "InfopathExportToExcel",
+      "imageAsset": "images/by-hash/3f1548fe28ed03b8.png"
+    },
+    {
+      "name": "OutlinePromote",
+      "imageAsset": "images/by-hash/e1ca9077091fbbf5.png"
+    },
+    {
+      "name": "OutlinePromoteToHeading",
+      "imageAsset": "images/by-hash/cee3478b2e52842c.png"
+    },
+    {
+      "name": "PagesPromote",
+      "imageAsset": "images/by-hash/1816c21da026fa8e.png"
+    }
+  ],
+  "sameImageIds": []
+}

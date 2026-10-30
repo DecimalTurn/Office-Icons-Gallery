@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SmartArtIncreaseFontSize",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "FontSizeDecrease",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "FontSizeDecrease1Point",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "FontSizeDecreaseWord",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "ReadingViewFontSizeDecrease",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "GroupSmartArtSize",
+      "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+    },
+    {
+      "name": "FontSizeIncrease",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "FontSizeIncrease1Point",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "FontSizeIncreaseWord",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "ReadingViewFontSizeIncrease",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "ConvertSmartArtMenu",
+      "imageAsset": "images/by-hash/0e337530ca1d575e.png"
+    },
+    {
+      "name": "ConvertToSmartArt",
+      "imageAsset": "images/by-hash/df0b06c2bd8de1bb.png"
+    }
+  ],
+  "sameImageIds": [
+    "FontSizeDecrease",
+    "FontSizeDecrease1Point",
+    "FontSizeDecreaseWord",
+    "ReadingViewFontSizeDecrease"
+  ]
+}

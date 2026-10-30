@@ -1,0 +1,75 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SharingOpenPublishedCalendar",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "SharingPreviewWssCalendar",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingPreviewWssContactList",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingPreviewWssDiscussionList",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingPreviewWssDocumentList",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingPreviewWssTaskList",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingOpenCalendarFolder",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "SharingOpenICalendar",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "SharingOpenWebCalendar",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "SharingOpenWssCalendar",
+      "imageAsset": "images/by-hash/feff041c0012ff48.png"
+    },
+    {
+      "name": "SaveForSharing",
+      "imageAsset": "images/by-hash/289fc463233b9aa8.png"
+    },
+    {
+      "name": "SharingCategory",
+      "imageAsset": "images/by-hash/3c306277cd6eb857.png"
+    }
+  ],
+  "sameImageIds": [
+    "BroadcastResume",
+    "ContextualInBrowserGallery",
+    "GroupListCustomActionsManage",
+    "GroupListFormsManage",
+    "GroupPageSummaryManage",
+    "GroupPreviewInBrowser",
+    "GroupWebPreview",
+    "InBrowserGallery",
+    "OpenInBrowserOutlook",
+    "OpenInWebBrowser",
+    "OpenTargetURL",
+    "PreviewInBrowserDefault",
+    "PreviewInMultipleBrowsers",
+    "RssViewArticle",
+    "SharingPreviewWssCalendar",
+    "SharingPreviewWssContactList",
+    "SharingPreviewWssDiscussionList",
+    "SharingPreviewWssDocumentList",
+    "SharingPreviewWssTaskList",
+    "WebPagePreview",
+    "WebSiteMapPageCentricView"
+  ]
+}

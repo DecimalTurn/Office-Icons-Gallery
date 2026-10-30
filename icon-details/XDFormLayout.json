@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotTableLayoutShowInCompactForm",
+      "imageAsset": "images/by-hash/b3e15e28e66d4330.png"
+    },
+    {
+      "name": "PivotTableLayoutShowInOutlineForm",
+      "imageAsset": "images/by-hash/d88eba962280e0c7.png"
+    },
+    {
+      "name": "PivotTableLayoutShowInTabularForm",
+      "imageAsset": "images/by-hash/a80fc3e4a09cb789.png"
+    },
+    {
+      "name": "XDBackgroundColor",
+      "imageAsset": "images/by-hash/f49b012b69437cca.png"
+    },
+    {
+      "name": "XDBlock",
+      "imageAsset": "images/by-hash/67d47d0de11c3614.png"
+    },
+    {
+      "name": "XDCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "XDConditionalFormatting",
+      "imageAsset": "images/by-hash/468cf6e9e64ac27c.png"
+    },
+    {
+      "name": "XDDataValidation",
+      "imageAsset": "images/by-hash/91f56a8a930ceea2.png"
+    },
+    {
+      "name": "XDInkPicture",
+      "imageAsset": "images/by-hash/a9de9ec09bddb7a6.png"
+    },
+    {
+      "name": "XDInsertDatePicker",
+      "imageAsset": "images/by-hash/70eb64b8f3d082fd.png"
+    },
+    {
+      "name": "XDInsertPictureControl",
+      "imageAsset": "images/by-hash/5e6946411ffa8d11.png"
+    },
+    {
+      "name": "XDListBox",
+      "imageAsset": "images/by-hash/5afbe6d1834bbe58.png"
+    }
+  ],
+  "sameImageIds": []
+}

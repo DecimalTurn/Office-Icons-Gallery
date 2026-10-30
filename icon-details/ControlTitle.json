@@ -1,0 +1,61 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartDepthAxisTitle",
+      "imageAsset": "images/by-hash/9f0f29b5f7330e4f.png"
+    },
+    {
+      "name": "ChartFormatAxisTitle",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartFormatChartTitle",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartPrimaryHorizontalAxisTitle",
+      "imageAsset": "images/by-hash/5bd5d4c05ff97c34.png"
+    },
+    {
+      "name": "ChartPrimaryVerticalAxisTitle",
+      "imageAsset": "images/by-hash/ad28662262a66c19.png"
+    },
+    {
+      "name": "ChartSecondaryHorizontalAxisTitle",
+      "imageAsset": "images/by-hash/5728d6bdb0ff9dc7.png"
+    },
+    {
+      "name": "ChartSecondaryVerticalAxisTitle",
+      "imageAsset": "images/by-hash/5b7cb2cc84288fee.png"
+    },
+    {
+      "name": "ChartTitle",
+      "imageAsset": "images/by-hash/9c63384e868b6128.png"
+    },
+    {
+      "name": "PageTitleHide",
+      "imageAsset": "images/by-hash/0b398f5766eb3d89.png"
+    },
+    {
+      "name": "SetFieldAsTitle",
+      "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+    }
+  ],
+  "sameImageIds": [
+    "CustomHeaderGallery",
+    "GroupDesignerHeaders",
+    "GroupEntityFieldActions",
+    "GroupFormHeaderFooter",
+    "GroupHeaderFooter",
+    "GroupHeaderFooterExcel",
+    "GroupHeaderFooterLayout",
+    "GroupHeaderFooterPublisher",
+    "GroupReportHeaderFooter",
+    "HeaderFooterEditHeader",
+    "HeaderFooterHeaderGallery",
+    "HeaderInsertGallery",
+    "HeaderInsertPublisher",
+    "InsertBuildingBlocksHeaderGallery",
+    "SetFieldAsTitle"
+  ]
+}

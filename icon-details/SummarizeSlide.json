@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AutoSummarize",
+      "imageAsset": "images/by-hash/61c99640ab898dcc.png"
+    },
+    {
+      "name": "PivotTableSummarizeByMenu",
+      "imageAsset": "images/by-hash/27a1b60d1cfa89e7.png"
+    },
+    {
+      "name": "TableSummarizeWithPivot",
+      "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+    }
+  ],
+  "sameImageIds": []
+}

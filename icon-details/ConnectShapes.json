@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AutoConnect",
+      "imageAsset": "images/by-hash/17105cf663d7c445.png"
+    },
+    {
+      "name": "ConnectOtherSitesCategory",
+      "imageAsset": "images/by-hash/ba3eb9d46af27681.png"
+    },
+    {
+      "name": "ConnectToServer",
+      "imageAsset": "images/by-hash/f6aa2080fed8d170.png"
+    },
+    {
+      "name": "ChartChangeDataLabelShapesGallery",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "CombineShapesGallery",
+      "imageAsset": "images/by-hash/5f9fba2194e87a87.png"
+    },
+    {
+      "name": "CombineShapesMenu",
+      "imageAsset": "images/by-hash/5f9fba2194e87a87.png"
+    },
+    {
+      "name": "DataLinkDataToShapes",
+      "imageAsset": "images/by-hash/68574b4538de7a49.png"
+    },
+    {
+      "name": "FacilitiesLabelShapes",
+      "imageAsset": "images/by-hash/b641fa2969faccdd.png"
+    },
+    {
+      "name": "GalleryAllShapesAndCanvas",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "GalleryAllShapesAndTextboxes",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "GroupChartShapes",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    },
+    {
+      "name": "GroupFacilitiesShapes",
+      "imageAsset": "images/by-hash/b641fa2969faccdd.png"
+    }
+  ],
+  "sameImageIds": []
+}

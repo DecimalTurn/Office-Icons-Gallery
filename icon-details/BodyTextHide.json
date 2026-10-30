@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "JotHideBodyText",
+      "imageAsset": "images/by-hash/91419e0e6aa6586a.png"
+    },
+    {
+      "name": "JotConvertToBodyText",
+      "imageAsset": "images/by-hash/43ee24e557cef22e.png"
+    },
+    {
+      "name": "JotConvertToBodyTextRTL",
+      "imageAsset": "images/by-hash/23674351039cc240.png"
+    },
+    {
+      "name": "JotShowBodyText",
+      "imageAsset": "images/by-hash/1397e5c8b73d7a6c.png"
+    },
+    {
+      "name": "OutlineDemoteToBodyText",
+      "imageAsset": "images/by-hash/afd902d3a9df8623.png"
+    }
+  ],
+  "sameImageIds": []
+}

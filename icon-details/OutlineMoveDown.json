@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MeetingsToolAppointmentMoveDown",
+      "imageAsset": "images/by-hash/e725f668e6f610c7.png"
+    },
+    {
+      "name": "MoveDown",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    },
+    {
+      "name": "MoveDownCustomAction",
+      "imageAsset": "images/by-hash/79274de9857dec98.png"
+    },
+    {
+      "name": "MoveDownSection",
+      "imageAsset": "images/by-hash/79274de9857dec98.png"
+    },
+    {
+      "name": "MoveElementDown",
+      "imageAsset": "images/by-hash/79274de9857dec98.png"
+    },
+    {
+      "name": "SectionMoveDown",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    },
+    {
+      "name": "OutlineMoveUp",
+      "imageAsset": "images/by-hash/6cb246f6a08ee6e1.png"
+    },
+    {
+      "name": "_3DTiltDownClassic",
+      "imageAsset": "images/by-hash/3feb97f7e19ab7cd.png"
+    },
+    {
+      "name": "BorderDiagonalDown",
+      "imageAsset": "images/by-hash/aa2d1c261fefbb4c.png"
+    },
+    {
+      "name": "ChartFormatDownBars",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartNavDrillDown",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "ChartUpDownBars",
+      "imageAsset": "images/by-hash/15e4f4da852f3edc.png"
+    }
+  ],
+  "sameImageIds": [
+    "AnimationMoveLater",
+    "DownArrow2",
+    "MoveDown",
+    "PageDownPreview",
+    "SectionMoveDown"
+  ]
+}

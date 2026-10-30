@@ -1,0 +1,95 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GlowColorPicker",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "GlowColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "TextGlowColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "_3DEffectColorPickerClassic",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "BorderColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "BorderColorPickerExcel",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "CellFillColorPicker",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "ColorPickerCalendar",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "ColorPickerCommentFill",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "ColorPickerTable",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "ControlLineColorPicker",
+      "imageAsset": "images/by-hash/526d6565d950b7d9.png"
+    },
+    {
+      "name": "Drawing1ColorPickerLineStyles",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    }
+  ],
+  "sameImageIds": [
+    "BorderMoreColorsDialog",
+    "ChartColorsGallery",
+    "ColorMenu",
+    "ColorPickerCalendar",
+    "CycleFillColor",
+    "FontColorCycle",
+    "FontColorMoreColorsDialog",
+    "FontColorMoreColorsDialogExcel",
+    "FontColorMoreColorsDialogPowerPoint",
+    "FontShadingColorMoreColorsDialog",
+    "GlowColorMoreColorsDialog",
+    "GlowColorPicker",
+    "GroupColor",
+    "GroupDiagramming",
+    "GroupPens",
+    "InkColorMoreColorsDialog",
+    "InkLineColorPicker",
+    "JotLineColor",
+    "MoreColorAndThicknessOptions",
+    "MoreHighlightColors",
+    "NavSectionColorPicker",
+    "ObjectBorderOutlineColorMoreColorsDialog",
+    "ObjectFillMoreColorsDialog",
+    "ObjectShadowColorMoreColorsDialog",
+    "PictureRecolorMoreColorsDialog",
+    "RecolorColorPicker",
+    "ShadingColorsMoreColorsDialog",
+    "SheetTabColorMoreColorsDialog",
+    "SmartArtChangeColorsGallery",
+    "SparklineFirstPointMoreColors",
+    "SparklineHighPointMoreColors",
+    "SparklineLastPointMoreColors",
+    "SparklineLowPointMoreColors",
+    "SparklineMarkerMoreColors",
+    "SparklineMoreColors",
+    "SparklineNegativePointMoreColors",
+    "TableBorderColorMoreColorsDialog",
+    "TableFillColorMoreColorsDialog",
+    "TextFillColorMoreColorsDialog",
+    "TextGlowColorMoreColorsDialog",
+    "TextOutlineColorMoreColorsDialog"
+  ]
+}

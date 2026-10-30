@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SaveWorkflowAsTemplate",
+      "imageAsset": "images/by-hash/d54f12eed95a6b63.png"
+    },
+    {
+      "name": "DataTypeTemplateCreate",
+      "imageAsset": "images/by-hash/4419cffd0c73a08d.png"
+    },
+    {
+      "name": "ListCreateListFromTemplate",
+      "imageAsset": "images/by-hash/275d48d742decaef.png"
+    },
+    {
+      "name": "CreateListWorkflowGallery",
+      "imageAsset": "images/by-hash/018b27e5bde959ad.png"
+    },
+    {
+      "name": "CreateSiteWorkflow",
+      "imageAsset": "images/by-hash/0dff1a210c7d8072.png"
+    },
+    {
+      "name": "CreateWorkflow",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "CreateWorkflowDiagram",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "CreateWorkflowDiagramVisualDesigner",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "ListCreateWorkflow",
+      "imageAsset": "images/by-hash/018b27e5bde959ad.png"
+    },
+    {
+      "name": "DataTypeTemplateGallery",
+      "imageAsset": "images/by-hash/2c6ae4e29ec7a99f.png"
+    },
+    {
+      "name": "DeployTemplateGlobally",
+      "imageAsset": "images/by-hash/b7913fb9eabeaae3.png"
+    },
+    {
+      "name": "DesignTemplate",
+      "imageAsset": "images/by-hash/828e97e4441434cb.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddNewColumnMenu",
+      "imageAsset": "images/by-hash/14c3f28cf7f6656f.png"
+    },
+    {
+      "name": "ContentTypeAddSiteColumn",
+      "imageAsset": "images/by-hash/3a08b1e5d9651ea0.png"
+    },
+    {
+      "name": "ListAddSiteColumn",
+      "imageAsset": "images/by-hash/3a08b1e5d9651ea0.png"
+    },
+    {
+      "name": "SiteAddNewColumnMenu",
+      "imageAsset": "images/by-hash/8166418eccf14f70.png"
+    }
+  ],
+  "sameImageIds": []
+}

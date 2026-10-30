@@ -1,0 +1,27 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BuildingBlocksSaveCoverPage",
+      "imageAsset": "images/by-hash/6040b3b0e1c12c80.png"
+    },
+    {
+      "name": "CoverPageRemove",
+      "imageAsset": "images/by-hash/7c698fbffc8a4efb.png"
+    },
+    {
+      "name": "CustomCoverPageGallery",
+      "imageAsset": "images/by-hash/2e3940b44c217189.png"
+    },
+    {
+      "name": "SaveSelectionToCoverPageGallery",
+      "imageAsset": "images/by-hash/6040b3b0e1c12c80.png"
+    }
+  ],
+  "sameImageIds": [
+    "CustomCoverPageGallery",
+    "GroupInsertPages",
+    "NewPageFromTemplate",
+    "PageTemplatesSplitButton",
+    "PageTemplatesTaskpane"
+  ]
+}

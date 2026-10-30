@@ -1,0 +1,27 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TaskPanesMenu",
+      "imageAsset": "images/by-hash/4daf3d2ef3717404.png"
+    },
+    {
+      "name": "TaskPanesMenuVisio",
+      "imageAsset": "images/by-hash/8c005537b968b2f0.png"
+    },
+    {
+      "name": "GroupTaskUsageShowHide",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "FreezePanes",
+      "imageAsset": "images/by-hash/2e26fa11e3b7a125.png"
+    },
+    {
+      "name": "ViewFreezePanesGallery",
+      "imageAsset": "images/by-hash/2e26fa11e3b7a125.png"
+    }
+  ],
+  "sameImageIds": [
+    "HtmlPaneShowHide"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "relatedIcons": [
+    {
+      "name": "LayoutOptionsDialogSize",
+      "imageAsset": "images/by-hash/b2d12a6affc2897a.png"
+    }
+  ],
+  "sameImageIds": [
+    "CellWidth",
+    "ControlPropertyWidthValue",
+    "GalPrintPagesWide",
+    "GroupPageLayoutScaleToFit",
+    "GroupSmartArtSize",
+    "GroupTableCellFormat",
+    "GroupWebPartSize",
+    "MakeSameSizeMenu",
+    "PageScaleToFitWidth",
+    "ShapeWidth",
+    "SizeMenu",
+    "SizeToControlWidth",
+    "SlicerColumnWidth",
+    "TableColumnWidth",
+    "TableWidth",
+    "VideoWidth",
+    "WebPartWidth"
+  ]
+}

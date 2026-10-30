@@ -1,0 +1,65 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupPlaceholdersHandoutMaster",
+      "imageAsset": "images/by-hash/2db8e446d7f58899.png"
+    },
+    {
+      "name": "ViewHandoutMasterView",
+      "imageAsset": "images/by-hash/523973e71ecb274e.png"
+    },
+    {
+      "name": "GroupPageSetupNotesMaster",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    },
+    {
+      "name": "HandoutOrientation",
+      "imageAsset": "images/by-hash/910667546f2dfb94.png"
+    },
+    {
+      "name": "FilePageSetupCalendar",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    },
+    {
+      "name": "FilePageSetupCalendarFonts",
+      "imageAsset": "images/by-hash/38d76334050dad66.png"
+    },
+    {
+      "name": "FilePageSetupPage",
+      "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+    },
+    {
+      "name": "FilePrintSetup",
+      "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+    },
+    {
+      "name": "GroupCDAudioSetup",
+      "imageAsset": "images/by-hash/c4155e7df729c0ca.png"
+    },
+    {
+      "name": "GroupPageLayoutSetup",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    },
+    {
+      "name": "GroupPageSetup",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    },
+    {
+      "name": "GroupPageSetupNarrow",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    }
+  ],
+  "sameImageIds": [
+    "FilePageSetupCalendar",
+    "GroupPageLayoutAccess",
+    "GroupPageLayoutSetup",
+    "GroupPageSetup",
+    "GroupPageSetupNarrow",
+    "GroupPageSetupNotesMaster",
+    "GroupPageSize",
+    "GroupSlideSize",
+    "PageSize",
+    "PageSizeGallery",
+    "PaperSize"
+  ]
+}

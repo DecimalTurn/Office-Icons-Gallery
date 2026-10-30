@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BrightnessAndContrastEdit",
+      "imageAsset": "images/by-hash/e90138bc74e971f1.png"
+    },
+    {
+      "name": "ContrastLess",
+      "imageAsset": "images/by-hash/695d569b515be322.png"
+    },
+    {
+      "name": "ContrastMore",
+      "imageAsset": "images/by-hash/ee3583da576b2ab4.png"
+    },
+    {
+      "name": "Drawing1GalleryContrast",
+      "imageAsset": "images/by-hash/73b12724fec13c12.png"
+    },
+    {
+      "name": "PictureBrightnessAndContrastGallery",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "PictureContrastGallery",
+      "imageAsset": "images/by-hash/73b12724fec13c12.png"
+    },
+    {
+      "name": "VideoContrastGallery",
+      "imageAsset": "images/by-hash/73b12724fec13c12.png"
+    },
+    {
+      "name": "AlignJustifyHigh",
+      "imageAsset": "images/by-hash/0c7035d218299b2c.png"
+    },
+    {
+      "name": "ChartFormatHighLowLine",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "HighImportance",
+      "imageAsset": "images/by-hash/181dccef35a50532.png"
+    },
+    {
+      "name": "InsertHighPrivilegeBlock",
+      "imageAsset": "images/by-hash/af86b53b295b45ca.png"
+    },
+    {
+      "name": "JustifyHighVertical",
+      "imageAsset": "images/by-hash/d3aec530cfef44fd.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ObjectsAlignDistributeHorizontallyRemove",
+      "imageAsset": "images/by-hash/1c0c58008cee41b3.png"
+    },
+    {
+      "name": "AlignDistributeVertically",
+      "imageAsset": "images/by-hash/faaef2a521a93bcd.png"
+    },
+    {
+      "name": "AlignDistributeVerticallyClassic",
+      "imageAsset": "images/by-hash/faaef2a521a93bcd.png"
+    },
+    {
+      "name": "ObjectsAlignCenterInFormVertically",
+      "imageAsset": "images/by-hash/5eeaa4fc80213811.png"
+    },
+    {
+      "name": "TableCellAlignCenterVertically",
+      "imageAsset": "images/by-hash/4d79850f39eef76c.png"
+    },
+    {
+      "name": "AlignDistributeHorizontally",
+      "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+    },
+    {
+      "name": "AlignDistributeHorizontallyClassic",
+      "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+    },
+    {
+      "name": "ObjectsAlignBottom",
+      "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+    },
+    {
+      "name": "ObjectsAlignBottomOutlook",
+      "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+    },
+    {
+      "name": "ObjectsAlignBottomSmart",
+      "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+    },
+    {
+      "name": "ObjectsAlignCenterHorizontal",
+      "imageAsset": "images/by-hash/1d17157034356b58.png"
+    },
+    {
+      "name": "ObjectsAlignCenterHorizontalOutlook",
+      "imageAsset": "images/by-hash/1d17157034356b58.png"
+    }
+  ],
+  "sameImageIds": []
+}

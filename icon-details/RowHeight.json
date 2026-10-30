@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SlicerRowHeight",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "TableRowHeight",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "CalendarViewWeekHeightBestFit",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "CellHeight",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "ControlPropertyHeightValue",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "PageScaleToFitHeight",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "ShapeHeight",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "SizeToControlHeight",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "SizeToControlHeightAndWidth",
+      "imageAsset": "images/by-hash/a5261425578a6472.png"
+    },
+    {
+      "name": "TableHeight",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "TablePropertiesHeightInfoPath",
+      "imageAsset": "images/by-hash/d1473d8b57d5b81b.png"
+    },
+    {
+      "name": "VideoHeight",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    }
+  ],
+  "sameImageIds": []
+}

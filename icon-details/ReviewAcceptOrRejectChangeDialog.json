@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReviewRejectChangeOrDeleteComment",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ReviewRejectChange",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ReviewRejectChangeAndMoveToNext",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ReviewRejectChangeMenu",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ReviewAcceptChange",
+      "imageAsset": "images/by-hash/a37d174078437c42.png"
+    },
+    {
+      "name": "ReviewAcceptChangeAndMoveToNext",
+      "imageAsset": "images/by-hash/a37d174078437c42.png"
+    },
+    {
+      "name": "ReviewAcceptChangeClassic",
+      "imageAsset": "images/by-hash/a37d174078437c42.png"
+    },
+    {
+      "name": "ReviewAcceptChangeMenu",
+      "imageAsset": "images/by-hash/a37d174078437c42.png"
+    },
+    {
+      "name": "ReviewRevisionReject",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ReviewRevisionRejectMenu",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ChangeToAcceptInvitation",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "ChangeToTentativeAcceptInvitation",
+      "imageAsset": "images/by-hash/1c6cfefae0b6575f.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AlwaysSortFoldersAtoZ",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "FilesToolShowHideFolders",
+      "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+    },
+    {
+      "name": "ImapFolders",
+      "imageAsset": "images/by-hash/5f9639c5060c2a1f.png"
+    },
+    {
+      "name": "SortFoldersAtoZ",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    }
+  ],
+  "sameImageIds": []
+}

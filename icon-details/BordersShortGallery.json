@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DataTypeShortDate",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "FastForwardShort",
+      "imageAsset": "images/by-hash/0f42881fbb368916.png"
+    },
+    {
+      "name": "JotCreateHyperlinkShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotCreateHyperlinkToFolderShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotCreateHyperlinkToNotebookShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotCreateHyperlinkToPageShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotCreateHyperlinkToSectionShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotInsertFolderShort",
+      "imageAsset": "images/by-hash/e1b4e879714f5759.png"
+    },
+    {
+      "name": "JotInsertSectionShort",
+      "imageAsset": "images/by-hash/79c19b6cb9c41248.png"
+    },
+    {
+      "name": "JotNewPageInSeriesShort",
+      "imageAsset": "images/by-hash/3f0f6db488175b62.png"
+    },
+    {
+      "name": "JotOpenFileShort",
+      "imageAsset": "images/by-hash/79c19b6cb9c41248.png"
+    },
+    {
+      "name": "JotScreenCaptureShort",
+      "imageAsset": "images/by-hash/e0e443496fa9a016.png"
+    }
+  ],
+  "sameImageIds": [
+    "BordersAndShadingInfoPath",
+    "BordersGallery",
+    "BordersSelectionGallery",
+    "BordersShadingDialog",
+    "TableBordersMenu"
+  ]
+}

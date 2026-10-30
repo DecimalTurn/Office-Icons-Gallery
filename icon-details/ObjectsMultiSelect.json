@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "IPMultiSelect",
+      "imageAsset": "images/by-hash/1ccfc8ff82d0ec12.png"
+    },
+    {
+      "name": "ObjectsSelect",
+      "imageAsset": "images/by-hash/e00c5c7bb6f2c7fc.png"
+    },
+    {
+      "name": "SelectObjects",
+      "imageAsset": "images/by-hash/e00c5c7bb6f2c7fc.png"
+    },
+    {
+      "name": "MultiItemFormGallery",
+      "imageAsset": "images/by-hash/0d2dda411c33a834.png"
+    },
+    {
+      "name": "ClientAdvancedObjectsMenu",
+      "imageAsset": "images/by-hash/d2771bddcd274833.png"
+    },
+    {
+      "name": "CreateAdvancedObjectsMenu",
+      "imageAsset": "images/by-hash/f1d930c1fb20b2ea.png"
+    },
+    {
+      "name": "CreateOtherObjectsMenu",
+      "imageAsset": "images/by-hash/f1d930c1fb20b2ea.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckClientObjects",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckWebObjects",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "GroupObjects",
+      "imageAsset": "images/by-hash/8187ee8d4735072e.png"
+    },
+    {
+      "name": "ObjectsAlignBottom",
+      "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+    },
+    {
+      "name": "ObjectsAlignBottomOutlook",
+      "imageAsset": "images/by-hash/b2b8a2224cb0817b.png"
+    }
+  ],
+  "sameImageIds": []
+}

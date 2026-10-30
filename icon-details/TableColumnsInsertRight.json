@@ -1,0 +1,20 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TableColumnsInsertRightExcel",
+      "imageAsset": "images/by-hash/7830cc63cd8f0903.png"
+    },
+    {
+      "name": "TableInsertColumnsRight",
+      "imageAsset": "images/by-hash/c44ace9a9c2303d5.png"
+    }
+  ],
+  "sameImageIds": [
+    "EquationMatrixInsertColumnAfter",
+    "GanttColumnInsert",
+    "GroupGanttColumns",
+    "InsertColumnRight",
+    "InsertColumnRightAccess",
+    "TableInsertColumnsRight"
+  ]
+}

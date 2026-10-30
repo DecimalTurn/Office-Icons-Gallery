@@ -1,0 +1,19 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupInfoPathInkFormat",
+      "imageAsset": "images/by-hash/c223c1781a4305f2.png"
+    }
+  ],
+  "sameImageIds": [
+    "ControlLineThicknessGallery",
+    "GridlinesWidthGallery",
+    "GroupBorder",
+    "GroupInfoPathInkFormat",
+    "GroupTableBorders",
+    "OutlineWeightGallery",
+    "ReadingViewChangeInkPenMenu",
+    "SparklineLineWeightGallery",
+    "TextOutlineWeightGallery"
+  ]
+}

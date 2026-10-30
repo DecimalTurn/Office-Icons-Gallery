@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddSelectionToCalendarsLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "CalendarsGallery",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "MenuGroupCalendars",
+      "imageAsset": "images/by-hash/9043b3d1eecb8dad.png"
+    },
+    {
+      "name": "MoreCalendarsInsert",
+      "imageAsset": "images/by-hash/4e750716e8bb8134.png"
+    },
+    {
+      "name": "AccessOnlineLists",
+      "imageAsset": "images/by-hash/9cd35fda88c3c0c0.png"
+    },
+    {
+      "name": "DiagrammingOnline",
+      "imageAsset": "images/by-hash/236de1b21ae5236e.png"
+    },
+    {
+      "name": "FolderViewOnlineTable",
+      "imageAsset": "images/by-hash/9cb33b7d06bc21b8.png"
+    },
+    {
+      "name": "MenuPublishOnline",
+      "imageAsset": "images/by-hash/9c3ea6230877361d.png"
+    },
+    {
+      "name": "PersonaStatusOnline",
+      "imageAsset": "images/by-hash/51554fb2b30a5af6.png"
+    },
+    {
+      "name": "QuickPartsInsertFromOnline",
+      "imageAsset": "images/by-hash/272dc26fc36fb2b5.png"
+    },
+    {
+      "name": "ShareProjectOnline",
+      "imageAsset": "images/by-hash/9c4565b4b1ca68aa.png"
+    },
+    {
+      "name": "ToggleOnline",
+      "imageAsset": "images/by-hash/2b5023e578e03294.png"
+    }
+  ],
+  "sameImageIds": [
+    "SearchOnWeb",
+    "WebOpenSearchPage"
+  ]
+}

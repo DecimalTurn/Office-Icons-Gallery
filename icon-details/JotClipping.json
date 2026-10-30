@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ClippingPanelButton",
+      "imageAsset": "images/by-hash/fe36e96db05fe5e7.png"
+    },
+    {
+      "name": "ScreenClipping",
+      "imageAsset": "images/by-hash/e0e443496fa9a016.png"
+    },
+    {
+      "name": "TimeDelayedScreenClipping",
+      "imageAsset": "images/by-hash/e0e443496fa9a016.png"
+    }
+  ],
+  "sameImageIds": []
+}

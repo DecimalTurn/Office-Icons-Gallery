@@ -1,0 +1,71 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SortFoldersAtoZ",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "AlwaysMoveConversation",
+      "imageAsset": "images/by-hash/e566674bba46631e.png"
+    },
+    {
+      "name": "AlwaysMoveToFolder",
+      "imageAsset": "images/by-hash/6707ec4d66a2437a.png"
+    },
+    {
+      "name": "FilesToolShowHideFolders",
+      "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+    },
+    {
+      "name": "ImapFolders",
+      "imageAsset": "images/by-hash/5f9639c5060c2a1f.png"
+    },
+    {
+      "name": "AdpOutputOperationsSortAscending",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "AdpOutputOperationsSortDescending",
+      "imageAsset": "images/by-hash/77440f0b8550bd69.png"
+    },
+    {
+      "name": "GroupFilterSortAndGroup",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupListViewFilterSortAndGroup",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupPivotChartFilterAndSort",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupPivotDiagramSort",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "GroupPivotTableFilterAndSort",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    }
+  ],
+  "sameImageIds": [
+    "AdpOutputOperationsSortAscending",
+    "ArrangeTools",
+    "ArrangeToolsSiteClient",
+    "GroupPivotDiagramSort",
+    "JotFindSortAscending",
+    "PivotDiagramSort",
+    "SlicerSortUp",
+    "Sort",
+    "SortAndGroup",
+    "SortAscendingExcel",
+    "SortAscendingWord",
+    "SortByDialog",
+    "SortDialogClassic",
+    "SortFoldersAtoZ",
+    "SortGallery",
+    "SortMenu",
+    "SortUp"
+  ]
+}

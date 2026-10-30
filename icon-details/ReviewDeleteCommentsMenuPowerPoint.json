@@ -1,0 +1,61 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReviewDeleteCommentPowerPoint",
+      "imageAsset": "images/by-hash/56da31b9400bf392.png"
+    },
+    {
+      "name": "ReviewDeleteCommentsMenu",
+      "imageAsset": "images/by-hash/56da31b9400bf392.png"
+    },
+    {
+      "name": "ReviewEndReviewPowerPoint",
+      "imageAsset": "images/by-hash/cc7f9b56cf5f0e52.png"
+    },
+    {
+      "name": "ReviewNextCommentPowerPoint",
+      "imageAsset": "images/by-hash/dee3f9af7b80e89b.png"
+    },
+    {
+      "name": "ReviewPreviousCommentPowerPoint",
+      "imageAsset": "images/by-hash/8e86b289978df026.png"
+    },
+    {
+      "name": "ReviewReviewingPanePowerPoint",
+      "imageAsset": "images/by-hash/cd27329c8a373014.png"
+    },
+    {
+      "name": "ReviewShowAllComments",
+      "imageAsset": "images/by-hash/2b3e4678766d7638.png"
+    },
+    {
+      "name": "FileCompatibilityCheckerPowerPoint",
+      "imageAsset": "images/by-hash/05715540b1645725.png"
+    },
+    {
+      "name": "FileSaveAsPowerPoint97_2003",
+      "imageAsset": "images/by-hash/024b979096487fc1.png"
+    },
+    {
+      "name": "FileSaveAsPowerPointOpenDocumentPresentation",
+      "imageAsset": "images/by-hash/024b979096487fc1.png"
+    },
+    {
+      "name": "FileSaveAsPowerPointPpsx",
+      "imageAsset": "images/by-hash/6ffa6584cc8fb200.png"
+    },
+    {
+      "name": "FileSaveAsPowerPointPptx",
+      "imageAsset": "images/by-hash/024b979096487fc1.png"
+    }
+  ],
+  "sameImageIds": [
+    "DeleteTable",
+    "DeleteTableOneNote",
+    "GroupTableDelete",
+    "TableDelete",
+    "TableDeleteRowsAndColumnsMenu",
+    "TableDeleteRowsAndColumnsMenuWord",
+    "TableDeleteTableInfoPath"
+  ]
+}

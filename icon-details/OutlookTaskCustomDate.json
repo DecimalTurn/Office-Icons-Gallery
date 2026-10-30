@@ -1,0 +1,82 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OutlookTaskCustomDateContextual",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "QuickSearchTaskDueDateGallery",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "QuickSearchTaskStartDateGallery",
+      "imageAsset": "images/by-hash/c7d6f3917cb26c65.png"
+    },
+    {
+      "name": "TaskMoveCompletedPartsToStatusDate",
+      "imageAsset": "images/by-hash/c298599340a1ea9d.png"
+    },
+    {
+      "name": "TaskMoveIncompletePartsToStatusDate",
+      "imageAsset": "images/by-hash/f904ef0706eb5c45.png"
+    },
+    {
+      "name": "JotCreateOutlookTask",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "JotOutlookTaskLabel",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "OutlookTaskCreate",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "OutlookTaskLater",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "OutlookTaskLaterContextual",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "OutlookTaskMarkComplete",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "OutlookTaskMarkCompleteContextual",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByToDoDue",
+    "ArrangeByToDoStart",
+    "EmailFormTagMessage",
+    "FlagCustom",
+    "FlagMessage",
+    "FlagNoDate",
+    "FlagToday",
+    "FollowUpComposeMenu",
+    "FollowUpMenu",
+    "FollowUpReadMenu",
+    "GroupAppointmentOptions",
+    "GroupContactOptions",
+    "GroupContactsOptions",
+    "GroupFollowUp",
+    "GroupMailOptions",
+    "GroupMessageOptions",
+    "GroupTaskOptions",
+    "GroupTasksOptions",
+    "MailMergeFollowupMenu",
+    "OutlookTaskCustomDateContextual",
+    "OutlookTasksMenu",
+    "OutlookTaskToday",
+    "OutlookTaskTodayContextual",
+    "QuickSearchAllIncomplete",
+    "QuickSearchFlaggedByMe",
+    "QuickSearchTaskDueDateGallery",
+    "QuickStepTemplateFlagAndMove",
+    "SendCopyFlag"
+  ]
+}

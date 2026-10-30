@@ -1,0 +1,16 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CloseOutlookDataFile",
+      "imageAsset": "images/by-hash/3c506956af95ad34.png"
+    },
+    {
+      "name": "OutlookDataFileOpen",
+      "imageAsset": "images/by-hash/2a6dfca67a47567a.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByStore",
+    "SearchStoresToSearchGallery"
+  ]
+}

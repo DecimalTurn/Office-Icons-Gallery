@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ArrangementGallery",
+      "imageAsset": "images/by-hash/103c6fedc45f72ff.png"
+    },
+    {
+      "name": "GroupDailyTaskListArrangement",
+      "imageAsset": "images/by-hash/103c6fedc45f72ff.png"
+    },
+    {
+      "name": "GroupDayWeekMonthArrangement",
+      "imageAsset": "images/by-hash/f80a7aaa0a54faa5.png"
+    },
+    {
+      "name": "GroupIconArrangement",
+      "imageAsset": "images/by-hash/103c6fedc45f72ff.png"
+    },
+    {
+      "name": "GroupJournalArrangement",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "GroupTableArrangement",
+      "imageAsset": "images/by-hash/103c6fedc45f72ff.png"
+    },
+    {
+      "name": "GroupTaskListArrangement",
+      "imageAsset": "images/by-hash/103c6fedc45f72ff.png"
+    },
+    {
+      "name": "ContextHelp",
+      "imageAsset": "images/by-hash/ad7c7e4b18bb841c.png"
+    },
+    {
+      "name": "ContextMenuContactCardOverflowDropdown",
+      "imageAsset": "images/by-hash/b2349f10ed68e03a.png"
+    },
+    {
+      "name": "ContextMenuGroupContactCardPhoneDropdown",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "ContextMenuGuide",
+      "imageAsset": "images/by-hash/35e9bdd435048a0d.png"
+    },
+    {
+      "name": "ContextMenusAndPasteGiveFeedback",
+      "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+    }
+  ],
+  "sameImageIds": [
+    "CurrentViewGallery",
+    "GroupViewGallery"
+  ]
+}

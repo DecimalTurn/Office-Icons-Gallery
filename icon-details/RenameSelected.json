@@ -1,0 +1,65 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DatasheetColumnRename",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "MasterPageRename",
+      "imageAsset": "images/by-hash/e72024e8eede23f8.png"
+    },
+    {
+      "name": "Rename",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "RenameItem",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "RenamePageOneNote",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "RenamePagePublisher",
+      "imageAsset": "images/by-hash/e72024e8eede23f8.png"
+    },
+    {
+      "name": "RenamePermissionGroup",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "RenameReport",
+      "imageAsset": "images/by-hash/0b33655df9437005.png"
+    },
+    {
+      "name": "RenameThisFolder",
+      "imageAsset": "images/by-hash/b62b5a4c1f76e118.png"
+    },
+    {
+      "name": "SectionRename",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "SheetRename",
+      "imageAsset": "images/by-hash/e25f6c250b708ee2.png"
+    },
+    {
+      "name": "SlideMasterRenameMaster",
+      "imageAsset": "images/by-hash/653cb57640a8cb4c.png"
+    }
+  ],
+  "sameImageIds": [
+    "DatasheetColumnRename",
+    "DocumentInfo",
+    "GroupSiteSummaryEdit",
+    "GroupTaskOutcomesEdit",
+    "GroupWorkflowTaskSummaryEdit",
+    "Rename",
+    "RenameItem",
+    "RenamePageOneNote",
+    "RenamePermissionGroup",
+    "SectionRename",
+    "ToolRename"
+  ]
+}

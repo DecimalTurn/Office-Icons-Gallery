@@ -1,0 +1,47 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupSiteAssetsActions",
+      "imageAsset": "images/by-hash/47cf5c778774c235.png"
+    },
+    {
+      "name": "GroupSiteAssetsManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "GroupSiteAssetsNew",
+      "imageAsset": "images/by-hash/234c9ee96761b0e4.png"
+    },
+    {
+      "name": "GroupSitePermissionsEdit",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "GroupSiteSubsitesEdit",
+      "imageAsset": "images/by-hash/e05fd11001f86d90.png"
+    },
+    {
+      "name": "GroupSiteSummaryEdit",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "AccessListAssets",
+      "imageAsset": "images/by-hash/8d751cb3dda2189b.png"
+    },
+    {
+      "name": "AccessTableAssets",
+      "imageAsset": "images/by-hash/2961e97c4c7f08b5.png"
+    }
+  ],
+  "sameImageIds": [
+    "EditFileGallery",
+    "EditPage",
+    "EditPageAdvancedMode",
+    "EditPageNormalMode",
+    "EditSpdPage",
+    "GroupDocumentLibraryEdit",
+    "GroupLayoutPagesEdit",
+    "GroupMasterPagesEdit",
+    "GroupPageSummaryEdit"
+  ]
+}

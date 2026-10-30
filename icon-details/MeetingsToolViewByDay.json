@@ -1,0 +1,47 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupDayWeekMonthArrangement",
+      "imageAsset": "images/by-hash/f80a7aaa0a54faa5.png"
+    },
+    {
+      "name": "MeetingDetailsOtherDayInsert",
+      "imageAsset": "images/by-hash/c674434a67623947.png"
+    },
+    {
+      "name": "TaskMoveBackOneDay",
+      "imageAsset": "images/by-hash/c3cc5e0e51ac1502.png"
+    },
+    {
+      "name": "TaskMoveForwardOneDay",
+      "imageAsset": "images/by-hash/a372ea0002b4bafc.png"
+    },
+    {
+      "name": "ViewByDay",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByAppointmentStart",
+    "CalendarInsert",
+    "ContactCardScheduleMeeting",
+    "DailyView",
+    "DataTypeLongDate",
+    "DataTypeMediumDate",
+    "DataTypeShortDate",
+    "GotoCalendar",
+    "GroupOpen",
+    "GroupResourceFormViewDetails",
+    "NewAppointment",
+    "NewAppointmentCompact",
+    "NewAppointmentNumbered",
+    "OpenAttachedCalendar",
+    "PersonaCalendarMenu",
+    "QuickSearchMeetings",
+    "SearchUpscopeToAllCalendarItems",
+    "ShowAppointmentPage",
+    "StatusDate",
+    "ViewByDay",
+    "ViewScheduleShow"
+  ]
+}

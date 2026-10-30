@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ContactUninviteMember",
+      "imageAsset": "images/by-hash/feaa203db9c1adcc.png"
+    },
+    {
+      "name": "DistributionListAddNewMember",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "DistributionListNewMemberMenu",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "DistributionListRemoveMember",
+      "imageAsset": "images/by-hash/feaa203db9c1adcc.png"
+    },
+    {
+      "name": "AddSelectionToBusinessInformationLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AssignmentInformation",
+      "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+    },
+    {
+      "name": "FileDocumentManagementInformation",
+      "imageAsset": "images/by-hash/c02c1d323af75aa4.png"
+    },
+    {
+      "name": "FunctionsInformationInsertGallery",
+      "imageAsset": "images/by-hash/19bf43f96361e3fc.png"
+    },
+    {
+      "name": "GroupRemoveHiddenInformation",
+      "imageAsset": "images/by-hash/5c8255b42864d3e4.png"
+    },
+    {
+      "name": "InformationDialog",
+      "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+    },
+    {
+      "name": "MessageDeliveryInformation",
+      "imageAsset": "images/by-hash/412333e48ada1bf0.png"
+    },
+    {
+      "name": "MoreBusinessInformationInsert",
+      "imageAsset": "images/by-hash/4e750716e8bb8134.png"
+    }
+  ],
+  "sameImageIds": [
+    "CatalogMergeResultsPreview",
+    "GroupCatalogMergePreviewResults",
+    "GroupMailMergePreviewResults",
+    "GroupMembersManage",
+    "GroupPermissionGroupsManage",
+    "GroupSummaryManage",
+    "MailMergeResultsPreview",
+    "ViewGroupPermissions"
+  ]
+}

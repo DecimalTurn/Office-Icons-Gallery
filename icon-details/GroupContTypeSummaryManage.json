@@ -1,0 +1,73 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupContTypeManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "ContTypeApplyToList",
+      "imageAsset": "images/by-hash/fcaa71a805f81e9f.png"
+    },
+    {
+      "name": "ContTypeCreateContentType",
+      "imageAsset": "images/by-hash/7fcdf1e7192f5f00.png"
+    },
+    {
+      "name": "ContTypeSetting",
+      "imageAsset": "images/by-hash/133cf0f80266344b.png"
+    },
+    {
+      "name": "GroupContTypeNew",
+      "imageAsset": "images/by-hash/7fcdf1e7192f5f00.png"
+    },
+    {
+      "name": "GroupListsSummaryManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "GroupPageSummaryManage",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "GroupSiteSummaryManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "GroupSummaryManage",
+      "imageAsset": "images/by-hash/52e4b9789001a6b5.png"
+    },
+    {
+      "name": "GroupWorkflowSummaryManage",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "GroupContentTypeSummaryActions",
+      "imageAsset": "images/by-hash/fcaa71a805f81e9f.png"
+    },
+    {
+      "name": "GroupContentTypeSummaryEdit",
+      "imageAsset": "images/by-hash/53f035b400396894.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddInManager",
+    "AdministrationHome",
+    "AnimationCustomActionVerbDialog",
+    "AnimationCustomAddActionVerbDialog",
+    "CurrentViewSettings",
+    "GroupContTypeManage",
+    "GroupCurrentView",
+    "GroupDocumentLibraryManage",
+    "GroupLayoutPagesManage",
+    "GroupListContentTypeManage",
+    "GroupListManage",
+    "GroupListsSummaryManage",
+    "GroupListViewsManage",
+    "GroupListWorkflowsManage",
+    "GroupMasterPagesManage",
+    "GroupSiteAssetsManage",
+    "GroupSiteSubsitesManage",
+    "GroupSiteSummaryManage",
+    "ListAdminSelected"
+  ]
+}

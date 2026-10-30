@@ -1,0 +1,47 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupSmartArtQuickStyles",
+      "imageAsset": "images/by-hash/0dcccd324a3aeb0f.png"
+    },
+    {
+      "name": "QuickFontStylesGallery",
+      "imageAsset": "images/by-hash/65848a8b0733843a.png"
+    },
+    {
+      "name": "QuickStylesGallery",
+      "imageAsset": "images/by-hash/65848a8b0733843a.png"
+    },
+    {
+      "name": "QuickStylesGalleryExtended",
+      "imageAsset": "images/by-hash/65848a8b0733843a.png"
+    },
+    {
+      "name": "QuickStylesSaveSelectionAsNew",
+      "imageAsset": "images/by-hash/e6f7d1945ad3787b.png"
+    },
+    {
+      "name": "QuickStylesSetAsDefault",
+      "imageAsset": "images/by-hash/379998fe54b319b8.png"
+    },
+    {
+      "name": "ShapeQuickStylesHome",
+      "imageAsset": "images/by-hash/a0ca653d58ecaf86.png"
+    },
+    {
+      "name": "ConditionalFormattingIconSetsGallery",
+      "imageAsset": "images/by-hash/cae3e88b6f47d6fc.png"
+    },
+    {
+      "name": "StylisticSetsMenu",
+      "imageAsset": "images/by-hash/61eddefcdcc781c9.png"
+    },
+    {
+      "name": "StylisticSetsMenuWord",
+      "imageAsset": "images/by-hash/61eddefcdcc781c9.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupStyleSet"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AdpStoredProcedureQueryAppendValues",
+      "imageAsset": "images/by-hash/d677325f0f15f3f1.png"
+    },
+    {
+      "name": "FormattingUnique",
+      "imageAsset": "images/by-hash/14e3173e1afcae32.png"
+    },
+    {
+      "name": "FormattingUniqueToggle",
+      "imageAsset": "images/by-hash/14e3173e1afcae32.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightDuplicateValues",
+      "imageAsset": "images/by-hash/9bfced206c7586d2.png"
+    },
+    {
+      "name": "PasteValues",
+      "imageAsset": "images/by-hash/d527e5b921e42525.png"
+    },
+    {
+      "name": "PasteValuesAndNumberFormatting",
+      "imageAsset": "images/by-hash/fac93ad2a4d9855d.png"
+    },
+    {
+      "name": "PasteValuesAndSourceFormatting",
+      "imageAsset": "images/by-hash/a73c06fe29299491.png"
+    },
+    {
+      "name": "ShapeSheetShowValues",
+      "imageAsset": "images/by-hash/ed5fb0928e9570ad.png"
+    },
+    {
+      "name": "AdpStoredProcedureQueryAppend",
+      "imageAsset": "images/by-hash/b80f514177d5e0a8.png"
+    },
+    {
+      "name": "AdpStoredProcedureQueryDelete",
+      "imageAsset": "images/by-hash/89aa1c4dc0e96762.png"
+    },
+    {
+      "name": "AdpStoredProcedureQueryMakeTable",
+      "imageAsset": "images/by-hash/8d588e96f4f6abb6.png"
+    },
+    {
+      "name": "AdpStoredProcedureQuerySelect",
+      "imageAsset": "images/by-hash/3ede2d24cf3da107.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupDataTools",
+    "RemoveDuplicates"
+  ]
+}

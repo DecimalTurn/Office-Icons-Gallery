@@ -1,0 +1,70 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TableDeleteColumnsInfoPath",
+      "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+    },
+    {
+      "name": "TableDeleteTableInfoPath",
+      "imageAsset": "images/by-hash/c268ed86a77d2091.png"
+    },
+    {
+      "name": "BordersAndShadingInfoPath",
+      "imageAsset": "images/by-hash/f53633d00e54bd31.png"
+    },
+    {
+      "name": "ChooseInfoPathForm",
+      "imageAsset": "images/by-hash/049d1f525a07b318.png"
+    },
+    {
+      "name": "ControlsGalleryInfoPath",
+      "imageAsset": "images/by-hash/a7c67257e1463a6d.png"
+    },
+    {
+      "name": "DesignThisInfoPathForm",
+      "imageAsset": "images/by-hash/93b3427526680a34.png"
+    },
+    {
+      "name": "DisplayErrorMessageInfoPath",
+      "imageAsset": "images/by-hash/7af31981dd4e0deb.png"
+    },
+    {
+      "name": "FormPropertiesInfoPath",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GoToNextErrorInfoPath",
+      "imageAsset": "images/by-hash/0ee7ef56b0fdb5a3.png"
+    },
+    {
+      "name": "GroupClipboardInfoPath",
+      "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+    },
+    {
+      "name": "GroupDigitalSignaturesInfoPath",
+      "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+    },
+    {
+      "name": "GroupEditingInfoPath",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    }
+  ],
+  "sameImageIds": [
+    "ActionDelete",
+    "DeleteRows",
+    "DeleteRowsOneNote",
+    "EquationMatrixDeleteRow",
+    "GroupQuerySetup",
+    "GroupSqlQuerySetup",
+    "GroupTableRows",
+    "RowDelete",
+    "ShapeSheetDeleteRow",
+    "SheetRowsDelete",
+    "SheetRowsDeleteTouch",
+    "TableDeleteFields",
+    "TableDeleteRows",
+    "TableRowsDelete",
+    "TableRowsDeleteExcel",
+    "TableRowsOrColumnsOrCellsDelete"
+  ]
+}

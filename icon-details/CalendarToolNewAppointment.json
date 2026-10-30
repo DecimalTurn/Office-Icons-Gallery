@@ -1,0 +1,20 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CalendarToolExportSelectedAppointment",
+      "imageAsset": "images/by-hash/d51ac3a5ee3618c2.png"
+    },
+    {
+      "name": "MeetingsToolAppointmentCalendar",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "ViewAppointmentInCalendar",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupNewCalendarTool",
+    "NewCalendar"
+  ]
+}

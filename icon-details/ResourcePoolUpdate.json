@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ResourcePoolMenu",
+      "imageAsset": "images/by-hash/34f2e08976f4937f.png"
+    },
+    {
+      "name": "ResourcePoolRefresh",
+      "imageAsset": "images/by-hash/f103c78a39220ff6.png"
+    },
+    {
+      "name": "AdpStoredProcedureQueryUpdate",
+      "imageAsset": "images/by-hash/21d398046cbe9f67.png"
+    },
+    {
+      "name": "AfterUpdate",
+      "imageAsset": "images/by-hash/ab0cc1b7f6e7a269.png"
+    },
+    {
+      "name": "AfterUpdateSql",
+      "imageAsset": "images/by-hash/ab0cc1b7f6e7a269.png"
+    },
+    {
+      "name": "ClickToRunUpdateOptions",
+      "imageAsset": "images/by-hash/15ef775dae4a4a08.png"
+    },
+    {
+      "name": "DistributionListUpdateMembers",
+      "imageAsset": "images/by-hash/cd8520ea1c9f6e35.png"
+    },
+    {
+      "name": "FieldsUpdate",
+      "imageAsset": "images/by-hash/f99e4ea213e6e996.png"
+    },
+    {
+      "name": "FileUpdate",
+      "imageAsset": "images/by-hash/513aaa7362e46b49.png"
+    },
+    {
+      "name": "GroupSendUpdate",
+      "imageAsset": "images/by-hash/a28782785238e22b.png"
+    },
+    {
+      "name": "GroupUpdate",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    },
+    {
+      "name": "ImeDictionaryUpdate",
+      "imageAsset": "images/by-hash/2528faa9585eb128.png"
+    }
+  ],
+  "sameImageIds": [
+    "SaveForSharing"
+  ]
+}

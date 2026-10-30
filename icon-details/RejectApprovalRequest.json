@@ -1,0 +1,125 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ApproveApprovalRequest",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "ConflictsReject",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ConflictsRejectAndMoveToNext",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ConflictsRejectMenu",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "RejectAndAdvance",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ReviewAcceptOrRejectChangeDialog",
+      "imageAsset": "images/by-hash/dbd44dfa037e65dc.png"
+    },
+    {
+      "name": "ReviewRejectChange",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ReviewRejectChangeAndMoveToNext",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ReviewRejectChangeMenu",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ReviewRejectChangeOrDeleteComment",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ReviewRevisionReject",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    },
+    {
+      "name": "ReviewRevisionRejectMenu",
+      "imageAsset": "images/by-hash/2254ec4460903e16.png"
+    }
+  ],
+  "sameImageIds": [
+    "Backspace",
+    "ChangeToDeclineInvitation",
+    "ClearGrid",
+    "ClearIconColors",
+    "ClearRow",
+    "ColumnActionsRemove",
+    "ContactDelete",
+    "ContentTypeColumnActionsRemove",
+    "DataSourceCatalogRemove",
+    "DeclineInvitation",
+    "DeclineTask",
+    "Delete",
+    "DeleteAppointmentGallery",
+    "DeleteContentType",
+    "DeleteDistributionGroup",
+    "DeleteFailedEntityInstanceCreateOperation",
+    "DeleteItem",
+    "DeleteItemInLaunchbar",
+    "DeleteNavigationLink",
+    "DeletePermissionGroup",
+    "DeleteSite",
+    "DeleteSpdPage",
+    "DeleteSPDSite",
+    "DeleteWeb",
+    "DeleteWorkspaceFromThisComputer",
+    "DeleteWorkspaceMenu",
+    "FolderDelete",
+    "FormsToolDelete",
+    "GanttTaskDelete",
+    "GroupActions",
+    "GroupCalendarTool",
+    "GroupDelete",
+    "GroupMailDelete",
+    "GroupMeetings",
+    "GroupMembersEdit",
+    "GroupPicturesTool",
+    "GroupSketchpad",
+    "GroupSummaryEdit",
+    "GuideDelete",
+    "JotPermanentlyDelete",
+    "ListDeleteList",
+    "ListDeleteSelected",
+    "MailDelete",
+    "MeetingsToolAppointmentDelete",
+    "MeetingsToolAppointmentDeleteAgendaItem",
+    "MeetingsToolAppointmentDeleteNote",
+    "MeetingsToolAppointmentDeleteSummary",
+    "MenuDeclineInvitation",
+    "NotebookDelete",
+    "NoteLinkDelete",
+    "NoteLinkDeleteGallery",
+    "NoteLinksDeleteAll",
+    "OutlookTaskRemove",
+    "OutlookTaskRemoveContextual",
+    "PageVersionDelete",
+    "PivotClearAll",
+    "PivotTableDiscardChanges",
+    "RelationshipsClearLayout",
+    "RemoveAttach",
+    "RemoveTaskPathHighlight",
+    "RemoveUserFromGroup",
+    "ReviewDeleteAllMarkupInPresentation",
+    "SharingRequestDeny",
+    "SiteColumnActionsRemove",
+    "SlicerDelete",
+    "SlicerDeleteTouch",
+    "TaskSummaryDeleteSelf",
+    "TimeSlicerDelete",
+    "TimeSlicerDeleteTouch",
+    "ToolDelete",
+    "WorkflowSummaryDeleteWorkflow"
+  ]
+}

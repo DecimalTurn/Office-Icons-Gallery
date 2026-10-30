@@ -1,0 +1,16 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupMailActions",
+      "imageAsset": "images/by-hash/a29be37adf30f0e1.png"
+    }
+  ],
+  "sameImageIds": [
+    "MenuAttachmentsMoreActions",
+    "MenuCalendarMoreActions",
+    "MenuJournalMoreActions",
+    "MenuNotesMoreActions",
+    "MenuTasksMoreActions",
+    "RespondActionsMenu"
+  ]
+}

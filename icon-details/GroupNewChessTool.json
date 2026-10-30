@@ -1,0 +1,73 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChessToolNewGame",
+      "imageAsset": "images/by-hash/dd87254046e40348.png"
+    },
+    {
+      "name": "ChessToolRotateLeft",
+      "imageAsset": "images/by-hash/65c1b10f192ddd9b.png"
+    },
+    {
+      "name": "ChessToolRotateRight",
+      "imageAsset": "images/by-hash/2be74a485b86b3c5.png"
+    },
+    {
+      "name": "GroupChess",
+      "imageAsset": "images/by-hash/720e34890e473f48.png"
+    },
+    {
+      "name": "NewChessTool",
+      "imageAsset": "images/by-hash/578e80fc586e922d.png"
+    }
+  ],
+  "sameImageIds": [
+    "BackgroundPageInsert",
+    "BlankPageInsert",
+    "BlankPageInsertMenu",
+    "BlankPageInsertVisio",
+    "CreateBlankPage",
+    "CreateMasterPage",
+    "CreateNewDrawing",
+    "FileNew",
+    "FileNewBlankDocument",
+    "FileNewContext",
+    "FileNewDatabase",
+    "FileNewDefault",
+    "FileNewDialogClassic",
+    "FileNewDocument",
+    "FilesToolNewFileGallery",
+    "GroupAllFilesNew",
+    "GroupDocumentLibraryNew",
+    "GroupPictureCaption",
+    "InsertBuildingBlock",
+    "InsertMoreDesigns",
+    "JotNavUINewPage",
+    "NewASPXPage",
+    "NewAssetMenu",
+    "NewBlankDrawingMetric",
+    "NewBlankDrawingUS",
+    "NewCSSPage",
+    "NewDocumentLibraryContentMenu",
+    "NewFileMenu",
+    "NewHtmlPage",
+    "NewJavaScriptPage",
+    "NewNotebookMenu",
+    "NewOfficeDocument",
+    "NewPageAfterCurrentGroup",
+    "NewPageHere",
+    "NewPageMenu",
+    "NewPageOneNote",
+    "NewPageShort",
+    "NewTextFileHere",
+    "NewXmlPage",
+    "PageInsertBlank",
+    "PageInsertMenu",
+    "PageOrientationPortrait",
+    "PictureEdgeEffectsGallery",
+    "PubInsertText",
+    "RemoveBuildingBlockFromMRU",
+    "UxContentLibGallery",
+    "VisioInsertNewPage"
+  ]
+}

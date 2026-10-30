@@ -1,0 +1,15 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ManageWorkspaces",
+      "imageAsset": "images/by-hash/cb66f7ea351b8b1d.png"
+    },
+    {
+      "name": "MRUSlabOpenOfficeLiveWorkspaces",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    }
+  ],
+  "sameImageIds": [
+    "NewWorkspaceGallery"
+  ]
+}

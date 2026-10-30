@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ClickToRunAboutUpdates",
+      "imageAsset": "images/by-hash/7404d79e63593d89.png"
+    }
+  ],
+  "sameImageIds": [
+    "ButtonTaskSelfSupport",
+    "Help",
+    "HelpLaunch",
+    "JotNewMenuHelp",
+    "JotShareMenuHelp",
+    "ShapeBasicsHelp",
+    "ShapeHelp"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "HyperlinksRemove",
+      "imageAsset": "images/by-hash/8e57aabc8dedd4c1.png"
+    },
+    {
+      "name": "HyperlinksVerify",
+      "imageAsset": "images/by-hash/d622155ca0500559.png"
+    },
+    {
+      "name": "VerifySelectedHyperlinks",
+      "imageAsset": "images/by-hash/d622155ca0500559.png"
+    },
+    {
+      "name": "BaselineClear",
+      "imageAsset": "images/by-hash/351c77e57014f044.png"
+    },
+    {
+      "name": "Clear",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    },
+    {
+      "name": "ClearAll",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    },
+    {
+      "name": "ClearAllFormatting",
+      "imageAsset": "images/by-hash/3b2ebb675e017ab8.png"
+    },
+    {
+      "name": "ClearFormats",
+      "imageAsset": "images/by-hash/c9d1c6e0348c455d.png"
+    },
+    {
+      "name": "ClearFormatting",
+      "imageAsset": "images/by-hash/3b2ebb675e017ab8.png"
+    },
+    {
+      "name": "ClearGrid",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "ClearIconColors",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "ClearMenu",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,27 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupArrangeChartsTables",
+      "imageAsset": "images/by-hash/3ba5178b9f938bd5.png"
+    }
+  ],
+  "sameImageIds": [
+    "Chart3DColumnChart",
+    "ChartChangeType",
+    "ChartInsert",
+    "ChartLaunchAddElementCallout",
+    "ChartLaunchDataLayoutCallout",
+    "ChartSeriesTypeChange",
+    "ChartTypeAllInsertDialog",
+    "ChartTypeColumnInsertGallery",
+    "ControlChart",
+    "DataGridInsert",
+    "GroupChartType",
+    "GroupReportInsert",
+    "GroupVisualReports",
+    "InsertChart",
+    "PivotChartType",
+    "ViewsPivotChartView",
+    "VisualReports"
+  ]
+}

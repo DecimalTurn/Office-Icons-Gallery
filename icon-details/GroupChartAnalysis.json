@@ -1,0 +1,23 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotTableEnableWhatIfAnalysis",
+      "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+    },
+    {
+      "name": "PivotTableWhatIfAnalysisMenu",
+      "imageAsset": "images/by-hash/af3732760a762308.png"
+    },
+    {
+      "name": "PwaDataAnalysis",
+      "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+    },
+    {
+      "name": "WhatIfAnalysisMenu",
+      "imageAsset": "images/by-hash/af3732760a762308.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChartTrendline"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ShapeConvertToFreeform",
+      "imageAsset": "images/by-hash/ac1a24e52a290463.png"
+    },
+    {
+      "name": "ShapeFreeform",
+      "imageAsset": "images/by-hash/ac1a24e52a290463.png"
+    }
+  ],
+  "sameImageIds": [
+    "ConnectorCurvedLines",
+    "CurvedConnector",
+    "ShapeConnectorStyleCurved"
+  ]
+}

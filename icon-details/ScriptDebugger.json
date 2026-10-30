@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CodeEditorScript",
+      "imageAsset": "images/by-hash/222ac64c060cf337.png"
+    },
+    {
+      "name": "DataSourceCatalogServerScript",
+      "imageAsset": "images/by-hash/12112a45fa5c84b7.png"
+    },
+    {
+      "name": "EquationScriptGallery",
+      "imageAsset": "images/by-hash/2983e5189f77cb88.png"
+    },
+    {
+      "name": "NewJavaScriptPage",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "ShowScriptBlockMark",
+      "imageAsset": "images/by-hash/f1d930c1fb20b2ea.png"
+    }
+  ],
+  "sameImageIds": []
+}

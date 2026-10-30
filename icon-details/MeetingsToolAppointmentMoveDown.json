@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MeetingsToolAppointmentMoveUp",
+      "imageAsset": "images/by-hash/cf4e1aea2c0e020f.png"
+    },
+    {
+      "name": "MoveDown",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    },
+    {
+      "name": "MoveDownCustomAction",
+      "imageAsset": "images/by-hash/79274de9857dec98.png"
+    },
+    {
+      "name": "MoveDownSection",
+      "imageAsset": "images/by-hash/79274de9857dec98.png"
+    },
+    {
+      "name": "MoveElementDown",
+      "imageAsset": "images/by-hash/79274de9857dec98.png"
+    },
+    {
+      "name": "OutlineMoveDown",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    },
+    {
+      "name": "SectionMoveDown",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentAgenda",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentAgendaOptions",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentEditAgenda",
+      "imageAsset": "images/by-hash/cd03c48facbc252d.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentEditNote",
+      "imageAsset": "images/by-hash/cd03c48facbc252d.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentEditSummary",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    }
+  ],
+  "sameImageIds": []
+}

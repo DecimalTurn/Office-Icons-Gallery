@@ -1,0 +1,60 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddSelectionToPagePartsLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "CustomQuickPartsGallery",
+      "imageAsset": "images/by-hash/e8587442c1dbbff4.png"
+    },
+    {
+      "name": "GroupDiagramParts",
+      "imageAsset": "images/by-hash/7610de93334dbed8.png"
+    },
+    {
+      "name": "GroupWebParts",
+      "imageAsset": "images/by-hash/ccf129d889722797.png"
+    },
+    {
+      "name": "InsertBuildingBlocksCommonPartsGallery",
+      "imageAsset": "images/by-hash/e8587442c1dbbff4.png"
+    },
+    {
+      "name": "PagePartsGallery",
+      "imageAsset": "images/by-hash/e8587442c1dbbff4.png"
+    },
+    {
+      "name": "QuickPartsInsertFromOnline",
+      "imageAsset": "images/by-hash/272dc26fc36fb2b5.png"
+    },
+    {
+      "name": "QuickPartsInsertGallery",
+      "imageAsset": "images/by-hash/e8587442c1dbbff4.png"
+    },
+    {
+      "name": "TaskMoveCompletedPartsToStatusDate",
+      "imageAsset": "images/by-hash/c298599340a1ea9d.png"
+    },
+    {
+      "name": "TaskMoveIncompletePartsToStatusDate",
+      "imageAsset": "images/by-hash/f904ef0706eb5c45.png"
+    }
+  ],
+  "sameImageIds": [
+    "CustomGallery1",
+    "CustomGallery2",
+    "CustomGallery3",
+    "CustomGallery4",
+    "CustomGallery5",
+    "CustomQuickPartsGallery",
+    "GroupAccessTemplates",
+    "GroupBuildingBlocks",
+    "GroupTemplate",
+    "InsertBuildingBlocksCommonPartsGallery",
+    "PagePartsGallery",
+    "PartTemplateGallery",
+    "QuickPartsInsertGallery",
+    "TemplatesMenu"
+  ]
+}

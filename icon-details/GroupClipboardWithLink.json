@@ -1,0 +1,76 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CopyInvitationToClipboard",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    },
+    {
+      "name": "GroupClipboard",
+      "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+    },
+    {
+      "name": "GroupClipboardInfoPath",
+      "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+    },
+    {
+      "name": "GroupClipboardMeetingsToolO12",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "GroupClipboardSimple",
+      "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+    },
+    {
+      "name": "GroupDocumentsClipboard",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "GroupIconEditClipboard",
+      "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+    },
+    {
+      "name": "ShowClipboard",
+      "imageAsset": "images/by-hash/2c1e30de80a58648.png"
+    },
+    {
+      "name": "ContactLinkMenu",
+      "imageAsset": "images/by-hash/34930536af15236a.png"
+    },
+    {
+      "name": "CopyAsLink",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "CopyAsLinkMenu",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "CopyEntryAsLink",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    }
+  ],
+  "sameImageIds": [
+    "CopyAsLink",
+    "CopyAsLinkMenu",
+    "CopyEntryAsLink",
+    "EditLinks",
+    "FileLinksToFiles",
+    "GroupClipboardMeetingsToolO12",
+    "GroupDocumentsClipboard",
+    "GroupShareBrowserOnlyTool",
+    "HyperlinkCreate",
+    "JotCreateHyperlinkShort",
+    "JotCreateHyperlinkToFolderShort",
+    "JotCreateHyperlinkToNotebookShort",
+    "JotCreateHyperlinkToPageShort",
+    "JotCreateHyperlinkToSectionShort",
+    "LinkedNotesTargetUrlCopy",
+    "ListToolCopyAsLink",
+    "ListToolCopyEntryAsLink",
+    "ListToolCopyToolAsLink",
+    "NotebookLinkCreate",
+    "PageLinkCreate",
+    "SectionGroupLinkCreate",
+    "SectionLinkCreate"
+  ]
+}

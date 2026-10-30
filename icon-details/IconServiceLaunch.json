@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "IconServiceDefault",
+      "imageAsset": "images/by-hash/acd07aef3fcbd50a.png"
+    },
+    {
+      "name": "ChartLaunchAddElementCallout",
+      "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+    },
+    {
+      "name": "ChartLaunchDataLayoutCallout",
+      "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+    },
+    {
+      "name": "HelpLaunch",
+      "imageAsset": "images/by-hash/072bbff7740733ff.png"
+    },
+    {
+      "name": "LaunchFormatBackground",
+      "imageAsset": "images/by-hash/f49b012b69437cca.png"
+    },
+    {
+      "name": "CreateWebServiceConnection",
+      "imageAsset": "images/by-hash/699b40367d81b599.png"
+    },
+    {
+      "name": "DataFromRESTWebService",
+      "imageAsset": "images/by-hash/12112a45fa5c84b7.png"
+    },
+    {
+      "name": "DataFromSOAPWebService",
+      "imageAsset": "images/by-hash/6c47b422fb9cec32.png"
+    },
+    {
+      "name": "DataFromWebService",
+      "imageAsset": "images/by-hash/1982f889c87dc93a.png"
+    },
+    {
+      "name": "DataSubmitToWebService",
+      "imageAsset": "images/by-hash/17f56f580b441277.png"
+    },
+    {
+      "name": "ClearIconColors",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "ConditionalFormattingIconSetsGallery",
+      "imageAsset": "images/by-hash/cae3e88b6f47d6fc.png"
+    }
+  ],
+  "sameImageIds": []
+}

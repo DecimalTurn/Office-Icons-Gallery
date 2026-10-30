@@ -1,0 +1,19 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PasteDontMergeList",
+      "imageAsset": "images/by-hash/c3ff664265d6b61f.png"
+    },
+    {
+      "name": "PasteMergeConditionalFormatting",
+      "imageAsset": "images/by-hash/58a4e4d5af8ba153.png"
+    },
+    {
+      "name": "PasteMergeFormatting",
+      "imageAsset": "images/by-hash/7bc3e3075bc64c0e.png"
+    }
+  ],
+  "sameImageIds": [
+    "PasteContinueList"
+  ]
+}

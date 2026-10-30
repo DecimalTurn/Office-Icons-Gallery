@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PhoneticGuideEdit",
+      "imageAsset": "images/by-hash/fe734f8a4cbcf984.png"
+    },
+    {
+      "name": "AsianLayoutPhoneticGuide",
+      "imageAsset": "images/by-hash/28566b19d88d1297.png"
+    },
+    {
+      "name": "PhoneticGuideFieldShow",
+      "imageAsset": "images/by-hash/28566b19d88d1297.png"
+    },
+    {
+      "name": "PhoneticGuideMenu",
+      "imageAsset": "images/by-hash/fe734f8a4cbcf984.png"
+    },
+    {
+      "name": "PhoneticGuideSettings",
+      "imageAsset": "images/by-hash/ef5f62fc18e0b4e7.png"
+    },
+    {
+      "name": "ContextHelp",
+      "imageAsset": "images/by-hash/ad7c7e4b18bb841c.png"
+    },
+    {
+      "name": "ContextMenuArrangementGallery",
+      "imageAsset": "images/by-hash/3cb7771c306e0262.png"
+    },
+    {
+      "name": "ContextMenuContactCardOverflowDropdown",
+      "imageAsset": "images/by-hash/b2349f10ed68e03a.png"
+    },
+    {
+      "name": "ContextMenuGroupContactCardPhoneDropdown",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "ContextMenuGuide",
+      "imageAsset": "images/by-hash/35e9bdd435048a0d.png"
+    },
+    {
+      "name": "ContextMenusAndPasteGiveFeedback",
+      "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+    },
+    {
+      "name": "ContextStylesGallery",
+      "imageAsset": "images/by-hash/a0ca653d58ecaf86.png"
+    }
+  ],
+  "sameImageIds": []
+}

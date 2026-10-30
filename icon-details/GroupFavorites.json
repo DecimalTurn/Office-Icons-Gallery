@@ -1,0 +1,36 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddFolderToFavorites",
+      "imageAsset": "images/by-hash/665d74369cb8bd63.png"
+    },
+    {
+      "name": "AddToFavorites",
+      "imageAsset": "images/by-hash/0823a381e0b8637e.png"
+    },
+    {
+      "name": "Favorites",
+      "imageAsset": "images/by-hash/665d74369cb8bd63.png"
+    },
+    {
+      "name": "RemoveFolderFromFavorites",
+      "imageAsset": "images/by-hash/665d74369cb8bd63.png"
+    },
+    {
+      "name": "ToggleFolderShowInFavorites",
+      "imageAsset": "images/by-hash/665d74369cb8bd63.png"
+    },
+    {
+      "name": "ToggleShowInFavorites",
+      "imageAsset": "images/by-hash/665d74369cb8bd63.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddFolderToFavorites",
+    "Favorites",
+    "FileOpenRecentFile",
+    "RemoveFolderFromFavorites",
+    "ToggleFolderShowInFavorites",
+    "ToggleShowInFavorites"
+  ]
+}

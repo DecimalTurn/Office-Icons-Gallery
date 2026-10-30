@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "JotCreateHyperlinkToFolderShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotCreateHyperlinkShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotCreateHyperlinkToNotebookShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotCreateHyperlinkToPageShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotCreateHyperlinkToSectionShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotInsertSectionShort",
+      "imageAsset": "images/by-hash/79c19b6cb9c41248.png"
+    },
+    {
+      "name": "JotNewPageInSeriesShort",
+      "imageAsset": "images/by-hash/3f0f6db488175b62.png"
+    },
+    {
+      "name": "JotOpenFileShort",
+      "imageAsset": "images/by-hash/79c19b6cb9c41248.png"
+    },
+    {
+      "name": "JotScreenCaptureShort",
+      "imageAsset": "images/by-hash/e0e443496fa9a016.png"
+    },
+    {
+      "name": "JotCloseFolder",
+      "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+    },
+    {
+      "name": "JotNavUIParentFolder",
+      "imageAsset": "images/by-hash/4c569d92bdc6384c.png"
+    },
+    {
+      "name": "BordersShortGallery",
+      "imageAsset": "images/by-hash/f53633d00e54bd31.png"
+    }
+  ],
+  "sameImageIds": [
+    "SectionGroupInsert"
+  ]
+}

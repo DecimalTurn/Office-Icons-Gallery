@@ -1,0 +1,64 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupNewPicturesTool",
+      "imageAsset": "images/by-hash/a3c1694aead52859.png"
+    },
+    {
+      "name": "GroupPictures",
+      "imageAsset": "images/by-hash/a3c1694aead52859.png"
+    },
+    {
+      "name": "GroupPicturesTool",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "GroupShowHidePicturesTool",
+      "imageAsset": "images/by-hash/8c005537b968b2f0.png"
+    },
+    {
+      "name": "NewPicturesTool",
+      "imageAsset": "images/by-hash/a3c1694aead52859.png"
+    },
+    {
+      "name": "PackAndGoPictures",
+      "imageAsset": "images/by-hash/c7dbd9913fbbd8d7.png"
+    },
+    {
+      "name": "PicturesCompress",
+      "imageAsset": "images/by-hash/307d9a6cd70784ad.png"
+    },
+    {
+      "name": "PicturesConvertToSmartArt",
+      "imageAsset": "images/by-hash/a984bf709b50d24d.png"
+    },
+    {
+      "name": "PicturesToolInsertPicture",
+      "imageAsset": "images/by-hash/a3c1694aead52859.png"
+    },
+    {
+      "name": "PicturesToolSaveAs",
+      "imageAsset": "images/by-hash/45781e547e6af23f.png"
+    }
+  ],
+  "sameImageIds": [
+    "GalPosition",
+    "GroupArrange",
+    "GroupArrangeOutlook",
+    "GroupArrangeSpd",
+    "GroupDiagramArrangeClassic",
+    "GroupOrder",
+    "GroupPictureToolArrange",
+    "GroupPosition",
+    "GroupTableArrange",
+    "GroupTextBoxArrange",
+    "ObjectBringToFront",
+    "ObjectBringToFrontMenu",
+    "ObjectBringToFrontMenuOutlook",
+    "ObjectBringToFrontOutlook",
+    "ObjectOrderMenu",
+    "SendToMenu",
+    "SketchpadToolArrangeMenu",
+    "SketchpadToolBringToFront"
+  ]
+}

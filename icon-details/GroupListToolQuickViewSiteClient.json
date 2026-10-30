@@ -1,0 +1,63 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ArrangeToolsSiteClient",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "GroupArrangeSiteClient",
+      "imageAsset": "images/by-hash/cf92637eb802c6af.png"
+    },
+    {
+      "name": "GroupDocumentsViewSiteClient",
+      "imageAsset": "images/by-hash/cf92637eb802c6af.png"
+    },
+    {
+      "name": "GroupShowHideSiteClient",
+      "imageAsset": "images/by-hash/8c005537b968b2f0.png"
+    },
+    {
+      "name": "GroupSiteClientGoTo",
+      "imageAsset": "images/by-hash/9001439ebaed8ec9.png"
+    },
+    {
+      "name": "GroupToolSiteClient",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupWindowSiteClient",
+      "imageAsset": "images/by-hash/c95c189a111e0473.png"
+    },
+    {
+      "name": "OpenInNewWindowSiteClient",
+      "imageAsset": "images/by-hash/c95c189a111e0473.png"
+    },
+    {
+      "name": "SiteClientOpenInBrowser",
+      "imageAsset": "images/by-hash/19bf97b4b00c26dc.png"
+    },
+    {
+      "name": "ClientAdvancedObjectsMenu",
+      "imageAsset": "images/by-hash/d2771bddcd274833.png"
+    },
+    {
+      "name": "ClientFormsMenu",
+      "imageAsset": "images/by-hash/e15d79514a0ddc33.png"
+    },
+    {
+      "name": "ClientQueriesMenu",
+      "imageAsset": "images/by-hash/b674448c3a22d477.png"
+    }
+  ],
+  "sameImageIds": [
+    "FilesToolArrange",
+    "FilesToolArrangeGallery",
+    "FormsToolArrangeViewGallery",
+    "GroupArrangeFilesTool",
+    "GroupArrangeFormsTool",
+    "GroupArrangeSiteClient",
+    "GroupDocumentsView",
+    "GroupDocumentsViewSiteClient",
+    "GroupSort"
+  ]
+}

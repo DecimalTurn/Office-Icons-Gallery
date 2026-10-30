@@ -1,0 +1,66 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupTimelineInterval",
+      "imageAsset": "images/by-hash/8363ed52d3ee7f0b.png"
+    },
+    {
+      "name": "TimelineIntervalConfigure",
+      "imageAsset": "images/by-hash/8363ed52d3ee7f0b.png"
+    },
+    {
+      "name": "TimelineIntervalSync",
+      "imageAsset": "images/by-hash/65af621fe8c05dcd.png"
+    },
+    {
+      "name": "AccessRefreshAllLists",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    },
+    {
+      "name": "BlogCategoriesRefresh",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "ChangesDiscardAndRefresh",
+      "imageAsset": "images/by-hash/a9a39c031d036e56.png"
+    },
+    {
+      "name": "ChartRefresh",
+      "imageAsset": "images/by-hash/992c3187de5dc394.png"
+    },
+    {
+      "name": "DatabaseModelingRefresh",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "DataRefreshAll",
+      "imageAsset": "images/by-hash/5dffa1a23a44abc7.png"
+    },
+    {
+      "name": "DataRefreshAllDialog",
+      "imageAsset": "images/by-hash/5dffa1a23a44abc7.png"
+    },
+    {
+      "name": "DataRefreshDialog",
+      "imageAsset": "images/by-hash/244cb1e8fbeb8bfc.png"
+    },
+    {
+      "name": "FacilitiesRefresh",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    }
+  ],
+  "sameImageIds": [
+    "AnimationDuration",
+    "ChangeToProposeNewTime",
+    "DataType24HourTime",
+    "DataTypeMediumTime",
+    "DataTypeTime",
+    "HeaderFooterCurrentTimeInsert",
+    "ProposeNewTime",
+    "ProposeNewTimeGallery",
+    "ProposeNewTimeMenu",
+    "StartAfterPrevious",
+    "TimeInsert",
+    "TransitionDuration"
+  ]
+}

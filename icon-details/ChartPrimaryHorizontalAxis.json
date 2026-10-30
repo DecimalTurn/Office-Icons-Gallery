@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartPrimaryHorizontalAxisTitle",
+      "imageAsset": "images/by-hash/5bd5d4c05ff97c34.png"
+    },
+    {
+      "name": "ChartPrimaryVerticalAxis",
+      "imageAsset": "images/by-hash/38884725d11cea50.png"
+    },
+    {
+      "name": "ChartPrimaryVerticalAxisTitle",
+      "imageAsset": "images/by-hash/ad28662262a66c19.png"
+    },
+    {
+      "name": "ChartPrimaryHorizontalGridlines",
+      "imageAsset": "images/by-hash/025f1de07804fbee.png"
+    },
+    {
+      "name": "ChartSecondaryHorizontalAxis",
+      "imageAsset": "images/by-hash/0985b467e5ed6ac6.png"
+    },
+    {
+      "name": "ChartSecondaryHorizontalAxisTitle",
+      "imageAsset": "images/by-hash/5728d6bdb0ff9dc7.png"
+    },
+    {
+      "name": "AdpPrimaryKey",
+      "imageAsset": "images/by-hash/af86b53b295b45ca.png"
+    },
+    {
+      "name": "BusinessDataPrimaryField",
+      "imageAsset": "images/by-hash/057759d52550730d.png"
+    },
+    {
+      "name": "ChartPrimaryVerticalGridlines",
+      "imageAsset": "images/by-hash/a73d5f6ba135d41e.png"
+    },
+    {
+      "name": "ChartAxisTitles",
+      "imageAsset": "images/by-hash/dd0376fb28331e0a.png"
+    },
+    {
+      "name": "ChartAxisTitlesGallery",
+      "imageAsset": "images/by-hash/dd0376fb28331e0a.png"
+    },
+    {
+      "name": "ChartDepthAxis",
+      "imageAsset": "images/by-hash/109f31e55e8dba3d.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChartSecondaryHorizontalAxis"
+  ]
+}

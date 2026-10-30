@@ -1,0 +1,13 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BroadcastFromBeginning",
+      "imageAsset": "images/by-hash/1622c4b78b9481be.png"
+    }
+  ],
+  "sameImageIds": [
+    "BroadcastFromBeginning",
+    "GroupSlideShowStart",
+    "ViewSlideShowView"
+  ]
+}

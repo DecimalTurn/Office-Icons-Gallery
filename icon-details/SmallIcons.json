@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "IconsAndDetails",
+      "imageAsset": "images/by-hash/cc81676e63da29d6.png"
+    },
+    {
+      "name": "IconsAndNames",
+      "imageAsset": "images/by-hash/4cef7c5bcd920c2f.png"
+    },
+    {
+      "name": "IconsOnly",
+      "imageAsset": "images/by-hash/04d965530595bf44.png"
+    },
+    {
+      "name": "LargeIcons",
+      "imageAsset": "images/by-hash/ac092781dfa8eecd.png"
+    },
+    {
+      "name": "LineUpIcons",
+      "imageAsset": "images/by-hash/0927f95a16394c1f.png"
+    },
+    {
+      "name": "NamesUnderIcons",
+      "imageAsset": "images/by-hash/d773ba49c692a331.png"
+    },
+    {
+      "name": "WindowsArrangeIcons",
+      "imageAsset": "images/by-hash/00ff86c8b54acd38.png"
+    },
+    {
+      "name": "CompressMediaSmall",
+      "imageAsset": "images/by-hash/625887af43cf713e.png"
+    },
+    {
+      "name": "GroupBasicTextSmall",
+      "imageAsset": "images/by-hash/1a614d7d7f1a5953.png"
+    },
+    {
+      "name": "GroupInsertSmall",
+      "imageAsset": "images/by-hash/e0e443496fa9a016.png"
+    },
+    {
+      "name": "GroupTaggingSmall",
+      "imageAsset": "images/by-hash/1696736e05a30c3c.png"
+    },
+    {
+      "name": "PointEraserSmall",
+      "imageAsset": "images/by-hash/d70bcff83c399d86.png"
+    }
+  ],
+  "sameImageIds": []
+}

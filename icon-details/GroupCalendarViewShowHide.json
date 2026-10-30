@@ -1,0 +1,28 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupShowHideCalendarTool",
+      "imageAsset": "images/by-hash/8c005537b968b2f0.png"
+    }
+  ],
+  "sameImageIds": [
+    "ActiveXCheckBox",
+    "CalculatedYesNo",
+    "ContentControlCheckBox",
+    "DataTypeCheckBox",
+    "DataTypeOnOff",
+    "DataTypeTrueFalse",
+    "DataTypeYesNo",
+    "DataTypeYesNoBasic",
+    "FormControlCheckBox",
+    "GroupGanttChartShowHide",
+    "GroupNetworkDiagramShowHide",
+    "GroupResourceUsageShowHide",
+    "GroupTaskUsageShowHide",
+    "GroupTeamPlannerShowHide",
+    "GroupTimelineViewShowHide",
+    "RulesConditionIsCheckedGallery",
+    "WebControlCheckBox",
+    "XDCheckBox"
+  ]
+}

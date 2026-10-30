@@ -1,0 +1,37 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DsaStyleMode",
+      "imageAsset": "images/by-hash/9d975f6d3c1a5bcf.png"
+    },
+    {
+      "name": "GroupStyleApplication",
+      "imageAsset": "images/by-hash/9d975f6d3c1a5bcf.png"
+    },
+    {
+      "name": "OverlayCalendar",
+      "imageAsset": "images/by-hash/9043b3d1eecb8dad.png"
+    },
+    {
+      "name": "DsaReuseProps",
+      "imageAsset": "images/by-hash/25eb75ee6c2253cd.png"
+    },
+    {
+      "name": "DsaTargetRule",
+      "imageAsset": "images/by-hash/703c1f868e0e23e5.png"
+    },
+    {
+      "name": "ApplicationOptionsDialog",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupApplicationLog",
+      "imageAsset": "images/by-hash/a0d6e56de238e3d2.png"
+    },
+    {
+      "name": "SynchronizeApplicationChanges",
+      "imageAsset": "images/by-hash/6fbe1de1a9ec36da.png"
+    }
+  ],
+  "sameImageIds": []
+}

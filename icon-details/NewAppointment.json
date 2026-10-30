@@ -1,0 +1,26 @@
+{
+  "relatedIcons": [],
+  "sameImageIds": [
+    "ArrangeByAppointmentStart",
+    "CalendarInsert",
+    "ContactCardScheduleMeeting",
+    "DailyView",
+    "DataTypeLongDate",
+    "DataTypeMediumDate",
+    "DataTypeShortDate",
+    "GotoCalendar",
+    "GroupOpen",
+    "GroupResourceFormViewDetails",
+    "MeetingsToolViewByDay",
+    "NewAppointmentCompact",
+    "NewAppointmentNumbered",
+    "OpenAttachedCalendar",
+    "PersonaCalendarMenu",
+    "QuickSearchMeetings",
+    "SearchUpscopeToAllCalendarItems",
+    "ShowAppointmentPage",
+    "StatusDate",
+    "ViewByDay",
+    "ViewScheduleShow"
+  ]
+}

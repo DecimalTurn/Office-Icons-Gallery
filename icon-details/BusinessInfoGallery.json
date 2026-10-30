@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupInsertBusinessInfo",
+      "imageAsset": "images/by-hash/0af252d3318dfd3a.png"
+    },
+    {
+      "name": "AddSelectionToBusinessInformationLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "BusinessCardInsertMenu",
+      "imageAsset": "images/by-hash/497a4f1948c9ced5.png"
+    },
+    {
+      "name": "BusinessDataEntities",
+      "imageAsset": "images/by-hash/2ceb318c72f73d59.png"
+    },
+    {
+      "name": "BusinessDataPrimaryField",
+      "imageAsset": "images/by-hash/057759d52550730d.png"
+    },
+    {
+      "name": "BusinessDataSyncWithLocalCache",
+      "imageAsset": "images/by-hash/e32569309eaf06fa.png"
+    },
+    {
+      "name": "BusinessFormWizard",
+      "imageAsset": "images/by-hash/ff2b8b263256718d.png"
+    },
+    {
+      "name": "DeleteBusinessDataEntity",
+      "imageAsset": "images/by-hash/c3d958c8189b133f.png"
+    },
+    {
+      "name": "EditBusinessCard",
+      "imageAsset": "images/by-hash/50a7d51fe8de2c32.png"
+    },
+    {
+      "name": "EditBusinessDataEntity",
+      "imageAsset": "images/by-hash/ecaaf3f682dbf587.png"
+    },
+    {
+      "name": "ExportBusinessDataCatalogModel",
+      "imageAsset": "images/by-hash/f7c94fd9dd255656.png"
+    },
+    {
+      "name": "ForwardAsBusinessCard",
+      "imageAsset": "images/by-hash/a9ef85ac7a0e3ee5.png"
+    }
+  ],
+  "sameImageIds": []
+}

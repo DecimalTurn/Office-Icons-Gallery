@@ -1,0 +1,71 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotDiagramRefresh",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "PivotDiagramRefreshOne",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "PivotChartRefresh",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "PivotRefresh",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "GroupPivotDiagramData",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "GroupPivotDiagramFormat",
+      "imageAsset": "images/by-hash/267a79f8d7d3956e.png"
+    },
+    {
+      "name": "GroupPivotDiagramLayout",
+      "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+    },
+    {
+      "name": "GroupPivotDiagramSort",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "PivotDiagramAlignBottom",
+      "imageAsset": "images/by-hash/41b181deaed7563e.png"
+    },
+    {
+      "name": "PivotDiagramAlignCenter",
+      "imageAsset": "images/by-hash/c208912ec62178ed.png"
+    },
+    {
+      "name": "PivotDiagramAlignLeft",
+      "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+    },
+    {
+      "name": "PivotDiagramAlignment",
+      "imageAsset": "images/by-hash/30fb75d91a8bd205.png"
+    }
+  ],
+  "sameImageIds": [
+    "BlogCategoriesRefresh",
+    "DatabaseModelingRefresh",
+    "FacilitiesRefresh",
+    "GroupListViewData",
+    "GroupPivotChartData",
+    "GroupPivotChartDataAccess",
+    "GroupPivotDiagramData",
+    "GroupPivotTableData",
+    "GroupPivotTableDataAccess",
+    "PivotChartRefresh",
+    "PivotDiagramRefresh",
+    "PivotDiagramRefreshOne",
+    "PivotRefresh",
+    "RecordsRefreshRecords",
+    "RefreshData",
+    "SynchronizeHtml",
+    "WebRefresh"
+  ]
+}

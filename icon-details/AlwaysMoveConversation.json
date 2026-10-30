@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AlwaysMoveToFolder",
+      "imageAsset": "images/by-hash/6707ec4d66a2437a.png"
+    },
+    {
+      "name": "AlwaysSortFoldersAtoZ",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "ArrangeByConversation",
+      "imageAsset": "images/by-hash/d2e4c0b505521746.png"
+    },
+    {
+      "name": "IgnoreConversation",
+      "imageAsset": "images/by-hash/6ccc5fc0709da263.png"
+    },
+    {
+      "name": "StopMovingConversation",
+      "imageAsset": "images/by-hash/e566674bba46631e.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupMoreOptions",
+    "SaveSentItemsMenu",
+    "StopMovingConversation"
+  ]
+}

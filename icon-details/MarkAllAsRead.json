@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MarkAllEntriesRead",
+      "imageAsset": "images/by-hash/42e40667ed43a78e.png"
+    },
+    {
+      "name": "MarkAllPagesAsRead",
+      "imageAsset": "images/by-hash/d66d8d0ce7f850bf.png"
+    },
+    {
+      "name": "MarkAsRead",
+      "imageAsset": "images/by-hash/eb0e54a34f26ad5c.png"
+    },
+    {
+      "name": "MarkAsReadMenu",
+      "imageAsset": "images/by-hash/42e40667ed43a78e.png"
+    },
+    {
+      "name": "MarkPageAsRead",
+      "imageAsset": "images/by-hash/79fbd5751cc8a8cb.png"
+    },
+    {
+      "name": "MarkSelectedEntriesRead",
+      "imageAsset": "images/by-hash/42e40667ed43a78e.png"
+    },
+    {
+      "name": "MarkSelectedEntriesReadInMenu",
+      "imageAsset": "images/by-hash/42e40667ed43a78e.png"
+    },
+    {
+      "name": "MarkToolReadInMenu",
+      "imageAsset": "images/by-hash/42e40667ed43a78e.png"
+    },
+    {
+      "name": "MarkWorkspaceReadInMenu",
+      "imageAsset": "images/by-hash/42e40667ed43a78e.png"
+    },
+    {
+      "name": "ToggleMarkAsRead",
+      "imageAsset": "images/by-hash/eb0e54a34f26ad5c.png"
+    },
+    {
+      "name": "ColumnActionsReadOnly",
+      "imageAsset": "images/by-hash/496a802468ac8523.png"
+    },
+    {
+      "name": "ContentTypeColumnActionsReadOnly",
+      "imageAsset": "images/by-hash/496a802468ac8523.png"
+    }
+  ],
+  "sameImageIds": []
+}

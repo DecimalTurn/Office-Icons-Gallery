@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupToolsWorkspace",
+      "imageAsset": "images/by-hash/361923eeca76eb5a.png"
+    },
+    {
+      "name": "ChangeConnectedSystem",
+      "imageAsset": "images/by-hash/7f8e5d22ac2bd15a.png"
+    },
+    {
+      "name": "ConnectedToolSyncMenu",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    },
+    {
+      "name": "EditConnectedSystem",
+      "imageAsset": "images/by-hash/c9127e4088b92041.png"
+    },
+    {
+      "name": "GroupConnectedSystemActions",
+      "imageAsset": "images/by-hash/c9127e4088b92041.png"
+    },
+    {
+      "name": "GroupSharePointConnectedTool",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    },
+    {
+      "name": "NewSharePointConnectedTool",
+      "imageAsset": "images/by-hash/37ac0a48e7c4e52f.png"
+    },
+    {
+      "name": "SyncConnectedTool",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    },
+    {
+      "name": "ContactInviteToWorkspace",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "ContactWorkspaceUninvite",
+      "imageAsset": "images/by-hash/feaa203db9c1adcc.png"
+    },
+    {
+      "name": "DataFromWorkspace",
+      "imageAsset": "images/by-hash/0ff39c62f6fe47fe.png"
+    },
+    {
+      "name": "DeleteWorkspaceFromThisComputer",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddToolGallery",
+    "GroupToolsWorkspace"
+  ]
+}

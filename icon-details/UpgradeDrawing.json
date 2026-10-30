@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ButtonTaskOfficeUpgrade",
+      "imageAsset": "images/by-hash/f1bd719a956bcd7f.png"
+    },
+    {
+      "name": "UpgradeDocument",
+      "imageAsset": "images/by-hash/89a2f7cbfc0f7108.png"
+    },
+    {
+      "name": "UpgradePresentation",
+      "imageAsset": "images/by-hash/a39c7d9dfe9a52e6.png"
+    },
+    {
+      "name": "UpgradeProduct",
+      "imageAsset": "images/by-hash/7a618ed7bfee6fdd.png"
+    },
+    {
+      "name": "UpgradeWorkbook",
+      "imageAsset": "images/by-hash/f4222ca6fe0f8c32.png"
+    },
+    {
+      "name": "CadDrawing",
+      "imageAsset": "images/by-hash/f9f0aa1127c8085c.png"
+    },
+    {
+      "name": "CreateNewDrawing",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "DeveloperDrawingTools",
+      "imageAsset": "images/by-hash/cb43a68ff1bbd52c.png"
+    },
+    {
+      "name": "Drawing1ColorPickerLineStyles",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "Drawing1ColorPickerLineStyles2",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "Drawing1ColorPickerLineStylesWordArt",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "Drawing1GalleryBrightness",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    }
+  ],
+  "sameImageIds": []
+}

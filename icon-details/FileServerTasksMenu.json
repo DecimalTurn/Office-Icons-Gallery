@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FileMenuServerTasksHeader",
+      "imageAsset": "images/by-hash/374c984d4a9fc494.png"
+    },
+    {
+      "name": "FileSaveToDocumentManagementServer",
+      "imageAsset": "images/by-hash/87ce166b8e25d0f6.png"
+    },
+    {
+      "name": "FileServerLinkTables",
+      "imageAsset": "images/by-hash/03d8cc77bd05dbdd.png"
+    },
+    {
+      "name": "FileServerMenu",
+      "imageAsset": "images/by-hash/374c984d4a9fc494.png"
+    },
+    {
+      "name": "FileServerTransferDatabase",
+      "imageAsset": "images/by-hash/6d6286434039bf1a.png"
+    },
+    {
+      "name": "FileWorkflowTasks",
+      "imageAsset": "images/by-hash/a7c53f53aead05b3.png"
+    },
+    {
+      "name": "AccessListTasks",
+      "imageAsset": "images/by-hash/eb984634b74705b7.png"
+    },
+    {
+      "name": "AccessTableTasks",
+      "imageAsset": "images/by-hash/eb984634b74705b7.png"
+    },
+    {
+      "name": "AddExistingTasksToTimeline",
+      "imageAsset": "images/by-hash/2128fa0a06829f22.png"
+    },
+    {
+      "name": "ConnectToServer",
+      "imageAsset": "images/by-hash/f6aa2080fed8d170.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckClientObjects",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckDatabase",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    }
+  ],
+  "sameImageIds": [
+    "FileMenuServerTasksHeader",
+    "FileServerMenu"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChangePictureFileType",
+      "imageAsset": "images/by-hash/b6920ebf67401601.png"
+    },
+    {
+      "name": "ChangePictureFromScanner",
+      "imageAsset": "images/by-hash/51f884df639d7c92.png"
+    },
+    {
+      "name": "PictureChangeMenu",
+      "imageAsset": "images/by-hash/b6920ebf67401601.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChangePictureFileType",
+    "GroupPictureToolsAdjustClassic",
+    "PictureChangeMenu"
+  ]
+}

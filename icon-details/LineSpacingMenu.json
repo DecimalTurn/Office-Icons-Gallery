@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "LineSpacing",
+      "imageAsset": "images/by-hash/2c0984713ce5172e.png"
+    },
+    {
+      "name": "LineSpacingGallery",
+      "imageAsset": "images/by-hash/2c0984713ce5172e.png"
+    },
+    {
+      "name": "LineSpacingGalleryPowerPoint",
+      "imageAsset": "images/by-hash/2c0984713ce5172e.png"
+    },
+    {
+      "name": "CharacterSpacingGallery",
+      "imageAsset": "images/by-hash/0031b1023ccb91e0.png"
+    },
+    {
+      "name": "GroupOrgChartSpacing",
+      "imageAsset": "images/by-hash/4be828dd2621d9d0.png"
+    },
+    {
+      "name": "HorizontalSpacingDecrease",
+      "imageAsset": "images/by-hash/01646d5b7afb9c08.png"
+    },
+    {
+      "name": "HorizontalSpacingIncrease",
+      "imageAsset": "images/by-hash/f7a20f25ecbdbcdc.png"
+    },
+    {
+      "name": "HorizontalSpacingMakeEqual",
+      "imageAsset": "images/by-hash/f65bd36d4456ac2f.png"
+    },
+    {
+      "name": "OrgChartLayoutSpacingChange",
+      "imageAsset": "images/by-hash/4be828dd2621d9d0.png"
+    },
+    {
+      "name": "ParagraphSpacing",
+      "imageAsset": "images/by-hash/6e21f80bd46a3a4a.png"
+    },
+    {
+      "name": "ParagraphSpacingAfter",
+      "imageAsset": "images/by-hash/50ae9dcdcab1d70e.png"
+    },
+    {
+      "name": "ParagraphSpacingBefore",
+      "imageAsset": "images/by-hash/d2b2cc19e0ad1036.png"
+    }
+  ],
+  "sameImageIds": [
+    "LineSpacing",
+    "LineSpacingGallery",
+    "LineSpacingGalleryPowerPoint"
+  ]
+}

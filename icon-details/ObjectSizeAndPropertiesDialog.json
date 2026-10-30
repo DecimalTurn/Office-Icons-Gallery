@@ -1,0 +1,44 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ObjectSizeAndPositionDialog",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "ObjectSizeDialog",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "ObjectSizeDialogClassic",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "PicturePropertiesSize",
+      "imageAsset": "images/by-hash/a439dbfbe46d902e.png"
+    }
+  ],
+  "sameImageIds": [
+    "CalendarViewWeekHeightBestFit",
+    "CellHeight",
+    "ControlPropertyHeightValue",
+    "GalPrintPagesTall",
+    "GroupPictureSize",
+    "GroupPictureSizeClassic",
+    "GroupSize",
+    "GroupSizeClassic",
+    "GroupTableSize",
+    "GroupTableSizePublisher",
+    "GroupVideoSize",
+    "ObjectSizeAndPositionDialog",
+    "ObjectSizeDialog",
+    "ObjectSizeDialogClassic",
+    "PageScaleToFitHeight",
+    "ShapeHeight",
+    "SizeToControlHeight",
+    "SlicerRowHeight",
+    "TableHeight",
+    "TableRowHeight",
+    "VideoHeight",
+    "WebPartHeight"
+  ]
+}

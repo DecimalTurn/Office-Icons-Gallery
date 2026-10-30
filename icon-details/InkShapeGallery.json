@@ -1,0 +1,28 @@
+{
+  "relatedIcons": [
+    {
+      "name": "InkShapeClose",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChartChangeDataLabelShapeGallery",
+    "ChartChangeDataLabelShapesGallery",
+    "GalleryAllShapesAndCanvas",
+    "GalleryAllShapesAndTextboxes",
+    "GroupChartShapes",
+    "GroupInsertIllustrations",
+    "GroupInsertShapes",
+    "GroupInsertShapesOneNote",
+    "GroupShapes",
+    "GroupShapesChart",
+    "GroupShapesClassic",
+    "PictureShapeGallery",
+    "ReplaceShape",
+    "ShapeChangeShapeGallery",
+    "ShapesInsertGallery",
+    "ShapesMoreShapes",
+    "ShowAutoShapesAndDrawingBars",
+    "VideoShapeGallery"
+  ]
+}

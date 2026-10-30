@@ -1,0 +1,15 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ResourceSchedulingViewGiveFeedback",
+      "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+    },
+    {
+      "name": "SchedulingEngineGiveFeedback",
+      "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+    }
+  ],
+  "sameImageIds": [
+    "ShowWorkHourOnly"
+  ]
+}

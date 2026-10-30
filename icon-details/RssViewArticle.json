@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddNewRssFeed",
+      "imageAsset": "images/by-hash/62675dac43797838.png"
+    },
+    {
+      "name": "GroupRss",
+      "imageAsset": "images/by-hash/448cafaddde8578c.png"
+    },
+    {
+      "name": "RssDownload",
+      "imageAsset": "images/by-hash/448cafaddde8578c.png"
+    },
+    {
+      "name": "RssDownloadContent",
+      "imageAsset": "images/by-hash/448cafaddde8578c.png"
+    },
+    {
+      "name": "RssDownloadContentGallery",
+      "imageAsset": "images/by-hash/448cafaddde8578c.png"
+    },
+    {
+      "name": "RssShareThisFeed",
+      "imageAsset": "images/by-hash/d4084b06f401b640.png"
+    },
+    {
+      "name": "SharingOpenRssFeed",
+      "imageAsset": "images/by-hash/d4084b06f401b640.png"
+    }
+  ],
+  "sameImageIds": [
+    "BroadcastResume",
+    "ContextualInBrowserGallery",
+    "GroupListCustomActionsManage",
+    "GroupListFormsManage",
+    "GroupPageSummaryManage",
+    "GroupPreviewInBrowser",
+    "GroupWebPreview",
+    "InBrowserGallery",
+    "OpenInBrowserOutlook",
+    "OpenInWebBrowser",
+    "OpenTargetURL",
+    "PreviewInBrowserDefault",
+    "PreviewInMultipleBrowsers",
+    "SharingPreviewPublishedCalendar",
+    "SharingPreviewWssCalendar",
+    "SharingPreviewWssContactList",
+    "SharingPreviewWssDiscussionList",
+    "SharingPreviewWssDocumentList",
+    "SharingPreviewWssTaskList",
+    "WebPagePreview",
+    "WebSiteMapPageCentricView"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupMeetingsToolAppointmentEditSummary",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentSummaryShare",
+      "imageAsset": "images/by-hash/7acf913928490f20.png"
+    },
+    {
+      "name": "MeetingsToolAppointmentDeleteSummary",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "MeetingsToolAppointmentNewSummary",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    },
+    {
+      "name": "MeetingsToolAppointmentSummary",
+      "imageAsset": "images/by-hash/05acc46438d84d5b.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentAgenda",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentAgendaOptions",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentEditAgenda",
+      "imageAsset": "images/by-hash/cd03c48facbc252d.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentEditNote",
+      "imageAsset": "images/by-hash/cd03c48facbc252d.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentMeeting",
+      "imageAsset": "images/by-hash/cd03c48facbc252d.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentNote",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    },
+    {
+      "name": "GroupMeetingsToolAppointmentNotesOptions",
+      "imageAsset": "images/by-hash/b33da83e23a2b5b3.png"
+    }
+  ],
+  "sameImageIds": [
+    "DataFormAddRecord",
+    "FormsToolNewRecordGallery",
+    "GoToNewRecord",
+    "GroupDiscussion",
+    "GroupItems",
+    "GroupMeetingsToolAppointmentAgenda",
+    "GroupMeetingsToolAppointmentEditSummary",
+    "GroupMeetingsToolAppointmentNote",
+    "GroupNewFormsTool",
+    "MeetingsToolAppointmentNewAgendaItem",
+    "MeetingsToolAppointmentNewNote",
+    "MeetingsToolAppointmentNewSummary",
+    "NewBusinessDataEntityInstance"
+  ]
+}

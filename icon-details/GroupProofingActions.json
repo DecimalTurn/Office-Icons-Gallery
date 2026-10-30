@@ -1,0 +1,26 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupBlogProofing",
+      "imageAsset": "images/by-hash/a4a83187d27d2b74.png"
+    },
+    {
+      "name": "GroupProofing",
+      "imageAsset": "images/by-hash/a4a83187d27d2b74.png"
+    },
+    {
+      "name": "ProofingToolsFlyoutAnchor",
+      "imageAsset": "images/by-hash/00cd4d0b28c70c30.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupBlogProofing",
+    "GroupProofing",
+    "GroupSpelling",
+    "SpellCheck",
+    "Spelling",
+    "SpellingAccess",
+    "SpellingAndGrammar",
+    "SpellingMenu"
+  ]
+}

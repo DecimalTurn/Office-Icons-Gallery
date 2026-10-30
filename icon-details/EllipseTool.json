@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DrawFilledEllipse",
+      "imageAsset": "images/by-hash/68be14455095e1c5.png"
+    },
+    {
+      "name": "JotShapeEllipse",
+      "imageAsset": "images/by-hash/0d0be72abd020311.png"
+    }
+  ],
+  "sameImageIds": [
+    "CircleHotspot",
+    "DrawFilledEllipse",
+    "ShapeOval"
+  ]
+}

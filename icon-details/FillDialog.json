@@ -1,0 +1,30 @@
+{
+  "relatedIcons": [],
+  "sameImageIds": [
+    "_3DEffectColorPickerClassic",
+    "CellFillColorPicker",
+    "ColorPickerCommentFill",
+    "ColorPickerTable",
+    "FillBackColorSplitDropdown",
+    "FillColorGallery",
+    "FillStyle",
+    "FontFillBackColorPicker",
+    "GanttBarColorPicker",
+    "GroupIconEditPaint",
+    "IconBucketTool",
+    "ShadingColorPicker",
+    "ShadingPicker",
+    "ShadowColorPickerClassic",
+    "ShapeFillColorPicker",
+    "ShapeFillColorPickerClassic",
+    "TableBackgroundGallery",
+    "TableFillColorPicker",
+    "TeamPlannerActualFillColor",
+    "TeamPlannerAutoScheduledFillColor",
+    "TeamPlannerExternalFillColor",
+    "TeamPlannerLateFillColor",
+    "TeamPlannerManuallyScheduledFillColor",
+    "TeamPlannerTaskFillColorGallery",
+    "UnderlineColorPicker"
+  ]
+}

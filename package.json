@@ -6,7 +6,8 @@
     "dev": "node scripts/serve.js",
     "start": "node scripts/serve.js",
     "test": "pnpm run test:search",
-    "test:search": "playwright test"
+    "test:search": "playwright test",
+    "test:keyword-review": "playwright test tests/keyword-review.spec.js --workers=1"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.1"

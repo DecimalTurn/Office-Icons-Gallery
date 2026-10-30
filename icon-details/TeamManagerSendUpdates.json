@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ClickToRunAboutUpdates",
+      "imageAsset": "images/by-hash/7404d79e63593d89.png"
+    },
+    {
+      "name": "ClickToRunApplyUpdates",
+      "imageAsset": "images/by-hash/c2ddcf2d05fd7d7e.png"
+    },
+    {
+      "name": "ClickToRunEnableUpdates",
+      "imageAsset": "images/by-hash/15f524a4080c974d.png"
+    },
+    {
+      "name": "ClickToRunViewUpdates",
+      "imageAsset": "images/by-hash/bfbf930e4ac19247.png"
+    },
+    {
+      "name": "ProductUpdates",
+      "imageAsset": "images/by-hash/c2ddcf2d05fd7d7e.png"
+    },
+    {
+      "name": "SlabDocUpdatesAvailableSaveAndReview",
+      "imageAsset": "images/by-hash/f18099fa4182f9d1.png"
+    },
+    {
+      "name": "SlabDocUpdatesAvailableSaveAndUpdateIcon",
+      "imageAsset": "images/by-hash/513aaa7362e46b49.png"
+    },
+    {
+      "name": "AddInManager",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "CommunicationsManager",
+      "imageAsset": "images/by-hash/c9127e4088b92041.png"
+    },
+    {
+      "name": "DatabaseLinedTableManager",
+      "imageAsset": "images/by-hash/c96b1ecf18078b5c.png"
+    },
+    {
+      "name": "DatabaseSwitchboardManager",
+      "imageAsset": "images/by-hash/cb66f7ea351b8b1d.png"
+    },
+    {
+      "name": "DataConnectionsManager",
+      "imageAsset": "images/by-hash/7921b73a38f534b8.png"
+    }
+  ],
+  "sameImageIds": []
+}

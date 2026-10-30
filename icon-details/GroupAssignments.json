@@ -1,0 +1,24 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupAssignmentsStandard",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddDepartment",
+    "CoauthorCount",
+    "DelegateAccess",
+    "GroupAssignmentsStandard",
+    "GroupAttendees",
+    "GroupAttendeesMeetingSent",
+    "GroupRecurringAttendees",
+    "NewDistributionList",
+    "NewDistributionListCompact",
+    "NewDistributionListNumbered",
+    "QuickSearchNotToCcMe",
+    "ResourcesAssign",
+    "ShareWithPeople",
+    "ShowMembersPage"
+  ]
+}

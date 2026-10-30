@@ -1,0 +1,27 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddSelectionToCalendarsLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "MenuGroupCalendars",
+      "imageAsset": "images/by-hash/9043b3d1eecb8dad.png"
+    },
+    {
+      "name": "MoreCalendarsInsert",
+      "imageAsset": "images/by-hash/4e750716e8bb8134.png"
+    },
+    {
+      "name": "SearchCalendarsOnline",
+      "imageAsset": "images/by-hash/b4a4335cbc1b0178.png"
+    }
+  ],
+  "sameImageIds": [
+    "CalendarMonthDetailsSplitButton",
+    "MeetingsToolFilterMeetingListMenu",
+    "MeetingsToolViewByMonth",
+    "MonthlyView",
+    "ViewByMonth"
+  ]
+}

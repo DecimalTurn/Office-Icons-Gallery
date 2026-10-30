@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DatabaseModelingDatabaseDrivers",
+      "imageAsset": "images/by-hash/5b478506b12c635c.png"
+    },
+    {
+      "name": "DatabaseModelingDisplayOptions",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "DatabaseModelingImport",
+      "imageAsset": "images/by-hash/234c9ee96761b0e4.png"
+    },
+    {
+      "name": "DatabaseModelingRefresh",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "DatabaseModelingReverse",
+      "imageAsset": "images/by-hash/fccce2cd654a718f.png"
+    },
+    {
+      "name": "DatabaseModelingShowRelatedTables",
+      "imageAsset": "images/by-hash/d64d8723b69c63c3.png"
+    },
+    {
+      "name": "DatabaseModelingUserDefinedTypes",
+      "imageAsset": "images/by-hash/9b76dc94999ad56b.png"
+    },
+    {
+      "name": "GroupDatabaseModelingManage",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupDatabaseModelingModel",
+      "imageAsset": "images/by-hash/fccce2cd654a718f.png"
+    },
+    {
+      "name": "GroupDatabaseModelingShowHide",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "DownloadPreferencesMenu",
+      "imageAsset": "images/by-hash/798833e4a4c752ed.png"
+    },
+    {
+      "name": "GroupPreferences",
+      "imageAsset": "images/by-hash/798833e4a4c752ed.png"
+    }
+  ],
+  "sameImageIds": [
+    "TablePropertiesDialog",
+    "TablePropertiesInfoPath",
+    "TablePropertiesMenu",
+    "XmlMapProperties"
+  ]
+}

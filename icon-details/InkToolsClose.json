@@ -1,0 +1,86 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupInkTools",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "CloseInkEntryMode",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "GroupInkClose",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "InkShapeClose",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "ArrangeTools",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "ArrangeToolsSiteClient",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "AudioToolsTrim",
+      "imageAsset": "images/by-hash/9de2f9e4dcce8de7.png"
+    },
+    {
+      "name": "AutoSummaryToolsMenu",
+      "imageAsset": "images/by-hash/61c99640ab898dcc.png"
+    },
+    {
+      "name": "DeveloperDrawingTools",
+      "imageAsset": "images/by-hash/cb43a68ff1bbd52c.png"
+    },
+    {
+      "name": "GroupAccessTools",
+      "imageAsset": "images/by-hash/6e89cbd7d71902d5.png"
+    },
+    {
+      "name": "GroupAdpQueryTools",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupAdpSqlStatementDesignTools",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    }
+  ],
+  "sameImageIds": [
+    "BroadcastEnd",
+    "CancelEditing",
+    "CloseComparison",
+    "CloseInkEntryMode",
+    "ConflictViewClose",
+    "GroupBackgroundRemovalClose",
+    "GroupClearSearch",
+    "GroupColorModeClose",
+    "GroupConflictsClose",
+    "GroupHeaderFooterClose",
+    "GroupInkClose",
+    "GroupMasterClose",
+    "GroupMergeViewClose",
+    "GroupOutliningClose",
+    "GroupPreviewInfoPath",
+    "GroupPrintPreviewClosePreview",
+    "GroupPrintPreviewPreview",
+    "HeaderFooterClose",
+    "IconEditClose",
+    "InkNormalMode",
+    "InkStopInkingReadingView",
+    "MasterPageCloseEdit",
+    "MasterViewClose",
+    "MeetingsToolAppointmentDiscardChanges",
+    "MergeViewClose",
+    "OutlineViewClose",
+    "PreviewClose",
+    "PrintPreviewClose",
+    "QuickSearchCancel",
+    "ShapeSheetClose",
+    "StencilClose",
+    "XDPPClose"
+  ]
+}

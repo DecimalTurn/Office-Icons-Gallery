@@ -1,0 +1,28 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupTaskFormFieldsActions",
+      "imageAsset": "images/by-hash/068470b628dc1569.png"
+    },
+    {
+      "name": "GroupTaskOutcomesActions",
+      "imageAsset": "images/by-hash/068470b628dc1569.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupCalendarActions",
+    "GroupContactsActions",
+    "GroupJournalsActions",
+    "GroupMailActions",
+    "GroupMoveActions",
+    "GroupNotesActions",
+    "GroupTasksActions",
+    "Move",
+    "MoveItem",
+    "MoveToFolder",
+    "MoveToFolderFileMenu",
+    "MoveToFolderGallery",
+    "MoveToFolderMenu",
+    "QuickStepTemplateMoveToFolder"
+  ]
+}

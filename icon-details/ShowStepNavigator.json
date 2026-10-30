@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ScreenNavigatorBack",
+      "imageAsset": "images/by-hash/0cacf429781a9870.png"
+    },
+    {
+      "name": "ScreenNavigatorBackMenu",
+      "imageAsset": "images/by-hash/0cacf429781a9870.png"
+    },
+    {
+      "name": "ScreenNavigatorForward",
+      "imageAsset": "images/by-hash/3dd6c1c7546be437.png"
+    },
+    {
+      "name": "ScreenNavigatorForwardMenu",
+      "imageAsset": "images/by-hash/3dd6c1c7546be437.png"
+    },
+    {
+      "name": "CreateQuickStep",
+      "imageAsset": "images/by-hash/da9e5a058d3075b0.png"
+    },
+    {
+      "name": "InsertDeclarativeStep",
+      "imageAsset": "images/by-hash/497eefbe40fb07d0.png"
+    },
+    {
+      "name": "InsertSequentialStep",
+      "imageAsset": "images/by-hash/497eefbe40fb07d0.png"
+    },
+    {
+      "name": "InsertStepMenu",
+      "imageAsset": "images/by-hash/497eefbe40fb07d0.png"
+    },
+    {
+      "name": "MacroSingleStep",
+      "imageAsset": "images/by-hash/7beaf3718642418a.png"
+    },
+    {
+      "name": "QuickStepTemplateCategorizeAndMove",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "QuickStepTemplateFlagAndMove",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "QuickStepTemplateForward",
+      "imageAsset": "images/by-hash/d4f0e3112d0c691d.png"
+    }
+  ],
+  "sameImageIds": []
+}

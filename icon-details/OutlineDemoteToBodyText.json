@@ -1,0 +1,37 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OutlineDemote",
+      "imageAsset": "images/by-hash/4f5efa03d59b4eff.png"
+    },
+    {
+      "name": "PagesDemote",
+      "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+    },
+    {
+      "name": "SmartArtDemote",
+      "imageAsset": "images/by-hash/4f5efa03d59b4eff.png"
+    },
+    {
+      "name": "BodyTextHide",
+      "imageAsset": "images/by-hash/e655d777209c8ac1.png"
+    },
+    {
+      "name": "JotConvertToBodyText",
+      "imageAsset": "images/by-hash/43ee24e557cef22e.png"
+    },
+    {
+      "name": "JotConvertToBodyTextRTL",
+      "imageAsset": "images/by-hash/23674351039cc240.png"
+    },
+    {
+      "name": "JotHideBodyText",
+      "imageAsset": "images/by-hash/91419e0e6aa6586a.png"
+    },
+    {
+      "name": "JotShowBodyText",
+      "imageAsset": "images/by-hash/1397e5c8b73d7a6c.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,63 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SparklineCustomWeight",
+      "imageAsset": "images/by-hash/566fd2e127e8f690.png"
+    },
+    {
+      "name": "LineWeightDialog",
+      "imageAsset": "images/by-hash/38c96b7707786967.png"
+    },
+    {
+      "name": "LineWeightGallery",
+      "imageAsset": "images/by-hash/8b9ce1d4bb31f477.png"
+    },
+    {
+      "name": "SparklineConvertToLine",
+      "imageAsset": "images/by-hash/553c22234553f743.png"
+    },
+    {
+      "name": "SparklineLineInsert",
+      "imageAsset": "images/by-hash/553c22234553f743.png"
+    },
+    {
+      "name": "OutlineWeightGallery",
+      "imageAsset": "images/by-hash/c223c1781a4305f2.png"
+    },
+    {
+      "name": "TextOutlineWeightGallery",
+      "imageAsset": "images/by-hash/c223c1781a4305f2.png"
+    },
+    {
+      "name": "GroupSparklineDataEdit",
+      "imageAsset": "images/by-hash/f66f1f20b7d1d18a.png"
+    },
+    {
+      "name": "GroupSparklineDetailsShow",
+      "imageAsset": "images/by-hash/f66f1f20b7d1d18a.png"
+    },
+    {
+      "name": "GroupSparklineGroup",
+      "imageAsset": "images/by-hash/657c2c8f53440940.png"
+    },
+    {
+      "name": "GroupSparklineStyle",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "GroupSparklineType",
+      "imageAsset": "images/by-hash/553c22234553f743.png"
+    }
+  ],
+  "sameImageIds": [
+    "ControlLineThicknessGallery",
+    "GridlinesWidthGallery",
+    "GroupBorder",
+    "GroupInfoPathInkFormat",
+    "GroupInkFormat",
+    "GroupTableBorders",
+    "OutlineWeightGallery",
+    "ReadingViewChangeInkPenMenu",
+    "TextOutlineWeightGallery"
+  ]
+}

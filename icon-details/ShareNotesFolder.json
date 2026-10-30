@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SharingOpenNotesFolder",
+      "imageAsset": "images/by-hash/85b5d0d61b183246.png"
+    },
+    {
+      "name": "ShareCalendarFolder",
+      "imageAsset": "images/by-hash/8db446fcf66f5604.png"
+    },
+    {
+      "name": "ShareContactsFolder",
+      "imageAsset": "images/by-hash/d18a1653eb9dba65.png"
+    },
+    {
+      "name": "ShareJournalFolder",
+      "imageAsset": "images/by-hash/e807794a9201c794.png"
+    },
+    {
+      "name": "ShareMailFolder",
+      "imageAsset": "images/by-hash/cebb6d36cf27c851.png"
+    },
+    {
+      "name": "ShareTaskFolder",
+      "imageAsset": "images/by-hash/9960556f722cbf0b.png"
+    },
+    {
+      "name": "AssignmentNotes",
+      "imageAsset": "images/by-hash/9e6c27b717f1db46.png"
+    },
+    {
+      "name": "AttachNotesToMeeting",
+      "imageAsset": "images/by-hash/25ceca008a74a306.png"
+    },
+    {
+      "name": "BroadcastNotes",
+      "imageAsset": "images/by-hash/25ceca008a74a306.png"
+    },
+    {
+      "name": "BroadcastNotesSplitButton",
+      "imageAsset": "images/by-hash/25ceca008a74a306.png"
+    },
+    {
+      "name": "ClearNotesProject",
+      "imageAsset": "images/by-hash/2249b7207f0bb122.png"
+    },
+    {
+      "name": "FindTaggedNotes",
+      "imageAsset": "images/by-hash/e3b544f4be322600.png"
+    }
+  ],
+  "sameImageIds": []
+}

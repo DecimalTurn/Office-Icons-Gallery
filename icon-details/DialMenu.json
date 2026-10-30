@@ -1,0 +1,27 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AutoDial",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "DialGallery",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    }
+  ],
+  "sameImageIds": [
+    "AutoDial",
+    "Call",
+    "ContactCardCallComputer",
+    "ContactCardCallOther",
+    "ContactCardCallVoiceMail",
+    "ContactCardDefaultPhoneCall",
+    "ContextMenuGroupContactCardPhoneDropdown",
+    "DialGallery",
+    "DialupConnectionMenu",
+    "GroupContactCardCallComputer",
+    "GroupContactCardCallOtherNumber",
+    "NewCall",
+    "QuickSearchPhoneMenu"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "RulesAndAlerts",
+      "imageAsset": "images/by-hash/1c2f5e41a9be79c6.png"
+    },
+    {
+      "name": "Alerts",
+      "imageAsset": "images/by-hash/787c5004e1a222c9.png"
+    },
+    {
+      "name": "ContactCardUntagForAlerts",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "ManageAlerts",
+      "imageAsset": "images/by-hash/787c5004e1a222c9.png"
+    },
+    {
+      "name": "SetAlerts",
+      "imageAsset": "images/by-hash/787c5004e1a222c9.png"
+    },
+    {
+      "name": "SetAlertsForTool",
+      "imageAsset": "images/by-hash/787c5004e1a222c9.png"
+    },
+    {
+      "name": "SetAlertsForWorkspace",
+      "imageAsset": "images/by-hash/136952e3e615e9a3.png"
+    },
+    {
+      "name": "SetAlertsMenu",
+      "imageAsset": "images/by-hash/787c5004e1a222c9.png"
+    },
+    {
+      "name": "SuppressAlerts",
+      "imageAsset": "images/by-hash/6686f8937af05fa0.png"
+    },
+    {
+      "name": "ToolSetAlerts",
+      "imageAsset": "images/by-hash/787c5004e1a222c9.png"
+    },
+    {
+      "name": "AddRulesMenu",
+      "imageAsset": "images/by-hash/314b2e53c7d79c39.png"
+    },
+    {
+      "name": "ControlPropertyRulesAction",
+      "imageAsset": "images/by-hash/314b2e53c7d79c39.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ParagraphSpaceAddOrRemoveBefore",
+      "imageAsset": "images/by-hash/3b64db7773991543.png"
+    },
+    {
+      "name": "ParagraphSpaceBefore",
+      "imageAsset": "images/by-hash/3d2a37e209849db7.png"
+    },
+    {
+      "name": "ParagraphSpaceBeforeNone",
+      "imageAsset": "images/by-hash/c4ff6f009f58df45.png"
+    },
+    {
+      "name": "ParagraphSpacing",
+      "imageAsset": "images/by-hash/6e21f80bd46a3a4a.png"
+    },
+    {
+      "name": "ParagraphSpacingAfter",
+      "imageAsset": "images/by-hash/50ae9dcdcab1d70e.png"
+    },
+    {
+      "name": "ParagraphSpacingDecrease",
+      "imageAsset": "images/by-hash/50ae9dcdcab1d70e.png"
+    },
+    {
+      "name": "ParagraphSpacingIncrease",
+      "imageAsset": "images/by-hash/d2b2cc19e0ad1036.png"
+    },
+    {
+      "name": "BeforeChange",
+      "imageAsset": "images/by-hash/5f2892e11b522506.png"
+    },
+    {
+      "name": "BeforeDelete",
+      "imageAsset": "images/by-hash/81886a0aa4187a49.png"
+    },
+    {
+      "name": "EquationMatrixInsertColumnBefore",
+      "imageAsset": "images/by-hash/0d51255d3efa9e47.png"
+    },
+    {
+      "name": "EquationMatrixInsertRowBefore",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "EventOnBeforeChange",
+      "imageAsset": "images/by-hash/843e6b743f01410b.png"
+    }
+  ],
+  "sameImageIds": [
+    "ParagraphSpacingIncrease"
+  ]
+}

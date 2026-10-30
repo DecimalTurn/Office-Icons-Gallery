@@ -1,0 +1,45 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DeleteItemInLaunchbar",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "GroupActionsLaunchbar",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "OpenLaunchbar",
+      "imageAsset": "images/by-hash/9001439ebaed8ec9.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByFolder",
+    "BrowseBackgroundImage",
+    "CloseWeb",
+    "ContentFolderMenu",
+    "FileClose",
+    "FileCloseAll",
+    "FileCloseDatabase",
+    "FileCloseOrCloseAll",
+    "FilesToolNewFolderGallery",
+    "FilesToolShowHideFolders",
+    "FindPublicFolder",
+    "Folder",
+    "FolderView",
+    "GotoFolderList",
+    "GroupMacroClose",
+    "GroupNew",
+    "GroupQueryClose",
+    "JotCloseFolder",
+    "LogicCloseFormAction",
+    "NewCategoryFolder",
+    "NewFolder",
+    "NewFolder2",
+    "NewFolderHere",
+    "NewInlineFolder",
+    "SaveSentItemRecentlyUsedFolder",
+    "SearchDownscopeToFolder",
+    "SharedImageBrowse"
+  ]
+}

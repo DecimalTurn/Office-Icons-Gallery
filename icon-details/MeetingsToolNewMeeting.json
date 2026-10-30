@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupMeetingsToolAppointmentMeeting",
+      "imageAsset": "images/by-hash/cd03c48facbc252d.png"
+    },
+    {
+      "name": "MeetingsToolAppointmentMeeting",
+      "imageAsset": "images/by-hash/13030e86763eaa87.png"
+    },
+    {
+      "name": "MeetingsToolFilterMeetingListMenu",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "AttachNotesToMeeting",
+      "imageAsset": "images/by-hash/25ceca008a74a306.png"
+    },
+    {
+      "name": "CancelMeeting",
+      "imageAsset": "images/by-hash/c93d36c1197d267c.png"
+    },
+    {
+      "name": "ContactCardScheduleMeeting",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "GroupAttendeesMeetingNotSent",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "GroupAttendeesMeetingSent",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    },
+    {
+      "name": "GroupLinkedMeetingNotes",
+      "imageAsset": "images/by-hash/fd7733a5f115e79e.png"
+    },
+    {
+      "name": "ListToolStartLiveMeeting",
+      "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+    },
+    {
+      "name": "MeetingDetailsInsertGallery",
+      "imageAsset": "images/by-hash/c674434a67623947.png"
+    },
+    {
+      "name": "MeetingDetailsOtherDayInsert",
+      "imageAsset": "images/by-hash/c674434a67623947.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupMeetingsToolCalendar",
+    "GroupNewMeetingsTool"
+  ]
+}

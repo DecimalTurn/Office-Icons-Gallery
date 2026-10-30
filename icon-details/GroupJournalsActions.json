@@ -1,0 +1,19 @@
+{
+  "relatedIcons": [],
+  "sameImageIds": [
+    "GroupCalendarActions",
+    "GroupContactsActions",
+    "GroupMailActions",
+    "GroupMoveActions",
+    "GroupNotesActions",
+    "GroupTaskListActions",
+    "GroupTasksActions",
+    "Move",
+    "MoveItem",
+    "MoveToFolder",
+    "MoveToFolderFileMenu",
+    "MoveToFolderGallery",
+    "MoveToFolderMenu",
+    "QuickStepTemplateMoveToFolder"
+  ]
+}

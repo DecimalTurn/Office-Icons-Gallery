@@ -1,0 +1,36 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FileSaveAsPowerPointOpenDocumentPresentation",
+      "imageAsset": "images/by-hash/024b979096487fc1.png"
+    },
+    {
+      "name": "GroupPresentationViews",
+      "imageAsset": "images/by-hash/592601d3eae5f5bc.png"
+    },
+    {
+      "name": "ReviewDeleteAllMarkupInPresentation",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "ReviewProtectPresentationMenu",
+      "imageAsset": "images/by-hash/2a9d5ce71f064303.png"
+    },
+    {
+      "name": "SavePresentationTask",
+      "imageAsset": "images/by-hash/024b979096487fc1.png"
+    },
+    {
+      "name": "TimelineViewCopyForPresentation",
+      "imageAsset": "images/by-hash/1ce01d1424245dc7.png"
+    },
+    {
+      "name": "UpgradePresentation",
+      "imageAsset": "images/by-hash/a39c7d9dfe9a52e6.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupMonitors",
+    "SlideShowResolutionGallery"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CreateQueryFromWizard",
+      "imageAsset": "images/by-hash/b674448c3a22d477.png"
+    },
+    {
+      "name": "CreateNewReportMenu",
+      "imageAsset": "images/by-hash/d424eccd1c1aec43.png"
+    },
+    {
+      "name": "CreateReport",
+      "imageAsset": "images/by-hash/cfb13b5ee60551a3.png"
+    },
+    {
+      "name": "CreateReportBlankReport",
+      "imageAsset": "images/by-hash/d613ffa6c31b0db5.png"
+    },
+    {
+      "name": "CreateReportBlankReportWeb",
+      "imageAsset": "images/by-hash/3ee4f566a710eb41.png"
+    },
+    {
+      "name": "CreateReportInDesignView",
+      "imageAsset": "images/by-hash/d424eccd1c1aec43.png"
+    },
+    {
+      "name": "CreateReportWeb",
+      "imageAsset": "images/by-hash/1720c3829a6f0c95.png"
+    },
+    {
+      "name": "WebSiteMapCreateReport",
+      "imageAsset": "images/by-hash/5da1e8a65873b1c6.png"
+    },
+    {
+      "name": "AccessFormWizard",
+      "imageAsset": "images/by-hash/e66e4f9a48e1e90f.png"
+    },
+    {
+      "name": "AutoFormatWizard",
+      "imageAsset": "images/by-hash/e1c785943851c579.png"
+    },
+    {
+      "name": "BusinessFormWizard",
+      "imageAsset": "images/by-hash/ff2b8b263256718d.png"
+    },
+    {
+      "name": "DatabaseUserLevelSecurityWizard",
+      "imageAsset": "images/by-hash/2b78127422e675d2.png"
+    }
+  ],
+  "sameImageIds": []
+}

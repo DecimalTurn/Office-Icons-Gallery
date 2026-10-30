@@ -1,0 +1,60 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AdpOutputOperationsSortAscending",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "AdpOutputOperationsSortDescending",
+      "imageAsset": "images/by-hash/77440f0b8550bd69.png"
+    },
+    {
+      "name": "AlwaysSortFoldersAtoZ",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "GroupFilterSortAndGroup",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupListViewFilterSortAndGroup",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupPivotChartFilterAndSort",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupPivotDiagramSort",
+      "imageAsset": "images/by-hash/458fd8e1130b5e6a.png"
+    },
+    {
+      "name": "GroupPivotTableFilterAndSort",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupPivotTableSort",
+      "imageAsset": "images/by-hash/613c49ee00fd0eaa.png"
+    },
+    {
+      "name": "GroupSort",
+      "imageAsset": "images/by-hash/cf92637eb802c6af.png"
+    },
+    {
+      "name": "GroupSortAndFilter",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupSortFilter",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    }
+  ],
+  "sameImageIds": [
+    "FilterClear",
+    "FilterClearAllFilters",
+    "SlicerClearFilter",
+    "SlicerClearFilterTouch",
+    "TimeSlicerClearFilter",
+    "TimeSlicerClearFilterTouch"
+  ]
+}

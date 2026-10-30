@@ -1,0 +1,67 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OLAttachment",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "OLPrintOptions",
+      "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+    },
+    {
+      "name": "CostTrackingForm",
+      "imageAsset": "images/by-hash/c56f9e5e66372dbb.png"
+    },
+    {
+      "name": "GroupChangesTracking",
+      "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+    },
+    {
+      "name": "GroupTracking",
+      "imageAsset": "images/by-hash/7522a2a8fe83d5ca.png"
+    },
+    {
+      "name": "MenuTracking",
+      "imageAsset": "images/by-hash/7522a2a8fe83d5ca.png"
+    },
+    {
+      "name": "NewO12IssueTrackingTool",
+      "imageAsset": "images/by-hash/ddfc513c215818a1.png"
+    },
+    {
+      "name": "RevisionsLockTracking",
+      "imageAsset": "images/by-hash/86646826e38e2bc9.png"
+    },
+    {
+      "name": "ScheduleTrackingForm",
+      "imageAsset": "images/by-hash/6f533a8764dc2f4c.png"
+    },
+    {
+      "name": "ShowTrackingPage",
+      "imageAsset": "images/by-hash/7522a2a8fe83d5ca.png"
+    },
+    {
+      "name": "ShowTrackingPageSplitMenu",
+      "imageAsset": "images/by-hash/7522a2a8fe83d5ca.png"
+    },
+    {
+      "name": "TextEffectTracking",
+      "imageAsset": "images/by-hash/0031b1023ccb91e0.png"
+    }
+  ],
+  "sameImageIds": [
+    "ContactCardCopy",
+    "Copy",
+    "CopyAndModifyReusableWorkflow",
+    "CopyAttach",
+    "CopyInvitationToClipboard",
+    "CopyMenu",
+    "CopyOneNote",
+    "CopySplitButton",
+    "DataSourceCatalogCopyModify",
+    "GroupCopy",
+    "GroupDataConnectionsActions",
+    "SlicerCopy",
+    "TimelineViewCopyFullSize"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CreateStageViewDiagram",
+      "imageAsset": "images/by-hash/37b66dc9df29ec86.png"
+    },
+    {
+      "name": "CreateWorkflowDiagram",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "CreateWorkflowDiagramVisualDesigner",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    }
+  ],
+  "sameImageIds": [
+    "AdpDiagramRelationships",
+    "AsppRelationships",
+    "DatabaseRelationships",
+    "DataInterconnect",
+    "GroupAnalyze",
+    "GroupDatabaseAnalyze",
+    "GroupTableRelationships",
+    "GroupViewsShowHide",
+    "ManageWebPartConnections",
+    "RelatedItemViewGallery",
+    "RelationshipsDirectRelationships"
+  ]
+}

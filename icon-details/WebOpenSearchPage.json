@@ -1,0 +1,32 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OpenDesktopSearch",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "SearchOnWeb",
+      "imageAsset": "images/by-hash/b4a4335cbc1b0178.png"
+    },
+    {
+      "name": "OpenInWebBrowser",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "OpenWeb",
+      "imageAsset": "images/by-hash/b982ce3cb83d2e1e.png"
+    },
+    {
+      "name": "SharingOpenWebCalendar",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "WebOpenInNewWindow",
+      "imageAsset": "images/by-hash/c95c189a111e0473.png"
+    }
+  ],
+  "sameImageIds": [
+    "SearchCalendarsOnline",
+    "SearchOnWeb"
+  ]
+}

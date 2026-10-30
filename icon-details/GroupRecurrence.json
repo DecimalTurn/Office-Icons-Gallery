@@ -1,0 +1,43 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ArrangeByRecurrence",
+      "imageAsset": "images/by-hash/5064aeaf0a3850c9.png"
+    },
+    {
+      "name": "MeetingsToolAppointmentRecurrence",
+      "imageAsset": "images/by-hash/5064aeaf0a3850c9.png"
+    },
+    {
+      "name": "Recurrence",
+      "imageAsset": "images/by-hash/5064aeaf0a3850c9.png"
+    },
+    {
+      "name": "RecurrenceEdit",
+      "imageAsset": "images/by-hash/5064aeaf0a3850c9.png"
+    },
+    {
+      "name": "RecurrenceEditSeries",
+      "imageAsset": "images/by-hash/52c612a90b7bd0c5.png"
+    },
+    {
+      "name": "RecurrenceExplorer",
+      "imageAsset": "images/by-hash/5064aeaf0a3850c9.png"
+    },
+    {
+      "name": "ToggleRecurrence",
+      "imageAsset": "images/by-hash/5064aeaf0a3850c9.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByRecurrence",
+    "GroupAppointmentMoreOptions",
+    "GroupCalendarOptions",
+    "GroupMeetingsToolAppointmentProfileOptions",
+    "MeetingsToolAppointmentRecurrence",
+    "Recurrence",
+    "RecurrenceEdit",
+    "RecurrenceExplorer",
+    "ToggleRecurrence"
+  ]
+}

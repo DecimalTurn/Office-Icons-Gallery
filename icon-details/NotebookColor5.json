@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NotebookColor1",
+      "imageAsset": "images/by-hash/ef8c907101ba7a5e.png"
+    },
+    {
+      "name": "NotebookColor2",
+      "imageAsset": "images/by-hash/0e3c25663746884e.png"
+    },
+    {
+      "name": "NotebookColor3",
+      "imageAsset": "images/by-hash/5c29b2550f221d68.png"
+    },
+    {
+      "name": "NotebookColor4",
+      "imageAsset": "images/by-hash/7f6b7f64e0828d84.png"
+    },
+    {
+      "name": "NotebookColor6",
+      "imageAsset": "images/by-hash/06a456b049fbbb79.png"
+    },
+    {
+      "name": "NotebookColor7",
+      "imageAsset": "images/by-hash/b5fc178fa30560ad.png"
+    },
+    {
+      "name": "NotebookColor8",
+      "imageAsset": "images/by-hash/9cbd4a36b243b2c9.png"
+    },
+    {
+      "name": "NotebookColor9",
+      "imageAsset": "images/by-hash/85de81365ac29688.png"
+    },
+    {
+      "name": "NotebookColor10",
+      "imageAsset": "images/by-hash/c1c2ec341249d8b7.png"
+    },
+    {
+      "name": "NotebookColor11",
+      "imageAsset": "images/by-hash/b05ceceb01d0b14b.png"
+    },
+    {
+      "name": "NotebookColor12",
+      "imageAsset": "images/by-hash/85aea8fa4dd27d90.png"
+    },
+    {
+      "name": "NotebookColor13",
+      "imageAsset": "images/by-hash/1e1d75627f5711fe.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,95 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FontColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "FontColorMoreColorsDialogPowerPoint",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "FontShadingColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "GlowColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "InkColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "ObjectBorderOutlineColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "ObjectShadowColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "SheetTabColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "TableBorderColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "TableFillColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "TextFillColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "TextGlowColorMoreColorsDialog",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    }
+  ],
+  "sameImageIds": [
+    "BorderMoreColorsDialog",
+    "ChartColorsGallery",
+    "ColorMenu",
+    "ColorPickerCalendar",
+    "CycleFillColor",
+    "FontColorCycle",
+    "FontColorMoreColorsDialog",
+    "FontColorMoreColorsDialogPowerPoint",
+    "FontShadingColorMoreColorsDialog",
+    "GlowColorMoreColorsDialog",
+    "GlowColorPicker",
+    "GroupColor",
+    "GroupDiagramming",
+    "GroupPens",
+    "InkColorMoreColorsDialog",
+    "InkLineColorPicker",
+    "JotLineColor",
+    "MoreColorAndThicknessOptions",
+    "MoreHighlightColors",
+    "NavSectionColorPicker",
+    "ObjectBorderOutlineColorMoreColorsDialog",
+    "ObjectFillMoreColorsDialog",
+    "ObjectShadowColorMoreColorsDialog",
+    "PictureRecolorMoreColorsDialog",
+    "RecolorColorPicker",
+    "ShadingColorsMoreColorsDialog",
+    "SheetTabColorMoreColorsDialog",
+    "SmartArtChangeColorsGallery",
+    "SparklineFirstPointMoreColors",
+    "SparklineHighPointMoreColors",
+    "SparklineLastPointMoreColors",
+    "SparklineLowPointMoreColors",
+    "SparklineMarkerMoreColors",
+    "SparklineMoreColors",
+    "SparklineNegativePointMoreColors",
+    "TableBorderColorMoreColorsDialog",
+    "TableFillColorMoreColorsDialog",
+    "TextFillColorMoreColorsDialog",
+    "TextGlowColorMoreColorsDialog",
+    "TextGlowColorPicker",
+    "TextOutlineColorMoreColorsDialog"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "QuickSearchNoResponseAppointments",
+      "imageAsset": "images/by-hash/bfee4f7602ee7bcf.png"
+    },
+    {
+      "name": "FormattingRequiredField",
+      "imageAsset": "images/by-hash/0ffdb5c61c29bfb8.png"
+    },
+    {
+      "name": "FormattingRequiredFieldToggle",
+      "imageAsset": "images/by-hash/0ffdb5c61c29bfb8.png"
+    },
+    {
+      "name": "ChangeResponseButtonMenu",
+      "imageAsset": "images/by-hash/b84f9e3863fbae59.png"
+    },
+    {
+      "name": "QuickSearchResponseMenu",
+      "imageAsset": "images/by-hash/7522a2a8fe83d5ca.png"
+    },
+    {
+      "name": "AcceptInvitation",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "BroadcastSendInvitation",
+      "imageAsset": "images/by-hash/17e648f52c2a4500.png"
+    },
+    {
+      "name": "CancelAllInvitation",
+      "imageAsset": "images/by-hash/3c40bf60f3731fd8.png"
+    },
+    {
+      "name": "CancelInvitation",
+      "imageAsset": "images/by-hash/c93d36c1197d267c.png"
+    },
+    {
+      "name": "ChangeToAcceptInvitation",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "ChangeToDeclineInvitation",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "ChangeToTentativeAcceptInvitation",
+      "imageAsset": "images/by-hash/1c6cfefae0b6575f.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,27 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OutlinePromoteToHeading",
+      "imageAsset": "images/by-hash/cee3478b2e52842c.png"
+    },
+    {
+      "name": "InfopathPromoteFormProperties",
+      "imageAsset": "images/by-hash/9ae8770f7e5d5f6f.png"
+    },
+    {
+      "name": "PagesPromote",
+      "imageAsset": "images/by-hash/1816c21da026fa8e.png"
+    },
+    {
+      "name": "PivotDiagramPromote",
+      "imageAsset": "images/by-hash/a3aa1d1b18d2bb65.png"
+    },
+    {
+      "name": "SmartArtPromote",
+      "imageAsset": "images/by-hash/e1ca9077091fbbf5.png"
+    }
+  ],
+  "sameImageIds": [
+    "SmartArtPromote"
+  ]
+}

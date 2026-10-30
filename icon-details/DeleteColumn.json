@@ -1,0 +1,31 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DatasheetColumnDelete",
+      "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+    },
+    {
+      "name": "EquationMatrixDeleteColumn",
+      "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+    },
+    {
+      "name": "RecordsDeleteColumn",
+      "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+    }
+  ],
+  "sameImageIds": [
+    "ColumnHideProject",
+    "DatasheetColumnDelete",
+    "DeleteColumns",
+    "DeleteColumnsOneNote",
+    "EquationMatrixDeleteColumn",
+    "GanttColumnHide",
+    "RecordsDeleteColumn",
+    "SheetColumnsDelete",
+    "SheetColumnsDeleteTouch",
+    "TableColumnsDelete",
+    "TableColumnsDeleteExcel",
+    "TableDeleteColumns",
+    "TableDeleteColumnsInfoPath"
+  ]
+}

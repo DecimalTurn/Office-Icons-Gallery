@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "RulesConditionIsCheckedGallery",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "RulesConditionIsNotEqualToGallery",
+      "imageAsset": "images/by-hash/fffa1ed216cbda85.png"
+    },
+    {
+      "name": "RulesConditionRoleIsNotEqualToGallery",
+      "imageAsset": "images/by-hash/c303d22bd2ea54b9.png"
+    },
+    {
+      "name": "ConditionIsNotBetween",
+      "imageAsset": "images/by-hash/2f5f03dde73b434a.png"
+    },
+    {
+      "name": "ConditionIsNotEmail",
+      "imageAsset": "images/by-hash/96132f9b290fa0d3.png"
+    },
+    {
+      "name": "ConditionIsNotURL",
+      "imageAsset": "images/by-hash/3bbc606800df6a78.png"
+    },
+    {
+      "name": "RulesConditionDoesNotContainGallery",
+      "imageAsset": "images/by-hash/1f6134c1a5edf654.png"
+    },
+    {
+      "name": "RulesConditionIsAfterDateGallery",
+      "imageAsset": "images/by-hash/514f480d0558883f.png"
+    },
+    {
+      "name": "RulesConditionIsBeforeDateGallery",
+      "imageAsset": "images/by-hash/4fd59b93ada726e0.png"
+    },
+    {
+      "name": "RulesConditionIsBetweenGallery",
+      "imageAsset": "images/by-hash/829888d403ef29f4.png"
+    },
+    {
+      "name": "RulesConditionIsBlankGallery",
+      "imageAsset": "images/by-hash/a27cbe8c2471ca9d.png"
+    },
+    {
+      "name": "RulesConditionIsEqualToGallery",
+      "imageAsset": "images/by-hash/80c5d9e9da57e20a.png"
+    }
+  ],
+  "sameImageIds": []
+}

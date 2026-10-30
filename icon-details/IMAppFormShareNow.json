@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "IMAppFormSendByIM",
+      "imageAsset": "images/by-hash/9b7efbc601e04bff.png"
+    },
+    {
+      "name": "AppShare",
+      "imageAsset": "images/by-hash/0dd8d48f11eac3c8.png"
+    },
+    {
+      "name": "ContactCardShareNow",
+      "imageAsset": "images/by-hash/4bf5763d1a3376fb.png"
+    },
+    {
+      "name": "GroupFormPublishSharePointWorkspace",
+      "imageAsset": "images/by-hash/37e39fbb534fae4d.png"
+    },
+    {
+      "name": "InsertAppOnlyBlock",
+      "imageAsset": "images/by-hash/af86b53b295b45ca.png"
+    },
+    {
+      "name": "ContactCardAddToIMContacts",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "IMMenu",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "PersonaReplyAllByIMMenu",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "PersonaReplyByIMMenu",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "PersonaSendIMMenu",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "QuickSearchHasIMAddress",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "AutoFormatNow",
+      "imageAsset": "images/by-hash/925884a9fc60d012.png"
+    }
+  ],
+  "sameImageIds": []
+}

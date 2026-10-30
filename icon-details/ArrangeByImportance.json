@@ -1,0 +1,34 @@
+{
+  "relatedIcons": [
+    {
+      "name": "HighImportance",
+      "imageAsset": "images/by-hash/181dccef35a50532.png"
+    },
+    {
+      "name": "LowImportance",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "QuickSearchHighImportance",
+      "imageAsset": "images/by-hash/181dccef35a50532.png"
+    },
+    {
+      "name": "QuickSearchImportanceGallery",
+      "imageAsset": "images/by-hash/527313bf111396f0.png"
+    },
+    {
+      "name": "RmsImportanceCheck",
+      "imageAsset": "images/by-hash/a0898a3cae12e75d.png"
+    },
+    {
+      "name": "RmsImportanceUncheck",
+      "imageAsset": "images/by-hash/dfb04a752dd833fe.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupMacroTools",
+    "HighImportance",
+    "QueryRunQuery",
+    "QuickSearchHighImportance"
+  ]
+}

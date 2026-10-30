@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "Diamond",
+      "imageAsset": "images/by-hash/6b90eb347654ee35.png"
+    },
+    {
+      "name": "JotShapeEllipse",
+      "imageAsset": "images/by-hash/0d0be72abd020311.png"
+    },
+    {
+      "name": "JotShapeParallelogram",
+      "imageAsset": "images/by-hash/32b7c69a5b375b50.png"
+    },
+    {
+      "name": "JotShapeRectangle",
+      "imageAsset": "images/by-hash/d4feea3bf0e813ea.png"
+    }
+  ],
+  "sameImageIds": []
+}

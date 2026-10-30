@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FloorPlanDisplayOptions",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupFloorPlanPlan",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "ChartFormatWalls",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "PlanAMeeting",
+      "imageAsset": "images/by-hash/8e9958d3b3b7ab24.png"
+    },
+    {
+      "name": "ChartFloor",
+      "imageAsset": "images/by-hash/6abcb06783e92a89.png"
+    },
+    {
+      "name": "ChartFormatFloor",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ConvertDatabaseFormat",
+      "imageAsset": "images/by-hash/242adac7d08820da.png"
+    },
+    {
+      "name": "ConvertInkMenu",
+      "imageAsset": "images/by-hash/b3fdda08a32ab45e.png"
+    },
+    {
+      "name": "ConvertInkToText",
+      "imageAsset": "images/by-hash/b3fdda08a32ab45e.png"
+    },
+    {
+      "name": "ConvertSmartArtMenu",
+      "imageAsset": "images/by-hash/0e337530ca1d575e.png"
+    },
+    {
+      "name": "ConvertTableToText",
+      "imageAsset": "images/by-hash/56d57c45104d8c48.png"
+    },
+    {
+      "name": "ConvertTextToTable",
+      "imageAsset": "images/by-hash/fe55c1b5eac25a2d.png"
+    }
+  ],
+  "sameImageIds": []
+}

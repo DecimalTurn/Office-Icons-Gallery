@@ -1,0 +1,15 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BlockAuthorsMenu",
+      "imageAsset": "images/by-hash/3d1e582454ba564c.png"
+    },
+    {
+      "name": "GroupAuthors",
+      "imageAsset": "images/by-hash/e807794a9201c794.png"
+    }
+  ],
+  "sameImageIds": [
+    "AuthorHighlightingHide"
+  ]
+}

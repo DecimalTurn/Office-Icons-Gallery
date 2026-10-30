@@ -1,0 +1,15 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NewBlankDrawingUS",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "NewBlankStencilUS",
+      "imageAsset": "images/by-hash/bbc45bc5c0219951.png"
+    }
+  ],
+  "sameImageIds": [
+    "TechnicalSupport"
+  ]
+}

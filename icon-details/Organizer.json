@@ -1,0 +1,35 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ArrangeByOrganizer",
+      "imageAsset": "images/by-hash/80f6db3e4a3b9ddb.png"
+    },
+    {
+      "name": "BuildingBlocksOrganizer",
+      "imageAsset": "images/by-hash/f4dd61ec3a6e3b40.png"
+    },
+    {
+      "name": "MovieFromClipOrganizerInsert",
+      "imageAsset": "images/by-hash/b4503a8b2cb0995d.png"
+    },
+    {
+      "name": "QuickSearchOrganizer",
+      "imageAsset": "images/by-hash/811083d9043cac85.png"
+    },
+    {
+      "name": "SoundInsertFromClipOrganizer",
+      "imageAsset": "images/by-hash/a6caf06e899d31c6.png"
+    }
+  ],
+  "sameImageIds": [
+    "BuildingBlocksOrganizer",
+    "CategoryCollapse",
+    "GroupManage",
+    "LocalShareNotebook",
+    "NewLocalNotebook",
+    "NewNotebookShort",
+    "NotebookNew",
+    "NotebookOpen",
+    "OpenNotebook"
+  ]
+}

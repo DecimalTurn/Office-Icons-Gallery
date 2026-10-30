@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "InkingBiasAuto",
+      "imageAsset": "images/by-hash/443025788bd82c49.png"
+    },
+    {
+      "name": "InkingBiasWrite",
+      "imageAsset": "images/by-hash/02b0c9eff20f5f64.png"
+    },
+    {
+      "name": "InkingStart",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "InkStopInkingReadingView",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "ReadingViewStartInking",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "StartInking",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "BorderDrawGrid",
+      "imageAsset": "images/by-hash/9ded66d331c178c3.png"
+    },
+    {
+      "name": "BorderDrawLine",
+      "imageAsset": "images/by-hash/9362babc74fd142d.png"
+    },
+    {
+      "name": "BorderDrawMenu",
+      "imageAsset": "images/by-hash/9362babc74fd142d.png"
+    },
+    {
+      "name": "DrawArrow",
+      "imageAsset": "images/by-hash/7954a6ad4fe60647.png"
+    },
+    {
+      "name": "DrawFilledArc",
+      "imageAsset": "images/by-hash/78aaf3a6b15031f9.png"
+    },
+    {
+      "name": "DrawFilledEllipse",
+      "imageAsset": "images/by-hash/68be14455095e1c5.png"
+    }
+  ],
+  "sameImageIds": [
+    "JotTreatAsDrawingCM",
+    "TreatInkAsDrawing"
+  ]
+}

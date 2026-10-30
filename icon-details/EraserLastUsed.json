@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartMostRecentlyUsed",
+      "imageAsset": "images/by-hash/720e34890e473f48.png"
+    },
+    {
+      "name": "ExtendedTextFormattingMostRecenltyUsed",
+      "imageAsset": "images/by-hash/dd658866b1a9ac91.png"
+    },
+    {
+      "name": "SaveSentItemRecentlyUsedFolder",
+      "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+    },
+    {
+      "name": "CatalogMergeGoToLastRecord",
+      "imageAsset": "images/by-hash/885b15570afb85d5.png"
+    },
+    {
+      "name": "JumpsAddToLastLine",
+      "imageAsset": "images/by-hash/8d725884012d9cce.png"
+    },
+    {
+      "name": "LastModifiedBy",
+      "imageAsset": "images/by-hash/2cb8cfb3c6a0f08f.png"
+    },
+    {
+      "name": "LastPage",
+      "imageAsset": "images/by-hash/e21a59d787d1194e.png"
+    },
+    {
+      "name": "LastTile",
+      "imageAsset": "images/by-hash/716d1cf9fcfccee1.png"
+    },
+    {
+      "name": "MailMergeGotToLastRecord",
+      "imageAsset": "images/by-hash/885b15570afb85d5.png"
+    },
+    {
+      "name": "ReviewCompareLastVersion",
+      "imageAsset": "images/by-hash/b8cfe4606c311f5e.png"
+    },
+    {
+      "name": "SparklineLastPointColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "SparklineLastPointMoreColors",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    }
+  ],
+  "sameImageIds": [
+    "PointEraserSmall",
+    "SmallEraser"
+  ]
+}

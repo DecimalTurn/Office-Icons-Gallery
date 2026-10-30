@@ -1,0 +1,27 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EditMaster",
+      "imageAsset": "images/by-hash/e8c7245a019dc899.png"
+    },
+    {
+      "name": "GroupMasterEditTheme",
+      "imageAsset": "images/by-hash/38388a6cca16597f.png"
+    },
+    {
+      "name": "GroupMasterPagesEdit",
+      "imageAsset": "images/by-hash/90f5920b899619e8.png"
+    },
+    {
+      "name": "MasterPageCloseEdit",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupInsertSlides",
+    "SlideMasterInsertLayout",
+    "SlideNew",
+    "SlideNewGallery",
+    "SlideNewGalleryInsert"
+  ]
+}

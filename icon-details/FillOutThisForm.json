@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FillOutAForm",
+      "imageAsset": "images/by-hash/de30696b32b79074.png"
+    },
+    {
+      "name": "DesignThisForm",
+      "imageAsset": "images/by-hash/828e97e4441434cb.png"
+    },
+    {
+      "name": "DesignThisInfoPathForm",
+      "imageAsset": "images/by-hash/93b3427526680a34.png"
+    },
+    {
+      "name": "RunThisForm",
+      "imageAsset": "images/by-hash/5e4cdb5d6ff89cc4.png"
+    },
+    {
+      "name": "AppointmentOutOfOffice",
+      "imageAsset": "images/by-hash/aef5b9da5f6cce26.png"
+    },
+    {
+      "name": "AudioFadeOutTime",
+      "imageAsset": "images/by-hash/d6721e5b45ce0e97.png"
+    },
+    {
+      "name": "CheckOutEntry",
+      "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+    },
+    {
+      "name": "CheckOutFile",
+      "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+    },
+    {
+      "name": "DiscardCheckOut",
+      "imageAsset": "images/by-hash/e50e1b451754030b.png"
+    },
+    {
+      "name": "DiscardCheckOutMenu",
+      "imageAsset": "images/by-hash/e50e1b451754030b.png"
+    },
+    {
+      "name": "DrillOut",
+      "imageAsset": "images/by-hash/a9756fc15ca12e11.png"
+    },
+    {
+      "name": "FileCheckOut",
+      "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+    }
+  ],
+  "sameImageIds": []
+}

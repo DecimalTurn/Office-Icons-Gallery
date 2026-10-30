@@ -1,0 +1,67 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EquationMatrixInsertColumnAfter",
+      "imageAsset": "images/by-hash/c44ace9a9c2303d5.png"
+    },
+    {
+      "name": "EquationMatrixInsertColumnBefore",
+      "imageAsset": "images/by-hash/0d51255d3efa9e47.png"
+    },
+    {
+      "name": "EquationMatrixDeleteRow",
+      "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+    },
+    {
+      "name": "EquationMatrixGallery",
+      "imageAsset": "images/by-hash/85f2fe8bedb8650c.png"
+    },
+    {
+      "name": "EquationMatrixInsertRowAfter",
+      "imageAsset": "images/by-hash/f9e9dc327843d009.png"
+    },
+    {
+      "name": "EquationMatrixInsertRowBefore",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "DatasheetColumnDelete",
+      "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+    },
+    {
+      "name": "DeleteColumn",
+      "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+    },
+    {
+      "name": "RecordsDeleteColumn",
+      "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+    },
+    {
+      "name": "BuildingBlocksSaveEquation",
+      "imageAsset": "images/by-hash/1c9db4ad034af9ca.png"
+    },
+    {
+      "name": "EquationAccentGallery",
+      "imageAsset": "images/by-hash/3dfd59ecd0929991.png"
+    },
+    {
+      "name": "EquationChangeLimitLocation",
+      "imageAsset": "images/by-hash/ea294abf0b3df929.png"
+    }
+  ],
+  "sameImageIds": [
+    "ColumnHideProject",
+    "DatasheetColumnDelete",
+    "DeleteColumn",
+    "DeleteColumns",
+    "DeleteColumnsOneNote",
+    "GanttColumnHide",
+    "RecordsDeleteColumn",
+    "SheetColumnsDelete",
+    "SheetColumnsDeleteTouch",
+    "TableColumnsDelete",
+    "TableColumnsDeleteExcel",
+    "TableDeleteColumns",
+    "TableDeleteColumnsInfoPath"
+  ]
+}

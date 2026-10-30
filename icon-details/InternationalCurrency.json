@@ -1,0 +1,26 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ApplyCurrencyFormat",
+      "imageAsset": "images/by-hash/85a6a3a5829b5bdb.png"
+    },
+    {
+      "name": "CalculatedCurrency",
+      "imageAsset": "images/by-hash/aadd121764a6ba34.png"
+    },
+    {
+      "name": "DataTypeCurrency",
+      "imageAsset": "images/by-hash/aadd121764a6ba34.png"
+    },
+    {
+      "name": "DataTypeCurrencyBasic",
+      "imageAsset": "images/by-hash/aadd121764a6ba34.png"
+    }
+  ],
+  "sameImageIds": [
+    "CalculatedCurrency",
+    "DataTypeCurrency",
+    "DataTypeCurrencyBasic",
+    "DataTypeEuro"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SelectTaskColumn",
+      "imageAsset": "images/by-hash/c08960493d58329d.png"
+    },
+    {
+      "name": "TableColumnSelect",
+      "imageAsset": "images/by-hash/c08960493d58329d.png"
+    },
+    {
+      "name": "TableSelectColumnInfoPath",
+      "imageAsset": "images/by-hash/c08960493d58329d.png"
+    }
+  ],
+  "sameImageIds": [
+    "SelectColumns",
+    "SelectTaskColumn",
+    "TableColumnSelect",
+    "TableSelectColumnInfoPath"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PublishToWeb",
+      "imageAsset": "images/by-hash/19bf97b4b00c26dc.png"
+    },
+    {
+      "name": "FileMenuPublishHeader",
+      "imageAsset": "images/by-hash/b9b0aea1b63f72df.png"
+    },
+    {
+      "name": "FilePublish",
+      "imageAsset": "images/by-hash/b40fac805db5ef0f.png"
+    },
+    {
+      "name": "FilePublishExcelServices",
+      "imageAsset": "images/by-hash/cd738a271dddfdd2.png"
+    },
+    {
+      "name": "FilePublishSlides",
+      "imageAsset": "images/by-hash/1cdf488bfe3001c7.png"
+    },
+    {
+      "name": "FilePublishToSharePoint",
+      "imageAsset": "images/by-hash/cd738a271dddfdd2.png"
+    },
+    {
+      "name": "FileNewWebPage",
+      "imageAsset": "images/by-hash/0014f7c4731516ff.png"
+    },
+    {
+      "name": "FileSaveAsWebPage",
+      "imageAsset": "images/by-hash/382620ae1d543150.png"
+    },
+    {
+      "name": "AdvertisePublishAs",
+      "imageAsset": "images/by-hash/9ffc68917f511636.png"
+    },
+    {
+      "name": "BizBarPublishToSharePoint",
+      "imageAsset": "images/by-hash/6ee76565b405e6e3.png"
+    },
+    {
+      "name": "BlogPublish",
+      "imageAsset": "images/by-hash/2cc34b9c900b5e8b.png"
+    },
+    {
+      "name": "BlogPublishDraft",
+      "imageAsset": "images/by-hash/5058172c4e435e9c.png"
+    }
+  ],
+  "sameImageIds": [
+    "NewHTML",
+    "OpenSharePointSite",
+    "OpenWebsiteInBrowser",
+    "PageViewMenu",
+    "PublishToWeb",
+    "SiteClientOpenInBrowser"
+  ]
+}

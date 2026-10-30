@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SignatureLineInsertMenu",
+      "imageAsset": "images/by-hash/94736f7066728e32.png"
+    },
+    {
+      "name": "FileAddDigitalSignature",
+      "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+    },
+    {
+      "name": "SignatureGallery",
+      "imageAsset": "images/by-hash/94736f7066728e32.png"
+    },
+    {
+      "name": "SignatureInsertMenu",
+      "imageAsset": "images/by-hash/94736f7066728e32.png"
+    },
+    {
+      "name": "SignatureShow",
+      "imageAsset": "images/by-hash/8108cfbbdbc7d874.png"
+    }
+  ],
+  "sameImageIds": [
+    "SignatureGallery",
+    "SignatureInsertMenu",
+    "SignatureLineInsertMenu"
+  ]
+}

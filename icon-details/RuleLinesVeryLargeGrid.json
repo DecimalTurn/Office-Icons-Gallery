@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "RuleLinesLargeGrid",
+      "imageAsset": "images/by-hash/1ee61d970a13f929.png"
+    },
+    {
+      "name": "RuleLinesMediumGrid",
+      "imageAsset": "images/by-hash/2ebc29e94080357d.png"
+    },
+    {
+      "name": "RuleLinesSmallGrid",
+      "imageAsset": "images/by-hash/fc3b8b9bd9d01e09.png"
+    },
+    {
+      "name": "RuleLinesCollege",
+      "imageAsset": "images/by-hash/73157f1a96e9c084.png"
+    },
+    {
+      "name": "RuleLinesMenu",
+      "imageAsset": "images/by-hash/6337931619ac9bc3.png"
+    },
+    {
+      "name": "RuleLinesNarrow",
+      "imageAsset": "images/by-hash/e67fbec2f727f415.png"
+    },
+    {
+      "name": "RuleLinesStandard",
+      "imageAsset": "images/by-hash/6337931619ac9bc3.png"
+    },
+    {
+      "name": "RuleLinesToggle",
+      "imageAsset": "images/by-hash/73157f1a96e9c084.png"
+    },
+    {
+      "name": "RuleLinesWide",
+      "imageAsset": "images/by-hash/f5a9ab3c13d4c1c5.png"
+    },
+    {
+      "name": "EquationLargeOperatorGallery",
+      "imageAsset": "images/by-hash/2e1e557c00bc7e30.png"
+    },
+    {
+      "name": "LargeEraser",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    },
+    {
+      "name": "LargeIcons",
+      "imageAsset": "images/by-hash/ac092781dfa8eecd.png"
+    }
+  ],
+  "sameImageIds": []
+}

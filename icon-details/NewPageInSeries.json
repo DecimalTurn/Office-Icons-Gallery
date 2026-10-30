@@ -1,0 +1,27 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartFormatDataSeries",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartFormatSeriesLine",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartSeriesTypeChange",
+      "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+    },
+    {
+      "name": "JotNewPageInSeriesShort",
+      "imageAsset": "images/by-hash/3f0f6db488175b62.png"
+    },
+    {
+      "name": "RecurrenceEditSeries",
+      "imageAsset": "images/by-hash/52c612a90b7bd0c5.png"
+    }
+  ],
+  "sameImageIds": [
+    "JotNewPageInSeriesShort"
+  ]
+}

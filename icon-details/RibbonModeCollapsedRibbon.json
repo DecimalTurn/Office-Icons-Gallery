@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "RibbonModeExpandedRibbon",
+      "imageAsset": "images/by-hash/34f5ef17c5800a3a.png"
+    },
+    {
+      "name": "RibbonModeHideRibbon",
+      "imageAsset": "images/by-hash/20555e72707e01c4.png"
+    },
+    {
+      "name": "NetworkDiagramBoxFieldsCollapsed",
+      "imageAsset": "images/by-hash/5104347ef5a7df03.png"
+    },
+    {
+      "name": "DesignerRibbonGiveFeedback",
+      "imageAsset": "images/by-hash/c9f0013582e4d949.png"
+    },
+    {
+      "name": "EditorRibbonGiveFeedback",
+      "imageAsset": "images/by-hash/c9f0013582e4d949.png"
+    },
+    {
+      "name": "HideRibbon",
+      "imageAsset": "images/by-hash/20555e72707e01c4.png"
+    },
+    {
+      "name": "MinimizeRibbon",
+      "imageAsset": "images/by-hash/471ebde47b65e0ea.png"
+    },
+    {
+      "name": "RibbonGiveFeedback",
+      "imageAsset": "images/by-hash/c9f0013582e4d949.png"
+    },
+    {
+      "name": "AcetateModeOriginalMarkup",
+      "imageAsset": "images/by-hash/60176fe59b81b860.png"
+    },
+    {
+      "name": "AdvancedMode",
+      "imageAsset": "images/by-hash/e990b26262ad2738.png"
+    },
+    {
+      "name": "AutoFillMode",
+      "imageAsset": "images/by-hash/8a2fa3f2da641e47.png"
+    },
+    {
+      "name": "CloseInkEntryMode",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    }
+  ],
+  "sameImageIds": []
+}

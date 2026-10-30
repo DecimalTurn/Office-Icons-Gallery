@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReviewHighlightChanges",
+      "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+    },
+    {
+      "name": "ResourceSchedulingViewGiveFeedback",
+      "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+    },
+    {
+      "name": "SchedulingEngineGiveFeedback",
+      "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+    },
+    {
+      "name": "ShowSchedulingPage",
+      "imageAsset": "images/by-hash/9919a0b8c8a2f4d3.png"
+    },
+    {
+      "name": "AutoSummaryViewByHighlight",
+      "imageAsset": "images/by-hash/cb51119c7fae3a92.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightBetween",
+      "imageAsset": "images/by-hash/17e2e00ac82ac2bf.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightCellsMenu",
+      "imageAsset": "images/by-hash/6b7a34509ca46db1.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightCompareColumns",
+      "imageAsset": "images/by-hash/d37e78e67181e46e.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightDateOccuring",
+      "imageAsset": "images/by-hash/dc794190a6d4cf48.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightDuplicateValues",
+      "imageAsset": "images/by-hash/9bfced206c7586d2.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightEqualTo",
+      "imageAsset": "images/by-hash/4463aafa23fa2389.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightGreaterThan",
+      "imageAsset": "images/by-hash/27bd320234536da2.png"
+    }
+  ],
+  "sameImageIds": []
+}

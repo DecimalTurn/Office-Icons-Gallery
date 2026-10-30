@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EmailCloseEnvelope",
+      "imageAsset": "images/by-hash/77b70284b446f8ea.png"
+    },
+    {
+      "name": "EnvelopeSendAllPages",
+      "imageAsset": "images/by-hash/e0cc6d34c73b1b24.png"
+    },
+    {
+      "name": "GroupEnvelopeLabelCreate",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    },
+    {
+      "name": "ShowEnvelope",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    },
+    {
+      "name": "ChineseTranslationDialog",
+      "imageAsset": "images/by-hash/e4c009ef03535104.png"
+    },
+    {
+      "name": "ChineseTranslationDialogReadonly",
+      "imageAsset": "images/by-hash/e4c009ef03535104.png"
+    },
+    {
+      "name": "ChineseTranslationMenu",
+      "imageAsset": "images/by-hash/33487980f9deb57f.png"
+    },
+    {
+      "name": "GroupChineseTranslation",
+      "imageAsset": "images/by-hash/eea9c1e27e571eba.png"
+    },
+    {
+      "name": "GroupChineseTranslationReadonly",
+      "imageAsset": "images/by-hash/eea9c1e27e571eba.png"
+    },
+    {
+      "name": "TranslateToSimplifiedChinese",
+      "imageAsset": "images/by-hash/eea9c1e27e571eba.png"
+    },
+    {
+      "name": "TranslateToSimplifiedChineseReadonly",
+      "imageAsset": "images/by-hash/eea9c1e27e571eba.png"
+    },
+    {
+      "name": "TranslateToTraditionalChinese",
+      "imageAsset": "images/by-hash/33487980f9deb57f.png"
+    }
+  ],
+  "sameImageIds": []
+}

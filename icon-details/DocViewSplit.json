@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DocInfoActivate",
+      "imageAsset": "images/by-hash/0a3d9472fcfe41f3.png"
+    },
+    {
+      "name": "DocViewHtml",
+      "imageAsset": "images/by-hash/b901bce065cea3fc.png"
+    },
+    {
+      "name": "DocViewNoFrames",
+      "imageAsset": "images/by-hash/8e9020bf9da64ce1.png"
+    },
+    {
+      "name": "DocViewNormal",
+      "imageAsset": "images/by-hash/ceff0212f691c95c.png"
+    },
+    {
+      "name": "SlabDocUpdatesAvailableSaveAndReview",
+      "imageAsset": "images/by-hash/f18099fa4182f9d1.png"
+    },
+    {
+      "name": "SlabDocUpdatesAvailableSaveAndUpdateIcon",
+      "imageAsset": "images/by-hash/513aaa7362e46b49.png"
+    },
+    {
+      "name": "WebSiteMapCompareToDoc",
+      "imageAsset": "images/by-hash/a3d43843c96022a2.png"
+    },
+    {
+      "name": "BroadcastNotesSplitButton",
+      "imageAsset": "images/by-hash/25ceca008a74a306.png"
+    },
+    {
+      "name": "CalendarMonthDetailsSplitButton",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "CommentsPaneSplitButton",
+      "imageAsset": "images/by-hash/09795bc87c775160.png"
+    },
+    {
+      "name": "CopySplitButton",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    },
+    {
+      "name": "CreateFormSplitForm",
+      "imageAsset": "images/by-hash/d1821f1f04cee184.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupPageViews"
+  ]
+}

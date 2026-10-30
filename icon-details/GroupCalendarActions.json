@@ -1,0 +1,24 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MenuCalendarMoreActions",
+      "imageAsset": "images/by-hash/aa76cc8c166ebc5f.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupContactsActions",
+    "GroupJournalsActions",
+    "GroupMailActions",
+    "GroupMoveActions",
+    "GroupNotesActions",
+    "GroupTaskListActions",
+    "GroupTasksActions",
+    "Move",
+    "MoveItem",
+    "MoveToFolder",
+    "MoveToFolderFileMenu",
+    "MoveToFolderGallery",
+    "MoveToFolderMenu",
+    "QuickStepTemplateMoveToFolder"
+  ]
+}

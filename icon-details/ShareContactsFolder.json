@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupContactsShare",
+      "imageAsset": "images/by-hash/d18a1653eb9dba65.png"
+    },
+    {
+      "name": "ShareCalendarFolder",
+      "imageAsset": "images/by-hash/8db446fcf66f5604.png"
+    },
+    {
+      "name": "ShareJournalFolder",
+      "imageAsset": "images/by-hash/e807794a9201c794.png"
+    },
+    {
+      "name": "ShareMailFolder",
+      "imageAsset": "images/by-hash/cebb6d36cf27c851.png"
+    },
+    {
+      "name": "ShareNotesFolder",
+      "imageAsset": "images/by-hash/2975414bd54b0366.png"
+    },
+    {
+      "name": "ShareTaskFolder",
+      "imageAsset": "images/by-hash/9960556f722cbf0b.png"
+    },
+    {
+      "name": "AccessListContacts",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "AccessTableContacts",
+      "imageAsset": "images/by-hash/86497283f682fdc3.png"
+    },
+    {
+      "name": "CatalogMergeUseOutlookContacts",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "ContactAddMyContacts",
+      "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+    },
+    {
+      "name": "ContactCardAddToIMContacts",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "ContactCardAddToOutlookContacts",
+      "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupContactsShare"
+  ]
+}

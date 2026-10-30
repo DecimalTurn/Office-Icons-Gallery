@@ -1,0 +1,37 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CopyInvitationToClipboard",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    },
+    {
+      "name": "GroupClipboard",
+      "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+    },
+    {
+      "name": "GroupClipboardInfoPath",
+      "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+    },
+    {
+      "name": "GroupClipboardMeetingsToolO12",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "GroupClipboardSimple",
+      "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+    },
+    {
+      "name": "GroupClipboardWithLink",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "GroupDocumentsClipboard",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "GroupIconEditClipboard",
+      "imageAsset": "images/by-hash/f560fb59e78eb108.png"
+    }
+  ],
+  "sameImageIds": []
+}

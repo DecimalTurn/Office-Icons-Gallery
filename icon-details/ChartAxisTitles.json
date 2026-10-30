@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartAxisTitlesGallery",
+      "imageAsset": "images/by-hash/dd0376fb28331e0a.png"
+    },
+    {
+      "name": "BordersAndTitlesGallery",
+      "imageAsset": "images/by-hash/441df2dcdc406ed9.png"
+    },
+    {
+      "name": "JotFindPageTitles",
+      "imageAsset": "images/by-hash/9d02c57d77872cbe.png"
+    },
+    {
+      "name": "JotHideTitlesInPageTabs",
+      "imageAsset": "images/by-hash/21626849cefe9706.png"
+    },
+    {
+      "name": "JotShowTitlesInPageTabs",
+      "imageAsset": "images/by-hash/0f923cd11a8ff574.png"
+    },
+    {
+      "name": "PrintTitles",
+      "imageAsset": "images/by-hash/9ee386af72ce9fe3.png"
+    },
+    {
+      "name": "ChartDepthAxis",
+      "imageAsset": "images/by-hash/109f31e55e8dba3d.png"
+    },
+    {
+      "name": "ChartDepthAxisTitle",
+      "imageAsset": "images/by-hash/9f0f29b5f7330e4f.png"
+    },
+    {
+      "name": "ChartFormatAxis",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartFormatAxisTitle",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartPrimaryHorizontalAxis",
+      "imageAsset": "images/by-hash/0985b467e5ed6ac6.png"
+    },
+    {
+      "name": "ChartPrimaryHorizontalAxisTitle",
+      "imageAsset": "images/by-hash/5bd5d4c05ff97c34.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChartAxisTitlesGallery"
+  ]
+}

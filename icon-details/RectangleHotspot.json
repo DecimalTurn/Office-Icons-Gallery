@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CircleHotspot",
+      "imageAsset": "images/by-hash/68be14455095e1c5.png"
+    },
+    {
+      "name": "ControlRectangle",
+      "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+    },
+    {
+      "name": "DrawFilledRectangle",
+      "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+    },
+    {
+      "name": "GroupHotspot",
+      "imageAsset": "images/by-hash/4feff2afcc852911.png"
+    },
+    {
+      "name": "Hotspot",
+      "imageAsset": "images/by-hash/733e2364678e679c.png"
+    },
+    {
+      "name": "HotspotGallery",
+      "imageAsset": "images/by-hash/4feff2afcc852911.png"
+    },
+    {
+      "name": "ImageHotspotProperties",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "JotShapeRectangle",
+      "imageAsset": "images/by-hash/d4feea3bf0e813ea.png"
+    },
+    {
+      "name": "PolygonHotspot",
+      "imageAsset": "images/by-hash/ca312aa7a539ac51.png"
+    },
+    {
+      "name": "RectangleTool",
+      "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+    },
+    {
+      "name": "ShapeRectangle",
+      "imageAsset": "images/by-hash/d5c455fcbd2fe338.png"
+    },
+    {
+      "name": "ShapeRoundedRectangle",
+      "imageAsset": "images/by-hash/7d1190827187ab7c.png"
+    }
+  ],
+  "sameImageIds": [
+    "ControlRectangle",
+    "DrawFilledRectangle",
+    "RectangleTool",
+    "ShapeRectangle"
+  ]
+}

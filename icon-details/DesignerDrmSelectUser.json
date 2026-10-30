@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddUserToPermissionGroup",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "DatabaseModelingUserDefinedTypes",
+      "imageAsset": "images/by-hash/9b76dc94999ad56b.png"
+    },
+    {
+      "name": "DatabaseUserAndGroupAccounts",
+      "imageAsset": "images/by-hash/f0d8576b9ed9c30f.png"
+    },
+    {
+      "name": "DatabaseUserLevelSecurityWizard",
+      "imageAsset": "images/by-hash/2b78127422e675d2.png"
+    },
+    {
+      "name": "GrantUserPermissions",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "GroupUserRoles",
+      "imageAsset": "images/by-hash/593a12528fc132a5.png"
+    },
+    {
+      "name": "OtherUserFolderOpen",
+      "imageAsset": "images/by-hash/9690ba39ca11a3d4.png"
+    },
+    {
+      "name": "RemoveUserFromGroup",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "UserRolesManage",
+      "imageAsset": "images/by-hash/593a12528fc132a5.png"
+    },
+    {
+      "name": "CreateWorkflowDiagramVisualDesigner",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "DesignerOpen",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "DesignerPerformanceFeedback",
+      "imageAsset": "images/by-hash/bb5326991ce039df.png"
+    }
+  ],
+  "sameImageIds": [
+    "FilePermission",
+    "FilePermissionRestrictMenu",
+    "GroupPermission"
+  ]
+}

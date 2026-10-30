@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AsianLayoutCharacterScaling",
+      "imageAsset": "images/by-hash/8cbf09e565cd0616.png"
+    },
+    {
+      "name": "CharacterBorder",
+      "imageAsset": "images/by-hash/254f5e98b6576c90.png"
+    },
+    {
+      "name": "CharacterShading",
+      "imageAsset": "images/by-hash/6d25e7b158c63ee6.png"
+    },
+    {
+      "name": "CharacterSpacingGallery",
+      "imageAsset": "images/by-hash/0031b1023ccb91e0.png"
+    },
+    {
+      "name": "CodeEdit",
+      "imageAsset": "images/by-hash/4a71c7c6247bfbab.png"
+    },
+    {
+      "name": "CodeEditor",
+      "imageAsset": "images/by-hash/222ac64c060cf337.png"
+    },
+    {
+      "name": "CodeEditorOptionsMenu",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "CodeEditorScript",
+      "imageAsset": "images/by-hash/222ac64c060cf337.png"
+    },
+    {
+      "name": "CodeFindMenu",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "CodeHyperlinkBack",
+      "imageAsset": "images/by-hash/2d5c13dc835ab204.png"
+    },
+    {
+      "name": "CodeHyperlinkForward",
+      "imageAsset": "images/by-hash/1c154a02c8cf0fb0.png"
+    },
+    {
+      "name": "CodeLanguage",
+      "imageAsset": "images/by-hash/57663319c894e2da.png"
+    }
+  ],
+  "sameImageIds": []
+}

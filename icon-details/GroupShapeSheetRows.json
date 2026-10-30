@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SheetRowsDelete",
+      "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+    },
+    {
+      "name": "SheetRowsDeleteTouch",
+      "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+    },
+    {
+      "name": "SheetRowsInsert",
+      "imageAsset": "images/by-hash/987f395d63e7009b.png"
+    },
+    {
+      "name": "SheetRowsInsertTouch",
+      "imageAsset": "images/by-hash/987f395d63e7009b.png"
+    },
+    {
+      "name": "GroupShapeSheetEditing",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "GroupShapeSheetFormulaTracing",
+      "imageAsset": "images/by-hash/e970103affe3a677.png"
+    },
+    {
+      "name": "GroupShapeSheetSections",
+      "imageAsset": "images/by-hash/eedb33b32bd62eaf.png"
+    },
+    {
+      "name": "GroupShapeSheetView",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "PrintShapeSheet",
+      "imageAsset": "images/by-hash/763437c7a1347af5.png"
+    },
+    {
+      "name": "ShapeSheetChangeRowType",
+      "imageAsset": "images/by-hash/0a28579ba4cfd5a5.png"
+    },
+    {
+      "name": "ShapeSheetClose",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "ShapeSheetDeleteRow",
+      "imageAsset": "images/by-hash/47eb610a42f1cbcb.png"
+    }
+  ],
+  "sameImageIds": [
+    "ActionInsertAccess",
+    "InsertRow",
+    "InsertRows",
+    "ShapeSheetInsertRow",
+    "SheetRowsInsert",
+    "SheetRowsInsertTouch",
+    "TableInsertField",
+    "TableRowsInsertWord"
+  ]
+}

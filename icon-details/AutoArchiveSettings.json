@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "Archive",
+      "imageAsset": "images/by-hash/462518c92afcc2d1.png"
+    },
+    {
+      "name": "ArchivePolicyTagsGallery",
+      "imageAsset": "images/by-hash/462518c92afcc2d1.png"
+    },
+    {
+      "name": "NewWorkspaceFromArchive",
+      "imageAsset": "images/by-hash/72e3a5f1c5cf54c2.png"
+    },
+    {
+      "name": "SaveWorkspaceAsArchive",
+      "imageAsset": "images/by-hash/72e3a5f1c5cf54c2.png"
+    },
+    {
+      "name": "AccountSettings",
+      "imageAsset": "images/by-hash/bdfd5ccd965dab98.png"
+    },
+    {
+      "name": "AssetSettings",
+      "imageAsset": "images/by-hash/1f247df253a9051d.png"
+    },
+    {
+      "name": "AudioVideoSettings",
+      "imageAsset": "images/by-hash/bd06a0fb29933d42.png"
+    },
+    {
+      "name": "ChangeFolderDownloadSettings",
+      "imageAsset": "images/by-hash/5f9639c5060c2a1f.png"
+    },
+    {
+      "name": "ColumnActionsColumnSettings",
+      "imageAsset": "images/by-hash/504905cdfe5d50ef.png"
+    },
+    {
+      "name": "ColumnActionsValidationSettings",
+      "imageAsset": "images/by-hash/3f804db01cf4d0b6.png"
+    },
+    {
+      "name": "ColumnSettingsMenu",
+      "imageAsset": "images/by-hash/70b411bad8d3c5de.png"
+    },
+    {
+      "name": "ConnectionSettings",
+      "imageAsset": "images/by-hash/c9127e4088b92041.png"
+    }
+  ],
+  "sameImageIds": [
+    "Archive",
+    "ArchivePolicyTagsGallery",
+    "PolicyTagsMenu"
+  ]
+}

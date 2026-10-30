@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ObjectSendBackwardOutlook",
+      "imageAsset": "images/by-hash/a3ed927dc0efa66a.png"
+    },
+    {
+      "name": "ObjectSendToBackOutlook",
+      "imageAsset": "images/by-hash/3bfc8059daba52d5.png"
+    },
+    {
+      "name": "ObjectBringForwardOutlook",
+      "imageAsset": "images/by-hash/3ba5178b9f938bd5.png"
+    },
+    {
+      "name": "ObjectBringToFrontMenuOutlook",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "ObjectBringToFrontOutlook",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "ObjectSendBackward",
+      "imageAsset": "images/by-hash/a3ed927dc0efa66a.png"
+    },
+    {
+      "name": "ObjectSendBackwardMenu",
+      "imageAsset": "images/by-hash/a3ed927dc0efa66a.png"
+    },
+    {
+      "name": "ObjectSendBehindText",
+      "imageAsset": "images/by-hash/f71e402e14614dca.png"
+    },
+    {
+      "name": "ObjectSendToBack",
+      "imageAsset": "images/by-hash/3bfc8059daba52d5.png"
+    },
+    {
+      "name": "ObjectSendToBackMenu",
+      "imageAsset": "images/by-hash/3bfc8059daba52d5.png"
+    },
+    {
+      "name": "DataSourceCatalogDataBase",
+      "imageAsset": "images/by-hash/141eb9b927f43b2a.png"
+    },
+    {
+      "name": "ExportDBase",
+      "imageAsset": "images/by-hash/098d49653c7b17df.png"
+    }
+  ],
+  "sameImageIds": [
+    "ObjectsArrangeMenu",
+    "ObjectSendToBack",
+    "ObjectSendToBackMenu",
+    "ObjectSendToBackOutlook",
+    "SketchpadToolSendToBack"
+  ]
+}

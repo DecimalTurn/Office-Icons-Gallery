@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartDepthGridlines",
+      "imageAsset": "images/by-hash/9f319a84bb13126a.png"
+    },
+    {
+      "name": "ChartFormatGridlines",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartGridlines",
+      "imageAsset": "images/by-hash/a12cb6a18c59ba44.png"
+    },
+    {
+      "name": "ChartGridlinesGallery",
+      "imageAsset": "images/by-hash/a12cb6a18c59ba44.png"
+    },
+    {
+      "name": "ChartPrimaryHorizontalGridlines",
+      "imageAsset": "images/by-hash/025f1de07804fbee.png"
+    },
+    {
+      "name": "ChartPrimaryVerticalGridlines",
+      "imageAsset": "images/by-hash/a73d5f6ba135d41e.png"
+    },
+    {
+      "name": "ChartSecondaryHorizontalGridlines",
+      "imageAsset": "images/by-hash/025f1de07804fbee.png"
+    },
+    {
+      "name": "ChartSecondaryVerticalGridlines",
+      "imageAsset": "images/by-hash/eedec3c2c02676bc.png"
+    },
+    {
+      "name": "DatasheetGridlinesBoth",
+      "imageAsset": "images/by-hash/ebfac0c46cdfe306.png"
+    },
+    {
+      "name": "DatasheetGridlinesHorizontal",
+      "imageAsset": "images/by-hash/1b6f3f7a2c4fa2e9.png"
+    },
+    {
+      "name": "DatasheetGridlinesMenu",
+      "imageAsset": "images/by-hash/4b5faa22f8448c69.png"
+    },
+    {
+      "name": "DatasheetGridlinesNone",
+      "imageAsset": "images/by-hash/6b65545fb0b8a68f.png"
+    }
+  ],
+  "sameImageIds": [
+    "DatasheetGridlinesMenu",
+    "GridlinesGallery",
+    "GroupDesignGridlines",
+    "GroupDesignTable",
+    "GroupTableWeb"
+  ]
+}

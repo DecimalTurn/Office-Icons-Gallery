@@ -1,0 +1,14 @@
+{
+  "relatedIcons": [
+    {
+      "name": "InsertColumnLeftAccess",
+      "imageAsset": "images/by-hash/0d51255d3efa9e47.png"
+    }
+  ],
+  "sameImageIds": [
+    "EquationMatrixInsertColumnBefore",
+    "InsertColumnLeftAccess",
+    "TableColumnsInsertLeft",
+    "TableInsertColumnsLeft"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupPreviewTransitions",
+      "imageAsset": "images/by-hash/c84e90f217745bec.png"
+    },
+    {
+      "name": "TransitionsAndAnimationsGiveFeedback",
+      "imageAsset": "images/by-hash/2e9baf31e95d228f.png"
+    }
+  ],
+  "sameImageIds": [
+    "AnimationCustom",
+    "GroupAnimations"
+  ]
+}

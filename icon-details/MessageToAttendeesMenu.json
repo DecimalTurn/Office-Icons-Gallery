@@ -1,0 +1,47 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NewMessageToAttendees",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    },
+    {
+      "name": "ReplyToAllAttendeesWithMessage",
+      "imageAsset": "images/by-hash/7b3a0741c95874c2.png"
+    },
+    {
+      "name": "ReplyToAttendeesWithMessage",
+      "imageAsset": "images/by-hash/40fe8321a3ca61b1.png"
+    },
+    {
+      "name": "AddOrRemoveAttendees",
+      "imageAsset": "images/by-hash/62fd3177490b858d.png"
+    },
+    {
+      "name": "GroupAttendees",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    },
+    {
+      "name": "GroupAttendeesMeetingNotSent",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "GroupAttendeesMeetingSent",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    },
+    {
+      "name": "GroupRecurringAttendees",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    },
+    {
+      "name": "InviteAttendees",
+      "imageAsset": "images/by-hash/62fd3177490b858d.png"
+    },
+    {
+      "name": "MeetingsToolAppointmentAddAttendees",
+      "imageAsset": "images/by-hash/62fd3177490b858d.png"
+    }
+  ],
+  "sameImageIds": [
+    "RespondMenu"
+  ]
+}

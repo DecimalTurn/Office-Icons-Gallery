@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FlyoutAnchorOpenMenu",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "FlyoutAnchorTableInsertMenu",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "HyperlinkFlyoutAnchor",
+      "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+    },
+    {
+      "name": "JustifyVerticalFlyoutAnchor",
+      "imageAsset": "images/by-hash/c1d643ca366c9fb4.png"
+    },
+    {
+      "name": "ProofingToolsFlyoutAnchor",
+      "imageAsset": "images/by-hash/00cd4d0b28c70c30.png"
+    },
+    {
+      "name": "JotRecordVideo",
+      "imageAsset": "images/by-hash/950b456ae0756ce5.png"
+    },
+    {
+      "name": "PivotTableSelectFlyout",
+      "imageAsset": "images/by-hash/1bdc0ebd3832afae.png"
+    },
+    {
+      "name": "CatalogMergeExcludeSelectedRecord",
+      "imageAsset": "images/by-hash/e81f88c0221dad15.png"
+    },
+    {
+      "name": "CatalogMergeGoToFirstRecord",
+      "imageAsset": "images/by-hash/1720f362fe7a57f6.png"
+    },
+    {
+      "name": "CatalogMergeGoToLastRecord",
+      "imageAsset": "images/by-hash/885b15570afb85d5.png"
+    },
+    {
+      "name": "CatalogMergeGoToNextRecord",
+      "imageAsset": "images/by-hash/0f42881fbb368916.png"
+    },
+    {
+      "name": "CatalogMergeGoToPreviousRecord",
+      "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+    }
+  ],
+  "sameImageIds": [
+    "JotAudioStartRecording"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupDailyTaskListArrangement",
+      "imageAsset": "images/by-hash/103c6fedc45f72ff.png"
+    },
+    {
+      "name": "MenuDailyTaskList",
+      "imageAsset": "images/by-hash/5f900e31c926ba8e.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByAppointmentStart",
+    "CalendarInsert",
+    "ContactCardScheduleMeeting",
+    "DataTypeLongDate",
+    "DataTypeMediumDate",
+    "DataTypeShortDate",
+    "GotoCalendar",
+    "GroupOpen",
+    "GroupResourceFormViewDetails",
+    "MeetingsToolViewByDay",
+    "NewAppointment",
+    "NewAppointmentCompact",
+    "NewAppointmentNumbered",
+    "OpenAttachedCalendar",
+    "PersonaCalendarMenu",
+    "QuickSearchMeetings",
+    "SearchUpscopeToAllCalendarItems",
+    "ShowAppointmentPage",
+    "StatusDate",
+    "ViewByDay",
+    "ViewScheduleShow"
+  ]
+}

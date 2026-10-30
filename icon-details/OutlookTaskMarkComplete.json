@@ -1,0 +1,73 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OutlookTaskMarkCompleteContextual",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "MarkTaskComplete",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "Mark100PercentComplete",
+      "imageAsset": "images/by-hash/8f8754120435881b.png"
+    },
+    {
+      "name": "TagMarkComplete",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "JotCreateOutlookTask",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "JotOutlookTaskLabel",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "OutlookTaskCreate",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "OutlookTaskCustomDate",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "OutlookTaskCustomDateContextual",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "OutlookTaskLater",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "OutlookTaskLaterContextual",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "OutlookTaskNextWeek",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    }
+  ],
+  "sameImageIds": [
+    "AcceptInvitation",
+    "AcceptProposal",
+    "AcceptTask",
+    "ApproveApprovalRequest",
+    "ChangeToAcceptInvitation",
+    "ContactCardUntagForAlerts",
+    "GroupInkCreate",
+    "InkShapeClose",
+    "KeepBackgroundRemoval",
+    "MarkTaskComplete",
+    "MenuAcceptInvitation",
+    "OutlookTaskMarkCompleteContextual",
+    "PersonaMenuUnTagContact",
+    "QuickSearchAllCompleted",
+    "QuickSearchCompletedToday",
+    "QuickSearchCompleteMenu",
+    "QuickSearchJournalEndDateGallery",
+    "SharingRequestAllow",
+    "TagMarkComplete"
+  ]
+}

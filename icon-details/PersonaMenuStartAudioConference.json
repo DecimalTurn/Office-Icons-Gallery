@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AudioStartGallery",
+      "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+    },
+    {
+      "name": "CDAudioStartTime",
+      "imageAsset": "images/by-hash/d83f7fd798761854.png"
+    },
+    {
+      "name": "CDAudioStartTrack",
+      "imageAsset": "images/by-hash/6805ad7549fb04e1.png"
+    },
+    {
+      "name": "JotAudioStartRecording",
+      "imageAsset": "images/by-hash/b9f7997a6d333fcc.png"
+    },
+    {
+      "name": "ConferenceMeetNow",
+      "imageAsset": "images/by-hash/422acfe07d0b8745.png"
+    },
+    {
+      "name": "PersonaAddToContactsMenu",
+      "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+    },
+    {
+      "name": "PersonaAddToMessengerMenu",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "PersonaCalendarMenu",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "PersonaMenuMySite",
+      "imageAsset": "images/by-hash/0fd8be26c86aab0c.png"
+    },
+    {
+      "name": "PersonaMenuUnTagContact",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "PersonaOpenContactMenu",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "PersonaReplyAllByIMMenu",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CalculateNow",
+      "imageAsset": "images/by-hash/61dfcf80cb5799bb.png"
+    },
+    {
+      "name": "CalculateSheet",
+      "imageAsset": "images/by-hash/75a85b739931966b.png"
+    },
+    {
+      "name": "PivotTableCalculateChanges",
+      "imageAsset": "images/by-hash/a12619fc5b31aabc.png"
+    },
+    {
+      "name": "ProjectCalculate",
+      "imageAsset": "images/by-hash/dfee45b4ed63677f.png"
+    },
+    {
+      "name": "FullPageView",
+      "imageAsset": "images/by-hash/f344b77178a2d9f7.png"
+    },
+    {
+      "name": "FullScreenViewClassic",
+      "imageAsset": "images/by-hash/919a51806dcb421a.png"
+    },
+    {
+      "name": "GroupViewFullPage",
+      "imageAsset": "images/by-hash/f344b77178a2d9f7.png"
+    },
+    {
+      "name": "PrintPreviewFullScreen",
+      "imageAsset": "images/by-hash/c02c1d323af75aa4.png"
+    },
+    {
+      "name": "StarRatedFull",
+      "imageAsset": "images/by-hash/2faf64a134abca70.png"
+    },
+    {
+      "name": "StarUnratedFull",
+      "imageAsset": "images/by-hash/81eff785356b544a.png"
+    },
+    {
+      "name": "TimelineViewCopyFullSize",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    },
+    {
+      "name": "ViewFullScreenReadingView",
+      "imageAsset": "images/by-hash/faeb4446f4fdb538.png"
+    }
+  ],
+  "sameImageIds": []
+}

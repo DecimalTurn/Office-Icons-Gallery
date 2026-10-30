@@ -1,0 +1,38 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ContactCardDefaultSendInstantMessage",
+      "imageAsset": "images/by-hash/09795bc87c775160.png"
+    },
+    {
+      "name": "ContactCardSendInstantMessage",
+      "imageAsset": "images/by-hash/09795bc87c775160.png"
+    },
+    {
+      "name": "ContactSendGrooveMessage",
+      "imageAsset": "images/by-hash/80d63c75087a1371.png"
+    },
+    {
+      "name": "SendGrooveMessage",
+      "imageAsset": "images/by-hash/80d63c75087a1371.png"
+    },
+    {
+      "name": "SendMessageMenu",
+      "imageAsset": "images/by-hash/1487b024edffbdfa.png"
+    }
+  ],
+  "sameImageIds": [
+    "DataFormDeleteRecord",
+    "GroupListToolItem",
+    "GroupListToolSpelling",
+    "ListToolInkEntryMode",
+    "ListToolPlaceholder",
+    "ListToolPlaceholder1",
+    "ListToolPlaceholder2",
+    "ListToolSendMailItem",
+    "ListToolStartLiveMeeting",
+    "ListToolSwitchViews",
+    "RecordsDeleteRecord",
+    "TabListToolRichText"
+  ]
+}

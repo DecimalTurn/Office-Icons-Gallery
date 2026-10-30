@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CreateDocumentLibrary",
+      "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+    },
+    {
+      "name": "DocumentLibraryProperties",
+      "imageAsset": "images/by-hash/5f9639c5060c2a1f.png"
+    },
+    {
+      "name": "GroupDocumentLibraryEdit",
+      "imageAsset": "images/by-hash/90f5920b899619e8.png"
+    },
+    {
+      "name": "GroupDocumentLibraryFileActions",
+      "imageAsset": "images/by-hash/47cf5c778774c235.png"
+    },
+    {
+      "name": "GroupDocumentLibraryManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "GroupDocumentLibraryNew",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "NewDocumentLibrary2",
+      "imageAsset": "images/by-hash/a75d409ed1c34cf7.png"
+    },
+    {
+      "name": "NewDocumentLibraryContentMenu",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "PwaDocumentLibrary",
+      "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+    },
+    {
+      "name": "FileCreateDocumentWorkspace",
+      "imageAsset": "images/by-hash/ce51006ac5985a02.png"
+    },
+    {
+      "name": "MasterDocumentCreateSubdocument",
+      "imageAsset": "images/by-hash/03a1df5bc9798230.png"
+    },
+    {
+      "name": "AddSelectionToAccentsLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    }
+  ],
+  "sameImageIds": [
+    "NewDocumentLibrary2"
+  ]
+}

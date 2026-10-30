@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PwaDataAnalysis",
+      "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+    },
+    {
+      "name": "PwaDocumentLibrary",
+      "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+    },
+    {
+      "name": "PwaIssues",
+      "imageAsset": "images/by-hash/76b90da3c7d64d0e.png"
+    },
+    {
+      "name": "PwaProjectInformationRequest",
+      "imageAsset": "images/by-hash/aa51886bdd8ff085.png"
+    },
+    {
+      "name": "PwaProjectProgressUpdate",
+      "imageAsset": "images/by-hash/71a513fe9da318b8.png"
+    },
+    {
+      "name": "PwaResourceCenter",
+      "imageAsset": "images/by-hash/e78c16995ecdf282.png"
+    },
+    {
+      "name": "PwaRisks",
+      "imageAsset": "images/by-hash/333fa763449f29e8.png"
+    },
+    {
+      "name": "DatabasePermissions",
+      "imageAsset": "images/by-hash/0fc48be98e297bf9.png"
+    },
+    {
+      "name": "DatabasePermissionsMenu",
+      "imageAsset": "images/by-hash/3d4e109f94401bbe.png"
+    },
+    {
+      "name": "EditPermissions",
+      "imageAsset": "images/by-hash/3d4778e367c16353.png"
+    },
+    {
+      "name": "GrantUserPermissions",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "GroupPagePermissionsActions",
+      "imageAsset": "images/by-hash/c73b835e6c7da564.png"
+    }
+  ],
+  "sameImageIds": [
+    "ContactRoles",
+    "DatabasePermissionsMenu",
+    "GroupAdminister",
+    "GroupPagePermissionsManage",
+    "GroupSitePermissionsManage",
+    "PermissionLevels",
+    "SharingPermissions",
+    "WorkgroupAdmin"
+  ]
+}

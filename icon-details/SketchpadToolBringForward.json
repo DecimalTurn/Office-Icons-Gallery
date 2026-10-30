@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SketchpadToolBringToFront",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "ObjectBringForward",
+      "imageAsset": "images/by-hash/3ba5178b9f938bd5.png"
+    },
+    {
+      "name": "ObjectBringForwardMenu",
+      "imageAsset": "images/by-hash/3ba5178b9f938bd5.png"
+    },
+    {
+      "name": "ObjectBringForwardOutlook",
+      "imageAsset": "images/by-hash/3ba5178b9f938bd5.png"
+    },
+    {
+      "name": "ObjectBringInFrontOfText",
+      "imageAsset": "images/by-hash/9ddfa5f164b34a9f.png"
+    },
+    {
+      "name": "ObjectBringToFront",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "ObjectBringToFrontMenu",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "ObjectBringToFrontMenuOutlook",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "ObjectBringToFrontOutlook",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "GroupNewSketchpadTool",
+      "imageAsset": "images/by-hash/dd87254046e40348.png"
+    },
+    {
+      "name": "GroupSketchpad",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "NewSketchpadTool",
+      "imageAsset": "images/by-hash/93534773692ce795.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupArrangeChartsTables",
+    "ObjectBringForward",
+    "ObjectBringForwardMenu",
+    "ObjectBringForwardOutlook"
+  ]
+}

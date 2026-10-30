@@ -1,0 +1,69 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GotoCalendar",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "GotoContacts",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "GotoJournal",
+      "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+    },
+    {
+      "name": "GotoNotes",
+      "imageAsset": "images/by-hash/9e6c27b717f1db46.png"
+    },
+    {
+      "name": "GotoOutlookToday",
+      "imageAsset": "images/by-hash/a1240d244a3db79e.png"
+    },
+    {
+      "name": "GotoShortcuts",
+      "imageAsset": "images/by-hash/8e69f5484fb7813d.png"
+    },
+    {
+      "name": "GotoSolution",
+      "imageAsset": "images/by-hash/668372c1fb3de3ae.png"
+    },
+    {
+      "name": "GotoTasks",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "TimelineGotoSelectedTask",
+      "imageAsset": "images/by-hash/2341aed38d0392a7.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByFolder",
+    "BrowseBackgroundImage",
+    "CloseWeb",
+    "ContentFolderMenu",
+    "FileClose",
+    "FileCloseAll",
+    "FileCloseDatabase",
+    "FileCloseOrCloseAll",
+    "FilesToolNewFolderGallery",
+    "FilesToolShowHideFolders",
+    "FindPublicFolder",
+    "Folder",
+    "FolderView",
+    "GroupMacroClose",
+    "GroupNew",
+    "GroupQueryClose",
+    "GroupViewLaunchbar",
+    "JotCloseFolder",
+    "LogicCloseFormAction",
+    "NewCategoryFolder",
+    "NewFolder",
+    "NewFolder2",
+    "NewFolderHere",
+    "NewInlineFolder",
+    "SaveSentItemRecentlyUsedFolder",
+    "SearchDownscopeToFolder",
+    "SharedImageBrowse"
+  ]
+}

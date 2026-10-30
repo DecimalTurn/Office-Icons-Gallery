@@ -1,0 +1,125 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TaskPath",
+      "imageAsset": "images/by-hash/97e0c101a7cf5a48.png"
+    },
+    {
+      "name": "OutlookTaskRemove",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "OutlookTaskRemoveContextual",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "TimelineViewRemoveTask",
+      "imageAsset": "images/by-hash/1fd75773272cbd20.png"
+    },
+    {
+      "name": "AutoSummaryViewByHighlight",
+      "imageAsset": "images/by-hash/cb51119c7fae3a92.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightBetween",
+      "imageAsset": "images/by-hash/17e2e00ac82ac2bf.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightCellsMenu",
+      "imageAsset": "images/by-hash/6b7a34509ca46db1.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightCompareColumns",
+      "imageAsset": "images/by-hash/d37e78e67181e46e.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightDateOccuring",
+      "imageAsset": "images/by-hash/dc794190a6d4cf48.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightDuplicateValues",
+      "imageAsset": "images/by-hash/9bfced206c7586d2.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightEqualTo",
+      "imageAsset": "images/by-hash/4463aafa23fa2389.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightGreaterThan",
+      "imageAsset": "images/by-hash/27bd320234536da2.png"
+    }
+  ],
+  "sameImageIds": [
+    "Backspace",
+    "ChangeToDeclineInvitation",
+    "ClearGrid",
+    "ClearIconColors",
+    "ClearRow",
+    "ColumnActionsRemove",
+    "ContactDelete",
+    "ContentTypeColumnActionsRemove",
+    "DataSourceCatalogRemove",
+    "DeclineInvitation",
+    "DeclineTask",
+    "Delete",
+    "DeleteAppointmentGallery",
+    "DeleteContentType",
+    "DeleteDistributionGroup",
+    "DeleteFailedEntityInstanceCreateOperation",
+    "DeleteItem",
+    "DeleteItemInLaunchbar",
+    "DeleteNavigationLink",
+    "DeletePermissionGroup",
+    "DeleteSite",
+    "DeleteSpdPage",
+    "DeleteSPDSite",
+    "DeleteWeb",
+    "DeleteWorkspaceFromThisComputer",
+    "DeleteWorkspaceMenu",
+    "FolderDelete",
+    "FormsToolDelete",
+    "GanttTaskDelete",
+    "GroupActions",
+    "GroupCalendarTool",
+    "GroupDelete",
+    "GroupMailDelete",
+    "GroupMeetings",
+    "GroupMembersEdit",
+    "GroupPicturesTool",
+    "GroupSketchpad",
+    "GroupSummaryEdit",
+    "GuideDelete",
+    "JotPermanentlyDelete",
+    "ListDeleteList",
+    "ListDeleteSelected",
+    "MailDelete",
+    "MeetingsToolAppointmentDelete",
+    "MeetingsToolAppointmentDeleteAgendaItem",
+    "MeetingsToolAppointmentDeleteNote",
+    "MeetingsToolAppointmentDeleteSummary",
+    "MenuDeclineInvitation",
+    "NotebookDelete",
+    "NoteLinkDelete",
+    "NoteLinkDeleteGallery",
+    "NoteLinksDeleteAll",
+    "OutlookTaskRemove",
+    "OutlookTaskRemoveContextual",
+    "PageVersionDelete",
+    "PivotClearAll",
+    "PivotTableDiscardChanges",
+    "RejectApprovalRequest",
+    "RelationshipsClearLayout",
+    "RemoveAttach",
+    "RemoveUserFromGroup",
+    "ReviewDeleteAllMarkupInPresentation",
+    "SharingRequestDeny",
+    "SiteColumnActionsRemove",
+    "SlicerDelete",
+    "SlicerDeleteTouch",
+    "TaskSummaryDeleteSelf",
+    "TimeSlicerDelete",
+    "TimeSlicerDeleteTouch",
+    "ToolDelete",
+    "WorkflowSummaryDeleteWorkflow"
+  ]
+}

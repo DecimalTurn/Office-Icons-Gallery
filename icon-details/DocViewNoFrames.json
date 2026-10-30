@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DocInfoActivate",
+      "imageAsset": "images/by-hash/0a3d9472fcfe41f3.png"
+    },
+    {
+      "name": "DocViewHtml",
+      "imageAsset": "images/by-hash/b901bce065cea3fc.png"
+    },
+    {
+      "name": "DocViewNormal",
+      "imageAsset": "images/by-hash/ceff0212f691c95c.png"
+    },
+    {
+      "name": "DocViewSplit",
+      "imageAsset": "images/by-hash/4922e4070e03f44e.png"
+    },
+    {
+      "name": "SlabDocUpdatesAvailableSaveAndReview",
+      "imageAsset": "images/by-hash/f18099fa4182f9d1.png"
+    },
+    {
+      "name": "SlabDocUpdatesAvailableSaveAndUpdateIcon",
+      "imageAsset": "images/by-hash/513aaa7362e46b49.png"
+    },
+    {
+      "name": "WebSiteMapCompareToDoc",
+      "imageAsset": "images/by-hash/a3d43843c96022a2.png"
+    },
+    {
+      "name": "BorderBottomNoToggle",
+      "imageAsset": "images/by-hash/55ed253243346cfc.png"
+    },
+    {
+      "name": "BorderLeftNoToggle",
+      "imageAsset": "images/by-hash/aa0534c0ead9c22c.png"
+    },
+    {
+      "name": "BorderRightNoToggle",
+      "imageAsset": "images/by-hash/6cdf266bdd875afb.png"
+    },
+    {
+      "name": "BorderTopNoToggle",
+      "imageAsset": "images/by-hash/ab7e4b394c677a88.png"
+    },
+    {
+      "name": "CalculatedYesNo",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    }
+  ],
+  "sameImageIds": []
+}

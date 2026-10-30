@@ -1,0 +1,50 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CDAudioPlayTrackAutomatically",
+      "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+    },
+    {
+      "name": "CDAudioStartTrack",
+      "imageAsset": "images/by-hash/6805ad7549fb04e1.png"
+    },
+    {
+      "name": "CDAudioStopTrack",
+      "imageAsset": "images/by-hash/1717741d790f74d2.png"
+    },
+    {
+      "name": "GroupListToolTrack",
+      "imageAsset": "images/by-hash/c54b2dfb29ca27fb.png"
+    },
+    {
+      "name": "ReadingViewTrackChanges",
+      "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+    },
+    {
+      "name": "ReviewMarkupTrack",
+      "imageAsset": "images/by-hash/ffc17504b6a8e2c4.png"
+    },
+    {
+      "name": "ReviewTrackChanges",
+      "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+    },
+    {
+      "name": "ReviewTrackChangesMenu",
+      "imageAsset": "images/by-hash/e72ff8f7885e0972.png"
+    }
+  ],
+  "sameImageIds": [
+    "_3DPerspectiveDecrease",
+    "ChartNavDrillDown",
+    "GroupListToolTrack",
+    "JotNavUINextPage",
+    "LowImportance",
+    "MeetingsToolNext",
+    "MessageNext",
+    "NavDrillDown",
+    "Next",
+    "NextProblemItem",
+    "NextUnread",
+    "SelectedItemNavDrillDown"
+  ]
+}

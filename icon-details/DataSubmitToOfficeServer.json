@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DataFromOfficeServer",
+      "imageAsset": "images/by-hash/aa99ad79862a8798.png"
+    },
+    {
+      "name": "ControlPropertySubmitAction",
+      "imageAsset": "images/by-hash/718cecc6f117cf61.png"
+    },
+    {
+      "name": "DataConnectionsSubmitMore",
+      "imageAsset": "images/by-hash/4aed5d61b782f5bd.png"
+    },
+    {
+      "name": "DataSubmitToEmail",
+      "imageAsset": "images/by-hash/7958bac25e511fe7.png"
+    },
+    {
+      "name": "DataSubmitToSharePointLibrary",
+      "imageAsset": "images/by-hash/cb7472eb9341de9a.png"
+    },
+    {
+      "name": "DataSubmitToWebService",
+      "imageAsset": "images/by-hash/17f56f580b441277.png"
+    },
+    {
+      "name": "GroupFormSubmit",
+      "imageAsset": "images/by-hash/718cecc6f117cf61.png"
+    },
+    {
+      "name": "GroupSubmitActions",
+      "imageAsset": "images/by-hash/718cecc6f117cf61.png"
+    },
+    {
+      "name": "LogicSubmitFormAction",
+      "imageAsset": "images/by-hash/718cecc6f117cf61.png"
+    },
+    {
+      "name": "RulesOnSubmit",
+      "imageAsset": "images/by-hash/d3c5daceb3824b5d.png"
+    },
+    {
+      "name": "SubmitFormInfoPath",
+      "imageAsset": "images/by-hash/718cecc6f117cf61.png"
+    },
+    {
+      "name": "SubmitOptions",
+      "imageAsset": "images/by-hash/718cecc6f117cf61.png"
+    }
+  ],
+  "sameImageIds": []
+}

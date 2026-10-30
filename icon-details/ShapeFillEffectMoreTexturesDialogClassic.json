@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ShapeFillEffectPatternClassic",
+      "imageAsset": "images/by-hash/991a432e7d5c6d95.png"
+    },
+    {
+      "name": "TextFillMoreTextures",
+      "imageAsset": "images/by-hash/a3ae03cb7ef4932f.png"
+    },
+    {
+      "name": "ShapeFillColorPicker",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "ShapeFillColorPickerClassic",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "ShapeFillGradientGalleryClassic",
+      "imageAsset": "images/by-hash/d029d90b3636118e.png"
+    },
+    {
+      "name": "ShapeFillMoreGradientsDialog",
+      "imageAsset": "images/by-hash/d029d90b3636118e.png"
+    },
+    {
+      "name": "ShapeFillTextureGallery",
+      "imageAsset": "images/by-hash/a3ae03cb7ef4932f.png"
+    },
+    {
+      "name": "Drawing1GalleryTextures",
+      "imageAsset": "images/by-hash/a3ae03cb7ef4932f.png"
+    },
+    {
+      "name": "_3DEffectColorPickerClassic",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "AddTextToTextEffect",
+      "imageAsset": "images/by-hash/8187ee8d4735072e.png"
+    },
+    {
+      "name": "ControlSpecialEffectChiseled",
+      "imageAsset": "images/by-hash/764a779139d32dff.png"
+    },
+    {
+      "name": "ControlSpecialEffectEtched",
+      "imageAsset": "images/by-hash/28d0719cb3250861.png"
+    }
+  ],
+  "sameImageIds": [
+    "Drawing1GalleryTextures",
+    "MoreTextureOptions",
+    "ShapeFillTextureGallery",
+    "TextFillMoreTextures",
+    "TextFillTextureGallery"
+  ]
+}

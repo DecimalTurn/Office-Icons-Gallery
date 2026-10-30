@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ConnectorsGallery",
+      "imageAsset": "images/by-hash/3c712b5cc06d4393.png"
+    },
+    {
+      "name": "OrganizationChartSelectAllConnectors",
+      "imageAsset": "images/by-hash/ab0e89f2635919b6.png"
+    },
+    {
+      "name": "RerouteAsNeeded",
+      "imageAsset": "images/by-hash/ad2bda191256781a.png"
+    },
+    {
+      "name": "RerouteFreely",
+      "imageAsset": "images/by-hash/e601d98b026b18e8.png"
+    },
+    {
+      "name": "RerouteNever",
+      "imageAsset": "images/by-hash/480552072fdc4744.png"
+    },
+    {
+      "name": "RerouteOnCrossover",
+      "imageAsset": "images/by-hash/c46b307a408ee646.png"
+    }
+  ],
+  "sameImageIds": []
+}

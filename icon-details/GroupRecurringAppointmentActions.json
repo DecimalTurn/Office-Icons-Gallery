@@ -1,0 +1,75 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NewRecurringAppointment",
+      "imageAsset": "images/by-hash/dbcab0e9bea5ed47.png"
+    },
+    {
+      "name": "NewRecurringAppointment2",
+      "imageAsset": "images/by-hash/dbcab0e9bea5ed47.png"
+    },
+    {
+      "name": "GroupAppointmentActions",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "GroupCalendarRecurringRespond",
+      "imageAsset": "images/by-hash/40fe8321a3ca61b1.png"
+    },
+    {
+      "name": "GroupRecurringAttendees",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    },
+    {
+      "name": "MenuForwardRecurring",
+      "imageAsset": "images/by-hash/d4f0e3112d0c691d.png"
+    },
+    {
+      "name": "RecurringTaskInsert",
+      "imageAsset": "images/by-hash/3c8a589faa6343f6.png"
+    }
+  ],
+  "sameImageIds": [
+    "BlogOpenExisting",
+    "DataSourceCatalogProperties",
+    "DesignerOpen",
+    "EditPageWith",
+    "FileOpen",
+    "FileOpenDatabase",
+    "FileOpenDirectly",
+    "FileOpenUsingBackstage",
+    "FindAForm",
+    "FlyoutAnchorOpenMenu",
+    "FormRegionOpen",
+    "GroupAllFilesEdit",
+    "GroupAppointmentActions",
+    "GroupBdcEntitiesManage",
+    "GroupContentTypeWorkflowsEdit",
+    "GroupDataConnectionsEdit",
+    "GroupListCustomActionsEdit",
+    "GroupListFormsEdit",
+    "GroupListViewsEdit",
+    "GroupListWorkflowsEdit",
+    "GroupPagePermissionsEdit",
+    "GroupPageVersionHistoryActions",
+    "GroupSitePermissionsEdit",
+    "GroupTaskFormFieldsEdit",
+    "GroupTaskOpen",
+    "GroupWorkflowFormsEdit",
+    "ListEditSelected",
+    "MenuOpenAppointment",
+    "MRUSlabOpenOfficeLiveWorkspaces",
+    "OpenAppointment",
+    "OpenAttach",
+    "OpenContentType",
+    "OpenFolder",
+    "OpenHollow",
+    "OpenList",
+    "OpenNotebookAsFolder",
+    "OpenSelectedItems",
+    "OpenSpecificFile",
+    "OpenSpecificFileWith",
+    "ReopenFromServer",
+    "TabRecent"
+  ]
+}

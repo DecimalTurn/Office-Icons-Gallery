@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotAutoFilter",
+      "imageAsset": "images/by-hash/0f587dcc8e84a46c.png"
+    }
+  ],
+  "sameImageIds": [
+    "AutoSum",
+    "GroupPivotChartTools",
+    "GroupPivotTableToolsAccess",
+    "GroupQueryShowHide",
+    "QueryTotalsShowHide",
+    "RecordsTotals",
+    "TotalsMenu"
+  ]
+}

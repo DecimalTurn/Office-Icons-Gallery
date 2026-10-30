@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "JotOOCRedoAutoBullets",
+      "imageAsset": "images/by-hash/33a97bd523f22be9.png"
+    },
+    {
+      "name": "JotOOCRedoAutoNumbering",
+      "imageAsset": "images/by-hash/33a97bd523f22be9.png"
+    },
+    {
+      "name": "RedoButton",
+      "imageAsset": "images/by-hash/33a97bd523f22be9.png"
+    },
+    {
+      "name": "RedoOrRepeat",
+      "imageAsset": "images/by-hash/3b64db7773991543.png"
+    }
+  ],
+  "sameImageIds": [
+    "JotOOCRedoAutoBullets",
+    "JotOOCRedoAutoNumbering",
+    "RedoButton"
+  ]
+}

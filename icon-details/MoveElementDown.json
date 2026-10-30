@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MoveElementUp",
+      "imageAsset": "images/by-hash/068470b628dc1569.png"
+    },
+    {
+      "name": "MeetingsToolAppointmentMoveDown",
+      "imageAsset": "images/by-hash/e725f668e6f610c7.png"
+    },
+    {
+      "name": "MoveDown",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    },
+    {
+      "name": "MoveDownCustomAction",
+      "imageAsset": "images/by-hash/79274de9857dec98.png"
+    },
+    {
+      "name": "MoveDownSection",
+      "imageAsset": "images/by-hash/79274de9857dec98.png"
+    },
+    {
+      "name": "OutlineMoveDown",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    },
+    {
+      "name": "SectionMoveDown",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    },
+    {
+      "name": "AddChartElementMenu",
+      "imageAsset": "images/by-hash/1296182aef35db2b.png"
+    },
+    {
+      "name": "ChartLaunchAddElementCallout",
+      "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+    },
+    {
+      "name": "ChartMoreElement",
+      "imageAsset": "images/by-hash/a06c2047723e311d.png"
+    },
+    {
+      "name": "WorkflowElementProperties",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "_3DTiltDownClassic",
+      "imageAsset": "images/by-hash/3feb97f7e19ab7cd.png"
+    }
+  ],
+  "sameImageIds": [
+    "MoveDownCustomAction",
+    "MoveDownSection"
+  ]
+}

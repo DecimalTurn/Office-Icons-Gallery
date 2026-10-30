@@ -1,0 +1,37 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NewSearchFolder",
+      "imageAsset": "images/by-hash/e2c82753eeca5c76.png"
+    },
+    {
+      "name": "SearchDownscopeToFolder",
+      "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+    },
+    {
+      "name": "CustomizeMySite",
+      "imageAsset": "images/by-hash/93781d39d8f61aa1.png"
+    },
+    {
+      "name": "CustomizeXSLTMenu",
+      "imageAsset": "images/by-hash/daf258dce7e70476.png"
+    },
+    {
+      "name": "GroupCustomizeThemeOptions",
+      "imageAsset": "images/by-hash/f49b012b69437cca.png"
+    },
+    {
+      "name": "NumberingCustomize",
+      "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+    },
+    {
+      "name": "OmsCustomizeLayout",
+      "imageAsset": "images/by-hash/6b84ae529df0daa2.png"
+    },
+    {
+      "name": "TagsCustomize",
+      "imageAsset": "images/by-hash/4cf8a0d18ea84259.png"
+    }
+  ],
+  "sameImageIds": []
+}

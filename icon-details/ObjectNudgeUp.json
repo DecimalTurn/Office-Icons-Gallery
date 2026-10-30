@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ShadowNudgeUpClassic",
+      "imageAsset": "images/by-hash/1ed2fa657202cab7.png"
+    },
+    {
+      "name": "ObjectNudgeDown",
+      "imageAsset": "images/by-hash/bfec7c8390f57e43.png"
+    },
+    {
+      "name": "ObjectNudgeLeft",
+      "imageAsset": "images/by-hash/45a8769a4c4fc504.png"
+    },
+    {
+      "name": "ObjectNudgeRight",
+      "imageAsset": "images/by-hash/0c8b01842a5aff12.png"
+    },
+    {
+      "name": "ShadowNudgeDownClassic",
+      "imageAsset": "images/by-hash/f2e0f19c90586deb.png"
+    },
+    {
+      "name": "ShadowNudgeLeftClassic",
+      "imageAsset": "images/by-hash/579706cbc9cab356.png"
+    },
+    {
+      "name": "ShadowNudgeRightClassic",
+      "imageAsset": "images/by-hash/f5d38a965e65de81.png"
+    },
+    {
+      "name": "_3DTiltUpClassic",
+      "imageAsset": "images/by-hash/7a46f6d38b719d2e.png"
+    },
+    {
+      "name": "BorderDiagonalUp",
+      "imageAsset": "images/by-hash/cc5877255b2f193f.png"
+    },
+    {
+      "name": "ChartFormatUpBars",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartUpDownBars",
+      "imageAsset": "images/by-hash/15e4f4da852f3edc.png"
+    },
+    {
+      "name": "ContactCardLookUpOutlookContact",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    }
+  ],
+  "sameImageIds": []
+}

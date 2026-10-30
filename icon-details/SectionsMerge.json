@@ -1,0 +1,18 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupShapeSheetSections",
+      "imageAsset": "images/by-hash/eedb33b32bd62eaf.png"
+    },
+    {
+      "name": "ShapeSheetShowSections",
+      "imageAsset": "images/by-hash/d2592c39351c3d3a.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupFormsMerge",
+    "MailMergeMergeToDocument",
+    "MergeForms",
+    "MergeToNewPublication"
+  ]
+}

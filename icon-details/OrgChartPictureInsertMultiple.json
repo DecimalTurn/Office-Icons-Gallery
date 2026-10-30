@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupOrgChartPicture",
+      "imageAsset": "images/by-hash/09afe70e742584fe.png"
+    },
+    {
+      "name": "OrgChartPictureDelete",
+      "imageAsset": "images/by-hash/42025fe41b6b60f1.png"
+    },
+    {
+      "name": "OrgChartPictureHide",
+      "imageAsset": "images/by-hash/564c35cd0395321a.png"
+    },
+    {
+      "name": "OrgChartPictureInsert",
+      "imageAsset": "images/by-hash/09afe70e742584fe.png"
+    },
+    {
+      "name": "CreateFormWithMultipleItems",
+      "imageAsset": "images/by-hash/44336bb883d1fcdb.png"
+    },
+    {
+      "name": "CreateFormWithMultipleItemsWeb",
+      "imageAsset": "images/by-hash/5e9948f3c0367117.png"
+    },
+    {
+      "name": "MindMapMultipleSubtopics",
+      "imageAsset": "images/by-hash/db781b34c325d9e7.png"
+    },
+    {
+      "name": "MultiplePages",
+      "imageAsset": "images/by-hash/c1e7d0de4652dd3a.png"
+    },
+    {
+      "name": "MultipleSelect",
+      "imageAsset": "images/by-hash/b0ceda5a05f6e0b5.png"
+    },
+    {
+      "name": "MultipleSheetPrintPreview",
+      "imageAsset": "images/by-hash/c1e7d0de4652dd3a.png"
+    },
+    {
+      "name": "ObjectsGroupMultiple",
+      "imageAsset": "images/by-hash/9bb5d7892b9a1651.png"
+    },
+    {
+      "name": "ObjectsUngroupMultiple",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    }
+  ],
+  "sameImageIds": []
+}

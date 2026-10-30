@@ -1,0 +1,15 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FilePublishAsWebPage",
+      "imageAsset": "images/by-hash/19bf97b4b00c26dc.png"
+    },
+    {
+      "name": "FileSaveAsWebPage",
+      "imageAsset": "images/by-hash/382620ae1d543150.png"
+    }
+  ],
+  "sameImageIds": [
+    "ContactWebPage"
+  ]
+}

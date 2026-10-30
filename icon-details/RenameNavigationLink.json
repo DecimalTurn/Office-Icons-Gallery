@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DeleteNavigationLink",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "NewExternalNavigationLink",
+      "imageAsset": "images/by-hash/aef57a5dac3cf475.png"
+    },
+    {
+      "name": "DatasheetColumnRename",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "MasterPageRename",
+      "imageAsset": "images/by-hash/e72024e8eede23f8.png"
+    },
+    {
+      "name": "Rename",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "RenameItem",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "RenamePageOneNote",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "RenamePagePublisher",
+      "imageAsset": "images/by-hash/e72024e8eede23f8.png"
+    },
+    {
+      "name": "RenamePermissionGroup",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "RenameReport",
+      "imageAsset": "images/by-hash/0b33655df9437005.png"
+    },
+    {
+      "name": "RenameSelected",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "RenameThisFolder",
+      "imageAsset": "images/by-hash/b62b5a4c1f76e118.png"
+    }
+  ],
+  "sameImageIds": []
+}

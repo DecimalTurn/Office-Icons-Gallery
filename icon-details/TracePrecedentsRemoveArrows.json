@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TraceDependentRemoveArrows",
+      "imageAsset": "images/by-hash/791c472a58c1ac60.png"
+    },
+    {
+      "name": "TraceRemoveAllArrows",
+      "imageAsset": "images/by-hash/25b05961ab3adc91.png"
+    },
+    {
+      "name": "TracePrecedents",
+      "imageAsset": "images/by-hash/7d68825778d1591a.png"
+    },
+    {
+      "name": "ArrowsMore",
+      "imageAsset": "images/by-hash/027562b49e54f056.png"
+    },
+    {
+      "name": "LineArrowsDialog",
+      "imageAsset": "images/by-hash/38c96b7707786967.png"
+    },
+    {
+      "name": "LineArrowsGallery",
+      "imageAsset": "images/by-hash/4ff3d1a37fabcdcf.png"
+    },
+    {
+      "name": "TraceBack",
+      "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+    },
+    {
+      "name": "TraceDependentCells",
+      "imageAsset": "images/by-hash/1b0d8ffc3727a2e3.png"
+    },
+    {
+      "name": "TraceDependents",
+      "imageAsset": "images/by-hash/1b0d8ffc3727a2e3.png"
+    },
+    {
+      "name": "TraceError",
+      "imageAsset": "images/by-hash/333fa763449f29e8.png"
+    },
+    {
+      "name": "TraceForward",
+      "imageAsset": "images/by-hash/0f42881fbb368916.png"
+    },
+    {
+      "name": "TracePrecedentCells",
+      "imageAsset": "images/by-hash/7d68825778d1591a.png"
+    }
+  ],
+  "sameImageIds": []
+}

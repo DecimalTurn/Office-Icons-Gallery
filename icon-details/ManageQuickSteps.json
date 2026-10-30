@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupQuickSteps",
+      "imageAsset": "images/by-hash/b62426a37b8cc53f.png"
+    },
+    {
+      "name": "QuickStepsGallery",
+      "imageAsset": "images/by-hash/b62426a37b8cc53f.png"
+    },
+    {
+      "name": "QuickStepsMenuGallery",
+      "imageAsset": "images/by-hash/b62426a37b8cc53f.png"
+    }
+  ],
+  "sameImageIds": []
+}

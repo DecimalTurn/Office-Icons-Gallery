@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupAudioToolsAdjust",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "GroupPictureToolAdjust",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "GroupPictureToolsAdjustClassic",
+      "imageAsset": "images/by-hash/b6920ebf67401601.png"
+    },
+    {
+      "name": "GroupVideoToolsAdjust",
+      "imageAsset": "images/by-hash/a0556bd2abf0394f.png"
+    },
+    {
+      "name": "ContainerMargins",
+      "imageAsset": "images/by-hash/2bc037ee19b5f7b9.png"
+    },
+    {
+      "name": "ControlMarginsGallery",
+      "imageAsset": "images/by-hash/05f902c226b6b11f.png"
+    },
+    {
+      "name": "ControlMarginsMedium",
+      "imageAsset": "images/by-hash/05f902c226b6b11f.png"
+    },
+    {
+      "name": "ControlMarginsMenu",
+      "imageAsset": "images/by-hash/05f902c226b6b11f.png"
+    },
+    {
+      "name": "ControlMarginsNarrow",
+      "imageAsset": "images/by-hash/b35a2e9329ea7a66.png"
+    },
+    {
+      "name": "ControlMarginsNone",
+      "imageAsset": "images/by-hash/e475869b818ad819.png"
+    },
+    {
+      "name": "ControlMarginsWide",
+      "imageAsset": "images/by-hash/8d53d3d8257762e3.png"
+    },
+    {
+      "name": "ControlPropertyPaddingAndMargins",
+      "imageAsset": "images/by-hash/e195793523d65673.png"
+    }
+  ],
+  "sameImageIds": []
+}

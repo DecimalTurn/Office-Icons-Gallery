@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "WebSiteMapCreateReport",
+      "imageAsset": "images/by-hash/5da1e8a65873b1c6.png"
+    },
+    {
+      "name": "DocumentMapReadingView",
+      "imageAsset": "images/by-hash/8c005537b968b2f0.png"
+    },
+    {
+      "name": "GroupMindMapAddTopics",
+      "imageAsset": "images/by-hash/8a0b9b0ac48f4771.png"
+    },
+    {
+      "name": "GroupMindMapArrange",
+      "imageAsset": "images/by-hash/eb3e8f8806f181e2.png"
+    },
+    {
+      "name": "GroupMindMapManage",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupWebSiteMapManage",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupWebSiteMapMap",
+      "imageAsset": "images/by-hash/795273ef85520478.png"
+    },
+    {
+      "name": "GroupWebSiteMapShowHide",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "MapContactAddress",
+      "imageAsset": "images/by-hash/4150b8d940bfe058.png"
+    },
+    {
+      "name": "MindMapAutoArrange",
+      "imageAsset": "images/by-hash/eb3e8f8806f181e2.png"
+    },
+    {
+      "name": "MindMapChangeTopic",
+      "imageAsset": "images/by-hash/ab71863d558f37c4.png"
+    },
+    {
+      "name": "MindMapDiagramStyle",
+      "imageAsset": "images/by-hash/4d6269c5ddbb7774.png"
+    }
+  ],
+  "sameImageIds": [
+    "MeetingsToolAppointmentTimeZones",
+    "ShowTimeZones"
+  ]
+}

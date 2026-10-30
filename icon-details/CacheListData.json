@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BusinessDataSyncWithLocalCache",
+      "imageAsset": "images/by-hash/e32569309eaf06fa.png"
+    },
+    {
+      "name": "GroupBusinessDataSyncWithLocalCache",
+      "imageAsset": "images/by-hash/e32569309eaf06fa.png"
+    },
+    {
+      "name": "OfflineCacheOn",
+      "imageAsset": "images/by-hash/03bee4658242746d.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupTableExternalData",
+    "TableExportMenu",
+    "TableExportTableToSharePointList"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SmartArtOrganizationChartLeftHanging",
+      "imageAsset": "images/by-hash/d7797fe9ebddeb1b.png"
+    },
+    {
+      "name": "OrganizationChartLayoutBothHanging",
+      "imageAsset": "images/by-hash/47578ee07b7a36f8.png"
+    },
+    {
+      "name": "OrganizationChartLayoutRightHanging",
+      "imageAsset": "images/by-hash/f82e0174fcb69fe3.png"
+    },
+    {
+      "name": "SmartArtOrganizationChartRightHanging",
+      "imageAsset": "images/by-hash/f82e0174fcb69fe3.png"
+    },
+    {
+      "name": "GroupOrganizationChartLayoutClassic",
+      "imageAsset": "images/by-hash/ac0a56f0072f5dde.png"
+    },
+    {
+      "name": "OrganizationChartAutoLayout",
+      "imageAsset": "images/by-hash/ac0a56f0072f5dde.png"
+    },
+    {
+      "name": "OrganizationChartLayoutStandard",
+      "imageAsset": "images/by-hash/fe3465ad6d5ba97d.png"
+    },
+    {
+      "name": "GroupOrganizationChartSelect",
+      "imageAsset": "images/by-hash/bbddf95182822389.png"
+    },
+    {
+      "name": "GroupOrganizationChartShapeInsert",
+      "imageAsset": "images/by-hash/d2a1f54717fdfb4e.png"
+    },
+    {
+      "name": "GroupOrganizationChartStyleClassic",
+      "imageAsset": "images/by-hash/0dcccd324a3aeb0f.png"
+    },
+    {
+      "name": "GroupOrgChartOrganizationData",
+      "imageAsset": "images/by-hash/25e25390f388f017.png"
+    },
+    {
+      "name": "OrganizationChartInsert",
+      "imageAsset": "images/by-hash/446092e9be5d851d.png"
+    }
+  ],
+  "sameImageIds": []
+}

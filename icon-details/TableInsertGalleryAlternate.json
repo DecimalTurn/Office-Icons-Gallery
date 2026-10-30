@@ -1,0 +1,47 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AlignMenuAlternate",
+      "imageAsset": "images/by-hash/6681fe487d168071.png"
+    },
+    {
+      "name": "FontAlternateFillBackColorPicker",
+      "imageAsset": "images/by-hash/123a710986a11765.png"
+    },
+    {
+      "name": "InsertNumberAlternate",
+      "imageAsset": "images/by-hash/54f338ad03032064.png"
+    },
+    {
+      "name": "StylisticAlternate",
+      "imageAsset": "images/by-hash/bf9e321a6b368551.png"
+    }
+  ],
+  "sameImageIds": [
+    "AccessFormDatasheet",
+    "AccessListCustomDatasheet",
+    "CatalogMergeMoreRowsColumns",
+    "CatalogMergeRowsColumnsGallery",
+    "ColumnsGroup",
+    "CreateDatasheetView",
+    "CreateSharePointList",
+    "CreateTable",
+    "CreateTableTemplatesGallery",
+    "CustomTablesGallery",
+    "FPTable",
+    "GroupCreateTables",
+    "GroupCreateTablesWeb",
+    "GroupInsertTables",
+    "InsertTable",
+    "LayoutTable",
+    "QuickTablesInsertGallery",
+    "TableInsert",
+    "TableInsertDialog",
+    "TableInsertDialogWord",
+    "TableInsertGallery",
+    "TableInsertGallerySpd",
+    "TableLayoutInfoPath",
+    "TableRowsOrColumnsOrCellsInsert",
+    "ToggleAddTableUI"
+  ]
+}

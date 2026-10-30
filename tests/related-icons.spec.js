@@ -1,25 +1,184 @@
 const { test, expect } = require("@playwright/test");
+const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const os = require("node:os");
+const path = require("node:path");
+const { nameKeywords, normalizeReviewedKeywordGroup, normalizeReviewedKeywords, normalizeSynonyms, readJsonFile, readReviewStatus, removeNameKeywords, synonymsForValues, updateMetadataKeywords, updateReviewStatus } = require("../scripts/keyword-utils");
 
-test("never suggests placeholder images as related icons", async ({ request }) => {
+test("metadata excludes every icon-name word from keywords", async () => {
+  const reviewedKeywords = require("../icon-keywords.json");
+  const metadata = require("../icon-metadata.json");
+  const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
+  const metadataViolations = [];
+
+  for (const icon of metadata) {
+    if (Object.hasOwn(icon, "description")) {
+      metadataViolations.push(`${icon.name} has a description`);
+    }
+    const keywords = new Set(icon.keywords || []);
+    for (const word of nameKeywords([icon.name])) {
+      if (keywords.has(word)) {
+        metadataViolations.push(`${icon.name} includes name word ${word}`);
+      }
+    }
+  }
+  const keywordGroups = new Map();
+  for (const icon of metadata) {
+    const groupId = icon.imageStatus === "placeholder" ? icon.name : icon.imageSha256;
+    const group = keywordGroups.get(groupId) || [];
+    group.push(icon);
+    keywordGroups.set(groupId, group);
+  }
+  for (const group of keywordGroups.values()) {
+    const imageNameWords = nameKeywords(group.map((icon) => icon.name));
+    for (const keyword of group[0].keywords || []) {
+      if (imageNameWords.has(keyword)) {
+        metadataViolations.push(`${keyword} is a name word in image group ${group[0].name}`);
+      }
+    }
+  }
+  for (const [name, keywords] of Object.entries(reviewedKeywords)) {
+    const icon = metadataByName.get(name);
+    const relatedNames = icon?.imageStatus === "placeholder" ? [name] : [
+      name,
+      ...metadata.filter((other) => other.imageStatus !== "placeholder" &&
+        other.imageSha256 === icon?.imageSha256 && other.name !== name).map((other) => other.name)
+    ];
+    const keywordSource = icon?.imageStatus === "placeholder"
+      ? icon
+      : metadata.find((entry) => entry.imageSha256 === icon?.imageSha256 && entry.keywords?.length);
+    const expectedKeywords = removeNameKeywords(relatedNames, keywords);
+    if (!expectedKeywords.every((keyword) => (keywordSource?.keywords || []).includes(keyword))) {
+      metadataViolations.push(`reviewed keywords for ${name} are missing from its image representative`);
+    }
+  }
+  const imageGroups = new Map();
+  for (const icon of metadata.filter((entry) => entry.imageStatus !== "placeholder")) {
+    const group = imageGroups.get(icon.imageSha256) || [];
+    group.push(icon);
+    imageGroups.set(icon.imageSha256, group);
+  }
+  const representativeByImageHash = new Map([...imageGroups.values()]
+    .map((group) => [group[0].imageSha256, group[0]]));
+  for (const group of imageGroups.values()) {
+    if (group.length > 1) {
+      for (const icon of group.slice(1)) {
+        if (Object.hasOwn(icon, "keywords")) {
+          metadataViolations.push(`${icon.name} duplicates keywords from ${group[0].name}`);
+        }
+        if (Object.hasOwn(reviewedKeywords, icon.name)) {
+          metadataViolations.push(`${icon.name} duplicates reviewed keywords from ${group[0].name}`);
+        }
+      }
+    }
+  }
+  for (const [name, keywords] of Object.entries(reviewedKeywords)) {
+    const icon = metadataByName.get(name);
+    const keywordSource = icon?.imageStatus === "placeholder"
+      ? icon
+      : representativeByImageHash.get(icon?.imageSha256);
+    const relatedNames = icon?.imageStatus === "placeholder" ? [name] : [
+      name,
+      ...metadata.filter((other) => other.imageStatus !== "placeholder" &&
+        other.imageSha256 === icon?.imageSha256 && other.name !== name).map((other) => other.name)
+    ];
+    const expectedKeywords = removeNameKeywords(relatedNames, keywords);
+    if (!expectedKeywords.every((keyword) => (keywordSource?.keywords || []).includes(keyword))) {
+      metadataViolations.push(`reviewed keywords for ${name} are missing from its image representative`);
+    }
+  }
+  expect(metadataViolations).toEqual([]);
+  const largestImageGroup = [...imageGroups.values()]
+    .filter((group) => group.length > 1)
+    .sort((left, right) => (right[0].keywords || []).length - (left[0].keywords || []).length)[0];
+  expect(largestImageGroup[0].keywords.length).toBeGreaterThan(0);
+  expect(normalizeReviewedKeywordGroup(largestImageGroup.map((icon) => icon.name), largestImageGroup[0].keywords))
+    .toEqual(largestImageGroup[0].keywords);
+  expect(normalizeReviewedKeywords("_3DBevelOptionsDialog", [" Blue Pigment ", "BEVEL"])).toEqual([
+    "blue pigment"
+  ]);
+  expect(nameKeywords(["_3DBevelOptionsDialog"])).toEqual(new Set(["3", "d", "bevel", "options", "dialog"]));
+  expect(normalizeReviewedKeywordGroup(["_3DBevelOptionsDialog"], ["3", "d", "bevel"])).toEqual([]);
+  const imageGroupNames = ["_3DEffectColorPickerClassic", "IconBucketTool", "GroupIconEditPaint"];
+  const synonyms = { bucket: ["pail"], color: ["colour"], paint: ["brush"], "blue pigment": ["azure"], visualization: ["diagram"] };
+  expect([...synonymsForValues([...nameKeywords(imageGroupNames)], synonyms)]).toEqual([
+    ["pail", ["bucket"]], ["colour", ["color"]], ["brush", ["paint"]]
+  ]);
+  expect(normalizeReviewedKeywordGroup(imageGroupNames, ["bucket", "paint", "colour"], synonyms)).toEqual([
+    "brush", "colour", "pail"
+  ]);
+  expect(normalizeReviewedKeywordGroup(["FormatColor"], [], synonyms)).toEqual(["colour"]);
+  expect(normalizeReviewedKeywordGroup(["FormatStyle"], ["color"], synonyms)).toEqual(["color", "colour"]);
+  expect([...synonymsForValues(["blue pigment"], synonyms)]).toEqual([
+    ["azure", ["blue pigment"]]
+  ]);
+  expect(normalizeReviewedKeywordGroup(imageGroupNames, ["blue pigment"], synonyms)).toEqual([
+    "azure", "blue pigment", "brush", "colour", "pail"
+  ]);
+  expect(normalizeSynonyms({ " BLUE PIGMENT ": [" AZURE ", "azure"] }, new Set(["blue pigment"]))).toEqual({
+    "blue pigment": ["azure"]
+  });
+  expect(normalizeSynonyms({ " BUCKET ": [" Pail ", "pail"] }, nameKeywords(imageGroupNames))).toEqual({
+    bucket: ["pail"]
+  });
+  expect(() => normalizeSynonyms({ bucket: ["pail"], pail: ["bucket"] }, new Set(["bucket", "pail"])))
+    .toThrow("A synonym cannot also be a synonym source: bucket, pail");
+  expect(normalizeReviewedKeywordGroup(["_3DBevelOptionsDialog", "ChartFormatSelection"], [" Blue Pigment "])).toEqual([
+    "blue pigment"
+  ]);
+});
+
+test("stores detail data in per-icon sidecar files", async ({ request }) => {
   const response = await request.get("/icon-metadata.json");
   expect(response.ok()).toBe(true);
 
   const metadata = await response.json();
+  expect(metadata.every((icon) => !Object.hasOwn(icon, "relatedIcons") && !Object.hasOwn(icon, "sameImageIds"))).toBe(true);
+  const detailsDirectory = path.join(__dirname, "..", "icon-details");
+  const detailFileNames = fs.readdirSync(detailsDirectory).filter((fileName) => fileName.endsWith(".json"));
+  const metadataByName = new Map(metadata.map((icon) => [icon.name, icon]));
   const placeholderNames = new Set(metadata
     .filter((icon) => icon.imageStatus === "placeholder")
     .map((icon) => icon.name));
-  const invalidSuggestions = metadata.flatMap((icon) =>
-    (icon.relatedIcons || [])
-      .filter((relatedName) => placeholderNames.has(relatedName))
-      .map((relatedName) => `${icon.name}: ${relatedName}`)
-  );
-
+  const namesByImageHash = new Map();
+  for (const icon of metadata) {
+    if (icon.imageStatus === "placeholder") {
+      continue;
+    }
+    const names = namesByImageHash.get(icon.imageSha256) || [];
+    names.push(icon.name);
+    namesByImageHash.set(icon.imageSha256, names);
+  }
+  const invalidSuggestions = [];
+  const invalidDetails = [];
+  for (const fileName of detailFileNames) {
+    const iconName = path.basename(fileName, ".json");
+    const details = JSON.parse(fs.readFileSync(path.join(detailsDirectory, fileName), "utf8"));
+    const icon = metadataByName.get(iconName);
+    if (!icon || !Array.isArray(details.relatedIcons) || !Array.isArray(details.sameImageIds)) {
+      invalidDetails.push(`${iconName}: invalid detail data`);
+      continue;
+    }
+    const expectedSameImageIds = icon.imageStatus === "placeholder"
+      ? []
+      : (namesByImageHash.get(icon.imageSha256) || []).filter((name) => name !== iconName);
+    if (JSON.stringify(details.sameImageIds) !== JSON.stringify(expectedSameImageIds)) {
+      invalidDetails.push(`${iconName}: same-image IDs do not match its image hash group`);
+    }
+    for (const relatedIcon of details.relatedIcons) {
+      if (placeholderNames.has(relatedIcon.name) || metadataByName.get(relatedIcon.name)?.imageAsset !== relatedIcon.imageAsset) {
+        invalidSuggestions.push(`${iconName}: ${relatedIcon.name}`);
+      }
+    }
+  }
   expect(placeholderNames).toContain("ClientQuery");
+  expect(fs.existsSync(path.join(detailsDirectory, "Club.json"))).toBe(false);
+  assert.deepEqual(invalidDetails, []);
   expect(invalidSuggestions).toEqual([]);
 });
 
 test("shows curated related icons on a detail page", async ({ page }) => {
-  await page.goto("/icon.html?name=ZoomTwoPages");
+  await page.goto("/icon.html?icon_id=ZoomTwoPages");
 
   const section = page.locator("#related-icons-section");
   await expect(section).toBeVisible();
@@ -31,12 +190,12 @@ test("shows curated related icons on a detail page", async ({ page }) => {
   ]);
 
   await page.getByRole("link", { name: "ZoomPageWidth" }).click();
-  await expect(page).toHaveURL(/icon\.html\?name=ZoomPageWidth$/);
+  await expect(page).toHaveURL(/icon\.html\?icon_id=ZoomPageWidth$/);
   await expect(page.getByRole("heading", { name: "ZoomPageWidth" })).toBeVisible();
 });
 
 test("suggests icons that share PascalCase name words", async ({ page }) => {
-  await page.goto("/icon.html?name=PictureInsertFromFile");
+  await page.goto("/icon.html?icon_id=PictureInsertFromFile");
 
   await expect(page.locator("#related-icons-list li").first()).toBeVisible();
   const relatedNames = await page.locator("#related-icons-list li").allTextContents();
@@ -49,7 +208,7 @@ test("suggests icons that share PascalCase name words", async ({ page }) => {
 });
 
 test("marks each single-digit number icon as related to the other digits", async ({ page }) => {
-  await page.goto("/icon.html?name=_1");
+  await page.goto("/icon.html?icon_id=_1");
 
   await expect(page.locator("#related-icons-list li")).toHaveText([
     "_0",
@@ -65,14 +224,14 @@ test("marks each single-digit number icon as related to the other digits", async
 });
 
 test("hides the related icons section when no relationships are curated", async ({ page }) => {
-  await page.goto("/icon.html?name=Club");
+  await page.goto("/icon.html?icon_id=Club");
 
   await expect(page.locator("#related-icons-section")).toBeHidden();
 });
 
 test("shows other bright icons as related to PictureBrightnessAndContrastGallery", async ({ page }) => {
   await page.setViewportSize({ width: 375, height: 800 });
-  await page.goto("/icon.html?name=PictureBrightnessAndContrastGallery");
+  await page.goto("/icon.html?icon_id=PictureBrightnessAndContrastGallery");
 
   await expect(page.locator("#related-icons-list li")).toContainText([
     "BrightnessAndContrastEdit",
@@ -95,4 +254,61 @@ test("shows other bright icons as related to PictureBrightnessAndContrastGallery
   await nextButton.click();
   await expect.poll(() => page.locator("#related-icons-list").evaluate((list) => list.scrollLeft)).toBeGreaterThan(0);
   await expect(previousButton).toBeEnabled();
+});
+
+test("review confirmation changes only the selected icon status", () => {
+  const initialStatus = {
+    _0: false,
+    _0PercentComplete: false,
+    _1: true
+  };
+  const nextStatus = updateReviewStatus(initialStatus, "_0", true);
+
+  expect(nextStatus).toEqual({
+    _0: true,
+    _0PercentComplete: false,
+    _1: true
+  });
+  expect(initialStatus._0).toBe(false);
+});
+
+test("review confirmation uses status restored after the server started", () => {
+  const temporaryDirectory = fs.mkdtempSync(path.join(os.tmpdir(), "icon-review-status-"));
+  const statusPath = path.join(temporaryDirectory, "icon-review-status.json");
+  try {
+    fs.writeFileSync(statusPath, JSON.stringify({ _0: false, _0PercentComplete: true }));
+    const cachedAtStartup = readReviewStatus(statusPath);
+    fs.writeFileSync(statusPath, JSON.stringify({ _0: false, _0PercentComplete: false, _1: false }));
+
+    const nextStatus = updateReviewStatus(readReviewStatus(statusPath), "_0", true);
+    expect(nextStatus).toEqual({ _0: true, _0PercentComplete: false, _1: false });
+    expect(cachedAtStartup._0PercentComplete).toBe(true);
+  } finally {
+    fs.rmSync(temporaryDirectory, { recursive: true, force: true });
+  }
+});
+
+test("keyword confirmation preserves metadata restored after the server started", () => {
+  const temporaryDirectory = fs.mkdtempSync(path.join(os.tmpdir(), "icon-metadata-"));
+  const metadataPath = path.join(temporaryDirectory, "icon-metadata.json");
+  try {
+    fs.writeFileSync(metadataPath, JSON.stringify([
+      { name: "_0", keywords: ["stale"], imageSha256: "selected" },
+      { name: "Unrelated", keywords: ["stale"], relatedIcons: ["OldRelated"] }
+    ]));
+    const cachedAtStartup = readJsonFile(metadataPath);
+    fs.writeFileSync(metadataPath, JSON.stringify([
+      { name: "_0", keywords: ["zero"], imageSha256: "selected" },
+      { name: "Unrelated", keywords: ["current"], relatedIcons: ["CurrentRelated"] }
+    ]));
+
+    const nextMetadata = updateMetadataKeywords(readJsonFile(metadataPath), ["_0"], ["reviewed", "zero"]);
+    expect(nextMetadata).toEqual([
+      { name: "_0", keywords: ["reviewed", "zero"], imageSha256: "selected" },
+      { name: "Unrelated", keywords: ["current"], relatedIcons: ["CurrentRelated"] }
+    ]);
+    expect(cachedAtStartup[1].keywords).toEqual(["stale"]);
+  } finally {
+    fs.rmSync(temporaryDirectory, { recursive: true, force: true });
+  }
 });

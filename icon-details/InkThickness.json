@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ControlLineThicknessGallery",
+      "imageAsset": "images/by-hash/c223c1781a4305f2.png"
+    },
+    {
+      "name": "LineThickness",
+      "imageAsset": "images/by-hash/8b9ce1d4bb31f477.png"
+    },
+    {
+      "name": "MoreColorAndThicknessOptions",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "ShapeColorAndThickness",
+      "imageAsset": "images/by-hash/f8efceb685193bce.png"
+    }
+  ],
+  "sameImageIds": []
+}

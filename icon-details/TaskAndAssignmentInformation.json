@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AssignmentInformation",
+      "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+    },
+    {
+      "name": "CancelTaskAssignment",
+      "imageAsset": "images/by-hash/8dfba6da393e2084.png"
+    },
+    {
+      "name": "TaskInformation",
+      "imageAsset": "images/by-hash/e86c6485f046e497.png"
+    },
+    {
+      "name": "AddAssignmentStage",
+      "imageAsset": "images/by-hash/4c50252de9e4f7f7.png"
+    },
+    {
+      "name": "ArrangeByAssignment",
+      "imageAsset": "images/by-hash/906061656933d759.png"
+    },
+    {
+      "name": "AssignmentNotes",
+      "imageAsset": "images/by-hash/9e6c27b717f1db46.png"
+    },
+    {
+      "name": "GroupAssignmentProperties",
+      "imageAsset": "images/by-hash/e4db3f297f87a651.png"
+    },
+    {
+      "name": "ReduceWorkOnAssignment",
+      "imageAsset": "images/by-hash/663b37e631b9981b.png"
+    },
+    {
+      "name": "AddSelectionToBusinessInformationLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "FileDocumentManagementInformation",
+      "imageAsset": "images/by-hash/c02c1d323af75aa4.png"
+    },
+    {
+      "name": "FunctionsInformationInsertGallery",
+      "imageAsset": "images/by-hash/19bf43f96361e3fc.png"
+    },
+    {
+      "name": "GroupRemoveHiddenInformation",
+      "imageAsset": "images/by-hash/5c8255b42864d3e4.png"
+    }
+  ],
+  "sameImageIds": []
+}

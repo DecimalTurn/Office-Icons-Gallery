@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CalendarMonthDetailsSplitButton",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    },
+    {
+      "name": "CreateListDetailsView",
+      "imageAsset": "images/by-hash/98d6d5786db121b5.png"
+    },
+    {
+      "name": "DataViewDetailsView",
+      "imageAsset": "images/by-hash/141eb9b927f43b2a.png"
+    },
+    {
+      "name": "GroupResourceFormViewDetails",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "GroupResourceUsageViewDetails",
+      "imageAsset": "images/by-hash/f5fd508399661656.png"
+    },
+    {
+      "name": "GroupSparklineDetailsShow",
+      "imageAsset": "images/by-hash/f66f1f20b7d1d18a.png"
+    },
+    {
+      "name": "GroupTaskFormViewDetails",
+      "imageAsset": "images/by-hash/63d7dbe7c40472c1.png"
+    },
+    {
+      "name": "GroupTaskUsageViewDetails",
+      "imageAsset": "images/by-hash/f5fd508399661656.png"
+    },
+    {
+      "name": "HideDetails",
+      "imageAsset": "images/by-hash/62d53a97e62ece02.png"
+    },
+    {
+      "name": "IconsAndDetails",
+      "imageAsset": "images/by-hash/cc81676e63da29d6.png"
+    },
+    {
+      "name": "MeetingDetailsInsertGallery",
+      "imageAsset": "images/by-hash/c674434a67623947.png"
+    },
+    {
+      "name": "MeetingDetailsOtherDayInsert",
+      "imageAsset": "images/by-hash/c674434a67623947.png"
+    }
+  ],
+  "sameImageIds": []
+}

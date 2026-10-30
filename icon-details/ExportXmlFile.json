@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "XmlExport",
+      "imageAsset": "images/by-hash/0cb67ed54ea88266.png"
+    },
+    {
+      "name": "DataFromXmlFile",
+      "imageAsset": "images/by-hash/478cef47be710fe6.png"
+    },
+    {
+      "name": "DataSourceCatalogXMLFile",
+      "imageAsset": "images/by-hash/2cbb1e7b3dd7b809.png"
+    },
+    {
+      "name": "ImportXmlFile",
+      "imageAsset": "images/by-hash/6549358767a5c46b.png"
+    },
+    {
+      "name": "ExportFile",
+      "imageAsset": "images/by-hash/e1c1f965cadf4b0b.png"
+    },
+    {
+      "name": "ExportTextFile",
+      "imageAsset": "images/by-hash/fb41960d6c6aaba9.png"
+    },
+    {
+      "name": "ExportToVCardFile",
+      "imageAsset": "images/by-hash/6831c96175f715bf.png"
+    },
+    {
+      "name": "DesignXml",
+      "imageAsset": "images/by-hash/9e5d37636e482d4e.png"
+    },
+    {
+      "name": "GroupXml",
+      "imageAsset": "images/by-hash/9e5d37636e482d4e.png"
+    },
+    {
+      "name": "GroupXmlMappingPane",
+      "imageAsset": "images/by-hash/9e5d37636e482d4e.png"
+    },
+    {
+      "name": "NewXmlPage",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "ReformatXml",
+      "imageAsset": "images/by-hash/7a5c9d479a5349e6.png"
+    }
+  ],
+  "sameImageIds": [
+    "XmlExport"
+  ]
+}

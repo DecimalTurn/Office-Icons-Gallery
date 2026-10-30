@@ -1,0 +1,15 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PurchaseTrial",
+      "imageAsset": "images/by-hash/0298c7a791ebfe03.png"
+    },
+    {
+      "name": "TrialConvert",
+      "imageAsset": "images/by-hash/0298c7a791ebfe03.png"
+    }
+  ],
+  "sameImageIds": [
+    "Deprovision"
+  ]
+}

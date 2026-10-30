@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PhoneticGuideEdit",
+      "imageAsset": "images/by-hash/fe734f8a4cbcf984.png"
+    },
+    {
+      "name": "PhoneticGuideFieldShow",
+      "imageAsset": "images/by-hash/28566b19d88d1297.png"
+    },
+    {
+      "name": "PhoneticGuideMenu",
+      "imageAsset": "images/by-hash/fe734f8a4cbcf984.png"
+    },
+    {
+      "name": "PhoneticGuideSettings",
+      "imageAsset": "images/by-hash/ef5f62fc18e0b4e7.png"
+    },
+    {
+      "name": "AsianLayoutCharacterScaling",
+      "imageAsset": "images/by-hash/8cbf09e565cd0616.png"
+    },
+    {
+      "name": "AsianLayoutCharactersEnclose",
+      "imageAsset": "images/by-hash/b4b0c0c1d476a36c.png"
+    },
+    {
+      "name": "AsianLayoutCombineCharacters",
+      "imageAsset": "images/by-hash/d56bd0b2926cda71.png"
+    },
+    {
+      "name": "AsianLayoutFitText",
+      "imageAsset": "images/by-hash/f65954aad1f1e694.png"
+    },
+    {
+      "name": "AsianLayoutHorizontalInVertical",
+      "imageAsset": "images/by-hash/ca87cdc980134c13.png"
+    },
+    {
+      "name": "AsianLayoutMenu",
+      "imageAsset": "images/by-hash/8cbf09e565cd0616.png"
+    },
+    {
+      "name": "AddHorizontalGuide",
+      "imageAsset": "images/by-hash/f52ccfeb77807033.png"
+    },
+    {
+      "name": "AddVerticalGuide",
+      "imageAsset": "images/by-hash/770c3126573549c1.png"
+    }
+  ],
+  "sameImageIds": [
+    "PhoneticGuideFieldShow"
+  ]
+}

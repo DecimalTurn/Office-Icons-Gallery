@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupOrgChartPicture",
+      "imageAsset": "images/by-hash/09afe70e742584fe.png"
+    },
+    {
+      "name": "OrgChartPictureHide",
+      "imageAsset": "images/by-hash/564c35cd0395321a.png"
+    },
+    {
+      "name": "OrgChartPictureInsert",
+      "imageAsset": "images/by-hash/09afe70e742584fe.png"
+    },
+    {
+      "name": "OrgChartPictureInsertMultiple",
+      "imageAsset": "images/by-hash/8d7630979745bd92.png"
+    },
+    {
+      "name": "PictureBackgroundRemovalMarkDelete",
+      "imageAsset": "images/by-hash/40c5f299a9d180cf.png"
+    },
+    {
+      "name": "FormatOrgChart",
+      "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+    },
+    {
+      "name": "GroupOrgChartArrange",
+      "imageAsset": "images/by-hash/605f848185171a7d.png"
+    },
+    {
+      "name": "GroupOrgChartLayout",
+      "imageAsset": "images/by-hash/fe3465ad6d5ba97d.png"
+    },
+    {
+      "name": "GroupOrgChartOrganizationData",
+      "imageAsset": "images/by-hash/25e25390f388f017.png"
+    },
+    {
+      "name": "GroupOrgChartSpacing",
+      "imageAsset": "images/by-hash/4be828dd2621d9d0.png"
+    },
+    {
+      "name": "GroupOrgChartSynchronize",
+      "imageAsset": "images/by-hash/1c1dec4fa0ab5f36.png"
+    },
+    {
+      "name": "OrgChartCopyCreate",
+      "imageAsset": "images/by-hash/1c1dec4fa0ab5f36.png"
+    }
+  ],
+  "sameImageIds": []
+}

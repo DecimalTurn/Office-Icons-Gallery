@@ -1,0 +1,60 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartFormatDropLines",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartFormatLeaderLines",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "ChartLines",
+      "imageAsset": "images/by-hash/89c41117d6409be5.png"
+    },
+    {
+      "name": "ConnectorCurvedLines",
+      "imageAsset": "images/by-hash/3752d4301ce9294c.png"
+    },
+    {
+      "name": "ConnectorStraightLines",
+      "imageAsset": "images/by-hash/1486805d920ad3d9.png"
+    },
+    {
+      "name": "DistributeAllLinesParagraph",
+      "imageAsset": "images/by-hash/f65954aad1f1e694.png"
+    },
+    {
+      "name": "JumpsAddToHorizontalLines",
+      "imageAsset": "images/by-hash/78e259cccdea5789.png"
+    },
+    {
+      "name": "JumpsAddToNoLines",
+      "imageAsset": "images/by-hash/01cf08c2bfaa9b6e.png"
+    },
+    {
+      "name": "JumpsAddToVerticalLines",
+      "imageAsset": "images/by-hash/f8531db4cc9a99f6.png"
+    },
+    {
+      "name": "ProgressLines",
+      "imageAsset": "images/by-hash/54041972ad35f3c6.png"
+    },
+    {
+      "name": "RuleLinesCollege",
+      "imageAsset": "images/by-hash/73157f1a96e9c084.png"
+    },
+    {
+      "name": "RuleLinesLargeGrid",
+      "imageAsset": "images/by-hash/1ee61d970a13f929.png"
+    }
+  ],
+  "sameImageIds": [
+    "ControlLineTypeGallery",
+    "GridlinesStyleGallery",
+    "LineStylesDialog",
+    "OutlineDashesGallery",
+    "SparklineCustomWeight",
+    "TextOutlineDashesGallery"
+  ]
+}

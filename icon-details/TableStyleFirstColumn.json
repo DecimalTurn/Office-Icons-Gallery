@@ -1,0 +1,23 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TableStyleColumnHeaders",
+      "imageAsset": "images/by-hash/ba873d6e3e13d6f8.png"
+    },
+    {
+      "name": "TableStyleFirstColumnPowerPoint",
+      "imageAsset": "images/by-hash/3d58f55d08816fe7.png"
+    },
+    {
+      "name": "TableStyleLastColumn",
+      "imageAsset": "images/by-hash/39525362ffff9136.png"
+    },
+    {
+      "name": "TableStyleLastColumnPowerPoint",
+      "imageAsset": "images/by-hash/39525362ffff9136.png"
+    }
+  ],
+  "sameImageIds": [
+    "TableStyleFirstColumnPowerPoint"
+  ]
+}

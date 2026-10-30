@@ -1,0 +1,63 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NewLocalNotebook",
+      "imageAsset": "images/by-hash/f4dd61ec3a6e3b40.png"
+    },
+    {
+      "name": "NetworkShareNotebook",
+      "imageAsset": "images/by-hash/d36c3889b16cd2ac.png"
+    },
+    {
+      "name": "ShareThisNotebook",
+      "imageAsset": "images/by-hash/e807794a9201c794.png"
+    },
+    {
+      "name": "WebShareNotebook",
+      "imageAsset": "images/by-hash/6418f4165a887532.png"
+    },
+    {
+      "name": "BusinessDataSyncWithLocalCache",
+      "imageAsset": "images/by-hash/e32569309eaf06fa.png"
+    },
+    {
+      "name": "FileSaveDatabaseAsLocal",
+      "imageAsset": "images/by-hash/33bc875ecd54e6e4.png"
+    },
+    {
+      "name": "GroupBusinessDataSyncWithLocalCache",
+      "imageAsset": "images/by-hash/e32569309eaf06fa.png"
+    },
+    {
+      "name": "SecurityLevelDomainLocal",
+      "imageAsset": "images/by-hash/621b755704223df8.png"
+    },
+    {
+      "name": "JotCreateHyperlinkToNotebookShort",
+      "imageAsset": "images/by-hash/92a7303c1a926fad.png"
+    },
+    {
+      "name": "JotHideNotebook",
+      "imageAsset": "images/by-hash/6143cdaaaee0a536.png"
+    },
+    {
+      "name": "JotNotebook",
+      "imageAsset": "images/by-hash/79c19b6cb9c41248.png"
+    },
+    {
+      "name": "JotSendSharedNotebookInvite",
+      "imageAsset": "images/by-hash/eb0e54a34f26ad5c.png"
+    }
+  ],
+  "sameImageIds": [
+    "BuildingBlocksOrganizer",
+    "CategoryCollapse",
+    "GroupManage",
+    "NewLocalNotebook",
+    "NewNotebookShort",
+    "NotebookNew",
+    "NotebookOpen",
+    "OpenNotebook",
+    "Organizer"
+  ]
+}

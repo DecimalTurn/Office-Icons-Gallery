@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "InsertFileUploadAndLink",
+      "imageAsset": "images/by-hash/bfcef9da9bb004d5.png"
+    },
+    {
+      "name": "Errors",
+      "imageAsset": "images/by-hash/828e97e4441434cb.png"
+    },
+    {
+      "name": "GroupResolveConflictsAndErrors",
+      "imageAsset": "images/by-hash/a9d09f6383031451.png"
+    },
+    {
+      "name": "GroupResolveToolConflictsAndErrors",
+      "imageAsset": "images/by-hash/10c4fe9c1c1d53e3.png"
+    },
+    {
+      "name": "MailMergeAutoCheckForErrors",
+      "imageAsset": "images/by-hash/78dff6663e341044.png"
+    }
+  ],
+  "sameImageIds": []
+}

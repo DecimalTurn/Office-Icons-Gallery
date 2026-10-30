@@ -1,0 +1,75 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SharingOpenWssDiscussionList",
+      "imageAsset": "images/by-hash/db73602f40367ae6.png"
+    },
+    {
+      "name": "SharingPreviewWssCalendar",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingPreviewWssContactList",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingPreviewWssDocumentList",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingPreviewWssTaskList",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingOpenWssCalendar",
+      "imageAsset": "images/by-hash/feff041c0012ff48.png"
+    },
+    {
+      "name": "SharingOpenWssContactList",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "SharingOpenWssDocumentList",
+      "imageAsset": "images/by-hash/603665a9404e542f.png"
+    },
+    {
+      "name": "SharingOpenWssTaskList",
+      "imageAsset": "images/by-hash/906061656933d759.png"
+    },
+    {
+      "name": "SharingPreviewPublishedCalendar",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "GroupDiscussion",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    },
+    {
+      "name": "NewDiscussionTool",
+      "imageAsset": "images/by-hash/df5ce218d7415890.png"
+    }
+  ],
+  "sameImageIds": [
+    "BroadcastResume",
+    "ContextualInBrowserGallery",
+    "GroupListCustomActionsManage",
+    "GroupListFormsManage",
+    "GroupPageSummaryManage",
+    "GroupPreviewInBrowser",
+    "GroupWebPreview",
+    "InBrowserGallery",
+    "OpenInBrowserOutlook",
+    "OpenInWebBrowser",
+    "OpenTargetURL",
+    "PreviewInBrowserDefault",
+    "PreviewInMultipleBrowsers",
+    "RssViewArticle",
+    "SharingPreviewPublishedCalendar",
+    "SharingPreviewWssCalendar",
+    "SharingPreviewWssContactList",
+    "SharingPreviewWssDocumentList",
+    "SharingPreviewWssTaskList",
+    "WebPagePreview",
+    "WebSiteMapPageCentricView"
+  ]
+}

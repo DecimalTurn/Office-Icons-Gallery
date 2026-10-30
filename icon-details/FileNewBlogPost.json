@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NewPostInThisFolder",
+      "imageAsset": "images/by-hash/8699c46265e08468.png"
+    },
+    {
+      "name": "NewPostInThisFolder3",
+      "imageAsset": "images/by-hash/8699c46265e08468.png"
+    },
+    {
+      "name": "Post",
+      "imageAsset": "images/by-hash/8699c46265e08468.png"
+    },
+    {
+      "name": "PostReply",
+      "imageAsset": "images/by-hash/284058bf50d3d773.png"
+    },
+    {
+      "name": "PostReplyToFolder",
+      "imageAsset": "images/by-hash/284058bf50d3d773.png"
+    },
+    {
+      "name": "BlogCategories",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "BlogCategoriesRefresh",
+      "imageAsset": "images/by-hash/740882e026184acf.png"
+    },
+    {
+      "name": "BlogCategoryInsert",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "BlogHomePage",
+      "imageAsset": "images/by-hash/cc7405a103b44a17.png"
+    },
+    {
+      "name": "BlogInsertCategories",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "BlogManageAccounts",
+      "imageAsset": "images/by-hash/2b702d6430221cf3.png"
+    },
+    {
+      "name": "BlogOpenExisting",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    }
+  ],
+  "sameImageIds": [
+    "SendNotesToBlog"
+  ]
+}

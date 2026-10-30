@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "JapanesePostcardCreateAddressSide",
+      "imageAsset": "images/by-hash/7bc0d89aa4baf964.png"
+    },
+    {
+      "name": "JapanesePostcardDialog",
+      "imageAsset": "images/by-hash/66e07a44761b804d.png"
+    },
+    {
+      "name": "JapanesePostcardMenu",
+      "imageAsset": "images/by-hash/66e07a44761b804d.png"
+    },
+    {
+      "name": "TextAlignLetterJustify",
+      "imageAsset": "images/by-hash/93ebb9dda214f74e.png"
+    },
+    {
+      "name": "PostcardWizard",
+      "imageAsset": "images/by-hash/111c129dd027d9a8.png"
+    },
+    {
+      "name": "JapaneseGreetingsInsertMenu",
+      "imageAsset": "images/by-hash/504fae1d399e11bd.png"
+    },
+    {
+      "name": "MailMergeJapanesePostalBarcode",
+      "imageAsset": "images/by-hash/1e05321ba85ebd9f.png"
+    },
+    {
+      "name": "ReviewJapaneseConsistencyChecker",
+      "imageAsset": "images/by-hash/8649c2627554b28b.png"
+    },
+    {
+      "name": "ChartFormatSideWall",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "InterconnectNextSide",
+      "imageAsset": "images/by-hash/bbbefcb9a421a3e6.png"
+    },
+    {
+      "name": "NewSideNote",
+      "imageAsset": "images/by-hash/9e6c27b717f1db46.png"
+    },
+    {
+      "name": "OrgChartSideBySideFourColumnSide",
+      "imageAsset": "images/by-hash/1bf5a4441a21fada.png"
+    }
+  ],
+  "sameImageIds": []
+}

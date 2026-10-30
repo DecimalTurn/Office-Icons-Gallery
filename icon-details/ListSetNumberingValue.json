@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "LogicSetFieldValueAction",
+      "imageAsset": "images/by-hash/3b14a2807b82ee8b.png"
+    },
+    {
+      "name": "ControlPropertyDefaultValue",
+      "imageAsset": "images/by-hash/e8223f1744c79315.png"
+    },
+    {
+      "name": "ControlPropertyHeightValue",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "ControlPropertyWidthValue",
+      "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+    },
+    {
+      "name": "DataGraphicColorByValue",
+      "imageAsset": "images/by-hash/4a0bb8efe940ce73.png"
+    },
+    {
+      "name": "DefaultValue",
+      "imageAsset": "images/by-hash/ae0969c1510aef5e.png"
+    },
+    {
+      "name": "TaskEarnedValueForm",
+      "imageAsset": "images/by-hash/1780ec708a063591.png"
+    },
+    {
+      "name": "BulletsAndNumberingBulletsDialog",
+      "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+    },
+    {
+      "name": "BulletsAndNumberingDialog",
+      "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+    },
+    {
+      "name": "BulletsAndNumberingNumberingDialog",
+      "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+    },
+    {
+      "name": "BulletsAndNumberingNumberingDialogPublisher",
+      "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+    },
+    {
+      "name": "JotOOCRedoAutoNumbering",
+      "imageAsset": "images/by-hash/33a97bd523f22be9.png"
+    }
+  ],
+  "sameImageIds": [
+    "EditListItems",
+    "StartNumberingDialog"
+  ]
+}

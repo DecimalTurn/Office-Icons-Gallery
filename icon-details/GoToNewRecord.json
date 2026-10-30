@@ -1,0 +1,67 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CatalogMergeGoToFirstRecord",
+      "imageAsset": "images/by-hash/1720f362fe7a57f6.png"
+    },
+    {
+      "name": "CatalogMergeGoToLastRecord",
+      "imageAsset": "images/by-hash/885b15570afb85d5.png"
+    },
+    {
+      "name": "CatalogMergeGoToNextRecord",
+      "imageAsset": "images/by-hash/0f42881fbb368916.png"
+    },
+    {
+      "name": "CatalogMergeGoToPreviousRecord",
+      "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+    },
+    {
+      "name": "MailMergeGoToFirstRecord",
+      "imageAsset": "images/by-hash/1720f362fe7a57f6.png"
+    },
+    {
+      "name": "MailMergeGoToNextRecord",
+      "imageAsset": "images/by-hash/0f42881fbb368916.png"
+    },
+    {
+      "name": "MailMergeGoToPreviousRecord",
+      "imageAsset": "images/by-hash/290f51eb8ae10aa5.png"
+    },
+    {
+      "name": "CatalogMergeExcludeSelectedRecord",
+      "imageAsset": "images/by-hash/e81f88c0221dad15.png"
+    },
+    {
+      "name": "DataFormAddRecord",
+      "imageAsset": "images/by-hash/cbcd65cd129061bc.png"
+    },
+    {
+      "name": "DataFormDeleteRecord",
+      "imageAsset": "images/by-hash/d974b7ad5963f526.png"
+    },
+    {
+      "name": "ExcludeSelectedRecord",
+      "imageAsset": "images/by-hash/e81f88c0221dad15.png"
+    },
+    {
+      "name": "FlyoutAnchorJotRecord",
+      "imageAsset": "images/by-hash/b9f7997a6d333fcc.png"
+    }
+  ],
+  "sameImageIds": [
+    "DataFormAddRecord",
+    "FormsToolNewRecordGallery",
+    "GroupDiscussion",
+    "GroupItems",
+    "GroupMeetingsToolAppointmentAgenda",
+    "GroupMeetingsToolAppointmentEditSummary",
+    "GroupMeetingsToolAppointmentNote",
+    "GroupMeetingsToolAppointmentSummary",
+    "GroupNewFormsTool",
+    "MeetingsToolAppointmentNewAgendaItem",
+    "MeetingsToolAppointmentNewNote",
+    "MeetingsToolAppointmentNewSummary",
+    "NewBusinessDataEntityInstance"
+  ]
+}

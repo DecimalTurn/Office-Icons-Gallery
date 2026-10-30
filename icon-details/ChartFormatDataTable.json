@@ -1,0 +1,33 @@
+{
+  "relatedIcons": [],
+  "sameImageIds": [
+    "ChartFormatAxis",
+    "ChartFormatAxisTitle",
+    "ChartFormatBackWall",
+    "ChartFormatChartArea",
+    "ChartFormatChartTitle",
+    "ChartFormatDataLabel",
+    "ChartFormatDataLabels",
+    "ChartFormatDataPoint",
+    "ChartFormatDataSeries",
+    "ChartFormatDisplayUnit",
+    "ChartFormatDownBars",
+    "ChartFormatDropLines",
+    "ChartFormatErrorBars",
+    "ChartFormatFloor",
+    "ChartFormatGridlines",
+    "ChartFormatHighLowLine",
+    "ChartFormatLeaderLines",
+    "ChartFormatLegend",
+    "ChartFormatLegendEntry",
+    "ChartFormatPlotArea",
+    "ChartFormatSeriesLine",
+    "ChartFormatSideWall",
+    "ChartFormatTrendline",
+    "ChartFormatTrendlineLabel",
+    "ChartFormatUpBars",
+    "ChartFormatWalls",
+    "ChartStylesGallery",
+    "GroupChartStyles"
+  ]
+}

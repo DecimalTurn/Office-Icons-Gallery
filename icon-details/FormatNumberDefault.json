@@ -1,0 +1,62 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NumberListDefault",
+      "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+    },
+    {
+      "name": "OutlineNumberDefault",
+      "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+    },
+    {
+      "name": "FormatCellsNumberDialog",
+      "imageAsset": "images/by-hash/07a8f718edb1e043.png"
+    },
+    {
+      "name": "NumberFormatGallery",
+      "imageAsset": "images/by-hash/6fbdf9ab15ce4e0a.png"
+    },
+    {
+      "name": "PageNumberFormat",
+      "imageAsset": "images/by-hash/1505168ee93bad1d.png"
+    },
+    {
+      "name": "BulletListDefault",
+      "imageAsset": "images/by-hash/f72a71c4bb88aaf2.png"
+    },
+    {
+      "name": "ContactCardDefaultPhoneCall",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "ContactCardDefaultSendEmail",
+      "imageAsset": "images/by-hash/676a2358a8eb6d14.png"
+    },
+    {
+      "name": "ContactCardDefaultSendInstantMessage",
+      "imageAsset": "images/by-hash/09795bc87c775160.png"
+    },
+    {
+      "name": "ControlPropertyDefaultValue",
+      "imageAsset": "images/by-hash/e8223f1744c79315.png"
+    },
+    {
+      "name": "DefaultPivotTable",
+      "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+    },
+    {
+      "name": "DefaultValue",
+      "imageAsset": "images/by-hash/ae0969c1510aef5e.png"
+    }
+  ],
+  "sameImageIds": [
+    "JotFormatNumbers",
+    "Numbering",
+    "NumberingCustomize",
+    "NumberingGallery",
+    "NumberingGalleryWord",
+    "NumberingMenu",
+    "NumberListDefault",
+    "OutlineNumberDefault"
+  ]
+}

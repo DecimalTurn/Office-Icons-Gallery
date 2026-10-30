@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupMacroActions",
+      "imageAsset": "images/by-hash/6a80a427c8e73043.png"
+    },
+    {
+      "name": "CreateDataMacro",
+      "imageAsset": "images/by-hash/35d9002c8659d82c.png"
+    },
+    {
+      "name": "CreateDataMacroMenu",
+      "imageAsset": "images/by-hash/35d9002c8659d82c.png"
+    },
+    {
+      "name": "CreateMacro",
+      "imageAsset": "images/by-hash/f1d930c1fb20b2ea.png"
+    },
+    {
+      "name": "CreateShortcutMenuFromMacro",
+      "imageAsset": "images/by-hash/5e246a33153a967d.png"
+    },
+    {
+      "name": "DataMacroGallery",
+      "imageAsset": "images/by-hash/3adb3b8173a46553.png"
+    },
+    {
+      "name": "DataMacroManager",
+      "imageAsset": "images/by-hash/08116315c572a271.png"
+    },
+    {
+      "name": "DataMacroTracing",
+      "imageAsset": "images/by-hash/d564ce0b09edd470.png"
+    },
+    {
+      "name": "FileSaveAsExcelXlsxMacro",
+      "imageAsset": "images/by-hash/73713247068d1008.png"
+    },
+    {
+      "name": "FormsToolRunMacroGallery",
+      "imageAsset": "images/by-hash/6a80a427c8e73043.png"
+    },
+    {
+      "name": "GroupMacro",
+      "imageAsset": "images/by-hash/65516a9f8188979e.png"
+    },
+    {
+      "name": "GroupMacroClose",
+      "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+    }
+  ],
+  "sameImageIds": [
+    "ShowAllEventsMacros"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "StatusDate",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "SyncStatusUpToDate",
+      "imageAsset": "images/by-hash/4bd86946952764c0.png"
+    },
+    {
+      "name": "TaskMoveCompletedPartsToStatusDate",
+      "imageAsset": "images/by-hash/c298599340a1ea9d.png"
+    },
+    {
+      "name": "TaskMoveIncompletePartsToStatusDate",
+      "imageAsset": "images/by-hash/f904ef0706eb5c45.png"
+    },
+    {
+      "name": "TimelineDateFormat",
+      "imageAsset": "images/by-hash/9cb11ab9dbbccc45.png"
+    },
+    {
+      "name": "GroupCachedModeStatus",
+      "imageAsset": "images/by-hash/2b5023e578e03294.png"
+    },
+    {
+      "name": "GroupProjectStatus",
+      "imageAsset": "images/by-hash/bcfb3706706b8cb6.png"
+    },
+    {
+      "name": "GroupStatusProjectStandard",
+      "imageAsset": "images/by-hash/bcfb3706706b8cb6.png"
+    },
+    {
+      "name": "GroupStatusTask",
+      "imageAsset": "images/by-hash/8f8754120435881b.png"
+    },
+    {
+      "name": "GroupSyncStatus",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    },
+    {
+      "name": "OLCopyTrackingStatus",
+      "imageAsset": "images/by-hash/b2989e0a8e55519f.png"
+    },
+    {
+      "name": "PersonaStatusAway",
+      "imageAsset": "images/by-hash/ac0b3c7a6fd0433a.png"
+    }
+  ],
+  "sameImageIds": []
+}

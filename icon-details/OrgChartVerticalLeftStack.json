@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OrgChartVerticalRightStack",
+      "imageAsset": "images/by-hash/41c6ff0289355500.png"
+    },
+    {
+      "name": "OrgChartVerticalLeft",
+      "imageAsset": "images/by-hash/d7797fe9ebddeb1b.png"
+    },
+    {
+      "name": "OrgChartVerticalLeftJog",
+      "imageAsset": "images/by-hash/212ef426faccbc0c.png"
+    },
+    {
+      "name": "OrgChartVerticalStaffLeft",
+      "imageAsset": "images/by-hash/71b8adc8585106cc.png"
+    },
+    {
+      "name": "OrgChartVerticalGallery",
+      "imageAsset": "images/by-hash/f82e0174fcb69fe3.png"
+    },
+    {
+      "name": "OrgChartVerticalRight",
+      "imageAsset": "images/by-hash/f82e0174fcb69fe3.png"
+    },
+    {
+      "name": "OrgChartVerticalRightJog",
+      "imageAsset": "images/by-hash/104b22e719bd3a24.png"
+    },
+    {
+      "name": "OrgChartVerticalStaffRight",
+      "imageAsset": "images/by-hash/89bc421a00b4ef2c.png"
+    },
+    {
+      "name": "OrgChartHorizontalLeft",
+      "imageAsset": "images/by-hash/8c1381a1e54b00d2.png"
+    },
+    {
+      "name": "OrgChartHorizontalLeftAlt",
+      "imageAsset": "images/by-hash/33c2f421d7380f9f.png"
+    },
+    {
+      "name": "OrgChartReportMoveLeft",
+      "imageAsset": "images/by-hash/1816c21da026fa8e.png"
+    },
+    {
+      "name": "FormatOrgChart",
+      "imageAsset": "images/by-hash/dc6ed26bd6ad3550.png"
+    }
+  ],
+  "sameImageIds": []
+}

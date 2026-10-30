@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MasterDocumentExpandOrCollapseSubdocuments",
+      "imageAsset": "images/by-hash/3b64db7773991543.png"
+    },
+    {
+      "name": "MasterDocumentMergeSubdocuments",
+      "imageAsset": "images/by-hash/a05ab91194ac5592.png"
+    },
+    {
+      "name": "GroupMasterDocument",
+      "imageAsset": "images/by-hash/644d9edfe733d347.png"
+    },
+    {
+      "name": "MasterDocument",
+      "imageAsset": "images/by-hash/644d9edfe733d347.png"
+    },
+    {
+      "name": "MasterDocumentCreateSubdocument",
+      "imageAsset": "images/by-hash/03a1df5bc9798230.png"
+    },
+    {
+      "name": "MasterDocumentInsertSubdocument",
+      "imageAsset": "images/by-hash/13d08b959565a0fd.png"
+    },
+    {
+      "name": "MasterDocumentLockSubdocument",
+      "imageAsset": "images/by-hash/a8ffec5114e40639.png"
+    },
+    {
+      "name": "MasterDocumentShow",
+      "imageAsset": "images/by-hash/644d9edfe733d347.png"
+    },
+    {
+      "name": "MasterDocumentUnlinkSubdocument",
+      "imageAsset": "images/by-hash/3f0c746a551ba006.png"
+    },
+    {
+      "name": "ViewMasterDocumentViewClassic",
+      "imageAsset": "images/by-hash/0361db1830da4d01.png"
+    },
+    {
+      "name": "BroadcastNotesSplitButton",
+      "imageAsset": "images/by-hash/25ceca008a74a306.png"
+    },
+    {
+      "name": "CalendarMonthDetailsSplitButton",
+      "imageAsset": "images/by-hash/038f181ce55ea297.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,66 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EyedropperOutlineText",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    },
+    {
+      "name": "Eyedropper3DColor",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    },
+    {
+      "name": "EyedropperFill",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    },
+    {
+      "name": "EyedropperFillColor",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    },
+    {
+      "name": "EyedropperFillText",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    },
+    {
+      "name": "EyedropperFontColor",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    },
+    {
+      "name": "EyedropperGlow",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    },
+    {
+      "name": "EyedropperGlowText",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    },
+    {
+      "name": "EyedropperLineColor",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    },
+    {
+      "name": "EyedropperLineColorText",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    },
+    {
+      "name": "EyedropperRecolor",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    },
+    {
+      "name": "EyedropperShadowColor",
+      "imageAsset": "images/by-hash/b85c81fe62976c15.png"
+    }
+  ],
+  "sameImageIds": [
+    "Eyedropper3DColor",
+    "EyedropperFill",
+    "EyedropperFillColor",
+    "EyedropperFillText",
+    "EyedropperFontColor",
+    "EyedropperGlow",
+    "EyedropperGlowText",
+    "EyedropperLineColor",
+    "EyedropperLineColorText",
+    "EyedropperOutlineText",
+    "EyedropperRecolor",
+    "EyedropperShadowColor"
+  ]
+}

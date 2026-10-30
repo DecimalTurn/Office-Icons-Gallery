@@ -1,0 +1,37 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SlideShowRehearseTimings",
+      "imageAsset": "images/by-hash/1481b256b70e3058.png"
+    },
+    {
+      "name": "SlideShowUsePresenterView",
+      "imageAsset": "images/by-hash/919a51806dcb421a.png"
+    },
+    {
+      "name": "CatalogMergeUseOutlookContacts",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "MailMergeRecepientsUseExistingList",
+      "imageAsset": "images/by-hash/ed662b1b3d27fe6e.png"
+    },
+    {
+      "name": "MailMergeRecepientsUseOutlookContacts",
+      "imageAsset": "images/by-hash/77ab365d2852a887.png"
+    },
+    {
+      "name": "NameUseInFormula",
+      "imageAsset": "images/by-hash/d5923aa78fc61dbb.png"
+    },
+    {
+      "name": "UseAccountOnAnotherComputer",
+      "imageAsset": "images/by-hash/eec5e4235d18acbc.png"
+    },
+    {
+      "name": "UseVotingButtonsMenu",
+      "imageAsset": "images/by-hash/9fd46fceb1eb4a60.png"
+    }
+  ],
+  "sameImageIds": []
+}

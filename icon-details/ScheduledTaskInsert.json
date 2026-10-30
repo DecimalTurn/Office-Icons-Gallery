@@ -1,0 +1,39 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ScheduledProjectFinishDate",
+      "imageAsset": "images/by-hash/aa022e861f00f076.png"
+    },
+    {
+      "name": "ScheduledProjectStartDate",
+      "imageAsset": "images/by-hash/aa022e861f00f076.png"
+    },
+    {
+      "name": "TeamPlannerAutoScheduledBorder",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "TeamPlannerAutoScheduledFillColor",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "TeamPlannerManuallyScheduledFillColor",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "UpdateAsScheduled",
+      "imageAsset": "images/by-hash/412165697685a106.png"
+    },
+    {
+      "name": "UpdateAsScheduledMenu",
+      "imageAsset": "images/by-hash/ed932db054599512.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupTaskInsert",
+    "GroupTaskStandardInsert",
+    "GroupTimelineViewInsert",
+    "TaskInsert",
+    "TimelineViewTaskInsert"
+  ]
+}

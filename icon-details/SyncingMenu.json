@@ -1,0 +1,24 @@
+{
+  "relatedIcons": [
+    {
+      "name": "JotSyncSyncing",
+      "imageAsset": "images/by-hash/3bbddf85b74991a8.png"
+    }
+  ],
+  "sameImageIds": [
+    "AccessRefreshAllLists",
+    "ConnectedToolSyncMenu",
+    "GroupSharePointConnectedTool",
+    "GroupSyncSharePointFilesToolO12",
+    "GroupSyncStatus",
+    "GroupUpdate",
+    "JotSyncSyncing",
+    "RefreshWebView",
+    "SyncConnectedTool",
+    "Synchronize",
+    "SyncMenu",
+    "SyncMenuSharePointFilesToolO12",
+    "SyncNow",
+    "SyncTool"
+  ]
+}

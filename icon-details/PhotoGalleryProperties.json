@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupPictureConvertToPhoto",
+      "imageAsset": "images/by-hash/a984bf709b50d24d.png"
+    },
+    {
+      "name": "PhotoAlbumEdit",
+      "imageAsset": "images/by-hash/ece113172d617549.png"
+    },
+    {
+      "name": "PhotoAlbumInsert",
+      "imageAsset": "images/by-hash/92a6baf4d6a0e24c.png"
+    },
+    {
+      "name": "PhotoAlbumInsertMenu",
+      "imageAsset": "images/by-hash/92a6baf4d6a0e24c.png"
+    }
+  ],
+  "sameImageIds": []
+}

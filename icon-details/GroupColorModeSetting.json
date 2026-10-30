@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupColorModeClose",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "ReadingModePageColorInverse",
+      "imageAsset": "images/by-hash/a1491bff5e46638f.png"
+    },
+    {
+      "name": "ReadingModePageColorMenu",
+      "imageAsset": "images/by-hash/84a62c7a27f34957.png"
+    },
+    {
+      "name": "ReadingModePageColorNone",
+      "imageAsset": "images/by-hash/53c21f42593d741d.png"
+    },
+    {
+      "name": "ReadingModePageColorSepia",
+      "imageAsset": "images/by-hash/d9426293f1528497.png"
+    },
+    {
+      "name": "ToggleColorMode",
+      "imageAsset": "images/by-hash/bc744cfbe28c41c0.png"
+    },
+    {
+      "name": "ColumnContentTypeSetting",
+      "imageAsset": "images/by-hash/133cf0f80266344b.png"
+    },
+    {
+      "name": "ColumnListSetting",
+      "imageAsset": "images/by-hash/b2a843b474d4461f.png"
+    },
+    {
+      "name": "ContTypeSetting",
+      "imageAsset": "images/by-hash/133cf0f80266344b.png"
+    },
+    {
+      "name": "ListSetting",
+      "imageAsset": "images/by-hash/b2a843b474d4461f.png"
+    },
+    {
+      "name": "OmsViewAccountSetting",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "AcetateModeOriginalMarkup",
+      "imageAsset": "images/by-hash/60176fe59b81b860.png"
+    }
+  ],
+  "sameImageIds": [
+    "BlackAndWhiteAutomatic"
+  ]
+}

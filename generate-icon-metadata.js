@@ -1,10 +1,14 @@
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
+const { nameKeywords, normalizeSynonyms, removeNameKeywords, splitIconName, synonymsForValues } = require("./scripts/keyword-utils");
 
 const imagesPath = path.join(__dirname, "images");
 const sharedImagesPath = path.join(imagesPath, "by-hash");
 const outputPath = path.join(__dirname, "icon-metadata.json");
+const iconDetailsPath = path.join(__dirname, "icon-details");
+const synonymsPath = path.join(__dirname, "icon-synonyms.json");
+const keywordsPath = path.join(__dirname, "icon-keywords.json");
 const placeholderManifestPath = path.join(__dirname, "assets", "placeholders", "manifest.tsv");
 const imageFiles = fs.readdirSync(imagesPath, { withFileTypes: true })
   .filter((entry) => entry.isFile() && path.extname(entry.name).toLowerCase() === ".png");
@@ -45,6 +49,29 @@ for (const row of placeholderRows) {
 
 iconNames.sort((left, right) =>
   left.localeCompare(right, "en", { numeric: true, sensitivity: "base" }) || left.localeCompare(right)
+);
+const reviewedKeywords = JSON.parse(fs.readFileSync(keywordsPath, "utf8"));
+if (!reviewedKeywords || Array.isArray(reviewedKeywords) || typeof reviewedKeywords !== "object") {
+  throw new Error("Reviewed keywords must be a JSON object keyed by icon ID");
+}
+const iconNameSet = new Set(iconNames);
+const invalidReviewedKeywords = Object.entries(reviewedKeywords)
+  .filter(([name, keywords]) => !/^[A-Za-z0-9_]+$/.test(name) || !Array.isArray(keywords) ||
+    keywords.some((keyword) => typeof keyword !== "string" || !keyword.trim()));
+if (invalidReviewedKeywords.length > 0) {
+  throw new Error("Invalid reviewed keywords: " + invalidReviewedKeywords.map(([name]) => name).join(", "));
+}
+const unknownKeywordIcons = Object.keys(reviewedKeywords).filter((name) => !iconNameSet.has(name));
+if (unknownKeywordIcons.length > 0) {
+  throw new Error("Reviewed keywords reference unknown icons: " + unknownKeywordIcons.join(", "));
+}
+const availableSynonymSources = new Set([
+  ...nameKeywords(iconNames),
+  ...Object.values(reviewedKeywords).flat().map((keyword) => keyword.trim().toLocaleLowerCase("en"))
+]);
+const synonyms = normalizeSynonyms(
+  JSON.parse(fs.readFileSync(synonymsPath, "utf8")),
+  availableSynonymSources
 );
 
 const imageHashByName = new Map();
@@ -130,39 +157,84 @@ const relatedKeywords = new Map(Object.entries({
   zoom: ["magnify", "scale"]
 }));
 
-const iconOverrides = new Map(Object.entries({
-  BrightnessLess: {
-    description: "Sun icon for reducing screen brightness and glare.",
-    keywords: ["brightness", "dark", "decrease", "dim", "dimmer", "display", "glare", "lower", "moon", "night", "screen", "sun", "sunlight"]
-  },
-  BrightnessMore: {
-    description: "Sun icon for increasing screen brightness.",
-    keywords: ["brightness", "brighten", "brighter", "daylight", "display", "increase", "light", "screen", "sun"]
-  },
-  AlignCenter: {
-    description: "Align text or objects to the center.",
-    keywords: ["align", "alignment", "center", "centered", "middle", "position"]
-  },
-  AnimationAudio: {
-    description: "Add speaker audio or sound to an animation.",
-    keywords: ["animation", "audio", "motion", "music", "sound", "speaker"]
-  },
-  CalendarImport: {
-    description: "Import appointments and events into a calendar.",
-    keywords: ["appointment", "calendar", "date", "event", "import", "schedule"]
-  },
-  ChartInsert: {
-    description: "Insert a chart or graph to visualize data.",
-    keywords: ["bar chart", "chart", "data", "graph", "insert", "plot", "visualization"]
-  },
-  BuildHyperlink: {
-    description: "Create a web hyperlink or URL.",
-    keywords: ["address", "hyperlink", "link", "url", "web", "website"]
-  },
-  AutoSigInsertPictureFromFile: {
-    description: "Insert a picture from a file into an email signature.",
-    keywords: ["email", "file", "graphic", "image", "insert", "photo", "picture", "signature"]
-  }
+const keywordOverrides = new Map(Object.entries({
+  "BrightnessLess": [
+    "brightness",
+    "dark",
+    "decrease",
+    "dim",
+    "dimmer",
+    "display",
+    "glare",
+    "lower",
+    "moon",
+    "night",
+    "screen",
+    "sun",
+    "sunlight"
+  ],
+  "BrightnessMore": [
+    "brightness",
+    "brighten",
+    "brighter",
+    "daylight",
+    "display",
+    "increase",
+    "light",
+    "screen",
+    "sun"
+  ],
+  "AlignCenter": [
+    "align",
+    "alignment",
+    "center",
+    "centered",
+    "middle",
+    "position"
+  ],
+  "AnimationAudio": [
+    "animation",
+    "audio",
+    "motion",
+    "music",
+    "sound",
+    "speaker"
+  ],
+  "CalendarImport": [
+    "appointment",
+    "calendar",
+    "date",
+    "event",
+    "import",
+    "schedule"
+  ],
+  "ChartInsert": [
+    "bar chart",
+    "chart",
+    "data",
+    "graph",
+    "insert",
+    "plot",
+    "visualization"
+  ],
+  "BuildHyperlink": [
+    "address",
+    "hyperlink",
+    "link",
+    "url",
+    "web",
+    "website"
+  ],
+  "AutoSigInsertPictureFromFile": [
+    "email",
+    "file",
+    "graphic",
+    "image",
+    "insert",
+    "photo",
+    "picture",
+    "signature"
+  ]
 }));
 
 const relatedIconOverrides = new Map(Object.entries({
@@ -189,12 +261,10 @@ for (const name of numericIconNames) {
   relatedIconOverrides.set(name, numericIconNames.filter((relatedName) => relatedName !== name));
 }
 
-const missingOverrides = [...iconOverrides.keys()].filter((name) => !iconNames.includes(name));
-if (missingOverrides.length > 0) {
-  throw new Error(`Overrides reference unknown icons: ${missingOverrides.join(", ")}`);
+const missingKeywordOverrides = [...keywordOverrides.keys()].filter((name) => !iconNames.includes(name));
+if (missingKeywordOverrides.length > 0) {
+  throw new Error("Keyword overrides reference unknown icons: " + missingKeywordOverrides.join(", "));
 }
-
-const iconNameSet = new Set(iconNames);
 for (const [name, relatedNames] of relatedIconOverrides) {
   const invalidRelatedNames = relatedNames.filter((relatedName) =>
     !iconNameSet.has(relatedName) || relatedName === name || placeholderIconNames.has(relatedName)
@@ -202,16 +272,6 @@ for (const [name, relatedNames] of relatedIconOverrides) {
   if (!iconNameSet.has(name) || placeholderIconNames.has(name) || invalidRelatedNames.length > 0 || new Set(relatedNames).size !== relatedNames.length) {
     throw new Error(`Invalid related icon IDs for ${name}: ${invalidRelatedNames.join(", ") || relatedNames.join(", ")}`);
   }
-}
-
-function splitIconName(name = "") {
-  return name
-    .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
-    .replace(/([A-Z])([A-Z][a-z])/g, "$1 $2")
-    .replace(/([A-Za-z])([0-9])/g, "$1 $2")
-    .replace(/([0-9])([A-Za-z])/g, "$1 $2")
-    .split(/[^A-Za-z0-9]+/)
-    .filter(Boolean);
 }
 
 const relatedNameStopWords = new Set([
@@ -283,43 +343,83 @@ function findRelatedIconNames(name) {
   return [...curatedNames, ...generatedNames].slice(0, 12);
 }
 
+const iconDetailsByName = new Map();
 const metadata = iconNames.map((name) => {
   const words = splitIconName(name);
   const normalizedWords = words.map((word) => word.toLowerCase());
-  const override = iconOverrides.get(name);
-  const relatedIcons = findRelatedIconNames(name);
+  const keywordOverride = keywordOverrides.get(name) || [];
+  const relatedIcons = findRelatedIconNames(name).map((relatedName) => ({
+    name: relatedName,
+    imageAsset: imageAssetByHash.get(imageHashByName.get(relatedName))
+  }));
   const imageHash = imageHashByName.get(name);
   const imageAsset = imageAssetByHash.get(imageHash);
   const placeholder = placeholderByHash.get(imageHash);
   const sameImageIds = placeholder
     ? []
     : (namesByImageHash.get(imageHash) || []).filter((otherName) => otherName !== name);
-  const keywords = new Set([
-    ...normalizedWords,
-    normalizedWords.join(" "),
+  if (relatedIcons.length > 0 || sameImageIds.length > 0) {
+    iconDetailsByName.set(name, { relatedIcons, sameImageIds });
+  }
+  const generatedKeywords = [
+    ...normalizedWords.filter((word) => word.length >= 4),
     ...normalizedWords.flatMap((word) => relatedKeywords.get(word) || []),
     ...(placeholder ? ["placeholder", "office fallback"] : []),
-    ...(override ? override.keywords : [])
-  ]);
-  const description = override
-    ? override.description
-    : `Office icon for ${words.join(" ").toLowerCase()}.`;
+    ...keywordOverride
+  ];
+  const keywords = new Set(removeNameKeywords([name], [
+    ...(Object.hasOwn(reviewedKeywords, name) ? reviewedKeywords[name] : generatedKeywords)
+      .map((keyword) => keyword.trim().toLocaleLowerCase("en"))
+  ]));
 
   return {
     name,
     imageAsset,
-    description,
     keywords: [...keywords].filter(Boolean).sort(),
-    ...(relatedIcons.length > 0 ? { relatedIcons } : {}),
-    ...(sameImageIds.length > 0 ? { sameImageIds } : {}),
+    imageSha256: imageHash,
     ...(placeholder ? {
       imageStatus: placeholder.imageStatus,
       placeholderLabel: placeholder.label,
-      placeholderAsset: placeholder.asset,
-      imageSha256: imageHash
+      placeholderAsset: placeholder.asset
     } : {})
   };
 });
 
+const keywordsByImageHash = new Map();
+for (const icon of metadata) {
+  const groupKey = icon.imageStatus === "placeholder" ? `placeholder:${icon.name}` : icon.imageSha256;
+  const group = keywordsByImageHash.get(groupKey) || [];
+  group.push(icon);
+  keywordsByImageHash.set(groupKey, group);
+}
+for (const group of keywordsByImageHash.values()) {
+  const groupNames = group.map((icon) => icon.name);
+  const sourceValues = [
+    ...groupNames.flatMap((name) => splitIconName(name)),
+    ...group.flatMap((icon) => icon.keywords)
+  ];
+  const expandedSynonyms = [...synonymsForValues(sourceValues, synonyms).keys()];
+  const sharedKeywords = removeNameKeywords(
+    groupNames,
+    [...new Set([...group.flatMap((icon) => icon.keywords), ...expandedSynonyms])]
+  ).sort();
+  group[0].keywords = sharedKeywords;
+  for (const icon of group.slice(1)) {
+    delete icon.keywords;
+  }
+}
+
 fs.writeFileSync(outputPath, `${JSON.stringify(metadata, null, 2)}\n`, "utf8");
+fs.mkdirSync(iconDetailsPath, { recursive: true });
+const expectedIconDetailFiles = new Set();
+for (const [name, iconDetails] of iconDetailsByName) {
+  const fileName = `${name}.json`;
+  expectedIconDetailFiles.add(fileName);
+  fs.writeFileSync(path.join(iconDetailsPath, fileName), `${JSON.stringify(iconDetails, null, 2)}\n`, "utf8");
+}
+for (const entry of fs.readdirSync(iconDetailsPath, { withFileTypes: true })) {
+  if (entry.isFile() && /^[A-Za-z0-9_]+\.json$/.test(entry.name) && !expectedIconDetailFiles.has(entry.name)) {
+    fs.unlinkSync(path.join(iconDetailsPath, entry.name));
+  }
+}
 console.log(`Generated metadata for ${metadata.length} icons in ${path.basename(outputPath)}`);

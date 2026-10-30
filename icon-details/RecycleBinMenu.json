@@ -1,0 +1,31 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AccessRecycleBin",
+      "imageAsset": "images/by-hash/f3f0c682f16cd986.png"
+    },
+    {
+      "name": "EmptyRecycleBin",
+      "imageAsset": "images/by-hash/48eab841d02031df.png"
+    },
+    {
+      "name": "RecycleBin",
+      "imageAsset": "images/by-hash/48eab841d02031df.png"
+    },
+    {
+      "name": "SharePointSiteRecycleBin",
+      "imageAsset": "images/by-hash/48eab841d02031df.png"
+    }
+  ],
+  "sameImageIds": [
+    "FileVersionHistory",
+    "FileVersionHistoryWord",
+    "PageVersions",
+    "PageVersionsHide",
+    "PageVersionSplitButton",
+    "PageVersionsShow",
+    "ShowVersionsHistory",
+    "SourceControlShowHistory",
+    "VersionHistory"
+  ]
+}

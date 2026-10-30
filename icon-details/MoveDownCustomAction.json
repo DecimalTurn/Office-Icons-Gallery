@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MoveUpCustomAction",
+      "imageAsset": "images/by-hash/068470b628dc1569.png"
+    },
+    {
+      "name": "AnimationCustomActionVerbDialog",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "AnimationCustomAddActionVerbDialog",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "ControlPropertyCustomCodeAction",
+      "imageAsset": "images/by-hash/222ac64c060cf337.png"
+    },
+    {
+      "name": "CreateCustomActionMenu",
+      "imageAsset": "images/by-hash/9eab4f479ca680f9.png"
+    },
+    {
+      "name": "NewCustomAction",
+      "imageAsset": "images/by-hash/9eab4f479ca680f9.png"
+    },
+    {
+      "name": "MeetingsToolAppointmentMoveDown",
+      "imageAsset": "images/by-hash/e725f668e6f610c7.png"
+    },
+    {
+      "name": "MoveDown",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    },
+    {
+      "name": "MoveDownSection",
+      "imageAsset": "images/by-hash/79274de9857dec98.png"
+    },
+    {
+      "name": "MoveElementDown",
+      "imageAsset": "images/by-hash/79274de9857dec98.png"
+    },
+    {
+      "name": "OutlineMoveDown",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    },
+    {
+      "name": "SectionMoveDown",
+      "imageAsset": "images/by-hash/1c1be2f181d35649.png"
+    }
+  ],
+  "sameImageIds": [
+    "MoveDownSection",
+    "MoveElementDown"
+  ]
+}

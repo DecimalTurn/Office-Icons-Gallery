@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "WebControlCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "WebControlDropDownBox",
+      "imageAsset": "images/by-hash/1f3cf0d15015b32a.png"
+    },
+    {
+      "name": "WebControlListBox",
+      "imageAsset": "images/by-hash/5afbe6d1834bbe58.png"
+    }
+  ],
+  "sameImageIds": [
+    "ActiveXTextBox",
+    "EditText",
+    "XDPlainTextField"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CDAudioStopTime",
+      "imageAsset": "images/by-hash/c38f44103fadbac2.png"
+    },
+    {
+      "name": "CDAudioStartTrack",
+      "imageAsset": "images/by-hash/6805ad7549fb04e1.png"
+    },
+    {
+      "name": "CDAudioPlayTrackAutomatically",
+      "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+    },
+    {
+      "name": "CDAudioStopTrack",
+      "imageAsset": "images/by-hash/1717741d790f74d2.png"
+    },
+    {
+      "name": "GroupCDAudioSetup",
+      "imageAsset": "images/by-hash/c4155e7df729c0ca.png"
+    },
+    {
+      "name": "AudioFadeInTime",
+      "imageAsset": "images/by-hash/98ded0db3abf56e4.png"
+    },
+    {
+      "name": "AudioFadeOutTime",
+      "imageAsset": "images/by-hash/d6721e5b45ce0e97.png"
+    },
+    {
+      "name": "AudioStartGallery",
+      "imageAsset": "images/by-hash/bb7015f30fd69c18.png"
+    },
+    {
+      "name": "JotAudioStartRecording",
+      "imageAsset": "images/by-hash/b9f7997a6d333fcc.png"
+    },
+    {
+      "name": "PersonaMenuStartAudioConference",
+      "imageAsset": "images/by-hash/cc9dcaf6cf044b7a.png"
+    },
+    {
+      "name": "FilePackageForCD",
+      "imageAsset": "images/by-hash/66640d64525a2dff.png"
+    },
+    {
+      "name": "AnimationAudio",
+      "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupTimer",
+    "StartTimer"
+  ]
+}

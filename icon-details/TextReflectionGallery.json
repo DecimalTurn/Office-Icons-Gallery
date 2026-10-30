@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PictureReflectionGallery",
+      "imageAsset": "images/by-hash/557805e0b24dcadf.png"
+    },
+    {
+      "name": "PictureReflectionGalleryItem",
+      "imageAsset": "images/by-hash/f944eb25132de916.png"
+    },
+    {
+      "name": "ReflectionGallery",
+      "imageAsset": "images/by-hash/2a0aaa33a0ed1678.png"
+    }
+  ],
+  "sameImageIds": []
+}

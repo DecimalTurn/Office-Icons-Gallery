@@ -1,0 +1,44 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FormatPictureOrShapeDialogClassic",
+      "imageAsset": "images/by-hash/da5ff4d2d3c30465.png"
+    },
+    {
+      "name": "HeaderFooterFormatPicture",
+      "imageAsset": "images/by-hash/24f88f3dbf743246.png"
+    },
+    {
+      "name": "PictureFormatDialogVisio",
+      "imageAsset": "images/by-hash/24f88f3dbf743246.png"
+    },
+    {
+      "name": "PictureSwapTwoPictureFormat",
+      "imageAsset": "images/by-hash/eb69d03156274df8.png"
+    }
+  ],
+  "sameImageIds": [
+    "_3DBevelOptionsDialog",
+    "_3DRotationOptionsDialog",
+    "ChartFormatSelection",
+    "DrawingObjectFormatPublisher",
+    "DrawingProperties",
+    "FormatComment",
+    "FormatDiagram",
+    "FormatHorizRule",
+    "FormatObject2",
+    "FormatOrgChart",
+    "FormatPlaceholder",
+    "GroupChartCurrentSelection",
+    "GroupShape",
+    "ImagePropertiesInfoPath",
+    "ObjectFormatDialog",
+    "PictureDisplay",
+    "TableFormatPublisher",
+    "TextBoxFormat",
+    "TextBoxFormatPublisher",
+    "TextEffects3DRotationOptionsDialog",
+    "TextEffectsBevelMore3DOptionsDialog",
+    "WordArtFormat"
+  ]
+}

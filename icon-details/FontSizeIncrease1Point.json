@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FontSizeIncrease",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "FontSizeIncreaseWord",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "ReadingViewFontSizeIncrease",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "SmartArtIncreaseFontSize",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "FontSizeDecrease1Point",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "FontSizeDecrease",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "FontSizeDecreaseWord",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "ReadingViewFontSizeDecrease",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "SmartArtDecreaseFontSize",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "FontColorMoreColorsDialogPowerPoint",
+      "imageAsset": "images/by-hash/3405b39950688aed.png"
+    },
+    {
+      "name": "FontDialogPowerPoint",
+      "imageAsset": "images/by-hash/29966962d94a4bec.png"
+    },
+    {
+      "name": "_3DPerspectiveIncrease",
+      "imageAsset": "images/by-hash/9c3ea6230877361d.png"
+    }
+  ],
+  "sameImageIds": [
+    "FontSizeIncrease",
+    "FontSizeIncreaseWord",
+    "GrowFontMenu",
+    "ReadingViewFontSizeIncrease",
+    "SmartArtIncreaseFontSize"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotTableSummarizeByMenu",
+      "imageAsset": "images/by-hash/27a1b60d1cfa89e7.png"
+    },
+    {
+      "name": "TableSummarizeWithPivot",
+      "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+    },
+    {
+      "name": "ConditionalFormattingAboveAverage",
+      "imageAsset": "images/by-hash/c1ac26fe2860b410.png"
+    },
+    {
+      "name": "ConditionalFormattingBelowAverage",
+      "imageAsset": "images/by-hash/3cf99b131af86a6e.png"
+    },
+    {
+      "name": "AutoSummarize",
+      "imageAsset": "images/by-hash/61c99640ab898dcc.png"
+    },
+    {
+      "name": "SummarizeSlide",
+      "imageAsset": "images/by-hash/7e4076448377ec0b.png"
+    }
+  ],
+  "sameImageIds": []
+}

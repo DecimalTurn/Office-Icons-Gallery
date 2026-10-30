@@ -1,0 +1,50 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChartFloor",
+      "imageAsset": "images/by-hash/6abcb06783e92a89.png"
+    },
+    {
+      "name": "FloorPlanConvertToWalls",
+      "imageAsset": "images/by-hash/5bc689796c87270c.png"
+    },
+    {
+      "name": "FloorPlanDisplayOptions",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupFloorPlanPlan",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChartFormatAxis",
+    "ChartFormatAxisTitle",
+    "ChartFormatBackWall",
+    "ChartFormatChartArea",
+    "ChartFormatChartTitle",
+    "ChartFormatDataLabel",
+    "ChartFormatDataLabels",
+    "ChartFormatDataPoint",
+    "ChartFormatDataSeries",
+    "ChartFormatDataTable",
+    "ChartFormatDisplayUnit",
+    "ChartFormatDownBars",
+    "ChartFormatDropLines",
+    "ChartFormatErrorBars",
+    "ChartFormatGridlines",
+    "ChartFormatHighLowLine",
+    "ChartFormatLeaderLines",
+    "ChartFormatLegend",
+    "ChartFormatLegendEntry",
+    "ChartFormatPlotArea",
+    "ChartFormatSeriesLine",
+    "ChartFormatSideWall",
+    "ChartFormatTrendline",
+    "ChartFormatTrendlineLabel",
+    "ChartFormatUpBars",
+    "ChartFormatWalls",
+    "ChartStylesGallery",
+    "GroupChartStyles"
+  ]
+}

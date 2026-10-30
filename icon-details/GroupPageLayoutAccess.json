@@ -1,0 +1,33 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupAccessLayoutWeb",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "GroupAccessReportLayout",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "GroupLayoutAccess",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "GroupReportLayoutWebAccess",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    }
+  ],
+  "sameImageIds": [
+    "FilePageSetupCalendar",
+    "GroupPageLayoutSetup",
+    "GroupPageSetup",
+    "GroupPageSetupHandoutMaster",
+    "GroupPageSetupNarrow",
+    "GroupPageSetupNotesMaster",
+    "GroupPageSize",
+    "GroupSlideSize",
+    "PageSize",
+    "PageSizeGallery",
+    "PaperSize"
+  ]
+}

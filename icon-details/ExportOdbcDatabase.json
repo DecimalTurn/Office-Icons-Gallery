@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ImportOdbcDatabase",
+      "imageAsset": "images/by-hash/0b0edc3b0358c42f.png"
+    },
+    {
+      "name": "CalendarToolExportAllAppointments",
+      "imageAsset": "images/by-hash/d51ac3a5ee3618c2.png"
+    },
+    {
+      "name": "CalendarToolExportSelectedAppointment",
+      "imageAsset": "images/by-hash/d51ac3a5ee3618c2.png"
+    },
+    {
+      "name": "Export",
+      "imageAsset": "images/by-hash/e1c1f965cadf4b0b.png"
+    },
+    {
+      "name": "ExportAccess",
+      "imageAsset": "images/by-hash/1ee197c5afcf23e2.png"
+    },
+    {
+      "name": "ExportBusinessDataCatalogModel",
+      "imageAsset": "images/by-hash/f7c94fd9dd255656.png"
+    },
+    {
+      "name": "ExportDBase",
+      "imageAsset": "images/by-hash/098d49653c7b17df.png"
+    },
+    {
+      "name": "ExportExcel",
+      "imageAsset": "images/by-hash/3f1548fe28ed03b8.png"
+    },
+    {
+      "name": "ExportFile",
+      "imageAsset": "images/by-hash/e1c1f965cadf4b0b.png"
+    },
+    {
+      "name": "ExportHtmlDocument",
+      "imageAsset": "images/by-hash/da2a8c907eebb5b3.png"
+    },
+    {
+      "name": "ExportLotus",
+      "imageAsset": "images/by-hash/40daecc41244daac.png"
+    },
+    {
+      "name": "ExportMoreMenu",
+      "imageAsset": "images/by-hash/ac5eee8aa2126a03.png"
+    }
+  ],
+  "sameImageIds": []
+}

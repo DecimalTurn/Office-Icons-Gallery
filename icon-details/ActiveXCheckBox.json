@@ -1,0 +1,72 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ActiveXComboBox",
+      "imageAsset": "images/by-hash/1f3cf0d15015b32a.png"
+    },
+    {
+      "name": "ActiveXListBox",
+      "imageAsset": "images/by-hash/5afbe6d1834bbe58.png"
+    },
+    {
+      "name": "ActiveXTextBox",
+      "imageAsset": "images/by-hash/132afc8193cf8935.png"
+    },
+    {
+      "name": "ContentControlCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "DataTypeCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "FormControlCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "WebControlCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "XDCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "ActiveXButton",
+      "imageAsset": "images/by-hash/965d899ec226e108.png"
+    },
+    {
+      "name": "ActiveXFrame",
+      "imageAsset": "images/by-hash/4d62ac0a7451562d.png"
+    },
+    {
+      "name": "ActiveXImage",
+      "imageAsset": "images/by-hash/a3c1694aead52859.png"
+    },
+    {
+      "name": "ActiveXLabel",
+      "imageAsset": "images/by-hash/facb4b355bd224b5.png"
+    }
+  ],
+  "sameImageIds": [
+    "CalculatedYesNo",
+    "ContentControlCheckBox",
+    "DataTypeCheckBox",
+    "DataTypeOnOff",
+    "DataTypeTrueFalse",
+    "DataTypeYesNo",
+    "DataTypeYesNoBasic",
+    "FormControlCheckBox",
+    "GroupCalendarViewShowHide",
+    "GroupGanttChartShowHide",
+    "GroupNetworkDiagramShowHide",
+    "GroupResourceUsageShowHide",
+    "GroupTaskUsageShowHide",
+    "GroupTeamPlannerShowHide",
+    "GroupTimelineViewShowHide",
+    "RulesConditionIsCheckedGallery",
+    "WebControlCheckBox",
+    "XDCheckBox"
+  ]
+}

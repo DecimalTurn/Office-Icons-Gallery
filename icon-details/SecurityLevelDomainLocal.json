@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SecurityLevelDomainInternet",
+      "imageAsset": "images/by-hash/621b755704223df8.png"
+    },
+    {
+      "name": "SecurityLevelDomainIntranet",
+      "imageAsset": "images/by-hash/621b755704223df8.png"
+    },
+    {
+      "name": "SecurityLevelDomainTrusted",
+      "imageAsset": "images/by-hash/621b755704223df8.png"
+    },
+    {
+      "name": "SecurityLevelDomainUntrusted",
+      "imageAsset": "images/by-hash/00a8170d77bd95c7.png"
+    },
+    {
+      "name": "DatabaseUserLevelSecurityWizard",
+      "imageAsset": "images/by-hash/2b78127422e675d2.png"
+    },
+    {
+      "name": "SecurityLevelSuperSandboxed",
+      "imageAsset": "images/by-hash/00a8170d77bd95c7.png"
+    },
+    {
+      "name": "SecurityLevelTrusted",
+      "imageAsset": "images/by-hash/11123938e0dd568e.png"
+    },
+    {
+      "name": "BusinessDataSyncWithLocalCache",
+      "imageAsset": "images/by-hash/e32569309eaf06fa.png"
+    },
+    {
+      "name": "FileSaveDatabaseAsLocal",
+      "imageAsset": "images/by-hash/33bc875ecd54e6e4.png"
+    },
+    {
+      "name": "GroupBusinessDataSyncWithLocalCache",
+      "imageAsset": "images/by-hash/e32569309eaf06fa.png"
+    },
+    {
+      "name": "LocalShareNotebook",
+      "imageAsset": "images/by-hash/f4dd61ec3a6e3b40.png"
+    },
+    {
+      "name": "NewLocalNotebook",
+      "imageAsset": "images/by-hash/f4dd61ec3a6e3b40.png"
+    }
+  ],
+  "sameImageIds": [
+    "SecurityLevelDomainInternet",
+    "SecurityLevelDomainIntranet",
+    "SecurityLevelDomainTrusted"
+  ]
+}

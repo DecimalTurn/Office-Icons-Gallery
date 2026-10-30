@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EquationVerticalAlignmentTop",
+      "imageAsset": "images/by-hash/2e90b564353180a5.png"
+    },
+    {
+      "name": "AlignTopExcel",
+      "imageAsset": "images/by-hash/2eb3ead835d5835c.png"
+    },
+    {
+      "name": "BottomVerticalAlign",
+      "imageAsset": "images/by-hash/4b6fbf0f99c0e63a.png"
+    },
+    {
+      "name": "MiddleVerticalAlign",
+      "imageAsset": "images/by-hash/4c68a2f53a2a66ab.png"
+    },
+    {
+      "name": "ObjectsAlignMiddleVertical",
+      "imageAsset": "images/by-hash/51561e72403de4fc.png"
+    },
+    {
+      "name": "ObjectsAlignMiddleVerticalOutlook",
+      "imageAsset": "images/by-hash/51561e72403de4fc.png"
+    },
+    {
+      "name": "ObjectsAlignMiddleVerticalSmart",
+      "imageAsset": "images/by-hash/51561e72403de4fc.png"
+    },
+    {
+      "name": "ObjectsAlignTop",
+      "imageAsset": "images/by-hash/25cd28379a50db64.png"
+    },
+    {
+      "name": "ObjectsAlignTopOutlook",
+      "imageAsset": "images/by-hash/25cd28379a50db64.png"
+    },
+    {
+      "name": "ObjectsAlignTopSmart",
+      "imageAsset": "images/by-hash/25cd28379a50db64.png"
+    },
+    {
+      "name": "PivotDiagramAlignTop",
+      "imageAsset": "images/by-hash/73983d87d2039817.png"
+    },
+    {
+      "name": "TableCellAlignTop",
+      "imageAsset": "images/by-hash/6ae9097ef639d562.png"
+    }
+  ],
+  "sameImageIds": [
+    "AlignTopExcel"
+  ]
+}

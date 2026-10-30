@@ -1,0 +1,125 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DeletePagePreviousVersion",
+      "imageAsset": "images/by-hash/1921c3efdc66749a.png"
+    },
+    {
+      "name": "FileVersionHistory",
+      "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+    },
+    {
+      "name": "FileVersionHistoryWord",
+      "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+    },
+    {
+      "name": "GroupPageVersionHistoryActions",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "GroupPageVersionHistoryManage",
+      "imageAsset": "images/by-hash/7b68147841e28c39.png"
+    },
+    {
+      "name": "KeepMyVersion",
+      "imageAsset": "images/by-hash/fc6206f285c71e32.png"
+    },
+    {
+      "name": "KeepServerVersion",
+      "imageAsset": "images/by-hash/e7b96ed34b3b06b2.png"
+    },
+    {
+      "name": "PageVersionSplitButton",
+      "imageAsset": "images/by-hash/dfb712e2a7468f54.png"
+    },
+    {
+      "name": "PublishMajorVersion",
+      "imageAsset": "images/by-hash/963230462172d3a1.png"
+    },
+    {
+      "name": "RestorePagePreviousVersion",
+      "imageAsset": "images/by-hash/7b68147841e28c39.png"
+    },
+    {
+      "name": "ReviewCompareLastVersion",
+      "imageAsset": "images/by-hash/b8cfe4606c311f5e.png"
+    },
+    {
+      "name": "ReviewCompareMajorVersion",
+      "imageAsset": "images/by-hash/ceac849c65095193.png"
+    }
+  ],
+  "sameImageIds": [
+    "Backspace",
+    "ChangeToDeclineInvitation",
+    "ClearGrid",
+    "ClearIconColors",
+    "ClearRow",
+    "ColumnActionsRemove",
+    "ContactDelete",
+    "ContentTypeColumnActionsRemove",
+    "DataSourceCatalogRemove",
+    "DeclineInvitation",
+    "DeclineTask",
+    "Delete",
+    "DeleteAppointmentGallery",
+    "DeleteContentType",
+    "DeleteDistributionGroup",
+    "DeleteFailedEntityInstanceCreateOperation",
+    "DeleteItem",
+    "DeleteItemInLaunchbar",
+    "DeleteNavigationLink",
+    "DeletePermissionGroup",
+    "DeleteSite",
+    "DeleteSpdPage",
+    "DeleteSPDSite",
+    "DeleteWeb",
+    "DeleteWorkspaceFromThisComputer",
+    "DeleteWorkspaceMenu",
+    "FolderDelete",
+    "FormsToolDelete",
+    "GanttTaskDelete",
+    "GroupActions",
+    "GroupCalendarTool",
+    "GroupDelete",
+    "GroupMailDelete",
+    "GroupMeetings",
+    "GroupMembersEdit",
+    "GroupPicturesTool",
+    "GroupSketchpad",
+    "GroupSummaryEdit",
+    "GuideDelete",
+    "JotPermanentlyDelete",
+    "ListDeleteList",
+    "ListDeleteSelected",
+    "MailDelete",
+    "MeetingsToolAppointmentDelete",
+    "MeetingsToolAppointmentDeleteAgendaItem",
+    "MeetingsToolAppointmentDeleteNote",
+    "MeetingsToolAppointmentDeleteSummary",
+    "MenuDeclineInvitation",
+    "NotebookDelete",
+    "NoteLinkDelete",
+    "NoteLinkDeleteGallery",
+    "NoteLinksDeleteAll",
+    "OutlookTaskRemove",
+    "OutlookTaskRemoveContextual",
+    "PivotClearAll",
+    "PivotTableDiscardChanges",
+    "RejectApprovalRequest",
+    "RelationshipsClearLayout",
+    "RemoveAttach",
+    "RemoveTaskPathHighlight",
+    "RemoveUserFromGroup",
+    "ReviewDeleteAllMarkupInPresentation",
+    "SharingRequestDeny",
+    "SiteColumnActionsRemove",
+    "SlicerDelete",
+    "SlicerDeleteTouch",
+    "TaskSummaryDeleteSelf",
+    "TimeSlicerDelete",
+    "TimeSlicerDeleteTouch",
+    "ToolDelete",
+    "WorkflowSummaryDeleteWorkflow"
+  ]
+}

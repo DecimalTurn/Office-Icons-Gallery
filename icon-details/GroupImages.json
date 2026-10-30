@@ -1,0 +1,16 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SmartArtRecolorImages",
+      "imageAsset": "images/by-hash/d73a401d2d9240c1.png"
+    }
+  ],
+  "sameImageIds": [
+    "ContentControlPicture",
+    "InsertDrawingCanvas",
+    "InsertImageHtmlTag",
+    "ObjectPictureFill",
+    "TableBackgroundPictureFill",
+    "TextPictureFill"
+  ]
+}

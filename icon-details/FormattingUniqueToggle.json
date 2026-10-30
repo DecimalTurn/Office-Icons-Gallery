@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FormattingUnique",
+      "imageAsset": "images/by-hash/14e3173e1afcae32.png"
+    },
+    {
+      "name": "FormattingRequiredFieldToggle",
+      "imageAsset": "images/by-hash/0ffdb5c61c29bfb8.png"
+    },
+    {
+      "name": "QueryUniqueValues",
+      "imageAsset": "images/by-hash/f3e0263c45a60d6b.png"
+    },
+    {
+      "name": "ActiveXToggleButton",
+      "imageAsset": "images/by-hash/ec7798c67ae9ecc9.png"
+    },
+    {
+      "name": "BorderBottomNoToggle",
+      "imageAsset": "images/by-hash/55ed253243346cfc.png"
+    },
+    {
+      "name": "BorderLeftNoToggle",
+      "imageAsset": "images/by-hash/aa0534c0ead9c22c.png"
+    },
+    {
+      "name": "BorderRightNoToggle",
+      "imageAsset": "images/by-hash/6cdf266bdd875afb.png"
+    },
+    {
+      "name": "BorderTopNoToggle",
+      "imageAsset": "images/by-hash/ab7e4b394c677a88.png"
+    },
+    {
+      "name": "CharacterCodeToggle",
+      "imageAsset": "images/by-hash/a4513abcd4ee3ea2.png"
+    },
+    {
+      "name": "ControlToggleButton",
+      "imageAsset": "images/by-hash/ec7798c67ae9ecc9.png"
+    },
+    {
+      "name": "EquationToggle",
+      "imageAsset": "images/by-hash/5f27fe84419337f4.png"
+    },
+    {
+      "name": "FilterToggleFilter",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    }
+  ],
+  "sameImageIds": [
+    "FormattingUnique"
+  ]
+}

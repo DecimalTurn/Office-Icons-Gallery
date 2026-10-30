@@ -1,0 +1,18 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SparklinesGroupSelected",
+      "imageAsset": "images/by-hash/9bb5d7892b9a1651.png"
+    },
+    {
+      "name": "SparklinesUngroupSelected",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupSparklineType",
+    "SparklineColorStyleGallery",
+    "SparklineConvertToLine",
+    "SparklineLineInsert"
+  ]
+}

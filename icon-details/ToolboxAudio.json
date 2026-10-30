@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ControlToolboxOutlook",
+      "imageAsset": "images/by-hash/2906b0aa2177acec.png"
+    },
+    {
+      "name": "ToolboxGallery",
+      "imageAsset": "images/by-hash/2906b0aa2177acec.png"
+    },
+    {
+      "name": "ToolboxGalleryWeb",
+      "imageAsset": "images/by-hash/2906b0aa2177acec.png"
+    },
+    {
+      "name": "ToolboxMarquee",
+      "imageAsset": "images/by-hash/c41466974a500ebb.png"
+    },
+    {
+      "name": "ToolboxVideo",
+      "imageAsset": "images/by-hash/950b456ae0756ce5.png"
+    },
+    {
+      "name": "AnimationAudio",
+      "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+    },
+    {
+      "name": "AudioAndVideoGiveFeedback",
+      "imageAsset": "images/by-hash/17cc4e91fcc92c9b.png"
+    },
+    {
+      "name": "AudioBookmarkAdd",
+      "imageAsset": "images/by-hash/6c0673dc10bb736d.png"
+    },
+    {
+      "name": "AudioBookmarkRemove",
+      "imageAsset": "images/by-hash/268c751644bda49a.png"
+    },
+    {
+      "name": "AudioFadeInTime",
+      "imageAsset": "images/by-hash/98ded0db3abf56e4.png"
+    },
+    {
+      "name": "AudioFadeOutTime",
+      "imageAsset": "images/by-hash/d6721e5b45ce0e97.png"
+    },
+    {
+      "name": "AudioInsert",
+      "imageAsset": "images/by-hash/44870adc1e9112a7.png"
+    }
+  ],
+  "sameImageIds": []
+}

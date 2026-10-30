@@ -1,0 +1,31 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PasteAsPicture",
+      "imageAsset": "images/by-hash/bc9919435d4b4ea5.png"
+    },
+    {
+      "name": "PastePictureLink",
+      "imageAsset": "images/by-hash/fd507a3247b65a79.png"
+    }
+  ],
+  "sameImageIds": [
+    "ActiveXImage",
+    "AutoSigInsertPictureFromFile",
+    "ControlImage",
+    "ControlPropertyPictureButtonBrowsePicture",
+    "GroupEffect",
+    "GroupNewPicturesTool",
+    "GroupPictures",
+    "HeaderFooterPictureInsert",
+    "NewPicturesTool",
+    "OmsImageFromFile",
+    "OmsInsertPicture",
+    "PictureFromFileInsert",
+    "PictureInsertFromFile",
+    "PictureInsertFromFilePowerPoint",
+    "PictureInsertFromFilePub",
+    "PictureInsertMenu",
+    "PicturesToolInsertPicture"
+  ]
+}

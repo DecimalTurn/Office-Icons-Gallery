@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ResourceSchedulingViewGiveFeedback",
+      "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+    },
+    {
+      "name": "SelectTaskCell",
+      "imageAsset": "images/by-hash/21caa061890b9878.png"
+    },
+    {
+      "name": "SelectTaskColumn",
+      "imageAsset": "images/by-hash/c08960493d58329d.png"
+    },
+    {
+      "name": "GroupAssignments",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    },
+    {
+      "name": "GroupAssignmentsStandard",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    },
+    {
+      "name": "SchedulingEngineGiveFeedback",
+      "imageAsset": "images/by-hash/ea62f6e160759c05.png"
+    },
+    {
+      "name": "ShowSchedulingPage",
+      "imageAsset": "images/by-hash/9919a0b8c8a2f4d3.png"
+    },
+    {
+      "name": "CostResourceInsert",
+      "imageAsset": "images/by-hash/ba63fa30844f0db4.png"
+    },
+    {
+      "name": "FilterByResource",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupDataResource",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupResourceFormViewDetails",
+      "imageAsset": "images/by-hash/ef865f28fc7e6047.png"
+    },
+    {
+      "name": "GroupResourceFormViewType",
+      "imageAsset": "images/by-hash/ddd38791ce7383ff.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,86 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReadingViewStartInking",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "ReadingViewChangeInkPenMenu",
+      "imageAsset": "images/by-hash/c223c1781a4305f2.png"
+    },
+    {
+      "name": "InkingBiasAuto",
+      "imageAsset": "images/by-hash/443025788bd82c49.png"
+    },
+    {
+      "name": "InkingBiasDraw",
+      "imageAsset": "images/by-hash/2a9330e9f8b65de5.png"
+    },
+    {
+      "name": "InkingBiasWrite",
+      "imageAsset": "images/by-hash/02b0c9eff20f5f64.png"
+    },
+    {
+      "name": "InkingStart",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "StartInking",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "AutoLinkingStop",
+      "imageAsset": "images/by-hash/71dee70b48fca71d.png"
+    },
+    {
+      "name": "CDAudioStopTime",
+      "imageAsset": "images/by-hash/c38f44103fadbac2.png"
+    },
+    {
+      "name": "CDAudioStopTrack",
+      "imageAsset": "images/by-hash/1717741d790f74d2.png"
+    },
+    {
+      "name": "JotANStopPlayback",
+      "imageAsset": "images/by-hash/3814a7700dd50fe4.png"
+    },
+    {
+      "name": "MacroRecorderStop",
+      "imageAsset": "images/by-hash/3814a7700dd50fe4.png"
+    }
+  ],
+  "sameImageIds": [
+    "BroadcastEnd",
+    "CancelEditing",
+    "CloseComparison",
+    "CloseInkEntryMode",
+    "ConflictViewClose",
+    "GroupBackgroundRemovalClose",
+    "GroupClearSearch",
+    "GroupColorModeClose",
+    "GroupConflictsClose",
+    "GroupHeaderFooterClose",
+    "GroupInkClose",
+    "GroupMasterClose",
+    "GroupMergeViewClose",
+    "GroupOutliningClose",
+    "GroupPreviewInfoPath",
+    "GroupPrintPreviewClosePreview",
+    "GroupPrintPreviewPreview",
+    "HeaderFooterClose",
+    "IconEditClose",
+    "InkNormalMode",
+    "InkToolsClose",
+    "MasterPageCloseEdit",
+    "MasterViewClose",
+    "MeetingsToolAppointmentDiscardChanges",
+    "MergeViewClose",
+    "OutlineViewClose",
+    "PreviewClose",
+    "PrintPreviewClose",
+    "QuickSearchCancel",
+    "ShapeSheetClose",
+    "StencilClose",
+    "XDPPClose"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CustomWatermarkGallery",
+      "imageAsset": "images/by-hash/5e7364c0e00d8a10.png"
+    },
+    {
+      "name": "WatermarkCustomDialog",
+      "imageAsset": "images/by-hash/5e7364c0e00d8a10.png"
+    },
+    {
+      "name": "WatermarkGallery",
+      "imageAsset": "images/by-hash/5e7364c0e00d8a10.png"
+    }
+  ],
+  "sameImageIds": []
+}

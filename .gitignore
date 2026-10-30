@@ -2,3 +2,8 @@ node_modules/
 test-results/.playwright-artifacts-0/
 test-results/
 playwright-report/
+.description-contact-sheet.html
+.description-review-drafts.json
+.description-review-drafts.json.tmp
+.reference-icon-lists.json
+.reference-icon-lists.json.tmp

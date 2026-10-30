@@ -1,0 +1,15 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OverallocationGoTo",
+      "imageAsset": "images/by-hash/67e69b375042ec68.png"
+    },
+    {
+      "name": "ViewOverallocationShow",
+      "imageAsset": "images/by-hash/0deada4eb32d3e22.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupTeamPlannerSchedule"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CreateDocumentLibrary",
+      "imageAsset": "images/by-hash/2bffa935a233eca7.png"
+    },
+    {
+      "name": "DocumentLibraryProperties",
+      "imageAsset": "images/by-hash/5f9639c5060c2a1f.png"
+    },
+    {
+      "name": "GroupDocumentLibraryEdit",
+      "imageAsset": "images/by-hash/90f5920b899619e8.png"
+    },
+    {
+      "name": "GroupDocumentLibraryFileActions",
+      "imageAsset": "images/by-hash/47cf5c778774c235.png"
+    },
+    {
+      "name": "GroupDocumentLibraryManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "GroupDocumentLibraryNew",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "ListCreateDocumentLibrary",
+      "imageAsset": "images/by-hash/a75d409ed1c34cf7.png"
+    },
+    {
+      "name": "NewDocumentLibrary2",
+      "imageAsset": "images/by-hash/a75d409ed1c34cf7.png"
+    },
+    {
+      "name": "NewDocumentLibraryContentMenu",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "PwaDataAnalysis",
+      "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+    },
+    {
+      "name": "PwaIssues",
+      "imageAsset": "images/by-hash/76b90da3c7d64d0e.png"
+    },
+    {
+      "name": "PwaPagePermissions",
+      "imageAsset": "images/by-hash/3d4e109f94401bbe.png"
+    }
+  ],
+  "sameImageIds": [
+    "CreateDocumentLibrary",
+    "HeaderFooterFilePathInsert",
+    "NewDocumentsTool",
+    "NewO12FilesTool"
+  ]
+}

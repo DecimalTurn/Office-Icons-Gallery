@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CollateLandscapeCollated",
+      "imageAsset": "images/by-hash/729123ede915a6c2.png"
+    },
+    {
+      "name": "CollatePortraitSeparated",
+      "imageAsset": "images/by-hash/da4241b41eda8fbe.png"
+    },
+    {
+      "name": "CollateLandscapeSeparated",
+      "imageAsset": "images/by-hash/0da2fd51c4a1fe3c.png"
+    },
+    {
+      "name": "PageOrientationPortrait",
+      "imageAsset": "images/by-hash/5b1fc3fa5d519955.png"
+    },
+    {
+      "name": "PageOrientationPortraitLandscape",
+      "imageAsset": "images/by-hash/d50a949df0433651.png"
+    }
+  ],
+  "sameImageIds": []
+}

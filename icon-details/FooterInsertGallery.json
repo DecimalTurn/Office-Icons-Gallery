@@ -1,0 +1,60 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CustomFooterGallery",
+      "imageAsset": "images/by-hash/40c451bf43fef867.png"
+    },
+    {
+      "name": "FooterInsertPublisher",
+      "imageAsset": "images/by-hash/40c451bf43fef867.png"
+    },
+    {
+      "name": "FormHeaderOrFooterShowHide",
+      "imageAsset": "images/by-hash/9a9da529e09061b0.png"
+    },
+    {
+      "name": "GoToFooter",
+      "imageAsset": "images/by-hash/6a2a6a83cc94a2fe.png"
+    },
+    {
+      "name": "GroupFormHeaderFooter",
+      "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+    },
+    {
+      "name": "GroupHeaderFooter",
+      "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+    },
+    {
+      "name": "GroupHeaderFooterClose",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "GroupHeaderFooterElements",
+      "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+    },
+    {
+      "name": "GroupHeaderFooterExcel",
+      "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+    },
+    {
+      "name": "GroupHeaderFooterInsert",
+      "imageAsset": "images/by-hash/bf89ea2041d2f5e3.png"
+    },
+    {
+      "name": "GroupHeaderFooterLayout",
+      "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+    },
+    {
+      "name": "GroupHeaderFooterNavigation",
+      "imageAsset": "images/by-hash/6a2a6a83cc94a2fe.png"
+    }
+  ],
+  "sameImageIds": [
+    "CustomFooterGallery",
+    "FooterInsertPublisher",
+    "HeaderFooterEditFooter",
+    "HeaderFooterFooterGallery",
+    "InsertBuildingBlocksFooterGallery",
+    "ViewFooter"
+  ]
+}

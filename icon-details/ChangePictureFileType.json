@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChangeControlTypeMenu",
+      "imageAsset": "images/by-hash/e8d7cfd98fa7c60e.png"
+    },
+    {
+      "name": "ChartChangeType",
+      "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+    },
+    {
+      "name": "ChartSeriesTypeChange",
+      "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+    },
+    {
+      "name": "ColumnActionsChangeType",
+      "imageAsset": "images/by-hash/5f241bde88d838b2.png"
+    },
+    {
+      "name": "OrgChartPositionTypeChange",
+      "imageAsset": "images/by-hash/35d9eb88f2b8e305.png"
+    },
+    {
+      "name": "ShapeSheetChangeRowType",
+      "imageAsset": "images/by-hash/0a28579ba4cfd5a5.png"
+    },
+    {
+      "name": "SiteColumnActionsChangeType",
+      "imageAsset": "images/by-hash/5f241bde88d838b2.png"
+    },
+    {
+      "name": "ChangePictureFromScanner",
+      "imageAsset": "images/by-hash/51f884df639d7c92.png"
+    },
+    {
+      "name": "PictureChange",
+      "imageAsset": "images/by-hash/b6920ebf67401601.png"
+    },
+    {
+      "name": "PictureChangeMenu",
+      "imageAsset": "images/by-hash/b6920ebf67401601.png"
+    },
+    {
+      "name": "AutoSigInsertPictureFromFile",
+      "imageAsset": "images/by-hash/a3c1694aead52859.png"
+    },
+    {
+      "name": "PictureFromFileInsert",
+      "imageAsset": "images/by-hash/a3c1694aead52859.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupPictureToolsAdjustClassic",
+    "PictureChange",
+    "PictureChangeMenu"
+  ]
+}

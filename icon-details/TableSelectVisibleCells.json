@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "NewMeetingHiddenWhenWithAllVisible",
+      "imageAsset": "images/by-hash/feff041c0012ff48.png"
+    },
+    {
+      "name": "RescheduleToNextAvailableVisibleByContext",
+      "imageAsset": "images/by-hash/02c4ecdd36cf035e.png"
+    },
+    {
+      "name": "ShowVisibleBorders",
+      "imageAsset": "images/by-hash/03df044ee313fe31.png"
+    },
+    {
+      "name": "TaskRespectLinksVisibleByContext",
+      "imageAsset": "images/by-hash/d622155ca0500559.png"
+    },
+    {
+      "name": "VisibilityVisible",
+      "imageAsset": "images/by-hash/d7347318b5bd316e.png"
+    },
+    {
+      "name": "AccessMergeCells",
+      "imageAsset": "images/by-hash/32b656a3b1ec1c0d.png"
+    },
+    {
+      "name": "CellsDelete",
+      "imageAsset": "images/by-hash/f836ed27023164d9.png"
+    },
+    {
+      "name": "CellsDeleteSmart",
+      "imageAsset": "images/by-hash/f836ed27023164d9.png"
+    },
+    {
+      "name": "CellsInsertDialog",
+      "imageAsset": "images/by-hash/86df329d6ababfa0.png"
+    },
+    {
+      "name": "CellsInsertSmart",
+      "imageAsset": "images/by-hash/86df329d6ababfa0.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightCellsMenu",
+      "imageAsset": "images/by-hash/6b7a34509ca46db1.png"
+    },
+    {
+      "name": "DeleteCells",
+      "imageAsset": "images/by-hash/f836ed27023164d9.png"
+    }
+  ],
+  "sameImageIds": []
+}

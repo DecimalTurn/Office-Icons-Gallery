@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GlueToGuides",
+      "imageAsset": "images/by-hash/6e3cb10128cb82be.png"
+    },
+    {
+      "name": "GridGuidesMenu",
+      "imageAsset": "images/by-hash/c79e464f06f373ec.png"
+    },
+    {
+      "name": "LayoutGuidesGallery",
+      "imageAsset": "images/by-hash/95db6721cba26fd6.png"
+    },
+    {
+      "name": "MasterPageGuides",
+      "imageAsset": "images/by-hash/8537cdd61973aa7f.png"
+    },
+    {
+      "name": "SnapToGuides",
+      "imageAsset": "images/by-hash/0ba34f66b73d8296.png"
+    }
+  ],
+  "sameImageIds": []
+}

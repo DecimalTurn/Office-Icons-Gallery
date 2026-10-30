@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupAdpDiagramShowHide",
+      "imageAsset": "images/by-hash/3ce52e58a86dd5ae.png"
+    },
+    {
+      "name": "AdpDiagramAddRelatedTables",
+      "imageAsset": "images/by-hash/3ce52e58a86dd5ae.png"
+    },
+    {
+      "name": "AdpDiagramAddTable",
+      "imageAsset": "images/by-hash/137ac164f27ccd56.png"
+    },
+    {
+      "name": "AdpDiagramArrangeSelection",
+      "imageAsset": "images/by-hash/917cc34f1d929f62.png"
+    },
+    {
+      "name": "AdpDiagramArrangeTables",
+      "imageAsset": "images/by-hash/fdd10e6aaa27bf02.png"
+    },
+    {
+      "name": "AdpDiagramAutosizeSelectedTables",
+      "imageAsset": "images/by-hash/8f2da1eb3cb54652.png"
+    },
+    {
+      "name": "AdpDiagramColumnNames",
+      "imageAsset": "images/by-hash/c5ddb0905ee042e2.png"
+    },
+    {
+      "name": "AdpDiagramColumnProperties",
+      "imageAsset": "images/by-hash/c69b590845550f0a.png"
+    },
+    {
+      "name": "AdpDiagramCustomView",
+      "imageAsset": "images/by-hash/70cbb19a4d56615d.png"
+    },
+    {
+      "name": "AdpDiagramDeleteTable",
+      "imageAsset": "images/by-hash/be3101efbcf48928.png"
+    },
+    {
+      "name": "AdpDiagramIndexesKeys",
+      "imageAsset": "images/by-hash/ad1f748dc2c78dc8.png"
+    },
+    {
+      "name": "AdpDiagramKeys",
+      "imageAsset": "images/by-hash/7a45abbe682e6d03.png"
+    }
+  ],
+  "sameImageIds": [
+    "RelationshipsHideTable"
+  ]
+}

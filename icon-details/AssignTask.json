@@ -1,0 +1,20 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FacilitiesAssignCategory",
+      "imageAsset": "images/by-hash/81286b9a0ccb679f.png"
+    },
+    {
+      "name": "ResourcesAssign",
+      "imageAsset": "images/by-hash/1b9e5011b9700439.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupManageTask",
+    "NewTaskForContact",
+    "NewTaskRequest",
+    "NewTaskRequest2",
+    "NewTaskRequestCompact",
+    "ShareTaskFolder"
+  ]
+}

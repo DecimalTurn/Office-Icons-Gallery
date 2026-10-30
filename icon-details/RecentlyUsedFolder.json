@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SaveSentItemRecentlyUsedFolder",
+      "imageAsset": "images/by-hash/40f60585758fbe5f.png"
+    },
+    {
+      "name": "ChartMostRecentlyUsed",
+      "imageAsset": "images/by-hash/720e34890e473f48.png"
+    },
+    {
+      "name": "FunctionsRecentlyUsedtInsertGallery",
+      "imageAsset": "images/by-hash/b658c8941aeabbd3.png"
+    },
+    {
+      "name": "EraserLastUsed",
+      "imageAsset": "images/by-hash/d70bcff83c399d86.png"
+    },
+    {
+      "name": "ExtendedTextFormattingMostRecenltyUsed",
+      "imageAsset": "images/by-hash/dd658866b1a9ac91.png"
+    }
+  ],
+  "sameImageIds": []
+}

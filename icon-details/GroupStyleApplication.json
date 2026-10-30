@@ -1,0 +1,23 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DsaShowStyleApplicationOverlay",
+      "imageAsset": "images/by-hash/99bd5296af20e5d6.png"
+    },
+    {
+      "name": "ApplicationOptionsDialog",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupApplicationLog",
+      "imageAsset": "images/by-hash/a0d6e56de238e3d2.png"
+    },
+    {
+      "name": "SynchronizeApplicationChanges",
+      "imageAsset": "images/by-hash/6fbe1de1a9ec36da.png"
+    }
+  ],
+  "sameImageIds": [
+    "DsaStyleMode"
+  ]
+}

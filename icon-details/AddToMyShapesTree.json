@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "VisioMyShapes",
+      "imageAsset": "images/by-hash/eaf0cbeb06aa2b96.png"
+    },
+    {
+      "name": "AddToMySite",
+      "imageAsset": "images/by-hash/70b6b8bf57bb7ab2.png"
+    },
+    {
+      "name": "ContactAddMyContacts",
+      "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+    },
+    {
+      "name": "TreeDownThenLeft",
+      "imageAsset": "images/by-hash/3db143d6aa9eecce.png"
+    },
+    {
+      "name": "TreeDownThenRight",
+      "imageAsset": "images/by-hash/71bf2c57833261bf.png"
+    },
+    {
+      "name": "TreeLeftThenDown",
+      "imageAsset": "images/by-hash/01c9f05fa9fac61f.png"
+    },
+    {
+      "name": "TreeRightThenDown",
+      "imageAsset": "images/by-hash/fb5e4fdd35948003.png"
+    },
+    {
+      "name": "ContactCardViewMySite",
+      "imageAsset": "images/by-hash/0fd8be26c86aab0c.png"
+    },
+    {
+      "name": "CustomizeMySite",
+      "imageAsset": "images/by-hash/93781d39d8f61aa1.png"
+    },
+    {
+      "name": "InviteMyOtherComputers",
+      "imageAsset": "images/by-hash/b5ef06e64f620e41.png"
+    },
+    {
+      "name": "KeepMyVersion",
+      "imageAsset": "images/by-hash/fc6206f285c71e32.png"
+    },
+    {
+      "name": "MyCalendar",
+      "imageAsset": "images/by-hash/cd232eb2dfc33f91.png"
+    }
+  ],
+  "sameImageIds": []
+}

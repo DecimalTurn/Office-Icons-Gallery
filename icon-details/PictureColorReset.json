@@ -1,0 +1,63 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupPictureReset",
+      "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+    },
+    {
+      "name": "PictureArtisticEffectsReset",
+      "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+    },
+    {
+      "name": "PictureCorrectionsReset",
+      "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+    },
+    {
+      "name": "PictureReset",
+      "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+    },
+    {
+      "name": "PictureResetAndSize",
+      "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+    },
+    {
+      "name": "PictureResetSplitButton",
+      "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+    },
+    {
+      "name": "PictureBorderColorPickerClassic",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "PictureColorDialog",
+      "imageAsset": "images/by-hash/6ba4f4a6160a8d70.png"
+    },
+    {
+      "name": "PictureColorMenu",
+      "imageAsset": "images/by-hash/33a2a499c4e19654.png"
+    },
+    {
+      "name": "PictureColorTempertatureGallery",
+      "imageAsset": "images/by-hash/e1e6082fe0dac8bb.png"
+    },
+    {
+      "name": "PictureSetTransparentColor",
+      "imageAsset": "images/by-hash/ea0ebc16e5dee9c4.png"
+    },
+    {
+      "name": "ChartResetToMatchStyle",
+      "imageAsset": "images/by-hash/9940c20fa1f26a2a.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupPictureReset",
+    "PictureArtisticEffectsReset",
+    "PictureCorrectionsReset",
+    "PictureReset",
+    "PictureResetAndSize",
+    "PictureResetSplitButton",
+    "RestoreImageSize",
+    "RestorePicture",
+    "VideoPosterFrameReset"
+  ]
+}

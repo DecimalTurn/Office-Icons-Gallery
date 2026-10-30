@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupVideoBookmark",
+      "imageAsset": "images/by-hash/6c0673dc10bb736d.png"
+    },
+    {
+      "name": "VideoBookmarkAdd",
+      "imageAsset": "images/by-hash/6c0673dc10bb736d.png"
+    },
+    {
+      "name": "AudioBookmarkRemove",
+      "imageAsset": "images/by-hash/268c751644bda49a.png"
+    },
+    {
+      "name": "AnimationTriggerAddOnMediaBookmark",
+      "imageAsset": "images/by-hash/aa12c08ca0884264.png"
+    },
+    {
+      "name": "AudioBookmarkAdd",
+      "imageAsset": "images/by-hash/6c0673dc10bb736d.png"
+    },
+    {
+      "name": "BookmarkInsert",
+      "imageAsset": "images/by-hash/94545ae26a01263b.png"
+    },
+    {
+      "name": "BookmarkInsertPublisher",
+      "imageAsset": "images/by-hash/94545ae26a01263b.png"
+    },
+    {
+      "name": "FrontPageToggleBookmark",
+      "imageAsset": "images/by-hash/94545ae26a01263b.png"
+    },
+    {
+      "name": "GoToBookmark",
+      "imageAsset": "images/by-hash/6cf9526c431d604a.png"
+    },
+    {
+      "name": "GroupAudioBookmark",
+      "imageAsset": "images/by-hash/6c0673dc10bb736d.png"
+    },
+    {
+      "name": "GroupBookmark",
+      "imageAsset": "images/by-hash/94545ae26a01263b.png"
+    },
+    {
+      "name": "HtmlNextBookmark",
+      "imageAsset": "images/by-hash/e02ba4eab235d1b7.png"
+    }
+  ],
+  "sameImageIds": [
+    "AudioBookmarkRemove"
+  ]
+}

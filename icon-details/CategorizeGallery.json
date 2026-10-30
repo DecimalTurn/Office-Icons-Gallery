@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CategorizeMenu",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "QuickStepTemplateCategorizeAndMove",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    }
+  ],
+  "sameImageIds": [
+    "AllCategories",
+    "AppointmentColorDialog",
+    "ArrangeByCategory",
+    "BlogCategories",
+    "BlogCategoryInsert",
+    "BlogInsertCategories",
+    "CategorizeMenu",
+    "GroupBlogProperties",
+    "GroupCalendarTags",
+    "GroupJournalOptions",
+    "GroupNotesOptions",
+    "GroupTaskListTags",
+    "QuickSearchAnyCategory",
+    "QuickSearchCategories",
+    "QuickStepTemplateCategorizeAndMove"
+  ]
+}

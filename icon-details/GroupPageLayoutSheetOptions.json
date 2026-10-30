@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CalculateSheet",
+      "imageAsset": "images/by-hash/75a85b739931966b.png"
+    },
+    {
+      "name": "CssAttachStyleSheet",
+      "imageAsset": "images/by-hash/e74c513b67919470.png"
+    },
+    {
+      "name": "GroupShapeSheetEditing",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "GroupShapeSheetFormulaTracing",
+      "imageAsset": "images/by-hash/e970103affe3a677.png"
+    },
+    {
+      "name": "GroupShapeSheetRows",
+      "imageAsset": "images/by-hash/987f395d63e7009b.png"
+    },
+    {
+      "name": "GroupShapeSheetSections",
+      "imageAsset": "images/by-hash/eedb33b32bd62eaf.png"
+    },
+    {
+      "name": "GroupShapeSheetView",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "GroupSheetFormat",
+      "imageAsset": "images/by-hash/38d76334050dad66.png"
+    },
+    {
+      "name": "HeaderFooterSheetNameInsert",
+      "imageAsset": "images/by-hash/1c3cac6fcdeadf5f.png"
+    },
+    {
+      "name": "MultipleSheetPrintPreview",
+      "imageAsset": "images/by-hash/c1e7d0de4652dd3a.png"
+    },
+    {
+      "name": "PageSetupSheetDialog",
+      "imageAsset": "images/by-hash/6fc833375670e77a.png"
+    },
+    {
+      "name": "PrintShapeSheet",
+      "imageAsset": "images/by-hash/763437c7a1347af5.png"
+    }
+  ],
+  "sameImageIds": [
+    "CustomViews",
+    "ViewCustomViews"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FormattingMarkDropDown",
+      "imageAsset": "images/by-hash/e4d6825178600211.png"
+    },
+    {
+      "name": "FormControlCombinationDropDownEdit",
+      "imageAsset": "images/by-hash/ae8fc241a9e40930.png"
+    },
+    {
+      "name": "WebControlDropDownBox",
+      "imageAsset": "images/by-hash/1f3cf0d15015b32a.png"
+    },
+    {
+      "name": "ChartFormatDropLines",
+      "imageAsset": "images/by-hash/169e2fd0def5a1e2.png"
+    },
+    {
+      "name": "DropCapGalleryPublisher",
+      "imageAsset": "images/by-hash/ffa54dad003b689f.png"
+    },
+    {
+      "name": "DropCapInsertGallery",
+      "imageAsset": "images/by-hash/ffa54dad003b689f.png"
+    },
+    {
+      "name": "DropCapOptionsDialog",
+      "imageAsset": "images/by-hash/ffa54dad003b689f.png"
+    },
+    {
+      "name": "FileDropSqlDatabase",
+      "imageAsset": "images/by-hash/a0176d556cbf9157.png"
+    },
+    {
+      "name": "PasteDragDropDestinationTheme",
+      "imageAsset": "images/by-hash/94aff1473d9111ab.png"
+    },
+    {
+      "name": "PasteDragDropSourceFormatting",
+      "imageAsset": "images/by-hash/e148546483e598d2.png"
+    },
+    {
+      "name": "PivotDropAreas",
+      "imageAsset": "images/by-hash/95d51318329f3542.png"
+    },
+    {
+      "name": "_3DTiltDownClassic",
+      "imageAsset": "images/by-hash/3feb97f7e19ab7cd.png"
+    }
+  ],
+  "sameImageIds": [
+    "MultilineTextboxInsert"
+  ]
+}

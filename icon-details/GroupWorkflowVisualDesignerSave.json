@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CreateWorkflowDiagramVisualDesigner",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "GroupWorkflowVisualDesignerManage",
+      "imageAsset": "images/by-hash/c966d15d29d8a20d.png"
+    },
+    {
+      "name": "GroupWorkflowVisualDesignerModify",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupWorkflowVisualDesignerVariables",
+      "imageAsset": "images/by-hash/0f5a38804b681599.png"
+    },
+    {
+      "name": "GroupWorkflowDesignerInsert",
+      "imageAsset": "images/by-hash/888b6d91cc62dd3b.png"
+    },
+    {
+      "name": "GroupWorkflowDesignerManage",
+      "imageAsset": "images/by-hash/8166418eccf14f70.png"
+    },
+    {
+      "name": "GroupWorkflowDesignerModify",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "GroupWorkflowDesignerVariables",
+      "imageAsset": "images/by-hash/0f5a38804b681599.png"
+    },
+    {
+      "name": "GroupWorkflowTextBasedDesignerInsert",
+      "imageAsset": "images/by-hash/888b6d91cc62dd3b.png"
+    },
+    {
+      "name": "GroupWorkflowTextBasedDesignerManage",
+      "imageAsset": "images/by-hash/8166418eccf14f70.png"
+    },
+    {
+      "name": "GroupWorkflowTextBasedDesignerVariables",
+      "imageAsset": "images/by-hash/0f5a38804b681599.png"
+    },
+    {
+      "name": "GroupListToolDesignerSave",
+      "imageAsset": "images/by-hash/c4a2df5c55a7fc2e.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupWorkflowSave",
+    "GroupWorkflowSummarySave",
+    "GroupWorkflowTaskSummarySave",
+    "PublishWorkflow"
+  ]
+}

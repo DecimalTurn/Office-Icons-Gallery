@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SparklinesGroupSelected",
+      "imageAsset": "images/by-hash/9bb5d7892b9a1651.png"
+    },
+    {
+      "name": "GroupSparklinesInsert",
+      "imageAsset": "images/by-hash/553c22234553f743.png"
+    },
+    {
+      "name": "ContentControlsUngroup",
+      "imageAsset": "images/by-hash/a114f76642ee2f81.png"
+    },
+    {
+      "name": "ObjectsUngroup",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    },
+    {
+      "name": "ObjectsUngroupMultiple",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    },
+    {
+      "name": "ObjectsUngroupOutlook",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    },
+    {
+      "name": "OutlineUngroup",
+      "imageAsset": "images/by-hash/c031917157434ff3.png"
+    },
+    {
+      "name": "OutlineUngroupMenu",
+      "imageAsset": "images/by-hash/8b2c9c5c4ed7072a.png"
+    },
+    {
+      "name": "PivotUngroupItems",
+      "imageAsset": "images/by-hash/c031917157434ff3.png"
+    },
+    {
+      "name": "AdpDiagramAutosizeSelectedTables",
+      "imageAsset": "images/by-hash/8f2da1eb3cb54652.png"
+    },
+    {
+      "name": "AutoScheduleSelectedTask",
+      "imageAsset": "images/by-hash/aa022e861f00f076.png"
+    },
+    {
+      "name": "CalendarToolExportSelectedAppointment",
+      "imageAsset": "images/by-hash/d51ac3a5ee3618c2.png"
+    }
+  ],
+  "sameImageIds": [
+    "ObjectsUngroup",
+    "ObjectsUngroupMultiple",
+    "ObjectsUngroupOutlook",
+    "OutlineUngroupMenu"
+  ]
+}

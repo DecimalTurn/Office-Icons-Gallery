@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FilePageSetupCalendar",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    },
+    {
+      "name": "FilePageSetupPage",
+      "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+    },
+    {
+      "name": "FilePrintSetup",
+      "imageAsset": "images/by-hash/ff35a36eb008583b.png"
+    },
+    {
+      "name": "FontsReplaceFonts",
+      "imageAsset": "images/by-hash/ea48b3923982405f.png"
+    },
+    {
+      "name": "SchemeFontsGallery",
+      "imageAsset": "images/by-hash/a8d33beb83ac8dfe.png"
+    },
+    {
+      "name": "ThemeFontsGallery",
+      "imageAsset": "images/by-hash/a8d33beb83ac8dfe.png"
+    },
+    {
+      "name": "GroupCDAudioSetup",
+      "imageAsset": "images/by-hash/c4155e7df729c0ca.png"
+    },
+    {
+      "name": "GroupPageLayoutSetup",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    },
+    {
+      "name": "GroupPageSetup",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    },
+    {
+      "name": "GroupPageSetupHandoutMaster",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    },
+    {
+      "name": "GroupPageSetupNarrow",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    },
+    {
+      "name": "GroupPageSetupNotesMaster",
+      "imageAsset": "images/by-hash/fc276fb850114877.png"
+    }
+  ],
+  "sameImageIds": [
+    "ChangeStylesMenu",
+    "GroupSheetFormat",
+    "GroupTimelineViewTextStyles",
+    "TextStyle",
+    "TextStyles"
+  ]
+}

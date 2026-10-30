@@ -1,0 +1,28 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AlternativeText",
+      "imageAsset": "images/by-hash/a352d6311f611768.png"
+    },
+    {
+      "name": "PicturePropertiesAlternativeText",
+      "imageAsset": "images/by-hash/a352d6311f611768.png"
+    }
+  ],
+  "sameImageIds": [
+    "ContactCardPaste",
+    "ContextMenusAndPasteGiveFeedback",
+    "GroupClipboard",
+    "GroupClipboardInfoPath",
+    "GroupClipboardSimple",
+    "GroupIconEditClipboard",
+    "Paste",
+    "Paste2",
+    "PasteFeedback",
+    "PasteGallery",
+    "PasteGalleryMini",
+    "PasteOption",
+    "PastePage",
+    "PasteTableFromExcel"
+  ]
+}

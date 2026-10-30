@@ -1,0 +1,15 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FormattingUniqueToggle",
+      "imageAsset": "images/by-hash/14e3173e1afcae32.png"
+    },
+    {
+      "name": "QueryUniqueValues",
+      "imageAsset": "images/by-hash/f3e0263c45a60d6b.png"
+    }
+  ],
+  "sameImageIds": [
+    "FormattingUniqueToggle"
+  ]
+}

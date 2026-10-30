@@ -1,0 +1,24 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OpenMyDepartmentCalendar",
+      "imageAsset": "images/by-hash/89db66eab60e7214.png"
+    }
+  ],
+  "sameImageIds": [
+    "CoauthorCount",
+    "DelegateAccess",
+    "GroupAssignments",
+    "GroupAssignmentsStandard",
+    "GroupAttendees",
+    "GroupAttendeesMeetingSent",
+    "GroupRecurringAttendees",
+    "NewDistributionList",
+    "NewDistributionListCompact",
+    "NewDistributionListNumbered",
+    "QuickSearchNotToCcMe",
+    "ResourcesAssign",
+    "ShareWithPeople",
+    "ShowMembersPage"
+  ]
+}

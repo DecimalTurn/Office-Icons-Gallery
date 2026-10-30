@@ -1,0 +1,16 @@
+{
+  "relatedIcons": [
+    {
+      "name": "MoreCorrectionAlternatives",
+      "imageAsset": "images/by-hash/c0f80389613f0039.png"
+    },
+    {
+      "name": "SpeechMicrophone",
+      "imageAsset": "images/by-hash/e48376b597da74a6.png"
+    }
+  ],
+  "sameImageIds": [
+    "MoreCorrectionAlternatives",
+    "MoreInkResults"
+  ]
+}

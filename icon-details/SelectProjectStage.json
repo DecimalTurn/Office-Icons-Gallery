@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddAssignmentStage",
+      "imageAsset": "images/by-hash/4c50252de9e4f7f7.png"
+    },
+    {
+      "name": "CreateStageView",
+      "imageAsset": "images/by-hash/37b66dc9df29ec86.png"
+    },
+    {
+      "name": "CreateStageViewDiagram",
+      "imageAsset": "images/by-hash/37b66dc9df29ec86.png"
+    },
+    {
+      "name": "InsertStage",
+      "imageAsset": "images/by-hash/9599df23a198fca3.png"
+    },
+    {
+      "name": "InsertStageGallery",
+      "imageAsset": "images/by-hash/9599df23a198fca3.png"
+    },
+    {
+      "name": "AutoFilterProject",
+      "imageAsset": "images/by-hash/c0fbf1688be91555.png"
+    },
+    {
+      "name": "ClearNotesProject",
+      "imageAsset": "images/by-hash/2249b7207f0bb122.png"
+    },
+    {
+      "name": "ColumnHideProject",
+      "imageAsset": "images/by-hash/b5d815eec05f63ab.png"
+    },
+    {
+      "name": "DatabaseOpenFromProject",
+      "imageAsset": "images/by-hash/cca87607941481c5.png"
+    },
+    {
+      "name": "EnterpriseProjectImport",
+      "imageAsset": "images/by-hash/bf2f236ff3ebad5f.png"
+    },
+    {
+      "name": "EnterpriseProjectProfiles",
+      "imageAsset": "images/by-hash/2b702d6430221cf3.png"
+    },
+    {
+      "name": "GridlinesProject",
+      "imageAsset": "images/by-hash/ebfac0c46cdfe306.png"
+    }
+  ],
+  "sameImageIds": []
+}

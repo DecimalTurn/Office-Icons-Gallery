@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FontSizeIncrease",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "FontSizeIncrease1Point",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "ReadingViewFontSizeIncrease",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "SmartArtIncreaseFontSize",
+      "imageAsset": "images/by-hash/d9ef21e1a9d09285.png"
+    },
+    {
+      "name": "FontSizeDecreaseWord",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "IndentIncreaseWord",
+      "imageAsset": "images/by-hash/e0d2fb795c751c19.png"
+    },
+    {
+      "name": "FontSizeDecrease",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "FontSizeDecrease1Point",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "ReadingViewFontSizeDecrease",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "SmartArtDecreaseFontSize",
+      "imageAsset": "images/by-hash/7f1734e65245c918.png"
+    },
+    {
+      "name": "_3DPerspectiveIncrease",
+      "imageAsset": "images/by-hash/9c3ea6230877361d.png"
+    },
+    {
+      "name": "DecimalsIncrease",
+      "imageAsset": "images/by-hash/59ebfba4f50fae05.png"
+    }
+  ],
+  "sameImageIds": [
+    "FontSizeIncrease",
+    "FontSizeIncrease1Point",
+    "GrowFontMenu",
+    "ReadingViewFontSizeIncrease",
+    "SmartArtIncreaseFontSize"
+  ]
+}

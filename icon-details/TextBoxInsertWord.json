@@ -1,0 +1,31 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TextBoxInsertVerticalWord",
+      "imageAsset": "images/by-hash/909bd742b2aed4bc.png"
+    },
+    {
+      "name": "TextBoxWordClassic",
+      "imageAsset": "images/by-hash/d8ee86a315d581fc.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddTextToTextEffect",
+    "ChartEditText",
+    "ChartExitEditText",
+    "CustomTextBoxGallery",
+    "DrawTextBox",
+    "EditLabel",
+    "GroupObjects",
+    "GroupTextBoxText",
+    "ObjectAddText",
+    "ObjectEditText",
+    "TextBoxDrawMenu",
+    "TextBoxInsert",
+    "TextBoxInsertExcel",
+    "TextBoxInsertGallery",
+    "TextBoxInsertHorizontal",
+    "TextBoxInsertMenu",
+    "UxTextGallery"
+  ]
+}

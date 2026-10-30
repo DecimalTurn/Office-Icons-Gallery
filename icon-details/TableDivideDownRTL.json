@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "TableDivideUpRTL",
+      "imageAsset": "images/by-hash/aa2d1c261fefbb4c.png"
+    },
+    {
+      "name": "TableDivideDown",
+      "imageAsset": "images/by-hash/aa2d1c261fefbb4c.png"
+    },
+    {
+      "name": "GoRtlDown",
+      "imageAsset": "images/by-hash/f511ba2e9e8af645.png"
+    },
+    {
+      "name": "StopRtlDown",
+      "imageAsset": "images/by-hash/5c3d925427fe2363.png"
+    },
+    {
+      "name": "TableDivideUp",
+      "imageAsset": "images/by-hash/cc5877255b2f193f.png"
+    },
+    {
+      "name": "GoRtl",
+      "imageAsset": "images/by-hash/795585269d9eb56a.png"
+    },
+    {
+      "name": "GoRtlFocus",
+      "imageAsset": "images/by-hash/d4eadcf47e48136a.png"
+    },
+    {
+      "name": "GoRtlHover",
+      "imageAsset": "images/by-hash/c8c9a4a8dee4e65b.png"
+    },
+    {
+      "name": "IndentRTL",
+      "imageAsset": "images/by-hash/56efc8f6433832b6.png"
+    },
+    {
+      "name": "JotConvertToBodyTextRTL",
+      "imageAsset": "images/by-hash/23674351039cc240.png"
+    },
+    {
+      "name": "JotNavUIFindRTL",
+      "imageAsset": "images/by-hash/795585269d9eb56a.png"
+    },
+    {
+      "name": "OutdentRTL",
+      "imageAsset": "images/by-hash/25d016828ed08365.png"
+    }
+  ],
+  "sameImageIds": [
+    "BorderDiagonalUp",
+    "BordersDiagonalPublisher",
+    "TableCellDiagonalsDialog",
+    "TableDivideUp"
+  ]
+}

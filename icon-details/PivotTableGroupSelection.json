@@ -1,0 +1,74 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PivotFilterBySelection",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "PivotTableEnableSelection",
+      "imageAsset": "images/by-hash/ee9fb084ce551484.png"
+    },
+    {
+      "name": "AddSelectionToAccentsLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToAdvertisementLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToBusinessInformationLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToCalendarsLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToContentLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToPagePartsLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToTextLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AddSelectionToVertTextLibrary",
+      "imageAsset": "images/by-hash/47ba77713e15ca41.png"
+    },
+    {
+      "name": "AdpDiagramArrangeSelection",
+      "imageAsset": "images/by-hash/917cc34f1d929f62.png"
+    },
+    {
+      "name": "BordersSelectionGallery",
+      "imageAsset": "images/by-hash/f53633d00e54bd31.png"
+    }
+  ],
+  "sameImageIds": [
+    "ForwardAttach",
+    "GanttNext",
+    "GoTo",
+    "GoToBookmark",
+    "GoToMenuAccess",
+    "GroupGanttNavigation",
+    "GroupPivotChartGrouping",
+    "GroupPivotTableGroup",
+    "GroupResourceGraphNavigate",
+    "LeftToRightEmbedding",
+    "NavForward",
+    "NextResource",
+    "OrgChartReportMoveRight",
+    "PageRightPreview",
+    "PagesDemote",
+    "PivotDiagramMoveRight",
+    "PivotTableGroupingMenu",
+    "ResultsPaneGoNext",
+    "RightArrow2",
+    "WebGoForward"
+  ]
+}

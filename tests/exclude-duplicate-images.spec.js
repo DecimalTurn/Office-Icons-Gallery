@@ -26,7 +26,7 @@ test("excludes duplicate images and keeps the first alphabetic ID", async ({ pag
   await expect(excludeDuplicates).not.toBeChecked();
   await excludeDuplicates.check();
 
-  await expect(page).toHaveURL(/ExcludeDuplicateImages=1$/);
+  await expect(page).toHaveURL(/exclude_duplicate_images=1$/);
   await expect(excludeDuplicates).toBeChecked();
   await expect(page.locator("#search-result-count")).toHaveText(`${expected.count.toLocaleString()} icons found`);
   await expect(page.locator(".mso-list li")).toHaveCount(500);
@@ -40,7 +40,7 @@ test("excludes duplicate images and keeps the first alphabetic ID", async ({ pag
   await expect(page.locator("#search-result-count")).toHaveText(`${expected.count.toLocaleString()} icons found`);
 
   await page.getByRole("checkbox", { name: "Hide image labels" }).check();
-  await expect(page).toHaveURL(/ExcludeDuplicateImages=1/);
-  await expect(page).toHaveURL(/ExcludeLabels=1/);
+  await expect(page).toHaveURL(/exclude_duplicate_images=1/);
+  await expect(page).toHaveURL(/exclude_labels=1/);
   await expect(page.locator(".mso-list li span").first()).toBeHidden();
 });

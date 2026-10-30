@@ -1,0 +1,63 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupWorkflowSummaryActions",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "GroupWorkflowSummaryEdit",
+      "imageAsset": "images/by-hash/149f3b0cae9e185f.png"
+    },
+    {
+      "name": "GroupWorkflowSummarySave",
+      "imageAsset": "images/by-hash/246a59d100792609.png"
+    },
+    {
+      "name": "GroupWorkflowTaskSummaryEdit",
+      "imageAsset": "images/by-hash/60f5d84623cf4633.png"
+    },
+    {
+      "name": "GroupWorkflowTaskSummaryNew",
+      "imageAsset": "images/by-hash/8166418eccf14f70.png"
+    },
+    {
+      "name": "GroupWorkflowTaskSummarySave",
+      "imageAsset": "images/by-hash/246a59d100792609.png"
+    },
+    {
+      "name": "WorkflowSummary",
+      "imageAsset": "images/by-hash/6532a6561e20fa90.png"
+    },
+    {
+      "name": "WorkflowSummaryDeleteWorkflow",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "GroupContTypeSummaryManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "GroupListsSummaryManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "GroupPageSummaryManage",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "GroupSiteSummaryManage",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    }
+  ],
+  "sameImageIds": [
+    "CreateWorkflow",
+    "CreateWorkflowDiagram",
+    "CreateWorkflowDiagramVisualDesigner",
+    "DataDesignWorkflow",
+    "FileStartWorkflow",
+    "GroupWorkflows",
+    "GroupWorkflowsGalleryActions",
+    "GroupWorkflowsGalleryManage",
+    "GroupWorkflowSummaryActions"
+  ]
+}

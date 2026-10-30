@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DataConnectionsGetMore",
+      "imageAsset": "images/by-hash/9ec10291a785eb4a.png"
+    },
+    {
+      "name": "GetExternalDataFromAccess",
+      "imageAsset": "images/by-hash/720ec1122b4c64ff.png"
+    },
+    {
+      "name": "GetExternalDataFromOtherSources",
+      "imageAsset": "images/by-hash/4a0cf8d8cb920d82.png"
+    },
+    {
+      "name": "GetExternalDataFromText",
+      "imageAsset": "images/by-hash/e2858bfee74a6c9d.png"
+    },
+    {
+      "name": "GetExternalDataFromWeb",
+      "imageAsset": "images/by-hash/e8ffa00f6655dab8.png"
+    },
+    {
+      "name": "GetExternalDataImportClassic",
+      "imageAsset": "images/by-hash/25a03f0b5effe4aa.png"
+    },
+    {
+      "name": "GroupGetExternalData",
+      "imageAsset": "images/by-hash/5b478506b12c635c.png"
+    },
+    {
+      "name": "AddExistingTasksToTimeline",
+      "imageAsset": "images/by-hash/2128fa0a06829f22.png"
+    },
+    {
+      "name": "AssociateExistingWorkflow",
+      "imageAsset": "images/by-hash/4ed7bc16cc89d2b3.png"
+    },
+    {
+      "name": "BlogOpenExisting",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "CatalogMergeMergeToExistingPublication",
+      "imageAsset": "images/by-hash/00f0aa0dc99ae8a6.png"
+    },
+    {
+      "name": "LinkToExistingList",
+      "imageAsset": "images/by-hash/98c54f34d050e16b.png"
+    }
+  ],
+  "sameImageIds": [
+    "DatabaseModelingDatabaseDrivers",
+    "DataFromDatabase",
+    "GroupGetExternalData",
+    "SourceControlAddDatabase"
+  ]
+}

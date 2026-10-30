@@ -1,0 +1,58 @@
+{
+  "relatedIcons": [
+    {
+      "name": "StrokeEraser",
+      "imageAsset": "images/by-hash/e876e8df44c2bf8d.png"
+    },
+    {
+      "name": "CurrentEraser",
+      "imageAsset": "images/by-hash/e876e8df44c2bf8d.png"
+    },
+    {
+      "name": "EraserLastUsed",
+      "imageAsset": "images/by-hash/d70bcff83c399d86.png"
+    },
+    {
+      "name": "EraserMenu",
+      "imageAsset": "images/by-hash/e876e8df44c2bf8d.png"
+    },
+    {
+      "name": "EraserMode",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    },
+    {
+      "name": "InkEraser",
+      "imageAsset": "images/by-hash/e876e8df44c2bf8d.png"
+    },
+    {
+      "name": "InkEraserMenu",
+      "imageAsset": "images/by-hash/f532e699158ad7e6.png"
+    },
+    {
+      "name": "LargeEraser",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    },
+    {
+      "name": "MediumEraser",
+      "imageAsset": "images/by-hash/836cbf68b4a60074.png"
+    },
+    {
+      "name": "PointEraserMedium",
+      "imageAsset": "images/by-hash/836cbf68b4a60074.png"
+    },
+    {
+      "name": "PointEraserSmall",
+      "imageAsset": "images/by-hash/d70bcff83c399d86.png"
+    },
+    {
+      "name": "ReviewInkCommentEraser",
+      "imageAsset": "images/by-hash/889559c9b7b5d61e.png"
+    }
+  ],
+  "sameImageIds": [
+    "CurrentEraser",
+    "EraserMenu",
+    "InkEraser",
+    "StrokeEraser"
+  ]
+}

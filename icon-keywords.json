@@ -1,0 +1,1786 @@
+{
+  "_0": [
+    "number",
+    "zero"
+  ],
+  "_0PercentComplete": [
+    "progressbar",
+    "zero"
+  ],
+  "_1": [
+    "number",
+    "one"
+  ],
+  "_2": [
+    "number",
+    "two"
+  ],
+  "_3": [
+    "number",
+    "three"
+  ],
+  "_3DBevelOptionsDialog": [
+    "appearance",
+    "bucket",
+    "paint",
+    "paintbrush",
+    "photo",
+    "style",
+    "three",
+    "two",
+    "visualisation",
+    "visualization"
+  ],
+  "_3DBevelPictureTopGallery": [
+    "cloud",
+    "image",
+    "photo",
+    "scene",
+    "sky",
+    "three"
+  ],
+  "_3DDirectionGalleryClassic": [
+    "arrow",
+    "cross",
+    "four",
+    "three"
+  ],
+  "_3DEffectColorPickerClassic": [
+    "colour",
+    "three"
+  ],
+  "_3DEffectsGalleryClassic": [
+    "3d",
+    "cuboid",
+    "graph",
+    "polyhedron",
+    "three",
+    "visualisation",
+    "visualization"
+  ],
+  "_3DEffectsOnOffClassic": [
+    "cube",
+    "dimension",
+    "polyhedron",
+    "square",
+    "three"
+  ],
+  "_3DExtrusionDepth36Classic": [
+    "border",
+    "square",
+    "three"
+  ],
+  "_3DExtrusionDepth72Classic": [
+    "cuboid",
+    "polyhedron",
+    "stretch",
+    "three"
+  ],
+  "_3DExtrusionDepth144Classic": [
+    "cuboid",
+    "polyhedron",
+    "stretch",
+    "three"
+  ],
+  "_3DExtrusionDepth288Classic": [
+    "cuboid",
+    "polyhedron",
+    "stretch",
+    "three"
+  ],
+  "_3DExtrusionDepthGalleryClassic": [
+    "cuboid",
+    "polyhedron",
+    "stretch",
+    "three"
+  ],
+  "_3DExtrusionDepthNoneClassic": [
+    "square"
+  ],
+  "_3DExtrusionParallelClassic": [
+    "diagonal",
+    "line"
+  ],
+  "_3DExtrusionPerspectiveClassic": [
+    "dotted",
+    "line",
+    "triangle"
+  ],
+  "_3DLightGallery": [
+    "square"
+  ],
+  "_3DLightingClassic": [
+    "lamp"
+  ],
+  "_3DLightingDimClassic": [
+    "cube",
+    "polyhedron",
+    "three"
+  ],
+  "_3DLightingFlatClassic": [
+    "cube",
+    "polyhedron",
+    "three"
+  ],
+  "_3DLightingNormalClassic": [
+    "cube",
+    "polyhedron",
+    "three"
+  ],
+  "_3DMaterialGallery": [
+    "square"
+  ],
+  "_3DMaterialMetal": [
+    "polyhedron",
+    "prism",
+    "three"
+  ],
+  "_3DMaterialMixed": [
+    "polyhedron",
+    "prism",
+    "three"
+  ],
+  "_3DMaterialPlastic": [
+    "polyhedron",
+    "prism",
+    "three"
+  ],
+  "_3DPerspectiveDecrease": [
+    "arrow",
+    "less",
+    "lower",
+    "reduce",
+    "three"
+  ],
+  "_3DPerspectiveIncrease": [
+    "arrow",
+    "higher",
+    "more",
+    "raise",
+    "three"
+  ],
+  "_3DStyle": [
+    "cube",
+    "polyhedron",
+    "three"
+  ],
+  "_3DSurfaceMaterialClassic": [
+    "add",
+    "cube",
+    "insert",
+    "plus",
+    "polyhedron",
+    "three"
+  ],
+  "_3DSurfaceMatteClassic": [
+    "cube",
+    "polyhedron",
+    "three"
+  ],
+  "_3DSurfaceMetalClassic": [
+    "cube",
+    "polyhedron",
+    "three"
+  ],
+  "_3DSurfacePlasticClassic": [
+    "cube",
+    "polyhedron",
+    "three"
+  ],
+  "_3DSurfaceWireFrameClassic": [
+    "cube",
+    "polyhedron",
+    "three"
+  ],
+  "_3DTiltDownClassic": [
+    "rotate",
+    "rotation",
+    "spin",
+    "three"
+  ],
+  "_3DTiltLeftClassic": [
+    "rotate",
+    "rotation",
+    "spin",
+    "three"
+  ],
+  "_3DTiltRightClassic": [
+    "rotate",
+    "rotation",
+    "spin",
+    "three"
+  ],
+  "_3DTiltUpClassic": [
+    "rotate",
+    "rotation",
+    "spin",
+    "three"
+  ],
+  "_4": [
+    "four",
+    "number"
+  ],
+  "_5": [
+    "five",
+    "number"
+  ],
+  "_6": [
+    "number",
+    "six"
+  ],
+  "_7": [
+    "number",
+    "seven"
+  ],
+  "_8": [
+    "eight",
+    "number"
+  ],
+  "_9": [
+    "nine",
+    "number"
+  ],
+  "_25PercentComplete": [
+    "progressbar"
+  ],
+  "_50PercentComplete": [
+    "progressbar"
+  ],
+  "_75PercentComplete": [
+    "progressbar"
+  ],
+  "_100PercentComplete": [
+    "progressbar"
+  ],
+  "A": [
+    "alphabet",
+    "letter"
+  ],
+  "About": [
+    "information",
+    "mark",
+    "question"
+  ],
+  "AcceptAndAdvance": [
+    "checkmark",
+    "document",
+    "text"
+  ],
+  "AcceptInvitation": [
+    "checkmark",
+    "correct",
+    "exact",
+    "find",
+    "lookup",
+    "valid"
+  ],
+  "AccessFormDatasheet": [
+    "calendar",
+    "grid"
+  ],
+  "AccessFormPivotTable": [
+    "grid"
+  ],
+  "AccessFormWizard": [
+    "magic",
+    "spark",
+    "wand"
+  ],
+  "AutoSum": [
+    "greek",
+    "sigma"
+  ],
+  "AccessibilityChecker": [
+    "document",
+    "file"
+  ],
+  "AccessibilityReports": [
+    "document"
+  ],
+  "AccessListAssets": [
+    "cellphone",
+    "desktop",
+    "screen"
+  ],
+  "AccessListContacts": [
+    "directory",
+    "email",
+    "find",
+    "lookup",
+    "message"
+  ],
+  "AccessListCustom": [
+    "column",
+    "grid"
+  ],
+  "AccessListEvents": [
+    "calendar"
+  ],
+  "AccessListIssues": [
+    "clipboard",
+    "information"
+  ],
+  "AccessListTasks": [
+    "checkmark",
+    "clipboard"
+  ],
+  "AccessMergeCells": [],
+  "AccessNavigationOptions": [
+    "document",
+    "file"
+  ],
+  "AccessOfflineLists": [
+    "cancel",
+    "cross",
+    "delete",
+    "people"
+  ],
+  "AccessOnlineLists": [
+    "people"
+  ],
+  "AccessRecycleBin": [
+    "delete"
+  ],
+  "AccessRefreshAllLists": [
+    "reload"
+  ],
+  "AccessRelinkLists": [
+    "colunn",
+    "hyperlink",
+    "link"
+  ],
+  "AccessReportMore": [
+    "chart",
+    "spark",
+    "wand"
+  ],
+  "AccessRequests": [
+    "document",
+    "email",
+    "file",
+    "people",
+    "person"
+  ],
+  "AccessTableAssets": [
+    "checkmark",
+    "clipboard"
+  ],
+  "AccessTableContacts": [
+    "person"
+  ],
+  "AccessTableEvents": [
+    "calendar",
+    "date"
+  ],
+  "AccessThemesGallery": [
+    "color",
+    "letter",
+    "presentation",
+    "slideshow"
+  ],
+  "AccountingFormat": [
+    "dollar",
+    "money"
+  ],
+  "AccountMenu": [
+    "frame",
+    "person",
+    "square"
+  ],
+  "AccountSettings": [
+    "gear",
+    "person"
+  ],
+  "AcetateModeOriginalMarkup": [
+    "file",
+    "page"
+  ],
+  "ActionDelete": [
+    "clear",
+    "cross",
+    "grid",
+    "remove"
+  ],
+  "ActionInsert": [
+    "add",
+    "create",
+    "star"
+  ],
+  "ActionInsertAccess": [
+    "add",
+    "arrow",
+    "create",
+    "grid"
+  ],
+  "ActiveXButton": [
+    "rectangle"
+  ],
+  "ActiveXCheckBox": [
+    "checkmark",
+    "square",
+    "visualisation",
+    "visualization"
+  ],
+  "ActiveXComboBox": [
+    "scroll"
+  ],
+  "ActiveXFrame": [
+    "alphabet",
+    "letter",
+    "xyz"
+  ],
+  "ActiveXImage": [
+    "add",
+    "create",
+    "desktop",
+    "document",
+    "graphic",
+    "photo",
+    "scene",
+    "screen"
+  ],
+  "ActiveXLabel": [
+    "appearance",
+    "letter",
+    "style"
+  ],
+  "ActiveXListBox": [
+    "scroll"
+  ],
+  "ActiveXRadioButton": [],
+  "ActiveXScrollBar": [],
+  "ActiveXSpinButton": [],
+  "ActiveXTextBox": [
+    "alphabet",
+    "letter",
+    "textbox"
+  ],
+  "ActiveXToggleButton": [
+    "rectangle"
+  ],
+  "ActualSize": [
+    "alignment",
+    "document",
+    "file",
+    "position"
+  ],
+  "AddAccount": [
+    "insert",
+    "new"
+  ],
+  "AddAssignmentStage": [
+    "create",
+    "insert",
+    "new",
+    "people",
+    "person"
+  ],
+  "AddCalendarFromInternet": [
+    "globe",
+    "world"
+  ],
+  "AddCalendarMenu": [
+    "appointment",
+    "create",
+    "date",
+    "insert",
+    "new",
+    "plus",
+    "schedule"
+  ],
+  "AddCellLeft": [
+    "arrow",
+    "create",
+    "insert",
+    "new"
+  ],
+  "AddCellRight": [
+    "arrow",
+    "create",
+    "insert",
+    "new"
+  ],
+  "AddChartElementMenu": [
+    "create",
+    "graph",
+    "insert",
+    "new",
+    "plus",
+    "visualisation",
+    "visualization"
+  ],
+  "AddContentType": [
+    "appointment",
+    "calendar",
+    "create",
+    "insert"
+  ],
+  "AddDepartment": [
+    "person"
+  ],
+  "AddExistingTasksToTimeline": [
+    "create",
+    "graph",
+    "insert",
+    "new",
+    "pllus"
+  ],
+  "AddFolderToFavorites": [
+    "directory",
+    "files",
+    "star"
+  ],
+  "AddGroup": [
+    "create",
+    "insert",
+    "new",
+    "people",
+    "person"
+  ],
+  "AddHorizontalGuide": [
+    "create",
+    "insert",
+    "line",
+    "new",
+    "split"
+  ],
+  "AddInCommandsMenu": [
+    "gear",
+    "setting"
+  ],
+  "AddInManager": [
+    "gear"
+  ],
+  "AddInsMenu": [
+    "cube",
+    "data",
+    "insert",
+    "new"
+  ],
+  "AddNewColumnMenu": [
+    "create",
+    "insert"
+  ],
+  "AddNewRssFeed": [
+    "create",
+    "plus"
+  ],
+  "AddOrRemoveAttendees": [
+    "create",
+    "insert",
+    "new",
+    "person"
+  ],
+  "AddPeoplesCalendar": [
+    "person"
+  ],
+  "AddReminder": [
+    "audio",
+    "music"
+  ],
+  "AddRoom": [
+    "create",
+    "door",
+    "insert",
+    "new",
+    "plus"
+  ],
+  "AddRulesMenu": [
+    "lightning"
+  ],
+  "AddSelectionToAccentsLibrary": [
+    "alphabet",
+    "create",
+    "image",
+    "insert",
+    "letter",
+    "new",
+    "photo",
+    "picture",
+    "scene"
+  ],
+  "AddTextToTextEffect": [
+    "alphabet",
+    "frame",
+    "letter",
+    "shape",
+    "visualisation",
+    "visualization"
+  ],
+  "AddToFavorites": [
+    "create",
+    "insert",
+    "new",
+    "plus",
+    "star"
+  ],
+  "AddToMySite": [
+    "article",
+    "create",
+    "insert",
+    "new",
+    "plus",
+    "text"
+  ],
+  "AddToolGallery": [
+    "calendar",
+    "create",
+    "directory",
+    "folder",
+    "insert",
+    "message",
+    "new",
+    "plus"
+  ],
+  "AddUserToPermissionGroup": [
+    "create",
+    "person",
+    "plus"
+  ],
+  "AddVerticalGuide": [
+    "create",
+    "insert",
+    "line",
+    "new",
+    "split"
+  ],
+  "AddWebPartConnection": [
+    "create",
+    "insert",
+    "new",
+    "plus",
+    "schema",
+    "uml"
+  ],
+  "AdpConstraints": [
+    "document",
+    "file",
+    "link",
+    "text",
+    "uml"
+  ],
+  "AdpDiagramAddRelatedTables": [
+    "create",
+    "insert",
+    "new",
+    "schema",
+    "uml"
+  ],
+  "AdpDiagramAddTable": [
+    "calendar",
+    "create",
+    "grid",
+    "insert",
+    "new",
+    "plus"
+  ],
+  "AdpDiagramArrangeSelection": [
+    "schema",
+    "uml"
+  ],
+  "AdpDiagramArrangeTables": [
+    "schema",
+    "uml"
+  ],
+  "AdpDiagramAutosizeSelectedTables": [],
+  "AdpDiagramColumnNames": [],
+  "AdpDiagramColumnProperties": [],
+  "AdpDiagramCustomView": [
+    "column",
+    "grid"
+  ],
+  "AdpDiagramDeleteTable": [
+    "clear",
+    "cross",
+    "grid",
+    "remove"
+  ],
+  "AdpDiagramHideTable": [
+    "grid"
+  ],
+  "AdpDiagramIndexesKeys": [
+    "grid",
+    "lightning",
+    "text"
+  ],
+  "AdpDiagramKeys": [
+    "key"
+  ],
+  "AdpDiagramNameOnly": [],
+  "AdpDiagramNewLabel": [
+    "alphabet",
+    "appearance",
+    "letter",
+    "style"
+  ],
+  "AdpDiagramNewTable": [
+    "grid"
+  ],
+  "AdpDiagramRecalculatePageBreaks": [
+    "refresh"
+  ],
+  "AdpDiagramRelationships": [
+    "grid",
+    "schema",
+    "uml"
+  ],
+  "AdpDiagramShowRelationshipLabels": [],
+  "AdpDiagramTableModesMenu": [
+    "grid",
+    "lookup",
+    "magnifier",
+    "search"
+  ],
+  "AdpDiagramViewPageBreaks": [
+    "scale",
+    "window"
+  ],
+  "AdpManageIndexes": [
+    "email",
+    "lightning",
+    "mail",
+    "message"
+  ],
+  "AdpNewTable": [
+    "grid",
+    "plus"
+  ],
+  "AdpOutputOperationsAddToOutput": [
+    "create",
+    "insert",
+    "new",
+    "plus"
+  ],
+  "AdpOutputOperationsGroupBy": [],
+  "AdpOutputOperationsSortAscending": [
+    "alphabet",
+    "letter",
+    "lookup",
+    "search"
+  ],
+  "AdpOutputOperationsSortDescending": [
+    "alphabet",
+    "letter",
+    "lookup",
+    "search"
+  ],
+  "AdpOutputOperationsTableRemove": [],
+  "AdpPrimaryKey": [
+    "add",
+    "create"
+  ],
+  "AdpStoredProcedureEditSql": [
+    "pencil",
+    "triangle"
+  ],
+  "AdpStoredProcedureQueryAppend": [
+    "exclamation",
+    "mark",
+    "plus"
+  ],
+  "AdpStoredProcedureQueryAppendValues": [
+    "exclamation",
+    "mark",
+    "plus"
+  ],
+  "AdpStoredProcedureQueryDelete": [
+    "clear",
+    "cross",
+    "exclamation",
+    "mark",
+    "remove"
+  ],
+  "AdpStoredProcedureQueryMakeTable": [
+    "exclamation",
+    "grid",
+    "mark"
+  ],
+  "AdpStoredProcedureQuerySelect": [
+    "calendar"
+  ],
+  "AdpStoredProcedureQueryUpdate": [
+    "exclamation",
+    "mark",
+    "pencil"
+  ],
+  "AdpVerifySqlSyntax": [
+    "checkmark"
+  ],
+  "AdpViewDiagramPane": [
+    "schema",
+    "uml"
+  ],
+  "AdpViewGridPane": [
+    "calendar"
+  ],
+  "AdpViewSqlPane": [],
+  "AdvancedFileProperties": [
+    "directory",
+    "document",
+    "find",
+    "list",
+    "lookup",
+    "photo",
+    "three",
+    "visualisation"
+  ],
+  "AdvancedFilterDialog": [
+    "funnel",
+    "gear"
+  ],
+  "AdvancedFind": [
+    "gear",
+    "lookup",
+    "magnifier",
+    "search"
+  ],
+  "AdvancedMode": [
+    "document",
+    "exclamation",
+    "file",
+    "mark",
+    "pencil"
+  ],
+  "AdvancedObjectMenu": [
+    "paper"
+  ],
+  "AdvertisementGallery": [
+    "card",
+    "star"
+  ],
+  "AdvertisePublishAs": [
+    "document",
+    "file",
+    "information"
+  ],
+  "AfterDelete": [
+    "clear",
+    "cross",
+    "paper",
+    "remove"
+  ],
+  "AfterInsert": [
+    "arrow",
+    "paper",
+    "right"
+  ],
+  "AfterUpdate": [
+    "paper",
+    "refresh"
+  ],
+  "AlignBottomExcel": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AlignCenter": [
+    "centered",
+    "middle",
+    "position"
+  ],
+  "AlignDialog": [
+    "image",
+    "photo",
+    "position"
+  ],
+  "AlignDistributeHorizontally": [
+    "alignment",
+    "position"
+  ],
+  "AlignDistributeVertically": [
+    "alignment",
+    "position"
+  ],
+  "AlignJustify": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AlignJustifyHigh": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AlignJustifyLow": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AlignJustifyMedium": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AlignJustifyThai": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AlignLeft": [
+    "position"
+  ],
+  "AlignLeftToRightMenu": [
+    "alignment",
+    "paragraph",
+    "position"
+  ],
+  "AlignMiddleExcel": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AlignRight": [
+    "alignment",
+    "position"
+  ],
+  "AlignTopExcel": [
+    "alignment",
+    "position",
+    "text"
+  ],
+  "AllCategories": [
+    "colour",
+    "square"
+  ],
+  "AllModuleNameItems": [
+    "find",
+    "inbox",
+    "lookup"
+  ],
+  "AlternativeText": [
+    "image",
+    "photo",
+    "scene"
+  ],
+  "AlwaysMoveConversation": [
+    "arrow",
+    "directory",
+    "down",
+    "folder",
+    "store",
+    "write"
+  ],
+  "AlwaysMoveToFolder": [
+    "directory",
+    "email",
+    "files",
+    "message"
+  ],
+  "AnimationAddGallery": [
+    "create",
+    "insert",
+    "motion",
+    "movement",
+    "new",
+    "plus",
+    "star"
+  ],
+  "AnimationAudio": [
+    "music",
+    "speaker"
+  ],
+  "AnimationCustom": [
+    "motion",
+    "movement"
+  ],
+  "AnimationCustomAddEmphasisDialog": [
+    "create",
+    "insert",
+    "motion",
+    "movement",
+    "new",
+    "star"
+  ],
+  "AnimationCustomAddEntranceDialog": [
+    "create",
+    "insert",
+    "motion",
+    "movement",
+    "new",
+    "star"
+  ],
+  "AnimationCustomAddExitDialog": [
+    "motion",
+    "movement",
+    "star"
+  ],
+  "AnimationCustomAddPathDialog": [
+    "motion",
+    "movement",
+    "star"
+  ],
+  "AnimationDelay": [
+    "clock",
+    "motion",
+    "movement",
+    "timer"
+  ],
+  "AnimationDuration": [
+    "clocj"
+  ],
+  "AnimationGallery": [
+    "motion",
+    "movement",
+    "paintbrush",
+    "star"
+  ],
+  "AnimationMoveEarlier": [
+    "two"
+  ],
+  "AnimationMoveLater": [
+    "two"
+  ],
+  "AnimationOnClick": [
+    "mouse"
+  ],
+  "AnimationPainter": [
+    "motion",
+    "movement",
+    "paintbrush",
+    "star"
+  ],
+  "AnimationPreview": [
+    "motion",
+    "movement",
+    "play",
+    "star"
+  ],
+  "AnimationStartDropdown": [
+    "clip",
+    "film"
+  ],
+  "AnimationTransitionGallery": [
+    "motion",
+    "movement",
+    "presentation",
+    "slideshow"
+  ],
+  "AnimationTransitionSpeedGallery": [
+    "arrow",
+    "motion",
+    "movement",
+    "right"
+  ],
+  "AnimationTransitionVariantGallery": [
+    "motion",
+    "movement",
+    "star"
+  ],
+  "AnimationTriggerAddMenu": [
+    "lightning"
+  ],
+  "AnimationTriggerAddOnMediaBookmark": [
+    "ruler",
+    "timeline"
+  ],
+  "AnonymousAccess": [
+    "mark",
+    "person",
+    "question"
+  ],
+  "AppendOnly": [
+    "pencil",
+    "text"
+  ],
+  "AppendOnlyControl": [
+    "document",
+    "file",
+    "pencil"
+  ],
+  "ApplyCoAuthoringLock": [
+    "forbidden",
+    "mail",
+    "person"
+  ],
+  "ApplyFilter": [
+    "arrow",
+    "funnel",
+    "right"
+  ],
+  "ApplyImageBackgroundFill": [
+    "bucket",
+    "graphic",
+    "paint",
+    "photo",
+    "picture",
+    "scene"
+  ],
+  "ApplyImageBackgroundTile": [
+    "graphic",
+    "photo",
+    "picture"
+  ],
+  "ApplyMasterPage1": [
+    "file",
+    "one"
+  ],
+  "ApplyPercentageFormat": [
+    "symbol"
+  ],
+  "ApplyStylesPane": [
+    "alphabet",
+    "arrow",
+    "letter",
+    "right"
+  ],
+  "AppointmentAttachment": [
+    "paperclip"
+  ],
+  "AppointmentBusy": [
+    "color",
+    "colour",
+    "square"
+  ],
+  "AppointmentColor0": [
+    "colour",
+    "square",
+    "zero"
+  ],
+  "AppointmentColor1": [
+    "colour",
+    "one",
+    "square"
+  ],
+  "AppointmentColor2": [
+    "colour",
+    "square",
+    "two"
+  ],
+  "AppointmentColor3": [
+    "colour",
+    "square",
+    "three"
+  ],
+  "AppointmentColor4": [
+    "colour",
+    "four",
+    "square"
+  ],
+  "AppointmentColor5": [
+    "colour",
+    "five",
+    "square"
+  ],
+  "AppointmentColor6": [
+    "colour",
+    "six",
+    "square"
+  ],
+  "AppointmentColor7": [
+    "colour",
+    "seven",
+    "square"
+  ],
+  "AppointmentColor8": [
+    "colour",
+    "eight",
+    "square"
+  ],
+  "AppointmentColor9": [
+    "colour",
+    "nine",
+    "square"
+  ],
+  "AppointmentColor10": [
+    "colour",
+    "square"
+  ],
+  "AppointmentOutOfOffice": [
+    "color",
+    "colour",
+    "pattern"
+  ],
+  "AppointmentWorkingElsewhere": [
+    "color",
+    "colour",
+    "pattern",
+    "square"
+  ],
+  "AppShare": [
+    "presentation",
+    "world"
+  ],
+  "Archive": [
+    "email",
+    "mail"
+  ],
+  "ArcTool": [
+    "curve"
+  ],
+  "AreaSelect": [
+    "dotted",
+    "line",
+    "plus",
+    "square"
+  ],
+  "ARMPreviewButton": [
+    "update"
+  ],
+  "ArrangeByAccount": [
+    "person",
+    "square"
+  ],
+  "ArrangeByAppointmentStart": [
+    "add",
+    "conference",
+    "event"
+  ],
+  "ArrangeByAssignment": [
+    "directory",
+    "folder",
+    "person"
+  ],
+  "ArrangeByAttachment": [
+    "paperclip"
+  ],
+  "ArrangeByAvailability": [
+    "arrow",
+    "down",
+    "page"
+  ],
+  "ArrangeByCompany": [
+    "building"
+  ],
+  "ArrangeByConversation": [
+    "email",
+    "mail"
+  ],
+  "ArrangeByCreatedDate": [
+    "calendar",
+    "note"
+  ],
+  "ArrangeByDate": [
+    "appointment",
+    "calendar",
+    "clock"
+  ],
+  "ArrangeByFolder": [
+    "directory",
+    "lookup",
+    "two"
+  ],
+  "ArrangeByFrom": [
+    "email",
+    "mail",
+    "person"
+  ],
+  "ArrangeByImportance": [
+    "exclamation",
+    "find",
+    "mark"
+  ],
+  "ArrangeByLocation": [
+    "pin"
+  ],
+  "ArrangeByModifiedDate": [
+    "clipboard",
+    "pencil"
+  ],
+  "ArrangeByOrganizer": [
+    "appointment",
+    "calendar",
+    "person"
+  ],
+  "ArrangeByRecurrence": [
+    "refresh"
+  ],
+  "ArrangeBySize": [
+    "disk",
+    "floppy",
+    "mesure"
+  ],
+  "ArrangeByStore": [
+    "archive",
+    "email",
+    "mail"
+  ],
+  "ArrangeBySubject": [
+    "document",
+    "file",
+    "find",
+    "lookup"
+  ],
+  "ArrangeByTo": [
+    "email",
+    "mail",
+    "person"
+  ],
+  "ArrangeByToDoDue": [
+    "red"
+  ],
+  "ArrangeByType": [
+    "appointment",
+    "date",
+    "email",
+    "message",
+    "schedule"
+  ],
+  "ArrangementGallery": [
+    "grid"
+  ],
+  "ArrangeThumbnails": [
+    "grid"
+  ],
+  "Arrow": [
+    "down",
+    "right"
+  ],
+  "ArrowsMore": [
+    "left",
+    "right"
+  ],
+  "ArtisticEffectsDialog": [
+    "bucket",
+    "colour",
+    "image",
+    "paint",
+    "paintbrush",
+    "photo"
+  ],
+  "AsianLayoutCharacterScaling": [
+    "alphabet",
+    "arrow",
+    "left",
+    "letter",
+    "right",
+    "stretch"
+  ],
+  "AsianLayoutCharactersEnclose": [],
+  "AsianLayoutCombineCharacters": [
+    "alphabet",
+    "letter"
+  ],
+  "AsianLayoutFitText": [],
+  "AsianLayoutHorizontalInVertical": [
+    "alphabet",
+    "letter"
+  ],
+  "AsianLayoutPhoneticGuide": [
+    "alphabet",
+    "letter"
+  ],
+  "AsianNewspaperJustify": [
+    "text"
+  ],
+  "AsianTypography": [
+    "character"
+  ],
+  "AsianTypographyGrid": [],
+  "AssetSettings": [
+    "document",
+    "file",
+    "gear"
+  ],
+  "AssignmentNotes": [],
+  "AssignTask": [
+    "clipboard",
+    "directory",
+    "person",
+    "two"
+  ],
+  "AssociateExistingWorkflow": [],
+  "AttachItem": [
+    "document",
+    "message",
+    "paperclip",
+    "submit"
+  ],
+  "AttachNotesToMeeting": [
+    "appointment",
+    "conference",
+    "onenote"
+  ],
+  "AudioAndVideoGiveFeedback": [
+    "add",
+    "clip",
+    "film",
+    "music",
+    "sound",
+    "speaker"
+  ],
+  "AudioBookmarkAdd": [
+    "clip",
+    "create",
+    "film",
+    "insert",
+    "movie",
+    "music",
+    "new",
+    "plus",
+    "ruler",
+    "sound",
+    "speaker"
+  ],
+  "AudioBookmarkRemove": [
+    "clip",
+    "cross",
+    "film",
+    "movie",
+    "music",
+    "ruler",
+    "sound",
+    "speaker"
+  ],
+  "AudioFadeInTime": [
+    "chart",
+    "music",
+    "sound",
+    "speaker"
+  ],
+  "AudioFadeOutTime": [
+    "chart",
+    "music",
+    "sound",
+    "speaker"
+  ],
+  "AudioNoteDelete": [
+    "clear",
+    "cross",
+    "music",
+    "remove",
+    "sound",
+    "speaker"
+  ],
+  "AudioNotePlayback": [
+    "music",
+    "sound",
+    "speaker",
+    "text"
+  ],
+  "AudioRecordingInsert": [
+    "add",
+    "clip",
+    "create",
+    "film",
+    "movie",
+    "music",
+    "sound",
+    "speaker"
+  ],
+  "AudioStartGallery": [
+    "clip",
+    "film",
+    "lightning",
+    "music",
+    "speaker"
+  ],
+  "AudioStyles": [
+    "gear",
+    "music",
+    "sound",
+    "speaker"
+  ],
+  "AudioToolsTrim": [
+    "music",
+    "ruler",
+    "sound",
+    "speaker"
+  ],
+  "AudioVolumeGallery": [
+    "chart",
+    "clip",
+    "music",
+    "presentation",
+    "slideshow",
+    "sound",
+    "speaker"
+  ],
+  "AuthorHighlightingHide": [
+    "document",
+    "file",
+    "people",
+    "person"
+  ],
+  "AutoAlignAndSpace": [
+    "alignment"
+  ],
+  "AutocompleteControl": [
+    "combobox"
+  ],
+  "AutoConnect": [
+    "expand"
+  ],
+  "AutoCorrect": [
+    "exact",
+    "lightning",
+    "valid"
+  ],
+  "AutoDial": [],
+  "AutoFillMode": [
+    "arrow",
+    "calendar"
+  ],
+  "AutoFilterClassic": [
+    "funnel"
+  ],
+  "AutoFilterProject": [
+    "funnel",
+    "lightning"
+  ],
+  "AutoFormat": [
+    "appearance",
+    "document",
+    "file",
+    "lightning",
+    "style"
+  ],
+  "AutoFormatDialog": [
+    "appearance",
+    "calendar",
+    "grid",
+    "lightning"
+  ],
+  "AutoFormatGallery": [
+    "appearance",
+    "lightning",
+    "style"
+  ],
+  "AutoLinkingStart": [
+    "hyperlink",
+    "play"
+  ],
+  "AutoLinkingStop": [
+    "hyperlink"
+  ],
+  "AutomaticResize": [
+    "arrow",
+    "expand"
+  ],
+  "AutoPreview": [],
+  "AutoScheduleSelectedTask": [
+    "arrow",
+    "right"
+  ],
+  "AutoSigWebInsertHyperlink": [
+    "add",
+    "address",
+    "url",
+    "web address",
+    "website"
+  ],
+  "AutoSizePage": [
+    "arrow",
+    "document",
+    "down",
+    "expand",
+    "file",
+    "right"
+  ],
+  "AutoSummarize": [
+    "correction",
+    "document",
+    "file",
+    "lightning"
+  ],
+  "AutoSummaryViewByHighlight": [],
+  "AutoTextGallery": [
+    "lightning",
+    "progressbar"
+  ],
+  "AutoThumbnail": [
+    "image",
+    "photo",
+    "picture",
+    "resize",
+    "scene",
+    "size"
+  ],
+  "B": [
+    "alphabet",
+    "letter"
+  ],
+  "BackAttach": [
+    "two"
+  ],
+  "BackgroundImageGallery": [
+    "graphic",
+    "photo",
+    "picture"
+  ],
+  "BackgroundPageInsert": [
+    "add",
+    "graphic",
+    "image",
+    "photo"
+  ],
+  "BackgroundRemovalClose": [
+    "directory",
+    "files",
+    "garbage can"
+  ],
+  "BackgroundsGallery": [
+    "appearance",
+    "bucket",
+    "colour",
+    "paint",
+    "style"
+  ],
+  "BackgroundSound": [
+    "audio",
+    "document",
+    "file",
+    "music",
+    "speaker"
+  ],
+  "Backspace": [
+    "cross",
+    "directory"
+  ],
+  "BackupSite": [
+    "disk",
+    "document",
+    "floppy"
+  ],
+  "BarcodeInsert": [],
+  "BarFormat": [
+    "appearance",
+    "bucket",
+    "color",
+    "colour",
+    "paint",
+    "style"
+  ],
+  "BarStylesFormat": [
+    "appearance",
+    "bucket",
+    "color",
+    "colour",
+    "graph",
+    "paint",
+    "style",
+    "visualisation",
+    "visualization"
+  ],
+  "Baseline": [
+    "color",
+    "colour",
+    "graph",
+    "visualisation",
+    "visualization"
+  ],
+  "BaselineClear": [
+    "cross",
+    "delete"
+  ],
+  "BaselineSave": [],
+  "BeforeChange": [
+    "checkmark",
+    "paper",
+    "script"
+  ],
+  "BeforeDelete": [
+    "caution",
+    "paper",
+    "script",
+    "warning"
+  ],
+  "BehindText": [
+    "position"
+  ],
+  "BestFit": [
+    "grid"
+  ],
+  "Bevel": [
+    "image",
+    "photo",
+    "picture"
+  ],
+  "ApplyCommaFormat": [
+    "appearance"
+  ],
+  "ApplyCssStyles": [
+    "alphabet",
+    "arrow",
+    "document",
+    "file",
+    "letter",
+    "right"
+  ],
+  "BevelShapeGallery": [
+    "square"
+  ],
+  "BevelTextGallery": [
+    "a",
+    "alphabet",
+    "letter"
+  ],
+  "BibliographyAddNewPlaceholder": [
+    "document",
+    "file",
+    "mark",
+    "minus",
+    "question"
+  ],
+  "BibliographyAddNewSource": [
+    "book",
+    "create",
+    "insert",
+    "plus"
+  ],
+  "BibliographyGallery": [
+    "arrow",
+    "book",
+    "right"
+  ],
+  "BibliographyManageSources": [],
+  "BibliographyStyle": [
+    "book",
+    "paintbrush"
+  ],
+  "BizBarPublishToSharePoint": [
+    "directory",
+    "folder"
+  ],
+  "BlackAndWhite": [
+    "color",
+    "colour"
+  ],
+  "BlackAndWhiteAutomatic": [
+    "colour"
+  ],
+  "BlackAndWhiteBlack": [],
+  "BlackAndWhiteBlackWithGrayscaleFill": [
+    "strip"
+  ],
+  "BlackAndWhiteBlackWithWhiteFill": [
+    "square"
+  ],
+  "BlackAndWhiteDontShow": [
+    "diagonal",
+    "square"
+  ],
+  "BlackAndWhiteGrayscale": [],
+  "BlackAndWhiteGrayWithWhiteFill": [
+    "square"
+  ],
+  "BlackAndWhiteInverseGrayscale": [],
+  "BlackAndWhiteLightGrayscale": [],
+  "BlankRowInsert": [
+    "add",
+    "create",
+    "grid"
+  ],
+  "BlogCategoriesRefresh": [
+    "document",
+    "file",
+    "reload",
+    "update"
+  ],
+  "BlogHomePage": [
+    "house"
+  ],
+  "BlogOpenExisting": [
+    "directory",
+    "document",
+    "launch",
+    "lookup",
+    "search",
+    "show"
+  ],
+  "BlogPublish": [
+    "arrow",
+    "document",
+    "file",
+    "lookup"
+  ]
+}

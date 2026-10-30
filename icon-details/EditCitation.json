@@ -1,0 +1,23 @@
+{
+  "relatedIcons": [
+    {
+      "name": "EditCitationButton",
+      "imageAsset": "images/by-hash/7238c58ba0963226.png"
+    },
+    {
+      "name": "CitationInsert",
+      "imageAsset": "images/by-hash/4e139b3b3521145a.png"
+    },
+    {
+      "name": "CitationMark",
+      "imageAsset": "images/by-hash/3d3bcaf0f87623b3.png"
+    },
+    {
+      "name": "RemoveCitation",
+      "imageAsset": "images/by-hash/6004b5a1300c6adc.png"
+    }
+  ],
+  "sameImageIds": [
+    "EditCitationButton"
+  ]
+}

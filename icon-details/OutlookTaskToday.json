@@ -1,0 +1,82 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OutlookTaskTodayContextual",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "GotoOutlookToday",
+      "imageAsset": "images/by-hash/a1240d244a3db79e.png"
+    },
+    {
+      "name": "JotCreateOutlookTask",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "JotOutlookTaskLabel",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "OutlookTaskCreate",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "OutlookTaskCustomDate",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "OutlookTaskCustomDateContextual",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "OutlookTaskLater",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "OutlookTaskLaterContextual",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    },
+    {
+      "name": "OutlookTaskMarkComplete",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "OutlookTaskMarkCompleteContextual",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "OutlookTaskNextWeek",
+      "imageAsset": "images/by-hash/fc8f5cc12ca0eb83.png"
+    }
+  ],
+  "sameImageIds": [
+    "ArrangeByToDoDue",
+    "ArrangeByToDoStart",
+    "EmailFormTagMessage",
+    "FlagCustom",
+    "FlagMessage",
+    "FlagNoDate",
+    "FlagToday",
+    "FollowUpComposeMenu",
+    "FollowUpMenu",
+    "FollowUpReadMenu",
+    "GroupAppointmentOptions",
+    "GroupContactOptions",
+    "GroupContactsOptions",
+    "GroupFollowUp",
+    "GroupMailOptions",
+    "GroupMessageOptions",
+    "GroupTaskOptions",
+    "GroupTasksOptions",
+    "MailMergeFollowupMenu",
+    "OutlookTaskCustomDate",
+    "OutlookTaskCustomDateContextual",
+    "OutlookTasksMenu",
+    "OutlookTaskTodayContextual",
+    "QuickSearchAllIncomplete",
+    "QuickSearchFlaggedByMe",
+    "QuickSearchTaskDueDateGallery",
+    "QuickStepTemplateFlagAndMove",
+    "SendCopyFlag"
+  ]
+}

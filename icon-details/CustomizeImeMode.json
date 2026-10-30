@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ImeDictionaryUpdate",
+      "imageAsset": "images/by-hash/2528faa9585eb128.png"
+    },
+    {
+      "name": "CustomizeMySite",
+      "imageAsset": "images/by-hash/93781d39d8f61aa1.png"
+    },
+    {
+      "name": "CustomizeSearchFolder",
+      "imageAsset": "images/by-hash/5eca02018885dfc7.png"
+    },
+    {
+      "name": "CustomizeXSLTMenu",
+      "imageAsset": "images/by-hash/daf258dce7e70476.png"
+    },
+    {
+      "name": "GroupCustomizeThemeOptions",
+      "imageAsset": "images/by-hash/f49b012b69437cca.png"
+    },
+    {
+      "name": "NumberingCustomize",
+      "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+    },
+    {
+      "name": "OmsCustomizeLayout",
+      "imageAsset": "images/by-hash/6b84ae529df0daa2.png"
+    },
+    {
+      "name": "TagsCustomize",
+      "imageAsset": "images/by-hash/4cf8a0d18ea84259.png"
+    },
+    {
+      "name": "AcetateModeOriginalMarkup",
+      "imageAsset": "images/by-hash/60176fe59b81b860.png"
+    },
+    {
+      "name": "AdvancedMode",
+      "imageAsset": "images/by-hash/e990b26262ad2738.png"
+    },
+    {
+      "name": "AutoFillMode",
+      "imageAsset": "images/by-hash/8a2fa3f2da641e47.png"
+    },
+    {
+      "name": "CloseInkEntryMode",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    }
+  ],
+  "sameImageIds": []
+}

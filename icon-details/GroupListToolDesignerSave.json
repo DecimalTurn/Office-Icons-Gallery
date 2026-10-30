@@ -1,0 +1,63 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupWorkflowVisualDesignerSave",
+      "imageAsset": "images/by-hash/246a59d100792609.png"
+    },
+    {
+      "name": "CreateWorkflowDiagramVisualDesigner",
+      "imageAsset": "images/by-hash/561c4f67fb5f10e8.png"
+    },
+    {
+      "name": "DesignerDrmSelectUser",
+      "imageAsset": "images/by-hash/d183c0780b942621.png"
+    },
+    {
+      "name": "DesignerOpen",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "DesignerPerformanceFeedback",
+      "imageAsset": "images/by-hash/bb5326991ce039df.png"
+    },
+    {
+      "name": "DesignerRibbonGiveFeedback",
+      "imageAsset": "images/by-hash/c9f0013582e4d949.png"
+    },
+    {
+      "name": "GroupDesignerHeaders",
+      "imageAsset": "images/by-hash/84e1ef6aafeedeea.png"
+    },
+    {
+      "name": "GroupListToolDesignerCreate",
+      "imageAsset": "images/by-hash/60c3e96c65603c01.png"
+    },
+    {
+      "name": "GroupListToolDesignerEdit",
+      "imageAsset": "images/by-hash/828e97e4441434cb.png"
+    },
+    {
+      "name": "GroupListToolEnterDesigner",
+      "imageAsset": "images/by-hash/828e97e4441434cb.png"
+    },
+    {
+      "name": "GroupWorkflowDesignerInsert",
+      "imageAsset": "images/by-hash/888b6d91cc62dd3b.png"
+    },
+    {
+      "name": "GroupWorkflowDesignerManage",
+      "imageAsset": "images/by-hash/8166418eccf14f70.png"
+    }
+  ],
+  "sameImageIds": [
+    "FileSave",
+    "FormRegionSave",
+    "FormRegionSaveMenu",
+    "FrameSaveCurrentAs",
+    "ListToolSaveAndPublish",
+    "MeetingsToolAppointmentSave",
+    "OmsSave",
+    "SaveBusinessDataCatalogModel",
+    "SaveItem"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BorderTopAndBottom",
+      "imageAsset": "images/by-hash/97d4d6f21b6ad46d.png"
+    },
+    {
+      "name": "BorderTopAndDoubleBottom",
+      "imageAsset": "images/by-hash/028185ee930a8dd8.png"
+    },
+    {
+      "name": "BorderTopAndThickBottom",
+      "imageAsset": "images/by-hash/0b396e41f2fc3258.png"
+    },
+    {
+      "name": "BorderTopNoToggle",
+      "imageAsset": "images/by-hash/ab7e4b394c677a88.png"
+    },
+    {
+      "name": "BorderTopWord",
+      "imageAsset": "images/by-hash/ab7e4b394c677a88.png"
+    },
+    {
+      "name": "BorderBottom",
+      "imageAsset": "images/by-hash/55ed253243346cfc.png"
+    },
+    {
+      "name": "BorderBottomNoToggle",
+      "imageAsset": "images/by-hash/55ed253243346cfc.png"
+    },
+    {
+      "name": "BorderBottomWord",
+      "imageAsset": "images/by-hash/55ed253243346cfc.png"
+    },
+    {
+      "name": "BorderColorPicker",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "BorderColorPickerExcel",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "BorderDiagonalDown",
+      "imageAsset": "images/by-hash/aa2d1c261fefbb4c.png"
+    },
+    {
+      "name": "BorderDiagonalUp",
+      "imageAsset": "images/by-hash/cc5877255b2f193f.png"
+    }
+  ],
+  "sameImageIds": [
+    "BorderTopNoToggle",
+    "BorderTopWord"
+  ]
+}

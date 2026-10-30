@@ -1,0 +1,29 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ReminderGallery",
+      "imageAsset": "images/by-hash/787c5004e1a222c9.png"
+    },
+    {
+      "name": "ReminderSet",
+      "imageAsset": "images/by-hash/787c5004e1a222c9.png"
+    },
+    {
+      "name": "ReminderSound",
+      "imageAsset": "images/by-hash/787c5004e1a222c9.png"
+    }
+  ],
+  "sameImageIds": [
+    "Alerts",
+    "ManageAlerts",
+    "NewAlert",
+    "ReminderGallery",
+    "ReminderSet",
+    "ReminderSound",
+    "SetAlerts",
+    "SetAlertsForTool",
+    "SetAlertsMenu",
+    "ShowRemindersWindow",
+    "ToolSetAlerts"
+  ]
+}

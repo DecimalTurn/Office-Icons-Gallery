@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DrawingCanvasExpand",
+      "imageAsset": "images/by-hash/2cbd4e11686252de.png"
+    },
+    {
+      "name": "DrawingCanvasFit",
+      "imageAsset": "images/by-hash/2fef15dde34fdfb9.png"
+    },
+    {
+      "name": "DrawingCanvasInsert",
+      "imageAsset": "images/by-hash/d9469ffed7b9b79b.png"
+    },
+    {
+      "name": "DrawingCanvasResize",
+      "imageAsset": "images/by-hash/96077b881b235e69.png"
+    },
+    {
+      "name": "DrawingCanvasScale",
+      "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+    },
+    {
+      "name": "InsertDrawingCanvas",
+      "imageAsset": "images/by-hash/7c09e8bd015cd422.png"
+    },
+    {
+      "name": "ScaleDrawingCanvas",
+      "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+    },
+    {
+      "name": "JotDrawingToolbar",
+      "imageAsset": "images/by-hash/d9469ffed7b9b79b.png"
+    },
+    {
+      "name": "JotLockDrawingCM",
+      "imageAsset": "images/by-hash/4d3d6a02242f6197.png"
+    },
+    {
+      "name": "JotTreatAsDrawingCM",
+      "imageAsset": "images/by-hash/2a9330e9f8b65de5.png"
+    },
+    {
+      "name": "JotEditMergeParagraphs",
+      "imageAsset": "images/by-hash/c6310578320ccf2b.png"
+    },
+    {
+      "name": "GalleryAllShapesAndCanvas",
+      "imageAsset": "images/by-hash/274bf7fc8394a312.png"
+    }
+  ],
+  "sameImageIds": []
+}

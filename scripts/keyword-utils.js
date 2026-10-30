@@ -1,0 +1,195 @@
+const fs = require("node:fs");
+
+function splitIconName(name = "") {
+  return name
+    .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+    .replace(/([A-Z])([A-Z][a-z])/g, "$1 $2")
+    .replace(/([A-Za-z])([0-9])/g, "$1 $2")
+    .replace(/([0-9])([A-Za-z])/g, "$1 $2")
+    .split(/[^A-Za-z0-9]+/)
+    .filter(Boolean);
+}
+
+function nameKeywords(iconNames) {
+  return new Set(iconNames
+    .flatMap(splitIconName)
+    .map((word) => word.toLocaleLowerCase("en")));
+}
+
+function removeNameKeywords(iconNames, keywords) {
+  const excludedKeywords = nameKeywords(iconNames);
+  return keywords.filter((keyword) => !excludedKeywords.has(keyword.toLocaleLowerCase("en")));
+}
+
+function synonymsForValues(values, synonymsBySource = {}) {
+  const sourceValues = new Set(values.map((value) => value.trim().toLocaleLowerCase("en")));
+  const sourcesBySynonym = new Map();
+  for (const [sourceValue, synonyms] of Object.entries(synonymsBySource)) {
+    const normalizedSource = sourceValue.trim().toLocaleLowerCase("en");
+    if (!sourceValues.has(normalizedSource) || !Array.isArray(synonyms)) {
+      continue;
+    }
+    for (const synonym of synonyms) {
+      if (typeof synonym !== "string") {
+        continue;
+      }
+      const normalizedSynonym = synonym.trim().toLocaleLowerCase("en");
+      if (!normalizedSynonym) {
+        continue;
+      }
+      const sources = sourcesBySynonym.get(normalizedSynonym) || [];
+      if (!sources.includes(normalizedSource)) {
+        sources.push(normalizedSource);
+        sourcesBySynonym.set(normalizedSynonym, sources);
+      }
+    }
+  }
+  return sourcesBySynonym;
+}
+
+function normalizeSynonyms(value, availableSources) {
+  if (!value || Array.isArray(value) || typeof value !== "object" || Object.keys(value).length > 5000) {
+    throw new Error("Synonyms must be an object with no more than 5,000 sources");
+  }
+  const normalized = {};
+  for (const [sourceValue, synonyms] of Object.entries(value)) {
+    const source = sourceValue.trim().toLocaleLowerCase("en");
+    if (!availableSources.has(source)) {
+      throw new Error(`Unknown synonym source: ${sourceValue}`);
+    }
+    if (!Array.isArray(synonyms) || synonyms.length > 100) {
+      throw new Error(`Provide no more than 100 synonyms for ${source}`);
+    }
+    const normalizedSynonyms = [...new Set(synonyms.map((synonym) => {
+      if (typeof synonym !== "string") {
+        throw new Error("Each synonym must be text");
+      }
+      const term = synonym.trim().toLocaleLowerCase("en");
+      if (!term || term.length > 80) {
+        throw new Error("Synonyms must contain 1 to 80 characters");
+      }
+      return term;
+    }))].sort();
+    if (normalizedSynonyms.length > 0) {
+      normalized[source] = normalizedSynonyms;
+    }
+  }
+  const synonymTargets = new Set(Object.values(normalized).flat());
+  const overlappingSources = Object.keys(normalized).filter((source) => synonymTargets.has(source));
+  if (overlappingSources.length > 0) {
+    throw new Error(`A synonym cannot also be a synonym source: ${overlappingSources.join(", ")}`);
+  }
+  return Object.fromEntries(Object.entries(normalized).sort(([left], [right]) => left.localeCompare(right, "en")));
+}
+
+function normalizeKeywordValues(values, maximumKeywords) {
+  if (!Array.isArray(values) || values.length > maximumKeywords) {
+    throw new Error(`Provide no more than ${maximumKeywords} keywords`);
+  }
+  return values.map((value) => {
+    if (typeof value !== "string") {
+      throw new Error("Each keyword must be text");
+    }
+    const keyword = value.trim().toLocaleLowerCase("en");
+    if (!keyword || keyword.length > 80) {
+      throw new Error("Keywords must contain 1 to 80 characters");
+    }
+    return keyword;
+  });
+}
+
+function normalizeReviewedKeywords(iconName, values) {
+  const submitted = normalizeKeywordValues(values, 100);
+  return [...new Set(removeNameKeywords([iconName], submitted))].sort();
+}
+
+function normalizeReviewedKeywordGroup(iconNames, values, synonymsBySource = {}) {
+  if (!Array.isArray(iconNames) || iconNames.length === 0) {
+    throw new Error("Provide at least one icon ID");
+  }
+  const submitted = normalizeKeywordValues(values, 200);
+  const nameWords = nameKeywords(iconNames);
+  const reviewedKeywords = removeNameKeywords(iconNames, submitted);
+  const sourceValues = [...nameWords, ...submitted];
+  const synonymKeywords = [...synonymsForValues(sourceValues, synonymsBySource).keys()];
+  return [...new Set([...reviewedKeywords, ...synonymKeywords])]
+    .filter((keyword) => !nameWords.has(keyword))
+    .sort();
+}
+
+function updateReviewStatus(reviewStatus, iconId, reviewed) {
+  return { ...reviewStatus, [iconId]: reviewed };
+}
+
+function updateMetadataKeywords(metadata, iconIds, keywords) {
+  const iconIdSet = new Set(iconIds);
+  const representativeId = iconIds[0];
+  return metadata.map((entry) => {
+    if (!iconIdSet.has(entry.name)) {
+      return entry;
+    }
+    if (entry.name === representativeId) {
+      return { ...entry, keywords };
+    }
+    const alias = { ...entry };
+    delete alias.keywords;
+    return alias;
+  });
+}
+
+function addSynonymsToMetadata(metadata, source, synonyms) {
+  const groups = new Map();
+  for (const icon of metadata) {
+    const groupKey = icon.imageStatus === "placeholder" || !icon.imageSha256
+      ? `icon:${icon.name}`
+      : `hash:${icon.imageSha256}`;
+    const group = groups.get(groupKey) || [];
+    group.push(icon);
+    groups.set(groupKey, group);
+  }
+
+  const keywordUpdates = new Map();
+  let matchedGroupCount = 0;
+  for (const group of groups.values()) {
+    const representative = group[0];
+    const groupNames = group.map((icon) => icon.name);
+    const sourceValues = [
+      ...groupNames.flatMap(splitIconName),
+      ...(representative.keywords || [])
+    ].map((value) => value.trim().toLocaleLowerCase("en"));
+    if (!sourceValues.includes(source)) {
+      continue;
+    }
+    matchedGroupCount += 1;
+
+    const nameWords = nameKeywords(groupNames);
+    const nextKeywords = new Set(representative.keywords || []);
+    for (const synonym of synonyms) {
+      if (!nameWords.has(synonym)) {
+        nextKeywords.add(synonym);
+      }
+    }
+    const normalizedKeywords = [...nextKeywords].sort((left, right) => left.localeCompare(right, "en"));
+    if (JSON.stringify(normalizedKeywords) !== JSON.stringify(representative.keywords || [])) {
+      keywordUpdates.set(representative.name, normalizedKeywords);
+    }
+  }
+
+  return {
+    metadata: metadata.map((icon) => keywordUpdates.has(icon.name)
+      ? { ...icon, keywords: keywordUpdates.get(icon.name) }
+      : icon),
+    matchedGroupCount,
+    updatedGroupCount: keywordUpdates.size
+  };
+}
+
+function readJsonFile(filePath) {
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+function readReviewStatus(filePath) {
+  return readJsonFile(filePath);
+}
+
+module.exports = { addSynonymsToMetadata, nameKeywords, normalizeReviewedKeywordGroup, normalizeReviewedKeywords, normalizeSynonyms, readJsonFile, readReviewStatus, removeNameKeywords, splitIconName, synonymsForValues, updateMetadataKeywords, updateReviewStatus };

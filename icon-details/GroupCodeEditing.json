@@ -1,0 +1,86 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CancelEditing",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "EastAsianEditingMarks",
+      "imageAsset": "images/by-hash/684c66fc88321c81.png"
+    },
+    {
+      "name": "GroupAudioEditing",
+      "imageAsset": "images/by-hash/9de2f9e4dcce8de7.png"
+    },
+    {
+      "name": "GroupEditing",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "GroupEditingExcel",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "GroupEditingInfoPath",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "GroupEditingSpd",
+      "imageAsset": "images/by-hash/e990b26262ad2738.png"
+    },
+    {
+      "name": "GroupInlineEditing",
+      "imageAsset": "images/by-hash/53f035b400396894.png"
+    },
+    {
+      "name": "GroupListViewInlineEditing",
+      "imageAsset": "images/by-hash/53f035b400396894.png"
+    },
+    {
+      "name": "GroupOutlookEditing",
+      "imageAsset": "images/by-hash/33960362b2c61f33.png"
+    },
+    {
+      "name": "GroupShapeSheetEditing",
+      "imageAsset": "images/by-hash/8706cee5c6f274d0.png"
+    },
+    {
+      "name": "GroupVideoEditing",
+      "imageAsset": "images/by-hash/05377a60f8076477.png"
+    }
+  ],
+  "sameImageIds": [
+    "CodeFindMenu",
+    "FindDialog",
+    "FindDialogExcel",
+    "FindMenu",
+    "FindText",
+    "FormsToolAdvancedFind",
+    "FormsToolFind",
+    "FormsToolFindMenu",
+    "GroupActionsLaunchbar",
+    "GroupCalendarRefineSearch",
+    "GroupContactFind",
+    "GroupContactRefineSearch",
+    "GroupEditing",
+    "GroupEditingExcel",
+    "GroupEditingInfoPath",
+    "GroupFind",
+    "GroupFindAccess",
+    "GroupFindFormsTool",
+    "GroupFindNotepadTool",
+    "GroupJournalRefineSearch",
+    "GroupMailRefineSearch",
+    "GroupNavigate",
+    "GroupNoteRefineSearch",
+    "GroupOutlookEditing",
+    "GroupSearch",
+    "GroupTaskRefineSearch",
+    "InstantSearch",
+    "NavigationPaneFind",
+    "NotebookSearch",
+    "OpenDesktopSearch",
+    "ReadingViewSearch",
+    "SelectMenuExcel"
+  ]
+}

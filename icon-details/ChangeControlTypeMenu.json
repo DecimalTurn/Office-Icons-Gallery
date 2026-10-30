@@ -1,0 +1,35 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ChangePictureFileType",
+      "imageAsset": "images/by-hash/b6920ebf67401601.png"
+    },
+    {
+      "name": "ChartChangeType",
+      "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+    },
+    {
+      "name": "ChartSeriesTypeChange",
+      "imageAsset": "images/by-hash/84694d8dbdd6c24e.png"
+    },
+    {
+      "name": "ColumnActionsChangeType",
+      "imageAsset": "images/by-hash/5f241bde88d838b2.png"
+    },
+    {
+      "name": "OrgChartPositionTypeChange",
+      "imageAsset": "images/by-hash/35d9eb88f2b8e305.png"
+    },
+    {
+      "name": "ShapeSheetChangeRowType",
+      "imageAsset": "images/by-hash/0a28579ba4cfd5a5.png"
+    },
+    {
+      "name": "SiteColumnActionsChangeType",
+      "imageAsset": "images/by-hash/5f241bde88d838b2.png"
+    }
+  ],
+  "sameImageIds": [
+    "TableChangeToMenu"
+  ]
+}

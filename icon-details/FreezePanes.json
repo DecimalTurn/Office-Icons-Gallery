@@ -1,0 +1,27 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ViewFreezePanesGallery",
+      "imageAsset": "images/by-hash/2e26fa11e3b7a125.png"
+    },
+    {
+      "name": "RecordsFreezeColumns",
+      "imageAsset": "images/by-hash/0bd7888b062cc33e.png"
+    },
+    {
+      "name": "HideTaskPanes",
+      "imageAsset": "images/by-hash/c186f08d06d4cafe.png"
+    },
+    {
+      "name": "TaskPanesMenu",
+      "imageAsset": "images/by-hash/4daf3d2ef3717404.png"
+    },
+    {
+      "name": "TaskPanesMenuVisio",
+      "imageAsset": "images/by-hash/8c005537b968b2f0.png"
+    }
+  ],
+  "sameImageIds": [
+    "ViewFreezePanesGallery"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "QuickSearchHasBusinessPhone",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "QuickSearchHasMobilePhone",
+      "imageAsset": "images/by-hash/808692b540d5562b.png"
+    },
+    {
+      "name": "QuickSearchHasHomeAddress",
+      "imageAsset": "images/by-hash/cc7405a103b44a17.png"
+    },
+    {
+      "name": "QuickSearchPhoneMenu",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "QuickSearchHasAttachments",
+      "imageAsset": "images/by-hash/9e33ae12e3811d10.png"
+    },
+    {
+      "name": "QuickSearchHasBusinessAddress",
+      "imageAsset": "images/by-hash/497a4f1948c9ced5.png"
+    },
+    {
+      "name": "QuickSearchHasEmailAddress",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    },
+    {
+      "name": "QuickSearchHasIMAddress",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "ShapeQuickStylesHome",
+      "imageAsset": "images/by-hash/a0ca653d58ecaf86.png"
+    },
+    {
+      "name": "QuickSearchAcceptedAppointments",
+      "imageAsset": "images/by-hash/2b2957f5ceeec671.png"
+    },
+    {
+      "name": "QuickSearchAddressMenu",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "QuickSearchAllCompleted",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    }
+  ],
+  "sameImageIds": [
+    "BlogHomePage",
+    "OpenStartPage",
+    "QuickSearchHasHomeAddress",
+    "RmsNavigationBarHome",
+    "SetStartPage"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupTeamPlannerFormat",
+      "imageAsset": "images/by-hash/e9bcf20071fd7d28.png"
+    },
+    {
+      "name": "GroupTeamPlannerSchedule",
+      "imageAsset": "images/by-hash/29ad1679ebbe2e75.png"
+    },
+    {
+      "name": "GroupTeamPlannerShowHide",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "TabTeamPlannerFormat",
+      "imageAsset": "images/by-hash/e9bcf20071fd7d28.png"
+    },
+    {
+      "name": "TeamPlannerActualBorderColor",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "TeamPlannerActualFillColor",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "TeamPlannerActualStyleMenu",
+      "imageAsset": "images/by-hash/4928ec2102019372.png"
+    },
+    {
+      "name": "TeamPlannerAutoScheduledBorder",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "TeamPlannerAutoScheduledFillColor",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    },
+    {
+      "name": "TeamPlannerAutoScheduleStyleMenu",
+      "imageAsset": "images/by-hash/aa022e861f00f076.png"
+    },
+    {
+      "name": "TeamPlannerExternalBorder",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "TeamPlannerExternalFillColor",
+      "imageAsset": "images/by-hash/5df5021f6d8bf2a8.png"
+    }
+  ],
+  "sameImageIds": []
+}

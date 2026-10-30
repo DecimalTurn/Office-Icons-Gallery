@@ -1,0 +1,60 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ContainerDisband",
+      "imageAsset": "images/by-hash/728fc5b5adeae1b1.png"
+    },
+    {
+      "name": "ContainerGallery",
+      "imageAsset": "images/by-hash/7610de93334dbed8.png"
+    },
+    {
+      "name": "ContainerHeadingStyles",
+      "imageAsset": "images/by-hash/e6d1f634c916badf.png"
+    },
+    {
+      "name": "ContainerLock",
+      "imageAsset": "images/by-hash/d32429aef761d851.png"
+    },
+    {
+      "name": "ContainerStyles",
+      "imageAsset": "images/by-hash/7d66254ae7c2926e.png"
+    },
+    {
+      "name": "DataGraphicContainer",
+      "imageAsset": "images/by-hash/5158126858f0a708.png"
+    },
+    {
+      "name": "GroupContainerSize",
+      "imageAsset": "images/by-hash/a5261425578a6472.png"
+    },
+    {
+      "name": "GroupContainerStyles",
+      "imageAsset": "images/by-hash/e6d1f634c916badf.png"
+    },
+    {
+      "name": "SelectParentContainer",
+      "imageAsset": "images/by-hash/7afb336897807cf4.png"
+    },
+    {
+      "name": "ControlMarginsGallery",
+      "imageAsset": "images/by-hash/05f902c226b6b11f.png"
+    },
+    {
+      "name": "ControlMarginsMedium",
+      "imageAsset": "images/by-hash/05f902c226b6b11f.png"
+    },
+    {
+      "name": "ControlMarginsMenu",
+      "imageAsset": "images/by-hash/05f902c226b6b11f.png"
+    }
+  ],
+  "sameImageIds": [
+    "CrossFunctionalFlowchartMargins",
+    "PageMarginsGallery",
+    "ReadingViewMarginSettingsMenu",
+    "TableCellMarginsGallery",
+    "TableCellPaddingModify",
+    "TableOptionsDialog"
+  ]
+}

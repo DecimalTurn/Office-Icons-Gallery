@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddToMySite",
+      "imageAsset": "images/by-hash/70b6b8bf57bb7ab2.png"
+    },
+    {
+      "name": "CustomizeMySite",
+      "imageAsset": "images/by-hash/93781d39d8f61aa1.png"
+    },
+    {
+      "name": "PersonaMenuMySite",
+      "imageAsset": "images/by-hash/0fd8be26c86aab0c.png"
+    },
+    {
+      "name": "ContactAddMyContacts",
+      "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+    },
+    {
+      "name": "ContactCardAddToIMContacts",
+      "imageAsset": "images/by-hash/1a142a8ba58bbfd5.png"
+    },
+    {
+      "name": "ContactCardAddToOutlookContacts",
+      "imageAsset": "images/by-hash/1b25675e4f54b211.png"
+    },
+    {
+      "name": "ContactCardCallComputer",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "ContactCardCallHome",
+      "imageAsset": "images/by-hash/b6c3160f01575fe9.png"
+    },
+    {
+      "name": "ContactCardCallMobile",
+      "imageAsset": "images/by-hash/808692b540d5562b.png"
+    },
+    {
+      "name": "ContactCardCallNewNumber",
+      "imageAsset": "images/by-hash/af23a5423f4b1e21.png"
+    },
+    {
+      "name": "ContactCardCallOther",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    },
+    {
+      "name": "ContactCardCallVoiceMail",
+      "imageAsset": "images/by-hash/2e99adb630de24ba.png"
+    }
+  ],
+  "sameImageIds": [
+    "PersonaMenuMySite"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "QuickSearchTaskDueDateGallery",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "QuickSearchTaskStartDateGallery",
+      "imageAsset": "images/by-hash/c7d6f3917cb26c65.png"
+    },
+    {
+      "name": "GroupStatusTask",
+      "imageAsset": "images/by-hash/8f8754120435881b.png"
+    },
+    {
+      "name": "TaskMoveCompletedPartsToStatusDate",
+      "imageAsset": "images/by-hash/c298599340a1ea9d.png"
+    },
+    {
+      "name": "TaskMoveIncompletePartsToStatusDate",
+      "imageAsset": "images/by-hash/f904ef0706eb5c45.png"
+    },
+    {
+      "name": "QuickSearchAcceptedAppointments",
+      "imageAsset": "images/by-hash/2b2957f5ceeec671.png"
+    },
+    {
+      "name": "QuickSearchAddressMenu",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "QuickSearchAllCompleted",
+      "imageAsset": "images/by-hash/66c019a2aa5479c9.png"
+    },
+    {
+      "name": "QuickSearchAllIncomplete",
+      "imageAsset": "images/by-hash/bcf32234185199f5.png"
+    },
+    {
+      "name": "QuickSearchAnyCategory",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "QuickSearchCancel",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "QuickSearchCategories",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    }
+  ],
+  "sameImageIds": []
+}

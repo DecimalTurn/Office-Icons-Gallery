@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AddNewRssFeed",
+      "imageAsset": "images/by-hash/62675dac43797838.png"
+    },
+    {
+      "name": "SharingOpenRssFeed",
+      "imageAsset": "images/by-hash/d4084b06f401b640.png"
+    },
+    {
+      "name": "ShareThisNotebook",
+      "imageAsset": "images/by-hash/e807794a9201c794.png"
+    },
+    {
+      "name": "GroupRss",
+      "imageAsset": "images/by-hash/448cafaddde8578c.png"
+    },
+    {
+      "name": "RssDownload",
+      "imageAsset": "images/by-hash/448cafaddde8578c.png"
+    },
+    {
+      "name": "RssDownloadContent",
+      "imageAsset": "images/by-hash/448cafaddde8578c.png"
+    },
+    {
+      "name": "RssDownloadContentGallery",
+      "imageAsset": "images/by-hash/448cafaddde8578c.png"
+    },
+    {
+      "name": "RssViewArticle",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "CopyThisFolder",
+      "imageAsset": "images/by-hash/f059de2577113260.png"
+    },
+    {
+      "name": "DeleteThisFolder",
+      "imageAsset": "images/by-hash/b8d6f8c164da340f.png"
+    },
+    {
+      "name": "DeleteWorkspaceFromThisComputer",
+      "imageAsset": "images/by-hash/ac21021d34040f2e.png"
+    },
+    {
+      "name": "DesignThisForm",
+      "imageAsset": "images/by-hash/828e97e4441434cb.png"
+    }
+  ],
+  "sameImageIds": [
+    "SharingOpenRssFeed"
+  ]
+}

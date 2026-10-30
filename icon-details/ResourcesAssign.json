@@ -1,0 +1,68 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AssignTask",
+      "imageAsset": "images/by-hash/9960556f722cbf0b.png"
+    },
+    {
+      "name": "FacilitiesAssignCategory",
+      "imageAsset": "images/by-hash/81286b9a0ccb679f.png"
+    },
+    {
+      "name": "AddResourcesFromActiveDirectory",
+      "imageAsset": "images/by-hash/e1d564e7fc6ca424.png"
+    },
+    {
+      "name": "EnterpriseResourcesImport",
+      "imageAsset": "images/by-hash/001c88135bd2684c.png"
+    },
+    {
+      "name": "EnterpriseResourcesOpen",
+      "imageAsset": "images/by-hash/904f30d162e4d831.png"
+    },
+    {
+      "name": "HelpDevResources",
+      "imageAsset": "images/by-hash/d81a09a9ce4cb2f7.png"
+    },
+    {
+      "name": "ResourcesAddFromAddressBook",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "ResourcesAddFromProjectServer",
+      "imageAsset": "images/by-hash/dde6df49338d2433.png"
+    },
+    {
+      "name": "ResourcesAddMenu",
+      "imageAsset": "images/by-hash/57b6806ca0598d1d.png"
+    },
+    {
+      "name": "ResourcesShare",
+      "imageAsset": "images/by-hash/34f2e08976f4937f.png"
+    },
+    {
+      "name": "ScheduleTaskWhenResourcesAvailable",
+      "imageAsset": "images/by-hash/02c4ecdd36cf035e.png"
+    },
+    {
+      "name": "ViewResourcesPredecessorsShow",
+      "imageAsset": "images/by-hash/cb691b337045594c.png"
+    }
+  ],
+  "sameImageIds": [
+    "AddDepartment",
+    "CoauthorCount",
+    "DelegateAccess",
+    "GroupAssignments",
+    "GroupAssignmentsStandard",
+    "GroupAttendees",
+    "GroupAttendeesMeetingSent",
+    "GroupRecurringAttendees",
+    "NewDistributionList",
+    "NewDistributionListCompact",
+    "NewDistributionListNumbered",
+    "QuickSearchNotToCcMe",
+    "ShareWithPeople",
+    "ShowMembersPage"
+  ]
+}

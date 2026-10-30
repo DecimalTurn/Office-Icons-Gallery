@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupPivotTableCalculations",
+      "imageAsset": "images/by-hash/530fa87f2639955a.png"
+    },
+    {
+      "name": "GroupPivotTableCalculationsDeprecated",
+      "imageAsset": "images/by-hash/530fa87f2639955a.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupPivotTableCalculations",
+    "GroupPivotTableCalculationsDeprecated",
+    "PivotChartFormulasMenu",
+    "PivotChartSetMenu",
+    "PivotFormulasMenu",
+    "PivotTableFormulasMenu",
+    "PivotTableListFormulas"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AdpDiagramAutosizeSelectedTables",
+      "imageAsset": "images/by-hash/8f2da1eb3cb54652.png"
+    },
+    {
+      "name": "AutoScheduleSelectedTask",
+      "imageAsset": "images/by-hash/aa022e861f00f076.png"
+    },
+    {
+      "name": "CalendarToolExportSelectedAppointment",
+      "imageAsset": "images/by-hash/d51ac3a5ee3618c2.png"
+    },
+    {
+      "name": "CatalogMergeExcludeSelectedRecord",
+      "imageAsset": "images/by-hash/e81f88c0221dad15.png"
+    },
+    {
+      "name": "DuplicateSelectedSlides",
+      "imageAsset": "images/by-hash/ae6bfecbf2c445a9.png"
+    },
+    {
+      "name": "ExcludeSelectedRecord",
+      "imageAsset": "images/by-hash/e81f88c0221dad15.png"
+    },
+    {
+      "name": "ListAdminSelected",
+      "imageAsset": "images/by-hash/0d9d427cad11f2dd.png"
+    },
+    {
+      "name": "ListEditSelected",
+      "imageAsset": "images/by-hash/ebc2e411a4024d7d.png"
+    },
+    {
+      "name": "ManuallyScheduleSelectedTask",
+      "imageAsset": "images/by-hash/fde603d72c3ddeec.png"
+    },
+    {
+      "name": "MarkSelectedEntriesRead",
+      "imageAsset": "images/by-hash/42e40667ed43a78e.png"
+    },
+    {
+      "name": "MarkSelectedEntriesReadInMenu",
+      "imageAsset": "images/by-hash/42e40667ed43a78e.png"
+    },
+    {
+      "name": "MarkSelectedEntriesUnread",
+      "imageAsset": "images/by-hash/94b6de755cf78f80.png"
+    }
+  ],
+  "sameImageIds": [
+    "Backspace",
+    "ChangeToDeclineInvitation",
+    "ClearGrid",
+    "ClearIconColors",
+    "ClearRow",
+    "ColumnActionsRemove",
+    "ContactDelete",
+    "ContentTypeColumnActionsRemove",
+    "DataSourceCatalogRemove",
+    "DeclineInvitation",
+    "DeclineTask",
+    "Delete",
+    "DeleteAppointmentGallery",
+    "DeleteContentType",
+    "DeleteDistributionGroup",
+    "DeleteFailedEntityInstanceCreateOperation",
+    "DeleteItem",
+    "DeleteItemInLaunchbar",
+    "DeleteNavigationLink",
+    "DeletePermissionGroup",
+    "DeleteSite",
+    "DeleteSpdPage",
+    "DeleteSPDSite",
+    "DeleteWeb",
+    "DeleteWorkspaceFromThisComputer",
+    "DeleteWorkspaceMenu",
+    "FolderDelete",
+    "FormsToolDelete",
+    "GanttTaskDelete",
+    "GroupActions",
+    "GroupCalendarTool",
+    "GroupDelete",
+    "GroupMailDelete",
+    "GroupMeetings",
+    "GroupMembersEdit",
+    "GroupPicturesTool",
+    "GroupSketchpad",
+    "GroupSummaryEdit",
+    "GuideDelete",
+    "JotPermanentlyDelete",
+    "ListDeleteList",
+    "MailDelete",
+    "MeetingsToolAppointmentDelete",
+    "MeetingsToolAppointmentDeleteAgendaItem",
+    "MeetingsToolAppointmentDeleteNote",
+    "MeetingsToolAppointmentDeleteSummary",
+    "MenuDeclineInvitation",
+    "NotebookDelete",
+    "NoteLinkDelete",
+    "NoteLinkDeleteGallery",
+    "NoteLinksDeleteAll",
+    "OutlookTaskRemove",
+    "OutlookTaskRemoveContextual",
+    "PageVersionDelete",
+    "PivotClearAll",
+    "PivotTableDiscardChanges",
+    "RejectApprovalRequest",
+    "RelationshipsClearLayout",
+    "RemoveAttach",
+    "RemoveTaskPathHighlight",
+    "RemoveUserFromGroup",
+    "ReviewDeleteAllMarkupInPresentation",
+    "SharingRequestDeny",
+    "SiteColumnActionsRemove",
+    "SlicerDelete",
+    "SlicerDeleteTouch",
+    "TaskSummaryDeleteSelf",
+    "TimeSlicerDelete",
+    "TimeSlicerDeleteTouch",
+    "ToolDelete",
+    "WorkflowSummaryDeleteWorkflow"
+  ]
+}

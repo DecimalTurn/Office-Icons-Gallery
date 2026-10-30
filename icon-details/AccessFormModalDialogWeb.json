@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AccessFormModalDialog",
+      "imageAsset": "images/by-hash/b2bff7bb772c34d4.png"
+    },
+    {
+      "name": "GroupAccessLayoutWeb",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "GroupReportLayoutWebAccess",
+      "imageAsset": "images/by-hash/5ec9a6a75f5f34f3.png"
+    },
+    {
+      "name": "ProjectWebAccessProjectDetails",
+      "imageAsset": "images/by-hash/9c4565b4b1ca68aa.png"
+    },
+    {
+      "name": "WebQueryAccess",
+      "imageAsset": "images/by-hash/4e9a6401895d4655.png"
+    },
+    {
+      "name": "AccessFormDatasheet",
+      "imageAsset": "images/by-hash/46bf1331d15b804f.png"
+    },
+    {
+      "name": "AccessFormPivotTable",
+      "imageAsset": "images/by-hash/fb228fb522333bc7.png"
+    },
+    {
+      "name": "AccessFormWizard",
+      "imageAsset": "images/by-hash/e66e4f9a48e1e90f.png"
+    },
+    {
+      "name": "CreateFormBlankFormWeb",
+      "imageAsset": "images/by-hash/ac1ad25aa1bf3d8a.png"
+    },
+    {
+      "name": "CreateFormMoreFormsWebMenu",
+      "imageAsset": "images/by-hash/b6a5d1892d5b7917.png"
+    },
+    {
+      "name": "CreateFormNavigationLeftWeb",
+      "imageAsset": "images/by-hash/70f92f056f44c3ca.png"
+    },
+    {
+      "name": "CreateFormNavigationRightWeb",
+      "imageAsset": "images/by-hash/32bfeb084b1a9724.png"
+    }
+  ],
+  "sameImageIds": [
+    "AccessFormModalDialog"
+  ]
+}

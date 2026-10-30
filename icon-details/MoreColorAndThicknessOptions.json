@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "ShapeColorAndThickness",
+      "imageAsset": "images/by-hash/f8efceb685193bce.png"
+    },
+    {
+      "name": "ControlLineThicknessGallery",
+      "imageAsset": "images/by-hash/c223c1781a4305f2.png"
+    },
+    {
+      "name": "LineThickness",
+      "imageAsset": "images/by-hash/8b9ce1d4bb31f477.png"
+    }
+  ],
+  "sameImageIds": [
+    "BorderMoreColorsDialog",
+    "ChartColorsGallery",
+    "ColorMenu",
+    "ColorPickerCalendar",
+    "CycleFillColor",
+    "FontColorCycle",
+    "FontColorMoreColorsDialog",
+    "FontColorMoreColorsDialogExcel",
+    "FontColorMoreColorsDialogPowerPoint",
+    "FontShadingColorMoreColorsDialog",
+    "GlowColorMoreColorsDialog",
+    "GlowColorPicker",
+    "GroupColor",
+    "GroupDiagramming",
+    "GroupPens",
+    "InkColorMoreColorsDialog",
+    "InkLineColorPicker",
+    "JotLineColor",
+    "MoreHighlightColors",
+    "NavSectionColorPicker",
+    "ObjectBorderOutlineColorMoreColorsDialog",
+    "ObjectFillMoreColorsDialog",
+    "ObjectShadowColorMoreColorsDialog",
+    "PictureRecolorMoreColorsDialog",
+    "RecolorColorPicker",
+    "ShadingColorsMoreColorsDialog",
+    "SheetTabColorMoreColorsDialog",
+    "SmartArtChangeColorsGallery",
+    "SparklineFirstPointMoreColors",
+    "SparklineHighPointMoreColors",
+    "SparklineLastPointMoreColors",
+    "SparklineLowPointMoreColors",
+    "SparklineMarkerMoreColors",
+    "SparklineMoreColors",
+    "SparklineNegativePointMoreColors",
+    "TableBorderColorMoreColorsDialog",
+    "TableFillColorMoreColorsDialog",
+    "TextFillColorMoreColorsDialog",
+    "TextGlowColorMoreColorsDialog",
+    "TextGlowColorPicker",
+    "TextOutlineColorMoreColorsDialog"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SelectAllAccess",
+      "imageAsset": "images/by-hash/b5751416d10b354a.png"
+    }
+  ],
+  "sameImageIds": [
+    "CodeSelectMenu",
+    "GroupInkSelect",
+    "GroupSelection",
+    "GroupTable",
+    "ObjectsSelect",
+    "Pointer",
+    "PointerTool",
+    "PointerToolMenu",
+    "PointerToolSpd",
+    "SelectMenu",
+    "SelectObjects",
+    "SelectRecord",
+    "TableSelectMenu",
+    "TableSelectMenuPowerPoint"
+  ]
+}

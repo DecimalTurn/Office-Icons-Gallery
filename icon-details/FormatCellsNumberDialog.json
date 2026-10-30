@@ -1,0 +1,59 @@
+{
+  "relatedIcons": [
+    {
+      "name": "FormatCellsDialog",
+      "imageAsset": "images/by-hash/efd326c5be4d5b20.png"
+    },
+    {
+      "name": "FormatCellsFontDialog",
+      "imageAsset": "images/by-hash/facb4b355bd224b5.png"
+    },
+    {
+      "name": "FormatCellsMenu",
+      "imageAsset": "images/by-hash/a0fc101de8c2cabe.png"
+    },
+    {
+      "name": "FormatNumberDefault",
+      "imageAsset": "images/by-hash/85afeba74e09bcaf.png"
+    },
+    {
+      "name": "NumberFormatGallery",
+      "imageAsset": "images/by-hash/6fbdf9ab15ce4e0a.png"
+    },
+    {
+      "name": "PageNumberFormat",
+      "imageAsset": "images/by-hash/1505168ee93bad1d.png"
+    },
+    {
+      "name": "AccessMergeCells",
+      "imageAsset": "images/by-hash/32b656a3b1ec1c0d.png"
+    },
+    {
+      "name": "CellsDelete",
+      "imageAsset": "images/by-hash/f836ed27023164d9.png"
+    },
+    {
+      "name": "CellsDeleteSmart",
+      "imageAsset": "images/by-hash/f836ed27023164d9.png"
+    },
+    {
+      "name": "CellsInsertDialog",
+      "imageAsset": "images/by-hash/86df329d6ababfa0.png"
+    },
+    {
+      "name": "CellsInsertSmart",
+      "imageAsset": "images/by-hash/86df329d6ababfa0.png"
+    },
+    {
+      "name": "ConditionalFormattingHighlightCellsMenu",
+      "imageAsset": "images/by-hash/6b7a34509ca46db1.png"
+    }
+  ],
+  "sameImageIds": [
+    "ApplyPercentageFormat",
+    "GroupDataTypeAndFormatting",
+    "GroupFormatting",
+    "GroupNumber",
+    "PercentStyle"
+  ]
+}

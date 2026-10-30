@@ -1,0 +1,38 @@
+{
+  "relatedIcons": [
+    {
+      "name": "AutoLinkingStart",
+      "imageAsset": "images/by-hash/044d2e244d8dd9e6.png"
+    },
+    {
+      "name": "AutoLinkingStop",
+      "imageAsset": "images/by-hash/71dee70b48fca71d.png"
+    }
+  ],
+  "sameImageIds": [
+    "AutoSigWebInsertHyperlink",
+    "BuildHyperlink",
+    "DataTypeHyperlink",
+    "DetectURLs",
+    "EditHyperlink",
+    "GanttTaskLink",
+    "GetLinks",
+    "GroupBlogInsertLinks",
+    "GroupInsertLinks",
+    "GroupLink",
+    "GroupWebPageNavigation",
+    "HyperlinkControl",
+    "HyperlinkCreateHere",
+    "HyperlinkEdit",
+    "HyperlinkFlyoutAnchor",
+    "HyperlinkInsert",
+    "HyperlinkInsertPowerPoint",
+    "HyperlinkProperties",
+    "InsertLink",
+    "LinkTasksMenu",
+    "NewExternalNavigationLink",
+    "TasksLink",
+    "TextBoxLinkCreate",
+    "VisioHyperlinkInsert"
+  ]
+}

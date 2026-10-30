@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupPivotTableCalculationsDeprecated",
+      "imageAsset": "images/by-hash/530fa87f2639955a.png"
+    }
+  ],
+  "sameImageIds": [
+    "ARMPreviewButton",
+    "AssignmentInformation",
+    "GroupAssignmentProperties",
+    "Info",
+    "InformationDialog",
+    "MoreSyncErrorInfo",
+    "OutOfDateInvitation",
+    "RefreshStatus",
+    "ResultsPaneAccessibilityMoreInfo",
+    "TabInfo",
+    "XDMoreDetailsInfo"
+  ]
+}

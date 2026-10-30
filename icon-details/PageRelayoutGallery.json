@@ -1,0 +1,18 @@
+{
+  "relatedIcons": [
+    {
+      "name": "OrgChartRelayout",
+      "imageAsset": "images/by-hash/ac0a56f0072f5dde.png"
+    },
+    {
+      "name": "PivotDiagramRelayoutAll",
+      "imageAsset": "images/by-hash/a8548e1f3b219e8d.png"
+    }
+  ],
+  "sameImageIds": [
+    "GroupLayoutRouting",
+    "LayoutMoreOptions",
+    "PageSetupLayoutAndRoutingDialog",
+    "PivotDiagramRelayoutAll"
+  ]
+}

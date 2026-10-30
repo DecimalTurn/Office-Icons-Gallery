@@ -1,0 +1,25 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CrossReferenceInsert",
+      "imageAsset": "images/by-hash/6b43807068d961bd.png"
+    },
+    {
+      "name": "DeveloperDrawingTools",
+      "imageAsset": "images/by-hash/cb43a68ff1bbd52c.png"
+    },
+    {
+      "name": "FunctionsLookupReferenceInsertGallery",
+      "imageAsset": "images/by-hash/45f84a2af3e6d14b.png"
+    },
+    {
+      "name": "GroupShowHideDeveloperVisio",
+      "imageAsset": "images/by-hash/b39a0c1f5c3a667e.png"
+    }
+  ],
+  "sameImageIds": [
+    "CLViewDialogHelpID",
+    "ContentsAndIndex",
+    "HelpDevResources"
+  ]
+}

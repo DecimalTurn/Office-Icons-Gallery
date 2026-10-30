@@ -1,0 +1,17 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupCalendarShare",
+      "imageAsset": "images/by-hash/8db446fcf66f5604.png"
+    },
+    {
+      "name": "ShareCalendar",
+      "imageAsset": "images/by-hash/8db446fcf66f5604.png"
+    },
+    {
+      "name": "ShareCalendarFolder",
+      "imageAsset": "images/by-hash/8db446fcf66f5604.png"
+    }
+  ],
+  "sameImageIds": []
+}

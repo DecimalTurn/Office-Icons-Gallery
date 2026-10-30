@@ -1,0 +1,48 @@
+{
+  "relatedIcons": [
+    {
+      "name": "InkingBiasAuto",
+      "imageAsset": "images/by-hash/443025788bd82c49.png"
+    },
+    {
+      "name": "InkingBiasDraw",
+      "imageAsset": "images/by-hash/2a9330e9f8b65de5.png"
+    },
+    {
+      "name": "GroupMailMergeWriteInsertFields",
+      "imageAsset": "images/by-hash/1f9b73fc5bc804c2.png"
+    },
+    {
+      "name": "GroupPensWrite",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "GroupWrite",
+      "imageAsset": "images/by-hash/1b8fcbd11730172a.png"
+    },
+    {
+      "name": "GroupWriteOnTouch",
+      "imageAsset": "images/by-hash/1b8fcbd11730172a.png"
+    },
+    {
+      "name": "InkingStart",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "InkStopInkingReadingView",
+      "imageAsset": "images/by-hash/59ba6cde6908f77c.png"
+    },
+    {
+      "name": "ReadingViewStartInking",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    },
+    {
+      "name": "StartInking",
+      "imageAsset": "images/by-hash/71c7eab17e57fd8b.png"
+    }
+  ],
+  "sameImageIds": [
+    "JotTreatAsWritingCM",
+    "TreatInkAsHandwriting"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "relatedIcons": [
+    {
+      "name": "BuildOrderChangeGallery",
+      "imageAsset": "images/by-hash/b7e567ccc740232d.png"
+    },
+    {
+      "name": "CatalogMergeFillOrderMenu",
+      "imageAsset": "images/by-hash/b3d706cbe751a83c.png"
+    },
+    {
+      "name": "ObjectOrderMenu",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "TabOrder",
+      "imageAsset": "images/by-hash/665908ffddbebe22.png"
+    }
+  ],
+  "sameImageIds": [
+    "GalPosition",
+    "GroupArrange",
+    "GroupArrangeOutlook",
+    "GroupArrangePictures",
+    "GroupArrangeSpd",
+    "GroupDiagramArrangeClassic",
+    "GroupPictureToolArrange",
+    "GroupPosition",
+    "GroupTableArrange",
+    "GroupTextBoxArrange",
+    "ObjectBringToFront",
+    "ObjectBringToFrontMenu",
+    "ObjectBringToFrontMenuOutlook",
+    "ObjectBringToFrontOutlook",
+    "ObjectOrderMenu",
+    "SendToMenu",
+    "SketchpadToolArrangeMenu",
+    "SketchpadToolBringToFront"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "relatedIcons": [
+    {
+      "name": "Drawing1ColorPickerLineStylesWordArt",
+      "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png"
+    },
+    {
+      "name": "GroupWordArtStyles",
+      "imageAsset": "images/by-hash/65848a8b0733843a.png"
+    },
+    {
+      "name": "GroupWordArtStylesClassic",
+      "imageAsset": "images/by-hash/9d6a3115aaf897e4.png"
+    },
+    {
+      "name": "TableStylesGalleryWord",
+      "imageAsset": "images/by-hash/da7ea7478bb82308.png"
+    },
+    {
+      "name": "WordArtStylesGalleryClassic",
+      "imageAsset": "images/by-hash/f55563ebf971e5b5.png"
+    }
+  ],
+  "sameImageIds": [
+    "FormatAsTableGallery",
+    "GroupPivotTableStyles",
+    "GroupSlicerStyles",
+    "GroupTableBordersOneNote",
+    "GroupTableFormatsPublisher",
+    "GroupTableStylesExcel",
+    "GroupTableStylesPowerPoint",
+    "GroupTimelineStyles",
+    "GroupViewStyle",
+    "PivotTableStylesGallery",
+    "SlicerStyles",
+    "TableFormatsGalleryPublisher",
+    "TableStylesGallery",
+    "TableStylesGalleryExcel",
+    "TableStylesGalleryWord",
+    "TimelineStyles"
+  ]
+}

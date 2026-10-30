@@ -1,0 +1,60 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SourceSafeQuickUndoCheckOut",
+      "imageAsset": "images/by-hash/9a092616c2da4f72.png"
+    },
+    {
+      "name": "SourceSafeQuickCheckout",
+      "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+    },
+    {
+      "name": "SourceControlCheckIn",
+      "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+    },
+    {
+      "name": "SourceControlCheckOut",
+      "imageAsset": "images/by-hash/e7148a1aab2d3b26.png"
+    },
+    {
+      "name": "SourceControlUndoCheckOut",
+      "imageAsset": "images/by-hash/9a092616c2da4f72.png"
+    },
+    {
+      "name": "JunkEmailSafeListsMenu",
+      "imageAsset": "images/by-hash/44ac5b462eeb6978.png"
+    },
+    {
+      "name": "ActiveXCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "CheckEntities",
+      "imageAsset": "images/by-hash/3e6bc01c3e5ae9cc.png"
+    },
+    {
+      "name": "CheckInAll",
+      "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+    },
+    {
+      "name": "CheckInEntry",
+      "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+    },
+    {
+      "name": "CheckInFile",
+      "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+    },
+    {
+      "name": "CheckInMenu",
+      "imageAsset": "images/by-hash/4dc4e9ce02c5d69a.png"
+    }
+  ],
+  "sameImageIds": [
+    "CheckInAll",
+    "CheckInEntry",
+    "CheckInFile",
+    "CheckInMenu",
+    "FileCheckIn",
+    "SourceControlCheckIn"
+  ]
+}

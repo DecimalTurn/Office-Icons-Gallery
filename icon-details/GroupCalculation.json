@@ -1,0 +1,14 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CalculationOptionsMenu",
+      "imageAsset": "images/by-hash/61dfcf80cb5799bb.png"
+    }
+  ],
+  "sameImageIds": [
+    "CalculateNow",
+    "CalculationOptionsMenu",
+    "Calculator",
+    "GroupCalculatedColumns"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GroupPivotChartFilterAndSort",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupPivotTableFilterAndSort",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupFilterSortAndGroup",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupListViewFilterSortAndGroup",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupSortAndFilter",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "GroupSortFilter",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    },
+    {
+      "name": "SortAndFilterAdvanced",
+      "imageAsset": "images/by-hash/9661e7421c9a5f6d.png"
+    },
+    {
+      "name": "SortFilterMenu",
+      "imageAsset": "images/by-hash/9d935fefe6d2eae3.png"
+    },
+    {
+      "name": "GroupPivotChartFilter",
+      "imageAsset": "images/by-hash/613c49ee00fd0eaa.png"
+    },
+    {
+      "name": "PivotAutoFilter",
+      "imageAsset": "images/by-hash/0f587dcc8e84a46c.png"
+    },
+    {
+      "name": "PivotChartFilterShow",
+      "imageAsset": "images/by-hash/343b4155affdf05f.png"
+    },
+    {
+      "name": "PivotDiagramFilter",
+      "imageAsset": "images/by-hash/224128b8d52e14aa.png"
+    }
+  ],
+  "sameImageIds": []
+}

@@ -1,0 +1,23 @@
+{
+  "relatedIcons": [
+    {
+      "name": "CostResourceInsert",
+      "imageAsset": "images/by-hash/ba63fa30844f0db4.png"
+    },
+    {
+      "name": "CostTrackingForm",
+      "imageAsset": "images/by-hash/c56f9e5e66372dbb.png"
+    },
+    {
+      "name": "ReportCostGallery",
+      "imageAsset": "images/by-hash/a78fc8835b8c2fe2.png"
+    },
+    {
+      "name": "ViewCumulativeCostShow",
+      "imageAsset": "images/by-hash/be153295e8703e76.png"
+    }
+  ],
+  "sameImageIds": [
+    "CostResourceInsert"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "IconsAndDetails",
+      "imageAsset": "images/by-hash/cc81676e63da29d6.png"
+    },
+    {
+      "name": "IconsAndNames",
+      "imageAsset": "images/by-hash/4cef7c5bcd920c2f.png"
+    },
+    {
+      "name": "LargeIcons",
+      "imageAsset": "images/by-hash/ac092781dfa8eecd.png"
+    },
+    {
+      "name": "LineUpIcons",
+      "imageAsset": "images/by-hash/0927f95a16394c1f.png"
+    },
+    {
+      "name": "NamesUnderIcons",
+      "imageAsset": "images/by-hash/d773ba49c692a331.png"
+    },
+    {
+      "name": "SmallIcons",
+      "imageAsset": "images/by-hash/e3d7f9fe83d27461.png"
+    },
+    {
+      "name": "WindowsArrangeIcons",
+      "imageAsset": "images/by-hash/00ff86c8b54acd38.png"
+    },
+    {
+      "name": "AdpDiagramNameOnly",
+      "imageAsset": "images/by-hash/01ce8db5665e111c.png"
+    },
+    {
+      "name": "AppendOnly",
+      "imageAsset": "images/by-hash/3211a6a8922a4f76.png"
+    },
+    {
+      "name": "AppendOnlyControl",
+      "imageAsset": "images/by-hash/2588afd13c4576f6.png"
+    },
+    {
+      "name": "ColumnActionsReadOnly",
+      "imageAsset": "images/by-hash/496a802468ac8523.png"
+    },
+    {
+      "name": "ContentTypeColumnActionsReadOnly",
+      "imageAsset": "images/by-hash/496a802468ac8523.png"
+    }
+  ],
+  "sameImageIds": []
+}

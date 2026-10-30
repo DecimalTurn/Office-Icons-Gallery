@@ -1,0 +1,53 @@
+{
+  "relatedIcons": [
+    {
+      "name": "GalAttachMasterPage",
+      "imageAsset": "images/by-hash/1e82353866e0c2fd.png"
+    },
+    {
+      "name": "GalInsertAspNet",
+      "imageAsset": "images/by-hash/cce7727b982caf67.png"
+    },
+    {
+      "name": "GalInsertSharePoint",
+      "imageAsset": "images/by-hash/f0965f4a3d99bd08.png"
+    },
+    {
+      "name": "GalInsertWebPart",
+      "imageAsset": "images/by-hash/ccf129d889722797.png"
+    },
+    {
+      "name": "GalPosition",
+      "imageAsset": "images/by-hash/7bbb2ec14bfdf59b.png"
+    },
+    {
+      "name": "GalPrintPagesTall",
+      "imageAsset": "images/by-hash/b19eabd88a1cf0a8.png"
+    },
+    {
+      "name": "GalPrintPagesWide",
+      "imageAsset": "images/by-hash/67a8e7c0d162a5ed.png"
+    },
+    {
+      "name": "GalPrintScale",
+      "imageAsset": "images/by-hash/c1c0b028c82e21fc.png"
+    },
+    {
+      "name": "GalRotateShape",
+      "imageAsset": "images/by-hash/2be74a485b86b3c5.png"
+    },
+    {
+      "name": "DocViewHtml",
+      "imageAsset": "images/by-hash/b901bce065cea3fc.png"
+    },
+    {
+      "name": "ExportHtmlDocument",
+      "imageAsset": "images/by-hash/da2a8c907eebb5b3.png"
+    },
+    {
+      "name": "HtmlBalanceBraces",
+      "imageAsset": "images/by-hash/0d767782d0c455e6.png"
+    }
+  ],
+  "sameImageIds": []
+}

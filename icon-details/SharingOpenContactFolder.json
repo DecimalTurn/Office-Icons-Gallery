@@ -1,0 +1,70 @@
+{
+  "relatedIcons": [
+    {
+      "name": "SharingOpenCalendarFolder",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "SharingOpenDocumentFolder",
+      "imageAsset": "images/by-hash/cebb6d36cf27c851.png"
+    },
+    {
+      "name": "SharingOpenJournalFolder",
+      "imageAsset": "images/by-hash/f6f22ee1f2ca46bb.png"
+    },
+    {
+      "name": "SharingOpenMailFolder",
+      "imageAsset": "images/by-hash/9c7588bc26c3e4ba.png"
+    },
+    {
+      "name": "SharingOpenNotesFolder",
+      "imageAsset": "images/by-hash/85b5d0d61b183246.png"
+    },
+    {
+      "name": "SharingOpenTaskFolder",
+      "imageAsset": "images/by-hash/685d08ad2b856414.png"
+    },
+    {
+      "name": "SharingOpenWssContactList",
+      "imageAsset": "images/by-hash/3ecdfc82cb4924db.png"
+    },
+    {
+      "name": "SharingPreviewWssContactList",
+      "imageAsset": "images/by-hash/46b714642a1fc3e2.png"
+    },
+    {
+      "name": "SharingOpenICalendar",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "SharingOpenMenu",
+      "imageAsset": "images/by-hash/1f3b784911b90a00.png"
+    },
+    {
+      "name": "SharingOpenPublishedCalendar",
+      "imageAsset": "images/by-hash/fc0a7883bd108844.png"
+    },
+    {
+      "name": "SharingOpenRssFeed",
+      "imageAsset": "images/by-hash/d4084b06f401b640.png"
+    }
+  ],
+  "sameImageIds": [
+    "AccessListContacts",
+    "ArrangeByLogContact",
+    "CatalogMergeUseOutlookContacts",
+    "ContactCardLookUpOutlookContact",
+    "ContactGrooveProperties",
+    "ContactProperties",
+    "EnterPerson",
+    "GotoContacts",
+    "MailMergeRecepientsUseOutlookContacts",
+    "NewContact",
+    "NewContactCompact",
+    "NewContactFromSameCompany",
+    "NewContactNumbered",
+    "PersonaOpenContactMenu",
+    "SearchUpscopeToAllContactItems",
+    "ShowContactPage"
+  ]
+}

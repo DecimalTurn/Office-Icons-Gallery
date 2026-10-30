@@ -1,0 +1,55 @@
+{
+  "relatedIcons": [
+    {
+      "name": "DatabaseSqlServer",
+      "imageAsset": "images/by-hash/3f3bce757b8b81a7.png"
+    },
+    {
+      "name": "FileBackUpSqlDatabase",
+      "imageAsset": "images/by-hash/ffaec45de999bcea.png"
+    },
+    {
+      "name": "FileDropSqlDatabase",
+      "imageAsset": "images/by-hash/a0176d556cbf9157.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckClientObjects",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckDatabase",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckObject",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckOpenTable",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckRun",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "DatabaseServerCompatibilityCheckWebObjects",
+      "imageAsset": "images/by-hash/f5ae22e3d6c146b3.png"
+    },
+    {
+      "name": "FileServerTransferDatabase",
+      "imageAsset": "images/by-hash/6d6286434039bf1a.png"
+    },
+    {
+      "name": "RestoreImageSize",
+      "imageAsset": "images/by-hash/0b3a336e9e5cb1d8.png"
+    },
+    {
+      "name": "RestorePagePreviousVersion",
+      "imageAsset": "images/by-hash/7b68147841e28c39.png"
+    }
+  ],
+  "sameImageIds": [
+    "RestoreSite"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "relatedIcons": [
+    {
+      "name": "PolicyTagsMenu",
+      "imageAsset": "images/by-hash/462518c92afcc2d1.png"
+    },
+    {
+      "name": "RetentionPolicyTagsGallery",
+      "imageAsset": "images/by-hash/1ac9dc11f0bfcb77.png"
+    },
+    {
+      "name": "Archive",
+      "imageAsset": "images/by-hash/462518c92afcc2d1.png"
+    },
+    {
+      "name": "AutoArchiveSettings",
+      "imageAsset": "images/by-hash/462518c92afcc2d1.png"
+    },
+    {
+      "name": "NewWorkspaceFromArchive",
+      "imageAsset": "images/by-hash/72e3a5f1c5cf54c2.png"
+    },
+    {
+      "name": "SaveWorkspaceAsArchive",
+      "imageAsset": "images/by-hash/72e3a5f1c5cf54c2.png"
+    },
+    {
+      "name": "FolderRetentionPolicyTag",
+      "imageAsset": "images/by-hash/1ac9dc11f0bfcb77.png"
+    },
+    {
+      "name": "ViewDocumentPolicy",
+      "imageAsset": "images/by-hash/14d52ea4ace6808e.png"
+    },
+    {
+      "name": "ViewPolicy",
+      "imageAsset": "images/by-hash/1ac9dc11f0bfcb77.png"
+    },
+    {
+      "name": "GroupCalendarTags",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "GroupTaskListTags",
+      "imageAsset": "images/by-hash/79c4e995fd60f68e.png"
+    },
+    {
+      "name": "TagsClearAll",
+      "imageAsset": "images/by-hash/3b64db7773991543.png"
+    }
+  ],
+  "sameImageIds": [
+    "Archive",
+    "AutoArchiveSettings",
+    "PolicyTagsMenu"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "relatedIcons": [
+    {
+      "name": "WebControlCheckBox",
+      "imageAsset": "images/by-hash/991e90eaa188d1d3.png"
+    },
+    {
+      "name": "WebControlDropDownBox",
+      "imageAsset": "images/by-hash/1f3cf0d15015b32a.png"
+    },
+    {
+      "name": "WebControlTextBox",
+      "imageAsset": "images/by-hash/132afc8193cf8935.png"
+    }
+  ],
+  "sameImageIds": [
+    "ActiveXListBox",
+    "FormControlListBox",
+    "XDListBox"
+  ]
+}
