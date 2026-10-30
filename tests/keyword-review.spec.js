@@ -455,6 +455,16 @@ test("ArrowUp and ArrowDown move between keyword inputs", async ({ page }) => {
 
   await page.keyboard.press("ArrowDown");
   await expect(keywordInputs.nth(2)).toBeFocused();
+  await page.keyboard.press("ArrowDown");
+  const addKeywordButton = page.getByRole("button", { name: "Add keyword" });
+  await expect(addKeywordButton).toBeFocused();
+  await page.keyboard.press("ArrowDown");
+  const confirmReviewButton = page.getByRole("button", { name: "Confirm review" });
+  await expect(confirmReviewButton).toBeFocused();
+  await page.keyboard.press("ArrowUp");
+  await expect(addKeywordButton).toBeFocused();
+  await page.keyboard.press("ArrowUp");
+  await expect(keywordInputs.nth(2)).toBeFocused();
   await page.keyboard.press("ArrowUp");
   await expect(keywordInputs.nth(1)).toBeFocused();
 });

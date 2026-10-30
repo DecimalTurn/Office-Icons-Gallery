@@ -227,7 +227,12 @@
         const keywordInputs = [...elements.keywordEditor.querySelectorAll(".keyword-row input")];
         const inputIndex = keywordInputs.indexOf(input);
         const direction = event.key === "ArrowDown" ? 1 : -1;
-        keywordInputs[inputIndex + direction]?.focus();
+        const nextInput = keywordInputs[inputIndex + direction];
+        if (nextInput) {
+          nextInput.focus();
+        } else if (direction > 0) {
+          elements.addKeyword.focus();
+        }
         return;
       }
       if (event.key === "Backspace" && !input.value.trim()) {
@@ -555,6 +560,22 @@
     input.placeholder = "Enter keyword";
     elements.keywordEditor.append(row);
     input.focus();
+  });
+  elements.addKeyword.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      elements.markReviewed.focus();
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
+      const keywordInputs = elements.keywordEditor.querySelectorAll(".keyword-row input");
+      keywordInputs[keywordInputs.length - 1]?.focus();
+    }
+  });
+  elements.markReviewed.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowUp") {
+      event.preventDefault();
+      elements.addKeyword.focus();
+    }
   });
   elements.markReviewed.addEventListener("click", confirmReview);
   elements.reviewState.addEventListener("click", markNotReviewed);
