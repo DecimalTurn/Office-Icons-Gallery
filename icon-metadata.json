@@ -4976,7 +4976,11 @@
   {
     "name": "BlogPublishDraft",
     "imageAsset": "images/by-hash/5058172c4e435e9c.png",
-    "keywords": [],
+    "keywords": [
+      "document",
+      "file",
+      "pencil"
+    ],
     "imageSha256": "5058172C4E435E9CECBE7279338313763518437D2F50EA5827B1D62E0FDE04EC"
   },
   {
@@ -4987,21 +4991,28 @@
   {
     "name": "BodyTextHide",
     "imageAsset": "images/by-hash/e655d777209c8ac1.png",
-    "keywords": [],
+    "keywords": [
+      "copy",
+      "document",
+      "file"
+    ],
     "imageSha256": "E655D777209C8AC1E7D2B006C8C7D427856700F6D0A9C99F7C2BF96AFE51E34F"
   },
   {
     "name": "Bold",
     "imageAsset": "images/by-hash/d429f6177562262b.png",
-    "keywords": [],
+    "keywords": [
+      "alphabet",
+      "letter"
+    ],
     "imageSha256": "D429F6177562262B19E6180391A0995A34B3ED133154D9438E4D9135481960AD"
   },
   {
     "name": "BookmarkInsert",
     "imageAsset": "images/by-hash/94545ae26a01263b.png",
     "keywords": [
-      "add",
-      "create"
+      "document",
+      "file"
     ],
     "imageSha256": "94545AE26A01263B87D5CDEF5FDDF28704290EAB414FFE3DF1F54491209AB796"
   },
@@ -5025,7 +5036,9 @@
   {
     "name": "BorderBottom",
     "imageAsset": "images/by-hash/55ed253243346cfc.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "55ED253243346CFC4FA4D2F6C28EC92342B85395F51B56EC5EFEF70D210FA58F"
   },
   {
@@ -5055,14 +5068,10 @@
     "name": "BorderColorPicker",
     "imageAsset": "images/by-hash/3b2b5df8ed8e29d5.png",
     "keywords": [
-      "clip",
       "colour",
-      "film",
-      "graphic",
-      "grid",
       "image",
-      "movie",
       "one",
+      "pencil",
       "photo",
       "two"
     ],
@@ -5092,20 +5101,25 @@
   {
     "name": "BorderDoubleBottom",
     "imageAsset": "images/by-hash/8a94cf62a5f1aaa8.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "8A94CF62A5F1AAA8B4E0D9F53F37A6FE18333B190BA6ADA54F83BAE7262A60D1"
   },
   {
     "name": "BorderDrawGrid",
     "imageAsset": "images/by-hash/9ded66d331c178c3.png",
-    "keywords": [],
+    "keywords": [
+      "pencil"
+    ],
     "imageSha256": "9DED66D331C178C38C4D0F0884582BB7BFE79B209169FED37551F63E6EFB7D91"
   },
   {
     "name": "BorderDrawLine",
     "imageAsset": "images/by-hash/9362babc74fd142d.png",
     "keywords": [
-      "grid"
+      "grid",
+      "pencil"
     ],
     "imageSha256": "9362BABC74FD142D6BF7B4BC20CE6C6909C4F7E513650D2A13376A71A311AA71"
   },
@@ -5117,34 +5131,39 @@
   {
     "name": "BorderErase",
     "imageAsset": "images/by-hash/889559c9b7b5d61e.png",
-    "keywords": [
-      "lookup",
-      "search"
-    ],
+    "keywords": [],
     "imageSha256": "889559C9B7B5D61EB9F7FDC111A1013A80DC8C8C716EC8D1A5CBD30797C86520"
   },
   {
     "name": "BorderInside",
     "imageAsset": "images/by-hash/8079107a1836b0d3.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "8079107A1836B0D3A9FC38BB7877BFD731C3C68B7DCAE52D21E61FD8C356CAC2"
   },
   {
     "name": "BorderInsideHorizontal",
     "imageAsset": "images/by-hash/5ec45804bceacd0d.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "5EC45804BCEACD0DC3AAE3DA38E6D6DE9F17E88C4D0D755E8A7D8B096E3578E0"
   },
   {
     "name": "BorderInsideVertical",
     "imageAsset": "images/by-hash/eda5d905d839ea9a.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "EDA5D905D839EA9A3DA096B00E4CF73D78C942BFC249A3858B0F4B9C74EEC6FB"
   },
   {
     "name": "BorderLeft",
     "imageAsset": "images/by-hash/aa0534c0ead9c22c.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "AA0534C0EAD9C22C4A42C4D0F8825F0175D1719C6B198657DEC270527FBBA81A"
   },
   {
@@ -5161,17 +5180,10 @@
     "name": "BorderMoreColorsDialog",
     "imageAsset": "images/by-hash/3405b39950688aed.png",
     "keywords": [
-      "appointment",
       "colour",
-      "date",
-      "graph",
-      "graphic",
-      "grid",
       "image",
-      "photo",
-      "schedule",
-      "visualisation",
-      "visualization"
+      "paint",
+      "photo"
     ],
     "imageSha256": "3405B39950688AED23B8067FDE8704EC1E3DBE7D7069FB243343838F64AD065B"
   },
@@ -5186,13 +5198,17 @@
   {
     "name": "BorderOutside",
     "imageAsset": "images/by-hash/40cdde3ade539538.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "40CDDE3ADE53953845E0729BC7BB56273ADA9C5DE60930C274609ED0BB2A3617"
   },
   {
     "name": "BorderRight",
     "imageAsset": "images/by-hash/6cdf266bdd875afb.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "6CDF266BDD875AFB1ABDF28FF5E5D4752B0B26699D5E9E803A5896C1E012132D"
   },
   {
@@ -5208,13 +5224,18 @@
   {
     "name": "BordersAll",
     "imageAsset": "images/by-hash/ebfac0c46cdfe306.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "EBFAC0C46CDFE306C9F1D9DE8C2C752A05BD93318087E1B1A574724AD47469D8"
   },
   {
     "name": "BordersAndShadingDialog",
     "imageAsset": "images/by-hash/05809549f6d9a95f.png",
-    "keywords": [],
+    "keywords": [
+      "diagonal",
+      "grid"
+    ],
     "imageSha256": "05809549F6D9A95FC50BBE6B973181E79773980697611533A1ED6DBD22DDA865"
   },
   {
@@ -5228,7 +5249,11 @@
   {
     "name": "BordersAndTitlesGallery",
     "imageAsset": "images/by-hash/441df2dcdc406ed9.png",
-    "keywords": [],
+    "keywords": [
+      "document",
+      "file",
+      "margin"
+    ],
     "imageSha256": "441DF2DCDC406ED9EBB7879711D0C5152A33905FB402D3D7CFCF9C4999F1AAC9"
   },
   {
@@ -5292,37 +5317,49 @@
   {
     "name": "BorderThickBottom",
     "imageAsset": "images/by-hash/e36da35b2c6e2b33.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "E36DA35B2C6E2B33E759B918ACDD5E87D86A1063A8B2CBC446E9089D82BC649A"
   },
   {
     "name": "BorderThickOutside",
     "imageAsset": "images/by-hash/37ba681b9b3a219f.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "37BA681B9B3A219FE9299BC6D841B6DF865246D4F51C96FFE66DC4A2D47CBFF1"
   },
   {
     "name": "BorderTop",
     "imageAsset": "images/by-hash/ab7e4b394c677a88.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "AB7E4B394C677A88243AB686CFB4D38BD1B23DAF5A072B463026C2F065CDA59B"
   },
   {
     "name": "BorderTopAndBottom",
     "imageAsset": "images/by-hash/97d4d6f21b6ad46d.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "97D4D6F21B6AD46DE12C7929ADBF0A1493F8D318C2D9032BC92674243F57CF64"
   },
   {
     "name": "BorderTopAndDoubleBottom",
     "imageAsset": "images/by-hash/028185ee930a8dd8.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "028185EE930A8DD832ABB718F29AB288921940DD4040E43C96F1E98D091C0772"
   },
   {
     "name": "BorderTopAndThickBottom",
     "imageAsset": "images/by-hash/0b396e41f2fc3258.png",
-    "keywords": [],
+    "keywords": [
+      "grid"
+    ],
     "imageSha256": "0B396E41F2FC32580102FB1018AE3D926A07B1818A271F82E426460A50FDB175"
   },
   {
@@ -5367,7 +5404,12 @@
   {
     "name": "Break",
     "imageAsset": "images/by-hash/c1486f7656137390.png",
-    "keywords": [],
+    "keywords": [
+      "document",
+      "file",
+      "insert",
+      "split"
+    ],
     "imageSha256": "C1486F7656137390FA1F237619544920EF1A1FDD0F5EDD24C6297A64247E99B8"
   },
   {
@@ -5377,6 +5419,8 @@
       "add",
       "appearance",
       "create",
+      "separation",
+      "split",
       "style"
     ],
     "imageSha256": "1117A9C0EB047B1DF01174C45C3E5CF7CA4B2D82B5C776C9B79F19DF97E5AD22"
@@ -5384,7 +5428,9 @@
   {
     "name": "Breakpoint",
     "imageAsset": "images/by-hash/d94c88030f932b3d.png",
-    "keywords": [],
+    "keywords": [
+      "stop"
+    ],
     "imageSha256": "D94C88030F932B3DC0361BCCA5E4F3C3910D77CF8F9DE0CB939A3EE46DBEBBA0"
   },
   {
@@ -5447,6 +5493,7 @@
       "illumination",
       "increase",
       "light",
+      "moon",
       "screen",
       "screen brightness",
       "sun"
@@ -5457,8 +5504,9 @@
     "name": "BroadcastEdit",
     "imageAsset": "images/by-hash/06d68d8d5fedd861.png",
     "keywords": [
-      "find",
-      "lookup"
+      "document",
+      "file",
+      "pencil"
     ],
     "imageSha256": "06D68D8D5FEDD8617E4749A51A395DE3FDCC0D8F44D5A110516716C67EC536C3"
   },
@@ -5467,10 +5515,8 @@
     "imageAsset": "images/by-hash/59ba6cde6908f77c.png",
     "keywords": [
       "colour",
-      "find",
-      "lookup",
-      "printer",
-      "printing"
+      "cross",
+      "red"
     ],
     "imageSha256": "59BA6CDE6908F77C763FA662FB5CBC8FF6943C121089D7A2F14D26BF2D989CAC"
   },
@@ -5478,6 +5524,7 @@
     "name": "BroadcastFromBeginning",
     "imageAsset": "images/by-hash/1622c4b78b9481be.png",
     "keywords": [
+      "play",
       "presentation",
       "slideshow"
     ],
@@ -5506,13 +5553,11 @@
     "name": "BroadcastResume",
     "imageAsset": "images/by-hash/46b714642a1fc3e2.png",
     "keywords": [
-      "appointment",
-      "date",
       "file",
-      "launch",
-      "schedule",
+      "share",
       "show",
-      "web address"
+      "web address",
+      "world"
     ],
     "imageSha256": "46B714642A1FC3E25DBE2B7B671226194C33199180B5185E5860286DF3DB0570"
   },
@@ -5520,7 +5565,10 @@
     "name": "BroadcastSendInvitation",
     "imageAsset": "images/by-hash/17e648f52c2a4500.png",
     "keywords": [
-      "document",
+      "email",
+      "mail",
+      "people",
+      "person",
       "share",
       "submit"
     ],
@@ -5546,6 +5594,7 @@
     "imageAsset": "images/by-hash/31c6522bf648acdb.png",
     "keywords": [
       "presentation",
+      "skype",
       "slideshow"
     ],
     "imageSha256": "31C6522BF648ACDBEA419C6BD389C62F91F2BA80F3E3E0A28F6E274FE6D4B75E"
@@ -5563,19 +5612,28 @@
   {
     "name": "BrowseNext",
     "imageAsset": "images/by-hash/c9c63177fb82c411.png",
-    "keywords": [],
+    "keywords": [
+      "arrow",
+      "lookup"
+    ],
     "imageSha256": "C9C63177FB82C411DA989673B2C8544250172BDD3B09AC1FEF96DF12BB27D55E"
   },
   {
     "name": "BrowsePrevious",
     "imageAsset": "images/by-hash/cac95a2441cd4e80.png",
-    "keywords": [],
+    "keywords": [
+      "arrow",
+      "down"
+    ],
     "imageSha256": "CAC95A2441CD4E801946486EE056068B0BE79C1AFADC2B73A1E2F06EDE54E6CC"
   },
   {
     "name": "BrowseSelector",
     "imageAsset": "images/by-hash/a4cafd4afc575d87.png",
-    "keywords": [],
+    "keywords": [
+      "circle",
+      "dotted"
+    ],
     "imageSha256": "A4CAFD4AFC575D879DE160F96816852C78CAA3DEE38BD510925CBF36ECC2C772"
   },
   {
@@ -5587,8 +5645,9 @@
     "name": "BuildingBlockLibrary",
     "imageAsset": "images/by-hash/4e750716e8bb8134.png",
     "keywords": [
-      "add",
-      "create"
+      "card",
+      "record",
+      "window"
     ],
     "imageSha256": "4E750716E8BB8134D04081F0576FD00BACAED0D70D7BAF6349BF0E875854B54D"
   },
@@ -5637,7 +5696,10 @@
     "name": "BuildingBlocksCreateTableOfAuthorities",
     "imageAsset": "images/by-hash/a9ab676bd06f72af.png",
     "keywords": [
-      "grid"
+      "document",
+      "file",
+      "macro",
+      "script"
     ],
     "imageSha256": "A9AB676BD06F72AFBCF7B2AEF8ABA0F45DBB13D61DC5C5C50EADDDADF932248B"
   },
@@ -5658,8 +5720,7 @@
     "name": "BuildingBlocksOrganizer",
     "imageAsset": "images/by-hash/f4dd61ec3a6e3b40.png",
     "keywords": [
-      "launch",
-      "show"
+      "book"
     ],
     "imageSha256": "F4DD61EC3A6E3B401A7A2CFB85E698C35679A390A3782DB9F721A75CFA1D4AC5"
   },
@@ -5667,6 +5728,9 @@
     "name": "BuildingBlocksSaveCoverPage",
     "imageAsset": "images/by-hash/6040b3b0e1c12c80.png",
     "keywords": [
+      "document",
+      "file",
+      "floppy",
       "store",
       "write"
     ],
@@ -5676,6 +5740,7 @@
     "name": "BuildingBlocksSaveEquation",
     "imageAsset": "images/by-hash/1c9db4ad034af9ca.png",
     "keywords": [
+      "floppy",
       "store",
       "write"
     ],
@@ -5784,7 +5849,9 @@
     "name": "BuildingBlocksSaveTableOfContents",
     "imageAsset": "images/by-hash/f1c892057176853b.png",
     "keywords": [
-      "grid",
+      "document",
+      "file",
+      "floppy",
       "store",
       "write"
     ],
@@ -5808,16 +5875,20 @@
   {
     "name": "BuildOrderChangeGallery",
     "imageAsset": "images/by-hash/b7e567ccc740232d.png",
-    "keywords": [],
+    "keywords": [
+      "entry",
+      "list"
+    ],
     "imageSha256": "B7E567CCC740232D0004F08B9CCEC6D4DE7325B6CA8B7261DDAD7030205E0A4F"
   },
   {
     "name": "BuildTeam",
     "imageAsset": "images/by-hash/dde6df49338d2433.png",
     "keywords": [
-      "create",
-      "insert",
-      "new"
+      "document",
+      "file",
+      "people",
+      "person"
     ],
     "imageSha256": "DDE6DF49338D2433BBAD34030A186116FFD19F034429422868ECB1A9BCD8F66F"
   },

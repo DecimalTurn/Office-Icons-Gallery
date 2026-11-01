@@ -1782,5 +1782,258 @@
     "document",
     "file",
     "lookup"
+  ],
+  "BlogPublishDraft": [
+    "document",
+    "file",
+    "pencil"
+  ],
+  "BodyTextHide": [
+    "copy",
+    "document",
+    "file"
+  ],
+  "Bold": [
+    "alphabet",
+    "letter"
+  ],
+  "BookmarkInsert": [
+    "document",
+    "file"
+  ],
+  "BorderBottom": [
+    "grid"
+  ],
+  "BorderColorPicker": [
+    "colour",
+    "image",
+    "one",
+    "pencil",
+    "photo",
+    "two"
+  ],
+  "BorderDiagonalDown": [
+    "grid"
+  ],
+  "BorderDiagonalUp": [
+    "grid"
+  ],
+  "BorderDoubleBottom": [
+    "grid"
+  ],
+  "BorderDrawGrid": [
+    "pencil"
+  ],
+  "BorderDrawLine": [
+    "grid",
+    "pencil"
+  ],
+  "BorderErase": [],
+  "BorderInside": [
+    "grid"
+  ],
+  "BorderInsideHorizontal": [
+    "grid"
+  ],
+  "BorderInsideVertical": [
+    "grid"
+  ],
+  "BorderLeft": [
+    "grid"
+  ],
+  "BorderMoreColorsDialog": [
+    "colour",
+    "image",
+    "paint",
+    "photo"
+  ],
+  "BorderNone": [
+    "grid"
+  ],
+  "BorderOutside": [
+    "grid"
+  ],
+  "BorderRight": [
+    "grid"
+  ],
+  "BordersAll": [
+    "grid"
+  ],
+  "BordersAndShadingDialog": [
+    "diagonal",
+    "grid"
+  ],
+  "BordersAndShadingInfoPath": [
+    "grid"
+  ],
+  "BordersAndTitlesGallery": [
+    "document",
+    "file",
+    "margin"
+  ],
+  "BorderStyle": [],
+  "BorderThickBottom": [
+    "grid"
+  ],
+  "BorderThickOutside": [
+    "grid"
+  ],
+  "BorderTop": [
+    "grid"
+  ],
+  "BorderTopAndBottom": [
+    "grid"
+  ],
+  "BorderTopAndDoubleBottom": [
+    "grid"
+  ],
+  "BorderTopAndThickBottom": [
+    "grid"
+  ],
+  "Break": [
+    "document",
+    "file",
+    "insert",
+    "split"
+  ],
+  "BreakInsertDialog": [
+    "add",
+    "appearance",
+    "create",
+    "separation",
+    "split",
+    "style"
+  ],
+  "Breakpoint": [
+    "stop"
+  ],
+  "BrightnessAndContrastEdit": [
+    "illumination",
+    "light",
+    "screen brightness"
+  ],
+  "BrightnessLess": [
+    "dark",
+    "decrease",
+    "dim",
+    "dimmer",
+    "display",
+    "glare",
+    "illumination",
+    "light",
+    "lower",
+    "moon",
+    "night",
+    "screen",
+    "screen brightness",
+    "sun",
+    "sunlight"
+  ],
+  "BrightnessMore": [
+    "brighten",
+    "brighter",
+    "daylight",
+    "display",
+    "illumination",
+    "increase",
+    "light",
+    "moon",
+    "screen",
+    "screen brightness",
+    "sun"
+  ],
+  "BroadcastEdit": [
+    "document",
+    "file",
+    "pencil"
+  ],
+  "BroadcastEnd": [
+    "colour",
+    "cross",
+    "red"
+  ],
+  "BroadcastFromBeginning": [
+    "play",
+    "presentation",
+    "slideshow"
+  ],
+  "BroadcastFromCurrent": [
+    "duplicate",
+    "slideshow"
+  ],
+  "BroadcastResume": [
+    "file",
+    "share",
+    "show",
+    "web address",
+    "world"
+  ],
+  "BroadcastSendInvitation": [
+    "email",
+    "mail",
+    "people",
+    "person",
+    "share",
+    "submit"
+  ],
+  "BroadcastSlideShowLync": [
+    "presentation",
+    "skype",
+    "slideshow"
+  ],
+  "BrowseNext": [
+    "arrow",
+    "lookup"
+  ],
+  "BrowsePrevious": [
+    "arrow",
+    "down"
+  ],
+  "BrowseSelector": [
+    "circle",
+    "dotted"
+  ],
+  "BuildingBlockLibrary": [
+    "card",
+    "record",
+    "window"
+  ],
+  "BuildingBlocksCreateTableOfAuthorities": [
+    "document",
+    "file",
+    "macro",
+    "script"
+  ],
+  "BuildingBlocksOrganizer": [
+    "book"
+  ],
+  "BuildingBlocksSaveCoverPage": [
+    "document",
+    "file",
+    "floppy",
+    "store",
+    "write"
+  ],
+  "BuildingBlocksSaveEquation": [
+    "floppy",
+    "store",
+    "write"
+  ],
+  "BuildingBlocksSaveTableOfContents": [
+    "document",
+    "file",
+    "floppy",
+    "store",
+    "write"
+  ],
+  "BuildOrderChangeGallery": [
+    "entry",
+    "list"
+  ],
+  "BuildTeam": [
+    "document",
+    "file",
+    "people",
+    "person"
   ]
 }
